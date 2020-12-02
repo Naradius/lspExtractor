@@ -10,6 +10,9 @@ import gate.creole.ExecutionException;
 import gate.creole.ResourceInstantiationException;
 import gate.util.GateException;
 import gate.util.persistence.PersistenceManager;
+import opennlp.tools.parser.Parse;
+import opennlp.tools.parser.lang.en.HeadRules;
+import opennlp.tools.util.Span;
 
 import java.io.File;
 import java.io.IOException;
@@ -19,7 +22,10 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.Normalizer;
+import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.List;
+import java.util.Optional;
 import java.util.stream.Stream;
 
 public class Main {
@@ -75,11 +81,48 @@ public class Main {
     }
 
     private static void rebuildParseTree(Document document) {
+        ArrayList<Parse> parseSentences = new ArrayList<>();
         AnnotationSet annots = document.getAnnotations().get("SyntaxTreeNode");
         Annotation[] sentences = annots.stream().filter(annot -> annot.getFeatures().get("cat").equals("TOP")).toArray(Annotation[]::new);
         for (Annotation sentence : sentences) {
             FeatureMap features = sentence.getFeatures();
-            //Annotation[] children = features.get("consists");
+            List<Integer> children = (List<Integer>)features.get("consists");
+            String type = (String)features.get("cat");
+            String text = (String)features.get("text");
+
+            Parse node = new Parse(text, new Span(0, 1000), type, 0, null);
+
+            if (children != null) {
+                for (int childId : children) {
+                    rebuildParseTree(annots, childId, node);
+                }
+            }
+
+            parseSentences.add(node);
+        }
+
+        for (Parse parseSentence : parseSentences) {
+            //parseSentence.show();
+        }
+    }
+
+    private static void rebuildParseTree(AnnotationSet annots, int child, Parse head) {
+        Optional<Annotation> childAnnot = annots.stream().filter(annot -> annot.getId() == child).findFirst();
+        if (childAnnot.isPresent()) {
+            FeatureMap features = childAnnot.get().getFeatures();
+            List<Integer> children = (List<Integer>)features.get("consists");
+            String type = (String)features.get("cat");
+            String text = (String)features.get("text");
+
+            Parse node = new Parse(text, new Span(0, 1000), type, 0, head);
+
+            if (children != null) {
+                for (int childId : children) {
+                    rebuildParseTree(annots, childId, node);
+                }
+            }
+
+            head.insert(node);
         }
     }
 
