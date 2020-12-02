@@ -1,5 +1,8 @@
 package com.naradius.lspExtractor;
 
+import com.github.pemistahl.lingua.api.*;
+import static com.github.pemistahl.lingua.api.Language.*;
+
 import gate.*;
 import gate.corpora.DocumentContentImpl;
 import gate.corpora.DocumentImpl;
@@ -7,8 +10,6 @@ import gate.creole.ExecutionException;
 import gate.creole.ResourceInstantiationException;
 import gate.util.GateException;
 import gate.util.persistence.PersistenceManager;
-import org.apache.tika.language.detect.LanguageDetector;
-import org.apache.tika.language.detect.LanguageResult;
 
 import java.io.File;
 import java.io.IOException;
@@ -17,13 +18,14 @@ import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
+import java.text.Normalizer;
 import java.util.Iterator;
 import java.util.stream.Stream;
 
 public class Main {
 
-    private static File gappFile;
-    private static URL documentDirectory;
+    private static File gappFile = new File(".\\resources\\app.gapp");
+    private static File documentDirectory;
     private static Corpus corpus;
 
     public static void main(String[] args) throws Exception {
@@ -41,34 +43,44 @@ public class Main {
                         try {
                             Document document = Factory.newDocument(path.toUri().toURL());
 
-                            LanguageDetector detector = LanguageDetector.getDefaultLanguageDetector();
-                            LanguageResult detect = detector.detect(document.getContent().toString());
-                            if (detect.isReasonablyCertain()) {
-                                //document.getContent().
-                                corpus.add(document);
-                                application.execute();
+                            //Document preprocess
+                            String content = Normalizer
+                                            .normalize(document.getContent().toString(), Normalizer.Form.NFD)
+                                            .replaceAll("[^\\p{ASCII}]", "")
+                                            .replaceAll("(.*)\\n", "$1")
+                                            .replaceAll("(\\[[^\\]\\[]*])|(\\([^\\)\\(]*\\))|(\\{[^\\}\\{]*\\})", "");
+                            document.setContent(new DocumentContentImpl(content));
 
-                                rebuildParseTree(document);
+                            //Language detection
+                            /*File modelFile = new File(".\\resources\\langdetect-183.bin");
+                            LanguageDetectorModel trainedModel = new LanguageDetectorModel(modelFile);
+                            LanguageDetectorME detector = new LanguageDetectorME(trainedModel);
+                            Language detect = detector.predictLanguage(content);*/
 
-                                corpus.clear();
-                                Factory.deleteResource(document);
-                            }
-                        } catch (MalformedURLException | ResourceInstantiationException | ExecutionException e) {
+                            /*final LanguageDetector detector = LanguageDetectorBuilder.fromAllLanguages().build();
+                            final Language detectedLanguage = detector.detectLanguageOf(content);*/
+
+                            corpus.add(document);
+                            application.execute();
+                            rebuildParseTree(document);
+                            corpus.clear();
+                            Factory.deleteResource(document);
+                        } catch (ResourceInstantiationException | ExecutionException | IOException e) {
                             throw new RuntimeException(e);
                         }
                     });
         } catch (RuntimeException | IOException e) {
             throw new ExecutionException(e);
         }
-
-        //Factory.deleteResource(corpus); - delete all documents
     }
 
     private static void rebuildParseTree(Document document) {
-        DocumentContentImpl dc = new DocumentContentImpl("eeee");
-
-        AnnotationSet annots = document.getAnnotations();
-        AnnotationSet annotsOfThisType = annots.get("SyntaxTreeNode");
+        AnnotationSet annots = document.getAnnotations().get("SyntaxTreeNode");
+        Annotation[] sentences = annots.stream().filter(annot -> annot.getFeatures().get("cat").equals("TOP")).toArray(Annotation[]::new);
+        for (Annotation sentence : sentences) {
+            FeatureMap features = sentence.getFeatures();
+            //Annotation[] children = features.get("consists");
+        }
     }
 
     /**
@@ -86,11 +98,10 @@ public class Main {
             }
         }
 
-        documentDirectory = new URL(args[i]);
-
-        // sanity check other arguments
-        if (gappFile == null) {
-            System.err.println("No .gapp file specified");
+        if (args.length > 0) {
+            documentDirectory = new File(args[i]);
+        } else {
+            documentDirectory = new File(".\\resources\\documents");
         }
     }
 }
