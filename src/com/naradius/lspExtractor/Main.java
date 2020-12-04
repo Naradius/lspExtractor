@@ -22,10 +22,7 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.text.Normalizer;
-import java.util.ArrayList;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 import java.util.stream.Stream;
 
 public class Main {
@@ -33,6 +30,8 @@ public class Main {
     private static File gappFile = new File(".\\resources\\app.gapp");
     private static File documentDirectory;
     private static Corpus corpus;
+    private static ArrayList<Parse> parseSentences;
+    private static HashMap<Parse, Integer> patternCount;
 
     public static void main(String[] args) throws Exception {
         parseCommandLine(args);
@@ -40,6 +39,7 @@ public class Main {
         Gate.init();
         CorpusController application = (CorpusController) PersistenceManager.loadObjectFromFile(gappFile);
 
+        parseSentences = new ArrayList<>();
         corpus = Factory.newCorpus("LSP Extraction Corpus");
         application.setCorpus(corpus);
         try (Stream<Path> paths = Files.walk(Paths.get(documentDirectory.getPath()))) {
@@ -78,10 +78,46 @@ public class Main {
         } catch (RuntimeException | IOException e) {
             throw new ExecutionException(e);
         }
+
+        calculateDistribution();
+    }
+
+    private static void parseToString(StringBuffer sb, Parse parse) {
+        sb.append("(");
+        sb.append(parse.getType()).append(" ");
+
+        Parse[] children = parse.getChildren();
+        if (children != null) {
+            for (Parse c : children) {
+                parseToString(sb, c);
+            }
+        }
+
+        sb.append(")");
+    }
+
+    private static void parseToString(Parse parse) {
+        StringBuffer sb = new StringBuffer();
+        parseToString(sb, parse);
+        System.out.println(sb.toString());
+    }
+
+    private static void generifyTree(Parse node) {
+        for (Parse child : node.getChildren()) {
+            generifyTree(child);
+        }
+    }
+
+    private static void calculateDistribution() {
+        for (Parse sentence : parseSentences) {
+            //Debug print
+            parseToString(sentence);
+
+            generifyTree(sentence);
+        }
     }
 
     private static void rebuildParseTree(Document document) {
-        ArrayList<Parse> parseSentences = new ArrayList<>();
         AnnotationSet annots = document.getAnnotations().get("SyntaxTreeNode");
         Annotation[] sentences = annots.stream().filter(annot -> annot.getFeatures().get("cat").equals("TOP")).toArray(Annotation[]::new);
         for (Annotation sentence : sentences) {
@@ -99,10 +135,6 @@ public class Main {
             }
 
             parseSentences.add(node);
-        }
-
-        for (Parse parseSentence : parseSentences) {
-            //parseSentence.show();
         }
     }
 
