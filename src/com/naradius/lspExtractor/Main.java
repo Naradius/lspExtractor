@@ -10,6 +10,7 @@ import org.jetbrains.annotations.NotNull;
 
 import java.io.File;
 import java.io.IOException;
+import java.lang.reflect.Array;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -23,7 +24,7 @@ public class Main {
     private static File documentDirectory;
     private static Corpus corpus;
     private static ArrayList<ExtendedParse> parsePhrases;
-    private static HashMap<ExtendedParse, Integer> patternCount;
+    private static HashMap<String, ArrayList<ExtendedParse>> phraseDistribution;
 
     public static void main(String[] args) throws Exception {
         parseCommandLine(args);
@@ -32,6 +33,7 @@ public class Main {
         CorpusController application = (CorpusController) PersistenceManager.loadObjectFromFile(gappFile);
 
         parsePhrases = new ArrayList<>();
+        phraseDistribution = new HashMap<>();
         corpus = Factory.newCorpus("LSP Extraction Corpus");
         application.setCorpus(corpus);
         try (Stream<Path> paths = Files.walk(Paths.get(documentDirectory.getPath()))) {
@@ -71,7 +73,7 @@ public class Main {
             throw new ExecutionException(e);
         }
 
-        pruneSentences();
+        //debugPrintPhrases();
         calculateDistribution();
     }
 
@@ -116,15 +118,44 @@ public class Main {
         }
     }
 
-    private static void pruneSentences() {
+    /*private static void pruneSentences() {
         for (ExtendedParse sentence : parsePhrases) {
             pruneTree(sentence);
         }
-    }
+    }*/
 
     private static void calculateDistribution() {
-        for (ExtendedParse sentence : parsePhrases) {
-            debugPrintParse(sentence);
+        for (ExtendedParse phrase : parsePhrases) {
+            StringBuffer sb = new StringBuffer();
+            phrase.parseToString(sb);
+            String pattern = sb.toString();
+            if (phraseDistribution.containsKey(pattern)) {
+                ArrayList<ExtendedParse> phraseList = phraseDistribution.get(pattern);
+                phraseList.add(phrase);
+            } else {
+                ArrayList<ExtendedParse> phraseList = new ArrayList<>();
+                phraseList.add(phrase);
+                phraseDistribution.put(pattern, phraseList);
+            }
+        }
+
+        int soloCount = 0;
+        for (String pattern : phraseDistribution.keySet()) {
+            ArrayList<ExtendedParse> phrases = phraseDistribution.get(pattern);
+            if (phrases.size() > 1) {
+                //System.out.println(pattern + ": " + phrases.size());
+            } else {
+                System.out.println(pattern);
+                //soloCount++;
+            }
+        }
+
+        System.out.println("Solo: " + soloCount);
+    }
+
+    private static void debugPrintPhrases() {
+        for (ExtendedParse phrase : parsePhrases) {
+            debugPrintParse(phrase);
         }
     }
 
@@ -155,7 +186,7 @@ public class Main {
                     for (int i = nodeChildren.length - 1; i >= 1; i--) {
                         ExtendedParse child = nodeChildren[i];
                         if (child.getDepth() >= 3) {
-                            parsePhrases.add(nodeChildren[i]);
+                            parsePhrases.add(child);
                         }
                         node.remove(i);
                     }
@@ -165,7 +196,9 @@ public class Main {
             }
 
             if (!node.isServiceLevel()) {
-                parsePhrases.add(node);
+                if (node.getDepth() >= 3) {
+                    parsePhrases.add(node);
+                }
             }
         }
     }
@@ -192,12 +225,30 @@ public class Main {
                 if (nodeChildren != null && nodeChildren.length == 1) {
                     head.add(nodeChildren[0]);
                 } else if (nodeChildren != null && nodeChildren.length > 1) {
-                    parsePhrases.addAll(Arrays.asList(nodeChildren));
+                    for (ExtendedParse childChild : nodeChildren) {
+                        if (childChild.getDepth() >= 3) {
+                            parsePhrases.add(childChild);
+                        }
+                    }
+                }
+            } else if (node.isPhraseLevel()) {
+                ExtendedParse[] nodeChildren = node.getChildren();
+                if (nodeChildren != null && nodeChildren.length > 1) {
+                    boolean onlyPhraseLevelChildren = true;
+                    for (ExtendedParse childChild : nodeChildren) {
+                        if (childChild.isPhraseLevel() || childChild.isServiceLevel()) {
+                            onlyPhraseLevelChildren = false;
+                            break;
+                        }
+                    }
+
+                    if (onlyPhraseLevelChildren) {
+
+                    }
                 }
             } else {
                 head.add(node);
             }
-            //head.add(node);
         }
     }
 
