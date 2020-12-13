@@ -1,4 +1,4 @@
-package com.naradius.lspExtractor;
+package com.vborovin.lspExtractor;
 
 import opennlp.tools.util.Span;
 import org.jetbrains.annotations.NotNull;
