@@ -8,8 +8,7 @@ import gate.util.persistence.PersistenceManager;
 import opennlp.tools.util.Span;
 import org.jetbrains.annotations.NotNull;
 
-import java.io.File;
-import java.io.IOException;
+import java.io.*;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
@@ -138,18 +137,28 @@ public class Main {
             }
         }
 
-        int soloCount = 0;
-        for (String pattern : phraseDistribution.keySet()) {
-            ArrayList<ExtendedParse> phrases = phraseDistribution.get(pattern);
-            if (phrases.size() > 1) {
-                //System.out.println(pattern + ": " + phrases.size());
-            } else {
-                System.out.println(pattern);
-                //soloCount++;
+        try {
+            PrintWriter out = new PrintWriter("distribution.txt");
+            long soloCount = 0;
+            for (String pattern : phraseDistribution.keySet()) {
+                ArrayList<ExtendedParse> phrases = phraseDistribution.get(pattern);
+                out.println(pattern + ": " + phrases.size());
+                if (phrases.size() > 1) {
+                    //System.out.println(pattern + ": " + phrases.size());
+                } else {
+                    //System.out.println(pattern);
+                    soloCount++;
+                }
             }
-        }
 
-        System.out.println("Solo: " + soloCount);
+            out.close();
+
+            System.out.println("Total count: " + parsePhrases.size());
+            System.out.println("Total group count: " + phraseDistribution.size());
+            System.out.println("Solo: " + soloCount);
+        } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        }
     }
 
     private static void debugPrintPhrases() {
@@ -230,7 +239,7 @@ public class Main {
                         }
                     }
                 }
-            } else if (node.isPhraseLevel()) {
+            } /*else if (node.isPhraseLevel()) {
                 ExtendedParse[] nodeChildren = node.getChildren();
                 if (nodeChildren != null && nodeChildren.length > 1) {
                     boolean onlyPhraseLevelChildren = true;
@@ -242,10 +251,16 @@ public class Main {
                     }
 
                     if (onlyPhraseLevelChildren) {
-
+                        for (ExtendedParse childChild : nodeChildren) {
+                            if (childChild.getDepth() >= 3) {
+                                parsePhrases.add(childChild);
+                            }
+                        }
+                    } else {
+                        head.add(node);
                     }
                 }
-            } else {
+            }*/ else {
                 head.add(node);
             }
         }

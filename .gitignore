@@ -34,3 +34,5 @@ hs_err_pid*
 
 /.idea
 /resources/documents/
+/resources/bigDocuments/
+distribution.txt
