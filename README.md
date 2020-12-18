@@ -7,8 +7,8 @@ Extraction process:
 
 * Document preprocessing (normalization, brackets removal, etc.)
 * Pipeline execution
-* Syntactic tree rebuilding from GATE annotations
-* Syntactic tree generalization
-* Phrases distribution calculation
+* Syntactic trees rebuilding from GATE annotations
+* Syntactic trees generalization
+* Extracted phrases distribution calculation
 * (TODO) Phrase filtering
 * (TODO) JAPE pattern generation
