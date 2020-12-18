@@ -6,6 +6,9 @@ Uses GATE Embedded, expects GATE's OpenNLP pipeline as .gapp with OpenNLP Parser
 Extraction process:
 
 * Document preprocessing (normalization, brackets removal, etc.)
+* Pipeline execution
 * Syntactic tree rebuilding from GATE annotations
-* Syntactic tree optimization
+* Syntactic tree generalization
 * Phrases distribution calculation
+* (TODO) Phrase filtering
+* (TODO) JAPE pattern generation
