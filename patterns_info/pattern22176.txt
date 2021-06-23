@@ -1,0 +1,8 @@
+is a func-tion of the availability of free channels, IoT transmission power,path loss and other propagation characteristics like shadowing andfading
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(NP (NNP )(NN ){1,2})(CC )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (VBG )(NN ))))))))))
+Phase: generated22176
+Input: Token
+Rule: generated22176
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == NNP })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN }))))))))))):pttrn22176 --> :pttrn22176.extracted={}
+

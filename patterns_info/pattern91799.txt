@@ -1,0 +1,8 @@
+satisfying the trigger
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated91799
+Input: Token
+Rule: generated91799
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn91799 --> :pttrn91799.extracted={}
+

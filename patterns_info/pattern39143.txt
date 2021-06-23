@@ -1,0 +1,8 @@
+composed of a device level and a edge router component.The device-level component is responsible for detection at the device level, monitoring events visible at the device levelwhereas the edge router module is responsible for processing security events from the IoT devices for the meaningful deci-sion , which is then communicated back to the IoT device to block or allow events of specificpatterns
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (DT )(NN ){1,2})(NP (DT )(JJ )(NN ))))))
+Phase: generated39143
+Input: Token
+Rule: generated39143
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn39143 --> :pttrn39143.extracted={}
+

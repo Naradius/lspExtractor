@@ -1,0 +1,8 @@
+find the most optimal route requiring mini-um energy consumption
+(VP (VB )(NP (NP (DT )(ADJP (RBS )(JJ ))(NN ))(VP (VBG )(NP (JJ )(NN ){1,2}))))
+Phase: generated59093
+Input: Token
+Rule: generated59093
+(
+(({ Token.category == VB })((({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn59093 --> :pttrn59093.extracted={}
+

@@ -1,0 +1,8 @@
+thefollows:str =log22pposppos + p+neg, if ppos > p+neg ,0, otherwise.The maximum strength  of the term ti is calculatedas follows:Maxstr = maxcjCstr 2.3.4
+(VP (VBG )(NP (NN )(NNS ))(IN ))
+Phase: generated86592
+Input: Token
+Rule: generated86592
+(
+(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))({ Token.category == IN }))):pttrn86592 --> :pttrn86592.extracted={}
+

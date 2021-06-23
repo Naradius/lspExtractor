@@ -1,0 +1,8 @@
+experiment with this algorithm
+(VP (VB )(PP (IN )(NP (DT )(NN ))))
+Phase: generated9605
+Input: Token
+Rule: generated9605
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn9605 --> :pttrn9605.extracted={}
+

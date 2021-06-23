@@ -1,0 +1,8 @@
+vs the number of malicious packets received
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated38065
+Input: Token
+Rule: generated38065
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn38065 --> :pttrn38065.extracted={}
+

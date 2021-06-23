@@ -1,0 +1,8 @@
+die.The results obtained show that EECFP utilizes minimum energyand latency for cluster formation which reduces the overhead ofthe protocol
+(VP (VBD )(VP (VBD )(IN )))
+Phase: generated53530
+Input: Token
+Rule: generated53530
+(
+(({ Token.category == VBD })(({ Token.category == VBD })({ Token.category == IN })))):pttrn53530 --> :pttrn53530.extracted={}
+

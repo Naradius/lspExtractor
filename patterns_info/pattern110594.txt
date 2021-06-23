@@ -1,0 +1,8 @@
+to validate our new traffic estimator in real traffic con-itions
+(VP (TO )(VP (VB )(NP (PRP$ )(JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated110594
+Input: Token
+Rule: generated110594
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn110594 --> :pttrn110594.extracted={}
+

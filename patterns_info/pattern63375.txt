@@ -1,0 +1,8 @@
+is related to the net-ork scope
+(VP (VBZ )(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2}))))
+Phase: generated63375
+Input: Token
+Rule: generated63375
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn63375 --> :pttrn63375.extracted={}
+

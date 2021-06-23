@@ -1,0 +1,8 @@
+an opti-mal average latency
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated43152
+Input: Token
+Rule: generated43152
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn43152 --> :pttrn43152.extracted={}
+

@@ -1,0 +1,8 @@
+refers to the seed dictionarywithout fuzzy matching or removing common words
+(VP (VP (VBZ )(PP (TO )(NP (NP (DT )(NN ){1,2})(JJ )(NN ))))(CC )(VP (VBG )(NP (JJ )(NNS ))))
+Phase: generated74805
+Input: Token
+Rule: generated74805
+(
+((({ Token.category == VBZ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn74805 --> :pttrn74805.extracted={}
+

@@ -1,0 +1,8 @@
+WSN performs routing
+(NP (NNP )(NNS )(NN ))
+Phase: generated59492
+Input: Token
+Rule: generated59492
+(
+(({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NN }))):pttrn59492 --> :pttrn59492.extracted={}
+

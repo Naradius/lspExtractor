@@ -1,0 +1,8 @@
+usedas syntax definition formalism
+(NP (JJ )(NN ){1,2})
+Phase: generated105194
+Input: Token
+Rule: generated105194
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn105194 --> :pttrn105194.extracted={}
+

@@ -1,0 +1,8 @@
+the Parmenides project
+(NP (DT )(NNS )(NN ))
+Phase: generated87912
+Input: Token
+Rule: generated87912
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))):pttrn87912 --> :pttrn87912.extracted={}
+

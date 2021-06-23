@@ -1,0 +1,8 @@
+to its simplic-ity and its promise of scalability
+(PP (TO )(NP (NP (PRP$ )(NN ))(CC )(NP (PRP$ )(NN ))))
+Phase: generated7965
+Input: Token
+Rule: generated7965
+(
+(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn7965 --> :pttrn7965.extracted={}
+

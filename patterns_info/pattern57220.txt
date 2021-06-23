@@ -1,0 +1,8 @@
+&without CDMA Single-hop Homogeneous ChainbasedHigh Random
+(NP (JJ )(NNP ){1,2})
+Phase: generated57220
+Input: Token
+Rule: generated57220
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn57220 --> :pttrn57220.extracted={}
+

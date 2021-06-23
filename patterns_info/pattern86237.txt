@@ -1,0 +1,8 @@
+includes procedures such as stop-wordsfiltering  and stemming .The second stage
+(VP (CC )(VP (VBG )(NP (DT )(JJ )(NN ))))
+Phase: generated86237
+Input: Token
+Rule: generated86237
+(
+(({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn86237 --> :pttrn86237.extracted={}
+

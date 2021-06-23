@@ -1,0 +1,8 @@
+focus on how well the system performson identifying the relevant information
+(VP (VBD )(PP (IN )(WHADVP (WRB )(RB ))))
+Phase: generated84320
+Input: Token
+Rule: generated84320
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == WRB })({ Token.category == RB }))))):pttrn84320 --> :pttrn84320.extracted={}
+

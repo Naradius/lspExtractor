@@ -1,0 +1,8 @@
+have the advantages of collaborative defense against malicious actors.We believe that due to the adhoc nature of such systems, a collaborative intrusion detection approach will enable the edgerouters to use collective information from various devices to have rigorous view of the characteristics of events visible tothem.In this paper we propose a framework for COLlaborative Intrusion DEtection for IoT  which leverages the funda-mental principle of collaboration between individual sensor nodes and the edge router to achieve efficient and cost-effective intrusion detection for IoT systems
+(VP (VBP )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBP )(IN ))))))))
+Phase: generated39117
+Input: Token
+Rule: generated39117
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == IN }))))))))):pttrn39117 --> :pttrn39117.extracted={}
+

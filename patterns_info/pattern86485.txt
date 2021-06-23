@@ -1,0 +1,8 @@
+seven differ-ent methods
+(NP (CD )(JJ )(NNS ))
+Phase: generated86485
+Input: Token
+Rule: generated86485
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn86485 --> :pttrn86485.extracted={}
+

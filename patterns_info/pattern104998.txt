@@ -1,0 +1,8 @@
+represent a visual program
+(VP (VB )(NP (DT )(JJ )(NN )))
+Phase: generated104998
+Input: Token
+Rule: generated104998
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn104998 --> :pttrn104998.extracted={}
+

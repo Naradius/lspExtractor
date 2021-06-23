@@ -1,0 +1,8 @@
+the data rate
+(NP (DT )(NNS )(NN ))
+Phase: generated47910
+Input: Token
+Rule: generated47910
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))):pttrn47910 --> :pttrn47910.extracted={}
+

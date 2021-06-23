@@ -1,0 +1,8 @@
+on temperatureIoT devices
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated31018
+Input: Token
+Rule: generated31018
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn31018 --> :pttrn31018.extracted={}
+

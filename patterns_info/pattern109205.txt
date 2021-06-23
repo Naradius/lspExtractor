@@ -1,0 +1,8 @@
+is done with the delay of 0.263.Figure 5B
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(CD )))))))
+Phase: generated109205
+Input: Token
+Rule: generated109205
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })))))))):pttrn109205 --> :pttrn109205.extracted={}
+

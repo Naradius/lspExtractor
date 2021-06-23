@@ -1,0 +1,8 @@
+of the node j and Ni
+(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )))
+Phase: generated54037
+Input: Token
+Rule: generated54037
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })))):pttrn54037 --> :pttrn54037.extracted={}
+

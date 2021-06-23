@@ -1,0 +1,8 @@
+than max times
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated92865
+Input: Token
+Rule: generated92865
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn92865 --> :pttrn92865.extracted={}
+

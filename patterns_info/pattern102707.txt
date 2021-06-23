@@ -1,0 +1,8 @@
+deletes a single Stat vertex
+(VP (VBZ )(NP (DT )(JJ )(NNP )(NN )))
+Phase: generated102707
+Input: Token
+Rule: generated102707
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })))):pttrn102707 --> :pttrn102707.extracted={}
+

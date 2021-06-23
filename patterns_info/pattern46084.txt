@@ -1,0 +1,8 @@
+higher transmissiondelay.Many researchers
+(NP (JJR )(NN )(JJ )(NNS ))
+Phase: generated46084
+Input: Token
+Rule: generated46084
+(
+(({ Token.category == JJR })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn46084 --> :pttrn46084.extracted={}
+

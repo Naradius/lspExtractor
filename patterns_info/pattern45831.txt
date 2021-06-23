@@ -1,0 +1,8 @@
+Geography-informedenergy conservation for ad hoc routing, Proceedings ofACM MobiCom2001, Rome, Italy, July 2001
+(NP (NP (NNP )(NN ))(PP (IN )(NP (NP (NN )(JJ )(NN ))(NP (NNP )(CD )))))
+Phase: generated45831
+Input: Token
+Rule: generated45831
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == CD })))))):pttrn45831 --> :pttrn45831.extracted={}
+

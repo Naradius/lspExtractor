@@ -1,0 +1,8 @@
+the rule grammar, some kinds of enhancementto the rule notation will be easy to implement.A rule has one of the following forms: A=>B\C/D; A=>B\C/D>>E;In both rule schemata, A represents the phrase that is recognized, and C represents thetext elements that are part of the phrase
+(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NNS ))(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2})))))
+Phase: generated87821
+Input: Token
+Rule: generated87821
+(
+((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn87821 --> :pttrn87821.extracted={}
+

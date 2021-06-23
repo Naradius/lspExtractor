@@ -1,0 +1,8 @@
+comparedagainst fixed or deterministic clustering
+(PP (IN )(NP (VBN )(CC )(JJ )(NN )))
+Phase: generated9580
+Input: Token
+Rule: generated9580
+(
+(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })))):pttrn9580 --> :pttrn9580.extracted={}
+

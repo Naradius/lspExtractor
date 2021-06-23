@@ -1,0 +1,8 @@
+Visual programming
+(NP (JJ )(NN ))
+Phase: generated105109
+Input: Token
+Rule: generated105109
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn105109 --> :pttrn105109.extracted={}
+

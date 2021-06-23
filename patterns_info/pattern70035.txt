@@ -1,0 +1,8 @@
+the environmentalobservation
+(NP (DT )(NN )){1,2}
+Phase: generated70035
+Input: Token
+Rule: generated70035
+(
+(({ Token.category == DT })({ Token.category == NN }))+):pttrn70035 --> :pttrn70035.extracted={}
+

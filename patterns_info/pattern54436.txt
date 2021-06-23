@@ -1,0 +1,8 @@
+ofLEACH protocol
+(NP (NNP )(NN ))
+Phase: generated54436
+Input: Token
+Rule: generated54436
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn54436 --> :pttrn54436.extracted={}
+

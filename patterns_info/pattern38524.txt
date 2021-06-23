@@ -1,0 +1,8 @@
+the performance of proposed system
+(NP (NP (DT )(NN ))(PP (IN )(NP (VBN )(NN ))))
+Phase: generated38524
+Input: Token
+Rule: generated38524
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN }))))):pttrn38524 --> :pttrn38524.extracted={}
+

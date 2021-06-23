@@ -1,0 +1,8 @@
+can be understood as a distributedconsistency algorithm based on Byzantine fault tolerance, whichsynchronizes the data model according to the actual businessscenario
+(VP (VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NNP )(NN ){1,2}))))))))(VP (VBZ )(NP (DT )(NNS )(NN ))(PP (VBG )(PP (TO )(NP (DT )(JJ )(NN ))))))
+Phase: generated36662
+Input: Token
+Rule: generated36662
+(
+((({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+))))))))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn36662 --> :pttrn36662.extracted={}
+

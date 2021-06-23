@@ -1,0 +1,8 @@
+ParticleSwarm Optimization
+(NP (JJ )(NN ))
+Phase: generated34141
+Input: Token
+Rule: generated34141
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn34141 --> :pttrn34141.extracted={}
+

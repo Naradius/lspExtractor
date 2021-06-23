@@ -1,0 +1,8 @@
+a completion G of the input graph
+(NP (NP (DT )(NN )(NNP ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated103674
+Input: Token
+Rule: generated103674
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn103674 --> :pttrn103674.extracted={}
+

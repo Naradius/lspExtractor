@@ -1,0 +1,8 @@
+proposed an ant colony algorithm fordata aggregation in WSNs
+(VP (VBN )(NP (DT )(JJ )(NN ){1,2}(NNS )))
+Phase: generated53468
+Input: Token
+Rule: generated53468
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn53468 --> :pttrn53468.extracted={}
+

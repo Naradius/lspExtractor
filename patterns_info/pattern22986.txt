@@ -1,0 +1,8 @@
+is fulfilled when the source and the destina-tion devices are any edge or non-edge devices under the purviewof a sensor.Fig
+(VP (VBZ )(VP (VBN )(WHADVP (WRB ))))
+Phase: generated22986
+Input: Token
+Rule: generated22986
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == WRB }))))):pttrn22986 --> :pttrn22986.extracted={}
+

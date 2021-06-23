@@ -1,0 +1,8 @@
+Wireless Commun
+(NP (JJ )(NNP ))
+Phase: generated109410
+Input: Token
+Rule: generated109410
+(
+(({ Token.category == JJ })({ Token.category == NNP }))):pttrn109410 --> :pttrn109410.extracted={}
+

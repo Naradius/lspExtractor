@@ -1,0 +1,8 @@
+the present-day personalcomputers.Realization
+(NP (DT )(JJ )(NNS )(NN ))
+Phase: generated46006
+Input: Token
+Rule: generated46006
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))):pttrn46006 --> :pttrn46006.extracted={}
+

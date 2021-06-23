@@ -1,0 +1,8 @@
+three categories based ontheir underlying network structures
+(NP (NP (CD )(NNS ))(VP (VBN )(PP (IN )(NP (VBG )(NN )(NNS )))))
+Phase: generated32349
+Input: Token
+Rule: generated32349
+(
+((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN })({ Token.category == NNS })))))):pttrn32349 --> :pttrn32349.extracted={}
+

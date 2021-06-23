@@ -1,0 +1,8 @@
+is to tackle information extraction and knowledge integration problems usually requiring deep natural language understanding  and cannot be solved at syntactic level
+(VP (VBZ )(VP (TO )(VP (VP (VB )(NP (NP (NN ){1,2}(CC )(NN ){1,2}(NNS ))(VP (VBG )(NP (JJ ){1,2}(NN ){1,2}))))(CC )(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NN )))))))))
+Phase: generated70596
+Input: Token
+Rule: generated70596
+(
+(({ Token.category == VBZ })(({ Token.category == TO })((({ Token.category == VB })((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == JJ })+({ Token.category == NN })+))))({ Token.category == CC })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn70596 --> :pttrn70596.extracted={}
+

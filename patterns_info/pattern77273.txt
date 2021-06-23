@@ -1,0 +1,8 @@
+on the textrefining
+(PP (IN )(NP (DT )(NN )))
+Phase: generated77273
+Input: Token
+Rule: generated77273
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn77273 --> :pttrn77273.extracted={}
+

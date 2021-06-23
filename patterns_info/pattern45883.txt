@@ -1,0 +1,8 @@
+Wireless sensor networks
+(NP (JJ )(NN )(NNS ))
+Phase: generated45883
+Input: Token
+Rule: generated45883
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn45883 --> :pttrn45883.extracted={}
+

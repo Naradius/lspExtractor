@@ -1,0 +1,8 @@
+is 57% at precision 80%
+(VP (VBZ )(NP (CD )(NN )){1,2})
+Phase: generated78561
+Input: Token
+Rule: generated78561
+(
+(({ Token.category == VBZ })(({ Token.category == CD })({ Token.category == NN }))+)):pttrn78561 --> :pttrn78561.extracted={}
+

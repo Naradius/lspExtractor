@@ -1,0 +1,8 @@
+more number of control packets
+(NP (NP (JJR )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated27240
+Input: Token
+Rule: generated27240
+(
+((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn27240 --> :pttrn27240.extracted={}
+

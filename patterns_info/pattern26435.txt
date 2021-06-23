@@ -1,0 +1,8 @@
+a configurable routing de-ision based on the fuzzy parameters and to improve the overalluality of Service
+(NP (NP (DT )(JJ )(NN ){1,2})(VP (VP (VBN )(PP (IN )(NP (DT )(JJ )(NNS ))))(CC )))
+Phase: generated26435
+Input: Token
+Rule: generated26435
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })))):pttrn26435 --> :pttrn26435.extracted={}
+

@@ -1,0 +1,8 @@
+are made forthe EPCSO algorithm to make it suitable for finding routingpaths for WSN.
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NNP )(NN )))))
+Phase: generated69811
+Input: Token
+Rule: generated69811
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn69811 --> :pttrn69811.extracted={}
+

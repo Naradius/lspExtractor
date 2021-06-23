@@ -1,0 +1,8 @@
+work together in a powerefficient way
+(VP (VB )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated48214
+Input: Token
+Rule: generated48214
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn48214 --> :pttrn48214.extracted={}
+

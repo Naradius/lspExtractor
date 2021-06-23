@@ -1,0 +1,8 @@
+.Step 1. Create  cats
+(NP (NNP )(CD )(NNP )(NNS ))
+Phase: generated68582
+Input: Token
+Rule: generated68582
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == NNS }))):pttrn68582 --> :pttrn68582.extracted={}
+

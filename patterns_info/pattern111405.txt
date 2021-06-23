@@ -1,0 +1,8 @@
+consists in defining the communica-tion links to define bandwidth, frequency, type of communica-tion , transmission protocols, mes-sage content and the structure of the communication network
+(VP (VBZ )(PP (IN )(VP (VBG )(NP (NP (DT )(NN )(NNS ))(VP (TO )(VP (VB )(NP (NP (NN )(NNS ))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))))))))
+Phase: generated111405
+Input: Token
+Rule: generated111405
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))))))):pttrn111405 --> :pttrn111405.extracted={}
+

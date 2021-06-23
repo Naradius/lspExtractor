@@ -1,0 +1,8 @@
+maintain its function,hich means that packets should be delivered to the sink node onime
+(VP (VB )(NP (PRP$ )(NN )(JJ )(NNS )))
+Phase: generated61874
+Input: Token
+Rule: generated61874
+(
+(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))):pttrn61874 --> :pttrn61874.extracted={}
+

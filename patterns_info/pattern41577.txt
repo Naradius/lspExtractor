@@ -1,0 +1,8 @@
+Network and Computer Applications 148
+(NP (NNP )(CC )(NNP ){1,2}(CD ))
+Phase: generated41577
+Input: Token
+Rule: generated41577
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+({ Token.category == CD }))):pttrn41577 --> :pttrn41577.extracted={}
+

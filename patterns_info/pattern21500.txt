@@ -1,0 +1,8 @@
+primary incumbents in the vicinity
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated21500
+Input: Token
+Rule: generated21500
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn21500 --> :pttrn21500.extracted={}
+

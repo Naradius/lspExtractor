@@ -1,0 +1,8 @@
+IoT-Based Multimedia Systems, Sen-sors 19  3821
+(NP (NP (JJ )(NNP )(NNPS ))(NP (NNP )(CD ){1,2}))
+Phase: generated67947
+Input: Token
+Rule: generated67947
+(
+((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNPS }))(({ Token.category == NNP })({ Token.category == CD })+))):pttrn67947 --> :pttrn67947.extracted={}
+

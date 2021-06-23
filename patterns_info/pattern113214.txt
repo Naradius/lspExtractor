@@ -1,0 +1,8 @@
+the palm of a hand 	genitive modifier	Sonys LCD screens work
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(JJ )(NN )(NNP ){1,2}(NNS )(NN ))))
+Phase: generated113214
+Input: Token
+Rule: generated113214
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NNS })({ Token.category == NN }))))):pttrn113214 --> :pttrn113214.extracted={}
+

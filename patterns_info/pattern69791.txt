@@ -1,0 +1,8 @@
+this paper
+(NP (DT )(NN ))
+Phase: generated69791
+Input: Token
+Rule: generated69791
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn69791 --> :pttrn69791.extracted={}
+

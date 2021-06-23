@@ -1,0 +1,8 @@
+Australia a r t i c l e
+(NP (NP (NNP )(CC )(NN ){1,2})(PP (IN )(NP (JJ ){1,2}(NN ))))
+Phase: generated20157
+Input: Token
+Rule: generated20157
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))):pttrn20157 --> :pttrn20157.extracted={}
+

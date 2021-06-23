@@ -1,0 +1,8 @@
+no matter how long the situation lasts
+(ADVP (DT )(NN ))
+Phase: generated15034
+Input: Token
+Rule: generated15034
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn15034 --> :pttrn15034.extracted={}
+

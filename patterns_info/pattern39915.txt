@@ -1,0 +1,8 @@
+into the events withinIoT devices and facilitates detection of complex attacks which involve multiple different steps thereby improving the effec-tiveness of the intrusion detection process.Please
+(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (NNS )(CC )(NNS )(NN ))(PP (IN )(NP (JJ )(NNS )))(VP (VBP )(NP (NP (JJ ){1,2}(NNS ))(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))))))))
+Phase: generated39915
+Input: Token
+Rule: generated39915
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == VBP })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))))))):pttrn39915 --> :pttrn39915.extracted={}
+

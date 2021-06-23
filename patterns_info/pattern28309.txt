@@ -1,0 +1,8 @@
+to feed the generated mobilitytrace file into it
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated28309
+Input: Token
+Rule: generated28309
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn28309 --> :pttrn28309.extracted={}
+

@@ -1,0 +1,8 @@
+to test and validate the softwareommunication architecture proposed in this paper within a realnvironment
+(VP (TO )(VP (VB )(CC )(VB )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (DT )(NN ))){1,2}))))
+Phase: generated111725
+Input: Token
+Rule: generated111725
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC })({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))+))))):pttrn111725 --> :pttrn111725.extracted={}
+

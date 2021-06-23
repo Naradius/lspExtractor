@@ -1,0 +1,8 @@
+a first glance
+(NP (DT )(JJ )(NN ))
+Phase: generated102785
+Input: Token
+Rule: generated102785
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn102785 --> :pttrn102785.extracted={}
+

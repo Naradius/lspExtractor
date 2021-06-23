@@ -1,0 +1,8 @@
+equally performing
+(ADJP (RB )(VBG ))
+Phase: generated94316
+Input: Token
+Rule: generated94316
+(
+(({ Token.category == RB })({ Token.category == VBG }))):pttrn94316 --> :pttrn94316.extracted={}
+

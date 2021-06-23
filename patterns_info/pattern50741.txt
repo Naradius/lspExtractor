@@ -1,0 +1,8 @@
+High data rates
+(NP (NNP )(NNS ){1,2})
+Phase: generated50741
+Input: Token
+Rule: generated50741
+(
+(({ Token.category == NNP })({ Token.category == NNS })+)):pttrn50741 --> :pttrn50741.extracted={}
+

@@ -1,0 +1,8 @@
+improve theIoT network efficiency in control and monitoring
+(VP (VB )(NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(CC )(NN ))))
+Phase: generated31109
+Input: Token
+Rule: generated31109
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn31109 --> :pttrn31109.extracted={}
+

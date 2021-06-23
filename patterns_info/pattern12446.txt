@@ -1,0 +1,8 @@
+present energy efficient routingalgorithm for WSN based on meta heuristic algorithm
+(VP (VB )(NP (NN )(JJ )(NN )))
+Phase: generated12446
+Input: Token
+Rule: generated12446
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })))):pttrn12446 --> :pttrn12446.extracted={}
+

@@ -1,0 +1,8 @@
+finding unusedor underused channels at different locations along an end-to-endroute
+(VP (VBG )(NP (NP (JJ ){1,2}(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated21330
+Input: Token
+Rule: generated21330
+(
+(({ Token.category == VBG })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn21330 --> :pttrn21330.extracted={}
+

@@ -1,0 +1,8 @@
+the related information, which is not aneasy problem.1.4
+(NP (NP (DT )(VBN )(NN ))(VP (VBZ )(RB )(NP (JJ )(NN )(NNS ))))
+Phase: generated81930
+Input: Token
+Rule: generated81930
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn81930 --> :pttrn81930.extracted={}
+

@@ -1,0 +1,8 @@
+of the requester and thedestination node
+(PP (IN )(NP (DT )(NN )(CC )(NN ){1,2}))
+Phase: generated11399
+Input: Token
+Rule: generated11399
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))):pttrn11399 --> :pttrn11399.extracted={}
+

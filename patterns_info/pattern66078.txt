@@ -1,0 +1,8 @@
+Discuss the security issues related to IoT-based network devices
+(VP (VBG )(NP (NP (DT )(NN )(NNS ))(VP (VBN )(PP (TO )(NP (JJ )(NN )(NNS ))))))
+Phase: generated66078
+Input: Token
+Rule: generated66078
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn66078 --> :pttrn66078.extracted={}
+

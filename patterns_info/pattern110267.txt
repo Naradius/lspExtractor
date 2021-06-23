@@ -1,0 +1,8 @@
+of an ad hoc network
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated110267
+Input: Token
+Rule: generated110267
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn110267 --> :pttrn110267.extracted={}
+

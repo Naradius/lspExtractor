@@ -1,0 +1,8 @@
+The energy for data aggregation
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNS )(NN ))))
+Phase: generated8202
+Input: Token
+Rule: generated8202
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))):pttrn8202 --> :pttrn8202.extracted={}
+

@@ -1,0 +1,8 @@
+maximal common sub-graphs based on cliquesFind maximal cliques for the edge product graphscore
+(NP (NP (JJ ){1,2}(NNS ))(VP (VBN )(VP (VB )(NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated117169
+Input: Token
+Rule: generated117169
+(
+((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn117169 --> :pttrn117169.extracted={}
+

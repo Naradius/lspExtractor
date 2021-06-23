@@ -1,0 +1,8 @@
+thuscalculated on 100 sentences out of the 500 sentences
+(VP (VBN )(PP (IN )(NP (CD )(NNS )))(PP (IN )(PP (IN )(NP (DT )(CD )(NNS )))))
+Phase: generated74551
+Input: Token
+Rule: generated74551
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS })))))):pttrn74551 --> :pttrn74551.extracted={}
+

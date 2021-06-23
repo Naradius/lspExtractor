@@ -1,0 +1,8 @@
+the properties of both Multipath Optimized Link State Routing  and Ad hoc On-Demand Multipath Distance Vector  protocols
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NNP ){1,2})(CC )(NP (NNP )(JJ )(NNP ){1,2}(NNS )))))
+Phase: generated65141
+Input: Token
+Rule: generated65141
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NNS })))))):pttrn65141 --> :pttrn65141.extracted={}
+

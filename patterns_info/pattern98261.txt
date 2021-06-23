@@ -1,0 +1,8 @@
+for extracting interesting and non-trivial and knowledge from unstructured text data
+(PP (IN )(NP (NP (JJ ){1,2}(CC )(JJ )(CC )(NN ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated98261
+Input: Token
+Rule: generated98261
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn98261 --> :pttrn98261.extracted={}
+

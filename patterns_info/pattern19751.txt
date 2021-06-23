@@ -1,0 +1,8 @@
+spent in process switching and hencelatency and response time increases
+(VP (VBN )(PP (IN )(NP (NN ){1,2}(CC )(NN )(CC )(NN ){1,2}(NNS ))))
+Phase: generated19751
+Input: Token
+Rule: generated19751
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn19751 --> :pttrn19751.extracted={}
+

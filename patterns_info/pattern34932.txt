@@ -1,0 +1,8 @@
+on secret sharing or theprivate key hardware storage scheme based on physical securitycan be used to protect the private key of the user
+(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (JJ )(NN )))(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))))))))
+Phase: generated34932
+Input: Token
+Rule: generated34932
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))))):pttrn34932 --> :pttrn34932.extracted={}
+

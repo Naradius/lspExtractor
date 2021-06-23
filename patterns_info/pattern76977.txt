@@ -1,0 +1,8 @@
+a document, or concept-based wherein each entity represents an object or concept of interests in a specific domain.Mining a document-based IF deduces patterns and relationship across documents
+(NP (NP (DT )(NN ))(CC ))
+Phase: generated76977
+Input: Token
+Rule: generated76977
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))):pttrn76977 --> :pttrn76977.extracted={}
+

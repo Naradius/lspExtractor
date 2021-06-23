@@ -1,0 +1,8 @@
+in the following three phases
+(PP (IN )(NP (DT )(VBG )(CD )(NNS )))
+Phase: generated54691
+Input: Token
+Rule: generated54691
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == CD })({ Token.category == NNS })))):pttrn54691 --> :pttrn54691.extracted={}
+

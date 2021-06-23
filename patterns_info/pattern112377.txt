@@ -1,0 +1,8 @@
+D. Wang , C.V. Hollot , Robust analysis and design of controllers for a single TCPflow
+(NP (NP (NNP )(NN ))(CC ))
+Phase: generated112377
+Input: Token
+Rule: generated112377
+(
+((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC }))):pttrn112377 --> :pttrn112377.extracted={}
+

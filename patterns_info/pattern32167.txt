@@ -1,0 +1,8 @@
+a Particle SwarmOptimization algorithm
+(NP (DT )(NNP ){1,2}(NN ))
+Phase: generated32167
+Input: Token
+Rule: generated32167
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))):pttrn32167 --> :pttrn32167.extracted={}
+

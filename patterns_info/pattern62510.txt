@@ -1,0 +1,8 @@
+with regardo the location of the source node
+(PP (IN )(NP (NP (RB )(DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated62510
+Input: Token
+Rule: generated62510
+(
+(({ Token.category == IN })((({ Token.category == RB })({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn62510 --> :pttrn62510.extracted={}
+

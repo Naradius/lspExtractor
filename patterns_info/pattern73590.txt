@@ -1,0 +1,8 @@
+the 2002 international conference onadaptive hypermedia and adaptive web based systems
+(NP (NP (DT )(CD )(JJ )(NN )(JJ )(NN ))(CC )(NP (JJ )(NN )(VBN )(NNS )))
+Phase: generated73590
+Input: Token
+Rule: generated73590
+(
+((({ Token.category == DT })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == VBN })({ Token.category == NNS })))):pttrn73590 --> :pttrn73590.extracted={}
+

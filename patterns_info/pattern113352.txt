@@ -1,0 +1,8 @@
+is most typical for industrial NLP applications today
+(VP (VBZ )(ADJP (RBS )(JJ ))(PP (IN )(NP (JJ )(NNP )(NNS ))))
+Phase: generated113352
+Input: Token
+Rule: generated113352
+(
+(({ Token.category == VBZ })(({ Token.category == RBS })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))):pttrn113352 --> :pttrn113352.extracted={}
+

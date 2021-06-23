@@ -1,0 +1,8 @@
+attempts to offer con-tinuous service to the mobile nodes under bothmobile
+(VP (VBZ )(VP (TO )(VP (VB )(NP (JJ )(NN ))(PP (TO )(NP (DT )(JJ )(NNS ))))))
+Phase: generated44650
+Input: Token
+Rule: generated44650
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn44650 --> :pttrn44650.extracted={}
+

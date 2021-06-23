@@ -1,0 +1,8 @@
+formalizes the notion of productions with context elements
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated102871
+Input: Token
+Rule: generated102871
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn102871 --> :pttrn102871.extracted={}
+

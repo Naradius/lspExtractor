@@ -1,0 +1,8 @@
+to controlthe QoS, such as Resource Reservation Protocol
+(PP (TO )(NP (NP (DT )(NNP ))(PP (JJ )(IN ))))
+Phase: generated32633
+Input: Token
+Rule: generated32633
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn32633 --> :pttrn32633.extracted={}
+

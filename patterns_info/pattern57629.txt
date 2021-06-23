@@ -1,0 +1,8 @@
+less resources
+(NP (JJR )(NNS ))
+Phase: generated57629
+Input: Token
+Rule: generated57629
+(
+(({ Token.category == JJR })({ Token.category == NNS }))):pttrn57629 --> :pttrn57629.extracted={}
+

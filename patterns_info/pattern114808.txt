@@ -1,0 +1,8 @@
+maximal cliques
+(NP (JJ )(NNS ))
+Phase: generated114808
+Input: Token
+Rule: generated114808
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn114808 --> :pttrn114808.extracted={}
+

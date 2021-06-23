@@ -1,0 +1,8 @@
+NLP texts such as  or .The taggers accuracy
+(NP (NP (NNP )(NNS ))(PP (JJ )(IN )(CC )(IN )(NP (NNS )(NN ))))
+Phase: generated87525
+Input: Token
+Rule: generated87525
+(
+((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })({ Token.category == CC })({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))):pttrn87525 --> :pttrn87525.extracted={}
+

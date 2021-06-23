@@ -1,0 +1,8 @@
+a specific semantic role in the given sen-tence
+(NP (NP (DT )(JJ ){1,2}(NN ))(PP (IN )(NP (DT )(VBN )(NN ))))
+Phase: generated72778
+Input: Token
+Rule: generated72778
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))):pttrn72778 --> :pttrn72778.extracted={}
+

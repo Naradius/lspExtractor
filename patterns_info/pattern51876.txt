@@ -1,0 +1,8 @@
+showhow some energy-efficient techniques
+(VP (VB )(NP (DT )(NN )(NNS )))
+Phase: generated51876
+Input: Token
+Rule: generated51876
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn51876 --> :pttrn51876.extracted={}
+

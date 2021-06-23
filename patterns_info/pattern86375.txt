@@ -1,0 +1,8 @@
+each train-ing sample
+(NP (DT )(NN ){1,2})
+Phase: generated86375
+Input: Token
+Rule: generated86375
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn86375 --> :pttrn86375.extracted={}
+

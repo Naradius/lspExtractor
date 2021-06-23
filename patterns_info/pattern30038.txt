@@ -1,0 +1,8 @@
+all layers of the multiplex usingthe data collected from the smart building
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NNP )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated30038
+Input: Token
+Rule: generated30038
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn30038 --> :pttrn30038.extracted={}
+

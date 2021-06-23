@@ -1,0 +1,8 @@
+the Speaker slot
+(NP (DT )(NNP )(NN ))
+Phase: generated84862
+Input: Token
+Rule: generated84862
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn84862 --> :pttrn84862.extracted={}
+

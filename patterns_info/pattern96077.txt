@@ -1,0 +1,8 @@
+of the Bio-Scope corpus  assisted in the de-velopment and evaluation of several negation/hedgescope detection systems
+(PP (IN )(NP (NP (DT )(NNP )(FW ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}(NNS ))))))))
+Phase: generated96077
+Input: Token
+Rule: generated96077
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == FW }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))))))):pttrn96077 --> :pttrn96077.extracted={}
+

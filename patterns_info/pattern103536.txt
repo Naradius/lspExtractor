@@ -1,0 +1,8 @@
+of reverse production applications,16 REKERS & SCHURRwhich
+(PP (IN )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (NNP )(CC )(NNP )))))
+Phase: generated103536
+Input: Token
+Rule: generated103536
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))))):pttrn103536 --> :pttrn103536.extracted={}
+

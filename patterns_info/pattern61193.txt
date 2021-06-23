@@ -1,0 +1,8 @@
+used today nearing towards the 5G era
+(VP (VBN )(VP (VBG )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated61193
+Input: Token
+Rule: generated61193
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn61193 --> :pttrn61193.extracted={}
+

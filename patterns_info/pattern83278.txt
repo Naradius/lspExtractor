@@ -1,0 +1,8 @@
+operates correctly on the seed instance, but may makessome extraction errors on other training instances
+(VP (VP (VBZ )(PP (IN )(NP (DT )(NN ){1,2})))(CC )(VP (MD )(VP (VB )(NP (JJR )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS ))))))
+Phase: generated83278
+Input: Token
+Rule: generated83278
+(
+((({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn83278 --> :pttrn83278.extracted={}
+

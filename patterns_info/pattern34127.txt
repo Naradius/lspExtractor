@@ -1,0 +1,8 @@
+survey and future directions
+(NP (CC )(NP (JJ )(NNS )))
+Phase: generated34127
+Input: Token
+Rule: generated34127
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn34127 --> :pttrn34127.extracted={}
+

@@ -1,0 +1,8 @@
+divided into four main stages such as: preprocessing stage, term weighting stage,dimensional reduction and dimension reduction as shown in Figure 1.Figure 1
+(VP (VBN )(PP (IN )(NP (NP (CD )(JJ )(NNS ))(PP (JJ )(IN )(NP (NP (JJ )(NN ))(NP (NP (NN ){1,2}(JJ )(NN )(CC )(NN ){1,2})(IN )))))))
+Phase: generated85166
+Input: Token
+Rule: generated85166
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)({ Token.category == IN })))))))):pttrn85166 --> :pttrn85166.extracted={}
+

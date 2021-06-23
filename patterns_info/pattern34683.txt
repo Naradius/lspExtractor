@@ -1,0 +1,8 @@
+with thevarious security challenges faced by the blockchain
+(PP (IN )(NP (NP (DT )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated34683
+Input: Token
+Rule: generated34683
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn34683 --> :pttrn34683.extracted={}
+

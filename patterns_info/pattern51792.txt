@@ -1,0 +1,8 @@
+should allowthe energy constraint to be overcome, as it is now possibleto replenish the network elements in a more controllablemanner
+(VP (MD )(NP (DT )(NN ){1,2}))
+Phase: generated51792
+Input: Token
+Rule: generated51792
+(
+(({ Token.category == MD })(({ Token.category == DT })({ Token.category == NN })+))):pttrn51792 --> :pttrn51792.extracted={}
+

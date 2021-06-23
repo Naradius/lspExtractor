@@ -1,0 +1,8 @@
+equipped with 2-Jbattery energy
+(VP (VBN )(PP (IN )(NP (JJ )(NN ))))
+Phase: generated4999
+Input: Token
+Rule: generated4999
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn4999 --> :pttrn4999.extracted={}
+

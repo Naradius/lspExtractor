@@ -1,0 +1,8 @@
+pure syntactic information such as syntactic parse trees and applying learning to it to increase reliability and consistency of resultant semantic representation
+(NP (NP (JJ )(NN ){1,2})(PP (JJ )(IN )(NP (NP (JJ ){1,2}(NNS ))(CC )(VP (VBG )(VP (TO )(VP (VB )(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (JJ ){1,2}(NN ))))))))))
+Phase: generated116160
+Input: Token
+Rule: generated116160
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))))))))):pttrn116160 --> :pttrn116160.extracted={}
+

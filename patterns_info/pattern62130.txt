@@ -1,0 +1,8 @@
+G. Han and L. Zhou et al
+(NP (NNP ){1,2}(CC )(NNP ){1,2}(NN ))
+Phase: generated62130
+Input: Token
+Rule: generated62130
+(
+(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+({ Token.category == NN }))):pttrn62130 --> :pttrn62130.extracted={}
+

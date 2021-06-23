@@ -1,0 +1,8 @@
+most work
+(NP (JJS )(NN ))
+Phase: generated74033
+Input: Token
+Rule: generated74033
+(
+(({ Token.category == JJS })({ Token.category == NN }))):pttrn74033 --> :pttrn74033.extracted={}
+

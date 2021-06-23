@@ -1,0 +1,8 @@
+encoded in the FTBand the ones listed in our lexical resources
+(VP (VBN )(PP (IN )(NP (DT )(NNP )))(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (PRP$ )(JJ )(NNS ))))))
+Phase: generated106052
+Input: Token
+Rule: generated106052
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn106052 --> :pttrn106052.extracted={}
+

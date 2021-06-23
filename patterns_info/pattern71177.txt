@@ -1,0 +1,8 @@
+may lead to belonging to a class
+(VP (MD )(VP (VB )(PP (TO )(VP (VBG )(PP (TO )(NP (DT )(NN )))))))
+Phase: generated71177
+Input: Token
+Rule: generated71177
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn71177 --> :pttrn71177.extracted={}
+

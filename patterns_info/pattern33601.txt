@@ -1,0 +1,8 @@
+can be performed by the follow-ing steps
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNS ))))))
+Phase: generated33601
+Input: Token
+Rule: generated33601
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn33601 --> :pttrn33601.extracted={}
+

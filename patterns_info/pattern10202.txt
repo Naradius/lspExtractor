@@ -1,0 +1,8 @@
+communicate with the data sink The average number of hops to the CHs  Distance to the CH0 All nodes generate a packet with a probability(
+(VP (VB )(PP (IN )(NP (DT )(NN ){1,2}))(PP (TO )(NP (DT )(NNP ){1,2})))
+Phase: generated10202
+Input: Token
+Rule: generated10202
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })+)))):pttrn10202 --> :pttrn10202.extracted={}
+

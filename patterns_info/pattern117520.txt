@@ -1,0 +1,8 @@
+to determine if the found occurrences of the query keywords in multiple sentences are related to each other or not
+(VP (TO )(VP (VB )(IN )))
+Phase: generated117520
+Input: Token
+Rule: generated117520
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))):pttrn117520 --> :pttrn117520.extracted={}
+

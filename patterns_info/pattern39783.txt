@@ -1,0 +1,8 @@
+to categorize Ehi as malicious or non-malicious
+(VP (TO )(VP (VB )(PP (IN )(ADJP (JJ )(CC )(JJ )))))
+Phase: generated39783
+Input: Token
+Rule: generated39783
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })))))):pttrn39783 --> :pttrn39783.extracted={}
+

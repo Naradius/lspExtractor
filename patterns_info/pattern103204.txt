@@ -1,0 +1,8 @@
+the given input graph .Definition
+(NP (DT )(VBN )(NN ){1,2})
+Phase: generated103204
+Input: Token
+Rule: generated103204
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)):pttrn103204 --> :pttrn103204.extracted={}
+

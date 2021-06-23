@@ -1,0 +1,8 @@
+the CycL, which attemptsto produce unambiguous logical formulations for human knowl-edge
+(NP (NP (DT )(NNP ))(VP (VBP )(VP (VB )(NP (JJ ){1,2}(NNS ))(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated71617
+Input: Token
+Rule: generated71617
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBP })(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn71617 --> :pttrn71617.extracted={}
+

@@ -1,0 +1,8 @@
+ofthe swarm to achieve the separation behavior among antsin the swarm, which is one the swarm principles highlightedin Section 3. Separation may not be achieved immediatelyupon the random release of these ants by the sink
+(PP (IN )(ADJP (JJ )(VP (TO )(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (DT )(JJ )(NNS )))))))))))
+Phase: generated4373
+Input: Token
+Rule: generated4373
+(
+(({ Token.category == IN })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))))))):pttrn4373 --> :pttrn4373.extracted={}
+

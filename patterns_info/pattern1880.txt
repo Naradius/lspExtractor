@@ -1,0 +1,8 @@
+controlled swarms
+(NP (JJ )(NNS ))
+Phase: generated1880
+Input: Token
+Rule: generated1880
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn1880 --> :pttrn1880.extracted={}
+

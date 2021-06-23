@@ -1,0 +1,8 @@
+are created by human experts in a rigorousway with the goal of providing a solid foundation of sophisticatedinferences for application systems
+(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated71631
+Input: Token
+Rule: generated71631
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn71631 --> :pttrn71631.extracted={}
+

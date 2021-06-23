@@ -1,0 +1,8 @@
+91%.*  *  ' ' Bdrm * '$' Figure 21
+(NP (NP (NP (CD )(NN ){1,2}('' )(POS ))(NNP ){1,2}(POS ))($ )('' )(NP (NN )(CD )))
+Phase: generated84724
+Input: Token
+Rule: generated84724
+(
+(((({ Token.category == CD })({ Token.category == NN })+({ Token.category == '' })({ Token.category == POS }))({ Token.category == NNP })+({ Token.category == POS }))({ Token.category == $ })({ Token.category == '' })(({ Token.category == NN })({ Token.category == CD })))):pttrn84724 --> :pttrn84724.extracted={}
+

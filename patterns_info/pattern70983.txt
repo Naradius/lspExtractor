@@ -1,0 +1,8 @@
+semantic classification
+(NP (JJ )(NN ))
+Phase: generated70983
+Input: Token
+Rule: generated70983
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn70983 --> :pttrn70983.extracted={}
+

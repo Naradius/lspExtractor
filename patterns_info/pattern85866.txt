@@ -1,0 +1,8 @@
+the BBC news and BBC sport  dataset
+(NP (NP (DT )(NNP )(NN ))(CC )(NP (NNP )(NN ){1,2}))
+Phase: generated85866
+Input: Token
+Rule: generated85866
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })+))):pttrn85866 --> :pttrn85866.extracted={}
+

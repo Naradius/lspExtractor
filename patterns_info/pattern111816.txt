@@ -1,0 +1,8 @@
+Real-time implementation and testings with Paparazzi UAV mulation Paparazzi software
+(NP (NP (JJ )(NN )(CC )(NNS ))(PP (IN )(NP (NNP ){1,2}(NN ){1,2})))
+Phase: generated111816
+Input: Token
+Rule: generated111816
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })+)))):pttrn111816 --> :pttrn111816.extracted={}
+

@@ -1,0 +1,8 @@
+only two parameters
+(NP (QP (RB )(CD ))(NNS ))
+Phase: generated58995
+Input: Token
+Rule: generated58995
+(
+((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NNS }))):pttrn58995 --> :pttrn58995.extracted={}
+

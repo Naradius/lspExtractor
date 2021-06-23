@@ -1,0 +1,8 @@
+are shown indifferent colors
+(VP (VBP )(VP (VBN )(NP (JJ )(NNS ))))
+Phase: generated23935
+Input: Token
+Rule: generated23935
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn23935 --> :pttrn23935.extracted={}
+

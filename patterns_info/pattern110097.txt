@@ -1,0 +1,8 @@
+a signal
+(NP (DT )(NN ))
+Phase: generated110097
+Input: Token
+Rule: generated110097
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn110097 --> :pttrn110097.extracted={}
+

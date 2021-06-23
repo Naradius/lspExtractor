@@ -1,0 +1,8 @@
+known to be a low-cost device
+(VP (VBP )(VP (TO )(VP (VB )(NP (DT )(JJ )(NN )))))
+Phase: generated47029
+Input: Token
+Rule: generated47029
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn47029 --> :pttrn47029.extracted={}
+

@@ -1,0 +1,8 @@
+called as HybridEnergy-Efficient Distributed clustering
+(VP (VBN )(PP (IN )(NP (NNP ){1,2}(NN ))))
+Phase: generated56159
+Input: Token
+Rule: generated56159
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))):pttrn56159 --> :pttrn56159.extracted={}
+

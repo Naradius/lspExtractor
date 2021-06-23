@@ -1,0 +1,8 @@
+emphasizes thebottom-up design of autonomous distributed systems that canshow adaptive, robust, and scalable behaviors
+(VP (VBZ )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (JJ ){1,2}(NNS ))(VP (VBP )(NP (JJ ){1,2}(CC )(JJ )(NNS )))))))
+Phase: generated32470
+Input: Token
+Rule: generated32470
+(
+(({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn32470 --> :pttrn32470.extracted={}
+

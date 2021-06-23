@@ -1,0 +1,8 @@
+disconnected before they can be used
+(VP (VBN )(IN ))
+Phase: generated383
+Input: Token
+Rule: generated383
+(
+(({ Token.category == VBN })({ Token.category == IN }))):pttrn383 --> :pttrn383.extracted={}
+

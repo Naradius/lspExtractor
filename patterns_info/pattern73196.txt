@@ -1,0 +1,8 @@
+Check The taxis licensesPolice Capture A criminalPerson Hack The systemPerson Enjoy Hiking and wildlife watchingSoldiers Stop The violenceSoldier Obey The armyTable 5Examples of unreasonable commonsense knowledge retrieved
+(VP (VB )(NP (DT )(NNS )(NN ){1,2}))
+Phase: generated73196
+Input: Token
+Rule: generated73196
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+))):pttrn73196 --> :pttrn73196.extracted={}
+

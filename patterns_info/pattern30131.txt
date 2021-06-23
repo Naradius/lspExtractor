@@ -1,0 +1,8 @@
+by the IoT network and considers themoutliers
+(PP (IN )(NP (DT )(NNP )(NN )(CC )(NNS ){1,2}))
+Phase: generated30131
+Input: Token
+Rule: generated30131
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })+))):pttrn30131 --> :pttrn30131.extracted={}
+

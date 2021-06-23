@@ -1,0 +1,8 @@
+.2. Fog server manager
+(NP (CD )(NNP )(NN ){1,2})
+Phase: generated20929
+Input: Token
+Rule: generated20929
+(
+(({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })+)):pttrn20929 --> :pttrn20929.extracted={}
+

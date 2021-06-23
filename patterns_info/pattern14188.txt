@@ -1,0 +1,8 @@
+to have the data packets deliveredthrough 0.1  1.0  2.1, then through 0.1  1.0  2.1 2.2
+(VP (TO )(VP (VB )(NP (DT )(NNS ){1,2})))
+Phase: generated14188
+Input: Token
+Rule: generated14188
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })+)))):pttrn14188 --> :pttrn14188.extracted={}
+

@@ -1,0 +1,8 @@
+February 2004
+(NP (NNP )(CD ))
+Phase: generated38
+Input: Token
+Rule: generated38
+(
+(({ Token.category == NNP })({ Token.category == CD }))):pttrn38 --> :pttrn38.extracted={}
+

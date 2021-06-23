@@ -1,0 +1,8 @@
+to reduce the latency while improving the power consump-ion of the nodes
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated26351
+Input: Token
+Rule: generated26351
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn26351 --> :pttrn26351.extracted={}
+

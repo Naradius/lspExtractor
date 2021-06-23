@@ -1,0 +1,8 @@
+from the Leonardo Da Vinci page
+(PP (IN )(NP (DT )(NNP ){1,2}(NN )))
+Phase: generated100821
+Input: Token
+Rule: generated100821
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))):pttrn100821 --> :pttrn100821.extracted={}
+

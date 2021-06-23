@@ -1,0 +1,8 @@
+scaffold the self-questioningstrategy that readers usually use when reading a text
+(VP (VB )(NP (DT )(NN ))(IN ))
+Phase: generated101970
+Input: Token
+Rule: generated101970
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))({ Token.category == IN }))):pttrn101970 --> :pttrn101970.extracted={}
+

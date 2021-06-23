@@ -1,0 +1,8 @@
+research.Some ideas are outlined in .4.5
+(VP (VB )(NP (DT )(NNS )))
+Phase: generated45281
+Input: Token
+Rule: generated45281
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))):pttrn45281 --> :pttrn45281.extracted={}
+

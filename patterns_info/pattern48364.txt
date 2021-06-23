@@ -1,0 +1,8 @@
+The protocol layers
+(NP (DT )(NN )(NNS ))
+Phase: generated48364
+Input: Token
+Rule: generated48364
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn48364 --> :pttrn48364.extracted={}
+

@@ -1,0 +1,8 @@
+common substructure and its linguistic properties
+(NP (NP (JJ )(NN ))(CC )(NP (PRP$ )(JJ )(NNS )))
+Phase: generated114695
+Input: Token
+Rule: generated114695
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS })))):pttrn114695 --> :pttrn114695.extracted={}
+

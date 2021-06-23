@@ -1,0 +1,8 @@
+of predicted cues
+(PP (IN )(NP (VBN )(NNS )))
+Phase: generated95647
+Input: Token
+Rule: generated95647
+(
+(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NNS })))):pttrn95647 --> :pttrn95647.extracted={}
+

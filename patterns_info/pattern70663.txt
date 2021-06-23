@@ -1,0 +1,8 @@
+into account statistical parameters of occurrences these words in documents, popularity of hits, page rank and others
+(PP (IN )(NP (NP (NN )(JJ )(NNS ))(PP (IN )(VP (VBG )(NP (DT )(NNS ))))))
+Phase: generated70663
+Input: Token
+Rule: generated70663
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn70663 --> :pttrn70663.extracted={}
+

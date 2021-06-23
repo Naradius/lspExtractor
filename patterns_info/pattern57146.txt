@@ -1,0 +1,8 @@
+in the DFS coverage area
+(PP (IN )(NP (DT )(NNP )(NN ){1,2}))
+Phase: generated57146
+Input: Token
+Rule: generated57146
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+))):pttrn57146 --> :pttrn57146.extracted={}
+

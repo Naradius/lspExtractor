@@ -1,0 +1,8 @@
+n=  where k is the total number of disjoint routing path and u denotes the number of routing paths available between the source and destination node
+(VP (VB )(WHADVP (WRB )))
+Phase: generated108201
+Input: Token
+Rule: generated108201
+(
+(({ Token.category == VB })(({ Token.category == WRB })))):pttrn108201 --> :pttrn108201.extracted={}
+

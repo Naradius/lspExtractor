@@ -1,0 +1,8 @@
+the target socket
+(NP (DT )(NN ){1,2})
+Phase: generated111959
+Input: Token
+Rule: generated111959
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn111959 --> :pttrn111959.extracted={}
+

@@ -1,0 +1,8 @@
+discourse processing routines
+(NP (NN ){1,2}(NNS ))
+Phase: generated80279
+Input: Token
+Rule: generated80279
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn80279 --> :pttrn80279.extracted={}
+

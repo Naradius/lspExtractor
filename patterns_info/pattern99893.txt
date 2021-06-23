@@ -1,0 +1,8 @@
+the seed question and the auxiliary inthe question
+(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(JJ ){1,2}(NN )))
+Phase: generated99893
+Input: Token
+Rule: generated99893
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))):pttrn99893 --> :pttrn99893.extracted={}
+

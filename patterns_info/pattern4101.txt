@@ -1,0 +1,8 @@
+For specific discussionon
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated4101
+Input: Token
+Rule: generated4101
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn4101 --> :pttrn4101.extracted={}
+

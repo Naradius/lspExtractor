@@ -1,0 +1,8 @@
+the traffic
+(NP (DT )(NN ))
+Phase: generated110792
+Input: Token
+Rule: generated110792
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn110792 --> :pttrn110792.extracted={}
+

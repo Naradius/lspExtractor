@@ -1,0 +1,8 @@
+the data from other units at eachlevel.Battlefield surveillance
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated46273
+Input: Token
+Rule: generated46273
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn46273 --> :pttrn46273.extracted={}
+

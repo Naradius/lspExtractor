@@ -1,0 +1,8 @@
+calculate the selectingprobability  of each candidate by ; ={{{{{1, if FSmax = FSminFS  FSFSmax  FSmin, where 0 <  < , otherwise.If the goal of the optimization process is to find theminimumsolution of the fitness function, let FS = FSmax, otherwise letFS = FSmin.Step 5. Pick the coordinate from the candidate points tomoveto base on the probability.2.2.2
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (-LRB- ){1,2}(IN )))))
+Phase: generated68752
+Input: Token
+Rule: generated68752
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == -LRB- })+({ Token.category == IN })))))):pttrn68752 --> :pttrn68752.extracted={}
+

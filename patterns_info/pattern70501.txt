@@ -1,0 +1,8 @@
+a dramatic shift in computational linguistics
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated70501
+Input: Token
+Rule: generated70501
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn70501 --> :pttrn70501.extracted={}
+

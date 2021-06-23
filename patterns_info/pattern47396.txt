@@ -1,0 +1,8 @@
+eliminate the need for any pre-organization andpre-planning
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated47396
+Input: Token
+Rule: generated47396
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn47396 --> :pttrn47396.extracted={}
+

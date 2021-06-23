@@ -1,0 +1,8 @@
+from Ubiquitousomputing environment
+(PP (IN )(NP (DT )(NN )))
+Phase: generated60562
+Input: Token
+Rule: generated60562
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn60562 --> :pttrn60562.extracted={}
+

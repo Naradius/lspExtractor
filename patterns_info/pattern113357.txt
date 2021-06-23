@@ -1,0 +1,8 @@
+has been explored in our previous studies
+(VP (VBZ )(VP (VBN )(VP (VBN )(PP (IN )(NP (PRP$ )(JJ )(NNS ))))))
+Phase: generated113357
+Input: Token
+Rule: generated113357
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn113357 --> :pttrn113357.extracted={}
+

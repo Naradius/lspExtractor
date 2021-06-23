@@ -1,0 +1,8 @@
+top level of the WHISK algorithm
+(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated82946
+Input: Token
+Rule: generated82946
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn82946 --> :pttrn82946.extracted={}
+

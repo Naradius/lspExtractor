@@ -1,0 +1,8 @@
+of generalization of two words, w1 ^ w2 = <  lemma ^ lemma,  pos ^ pos>
+(PP (IN )(NP (NP (DT )(JJ )(CD )(SYM )(FW ){1,2})(NP (JJ )(NN ){1,2})))
+Phase: generated118758
+Input: Token
+Rule: generated118758
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == SYM })({ Token.category == FW })+)(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn118758 --> :pttrn118758.extracted={}
+

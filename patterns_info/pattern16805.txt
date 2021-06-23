@@ -1,0 +1,8 @@
+is worth noting that, althoughVNAODV+ is a refinement of VNAODV, it is not conceptuallyfurther from AODV but rather the opposite due to the wayit handles unicast and broadcast transmissions and link layernotifications
+(VP (VBZ )(ADJP (JJ )(VP (VBG )(IN ))))
+Phase: generated16805
+Input: Token
+Rule: generated16805
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == VBG })({ Token.category == IN }))))):pttrn16805 --> :pttrn16805.extracted={}
+

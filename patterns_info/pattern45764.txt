@@ -1,0 +1,8 @@
+supports ad hoc ultra-low powerI.F.
+(VP (VBZ )(NP (NN )(JJ ){1,2}(NN )))
+Phase: generated45764
+Input: Token
+Rule: generated45764
+(
+(({ Token.category == VBZ })(({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NN })))):pttrn45764 --> :pttrn45764.extracted={}
+

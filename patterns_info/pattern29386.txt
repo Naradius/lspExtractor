@@ -1,0 +1,8 @@
+done.The multiplex built from Fig. 3
+(VP (VBN )(NP (DT )(JJ )(NN ))(PP (IN )(NP (NNP )(CD ))))
+Phase: generated29386
+Input: Token
+Rule: generated29386
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))):pttrn29386 --> :pttrn29386.extracted={}
+

@@ -1,0 +1,8 @@
+on the fractional lion optimization algorithm
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated107914
+Input: Token
+Rule: generated107914
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn107914 --> :pttrn107914.extracted={}
+

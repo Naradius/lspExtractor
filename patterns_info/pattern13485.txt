@@ -1,0 +1,8 @@
+a leader election
+(NP (DT )(NN ){1,2})
+Phase: generated13485
+Input: Token
+Rule: generated13485
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn13485 --> :pttrn13485.extracted={}
+

@@ -1,0 +1,8 @@
+in APIcmightexclude certain production instances
+(PP (IN )(NP (NNP )(JJ )(NN )(NNS )))
+Phase: generated104570
+Input: Token
+Rule: generated104570
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn104570 --> :pttrn104570.extracted={}
+

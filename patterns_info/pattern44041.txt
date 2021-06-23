@@ -1,0 +1,8 @@
+of the mobile nodes.The EAR algorithm
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated44041
+Input: Token
+Rule: generated44041
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn44041 --> :pttrn44041.extracted={}
+

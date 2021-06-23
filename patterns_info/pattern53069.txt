@@ -1,0 +1,8 @@
+as slave CHs
+(PP (IN )(NP (NN )(NNP )))
+Phase: generated53069
+Input: Token
+Rule: generated53069
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })))):pttrn53069 --> :pttrn53069.extracted={}
+

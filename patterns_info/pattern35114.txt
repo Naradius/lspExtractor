@@ -1,0 +1,8 @@
+according to different private chains .4.2
+(PP (VBG )(PP (TO )(NP (JJ ){1,2}(NNS )(CD ))))
+Phase: generated35114
+Input: Token
+Rule: generated35114
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == JJ })+({ Token.category == NNS })({ Token.category == CD }))))):pttrn35114 --> :pttrn35114.extracted={}
+

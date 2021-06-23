@@ -1,0 +1,8 @@
+the pruning process
+(NP (DT )(NN ){1,2})
+Phase: generated72852
+Input: Token
+Rule: generated72852
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn72852 --> :pttrn72852.extracted={}
+

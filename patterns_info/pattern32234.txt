@@ -1,0 +1,8 @@
+the greatdevelopment
+(NP (DT )(NN ))
+Phase: generated32234
+Input: Token
+Rule: generated32234
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn32234 --> :pttrn32234.extracted={}
+

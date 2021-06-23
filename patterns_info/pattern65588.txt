@@ -1,0 +1,8 @@
+monitor the nearest sensorodes within the accessible transmission range
+(VP (VB )(NP (DT )(JJS )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated65588
+Input: Token
+Rule: generated65588
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn65588 --> :pttrn65588.extracted={}
+

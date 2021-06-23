@@ -1,0 +1,8 @@
+sub groups
+(NP (NN )(NNS ))
+Phase: generated64161
+Input: Token
+Rule: generated64161
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn64161 --> :pttrn64161.extracted={}
+

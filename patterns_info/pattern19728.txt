@@ -1,0 +1,8 @@
+Smartphone 6 Smartphone Wi-Fi Gateway 2 Wi-Fi Gateway ISP Gateway 4 ISP Gateway Cloud Data Server  100 Table 5 Configuration
+(NP (NNP )(CD )(NNP ){1,2}(CD )(NNP ){1,2}(CD )(NNP ){1,2}(CD )(NN )(CD )(NN ))
+Phase: generated19728
+Input: Token
+Rule: generated19728
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NN })({ Token.category == CD })({ Token.category == NN }))):pttrn19728 --> :pttrn19728.extracted={}
+

@@ -1,0 +1,8 @@
+serving as aSenior Lecturer at the University of Sydney,Australia
+(VP (VBG )(PP (IN )(NP (JJ )(NNP ))))
+Phase: generated9134
+Input: Token
+Rule: generated9134
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP }))))):pttrn9134 --> :pttrn9134.extracted={}
+

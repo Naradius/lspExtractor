@@ -1,0 +1,8 @@
+al22 per-formed worse
+(NP (NP (DT )(JJ ))(JJR ))
+Phase: generated75230
+Input: Token
+Rule: generated75230
+(
+((({ Token.category == DT })({ Token.category == JJ }))({ Token.category == JJR }))):pttrn75230 --> :pttrn75230.extracted={}
+

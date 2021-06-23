@@ -1,0 +1,8 @@
+knowledge items that mightnot be regarded as commonsense knowledge
+(NP (NP (NN )(NNS ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NN )))))))
+Phase: generated73113
+Input: Token
+Rule: generated73113
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn73113 --> :pttrn73113.extracted={}
+

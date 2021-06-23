@@ -1,0 +1,8 @@
+display tags as highlighted text and record them internally as osets withinthe text, for example character 0 through 11 for the Neighborhood slot
+(VP (VB )(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated82939
+Input: Token
+Rule: generated82939
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn82939 --> :pttrn82939.extracted={}
+

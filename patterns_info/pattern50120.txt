@@ -1,0 +1,8 @@
+spe-cial environments that make communications difficultand impact their ease of deployment
+(NP (NP (JJ )(NNS ))(VP (VBP )(NP (NNS )(CC )(NN ))))
+Phase: generated50120
+Input: Token
+Rule: generated50120
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN }))))):pttrn50120 --> :pttrn50120.extracted={}
+

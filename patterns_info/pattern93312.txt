@@ -1,0 +1,8 @@
+for the ANNIE Part-Of-Speech Tagger
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated93312
+Input: Token
+Rule: generated93312
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn93312 --> :pttrn93312.extracted={}
+

@@ -1,0 +1,8 @@
+evaluate the impact of replica-tion on HDRP performance
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN )))))
+Phase: generated42533
+Input: Token
+Rule: generated42533
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn42533 --> :pttrn42533.extracted={}
+

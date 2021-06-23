@@ -1,0 +1,8 @@
+An energy efficient and reliable composite metric
+(NP (DT )(NN )(JJ )(CC )(JJ ){1,2})
+Phase: generated29035
+Input: Token
+Rule: generated29035
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })+)):pttrn29035 --> :pttrn29035.extracted={}
+

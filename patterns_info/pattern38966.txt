@@ -1,0 +1,8 @@
+by using an edge router which facilitates connectivity among the devices participatingwithin a LoWPAN as well as with the Internet
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ){1,2})(VP (VBZ )(PP (PP (IN )(NP (DT )(NNP )))(CONJP (RB ){1,2}(IN ))(PP (IN )(NP (DT )(NNP ))))))))
+Phase: generated38966
+Input: Token
+Rule: generated38966
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))(({ Token.category == RB })+({ Token.category == IN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))))))):pttrn38966 --> :pttrn38966.extracted={}
+

@@ -1,0 +1,8 @@
+the average energy con-sumption
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated45203
+Input: Token
+Rule: generated45203
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn45203 --> :pttrn45203.extracted={}
+

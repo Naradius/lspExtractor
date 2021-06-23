@@ -1,0 +1,8 @@
+protectthe privacy
+(NP (DT )(NN ))
+Phase: generated41403
+Input: Token
+Rule: generated41403
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn41403 --> :pttrn41403.extracted={}
+

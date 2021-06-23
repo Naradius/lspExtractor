@@ -1,0 +1,8 @@
+each pride %S of entire population
+(NP (NP (DT )(NN ){1,2}(NNS ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated64059
+Input: Token
+Rule: generated64059
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn64059 --> :pttrn64059.extracted={}
+

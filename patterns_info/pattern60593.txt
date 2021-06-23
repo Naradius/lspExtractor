@@ -1,0 +1,8 @@
+m n  t  n  r  n  a  p  w  f  p  o  a  a  m  t  L  t  e  H  t  n  l  o  t  u  t  t  u  w S  h  f  t  a  nof the IoT application
+(VP (MD )(RB )(VP (VB )(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(IN )))))))
+Phase: generated60593
+Input: Token
+Rule: generated60593
+(
+(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == IN })))))))):pttrn60593 --> :pttrn60593.extracted={}
+

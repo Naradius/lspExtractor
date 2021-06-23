@@ -1,0 +1,8 @@
+is easy touse in differentWSN applications
+(VP (VBZ )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated69823
+Input: Token
+Rule: generated69823
+(
+(({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn69823 --> :pttrn69823.extracted={}
+

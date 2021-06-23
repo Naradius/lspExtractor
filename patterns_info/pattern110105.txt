@@ -1,0 +1,8 @@
+well defined
+(ADJP (RB )(VBN ))
+Phase: generated110105
+Input: Token
+Rule: generated110105
+(
+(({ Token.category == RB })({ Token.category == VBN }))):pttrn110105 --> :pttrn110105.extracted={}
+

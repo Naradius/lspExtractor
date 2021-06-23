@@ -1,0 +1,8 @@
+ofore E2E delay
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated28430
+Input: Token
+Rule: generated28430
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn28430 --> :pttrn28430.extracted={}
+

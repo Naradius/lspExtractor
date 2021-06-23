@@ -1,0 +1,8 @@
+dependency parses fromphrase structure parses
+(NP (NN )(NNS )(NN ){1,2}(NNS ))
+Phase: generated95924
+Input: Token
+Rule: generated95924
+(
+(({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS }))):pttrn95924 --> :pttrn95924.extracted={}
+

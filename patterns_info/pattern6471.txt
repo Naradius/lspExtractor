@@ -1,0 +1,8 @@
+the forwarding tables
+(NP (DT )(JJ )(NNS ))
+Phase: generated6471
+Input: Token
+Rule: generated6471
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn6471 --> :pttrn6471.extracted={}
+

@@ -1,0 +1,8 @@
+Various clusteringr B.V. All rights reserved.mailto:skennedy@it.usyd.edu.auS.
+(NP (NP (JJ )(NN )(NNP ))(NP (DT )(NNS )))
+Phase: generated9387
+Input: Token
+Rule: generated9387
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == DT })({ Token.category == NNS })))):pttrn9387 --> :pttrn9387.extracted={}
+

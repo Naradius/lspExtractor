@@ -1,0 +1,8 @@
+a pro-duction, such as production 4 of the ER grammar, which establishes new relations betweenpreviously unconnected vertex objects.2.2
+(NP (NP (DT )(NN ))(PP (JJ )(IN )(NP (NP (NN )(CD ))(PP (IN )(NP (NP (DT )(NNP )(NN ))(VP (VBZ )(NP (JJ )(NNS ))(RB )))))))
+Phase: generated102212
+Input: Token
+Rule: generated102212
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == RB })))))))):pttrn102212 --> :pttrn102212.extracted={}
+

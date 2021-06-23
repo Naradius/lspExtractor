@@ -1,0 +1,8 @@
+based on a form of regular expression patterns that identify thecontext of relevant phrases and the exact delimiters of those phrases
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))))
+Phase: generated82210
+Input: Token
+Rule: generated82210
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn82210 --> :pttrn82210.extracted={}
+

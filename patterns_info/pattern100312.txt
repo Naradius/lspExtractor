@@ -1,0 +1,8 @@
+should be a direction of future work
+(VP (MD )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated100312
+Input: Token
+Rule: generated100312
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn100312 --> :pttrn100312.extracted={}
+

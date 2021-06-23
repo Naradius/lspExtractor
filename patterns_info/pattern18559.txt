@@ -1,0 +1,8 @@
+is added to exploits the optimal topological route to base stations, obtained by beacon messages, as a resource to find better routes than the ones created by perimeter routing
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(JJ ){1,2}(NN ))(PP (TO )(NP (NN )(NNS )))(VP (VBN )(PP (IN )(NP (NN )(NNS )))(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated18559
+Input: Token
+Rule: generated18559
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn18559 --> :pttrn18559.extracted={}
+

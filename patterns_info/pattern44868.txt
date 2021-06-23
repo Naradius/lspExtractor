@@ -1,0 +1,8 @@
+to the as-sociated time synchronization costs
+(PP (TO )(NP (DT )(JJ )(NN ){1,2}(NNS )))
+Phase: generated44868
+Input: Token
+Rule: generated44868
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn44868 --> :pttrn44868.extracted={}
+

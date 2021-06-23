@@ -1,0 +1,8 @@
+devised by thescientific community
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated41161
+Input: Token
+Rule: generated41161
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn41161 --> :pttrn41161.extracted={}
+

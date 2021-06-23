@@ -1,0 +1,8 @@
+the useof a swarm
+(NP (DT )(VBN )(DT )(JJ ))
+Phase: generated3138
+Input: Token
+Rule: generated3138
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == DT })({ Token.category == JJ }))):pttrn3138 --> :pttrn3138.extracted={}
+

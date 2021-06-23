@@ -1,0 +1,8 @@
+discover a route tothe source node
+(VP (VB )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated15772
+Input: Token
+Rule: generated15772
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn15772 --> :pttrn15772.extracted={}
+

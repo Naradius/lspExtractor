@@ -1,0 +1,8 @@
+can be built on, as inchart parsing, or as in a cascade of finite-state transducers
+(VP (MD )(VP (VB )(VP (VBN )(PRT (RP ))(PP (CC )(PP (IN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))))))
+Phase: generated87276
+Input: Token
+Rule: generated87276
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == RP }))(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))))):pttrn87276 --> :pttrn87276.extracted={}
+

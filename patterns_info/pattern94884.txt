@@ -1,0 +1,8 @@
+to efficiency and effectivity
+(PP (TO )(NP (NN )(CC )(NN )))
+Phase: generated94884
+Input: Token
+Rule: generated94884
+(
+(({ Token.category == TO })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn94884 --> :pttrn94884.extracted={}
+

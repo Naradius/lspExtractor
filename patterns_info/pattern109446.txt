@@ -1,0 +1,8 @@
+is inef-ficient when a new type of attack is performed
+(VP (VBZ )(WHADVP (WRB )))
+Phase: generated109446
+Input: Token
+Rule: generated109446
+(
+(({ Token.category == VBZ })(({ Token.category == WRB })))):pttrn109446 --> :pttrn109446.extracted={}
+

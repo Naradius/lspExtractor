@@ -1,0 +1,8 @@
+in the neigh-boring domains
+(PP (IN )(NP (DT )(NN )(NNS )))
+Phase: generated22528
+Input: Token
+Rule: generated22528
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn22528 --> :pttrn22528.extracted={}
+

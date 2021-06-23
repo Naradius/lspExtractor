@@ -1,0 +1,8 @@
+was tuned on the Asthmaforum
+(VP (VBD )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated75156
+Input: Token
+Rule: generated75156
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn75156 --> :pttrn75156.extracted={}
+

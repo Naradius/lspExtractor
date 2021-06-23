@@ -1,0 +1,8 @@
+the neighborhoods S ;7
+(NP (DT )(NNS )(NNP )(CD ))
+Phase: generated1649
+Input: Token
+Rule: generated1649
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NNP })({ Token.category == CD }))):pttrn1649 --> :pttrn1649.extracted={}
+

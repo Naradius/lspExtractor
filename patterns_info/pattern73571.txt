@@ -1,0 +1,8 @@
+Chodorow, M., & Wacholder
+(NP (NNP ){1,2}(CC )(NNP ))
+Phase: generated73571
+Input: Token
+Rule: generated73571
+(
+(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP }))):pttrn73571 --> :pttrn73571.extracted={}
+

@@ -1,0 +1,8 @@
+can divide this into two parts
+(VP (MD )(VP (VB )(PP (IN )(NP (CD )(NNS )))))
+Phase: generated40067
+Input: Token
+Rule: generated40067
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn40067 --> :pttrn40067.extracted={}
+

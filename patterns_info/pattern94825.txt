@@ -1,0 +1,8 @@
+the non-terminals
+(NP (DT )(NNS ))
+Phase: generated94825
+Input: Token
+Rule: generated94825
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn94825 --> :pttrn94825.extracted={}
+

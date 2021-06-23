@@ -1,0 +1,8 @@
+areformed throughout the network useful life
+(VP (VBN )(PP (IN )(NP (DT )(NN )(JJ )(NN ))))
+Phase: generated5993
+Input: Token
+Rule: generated5993
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))):pttrn5993 --> :pttrn5993.extracted={}
+

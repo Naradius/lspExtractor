@@ -1,0 +1,8 @@
+via the log function
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated106922
+Input: Token
+Rule: generated106922
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn106922 --> :pttrn106922.extracted={}
+

@@ -1,0 +1,8 @@
+be as high as 54% and 75%, re-pectively
+(VP (VB )(ADJP (ADJP (RB )(JJ ))(PP (IN )(NP (NP (CD )(NN ))(CC )(NP (CD )(NN ))))))
+Phase: generated28865
+Input: Token
+Rule: generated28865
+(
+(({ Token.category == VB })((({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN }))))))):pttrn28865 --> :pttrn28865.extracted={}
+

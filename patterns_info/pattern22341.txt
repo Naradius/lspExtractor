@@ -1,0 +1,8 @@
+is the upper bound on secondary transmission power whileusing channel n so that no primary receivers are interfered on thatchannel.Graph creation
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))(IN ){1,2})
+Phase: generated22341
+Input: Token
+Rule: generated22341
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))({ Token.category == IN })+)):pttrn22341 --> :pttrn22341.extracted={}
+

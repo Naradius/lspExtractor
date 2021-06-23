@@ -1,0 +1,8 @@
+identifythe main categories of applications and their specific requirements
+(VP (VBD )(NP (NP (JJ )(NNS ))(PP (IN )(NP (CC )(NP (PRP$ )(JJ )(NNS ))))))
+Phase: generated49284
+Input: Token
+Rule: generated49284
+(
+(({ Token.category == VBD })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn49284 --> :pttrn49284.extracted={}
+

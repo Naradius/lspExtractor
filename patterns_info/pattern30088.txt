@@ -1,0 +1,8 @@
+06:00:00Z 20.4 C 24.7 C 22.8 C 0.87 CFig. 5
+(NP (CD )(JJ )(CD )(NNP )(CD )(NNP )(CD )(NNP )(CD )(NNP ){1,2}(CD ))
+Phase: generated30088
+Input: Token
+Rule: generated30088
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == CD }))):pttrn30088 --> :pttrn30088.extracted={}
+

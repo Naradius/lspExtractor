@@ -1,0 +1,8 @@
+a proper noun and the other an abbreviation or an acronym
+(NP (NP (NP (DT )(JJ )(NN ))(CC )(NP (DT )(JJ )(NN ){1,2}))(CC )(NP (DT )(NN )))
+Phase: generated89267
+Input: Token
+Rule: generated89267
+(
+(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))):pttrn89267 --> :pttrn89267.extracted={}
+

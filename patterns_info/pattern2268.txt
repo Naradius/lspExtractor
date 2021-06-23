@@ -1,0 +1,8 @@
+the applications of the bee colony algorithms .Based on the information from the tables
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN ){1,2}(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))))))
+Phase: generated2268
+Input: Token
+Rule: generated2268
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))))):pttrn2268 --> :pttrn2268.extracted={}
+

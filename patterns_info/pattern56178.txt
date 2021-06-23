@@ -1,0 +1,8 @@
+Stable Election Protocol
+(NP (JJ )(NNP ){1,2})
+Phase: generated56178
+Input: Token
+Rule: generated56178
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn56178 --> :pttrn56178.extracted={}
+

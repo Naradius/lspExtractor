@@ -1,0 +1,8 @@
+overallsuccessful intrusion
+(NP (JJ )(NN ))
+Phase: generated39867
+Input: Token
+Rule: generated39867
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn39867 --> :pttrn39867.extracted={}
+

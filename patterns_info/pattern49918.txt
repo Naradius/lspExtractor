@@ -1,0 +1,8 @@
+alarge area
+(NP (JJ )(NN ))
+Phase: generated49918
+Input: Token
+Rule: generated49918
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn49918 --> :pttrn49918.extracted={}
+

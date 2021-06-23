@@ -1,0 +1,8 @@
+begins from a predefined set of centroids  and achieves sequentialrepetitions of the assignment and updating steps until no more modifies to the partition are noticed over sequentialrepetitions
+(VP (VBZ )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NNS )(CC )(NNS ){1,2})(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (JJ )(NNS )))))))))
+Phase: generated85770
+Input: Token
+Rule: generated85770
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn85770 --> :pttrn85770.extracted={}
+

@@ -1,0 +1,8 @@
+supported by the National Key Research and De-elopment Program, No.2018YFC0407900 and the National Nat-ral Science Foundation of China under Grant No. 61572172 ando
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNP ){1,2}(CC )(NNP ){1,2})(CC )))(PP (IN )(NP (NNP )(NN )(CD )(NN ))))
+Phase: generated63466
+Input: Token
+Rule: generated63466
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)({ Token.category == CC })))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == CD })({ Token.category == NN }))))):pttrn63466 --> :pttrn63466.extracted={}
+

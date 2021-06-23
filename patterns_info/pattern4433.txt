@@ -1,0 +1,8 @@
+clusters membership against the ideal average
+(NP (NP (NNS )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated4433
+Input: Token
+Rule: generated4433
+(
+((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn4433 --> :pttrn4433.extracted={}
+

@@ -1,0 +1,8 @@
+measured for both the baseline setup and the IDS setup
+(VP (VBN )(PP (IN )(NP (DT )(NP (DT )(NN ){1,2})(CC )(NP (DT )(NNP )(NN )))))
+Phase: generated38168
+Input: Token
+Rule: generated38168
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn38168 --> :pttrn38168.extracted={}
+

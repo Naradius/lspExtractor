@@ -1,0 +1,8 @@
+can alsocommunicate with other room servers to learnabout the services they offered, e.g., printing,scanning, and faxing
+(VP (MD )(VP (VB )(PP (IN )(NP (JJ )(NN )(NNS )))(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(VP (VBD )(NP (NP (FW )(NN ){1,2})(CC ))))))))
+Phase: generated46593
+Input: Token
+Rule: generated46593
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBD })((({ Token.category == FW })({ Token.category == NN })+)({ Token.category == CC }))))))))):pttrn46593 --> :pttrn46593.extracted={}
+

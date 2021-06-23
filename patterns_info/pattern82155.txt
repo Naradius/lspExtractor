@@ -1,0 +1,8 @@
+hand-tagged train-ing examples
+(NP (JJ )(NN )(NNS ))
+Phase: generated82155
+Input: Token
+Rule: generated82155
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn82155 --> :pttrn82155.extracted={}
+

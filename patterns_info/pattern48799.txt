@@ -1,0 +1,8 @@
+to the reasons explainedin Section 1
+(PP (TO )(NP (NP (DT )(NNS ))(NP (JJ )(NN )(CD ))))
+Phase: generated48799
+Input: Token
+Rule: generated48799
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))))):pttrn48799 --> :pttrn48799.extracted={}
+

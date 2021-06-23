@@ -1,0 +1,8 @@
+in biomedical text
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated75665
+Input: Token
+Rule: generated75665
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn75665 --> :pttrn75665.extracted={}
+

@@ -1,0 +1,8 @@
+contactbetween two nodes
+(PP (IN )(NP (CD )(NNS )))
+Phase: generated41971
+Input: Token
+Rule: generated41971
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))):pttrn41971 --> :pttrn41971.extracted={}
+

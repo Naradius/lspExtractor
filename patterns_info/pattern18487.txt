@@ -1,0 +1,8 @@
+worst case
+(NP (JJS )(NN ))
+Phase: generated18487
+Input: Token
+Rule: generated18487
+(
+(({ Token.category == JJS })({ Token.category == NN }))):pttrn18487 --> :pttrn18487.extracted={}
+

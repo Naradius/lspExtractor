@@ -1,0 +1,8 @@
+attempt to extract an RST relation
+(VP (VBP )(VP (TO )(VP (VB )(NP (DT )(NNP )(NN )))))
+Phase: generated114289
+Input: Token
+Rule: generated114289
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn114289 --> :pttrn114289.extracted={}
+

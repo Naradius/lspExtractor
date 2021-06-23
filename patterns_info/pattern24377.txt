@@ -1,0 +1,8 @@
+lack ofchannel choices
+(NP (NN ){1,2}(NNS ))
+Phase: generated24377
+Input: Token
+Rule: generated24377
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn24377 --> :pttrn24377.extracted={}
+

@@ -1,0 +1,8 @@
+confidentiality restrictions
+(NP (NN )(NNS ))
+Phase: generated31737
+Input: Token
+Rule: generated31737
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn31737 --> :pttrn31737.extracted={}
+

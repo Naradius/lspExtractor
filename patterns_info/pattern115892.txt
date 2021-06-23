@@ -1,0 +1,8 @@
+of the teams
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated115892
+Input: Token
+Rule: generated115892
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn115892 --> :pttrn115892.extracted={}
+

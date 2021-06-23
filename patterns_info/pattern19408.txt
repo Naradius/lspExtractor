@@ -1,0 +1,8 @@
+are modeled in iFogSim using the App-odule class
+(VP (VBP )(VP (VBN )(VP (VBG )(NP (DT )(NNP )(NN )))))
+Phase: generated19408
+Input: Token
+Rule: generated19408
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn19408 --> :pttrn19408.extracted={}
+

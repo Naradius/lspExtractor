@@ -1,0 +1,8 @@
+= TLexicon tags
+(NP (SYM )(NN )(NNS ))
+Phase: generated106554
+Input: Token
+Rule: generated106554
+(
+(({ Token.category == SYM })({ Token.category == NN })({ Token.category == NNS }))):pttrn106554 --> :pttrn106554.extracted={}
+

@@ -1,0 +1,8 @@
+found with a score greater than some thresholdvalue
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(ADJP (JJR )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated91751
+Input: Token
+Rule: generated91751
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJR })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn91751 --> :pttrn91751.extracted={}
+

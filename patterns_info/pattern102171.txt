@@ -1,0 +1,8 @@
+attribute assignments
+(NP (NN )(NNS ))
+Phase: generated102171
+Input: Token
+Rule: generated102171
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn102171 --> :pttrn102171.extracted={}
+

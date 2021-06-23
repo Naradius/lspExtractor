@@ -1,0 +1,8 @@
+to the hop count information passed on tohe sink node, The lists representing the close, far, and equal nodesre represented by N h- , N h+
+(PP (TO )(NP (NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))(CC )))
+Phase: generated62467
+Input: Token
+Rule: generated62467
+(
+(({ Token.category == TO })(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))({ Token.category == CC })))):pttrn62467 --> :pttrn62467.extracted={}
+

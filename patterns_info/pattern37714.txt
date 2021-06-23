@@ -1,0 +1,8 @@
+to the device nodes and to the Edge router
+(PP (PP (TO )(NP (DT )(NN )(NNS )))(CC )(PP (TO )(NP (DT )(NNP )(NN ))))
+Phase: generated37714
+Input: Token
+Rule: generated37714
+(
+((({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn37714 --> :pttrn37714.extracted={}
+

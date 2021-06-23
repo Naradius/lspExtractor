@@ -1,0 +1,8 @@
+a high probabilityof erroneously parsed semantic roles
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(NP (JJ )(NNS ))))
+Phase: generated73101
+Input: Token
+Rule: generated73101
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn73101 --> :pttrn73101.extracted={}
+

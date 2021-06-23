@@ -1,0 +1,8 @@
+to connect to other devices at runtime typically for short time periods thereforecreating a volatile infrastructure
+(VP (TO )(VP (VB )(PP (TO )(NP (JJ )(NNS )))))
+Phase: generated39069
+Input: Token
+Rule: generated39069
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn39069 --> :pttrn39069.extracted={}
+

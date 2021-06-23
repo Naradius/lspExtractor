@@ -1,0 +1,8 @@
+4 parts, thatis, the path ratio, the average power consumption, the relayratio, and the usage rate
+(NP (NP (CD )(NNS ))(NP (DT )(NN ){1,2})(NP (DT )(JJ )(NN ){1,2})(NP (DT )(NN ))(CC )(NP (DT )(NN ){1,2}))
+Phase: generated69527
+Input: Token
+Rule: generated69527
+(
+((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))):pttrn69527 --> :pttrn69527.extracted={}
+

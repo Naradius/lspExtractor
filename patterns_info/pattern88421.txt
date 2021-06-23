@@ -1,0 +1,8 @@
+may only occur in a value expression
+(VP (MD )(VP (VB )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated88421
+Input: Token
+Rule: generated88421
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn88421 --> :pttrn88421.extracted={}
+

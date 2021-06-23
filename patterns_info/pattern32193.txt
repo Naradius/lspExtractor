@@ -1,0 +1,8 @@
+a multi-hop and ad hocwireless network with a group of low-priced embedded sensornodes randomly distributed in a monitoring area
+(NP (NP (DT )(JJ )(CC )(NN )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ ){1,2}(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))))))
+Phase: generated32193
+Input: Token
+Rule: generated32193
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))))):pttrn32193 --> :pttrn32193.extracted={}
+

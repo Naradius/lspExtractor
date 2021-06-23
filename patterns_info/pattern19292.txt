@@ -1,0 +1,8 @@
+output tuples that are sentS.S. Gill, P. Garraghan and R. Buyya / The Journal of Systems and Software 154  125138 133 Fig. 9. Use Case Diagram of Smart Home Automation
+(NP (NP (NN )(NNS ))(VP (VBP )(NP (NP (DT )(NNP ))(CC ))))
+Phase: generated19292
+Input: Token
+Rule: generated19292
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC }))))):pttrn19292 --> :pttrn19292.extracted={}
+

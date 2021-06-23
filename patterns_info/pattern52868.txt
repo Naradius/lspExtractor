@@ -1,0 +1,8 @@
+using network coding aware protocolin wireless ad hoc network
+(VP (VBG )(NP (NN )(VBG )(JJ )(NN ))(PP (IN )(NP (NN )(JJ )(NN ))))
+Phase: generated52868
+Input: Token
+Rule: generated52868
+(
+(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == VBG })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))):pttrn52868 --> :pttrn52868.extracted={}
+

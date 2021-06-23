@@ -1,0 +1,8 @@
+a value for the source feature of db or mwdb
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(CC )(NN ))))))
+Phase: generated88746
+Input: Token
+Rule: generated88746
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))))):pttrn88746 --> :pttrn88746.extracted={}
+

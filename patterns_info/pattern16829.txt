@@ -1,0 +1,8 @@
+be difficult or expensive to have the VaNetLayerimplemented in the vehicles, particularly knowing the growinginterest among key stakeholders about vehicular communica-tions using Dedicated Short-Range Communications/WirelessAccess In Vehicular Environments standards
+(VP (VB )(ADJP (JJ )(CC )(JJ ))(VP (TO )(VP (VB )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NNS ))))(VP (VBG )(NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(PP (IN )(NP (NNP )(NNPS )(NNS ))))))))))))
+Phase: generated16829
+Input: Token
+Rule: generated16829
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == NNS }))))))))))))):pttrn16829 --> :pttrn16829.extracted={}
+

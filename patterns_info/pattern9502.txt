@@ -1,0 +1,8 @@
+for comparing any clusteringalgorithms.To the best of our knowledge
+(PP (IN )(VP (VBG )(NP (DT )(NN ))(NP (NP (DT )(JJS ))(PP (IN )(NP (PRP$ )(NN ))))))
+Phase: generated9502
+Input: Token
+Rule: generated9502
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == JJS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))))):pttrn9502 --> :pttrn9502.extracted={}
+

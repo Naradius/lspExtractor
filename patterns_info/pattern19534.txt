@@ -1,0 +1,8 @@
+kWh measuring sen-sor, etc. SHA application monitors the outside activities of homeusing live feed camera and intruder detection system
+(NP (NP (JJ )(NN ){1,2})(NP (NP (FW )(NNP )(NN )(NNS ))(NP (NP (DT )(JJ )(NNS ))(PP (IN )(VP (VP (VBG )(NP (JJ )(NN ){1,2}))(CC ))))))
+Phase: generated19534
+Input: Token
+Rule: generated19534
+(
+((({ Token.category == JJ })({ Token.category == NN })+)((({ Token.category == FW })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+))({ Token.category == CC }))))))):pttrn19534 --> :pttrn19534.extracted={}
+

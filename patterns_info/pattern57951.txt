@@ -1,0 +1,8 @@
+:36679.Oliveira Leonardo B, Ferreira Adrian, Vilaca Marco A, Wong Hao Chi, Bern Marshall,Dahab Ricardo, Loureiro Antonio AF
+(NP (NP (NN )(NNP ){1,2})(NP (NNP ){1,2}(NNS )))
+Phase: generated57951
+Input: Token
+Rule: generated57951
+(
+((({ Token.category == NN })({ Token.category == NNP })+)(({ Token.category == NNP })+({ Token.category == NNS })))):pttrn57951 --> :pttrn57951.extracted={}
+

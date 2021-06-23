@@ -1,0 +1,8 @@
+update theirrouting tables
+(VP (VB )(NP (DT )(NNS )))
+Phase: generated15686
+Input: Token
+Rule: generated15686
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))):pttrn15686 --> :pttrn15686.extracted={}
+

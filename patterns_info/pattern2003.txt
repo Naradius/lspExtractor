@@ -1,0 +1,8 @@
+is large enough due to the diversity of the requirements to the information exchange, characteristics of the transmitted data and functionality of hardware and software
+(VP (VBZ )(ADJP (JJ )(RB ))(PP (JJ )(TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated2003
+Input: Token
+Rule: generated2003
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == RB }))(({ Token.category == JJ })({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn2003 --> :pttrn2003.extracted={}
+

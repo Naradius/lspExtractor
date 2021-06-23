@@ -1,0 +1,8 @@
+im-mediately sends out an M_Heartbeat message to forcethe other nodes into NON-LEADER state
+(VP (VBZ )(PRT (RP ))(NP (DT )(JJ )(NN ))(PP (TO )(NP (DT )(JJ )(NNS )))(PP (IN )(NP (NNP )(NN ))))
+Phase: generated14611
+Input: Token
+Rule: generated14611
+(
+(({ Token.category == VBZ })(({ Token.category == RP }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn14611 --> :pttrn14611.extracted={}
+

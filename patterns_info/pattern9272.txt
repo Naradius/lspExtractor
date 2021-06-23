@@ -1,0 +1,8 @@
+totally distributed
+(ADJP (RB )(VBN ))
+Phase: generated9272
+Input: Token
+Rule: generated9272
+(
+(({ Token.category == RB })({ Token.category == VBN }))):pttrn9272 --> :pttrn9272.extracted={}
+

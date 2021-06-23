@@ -1,0 +1,8 @@
+with metaheuristic algorithms
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated63557
+Input: Token
+Rule: generated63557
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn63557 --> :pttrn63557.extracted={}
+

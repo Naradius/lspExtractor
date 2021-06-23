@@ -1,0 +1,8 @@
+a high entropy in-creases
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated78067
+Input: Token
+Rule: generated78067
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn78067 --> :pttrn78067.extracted={}
+

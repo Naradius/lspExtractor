@@ -1,0 +1,8 @@
+T-ANT, HEED andLEACH.S. Selvakennedy et al
+(NP (NNP ){1,2}(FW )(NN ))
+Phase: generated5377
+Input: Token
+Rule: generated5377
+(
+(({ Token.category == NNP })+({ Token.category == FW })({ Token.category == NN }))):pttrn5377 --> :pttrn5377.extracted={}
+

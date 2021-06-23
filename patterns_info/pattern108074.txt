@@ -1,0 +1,8 @@
+is transferred from source node ni to destination node nj using the RREQ , , Seq
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NN ){1,2}(NNS )))))
+Phase: generated108074
+Input: Token
+Rule: generated108074
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))))):pttrn108074 --> :pttrn108074.extracted={}
+

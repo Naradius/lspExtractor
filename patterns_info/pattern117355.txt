@@ -1,0 +1,8 @@
+a need for a systematic way to compare such representations
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (TO )(VP (VB )(NP (JJ )(NNS )))))))
+Phase: generated117355
+Input: Token
+Rule: generated117355
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn117355 --> :pttrn117355.extracted={}
+

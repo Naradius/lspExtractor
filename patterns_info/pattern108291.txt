@@ -1,0 +1,8 @@
+of Disjoint Routes using Fractional Lion AlgorithmFrom the results of the TOHIP algorithm
+(PP (IN )(NP (NP (NNP )(NNPS ))(VP (VBG )(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated108291
+Input: Token
+Rule: generated108291
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNPS }))(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn108291 --> :pttrn108291.extracted={}
+

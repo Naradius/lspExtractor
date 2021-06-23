@@ -1,0 +1,8 @@
+to its use of tentative CHs that do not ultimatelybecome CHs
+(PP (TO )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (NP (JJ )(NNP ))(VP (VBP )(RB ))))))
+Phase: generated8606
+Input: Token
+Rule: generated8606
+(
+(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == VBP })({ Token.category == RB }))))))):pttrn8606 --> :pttrn8606.extracted={}
+

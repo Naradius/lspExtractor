@@ -1,0 +1,8 @@
+the energy resources and additive QoS metricLEACH  Forms clusters
+(NP (NP (DT )(NN )(NNS ))(CC )(NP (JJ )(NNP )(NNS ){1,2}))
+Phase: generated44488
+Input: Token
+Rule: generated44488
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS })+))):pttrn44488 --> :pttrn44488.extracted={}
+

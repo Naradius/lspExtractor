@@ -1,0 +1,8 @@
+bedesigned for the SNs for inter or intra communication for twoWSN fields
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (NP (NN )(CC )(NN ){1,2})(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated57134
+Input: Token
+Rule: generated57134
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn57134 --> :pttrn57134.extracted={}
+

@@ -1,0 +1,8 @@
+tothe spatial correlation.4.4
+(PP (TO )(NP (JJ )(NN )))
+Phase: generated51346
+Input: Token
+Rule: generated51346
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })))):pttrn51346 --> :pttrn51346.extracted={}
+

@@ -1,0 +1,8 @@
+on the overall videodistortion
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated52072
+Input: Token
+Rule: generated52072
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn52072 --> :pttrn52072.extracted={}
+

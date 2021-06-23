@@ -1,0 +1,8 @@
+the switch-ing delay between frequency bands and back-off delay within agiven frequency band
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(CC )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}))))))
+Phase: generated21832
+Input: Token
+Rule: generated21832
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn21832 --> :pttrn21832.extracted={}
+

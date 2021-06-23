@@ -1,0 +1,8 @@
+analyzed with the attacker node
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated109192
+Input: Token
+Rule: generated109192
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn109192 --> :pttrn109192.extracted={}
+

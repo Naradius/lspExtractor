@@ -1,0 +1,8 @@
+delivered successfully when a contact is establishedbetween two nodes
+(VP (VBN )(WHADVP (WRB )))
+Phase: generated41644
+Input: Token
+Rule: generated41644
+(
+(({ Token.category == VBN })(({ Token.category == WRB })))):pttrn41644 --> :pttrn41644.extracted={}
+

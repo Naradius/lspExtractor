@@ -1,0 +1,8 @@
+the president
+(NP (DT )(NN ))
+Phase: generated100350
+Input: Token
+Rule: generated100350
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn100350 --> :pttrn100350.extracted={}
+

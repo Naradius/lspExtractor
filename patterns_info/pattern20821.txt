@@ -1,0 +1,8 @@
+the FDSdenoted
+(NP (DT )(NNP ))
+Phase: generated20821
+Input: Token
+Rule: generated20821
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn20821 --> :pttrn20821.extracted={}
+

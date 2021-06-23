@@ -1,0 +1,8 @@
+of route establishment anddata transmission phases
+(PP (IN )(NP (NN ){1,2}(CC )(NN )(NNS )))
+Phase: generated11370
+Input: Token
+Rule: generated11370
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))):pttrn11370 --> :pttrn11370.extracted={}
+

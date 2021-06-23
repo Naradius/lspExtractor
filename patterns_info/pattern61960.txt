@@ -1,0 +1,8 @@
+create cloud around the source node to hide the source location with certain probability
+(VP (VB )(PP (IN )(NP (DT )(NN ){1,2}))(VP (TO )(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN )))))))
+Phase: generated61960
+Input: Token
+Rule: generated61960
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn61960 --> :pttrn61960.extracted={}
+

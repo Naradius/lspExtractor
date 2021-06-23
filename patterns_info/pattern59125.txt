@@ -1,0 +1,8 @@
+with respecto energy efficiency
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated59125
+Input: Token
+Rule: generated59125
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn59125 --> :pttrn59125.extracted={}
+

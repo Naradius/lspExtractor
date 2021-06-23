@@ -1,0 +1,8 @@
+the sink nodeusing backbone routing
+(NP (DT )(NN ){1,2})
+Phase: generated61705
+Input: Token
+Rule: generated61705
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn61705 --> :pttrn61705.extracted={}
+

@@ -1,0 +1,8 @@
+apply the patterns selected by the above process to all thesentences and extract the matched phrases
+(VP (VP (VBP )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(PP (TO )(NP (DT )(NNS ))))))(CC )(VP (VB )(NP (DT )(VBN )(NNS ))))
+Phase: generated74406
+Input: Token
+Rule: generated74406
+(
+((({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS }))))))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS }))))):pttrn74406 --> :pttrn74406.extracted={}
+

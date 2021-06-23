@@ -1,0 +1,8 @@
+whichcovers the whole region
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated69096
+Input: Token
+Rule: generated69096
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn69096 --> :pttrn69096.extracted={}
+

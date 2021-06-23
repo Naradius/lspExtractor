@@ -1,0 +1,8 @@
+belong to the initial graph
+(VP (VBP )(PP (TO )(NP (DT )(JJ )(NN ))))
+Phase: generated103433
+Input: Token
+Rule: generated103433
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn103433 --> :pttrn103433.extracted={}
+

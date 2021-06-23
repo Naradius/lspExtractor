@@ -1,0 +1,8 @@
+not com-pliant with general commonsense
+(ADJP (RB )(JJ )(PP (IN )(NP (JJ )(NN ))))
+Phase: generated72007
+Input: Token
+Rule: generated72007
+(
+(({ Token.category == RB })({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn72007 --> :pttrn72007.extracted={}
+

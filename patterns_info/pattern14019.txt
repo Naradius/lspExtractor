@@ -1,0 +1,8 @@
+Data packets
+(NP (NNP )(NNS ))
+Phase: generated14019
+Input: Token
+Rule: generated14019
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn14019 --> :pttrn14019.extracted={}
+

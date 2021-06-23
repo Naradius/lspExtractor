@@ -1,0 +1,8 @@
+the mo-ility model
+(NP (DT )(NN ){1,2})
+Phase: generated65818
+Input: Token
+Rule: generated65818
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn65818 --> :pttrn65818.extracted={}
+

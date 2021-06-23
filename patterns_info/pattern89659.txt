@@ -1,0 +1,8 @@
+the ability to automatically analyse texts byevaluating the output, making changes to rules or knowledge base and evaluating again.Figure 5.1 shows the layout of the user interface as it appears following the automatic anal-ysis of a text
+(NP (DT )(NN ))
+Phase: generated89659
+Input: Token
+Rule: generated89659
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn89659 --> :pttrn89659.extracted={}
+

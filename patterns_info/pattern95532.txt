@@ -1,0 +1,8 @@
+are prunedfrom the rule tree
+(VP (VBP )(VP (VBN )(NP (DT )(NN ){1,2})))
+Phase: generated95532
+Input: Token
+Rule: generated95532
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn95532 --> :pttrn95532.extracted={}
+

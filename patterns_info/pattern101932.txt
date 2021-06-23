@@ -1,0 +1,8 @@
+in some QG systems
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated101932
+Input: Token
+Rule: generated101932
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn101932 --> :pttrn101932.extracted={}
+

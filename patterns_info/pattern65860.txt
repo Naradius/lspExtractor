@@ -1,0 +1,8 @@
+re-lly applicable to unmanned aerial networks
+(ADJP (RB )(JJ )(PP (TO )(NP (JJ ){1,2}(NNS ))))
+Phase: generated65860
+Input: Token
+Rule: generated65860
+(
+(({ Token.category == RB })({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn65860 --> :pttrn65860.extracted={}
+

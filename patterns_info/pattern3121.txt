@@ -1,0 +1,8 @@
+To appreciate this integration, thebasic principles of swarm intelligence are presented next,and then followed by our proposed protocol.3.
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NN )))))))
+Phase: generated3121
+Input: Token
+Rule: generated3121
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn3121 --> :pttrn3121.extracted={}
+

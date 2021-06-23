@@ -1,0 +1,8 @@
+an RST relation
+(NP (DT )(NNP )(NN ))
+Phase: generated117931
+Input: Token
+Rule: generated117931
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn117931 --> :pttrn117931.extracted={}
+

@@ -1,0 +1,8 @@
+can be the use of new trustmechanism for enhancing the routing protocol to provide effectivesecure routing
+(VP (MD )(VP (VB )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2})(VP (TO )(VP (VB )(NP (JJ )(NN )))))))))
+Phase: generated60182
+Input: Token
+Rule: generated60182
+(
+(({ Token.category == MD })(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn60182 --> :pttrn60182.extracted={}
+

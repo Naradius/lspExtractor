@@ -1,0 +1,8 @@
+the gauge to find theglobal near-the-best solution  and the localnear-the-best solution  for the th cluster.4.3
+(NP (NP (DT )(NN ))(VP (TO )(VP (VB )(NP (NP (JJ ){1,2}(NN ))(CC )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated69581
+Input: Token
+Rule: generated69581
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })+({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn69581 --> :pttrn69581.extracted={}
+

@@ -1,0 +1,8 @@
+the results of the simulation experiments,first comparing the VNLayer and the VaNetLayer in termsof virtualization efficiency and then looking at the routingperformance achieved by plain AODV, VNAODV, VNAODV+,and other relevant algorithms
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(VP (VP (VBG )(NP (NP (DT )(NNP ))(CC )))(CC )(VP (VBG )(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (NP (JJ )(NNP ))(CC )(NP (JJ ){1,2}(NNS ))))))))))))
+Phase: generated13251
+Input: Token
+Rule: generated13251
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC })))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP }))({ Token.category == CC })(({ Token.category == JJ })+({ Token.category == NNS }))))))))))))):pttrn13251 --> :pttrn13251.extracted={}
+

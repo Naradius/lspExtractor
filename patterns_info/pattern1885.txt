@@ -1,0 +1,8 @@
+to partitioningEnergyConstraintsMost nodes
+(PP (TO )(NP (NN )(NNS )))
+Phase: generated1885
+Input: Token
+Rule: generated1885
+(
+(({ Token.category == TO })(({ Token.category == NN })({ Token.category == NNS })))):pttrn1885 --> :pttrn1885.extracted={}
+

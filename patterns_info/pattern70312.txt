@@ -1,0 +1,8 @@
+customer,  account, account) use
+(NP (-RRB- )(NN ))
+Phase: generated70312
+Input: Token
+Rule: generated70312
+(
+(({ Token.category == -RRB- })({ Token.category == NN }))):pttrn70312 --> :pttrn70312.extracted={}
+

@@ -1,0 +1,8 @@
+from unstructured text data
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated98259
+Input: Token
+Rule: generated98259
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn98259 --> :pttrn98259.extracted={}
+

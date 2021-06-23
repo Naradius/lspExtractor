@@ -1,0 +1,8 @@
+a descriptionof the attached token
+(NP (DT )(VBG )(DT )(JJ )(NN ))
+Phase: generated92803
+Input: Token
+Rule: generated92803
+(
+(({ Token.category == DT })({ Token.category == VBG })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn92803 --> :pttrn92803.extracted={}
+

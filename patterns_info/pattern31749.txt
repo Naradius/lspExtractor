@@ -1,0 +1,8 @@
+using a binary hash for higher searching speed;Cao et al
+(VP (VBG )(NP (DT )(JJ )(NN ))(PP (IN )(NP (JJR )(NN ){1,2}(CC )(NN ))))
+Phase: generated31749
+Input: Token
+Rule: generated31749
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))):pttrn31749 --> :pttrn31749.extracted={}
+

@@ -1,0 +1,8 @@
+should be carefully studied inrder to determine their challenges for future evaluations and OFesigns
+(VP (MD )(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (PRP$ )(NNS ))(PP (IN )(NP (JJ )(NNS )(CC )(NNS ))))))))
+Phase: generated28853
+Input: Token
+Rule: generated28853
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))))))):pttrn28853 --> :pttrn28853.extracted={}
+

@@ -1,0 +1,8 @@
+This criterion iscapable of avoiding the incomplete path caused by a suddenjump, which exceeds the sensing range of the sensor node.Besides the set of sensor nodes, a cat should also carry thecorresponding velocities to all components.
+(NP (NP (DT )(NN ){1,2})(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))))))))))
+Phase: generated69357
+Input: Token
+Rule: generated69357
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))))))):pttrn69357 --> :pttrn69357.extracted={}
+

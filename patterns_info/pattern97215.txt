@@ -1,0 +1,8 @@
+of tagged corpus
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated97215
+Input: Token
+Rule: generated97215
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn97215 --> :pttrn97215.extracted={}
+

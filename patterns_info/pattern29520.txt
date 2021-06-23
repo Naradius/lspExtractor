@@ -1,0 +1,8 @@
+on to the layer = 0
+(PP (IN )(PP (TO )(NP (DT )(NN )(SYM )(CD ))))
+Phase: generated29520
+Input: Token
+Rule: generated29520
+(
+(({ Token.category == IN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == SYM })({ Token.category == CD }))))):pttrn29520 --> :pttrn29520.extracted={}
+

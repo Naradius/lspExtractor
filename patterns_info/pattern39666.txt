@@ -1,0 +1,8 @@
+improve the overall intru-sion detection
+(VP (VB )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated39666
+Input: Token
+Rule: generated39666
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn39666 --> :pttrn39666.extracted={}
+

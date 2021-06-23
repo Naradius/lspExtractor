@@ -1,0 +1,8 @@
+with adata quality algorithm developed by our research group withbetter results than expected in the research project.6
+(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (PRP$ )(NN ){1,2})))))
+Phase: generated30353
+Input: Token
+Rule: generated30353
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+)))))):pttrn30353 --> :pttrn30353.extracted={}
+

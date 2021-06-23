@@ -1,0 +1,8 @@
+of the phenomenon or a triggeringevent
+(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN ))))
+Phase: generated48546
+Input: Token
+Rule: generated48546
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN }))))):pttrn48546 --> :pttrn48546.extracted={}
+

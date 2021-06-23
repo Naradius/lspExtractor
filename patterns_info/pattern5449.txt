@@ -1,0 +1,8 @@
+of membersamong the clusters
+(PP (IN )(VP (VBG )(NP (DT )(NNS ))))
+Phase: generated5449
+Input: Token
+Rule: generated5449
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn5449 --> :pttrn5449.extracted={}
+

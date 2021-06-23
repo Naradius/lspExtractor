@@ -1,0 +1,8 @@
+LEACH routing
+(NP (NNP )(NN ))
+Phase: generated58042
+Input: Token
+Rule: generated58042
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn58042 --> :pttrn58042.extracted={}
+

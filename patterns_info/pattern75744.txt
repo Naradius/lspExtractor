@@ -1,0 +1,8 @@
+, F = true  W.GrV =  .
+(NP (NP (NNP )(SYM ))(NP (JJ )(NNP )(SYM )))
+Phase: generated75744
+Input: Token
+Rule: generated75744
+(
+((({ Token.category == NNP })({ Token.category == SYM }))(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == SYM })))):pttrn75744 --> :pttrn75744.extracted={}
+

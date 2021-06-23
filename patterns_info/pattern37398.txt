@@ -1,0 +1,8 @@
+to monitor traffic using predefined intrusion signatures
+(VP (TO )(VP (VB )(VP (VBG )(NP (JJ )(NN )(NNS )))))
+Phase: generated37398
+Input: Token
+Rule: generated37398
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn37398 --> :pttrn37398.extracted={}
+

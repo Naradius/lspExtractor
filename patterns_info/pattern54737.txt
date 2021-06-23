@@ -1,0 +1,8 @@
+sending the data to CH to BS.
+(VP (VBG )(NP (DT )(NNS )))
+Phase: generated54737
+Input: Token
+Rule: generated54737
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })))):pttrn54737 --> :pttrn54737.extracted={}
+

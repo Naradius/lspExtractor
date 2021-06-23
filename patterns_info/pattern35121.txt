@@ -1,0 +1,8 @@
+the data book throughput and latency ofthe data blockchain
+(NP (NP (DT )(NN ){1,2})(CC )(NP (RB )(DT )(NNS )(NN )))
+Phase: generated35121
+Input: Token
+Rule: generated35121
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == RB })({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))):pttrn35121 --> :pttrn35121.extracted={}
+

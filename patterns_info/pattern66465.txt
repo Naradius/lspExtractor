@@ -1,0 +1,8 @@
+is assumed as a random network without base station or any clusters
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(PP (IN )(NP (CC )(NP (DT )(NNS ))))))
+Phase: generated66465
+Input: Token
+Rule: generated66465
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn66465 --> :pttrn66465.extracted={}
+

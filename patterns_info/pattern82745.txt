@@ -1,0 +1,8 @@
+looked at WHISK's rule representation
+(VP (VBD )(PP (IN )(NP (NP (NNP )(POS ))(NN ){1,2})))
+Phase: generated82745
+Input: Token
+Rule: generated82745
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN })+)))):pttrn82745 --> :pttrn82745.extracted={}
+

@@ -1,0 +1,8 @@
+may change in a subsequent version.Variables Variables are written as a special case of unquoted string, having an initial un-derscore
+(VP (MD )(VP (VB )(PP (IN )(NP (NP (DT )(JJ )(NN )(NNS ))(VP (VBP )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )))))(VP (VBG )(NP (DT )(JJ )(NN )))))))))
+Phase: generated88342
+Input: Token
+Rule: generated88342
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn88342 --> :pttrn88342.extracted={}
+

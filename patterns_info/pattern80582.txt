@@ -1,0 +1,8 @@
+create separate rules if a relevant phrase can be foundin the subject, direct object, or prepositional phrase
+(VP (VB )(NP (JJ )(NNS ))(IN ))
+Phase: generated80582
+Input: Token
+Rule: generated80582
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == IN }))):pttrn80582 --> :pttrn80582.extracted={}
+

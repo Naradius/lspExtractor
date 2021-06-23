@@ -1,0 +1,8 @@
+a linguistically moti-vated rule-based system
+(NP (DT )(ADJP (RB )(JJ ))(JJ )(NN ))
+Phase: generated96022
+Input: Token
+Rule: generated96022
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NN }))):pttrn96022 --> :pttrn96022.extracted={}
+

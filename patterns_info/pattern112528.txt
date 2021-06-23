@@ -1,0 +1,8 @@
+UAV FANET Intrusion detection system Spectral analysis Robust estimator Drone ad hoc network a b
+(NP (NP (NNP ){1,2}(NN ){1,2})(NP (JJ )(NN )(NNP )(NN )(NNP )(NN ){1,2})(NP (DT )(NN )))
+Phase: generated112528
+Input: Token
+Rule: generated112528
+(
+((({ Token.category == NNP })+({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })))):pttrn112528 --> :pttrn112528.extracted={}
+

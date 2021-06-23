@@ -1,0 +1,8 @@
+Technol., vol. 1
+(NP (NNP )(NN )(CD ))
+Phase: generated17001
+Input: Token
+Rule: generated17001
+(
+(({ Token.category == NNP })({ Token.category == NN })({ Token.category == CD }))):pttrn17001 --> :pttrn17001.extracted={}
+

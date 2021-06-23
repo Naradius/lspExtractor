@@ -1,0 +1,8 @@
+A QoS-guaranteedcoverage precedence routing algorithm for wireless sensor networks.
+(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated57846
+Input: Token
+Rule: generated57846
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn57846 --> :pttrn57846.extracted={}
+

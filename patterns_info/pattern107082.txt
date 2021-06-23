@@ -1,0 +1,8 @@
+of any fixed communications
+(PP (IN )(NP (DT )(VBN )(NNS )))
+Phase: generated107082
+Input: Token
+Rule: generated107082
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS })))):pttrn107082 --> :pttrn107082.extracted={}
+

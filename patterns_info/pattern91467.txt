@@ -1,0 +1,8 @@
+applies an initial state annotator to the unknown words
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2})(PP (TO )(NP (DT )(JJ )(NNS ))))
+Phase: generated91467
+Input: Token
+Rule: generated91467
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn91467 --> :pttrn91467.extracted={}
+

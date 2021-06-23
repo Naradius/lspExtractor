@@ -1,0 +1,8 @@
+by amultihop infrastructureless architecture
+(PP (IN )(NP (JJ ){1,2}(NN )))
+Phase: generated48104
+Input: Token
+Rule: generated48104
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })))):pttrn48104 --> :pttrn48104.extracted={}
+

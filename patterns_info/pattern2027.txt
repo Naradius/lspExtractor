@@ -1,0 +1,8 @@
+of these changes.In reactive or on-demand protocols the routes are generated only when necessary, i.e. data needs to be transmitted.Hybrid protocol combine the techniques of proactive and reactive protocols
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (CC )(NP (NP (JJ )(NNS ))(NP (DT )(NNS )))))))
+Phase: generated2027
+Input: Token
+Rule: generated2027
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn2027 --> :pttrn2027.extracted={}
+

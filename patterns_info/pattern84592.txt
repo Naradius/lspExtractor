@@ -1,0 +1,8 @@
+learned for the BigBook directoryThe delimiters around the rst slot, \ '">'  '</FONT>' " are not in them-selves sucient to identify the Name of the rst entry
+(VP (VBD )(PP (IN )(NP (NP (DT )(NNP )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))(VP (VBG )('' )(IN )))
+Phase: generated84592
+Input: Token
+Rule: generated84592
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))(({ Token.category == VBG })({ Token.category == '' })({ Token.category == IN })))):pttrn84592 --> :pttrn84592.extracted={}
+

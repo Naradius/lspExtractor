@@ -1,0 +1,8 @@
+a minimal difference in performance between the twotopologies
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated43460
+Input: Token
+Rule: generated43460
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn43460 --> :pttrn43460.extracted={}
+

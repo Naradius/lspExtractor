@@ -1,0 +1,8 @@
+a lattice: order on generalizations is set by the subsumption relation and generalization score
+(NP (NP (DT )(NN ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(CC ))))))
+Phase: generated70976
+Input: Token
+Rule: generated70976
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC }))))))):pttrn70976 --> :pttrn70976.extracted={}
+

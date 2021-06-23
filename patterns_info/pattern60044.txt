@@ -1,0 +1,8 @@
+the remaining energy of the CH and the spaceetween the CH and node
+(NP (NP (DT )(VBG )(NN ))(PP (IN )(NP (NP (DT )(NNP ))(CC )(NP (NP (DT )(NN ))(NP (DT )(NNP )(CC )(NN ))))))
+Phase: generated60044
+Input: Token
+Rule: generated60044
+(
+((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN }))))))):pttrn60044 --> :pttrn60044.extracted={}
+

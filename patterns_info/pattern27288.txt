@@ -1,0 +1,8 @@
+f < 16 MHz MCU active mode current @ V
+(PP (IN )(NP (NNP )(CD )(NNP ){1,2}(JJ )(NN )(JJ )(NN )(NNP )))
+Phase: generated27288
+Input: Token
+Rule: generated27288
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })))):pttrn27288 --> :pttrn27288.extracted={}
+

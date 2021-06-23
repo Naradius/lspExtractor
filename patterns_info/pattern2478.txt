@@ -1,0 +1,8 @@
+the best throughput values.As one
+(NP (DT )(JJS )(NN ){1,2})
+Phase: generated2478
+Input: Token
+Rule: generated2478
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+)):pttrn2478 --> :pttrn2478.extracted={}
+

@@ -1,0 +1,8 @@
+need to detectnegation for accurate polarity classification
+(VP (VBP )(VP (TO )(VP (VB )(PP (IN )(NP (JJ )(NN ){1,2})))))
+Phase: generated96053
+Input: Token
+Rule: generated96053
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn96053 --> :pttrn96053.extracted={}
+

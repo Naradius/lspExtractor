@@ -1,0 +1,8 @@
+generated it.For all the components that do not appear in the fragment, the components in the question areused.The verbal information of strong and inflected patterns
+(VP (VBD )(PP (IN )(NP (NP (DT ){1,2}(NNS ))(VP (VBP )(RB )(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(CC )(JJ )(NNS )))))))))))))))
+Phase: generated99922
+Input: Token
+Rule: generated99922
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })+({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS })))))))))))))))):pttrn99922 --> :pttrn99922.extracted={}
+

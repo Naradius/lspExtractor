@@ -1,0 +1,8 @@
+topological and unifor-mity characteristics
+(NP (ADJP (JJ )(CC )(JJ ))(NNS ))
+Phase: generated32048
+Input: Token
+Rule: generated32048
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn32048 --> :pttrn32048.extracted={}
+

@@ -1,0 +1,8 @@
+improve the quality of the received signal byexploiting several single-antenna devices which collabo-rate to create a virtual multiple-antenna transmitter
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(VBN )(NN ))(VP (VBG )(NP (NP (JJ ){1,2}(NNS ))(VP (VBP )(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ){1,2}))))))))))
+Phase: generated50832
+Input: Token
+Rule: generated50832
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))))))))):pttrn50832 --> :pttrn50832.extracted={}
+

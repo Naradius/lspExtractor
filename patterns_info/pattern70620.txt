@@ -1,0 +1,8 @@
+of classifying search results in respect to being relevant and irrelevant to search query
+(PP (IN )(VP (VBG )(NP (NN )(NNS ))))
+Phase: generated70620
+Input: Token
+Rule: generated70620
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn70620 --> :pttrn70620.extracted={}
+

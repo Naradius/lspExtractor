@@ -1,0 +1,8 @@
+over six floors, three ofthem in the basement and another three in height and in whichmore than 250 people work
+(PP (IN )(NP (NP (CD )(NNS ))(NP (NP (CD )(NNP ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(CD )))))))
+Phase: generated29840
+Input: Token
+Rule: generated29840
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))((({ Token.category == CD })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == CD })))))))):pttrn29840 --> :pttrn29840.extracted={}
+

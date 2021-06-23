@@ -1,0 +1,8 @@
+defining patterns that incorporate inter documentreferences in addition to sentence-level dependencies
+(NP (NP (VBG )(NNS ))(VP (VBP )(NP (NN )(NNS ))))
+Phase: generated78325
+Input: Token
+Rule: generated78325
+(
+((({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn78325 --> :pttrn78325.extracted={}
+

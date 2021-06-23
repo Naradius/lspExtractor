@@ -1,0 +1,8 @@
+achieved immediatelyupon the random release of these ants by the sink
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated4359
+Input: Token
+Rule: generated4359
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn4359 --> :pttrn4359.extracted={}
+

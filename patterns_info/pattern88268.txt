@@ -1,0 +1,8 @@
+browsed or edited
+(ADJP (JJ )(CC )(VBN ))
+Phase: generated88268
+Input: Token
+Rule: generated88268
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == VBN }))):pttrn88268 --> :pttrn88268.extracted={}
+

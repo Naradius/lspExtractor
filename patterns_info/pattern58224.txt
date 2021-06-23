@@ -1,0 +1,8 @@
+processing the datafrom
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated58224
+Input: Token
+Rule: generated58224
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn58224 --> :pttrn58224.extracted={}
+

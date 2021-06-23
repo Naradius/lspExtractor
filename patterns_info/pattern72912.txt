@@ -1,0 +1,8 @@
+this end,from the records in our database containing more than 5,60,000knowledge items
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (PRP$ )(NN ))(VP (VBG )(NP (QP (JJR )(IN )(CD ))(NNS ))))))))
+Phase: generated72912
+Input: Token
+Rule: generated72912
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS }))))))))):pttrn72912 --> :pttrn72912.extracted={}
+

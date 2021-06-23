@@ -1,0 +1,8 @@
+the internal network of the energy enterpriseand the external network and the internal network
+(NP (NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))(CC )(NP (DT )(JJ )(NN )))(CC )(NP (DT )(JJ )(NN )))
+Phase: generated34774
+Input: Token
+Rule: generated34774
+(
+((((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn34774 --> :pttrn34774.extracted={}
+

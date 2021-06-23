@@ -1,0 +1,8 @@
+of such questionsis Who
+(PP (IN )(NP (JJ )(NN )(WP )))
+Phase: generated100892
+Input: Token
+Rule: generated100892
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == WP })))):pttrn100892 --> :pttrn100892.extracted={}
+

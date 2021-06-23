@@ -1,0 +1,8 @@
+A Bachir and A. Benslimane
+(NP (NP (DT )(NNP ))(CC ))
+Phase: generated130
+Input: Token
+Rule: generated130
+(
+((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC }))):pttrn130 --> :pttrn130.extracted={}
+

@@ -1,0 +1,8 @@
+via a controlledmobile sink in wireless sensor networks
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated52942
+Input: Token
+Rule: generated52942
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn52942 --> :pttrn52942.extracted={}
+

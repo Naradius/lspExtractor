@@ -1,0 +1,8 @@
+a Progressive Flash-Crowd  attack
+(NP (DT )(JJ )(NNP )(NN ))
+Phase: generated110800
+Input: Token
+Rule: generated110800
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))):pttrn110800 --> :pttrn110800.extracted={}
+

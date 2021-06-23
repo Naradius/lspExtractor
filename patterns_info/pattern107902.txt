@@ -1,0 +1,8 @@
+energy, and less routing distance
+(NP (CC )(NP (JJR )(NN ){1,2}))
+Phase: generated107902
+Input: Token
+Rule: generated107902
+(
+(({ Token.category == CC })(({ Token.category == JJR })({ Token.category == NN })+))):pttrn107902 --> :pttrn107902.extracted={}
+

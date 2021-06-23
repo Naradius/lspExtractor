@@ -1,0 +1,8 @@
+new next_hop values
+(NP (JJ ){1,2}(NNS ))
+Phase: generated15760
+Input: Token
+Rule: generated15760
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn15760 --> :pttrn15760.extracted={}
+

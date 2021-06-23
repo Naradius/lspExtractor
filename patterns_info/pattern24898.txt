@@ -1,0 +1,8 @@
+Competing Interest	Supplementary material	References
+(NP (NNP ){1,2}(NN )(NNS ))
+Phase: generated24898
+Input: Token
+Rule: generated24898
+(
+(({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNS }))):pttrn24898 --> :pttrn24898.extracted={}
+

@@ -1,0 +1,8 @@
+to 439 and the specula-tion rule patterns
+(PP (TO )(NP (CC )(NP (DT )(NN ){1,2}(NNS ))))
+Phase: generated95556
+Input: Token
+Rule: generated95556
+(
+(({ Token.category == TO })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn95556 --> :pttrn95556.extracted={}
+

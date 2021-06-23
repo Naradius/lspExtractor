@@ -1,0 +1,8 @@
+Transformation-Based Error-Driven Learning
+(NP (JJ )(NNP ){1,2})
+Phase: generated91009
+Input: Token
+Rule: generated91009
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn91009 --> :pttrn91009.extracted={}
+

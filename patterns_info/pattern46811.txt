@@ -1,0 +1,8 @@
+is the ability to sustain sen-sor network functionalities without any interrup-tion due to sensor node failures
+(VP (VBZ )(NP (DT )(NN )(VP (TO )(VP (VB )(NP (JJ )(NN )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(ADJP (JJ )(VP (TO )(VP (VB )(NP (NN )(NNS )))))))))))
+Phase: generated46811
+Input: Token
+Rule: generated46811
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))))))))))):pttrn46811 --> :pttrn46811.extracted={}
+

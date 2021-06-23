@@ -1,0 +1,8 @@
+the proposed FL-TOHIP and TOHIP
+(NP (DT )(VBN )(NN )(CC )(NN ))
+Phase: generated109300
+Input: Token
+Rule: generated109300
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn109300 --> :pttrn109300.extracted={}
+

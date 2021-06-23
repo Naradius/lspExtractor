@@ -1,0 +1,8 @@
+an overview of the two modules in Brills system
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(CD )(NNS ))(PP (IN )(NP (NNP )(NN ))))))
+Phase: generated91443
+Input: Token
+Rule: generated91443
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))))):pttrn91443 --> :pttrn91443.extracted={}
+

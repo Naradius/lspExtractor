@@ -1,0 +1,8 @@
+the location information
+(NP (DT )(NN ){1,2})
+Phase: generated36003
+Input: Token
+Rule: generated36003
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn36003 --> :pttrn36003.extracted={}
+

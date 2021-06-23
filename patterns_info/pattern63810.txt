@@ -1,0 +1,8 @@
+lions inaddition of mating and fighting exhibit other behaviors such asspecial style of prey capturing, territorial marking, migration,difference between life style of nomad and resident lions
+(NP (NP (NNS )(NN ))(PP (IN )(VP (VBG )(CC ))))
+Phase: generated63810
+Input: Token
+Rule: generated63810
+(
+((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == CC }))))):pttrn63810 --> :pttrn63810.extracted={}
+

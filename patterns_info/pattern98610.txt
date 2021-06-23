@@ -1,0 +1,8 @@
+be stemmed via lookup table, using b-trees or hash tables
+(VP (VB )(VP (VBN )(VP (VBG )(NP (NNS )(CC )(NN )(NNS )))))
+Phase: generated98610
+Input: Token
+Rule: generated98610
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))))):pttrn98610 --> :pttrn98610.extracted={}
+

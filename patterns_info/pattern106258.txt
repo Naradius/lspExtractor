@@ -1,0 +1,8 @@
+MWU-Aware Part-of-Speech Tagging with a CRF Model and Lexical ResourcesProceedings of the Workshop on Multiword Expressions
+(NP (NP (JJ )(NNP ){1,2})(PP (IN )(NP (NP (DT )(NNP ){1,2})(CC ))))
+Phase: generated106258
+Input: Token
+Rule: generated106258
+(
+((({ Token.category == JJ })({ Token.category == NNP })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC }))))):pttrn106258 --> :pttrn106258.extracted={}
+

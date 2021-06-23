@@ -1,0 +1,8 @@
+the effectiveness
+(NP (DT )(NN ))
+Phase: generated39208
+Input: Token
+Rule: generated39208
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn39208 --> :pttrn39208.extracted={}
+

@@ -1,0 +1,8 @@
+we utilizeFig
+(NP (PRP )(NN ))
+Phase: generated64121
+Input: Token
+Rule: generated64121
+(
+(({ Token.category == PRP })({ Token.category == NN }))):pttrn64121 --> :pttrn64121.extracted={}
+

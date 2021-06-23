@@ -1,0 +1,8 @@
+improved algorithm operation
+(NP (JJ )(NN ){1,2})
+Phase: generated30795
+Input: Token
+Rule: generated30795
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn30795 --> :pttrn30795.extracted={}
+

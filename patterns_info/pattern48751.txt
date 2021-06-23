@@ -1,0 +1,8 @@
+Section 3,especially the hardware constraints such as thelimited power and memory
+(NP (CC )(NP (NP (DT )(NN )(NNS ))(PP (JJ )(IN )(NP (DT )(NN )(CC )(NN )))))
+Phase: generated48751
+Input: Token
+Rule: generated48751
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn48751 --> :pttrn48751.extracted={}
+

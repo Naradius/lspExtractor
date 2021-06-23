@@ -1,0 +1,8 @@
+the rule constituents representing the subject and object
+(NP (NP (DT )(NN )(NNS ))(VP (VBG )(NP (DT )(NN )(CC )(NN ))))
+Phase: generated90344
+Input: Token
+Rule: generated90344
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn90344 --> :pttrn90344.extracted={}
+

@@ -1,0 +1,8 @@
+Personal titles, such as Miss, Dr, Gen.
+(NP (NP (JJ )(NNS ))(PP (JJ )(IN )))
+Phase: generated89026
+Input: Token
+Rule: generated89026
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn89026 --> :pttrn89026.extracted={}
+

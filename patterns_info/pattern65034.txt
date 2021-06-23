@@ -1,0 +1,8 @@
+distributed optimiza-tion and control
+(NP (VBN )(NN )(CC )(NN ))
+Phase: generated65034
+Input: Token
+Rule: generated65034
+(
+(({ Token.category == VBN })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn65034 --> :pttrn65034.extracted={}
+

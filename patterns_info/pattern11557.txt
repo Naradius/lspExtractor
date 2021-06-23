@@ -1,0 +1,8 @@
+the CHs2 Total energy consumed by the CHs to communicate with the data sink The average number of hops to the CHs  Distance to the CH0 All nodes generate a packet with a probability(
+(NP (NP (DT )(NNP ){1,2}(NN ))(VP (VBN )(PP (IN )(NP (DT )(NNP )))(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN ){1,2}))(PP (TO )(NP (DT )(NNP ){1,2}))))))
+Phase: generated11557
+Input: Token
+Rule: generated11557
+(
+((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })+))))))):pttrn11557 --> :pttrn11557.extracted={}
+

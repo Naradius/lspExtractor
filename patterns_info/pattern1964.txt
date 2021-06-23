@@ -1,0 +1,8 @@
+must meet the following requirements
+(VP (MD )(VP (VB )(NP (DT )(JJ )(NNS ))))
+Phase: generated1964
+Input: Token
+Rule: generated1964
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn1964 --> :pttrn1964.extracted={}
+

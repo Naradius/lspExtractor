@@ -1,0 +1,8 @@
+as a shared task
+(PP (IN )(NP (DT )(VBN )(NN )))
+Phase: generated101330
+Input: Token
+Rule: generated101330
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))):pttrn101330 --> :pttrn101330.extracted={}
+

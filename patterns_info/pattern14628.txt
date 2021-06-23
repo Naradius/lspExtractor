@@ -1,0 +1,8 @@
+synchronized backup nodesso
+(NP (JJ ){1,2}(NN ))
+Phase: generated14628
+Input: Token
+Rule: generated14628
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn14628 --> :pttrn14628.extracted={}
+

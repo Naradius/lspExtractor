@@ -1,0 +1,8 @@
+on enabling technologies, protocols, and applications, IEEECommun
+(PP (IN )(NP (NP (VBG )(NNS ))(CC )))
+Phase: generated24729
+Input: Token
+Rule: generated24729
+(
+(({ Token.category == IN })((({ Token.category == VBG })({ Token.category == NNS }))({ Token.category == CC })))):pttrn24729 --> :pttrn24729.extracted={}
+

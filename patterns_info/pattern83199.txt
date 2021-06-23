@@ -1,0 +1,8 @@
+operates correctly on this instance
+(VP (VBZ )(ADJP (RB )(PP (IN )(NP (DT )(NN )))))
+Phase: generated83199
+Input: Token
+Rule: generated83199
+(
+(({ Token.category == VBZ })(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn83199 --> :pttrn83199.extracted={}
+

@@ -1,0 +1,8 @@
+normal nodes
+(NP (JJ )(NNS ))
+Phase: generated53692
+Input: Token
+Rule: generated53692
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn53692 --> :pttrn53692.extracted={}
+

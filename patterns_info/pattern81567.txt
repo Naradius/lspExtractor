@@ -1,0 +1,8 @@
+is a set of text extraction rules that identify relevant information to beextracted.For structured text
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN ){1,2}(NNS ))(VP (VBP )(NP (JJ )(NN )))))))
+Phase: generated81567
+Input: Token
+Rule: generated81567
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn81567 --> :pttrn81567.extracted={}
+

@@ -1,0 +1,8 @@
+forward sophisticated mechanisms
+(NP (ADJP (RB )(JJ ))(NNS ))
+Phase: generated14290
+Input: Token
+Rule: generated14290
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn14290 --> :pttrn14290.extracted={}
+

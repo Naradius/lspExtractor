@@ -1,0 +1,8 @@
+1.958 msfor parameter generation and 3.876 ms about for signature
+(NP (NP (CD )(NN ){1,2})(CC )(NP (NP (CD )(NNS ))(PP (IN )(NP (IN )(NN )))))
+Phase: generated35415
+Input: Token
+Rule: generated35415
+(
+((({ Token.category == CD })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == IN })({ Token.category == NN })))))):pttrn35415 --> :pttrn35415.extracted={}
+

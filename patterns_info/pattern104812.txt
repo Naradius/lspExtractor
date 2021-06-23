@@ -1,0 +1,8 @@
+mentions all kinds of additionalimprovements which could be used to reduce its search space
+(VP (VBZ )(NP (NP (DT )(NNS ))(VP (MD )(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (PRP$ )(NN ){1,2}))))))))
+Phase: generated104812
+Input: Token
+Rule: generated104812
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN })+))))))))):pttrn104812 --> :pttrn104812.extracted={}
+

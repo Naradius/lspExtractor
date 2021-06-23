@@ -1,0 +1,8 @@
+the degradation
+(NP (DT )(NN ))
+Phase: generated50172
+Input: Token
+Rule: generated50172
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn50172 --> :pttrn50172.extracted={}
+

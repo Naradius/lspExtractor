@@ -1,0 +1,8 @@
+CH degree and the distance tohe sink for the choice of CH.
+(NP (NP (NNP )(NN ))(CC ))
+Phase: generated61265
+Input: Token
+Rule: generated61265
+(
+((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC }))):pttrn61265 --> :pttrn61265.extracted={}
+

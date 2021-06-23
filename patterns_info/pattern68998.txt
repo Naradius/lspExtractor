@@ -1,0 +1,8 @@
+Based on this condition
+(PP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated68998
+Input: Token
+Rule: generated68998
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn68998 --> :pttrn68998.extracted={}
+

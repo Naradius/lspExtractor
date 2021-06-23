@@ -1,0 +1,8 @@
+is referred to the web version of this article
+(VP (VBZ )(VP (VBN )(PP (TO )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))))
+Phase: generated111170
+Input: Token
+Rule: generated111170
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn111170 --> :pttrn111170.extracted={}
+

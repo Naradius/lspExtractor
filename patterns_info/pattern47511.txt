@@ -1,0 +1,8 @@
+extreme heat and cold suchas
+(NP (JJ )(NN )(CC )(JJ )(NNS ))
+Phase: generated47511
+Input: Token
+Rule: generated47511
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS }))):pttrn47511 --> :pttrn47511.extracted={}
+

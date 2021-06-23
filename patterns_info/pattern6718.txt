@@ -1,0 +1,8 @@
+converges faster toan optimal or near optimal solution when pheromone isalso reduced drastically from those elements that makeup the worst solution in each iteration
+(VP (VBZ )(NP (NP (JJR )(NN ){1,2})(CC )))
+Phase: generated6718
+Input: Token
+Rule: generated6718
+(
+(({ Token.category == VBZ })((({ Token.category == JJR })({ Token.category == NN })+)({ Token.category == CC })))):pttrn6718 --> :pttrn6718.extracted={}
+

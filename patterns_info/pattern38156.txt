@@ -1,0 +1,8 @@
+the IDS mode change
+(NP (DT )(NNP )(NN ){1,2})
+Phase: generated38156
+Input: Token
+Rule: generated38156
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)):pttrn38156 --> :pttrn38156.extracted={}
+

@@ -1,0 +1,8 @@
+would need to intelligently combinelexicographic and orthographic categories
+(VP (MD )(VP (VB )(VP (TO )(VP (VB )(NP (ADJP (JJ )(CC )(JJ ))(NNS ))))))
+Phase: generated94177
+Input: Token
+Rule: generated94177
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))))))):pttrn94177 --> :pttrn94177.extracted={}
+

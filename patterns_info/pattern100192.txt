@@ -1,0 +1,8 @@
+despite having a simi-lar number of seed/validation pairs
+(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated100192
+Input: Token
+Rule: generated100192
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn100192 --> :pttrn100192.extracted={}
+

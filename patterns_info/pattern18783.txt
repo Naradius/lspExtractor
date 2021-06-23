@@ -1,0 +1,8 @@
+= Global Optimal State 12. Local OptimalState = Local Optimal State 13
+(VP (SYM )(NP (NNP ){1,2}(CD )(NNP ){1,2}(SYM )(NNP ){1,2}(CD )))
+Phase: generated18783
+Input: Token
+Rule: generated18783
+(
+(({ Token.category == SYM })(({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNP })+({ Token.category == SYM })({ Token.category == NNP })+({ Token.category == CD })))):pttrn18783 --> :pttrn18783.extracted={}
+

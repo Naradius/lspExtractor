@@ -1,0 +1,8 @@
+an extra set of 103 questions to the previousset of 29 questions
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (CD )(NNS )))(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NNS ))))))
+Phase: generated100434
+Input: Token
+Rule: generated100434
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))))):pttrn100434 --> :pttrn100434.extracted={}
+

@@ -1,0 +1,8 @@
+is the main component that causesbattery depletion of sensor nodes
+(VP (VBZ )(NP (DT )(JJ )(NN )))
+Phase: generated50753
+Input: Token
+Rule: generated50753
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn50753 --> :pttrn50753.extracted={}
+

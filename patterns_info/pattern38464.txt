@@ -1,0 +1,8 @@
+the correlationagent of the COLIDE model
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated38464
+Input: Token
+Rule: generated38464
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn38464 --> :pttrn38464.extracted={}
+

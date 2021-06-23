@@ -1,0 +1,8 @@
+as a good cut-off pointto filter non-descriptive from descriptive patterns, whichwere observed with too many different relations
+(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(ADJP (JJ )(PP (IN )(NP (NP (NN )(NNS ))(VP (VBD )(PP (IN )(NP (ADJP (RB )(JJ ))(JJ )(NNS )))))))))
+Phase: generated78029
+Input: Token
+Rule: generated78029
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn78029 --> :pttrn78029.extracted={}
+

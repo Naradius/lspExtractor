@@ -1,0 +1,8 @@
+for every dimensionV
+(PP (IN )(NP (DT )(NN )))
+Phase: generated68764
+Input: Token
+Rule: generated68764
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn68764 --> :pttrn68764.extracted={}
+

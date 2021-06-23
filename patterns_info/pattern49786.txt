@@ -1,0 +1,8 @@
+designed in this domain
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated49786
+Input: Token
+Rule: generated49786
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn49786 --> :pttrn49786.extracted={}
+

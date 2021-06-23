@@ -1,0 +1,8 @@
+the original and prunedknowledge items
+(NP (DT )(JJ )(CC )(JJ )(NNS ))
+Phase: generated73275
+Input: Token
+Rule: generated73275
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS }))):pttrn73275 --> :pttrn73275.extracted={}
+

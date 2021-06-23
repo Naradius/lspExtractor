@@ -1,0 +1,8 @@
+as sudden wind and electromagnetism impact
+(PP (IN )(NP (JJ )(NN )(CC )(NN ){1,2}))
+Phase: generated33885
+Input: Token
+Rule: generated33885
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))):pttrn33885 --> :pttrn33885.extracted={}
+

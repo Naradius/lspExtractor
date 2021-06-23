@@ -1,0 +1,8 @@
+handle multiplederivations correctly and efficiently
+(VP (VB )(ADVP (RB )(CC )(RB )))
+Phase: generated104855
+Input: Token
+Rule: generated104855
+(
+(({ Token.category == VB })(({ Token.category == RB })({ Token.category == CC })({ Token.category == RB })))):pttrn104855 --> :pttrn104855.extracted={}
+

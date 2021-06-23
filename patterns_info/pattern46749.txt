@@ -1,0 +1,8 @@
+isdetermined locally within the clusters and then it isforwarded to the base station
+(VP (VP (VBN )(PP (IN )(NP (DT )(NNS ))))(CC )(VP (VBD )(PP (TO )(NP (DT )(NN ){1,2}))))
+Phase: generated46749
+Input: Token
+Rule: generated46749
+(
+((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn46749 --> :pttrn46749.extracted={}
+

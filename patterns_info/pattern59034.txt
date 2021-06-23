@@ -1,0 +1,8 @@
+two hidden layers
+(NP (CD )(JJ )(NNS ))
+Phase: generated59034
+Input: Token
+Rule: generated59034
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn59034 --> :pttrn59034.extracted={}
+

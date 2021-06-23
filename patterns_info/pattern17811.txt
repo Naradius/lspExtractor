@@ -1,0 +1,8 @@
+by the Random Way Point  model
+(PP (IN )(NP (DT )(NNP ){1,2}(NN )))
+Phase: generated17811
+Input: Token
+Rule: generated17811
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))):pttrn17811 --> :pttrn17811.extracted={}
+

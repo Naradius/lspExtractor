@@ -1,0 +1,8 @@
+wasimplemented on a parallel computer
+(VP (VBD )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated80491
+Input: Token
+Rule: generated80491
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn80491 --> :pttrn80491.extracted={}
+

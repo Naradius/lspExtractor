@@ -1,0 +1,8 @@
+the members before join withhe CH
+(NP (NP (DT )(NNS ))(PP (IN )(VP (VBG )(NP (DT )(NNP )))))
+Phase: generated59282
+Input: Token
+Rule: generated59282
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn59282 --> :pttrn59282.extracted={}
+

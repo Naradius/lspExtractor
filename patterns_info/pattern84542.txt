@@ -1,0 +1,8 @@
+a single web page
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated84542
+Input: Token
+Rule: generated84542
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn84542 --> :pttrn84542.extracted={}
+

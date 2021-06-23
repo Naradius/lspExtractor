@@ -1,0 +1,8 @@
+4 Initial energy
+(NP (CD )(JJ )(NN ))
+Phase: generated62142
+Input: Token
+Rule: generated62142
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))):pttrn62142 --> :pttrn62142.extracted={}
+

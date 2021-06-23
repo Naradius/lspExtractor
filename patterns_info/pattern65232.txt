@@ -1,0 +1,8 @@
+to Internet-onnective objects
+(PP (TO )(NP (JJ )(NNS )))
+Phase: generated65232
+Input: Token
+Rule: generated65232
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn65232 --> :pttrn65232.extracted={}
+

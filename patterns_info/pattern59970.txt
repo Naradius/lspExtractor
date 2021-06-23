@@ -1,0 +1,8 @@
+shows the current energy levels of all the sensor nodesefore the FND for SCENARIO #1 and SCENARIO #2
+(VP (VBZ )(NP (NP (NP (DT )(JJ )(NN )(NNS ))(PP (IN )(NP (PDT )(DT )(NN ))))(NP (NP (DT )(NNP ))(PP (IN )(NP (CC )(NP (# )(CD )))))))
+Phase: generated59970
+Input: Token
+Rule: generated59970
+(
+(({ Token.category == VBZ })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PDT })({ Token.category == DT })({ Token.category == NN }))))((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == # })({ Token.category == CD })))))))):pttrn59970 --> :pttrn59970.extracted={}
+

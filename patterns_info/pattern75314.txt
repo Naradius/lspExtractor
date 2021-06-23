@@ -1,0 +1,8 @@
+can see from the top extracted phrases for thethree MedHelp forums, our system uncovers novel terms forSCs and DTs, some of which refer to lesser-known home remed-ies  and componentsof daily care and management
+(VP (MD )(VP (VB )(PP (IN )(NP (DT )(JJ ){1,2}(NNS )))(PP (IN )(NP (NP (NP (DT )(NNP )(NNS ))(NP (NP (PRP$ )(NN )(NNS ))(JJ )(NNS ){1,2})(CC ))(VP (VBP )(PP (TO )(NP (NP (JJ )(NN )(NNS ))(CC )(NP (JJ ){1,2}(NN )(CC )(NN )))))))))
+Phase: generated75314
+Input: Token
+Rule: generated75314
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))((({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NNS })+)({ Token.category == CC }))(({ Token.category == VBP })(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))))))):pttrn75314 --> :pttrn75314.extracted={}
+

@@ -1,0 +1,8 @@
+of residual energy of the neighboring nodes anddefined as follows:pi rejPjANirejwhere rej is the residual energy of the node j and Ni is the set ofneighboring nodes of i and pi is the normalized preference of nodei
+(PP (IN )(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(VBG )(NNS ))))(CC )))
+Phase: generated54049
+Input: Token
+Rule: generated54049
+(
+(({ Token.category == IN })(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))))({ Token.category == CC })))):pttrn54049 --> :pttrn54049.extracted={}
+

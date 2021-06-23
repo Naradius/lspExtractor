@@ -1,0 +1,8 @@
+in the resulting host graph
+(PP (IN )(NP (DT )(VBG )(NN ){1,2}))
+Phase: generated102568
+Input: Token
+Rule: generated102568
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })+))):pttrn102568 --> :pttrn102568.extracted={}
+

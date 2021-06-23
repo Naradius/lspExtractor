@@ -1,0 +1,8 @@
+the nodes orwhole network
+(NP (DT )(NNS )(NN ){1,2})
+Phase: generated48534
+Input: Token
+Rule: generated48534
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+)):pttrn48534 --> :pttrn48534.extracted={}
+

@@ -1,0 +1,8 @@
+a prior lookup process
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated90499
+Input: Token
+Rule: generated90499
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn90499 --> :pttrn90499.extracted={}
+

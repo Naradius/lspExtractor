@@ -1,0 +1,8 @@
+overlooked Language independence approach is preferred
+(VP (VBN )(NP (JJ )(NN ){1,2}))
+Phase: generated96548
+Input: Token
+Rule: generated96548
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn96548 --> :pttrn96548.extracted={}
+

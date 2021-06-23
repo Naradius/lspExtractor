@@ -1,0 +1,8 @@
+for one or more words and allows diversity
+(PP (IN )(NP (CD )(CC )(JJR )(NNS )(CC )(NNS )(NN )))
+Phase: generated99162
+Input: Token
+Rule: generated99162
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == CC })({ Token.category == JJR })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN })))):pttrn99162 --> :pttrn99162.extracted={}
+

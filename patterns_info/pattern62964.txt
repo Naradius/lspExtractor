@@ -1,0 +1,8 @@
+i = E total
+(NP (FW )(SYM )(NNP )(NN ))
+Phase: generated62964
+Input: Token
+Rule: generated62964
+(
+(({ Token.category == FW })({ Token.category == SYM })({ Token.category == NNP })({ Token.category == NN }))):pttrn62964 --> :pttrn62964.extracted={}
+

@@ -1,0 +1,8 @@
+Parmenides and GATE architectures
+(NP (CC )(NP (NNP )(NNS )))
+Phase: generated90487
+Input: Token
+Rule: generated90487
+(
+(({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn90487 --> :pttrn90487.extracted={}
+

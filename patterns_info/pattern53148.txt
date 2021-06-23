@@ -1,0 +1,8 @@
+p1  neighborsand
+(NP (DT )(NN ))
+Phase: generated53148
+Input: Token
+Rule: generated53148
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn53148 --> :pttrn53148.extracted={}
+

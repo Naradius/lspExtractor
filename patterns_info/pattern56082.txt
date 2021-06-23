@@ -1,0 +1,8 @@
+focused onsource based routing and minimum cost forwarding methods forheterogeneous WSNs
+(VP (VBN )(NP (ADJP (RB )(VBN ))(JJ )(CC )(NP (JJ )(NN )(VBG )(NNS ))(NP (JJ )(NNP ))))
+Phase: generated56082
+Input: Token
+Rule: generated56082
+(
+(({ Token.category == VBN })((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == JJ })({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNP }))))):pttrn56082 --> :pttrn56082.extracted={}
+

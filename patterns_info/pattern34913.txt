@@ -1,0 +1,8 @@
+as to actively explore and repairthe existing vulnerabilities and avoid security threats.Security risks such as storage and transmission of keys in theblockchain IoT still exist, and hackers can directly obtain controlof user data or assets by stealing the users private key
+(PP (IN )(VP (TO )(VP (VP (VB )(CC )(VB )(NP (VBG )(NNS )))(CC ))))
+Phase: generated34913
+Input: Token
+Rule: generated34913
+(
+(({ Token.category == IN })(({ Token.category == TO })((({ Token.category == VB })({ Token.category == CC })({ Token.category == VB })(({ Token.category == VBG })({ Token.category == NNS })))({ Token.category == CC }))))):pttrn34913 --> :pttrn34913.extracted={}
+

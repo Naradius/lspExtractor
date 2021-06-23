@@ -1,0 +1,8 @@
+demonstrate how the generalization framework yields generalization diagrams for semantic classification
+(VP (VBP )(WHADVP (WRB )))
+Phase: generated70988
+Input: Token
+Rule: generated70988
+(
+(({ Token.category == VBP })(({ Token.category == WRB })))):pttrn70988 --> :pttrn70988.extracted={}
+

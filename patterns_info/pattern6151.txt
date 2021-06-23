@@ -1,0 +1,8 @@
+summarized in the final sectionwith some directions for further work.2
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated6151
+Input: Token
+Rule: generated6151
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn6151 --> :pttrn6151.extracted={}
+

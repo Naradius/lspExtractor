@@ -1,0 +1,8 @@
+in the corpus
+(PP (IN )(NP (DT )(FW )))
+Phase: generated96610
+Input: Token
+Rule: generated96610
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == FW })))):pttrn96610 --> :pttrn96610.extracted={}
+

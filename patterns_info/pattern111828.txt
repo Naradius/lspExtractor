@@ -1,0 +1,8 @@
+allows us to test our methodology withouthe use of a real UAV and gives us better control over its networkraffics
+(VP (VP (VBZ )(VP (TO )(VP (VB )(NP (PRP$ )(NN )))))(CC )(VP (VBZ )(NP (NP (JJR )(NN ))(PP (IN )(NP (PRP$ )(NNS ))))))
+Phase: generated111828
+Input: Token
+Rule: generated111828
+(
+((({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN })))))({ Token.category == CC })(({ Token.category == VBZ })((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))))):pttrn111828 --> :pttrn111828.extracted={}
+

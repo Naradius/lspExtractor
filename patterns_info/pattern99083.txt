@@ -1,0 +1,8 @@
+the frequent patterns that relate a question to its correct answer
+(NP (NP (NP (DT )(JJ )(NNS ))(VP (VBP )(NP (DT )(NN ))))(PP (TO )(NP (PRP$ )(JJ )(NN ))))
+Phase: generated99083
+Input: Token
+Rule: generated99083
+(
+(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))):pttrn99083 --> :pttrn99083.extracted={}
+

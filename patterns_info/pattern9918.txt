@@ -1,0 +1,8 @@
+found out by the Received Signal Strength .However
+(VP (VBN )(PRT (RP ))(PP (IN )(NP (DT )(NNPS )(NNP ){1,2})))
+Phase: generated9918
+Input: Token
+Rule: generated9918
+(
+(({ Token.category == VBN })(({ Token.category == RP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNPS })({ Token.category == NNP })+)))):pttrn9918 --> :pttrn9918.extracted={}
+

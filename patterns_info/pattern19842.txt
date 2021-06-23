@@ -1,0 +1,8 @@
+for a systemo react
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated19842
+Input: Token
+Rule: generated19842
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn19842 --> :pttrn19842.extracted={}
+

@@ -1,0 +1,8 @@
+The platform
+(NP (DT )(NN ))
+Phase: generated63122
+Input: Token
+Rule: generated63122
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn63122 --> :pttrn63122.extracted={}
+

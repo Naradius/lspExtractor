@@ -1,0 +1,8 @@
+of Exact Sciences
+(PP (IN )(NP (NNP )(NNPS )))
+Phase: generated12589
+Input: Token
+Rule: generated12589
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNPS })))):pttrn12589 --> :pttrn12589.extracted={}
+

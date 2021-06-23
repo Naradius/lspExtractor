@@ -1,0 +1,8 @@
+has an opportunity to store a copy of the bill.The IoT node
+(VP (VBZ )(NP (DT )(NN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(CD )(NNP )(NN ))))))))
+Phase: generated34387
+Input: Token
+Rule: generated34387
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN }))))))))):pttrn34387 --> :pttrn34387.extracted={}
+

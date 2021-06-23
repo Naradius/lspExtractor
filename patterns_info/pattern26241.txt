@@ -1,0 +1,8 @@
+the aim of mitigating the nodes energyonsumption to prolong the networks lifetime
+(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (DT )(NNS )(NN ))(VP (TO )(VP (VB )(NP (DT )(NNS )(NN )))))))
+Phase: generated26241
+Input: Token
+Rule: generated26241
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))))))):pttrn26241 --> :pttrn26241.extracted={}
+

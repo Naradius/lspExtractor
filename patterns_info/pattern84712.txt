@@ -1,0 +1,8 @@
+ten points
+(NP (CD )(NNS ))
+Phase: generated84712
+Input: Token
+Rule: generated84712
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn84712 --> :pttrn84712.extracted={}
+

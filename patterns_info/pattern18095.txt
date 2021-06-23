@@ -1,0 +1,8 @@
+the detouring path problem
+(NP (DT )(NN ){1,2})
+Phase: generated18095
+Input: Token
+Rule: generated18095
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn18095 --> :pttrn18095.extracted={}
+

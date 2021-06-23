@@ -1,0 +1,8 @@
++ + + +Remote surveillance     +
+(NP (NNP ){1,2}(NN ){1,2})
+Phase: generated49580
+Input: Token
+Rule: generated49580
+(
+(({ Token.category == NNP })+({ Token.category == NN })+)):pttrn49580 --> :pttrn49580.extracted={}
+

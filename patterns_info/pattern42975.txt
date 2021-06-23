@@ -1,0 +1,8 @@
+nodes density in DRHT and TSP.Fig
+(NP (NP (NNS )(NN ))(PP (IN )(NP (NNP )(CC )(NNP ))))
+Phase: generated42975
+Input: Token
+Rule: generated42975
+(
+((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn42975 --> :pttrn42975.extracted={}
+

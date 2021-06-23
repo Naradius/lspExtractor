@@ -1,0 +1,8 @@
+a colon or begins with indentation.Figure 15 shows the procedure to extend a rule
+(NP (NP (DT )(NN ))(CC )(VP (VBZ )(PP (IN )(NP (NP (NN )(CD )(NNS ))(NP (DT )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN ))))))))
+Phase: generated83412
+Input: Token
+Rule: generated83412
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn83412 --> :pttrn83412.extracted={}
+

@@ -1,0 +1,8 @@
+can learn correct labels using thecontext features
+(VP (MD )(VP (VB )(NP (JJ )(NNS ))(VP (VBG )(NP (JJ )(NNS )))))
+Phase: generated74752
+Input: Token
+Rule: generated74752
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn74752 --> :pttrn74752.extracted={}
+

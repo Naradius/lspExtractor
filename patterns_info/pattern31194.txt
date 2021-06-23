@@ -1,0 +1,8 @@
+will beapplied to the data collected by the same IoT network but usingthe IoT network slicing technique
+(VP (MD )(VP (VB )(PP (TO )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNP )(NN )))(PP (CC )(NP (DT )(NNP )(NN ){1,2})))))))
+Phase: generated31194
+Input: Token
+Rule: generated31194
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))))))):pttrn31194 --> :pttrn31194.extracted={}
+

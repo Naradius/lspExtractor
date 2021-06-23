@@ -1,0 +1,8 @@
+theartificial agent
+(NP (JJ )(NN ))
+Phase: generated69182
+Input: Token
+Rule: generated69182
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn69182 --> :pttrn69182.extracted={}
+

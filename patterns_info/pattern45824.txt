@@ -1,0 +1,8 @@
+Networks,I-SPAN 2000
+(NP (NNP ){1,2}(CD ))
+Phase: generated45824
+Input: Token
+Rule: generated45824
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn45824 --> :pttrn45824.extracted={}
+

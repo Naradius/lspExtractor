@@ -1,0 +1,8 @@
+focus on individual cue-scope pair de-tection
+(VP (VB )(PP (IN )(NP (JJ )(NN ){1,2})))
+Phase: generated95857
+Input: Token
+Rule: generated95857
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn95857 --> :pttrn95857.extracted={}
+

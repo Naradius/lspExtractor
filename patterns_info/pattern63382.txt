@@ -1,0 +1,8 @@
+is much shorter in the SLPRR thanhe SLPHL scheme
+(VP (VBZ )(ADJP (RB )(JJR ))(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (NNP )(NN ))))))
+Phase: generated63382
+Input: Token
+Rule: generated63382
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == JJR }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))))):pttrn63382 --> :pttrn63382.extracted={}
+

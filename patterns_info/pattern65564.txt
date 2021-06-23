@@ -1,0 +1,8 @@
+create a computation overhead tohe sensor networks
+(VP (VB )(NP (DT )(NN ){1,2})(NP (DT )(NN )(NNS )))
+Phase: generated65564
+Input: Token
+Rule: generated65564
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn65564 --> :pttrn65564.extracted={}
+

@@ -1,0 +1,8 @@
+evaluate the HDRP protocol in comparison with other classicDTN protocols and then under TSP-based and DRHT-based topologies.The following diagram  perhaps better describes the simulationprocess.Table 3 summarizes the configuration of the simulation used to ana-lyze the performance of the HDRP.7.2
+(VP (VP (VB )(NP (DT )(NNP )(NN )))(CC )(ADVP (RB )(RBR )))
+Phase: generated42407
+Input: Token
+Rule: generated42407
+(
+((({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == RB })({ Token.category == RBR })))):pttrn42407 --> :pttrn42407.extracted={}
+

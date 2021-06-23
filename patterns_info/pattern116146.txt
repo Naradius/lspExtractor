@@ -1,0 +1,8 @@
+building conceptual structure from individual sentences
+(VP (VBG )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated116146
+Input: Token
+Rule: generated116146
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn116146 --> :pttrn116146.extracted={}
+

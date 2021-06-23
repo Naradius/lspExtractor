@@ -1,0 +1,8 @@
+encrypted with an encryption algo-rithm
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated62111
+Input: Token
+Rule: generated62111
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn62111 --> :pttrn62111.extracted={}
+

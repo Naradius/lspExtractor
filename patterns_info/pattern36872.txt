@@ -1,0 +1,8 @@
+to ensure that the datais not forged and can be tampered with
+(VP (TO )(VP (VB )(IN )))
+Phase: generated36872
+Input: Token
+Rule: generated36872
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))):pttrn36872 --> :pttrn36872.extracted={}
+

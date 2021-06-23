@@ -1,0 +1,8 @@
+the applicability
+(NP (DT )(NN ))
+Phase: generated92478
+Input: Token
+Rule: generated92478
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn92478 --> :pttrn92478.extracted={}
+

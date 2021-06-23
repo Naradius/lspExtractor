@@ -1,0 +1,8 @@
+more than 45
+(QP (JJR )(IN )(CD ))
+Phase: generated20030
+Input: Token
+Rule: generated20030
+(
+(({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))):pttrn20030 --> :pttrn20030.extracted={}
+

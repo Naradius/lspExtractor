@@ -1,0 +1,8 @@
+P of1 , 2 DET 1 , 2%
+(NP (NNP )(CD ){1,2}(NNP )(CD ){1,2}(NN ))
+Phase: generated105562
+Input: Token
+Rule: generated105562
+(
+(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NN }))):pttrn105562 --> :pttrn105562.extracted={}
+

@@ -1,0 +1,8 @@
+solve resource schedulingroblems due to  usefulness and easiness with less computationost and  achieving global minima relatively quickly
+(VP (VP (VB )(NP (NP (NN )(NNS ))(ADJP (JJ )(PP (TO )(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (JJR )(NN ))))))))(CC )(VP (VBG )(NP (JJ )(NN ))))
+Phase: generated21046
+Input: Token
+Rule: generated21046
+(
+((({ Token.category == VB })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN }))))))))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn21046 --> :pttrn21046.extracted={}
+

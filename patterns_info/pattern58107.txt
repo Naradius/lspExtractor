@@ -1,0 +1,8 @@
+Modified energy-efficientprotocol for wireless sensor networks
+(NP (NP (NNP )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated58107
+Input: Token
+Rule: generated58107
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn58107 --> :pttrn58107.extracted={}
+

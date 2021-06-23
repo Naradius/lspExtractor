@@ -1,0 +1,8 @@
+to be noted that allthese computations and comparisons must becarried out for a given, in most cases applicationspecific
+(VP (TO )(VP (VB )(VP (VBN )(IN ))))
+Phase: generated45188
+Input: Token
+Rule: generated45188
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN }))))):pttrn45188 --> :pttrn45188.extracted={}
+

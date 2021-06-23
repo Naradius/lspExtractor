@@ -1,0 +1,8 @@
+made simulation experi-ments in an environment that combines the network simulatorns-3  and the Simulation of Urban MObility  .On the one hand
+(VP (VBN )(NP (NN )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NN ){1,2})(CC ))))))
+Phase: generated16038
+Input: Token
+Rule: generated16038
+(
+(({ Token.category == VBN })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC }))))))):pttrn16038 --> :pttrn16038.extracted={}
+

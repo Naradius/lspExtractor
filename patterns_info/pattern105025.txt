@@ -1,0 +1,8 @@
+user interfaces from constraint multiset gram-mars
+(NP (NP (NN )(NNS ))(PP (IN )(NP (NN )(JJ )(NNS ))))
+Phase: generated105025
+Input: Token
+Rule: generated105025
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn105025 --> :pttrn105025.extracted={}
+

@@ -1,0 +1,8 @@
+is shown that the VaNetLayer canaccommodate greater traffic loads than the VNLayer becauseits figures are consistently better in terms of VN availability andvirtualization overhead
+(VP (VBZ )(VP (VBN )(IN )))
+Phase: generated16401
+Input: Token
+Rule: generated16401
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == IN })))):pttrn16401 --> :pttrn16401.extracted={}
+

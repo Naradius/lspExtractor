@@ -1,0 +1,8 @@
+A Finite-state FrameworkIn this section
+(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated106795
+Input: Token
+Rule: generated106795
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn106795 --> :pttrn106795.extracted={}
+

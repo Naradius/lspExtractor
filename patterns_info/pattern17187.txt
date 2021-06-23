@@ -1,0 +1,8 @@
+detect and announce the accurate locations, radio ranges of all nodes are same and thus link is bidirectional,  changes in the topology are slow comparable to the announcements so nodes have a consistent view of local network
+(VP (CC )(VP (VBP )(NP (NP (DT )(JJ )(NNS ))(NP (NP (NN )(NNS ))(PP (IN )(NP (DT )(NNS )))))))
+Phase: generated17187
+Input: Token
+Rule: generated17187
+(
+(({ Token.category == CC })(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn17187 --> :pttrn17187.extracted={}
+

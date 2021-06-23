@@ -1,0 +1,8 @@
+upon the applications and envir-onment for which the WSN is operating.AcknowledgmentsAuthors
+(PP (IN )(NP (NP (DT )(NNS )(CC )(NN ))(NP (DT )(NNP ))))
+Phase: generated57683
+Input: Token
+Rule: generated57683
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NNP }))))):pttrn57683 --> :pttrn57683.extracted={}
+

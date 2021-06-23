@@ -1,0 +1,8 @@
+through replicator dynamics	Performance evaluation	Conclusions and future work	References
+(PP (IN )(NP (NP (NN )(NNS ))(NP (NP (NNP )(NN )(NNS ))(CC )(NP (JJ )(NN )(NNS )))))
+Phase: generated24705
+Input: Token
+Rule: generated24705
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn24705 --> :pttrn24705.extracted={}
+

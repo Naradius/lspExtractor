@@ -1,0 +1,8 @@
+discard useless sub-derivations as soon as possible.Over here we will sketch the main ideas of such a parsing algorithm
+(VP (VB )(NP (JJ )(NNS )))
+Phase: generated103608
+Input: Token
+Rule: generated103608
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn103608 --> :pttrn103608.extracted={}
+

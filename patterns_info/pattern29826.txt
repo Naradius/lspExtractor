@@ -1,0 +1,8 @@
+for theregion of Castilla y Leon as well as nationally  and eveninternationally
+(PP (IN )(NP (CONJP (RB ){1,2}(IN ))(ADVP (RB )(CC )(RB ))))
+Phase: generated29826
+Input: Token
+Rule: generated29826
+(
+(({ Token.category == IN })((({ Token.category == RB })+({ Token.category == IN }))(({ Token.category == RB })({ Token.category == CC })({ Token.category == RB }))))):pttrn29826 --> :pttrn29826.extracted={}
+

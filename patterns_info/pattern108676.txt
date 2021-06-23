@@ -1,0 +1,8 @@
+the function of Xn and the subvectors of both cmX  and cfX
+(NP (NP (DT )(NN ))(PP (IN )(NP (CC )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS )(CC )(NNS )))))))
+Phase: generated108676
+Input: Token
+Rule: generated108676
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))))))):pttrn108676 --> :pttrn108676.extracted={}
+

@@ -1,0 +1,8 @@
+morethan 5000 relations defined in the FREEBASE knowledgebase
+(NP (NP (JJR )(CD )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN )))))
+Phase: generated75973
+Input: Token
+Rule: generated75973
+(
+((({ Token.category == JJR })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn75973 --> :pttrn75973.extracted={}
+

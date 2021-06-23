@@ -1,0 +1,8 @@
+to match exactly with the text.3.2.3
+(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN )))))
+Phase: generated92750
+Input: Token
+Rule: generated92750
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn92750 --> :pttrn92750.extracted={}
+

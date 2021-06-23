@@ -1,0 +1,8 @@
+locates the CH using thebroadcast message
+(VP (VBZ )(NP (NP (DT )(NNP ))(VP (VBG )(NP (DT )(NN )))))
+Phase: generated54732
+Input: Token
+Rule: generated54732
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))))):pttrn54732 --> :pttrn54732.extracted={}
+

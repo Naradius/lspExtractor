@@ -1,0 +1,8 @@
+has all the data from theCMs, the CH aggregates and fused the data to the BS.
+(VP (VP (VBZ )(NP (NP (DT ){1,2}(NNS ))(PP (IN )(NP (DT ){1,2}(NNP )(NNS )))))(CC )(VP (VBD )(NP (DT )(NNS ))(PP (TO )(NP (DT )(NNP )))))
+Phase: generated58477
+Input: Token
+Rule: generated58477
+(
+((({ Token.category == VBZ })((({ Token.category == DT })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })+({ Token.category == NNP })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn58477 --> :pttrn58477.extracted={}
+

@@ -1,0 +1,8 @@
+both sides of the production
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated104377
+Input: Token
+Rule: generated104377
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn104377 --> :pttrn104377.extracted={}
+

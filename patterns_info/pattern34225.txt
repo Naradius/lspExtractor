@@ -1,0 +1,8 @@
+is to limit the broadcast range oftransaction data, and to limit the transmission of transaction databetween some key nodes
+(VP (VBZ )(VP (VP (TO )(VP (VB )(NP (DT )(NN ){1,2})(NP (NN )(NNS ))))(CC )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(JJ )(NNS )))))))
+Phase: generated34225
+Input: Token
+Rule: generated34225
+(
+(({ Token.category == VBZ })((({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == NN })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn34225 --> :pttrn34225.extracted={}
+

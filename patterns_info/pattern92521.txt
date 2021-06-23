@@ -1,0 +1,8 @@
+solely focusing on recognizingentities.3
+(VP (VBG )(PP (IN )(NP (NNS )(CD ))))
+Phase: generated92521
+Input: Token
+Rule: generated92521
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CD }))))):pttrn92521 --> :pttrn92521.extracted={}
+

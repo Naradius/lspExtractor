@@ -1,0 +1,8 @@
+possible and maintainufficient
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated66654
+Input: Token
+Rule: generated66654
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn66654 --> :pttrn66654.extracted={}
+

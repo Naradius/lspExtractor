@@ -1,0 +1,8 @@
+based intelli-ent routing algorithm for WSN by applying unequal clustering ofodes and proved that their work enhanced the network lifetimeonsiderably
+(VP (VBN )(NP (JJ )(NN ){1,2})(PP (IN )(VP (VP (VBG )(NP (JJ )(NN )(NNS )))(CC )(VP (VBD )(IN )))))
+Phase: generated61391
+Input: Token
+Rule: generated61391
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == VBD })({ Token.category == IN })))))):pttrn61391 --> :pttrn61391.extracted={}
+

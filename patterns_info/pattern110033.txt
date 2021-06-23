@@ -1,0 +1,8 @@
+two completely different attack signatures
+(NP (CD )(ADJP (RB )(JJ ))(NN )(NNS ))
+Phase: generated110033
+Input: Token
+Rule: generated110033
+(
+(({ Token.category == CD })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })({ Token.category == NNS }))):pttrn110033 --> :pttrn110033.extracted={}
+

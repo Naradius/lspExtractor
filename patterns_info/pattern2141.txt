@@ -1,0 +1,8 @@
+starts with the reception of the information to be transmitted to the other node
+(VP (VBZ )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(VP (TO )(VP (VB )(VP (VBN )(PP (TO )(NP (DT )(JJ )(NN )))))))))
+Phase: generated2141
+Input: Token
+Rule: generated2141
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn2141 --> :pttrn2141.extracted={}
+

@@ -1,0 +1,8 @@
+according to its datasheet
+(PP (VBG )(PP (TO )(NP (PRP$ )(NN ))))
+Phase: generated29929
+Input: Token
+Rule: generated29929
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn29929 --> :pttrn29929.extracted={}
+

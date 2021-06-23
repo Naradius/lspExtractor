@@ -1,0 +1,8 @@
+by using DTN networks
+(PP (IN )(VP (VBG )(NP (NNP )(NNS ))))
+Phase: generated40291
+Input: Token
+Rule: generated40291
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn40291 --> :pttrn40291.extracted={}
+

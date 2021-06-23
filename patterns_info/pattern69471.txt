@@ -1,0 +1,8 @@
+the weights and4=1 = 1
+(NP (NP (DT )(NNS ))(PP (IN )(NP (SYM )(CD ))))
+Phase: generated69471
+Input: Token
+Rule: generated69471
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == SYM })({ Token.category == CD }))))):pttrn69471 --> :pttrn69471.extracted={}
+

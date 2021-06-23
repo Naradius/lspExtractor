@@ -1,0 +1,8 @@
+The main objective of this work
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated11972
+Input: Token
+Rule: generated11972
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn11972 --> :pttrn11972.extracted={}
+

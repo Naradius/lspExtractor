@@ -1,0 +1,8 @@
+to thenext node
+(PP (TO )(NP (JJ )(NN )))
+Phase: generated33395
+Input: Token
+Rule: generated33395
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })))):pttrn33395 --> :pttrn33395.extracted={}
+

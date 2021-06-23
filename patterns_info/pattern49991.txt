@@ -1,0 +1,8 @@
+drilling tunnels
+(NP (NN )(NNS ))
+Phase: generated49991
+Input: Token
+Rule: generated49991
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn49991 --> :pttrn49991.extracted={}
+

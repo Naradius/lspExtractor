@@ -1,0 +1,8 @@
+depends on theirobjectives or without any motives
+(VP (VBZ )(PP (CC )(PP (IN )(NP (DT )(NNS )))))
+Phase: generated65342
+Input: Token
+Rule: generated65342
+(
+(({ Token.category == VBZ })(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn65342 --> :pttrn65342.extracted={}
+

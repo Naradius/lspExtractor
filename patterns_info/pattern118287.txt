@@ -1,0 +1,8 @@
+be a performative act of a judge during a hearing when he says I now pronounce that the case is solved
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (NP (DT )(NN ))(WHADVP (WRB )))))
+Phase: generated118287
+Input: Token
+Rule: generated118287
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == WRB })))))):pttrn118287 --> :pttrn118287.extracted={}
+

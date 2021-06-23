@@ -1,0 +1,8 @@
+of all Cluster Members
+(PP (IN )(NP (DT )(NNP )(NNS )))
+Phase: generated58465
+Input: Token
+Rule: generated58465
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))):pttrn58465 --> :pttrn58465.extracted={}
+

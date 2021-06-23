@@ -1,0 +1,8 @@
+are taken from the Tmote Skydata sheet
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NNP ){1,2}(NN )))))
+Phase: generated37805
+Input: Token
+Rule: generated37805
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))))):pttrn37805 --> :pttrn37805.extracted={}
+

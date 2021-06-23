@@ -1,0 +1,8 @@
+a baseline andSVMTool
+(NP (DT )(NN ){1,2})
+Phase: generated105966
+Input: Token
+Rule: generated105966
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn105966 --> :pttrn105966.extracted={}
+

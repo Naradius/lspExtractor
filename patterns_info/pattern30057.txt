@@ -1,0 +1,8 @@
+to be connected.The results obtained from the comparison of the use of thecontrol algorithm
+(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))))))
+Phase: generated30057
+Input: Token
+Rule: generated30057
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn30057 --> :pttrn30057.extracted={}
+

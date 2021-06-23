@@ -1,0 +1,8 @@
+been improved by applying rules more effectively
+(VP (VBN )(VP (VBN )(PP (IN )(VP (VBG )(ADVP (RBR )(RB ))))))
+Phase: generated61313
+Input: Token
+Rule: generated61313
+(
+(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == RBR })({ Token.category == RB }))))))):pttrn61313 --> :pttrn61313.extracted={}
+

@@ -1,0 +1,8 @@
+get a sense of WHISK's ceiling performance in this domain
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP )(POS ))(NN ){1,2})))(PP (IN )(NP (DT )(NN ))))
+Phase: generated78827
+Input: Token
+Rule: generated78827
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN })+)))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn78827 --> :pttrn78827.extracted={}
+

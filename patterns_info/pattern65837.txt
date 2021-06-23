@@ -1,0 +1,8 @@
+apply aero-autical ad hoc networks
+(VP (VB )(NP (JJ )(NN )(JJ )(NNS )))
+Phase: generated65837
+Input: Token
+Rule: generated65837
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))):pttrn65837 --> :pttrn65837.extracted={}
+

@@ -1,0 +1,8 @@
+indelay tolerant network routing hierarchical topology
+(VP (VBP )(NP (JJ )(NN ){1,2}(JJ )(NN )))
+Phase: generated43544
+Input: Token
+Rule: generated43544
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })))):pttrn43544 --> :pttrn43544.extracted={}
+

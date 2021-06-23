@@ -1,0 +1,8 @@
+such that battery rechargeor replacement is infeasible
+(ADJP (JJ )(IN ))
+Phase: generated10842
+Input: Token
+Rule: generated10842
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn10842 --> :pttrn10842.extracted={}
+

@@ -1,0 +1,8 @@
+of closelyoverlapping CH nodes
+(PP (IN )(VP (VBG )(NP (NNP )(NNS ))))
+Phase: generated4137
+Input: Token
+Rule: generated4137
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn4137 --> :pttrn4137.extracted={}
+

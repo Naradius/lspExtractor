@@ -1,0 +1,8 @@
+software robots to treat the text as if it contained a set of relational tuples.Wrapper Induction examines a set of web pages that have been labeled withextraction slots 1 to k and learns string of text that delimit each slot
+(NP (NP (NN )(NNS ))(VP (TO )(VP (VB )(NP (DT )(NN )))))
+Phase: generated79481
+Input: Token
+Rule: generated79481
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))):pttrn79481 --> :pttrn79481.extracted={}
+

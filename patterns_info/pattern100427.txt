@@ -1,0 +1,8 @@
+29 questions
+(NP (CD )(NNS ))
+Phase: generated100427
+Input: Token
+Rule: generated100427
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn100427 --> :pttrn100427.extracted={}
+

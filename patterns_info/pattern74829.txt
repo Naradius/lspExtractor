@@ -1,0 +1,8 @@
+by our system.Table 4
+(PP (IN )(NP (PRP$ )(JJ )(CD )))
+Phase: generated74829
+Input: Token
+Rule: generated74829
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == CD })))):pttrn74829 --> :pttrn74829.extracted={}
+

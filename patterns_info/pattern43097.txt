@@ -1,0 +1,8 @@
+as network densityincreases
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated43097
+Input: Token
+Rule: generated43097
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn43097 --> :pttrn43097.extracted={}
+

@@ -1,0 +1,8 @@
+Several design guidelines to maintain QoS fairness
+(NP (NP (JJ )(NN )(NNS ))(VP (TO )(VP (VB )(NP (NNP )(NN )))))
+Phase: generated61150
+Input: Token
+Rule: generated61150
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn61150 --> :pttrn61150.extracted={}
+

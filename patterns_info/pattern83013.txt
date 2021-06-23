@@ -1,0 +1,8 @@
+the training set and e
+(NP (DT )(NN ){1,2}(CC )(NN ))
+Phase: generated83013
+Input: Token
+Rule: generated83013
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn83013 --> :pttrn83013.extracted={}
+

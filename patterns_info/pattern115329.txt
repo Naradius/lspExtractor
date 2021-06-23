@@ -1,0 +1,8 @@
+inter-sentence links
+(NP (NN )(NNS ))
+Phase: generated115329
+Input: Token
+Rule: generated115329
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn115329 --> :pttrn115329.extracted={}
+

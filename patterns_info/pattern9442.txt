@@ -1,0 +1,8 @@
+these swarm-based routingalgorithms
+(NP (DT )(JJ )(NNS ))
+Phase: generated9442
+Input: Token
+Rule: generated9442
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn9442 --> :pttrn9442.extracted={}
+

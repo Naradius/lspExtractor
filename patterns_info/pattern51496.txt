@@ -1,0 +1,8 @@
+in remainingnodal energy
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated51496
+Input: Token
+Rule: generated51496
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn51496 --> :pttrn51496.extracted={}
+

@@ -1,0 +1,8 @@
+the identifier of each confounding ring
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated62728
+Input: Token
+Rule: generated62728
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn62728 --> :pttrn62728.extracted={}
+

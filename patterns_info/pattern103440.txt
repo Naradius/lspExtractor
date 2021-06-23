@@ -1,0 +1,8 @@
+graph elements that have been created by another applicationor that belong to the initial graph
+(NP (NP (NN )(NNS ))(VP (VBP )(VP (VBN )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBP )(PP (TO )(NP (DT )(JJ )(NN ))))))))))
+Phase: generated103440
+Input: Token
+Rule: generated103440
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))))):pttrn103440 --> :pttrn103440.extracted={}
+

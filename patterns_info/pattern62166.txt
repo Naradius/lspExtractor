@@ -1,0 +1,8 @@
+for the confounding ring l Bits of each packet
+(PP (IN )(NP (NP (DT )(JJ )(NN )(JJ )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated62166
+Input: Token
+Rule: generated62166
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn62166 --> :pttrn62166.extracted={}
+

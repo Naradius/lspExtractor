@@ -1,0 +1,8 @@
+past eld boundaries
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated82697
+Input: Token
+Rule: generated82697
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn82697 --> :pttrn82697.extracted={}
+

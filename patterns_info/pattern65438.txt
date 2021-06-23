@@ -1,0 +1,8 @@
+reduction and feature characteristics
+(NP (NN )(CC )(NN )(NNS ))
+Phase: generated65438
+Input: Token
+Rule: generated65438
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn65438 --> :pttrn65438.extracted={}
+

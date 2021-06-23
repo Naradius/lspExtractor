@@ -1,0 +1,8 @@
+=>\
+(NP (JJ )(SYM ))
+Phase: generated89140
+Input: Token
+Rule: generated89140
+(
+(({ Token.category == JJ })({ Token.category == SYM }))):pttrn89140 --> :pttrn89140.extracted={}
+

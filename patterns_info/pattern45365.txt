@@ -1,0 +1,8 @@
+propagation losses
+(NP (NN )(NNS ))
+Phase: generated45365
+Input: Token
+Rule: generated45365
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn45365 --> :pttrn45365.extracted={}
+

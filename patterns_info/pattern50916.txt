@@ -1,0 +1,8 @@
+to regularly adjust the transmissionpower of every node in order to take into considerationthe uneven energy consumption profile of the sensors.Therefore, a node with higher remaining energy mayincrease its transmission power, which will potentiallyenable other nodes to decrease their transmission power,thus saving energy
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated50916
+Input: Token
+Rule: generated50916
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn50916 --> :pttrn50916.extracted={}
+

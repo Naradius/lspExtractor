@@ -1,0 +1,8 @@
+C. Exploring syntactic structural features
+(NP (NNP ){1,2}(JJ ){1,2}(NNS ))
+Phase: generated117047
+Input: Token
+Rule: generated117047
+(
+(({ Token.category == NNP })+({ Token.category == JJ })+({ Token.category == NNS }))):pttrn117047 --> :pttrn117047.extracted={}
+

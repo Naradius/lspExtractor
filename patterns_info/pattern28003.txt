@@ -1,0 +1,8 @@
+Because by increasing the data rate, the rate of con-rol packets
+(PP (IN )(PP (IN )(VP (VBG )(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated28003
+Input: Token
+Rule: generated28003
+(
+(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn28003 --> :pttrn28003.extracted={}
+

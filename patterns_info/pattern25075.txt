@@ -1,0 +1,8 @@
+an emerging topic
+(NP (DT )(VBG )(NN ))
+Phase: generated25075
+Input: Token
+Rule: generated25075
+(
+(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))):pttrn25075 --> :pttrn25075.extracted={}
+

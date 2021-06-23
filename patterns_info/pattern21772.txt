@@ -1,0 +1,8 @@
+enabled which adds too much en-ergy overhead on the IoT devices
+(VP (VBD )(VP (VBZ )(NP (JJ )(NN ))(PP (IN )(NP (DT )(NNP )(NNS )))))
+Phase: generated21772
+Input: Token
+Rule: generated21772
+(
+(({ Token.category == VBD })(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))))):pttrn21772 --> :pttrn21772.extracted={}
+

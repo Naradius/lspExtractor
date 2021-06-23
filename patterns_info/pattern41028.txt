@@ -1,0 +1,8 @@
+the increase of the delivery delay
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated41028
+Input: Token
+Rule: generated41028
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn41028 --> :pttrn41028.extracted={}
+

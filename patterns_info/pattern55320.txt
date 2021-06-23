@@ -1,0 +1,8 @@
+the LEACH
+(NP (DT )(NNP ))
+Phase: generated55320
+Input: Token
+Rule: generated55320
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn55320 --> :pttrn55320.extracted={}
+

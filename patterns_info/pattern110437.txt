@@ -1,0 +1,8 @@
+the queue length of the router
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated110437
+Input: Token
+Rule: generated110437
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn110437 --> :pttrn110437.extracted={}
+

@@ -1,0 +1,8 @@
+the event capturing
+(NP (DT )(NN ){1,2})
+Phase: generated37279
+Input: Token
+Rule: generated37279
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn37279 --> :pttrn37279.extracted={}
+

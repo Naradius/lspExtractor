@@ -1,0 +1,8 @@
+All Predicted CuesNegation P R F FClinical 94.12 97.61 95.18 85.66Full Papers 54.45 80.12 64.01 51.78Paper Abstracts 63.04 85.13 72.31 59.86SpeculationClinical 65.87 53.27 58.90
+(NP (NP (DT )(JJ )(NN )(NNP ){1,2}(CD ){1,2}(JJ )(NNP )(CD ){1,2})(PP (IN )(NP (NNP )(CD ){1,2}(JJ )(CD ){1,2})))
+Phase: generated95628
+Input: Token
+Rule: generated95628
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CD })+({ Token.category == JJ })({ Token.category == NNP })({ Token.category == CD })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == JJ })({ Token.category == CD })+)))):pttrn95628 --> :pttrn95628.extracted={}
+

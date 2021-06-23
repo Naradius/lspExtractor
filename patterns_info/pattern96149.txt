@@ -1,0 +1,8 @@
+the followingtwo sentences from the BioScope corpus:1
+(NP (NP (DT )(VBG )(NNS ))(PP (IN )(NP (DT )(NNP )(FW )(CD ))))
+Phase: generated96149
+Input: Token
+Rule: generated96149
+(
+((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == FW })({ Token.category == CD }))))):pttrn96149 --> :pttrn96149.extracted={}
+

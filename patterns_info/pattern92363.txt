@@ -1,0 +1,8 @@
+employs patterns for detecting semantics intext
+(VP (VBZ )(PP (IN )(VP (VBG )(NP (NNS )(NN )))))
+Phase: generated92363
+Input: Token
+Rule: generated92363
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == NN })))))):pttrn92363 --> :pttrn92363.extracted={}
+

@@ -1,0 +1,8 @@
+is nearly at, uctuating between 94% and 98%.Recall begins at an average of 73% from 25 instances and climbs to 92% when 400instances have been tagged.Without post-pruning
+(VP (VBZ )(PP (IN )(NP (NP (DT )(VBG ))(PP (IN )(NP (NP (CD )(NN ))(CC )(NP (CD )(NN ){1,2})))))(VP (VP (VBZ )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NN ))))(PP (IN )(NP (CD )(NNS ))))))(CC )(VP (VBZ )(PP (TO )(NP (CD )(NN )))(WHADVP (WRB )))))
+Phase: generated84717
+Input: Token
+Rule: generated84717
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBG }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN })+)))))((({ Token.category == VBZ })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == CD })({ Token.category == NN })))(({ Token.category == WRB })))))):pttrn84717 --> :pttrn84717.extracted={}
+

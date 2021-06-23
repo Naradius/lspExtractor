@@ -1,0 +1,8 @@
+for the disabled;integrated patient monitoring
+(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2}))
+Phase: generated46436
+Input: Token
+Rule: generated46436
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))):pttrn46436 --> :pttrn46436.extracted={}
+

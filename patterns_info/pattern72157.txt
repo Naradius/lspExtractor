@@ -1,0 +1,8 @@
+to find a clear-cut segment in a sentence to com-pletely represent the associated knowledge of the event
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))(VP (TO )(VP (VB )(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated72157
+Input: Token
+Rule: generated72157
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn72157 --> :pttrn72157.extracted={}
+

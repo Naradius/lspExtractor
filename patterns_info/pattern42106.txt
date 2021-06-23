@@ -1,0 +1,8 @@
+designate the probability that a nodeis requesting the bundle j in the network duringj=1 j = 1
+(VP (VB )(NP (DT )(NN )))
+Phase: generated42106
+Input: Token
+Rule: generated42106
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn42106 --> :pttrn42106.extracted={}
+

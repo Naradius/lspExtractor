@@ -1,0 +1,8 @@
+This evolu-tionary behavior
+(NP (DT )(JJ )(NN ))
+Phase: generated23488
+Input: Token
+Rule: generated23488
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn23488 --> :pttrn23488.extracted={}
+

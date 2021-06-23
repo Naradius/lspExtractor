@@ -1,0 +1,8 @@
+to the continu-us variation of number and roles of the participants in the net-ork
+(PP (TO )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NN )(CC )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated109728
+Input: Token
+Rule: generated109728
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn109728 --> :pttrn109728.extracted={}
+

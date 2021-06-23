@@ -1,0 +1,8 @@
+the impact of the resource in each node incurred bythe algorithm in the fourth experiments
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNS )))))))
+Phase: generated33945
+Input: Token
+Rule: generated33945
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn33945 --> :pttrn33945.extracted={}
+

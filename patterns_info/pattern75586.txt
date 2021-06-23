@@ -1,0 +1,8 @@
+by NSF grantCCF-0964173
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated75586
+Input: Token
+Rule: generated75586
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn75586 --> :pttrn75586.extracted={}
+

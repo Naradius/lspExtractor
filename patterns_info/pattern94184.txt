@@ -1,0 +1,8 @@
+by adding an extra condition,resulting in (( &) ?)+
+(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(VP (VBG )(PP (IN )(NP (-LRB- ){1,2}(CC )(-RRB- )))))))
+Phase: generated94184
+Input: Token
+Rule: generated94184
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == -LRB- })+({ Token.category == CC })({ Token.category == -RRB- })))))))):pttrn94184 --> :pttrn94184.extracted={}
+

@@ -1,0 +1,8 @@
+assigned with the best  site that the bee has been ifit  value at this site
+(VP (VBN )(PP (IN )(NP (DT )(JJS )(NN )))(IN ))
+Phase: generated1807
+Input: Token
+Rule: generated1807
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })))({ Token.category == IN }))):pttrn1807 --> :pttrn1807.extracted={}
+

@@ -1,0 +1,8 @@
+Preferred Parent Set  .The DIO message carries the important information about OF in itsconfiguration option field
+(VP (VBN )(NP (NNP ){1,2}(NN )))
+Phase: generated26122
+Input: Token
+Rule: generated26122
+(
+(({ Token.category == VBN })(({ Token.category == NNP })+({ Token.category == NN })))):pttrn26122 --> :pttrn26122.extracted={}
+

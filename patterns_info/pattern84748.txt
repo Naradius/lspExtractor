@@ -1,0 +1,8 @@
+gain such high recall from only 25 training instances because of aparticularly strong regularity that is discovered early on
+(VP (VB )(NP (JJ ){1,2}(NN ))(PP (IN )(NP (QP (RB )(CD ))(NN )(NNS )))(PP (IN ){1,2}(NP (NP (RB )(JJ )(NN ))(VP (VBZ )(VP (VBN )(ADVP (RB )(IN )))))))
+Phase: generated84748
+Input: Token
+Rule: generated84748
+(
+(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })+((({ Token.category == RB })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == RB })({ Token.category == IN })))))))):pttrn84748 --> :pttrn84748.extracted={}
+

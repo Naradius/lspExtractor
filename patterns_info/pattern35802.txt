@@ -1,0 +1,8 @@
+degree in cryptography when graduatingfrom Communication Engineering school of Xidian Uni-versity, Xian of Shanxi province in China
+(VP (VBP )(WHADVP (WRB )))
+Phase: generated35802
+Input: Token
+Rule: generated35802
+(
+(({ Token.category == VBP })(({ Token.category == WRB })))):pttrn35802 --> :pttrn35802.extracted={}
+

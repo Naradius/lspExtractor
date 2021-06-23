@@ -1,0 +1,8 @@
+will collaborate with each other to performdistributed sensing and overcome obstacles, suchas trees and rocks
+(VP (MD )(VP (VP (VB )(PP (IN )(NP (DT )(JJ )))(PP (TO )(NP (JJ )(NN ))))(CC )))
+Phase: generated46340
+Input: Token
+Rule: generated46340
+(
+(({ Token.category == MD })((({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == CC })))):pttrn46340 --> :pttrn46340.extracted={}
+

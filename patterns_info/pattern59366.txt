@@ -1,0 +1,8 @@
+w  e  w  t  r  s  t  o  u  f  t3 r  membership functions
+(VP (VB )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated59366
+Input: Token
+Rule: generated59366
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn59366 --> :pttrn59366.extracted={}
+

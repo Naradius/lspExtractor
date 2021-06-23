@@ -1,0 +1,8 @@
+be written foreach event type of interest, although essentially duplicate work has gone into knowledge-baseconstruction, describing the conceptual structure of each event class
+(VP (VB )(VP (VBN )(IN )))
+Phase: generated90313
+Input: Token
+Rule: generated90313
+(
+(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN })))):pttrn90313 --> :pttrn90313.extracted={}
+

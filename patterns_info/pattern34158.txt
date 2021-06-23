@@ -1,0 +1,8 @@
+the QoS routing model	Experiments
+(NP (DT )(NNP )(NN ){1,2}(NNS ))
+Phase: generated34158
+Input: Token
+Rule: generated34158
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNS }))):pttrn34158 --> :pttrn34158.extracted={}
+

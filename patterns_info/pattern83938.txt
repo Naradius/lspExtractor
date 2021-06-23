@@ -1,0 +1,8 @@
+a messy problem involving natural language
+(NP (NP (DT )(NN ){1,2})(VP (VBG )(NP (JJ )(NN ))))
+Phase: generated83938
+Input: Token
+Rule: generated83938
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn83938 --> :pttrn83938.extracted={}
+

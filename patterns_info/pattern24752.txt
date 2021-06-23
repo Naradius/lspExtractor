@@ -1,0 +1,8 @@
+rpl networks
+(NP (JJ )(NNS ))
+Phase: generated24752
+Input: Token
+Rule: generated24752
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn24752 --> :pttrn24752.extracted={}
+

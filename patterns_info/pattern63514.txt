@@ -1,0 +1,8 @@
+their roars
+(NP (PRP$ )(NNS ))
+Phase: generated63514
+Input: Token
+Rule: generated63514
+(
+(({ Token.category == PRP$ })({ Token.category == NNS }))):pttrn63514 --> :pttrn63514.extracted={}
+

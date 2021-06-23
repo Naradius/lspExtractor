@@ -1,0 +1,8 @@
+J. Arshad et al. /Mechanical Systems and Signal Processing xxx  xxxedge router each time they receive 5 malicious packets with a certain pattern from amalicious node which we will refer to as.
+(NP (NP (NP (NNP ){1,2}(CC )(NNP ){1,2})(CC )(NP (NNP ){1,2}(NN ){1,2}))(NP (NP (DT )(NN ))(VP (VBP )(NP (CD )(JJ )(NNS )))))
+Phase: generated37948
+Input: Token
+Rule: generated37948
+(
+(((({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == NN })+))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn37948 --> :pttrn37948.extracted={}
+

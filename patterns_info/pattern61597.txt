@@ -1,0 +1,8 @@
+ScienceDirect Computer Networks journal homepage
+(NP (NNP ){1,2}(NN ){1,2})
+Phase: generated61597
+Input: Token
+Rule: generated61597
+(
+(({ Token.category == NNP })+({ Token.category == NN })+)):pttrn61597 --> :pttrn61597.extracted={}
+

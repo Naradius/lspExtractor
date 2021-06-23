@@ -1,0 +1,8 @@
+around the source node
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated61958
+Input: Token
+Rule: generated61958
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn61958 --> :pttrn61958.extracted={}
+

@@ -1,0 +1,8 @@
+to layer 0.The following theorem
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))))
+Phase: generated103500
+Input: Token
+Rule: generated103500
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn103500 --> :pttrn103500.extracted={}
+

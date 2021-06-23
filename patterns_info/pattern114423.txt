@@ -1,0 +1,8 @@
+follows the rule: generalize communicative actions themselves, and attach the result to generalization of their subjects as regular sub-tree generalization
+(VP (VBZ )(NP (NP (DT )(NN ))(VP (CC )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NN )))))))
+Phase: generated114423
+Input: Token
+Rule: generated114423
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })))))))):pttrn114423 --> :pttrn114423.extracted={}
+

@@ -1,0 +1,8 @@
+to other tools
+(PP (TO )(NP (JJ )(NNS )))
+Phase: generated108901
+Input: Token
+Rule: generated108901
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn108901 --> :pttrn108901.extracted={}
+

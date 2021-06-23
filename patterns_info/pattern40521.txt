@@ -1,0 +1,8 @@
+Paper outlineThe remainder
+(NP (NNP ){1,2}(NN ))
+Phase: generated40521
+Input: Token
+Rule: generated40521
+(
+(({ Token.category == NNP })+({ Token.category == NN }))):pttrn40521 --> :pttrn40521.extracted={}
+

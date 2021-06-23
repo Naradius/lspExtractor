@@ -1,0 +1,8 @@
+a lossy aggregation
+(NP (DT )(JJ )(NN ))
+Phase: generated7561
+Input: Token
+Rule: generated7561
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn7561 --> :pttrn7561.extracted={}
+

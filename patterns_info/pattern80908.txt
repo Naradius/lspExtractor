@@ -1,0 +1,8 @@
+WHISK's
+(NP (NNP )(POS ))
+Phase: generated80908
+Input: Token
+Rule: generated80908
+(
+(({ Token.category == NNP })({ Token.category == POS }))):pttrn80908 --> :pttrn80908.extracted={}
+

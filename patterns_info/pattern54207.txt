@@ -1,0 +1,8 @@
+the chain construction processand
+(NP (DT )(NN ){1,2})
+Phase: generated54207
+Input: Token
+Rule: generated54207
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn54207 --> :pttrn54207.extracted={}
+

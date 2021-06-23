@@ -1,0 +1,8 @@
+databetween some key nodes
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated34220
+Input: Token
+Rule: generated34220
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn34220 --> :pttrn34220.extracted={}
+

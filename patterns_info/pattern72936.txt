@@ -1,0 +1,8 @@
+twofictitious substitution sentences, including George Bush canget + ARG1 and Bill Clinton
+(NP (NP (JJ )(NN )(NNS ))(PP (VBG )(NP (NP (NNP ){1,2}(NN ){1,2})(CC ))))
+Phase: generated72936
+Input: Token
+Rule: generated72936
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == NNP })+({ Token.category == NN })+)({ Token.category == CC }))))):pttrn72936 --> :pttrn72936.extracted={}
+

@@ -1,0 +1,8 @@
+for each phrase type
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated112898
+Input: Token
+Rule: generated112898
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn112898 --> :pttrn112898.extracted={}
+

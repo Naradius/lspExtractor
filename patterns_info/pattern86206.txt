@@ -1,0 +1,8 @@
+semantic text analysis,dialogue management
+(NP (JJ )(NN ){1,2})
+Phase: generated86206
+Input: Token
+Rule: generated86206
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn86206 --> :pttrn86206.extracted={}
+

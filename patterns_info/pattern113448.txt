@@ -1,0 +1,8 @@
+working on nuclear weapons","Iran envoy says its nuclear development is for peaceful purpose, and the material evidence against it has been fabricated by the US"
+(VP (VBG )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated113448
+Input: Token
+Rule: generated113448
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn113448 --> :pttrn113448.extracted={}
+

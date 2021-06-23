@@ -1,0 +1,8 @@
+the average time
+(NP (DT )(JJ )(NN ))
+Phase: generated11762
+Input: Token
+Rule: generated11762
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn11762 --> :pttrn11762.extracted={}
+

@@ -1,0 +1,8 @@
+from 2016.. Tmote Sky.http://www.snm.ethz.ch/Projects/TmoteSky.. Gartner
+(PP (IN )(NP (CD )(JJ )(NNP ){1,2}))
+Phase: generated38543
+Input: Token
+Rule: generated38543
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNP })+))):pttrn38543 --> :pttrn38543.extracted={}
+

@@ -1,0 +1,8 @@
+to the context or content of textual documents
+(PP (TO )(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated98503
+Input: Token
+Rule: generated98503
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn98503 --> :pttrn98503.extracted={}
+

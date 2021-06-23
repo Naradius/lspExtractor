@@ -1,0 +1,8 @@
+been compared with thoseof some well-known and newest meta-heuristics for these problems
+(VP (VBN )(VP (VBN )(PP (IN )(PP (IN )(NP (NP (DT )(JJ )(CC )(JJ )(NNS ))(PP (IN )(NP (DT )(NNS ))))))))
+Phase: generated63600
+Input: Token
+Rule: generated63600
+(
+(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn63600 --> :pttrn63600.extracted={}
+

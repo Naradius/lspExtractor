@@ -1,0 +1,8 @@
+tagged training instances
+(NP (JJ )(NN )(NNS ))
+Phase: generated83691
+Input: Token
+Rule: generated83691
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn83691 --> :pttrn83691.extracted={}
+

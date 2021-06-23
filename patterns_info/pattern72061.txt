@@ -1,0 +1,8 @@
+noun compounds
+(NP (NN )(NNS ))
+Phase: generated72061
+Input: Token
+Rule: generated72061
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn72061 --> :pttrn72061.extracted={}
+

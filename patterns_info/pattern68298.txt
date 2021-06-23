@@ -1,0 +1,8 @@
+of the sensor nodes and employingthe suitable routing algorithm
+(PP (IN )(NP (NP (DT )(NN )(NNS ))(CC )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated68298
+Input: Token
+Rule: generated68298
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn68298 --> :pttrn68298.extracted={}
+

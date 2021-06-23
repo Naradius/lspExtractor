@@ -1,0 +1,8 @@
+www.sciencedirect.comhttp://dx.doi
+(NP (DT )(NNP ){1,2})
+Phase: generated63545
+Input: Token
+Rule: generated63545
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn63545 --> :pttrn63545.extracted={}
+

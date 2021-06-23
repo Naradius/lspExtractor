@@ -1,0 +1,8 @@
+node jElseIf TTL == 0
+(VP (VB )(PP (IN )(NP (NNP )(SYM ){1,2}(CD ))))
+Phase: generated3441
+Input: Token
+Rule: generated3441
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == SYM })+({ Token.category == CD }))))):pttrn3441 --> :pttrn3441.extracted={}
+

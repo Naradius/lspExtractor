@@ -1,0 +1,8 @@
+generalizedo other fog computing applications such as agriculture, healthcare,eather forecasting, traffic management and smart city
+(VP (VBN )(NP (NP (JJ )(NN ){1,2}(NNS ))(PP (JJ )(IN ))))
+Phase: generated19933
+Input: Token
+Rule: generated19933
+(
+(({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn19933 --> :pttrn19933.extracted={}
+

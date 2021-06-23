@@ -1,0 +1,8 @@
+same DAG
+(NP (JJ )(NNP ))
+Phase: generated26502
+Input: Token
+Rule: generated26502
+(
+(({ Token.category == JJ })({ Token.category == NNP }))):pttrn26502 --> :pttrn26502.extracted={}
+

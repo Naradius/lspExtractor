@@ -1,0 +1,8 @@
+with RFID readers
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated51274
+Input: Token
+Rule: generated51274
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn51274 --> :pttrn51274.extracted={}
+

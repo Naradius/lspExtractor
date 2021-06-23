@@ -1,0 +1,8 @@
+determined to be invalid by the node running the old protocol,resulting in permanent splitting
+(VP (VBN )(VP (TO )(VP (VB )(ADJP (JJ )(PP (IN )(NP (NP (DT )(NN ))(VP (VBG )(NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NN ))))))))))
+Phase: generated34284
+Input: Token
+Rule: generated34284
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))))))):pttrn34284 --> :pttrn34284.extracted={}
+

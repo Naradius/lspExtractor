@@ -1,0 +1,8 @@
+Nassiri .3
+(NP (NNP )(CD ))
+Phase: generated40664
+Input: Token
+Rule: generated40664
+(
+(({ Token.category == NNP })({ Token.category == CD }))):pttrn40664 --> :pttrn40664.extracted={}
+

@@ -1,0 +1,8 @@
+The proposal
+(NP (DT )(NN ))
+Phase: generated6314
+Input: Token
+Rule: generated6314
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn6314 --> :pttrn6314.extracted={}
+

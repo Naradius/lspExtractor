@@ -1,0 +1,8 @@
+single sentence generalization-based search over the baseline
+(NP (NP (JJ )(NN )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated115988
+Input: Token
+Rule: generated115988
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn115988 --> :pttrn115988.extracted={}
+

@@ -1,0 +1,8 @@
+the medicalcommunity
+(NP (DT )(NN ))
+Phase: generated73818
+Input: Token
+Rule: generated73818
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn73818 --> :pttrn73818.extracted={}
+

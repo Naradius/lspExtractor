@@ -1,0 +1,8 @@
+ispolzovaniyem grafovykh grammatik / Infor-matization and Communication, 2011, no. 3, pp
+(PP (IN )(NP (NP (NNP )(CC )(NNP ))(NP (DT )(NNP )(CD ))))
+Phase: generated71347
+Input: Token
+Rule: generated71347
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CD }))))):pttrn71347 --> :pttrn71347.extracted={}
+

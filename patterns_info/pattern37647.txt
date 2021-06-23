@@ -1,0 +1,8 @@
+save the power of the nodes
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated37647
+Input: Token
+Rule: generated37647
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn37647 --> :pttrn37647.extracted={}
+

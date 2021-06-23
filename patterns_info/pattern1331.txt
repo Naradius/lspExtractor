@@ -1,0 +1,8 @@
+limited by the radius
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated1331
+Input: Token
+Rule: generated1331
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn1331 --> :pttrn1331.extracted={}
+

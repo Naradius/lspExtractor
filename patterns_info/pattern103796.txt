@@ -1,0 +1,8 @@
+has the form < head >
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated103796
+Input: Token
+Rule: generated103796
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn103796 --> :pttrn103796.extracted={}
+

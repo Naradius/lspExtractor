@@ -1,0 +1,8 @@
+expect any improvement by a typical search query of 2-3 keywords
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (CD )(NNS )))))))
+Phase: generated70276
+Input: Token
+Rule: generated70276
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))))):pttrn70276 --> :pttrn70276.extracted={}
+

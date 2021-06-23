@@ -1,0 +1,8 @@
+QoS and operationalconstraints
+(NP (NNP )(CC )(NNS ))
+Phase: generated20773
+Input: Token
+Rule: generated20773
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNS }))):pttrn20773 --> :pttrn20773.extracted={}
+

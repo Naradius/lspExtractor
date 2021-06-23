@@ -1,0 +1,8 @@
+A clear visualization of how to generate newposition of nomad lions
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(WHADVP (WRB ))))
+Phase: generated64506
+Input: Token
+Rule: generated64506
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == WRB }))))):pttrn64506 --> :pttrn64506.extracted={}
+

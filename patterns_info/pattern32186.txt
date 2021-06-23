@@ -1,0 +1,8 @@
+randomly distributed in a monitoring area
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated32186
+Input: Token
+Rule: generated32186
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn32186 --> :pttrn32186.extracted={}
+

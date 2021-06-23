@@ -1,0 +1,8 @@
+completed her Ph.D. degree in the Faculty ofInformation and Communication Engineering from Anna University Chennai in the year of 2018
+(VP (VBN )(NP (PRP$ )(NNP )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(CC ))))
+Phase: generated60314
+Input: Token
+Rule: generated60314
+(
+(({ Token.category == VBN })(({ Token.category == PRP$ })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC }))))):pttrn60314 --> :pttrn60314.extracted={}
+

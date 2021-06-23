@@ -1,0 +1,8 @@
+provision latency-sensitive real-time applications such as health monitoring, disaster management, and smart homes
+(NP (NP (NN )(JJ )(NN )(NNS ))(PP (JJ )(IN )(NP (CC )(NP (JJ )(NNS )))))
+Phase: generated20169
+Input: Token
+Rule: generated20169
+(
+((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn20169 --> :pttrn20169.extracted={}
+

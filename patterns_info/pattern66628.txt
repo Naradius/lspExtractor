@@ -1,0 +1,8 @@
+the sen-or nodes
+(NP (DT )(JJ )(NNS ))
+Phase: generated66628
+Input: Token
+Rule: generated66628
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn66628 --> :pttrn66628.extracted={}
+

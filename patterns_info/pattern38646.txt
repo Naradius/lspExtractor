@@ -1,0 +1,8 @@
+ip-based ubiquitous sensor networks
+(NP (JJ ){1,2}(NN )(NNS ))
+Phase: generated38646
+Input: Token
+Rule: generated38646
+(
+(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))):pttrn38646 --> :pttrn38646.extracted={}
+

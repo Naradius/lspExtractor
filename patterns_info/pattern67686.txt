@@ -1,0 +1,8 @@
+the global sensor network
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated67686
+Input: Token
+Rule: generated67686
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn67686 --> :pttrn67686.extracted={}
+

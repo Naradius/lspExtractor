@@ -1,0 +1,8 @@
+fully reconfigurable wirelesstransceivers which automatically adapt their communica-tion parameters to network demands, which improvescontext-awareness. However, CR requires significantenergy consumption compared with conventional devicesdue to the increased complexity involved for new andsophisticated functionalities
+(NP (NP (ADJP (RB )(JJ ))(NNS ))(VP (VBP )(NP (PRP$ )(NN )(NNS ))))
+Phase: generated50999
+Input: Token
+Rule: generated50999
+(
+(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn50999 --> :pttrn50999.extracted={}
+

@@ -1,0 +1,8 @@
+can be found that when theblock gap is the same, the block pseudo-power is generated withthe attackers forgery ability
+(VP (MD )(VP (VB )(VP (VBN )(IN ))))
+Phase: generated37152
+Input: Token
+Rule: generated37152
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN }))))):pttrn37152 --> :pttrn37152.extracted={}
+

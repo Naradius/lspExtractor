@@ -1,0 +1,8 @@
+a dictio-nary
+(NP (DT )(NN ))
+Phase: generated86793
+Input: Token
+Rule: generated86793
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn86793 --> :pttrn86793.extracted={}
+

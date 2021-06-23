@@ -1,0 +1,8 @@
+The GPSR switch
+(NP (DT )(NNP )(NN ))
+Phase: generated18475
+Input: Token
+Rule: generated18475
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn18475 --> :pttrn18475.extracted={}
+

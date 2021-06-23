@@ -1,0 +1,8 @@
+Relevance improvement
+(NP (NNP )(NN ))
+Phase: generated115264
+Input: Token
+Rule: generated115264
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn115264 --> :pttrn115264.extracted={}
+

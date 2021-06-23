@@ -1,0 +1,8 @@
+selected from a list withexisting concepts from the ontology
+(VP (VBN )(PP (IN )(NP (DT )(NN )(VBG )(NNS )))(PP (IN )(NP (DT )(NN ))))
+Phase: generated93728
+Input: Token
+Rule: generated93728
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == VBG })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn93728 --> :pttrn93728.extracted={}
+

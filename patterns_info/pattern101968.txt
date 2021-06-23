@@ -1,0 +1,8 @@
+reading a text
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated101968
+Input: Token
+Rule: generated101968
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn101968 --> :pttrn101968.extracted={}
+

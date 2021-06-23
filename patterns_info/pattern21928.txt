@@ -1,0 +1,8 @@
+a primary net-work
+(NP (DT )(JJ )(NN ))
+Phase: generated21928
+Input: Token
+Rule: generated21928
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn21928 --> :pttrn21928.extracted={}
+

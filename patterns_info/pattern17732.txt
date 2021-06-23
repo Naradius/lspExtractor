@@ -1,0 +1,8 @@
+An illustration of the sequential forwarding
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated17732
+Input: Token
+Rule: generated17732
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn17732 --> :pttrn17732.extracted={}
+

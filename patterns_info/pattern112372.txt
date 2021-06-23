@@ -1,0 +1,8 @@
+in TCP networks
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated112372
+Input: Token
+Rule: generated112372
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn112372 --> :pttrn112372.extracted={}
+

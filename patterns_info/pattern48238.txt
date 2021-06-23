@@ -1,0 +1,8 @@
+man-agement planes in sensor networks
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated48238
+Input: Token
+Rule: generated48238
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn48238 --> :pttrn48238.extracted={}
+

@@ -1,0 +1,8 @@
+author profiles
+(NP (NN )(NNS ))
+Phase: generated101505
+Input: Token
+Rule: generated101505
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn101505 --> :pttrn101505.extracted={}
+

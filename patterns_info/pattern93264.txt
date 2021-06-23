@@ -1,0 +1,8 @@
+is used for re-setting the document, in this case a news item, toits original state
+(VP (VBZ )(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))(NP (NP (DT )(NN ){1,2})(NP (DT )(JJ )(NN )))))))
+Phase: generated93264
+Input: Token
+Rule: generated93264
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn93264 --> :pttrn93264.extracted={}
+

@@ -1,0 +1,8 @@
+two different TF-IDF methods such as Global and normal
+(NP (NP (CD )(JJ )(NN )(NNS ))(PP (JJ )(IN )(NP (NNP )(CC )(JJ ))))
+Phase: generated85486
+Input: Token
+Rule: generated85486
+(
+((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == JJ }))))):pttrn85486 --> :pttrn85486.extracted={}
+

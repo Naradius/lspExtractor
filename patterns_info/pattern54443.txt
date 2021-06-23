@@ -1,0 +1,8 @@
+used the radio energy model same as ofLEACH protocol
+(VP (VBD )(NP (DT )(NN ){1,2}(JJ ))(PP (IN )(NP (NNP )(NN ))))
+Phase: generated54443
+Input: Token
+Rule: generated54443
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn54443 --> :pttrn54443.extracted={}
+

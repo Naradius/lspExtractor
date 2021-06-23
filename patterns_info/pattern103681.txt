@@ -1,0 +1,8 @@
+of other right-hand sides
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated103681
+Input: Token
+Rule: generated103681
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn103681 --> :pttrn103681.extracted={}
+

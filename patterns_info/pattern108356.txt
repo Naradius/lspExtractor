@@ -1,0 +1,8 @@
+the major challenging tasks consid-ered in this paper
+(NP (NP (DT )(JJ ){1,2}(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated108356
+Input: Token
+Rule: generated108356
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn108356 --> :pttrn108356.extracted={}
+

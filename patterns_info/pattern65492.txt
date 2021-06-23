@@ -1,0 +1,8 @@
+are presented ina distributed manner without any centralized equipment and itis widely known to be a Distributed Intrusion Detection System
+(VP (VP (VBP )(VP (VBN )(NP (JJ ){1,2}(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))(CC )(VP (VBD )(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(NNP ){1,2}))))))
+Phase: generated65492
+Input: Token
+Rule: generated65492
+(
+((({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP })+))))))):pttrn65492 --> :pttrn65492.extracted={}
+

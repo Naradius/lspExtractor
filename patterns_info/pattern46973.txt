@@ -1,0 +1,8 @@
+baseballgame.3.3
+(NP (NN )(NNS ))
+Phase: generated46973
+Input: Token
+Rule: generated46973
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn46973 --> :pttrn46973.extracted={}
+

@@ -1,0 +1,8 @@
+saved if it is not valid, ensuring thevalidity of the rules by construction.The annotation validator, as depicted in Fig. 5,displays the resulting annotations after applyingthe user-defined extraction rules to the existingnews items
+(VP (VP (VBG )(IN ))(VP (VBZ )(NP (DT )(VBG )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN )(NNS ))(PP (TO )(NP (DT )(NN )(NNS )))))))
+Phase: generated93687
+Input: Token
+Rule: generated93687
+(
+((({ Token.category == VBG })({ Token.category == IN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn93687 --> :pttrn93687.extracted={}
+

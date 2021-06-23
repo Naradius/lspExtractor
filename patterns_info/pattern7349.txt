@@ -1,0 +1,8 @@
+a pheromone trail, which is con-trary to its typical application
+(NP (NP (DT )(NN ){1,2})(VP (VBZ )(ADJP (JJ )(PP (TO )(NP (PRP$ )(JJ )(NN ))))))
+Phase: generated7349
+Input: Token
+Rule: generated7349
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn7349 --> :pttrn7349.extracted={}
+

@@ -1,0 +1,8 @@
+via DIO metric container.n
+(PP (IN )(NP (NNP )(JJ )(NN )))
+Phase: generated26743
+Input: Token
+Rule: generated26743
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })))):pttrn26743 --> :pttrn26743.extracted={}
+

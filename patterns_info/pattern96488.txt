@@ -1,0 +1,8 @@
+--> fuss
+(NP (JJ )(NN ))
+Phase: generated96488
+Input: Token
+Rule: generated96488
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn96488 --> :pttrn96488.extracted={}
+

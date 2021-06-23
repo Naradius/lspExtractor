@@ -1,0 +1,8 @@
+is a uniformly distributed random number from0 to 1 and s
+(VP (VBZ )(NP (DT )(ADJP (RB )(VBN ))(JJ )(NN ))(PP (IN )(PP (TO )(NP (CD )(CC )(NNS )))))
+Phase: generated8044
+Input: Token
+Rule: generated8044
+(
+(({ Token.category == VBZ })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == TO })(({ Token.category == CD })({ Token.category == CC })({ Token.category == NNS })))))):pttrn8044 --> :pttrn8044.extracted={}
+

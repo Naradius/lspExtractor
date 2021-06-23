@@ -1,0 +1,8 @@
+enhance the lifetime of the network by reducing energy consumption
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated56009
+Input: Token
+Rule: generated56009
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn56009 --> :pttrn56009.extracted={}
+

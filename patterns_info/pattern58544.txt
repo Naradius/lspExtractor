@@ -1,0 +1,8 @@
+all those modified LEACHbased protocols according to the categorization shown in Fig. 4.2.1
+(NP (NP (DT ){1,2}(VBN )(JJ )(NNS ))(PP (VBG )(PP (TO )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (NNP ){1,2}(CD ))))))))
+Phase: generated58544
+Input: Token
+Rule: generated58544
+(
+((({ Token.category == DT })+({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD }))))))))):pttrn58544 --> :pttrn58544.extracted={}
+

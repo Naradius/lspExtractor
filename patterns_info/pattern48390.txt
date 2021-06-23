@@ -1,0 +1,8 @@
+This bottomup approach
+(NP (DT )(NN ){1,2})
+Phase: generated48390
+Input: Token
+Rule: generated48390
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn48390 --> :pttrn48390.extracted={}
+

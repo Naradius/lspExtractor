@@ -1,0 +1,8 @@
+of label layers
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated103505
+Input: Token
+Rule: generated103505
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn103505 --> :pttrn103505.extracted={}
+

@@ -1,0 +1,8 @@
+Modeling and Optimization in Mobile, Ad Hoc and Wireless Networks, 2003, p
+(NP (NP (NNP )(CC )(NNP ))(PP (IN )(NP (CC )(NP (JJ )(NNS )(CD )(NN )))))
+Phase: generated2631
+Input: Token
+Rule: generated2631
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CD })({ Token.category == NN })))))):pttrn2631 --> :pttrn2631.extracted={}
+

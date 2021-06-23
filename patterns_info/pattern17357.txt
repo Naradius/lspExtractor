@@ -1,0 +1,8 @@
+of the source, destination and the hole boundary nodes
+(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN ){1,2}(NNS ))))
+Phase: generated17357
+Input: Token
+Rule: generated17357
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn17357 --> :pttrn17357.extracted={}
+

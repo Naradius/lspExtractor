@@ -1,0 +1,8 @@
+the destination node launch
+(NP (DT )(NN ){1,2})
+Phase: generated2497
+Input: Token
+Rule: generated2497
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn2497 --> :pttrn2497.extracted={}
+

@@ -1,0 +1,8 @@
+2,where Trd2 1.Second, when a relay node nr takes considerable time t to meet thedestination node this has an impact on the probability of delivery of abundle that will decrease with the elapsed time
+(NP (NP (DT )(NNP ){1,2})(WHADVP (WRB )))
+Phase: generated41807
+Input: Token
+Rule: generated41807
+(
+((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == WRB })))):pttrn41807 --> :pttrn41807.extracted={}
+

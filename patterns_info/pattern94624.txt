@@ -1,0 +1,8 @@
+a recall
+(NP (DT )(NN ))
+Phase: generated94624
+Input: Token
+Rule: generated94624
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn94624 --> :pttrn94624.extracted={}
+

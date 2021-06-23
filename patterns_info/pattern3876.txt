@@ -1,0 +1,8 @@
+than their typical implemen-tation
+(PP (IN )(NP (PRP$ )(JJ )(NN )))
+Phase: generated3876
+Input: Token
+Rule: generated3876
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))):pttrn3876 --> :pttrn3876.extracted={}
+

@@ -1,0 +1,8 @@
+The ETX Objective Function for RPL, 2010.
+(NP (NP (DT )(NNP ){1,2})(PP (IN )(NP (NNP )(CD ))))
+Phase: generated52791
+Input: Token
+Rule: generated52791
+(
+((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))):pttrn52791 --> :pttrn52791.extracted={}
+

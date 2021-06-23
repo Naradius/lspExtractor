@@ -1,0 +1,8 @@
+a noun phrase or group
+(NP (DT )(NN ){1,2}(CC )(NN ))
+Phase: generated88818
+Input: Token
+Rule: generated88818
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn88818 --> :pttrn88818.extracted={}
+

@@ -1,0 +1,8 @@
+An energy-efficient hierarchical clustering protocolein
+(NP (DT )(JJ ){1,2}(NN ){1,2})
+Phase: generated57715
+Input: Token
+Rule: generated57715
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn57715 --> :pttrn57715.extracted={}
+

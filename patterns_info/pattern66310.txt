@@ -1,0 +1,8 @@
+network design,dversary model
+(NP (NN ){1,2}(JJ )(NN ))
+Phase: generated66310
+Input: Token
+Rule: generated66310
+(
+(({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN }))):pttrn66310 --> :pttrn66310.extracted={}
+

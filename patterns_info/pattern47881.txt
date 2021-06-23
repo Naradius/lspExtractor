@@ -1,0 +1,8 @@
+be attributed to the lock timeof the PLL.
+(VP (VB )(VP (VBN )(PP (TO )(NP (NP (DT )(NN ))(NP (DT )(NNP ))))))
+Phase: generated47881
+Input: Token
+Rule: generated47881
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NNP }))))))):pttrn47881 --> :pttrn47881.extracted={}
+

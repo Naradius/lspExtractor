@@ -1,0 +1,8 @@
+applying the ruleset consisting of pruned pattern trees  on thetest data
+(VP (VBG )(NP (NP (DT )(NN ))(VP (VBG )(PP (IN )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (DT )(NNS ))))))))
+Phase: generated95719
+Input: Token
+Rule: generated95719
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn95719 --> :pttrn95719.extracted={}
+

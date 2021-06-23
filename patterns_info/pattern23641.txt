@@ -1,0 +1,8 @@
+of a SD pair selecting route k in a pairwisecompetition against another pair selecting route j
+(PP (IN )(NP (NP (DT )(NNP )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated23641
+Input: Token
+Rule: generated23641
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn23641 --> :pttrn23641.extracted={}
+

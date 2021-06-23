@@ -1,0 +1,8 @@
+the UnitedStates
+(NP (DT )(NNS ))
+Phase: generated30946
+Input: Token
+Rule: generated30946
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn30946 --> :pttrn30946.extracted={}
+

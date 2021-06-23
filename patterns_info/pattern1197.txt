@@ -1,0 +1,8 @@
+the sub-class of a bio-inspired algorithms and models bee behavior in natural habitat.In wildlife
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NNS )(CC )(NNS )(NN ){1,2})(PP (IN )(NP (JJ )(NN ){1,2})))))
+Phase: generated1197
+Input: Token
+Rule: generated1197
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn1197 --> :pttrn1197.extracted={}
+

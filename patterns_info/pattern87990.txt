@@ -1,0 +1,8 @@
+be unquoted or quoted strings or numbers, or disjunctions of stringsor numbers
+(VP (VB )(VP (VBN )(CC )(VBN )(NP (NP (NNS )(CC )(NNS ))(CC ))))
+Phase: generated87990
+Input: Token
+Rule: generated87990
+(
+(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == CC })({ Token.category == VBN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn87990 --> :pttrn87990.extracted={}
+

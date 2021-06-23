@@ -1,0 +1,8 @@
+is provided.The followings are the different aspects of study performed: The number of clusters required for optimal T-ANTperformance
+(VP (VBZ )(NP (DT )(NNS )))
+Phase: generated4813
+Input: Token
+Rule: generated4813
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNS })))):pttrn4813 --> :pttrn4813.extracted={}
+

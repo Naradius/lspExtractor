@@ -1,0 +1,8 @@
+linguistic phrases
+(NP (JJ )(NNS ))
+Phase: generated116710
+Input: Token
+Rule: generated116710
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn116710 --> :pttrn116710.extracted={}
+

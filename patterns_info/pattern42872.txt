@@ -1,0 +1,8 @@
+Delivery ratio
+(NP (NNP )(NN ))
+Phase: generated42872
+Input: Token
+Rule: generated42872
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn42872 --> :pttrn42872.extracted={}
+

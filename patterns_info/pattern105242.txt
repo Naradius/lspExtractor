@@ -1,0 +1,8 @@
+The internal representations of a diagramFor a user of a visual language, the two most important aspects of a visual program are its phys-ical layout , and its meaning .
+(NP (CC )(NP (PRP$ )(NN )))
+Phase: generated105242
+Input: Token
+Rule: generated105242
+(
+(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn105242 --> :pttrn105242.extracted={}
+

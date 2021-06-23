@@ -1,0 +1,8 @@
+in an information extraction application
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated88686
+Input: Token
+Rule: generated88686
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn88686 --> :pttrn88686.extracted={}
+

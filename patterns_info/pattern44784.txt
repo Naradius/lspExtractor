@@ -1,0 +1,8 @@
+the route-thru traffic
+(NP (DT )(NN ){1,2})
+Phase: generated44784
+Input: Token
+Rule: generated44784
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn44784 --> :pttrn44784.extracted={}
+

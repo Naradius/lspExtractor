@@ -1,0 +1,8 @@
+to keep such switching to a mini-mum
+(VP (TO )(VP (VB )(NP (JJ )(VBG ))(PP (TO )(NP (DT )(NN )))))
+Phase: generated24293
+Input: Token
+Rule: generated24293
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == VBG }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn24293 --> :pttrn24293.extracted={}
+

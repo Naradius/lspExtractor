@@ -1,0 +1,8 @@
+chosen according to TF values of the explored sites.5
+(VP (VBN )(PP (VBG )(PP (TO )(NP (NP (NNP )(NNS ))(PP (IN )(NP (DT )(JJ )(NNS )(CD )))))))
+Phase: generated1742
+Input: Token
+Rule: generated1742
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CD })))))))):pttrn1742 --> :pttrn1742.extracted={}
+

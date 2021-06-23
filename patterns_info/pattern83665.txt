@@ -1,0 +1,8 @@
+a better job of optimizing performancemetrics
+(NP (NP (DT )(JJR )(NN ))(PP (IN )(NP (VBG )(NNS ))))
+Phase: generated83665
+Input: Token
+Rule: generated83665
+(
+((({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS }))))):pttrn83665 --> :pttrn83665.extracted={}
+

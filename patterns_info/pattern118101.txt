@@ -1,0 +1,8 @@
+are linked together via rhetorical  relations
+(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated118101
+Input: Token
+Rule: generated118101
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn118101 --> :pttrn118101.extracted={}
+

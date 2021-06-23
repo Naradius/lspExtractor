@@ -1,0 +1,8 @@
+any attempts to preserve the state of the VNs whentheir regions run out of supporting PNs
+(NP (DT )(NNS )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )))))))
+Phase: generated14465
+Input: Token
+Rule: generated14465
+(
+(({ Token.category == DT })({ Token.category == NNS })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))):pttrn14465 --> :pttrn14465.extracted={}
+

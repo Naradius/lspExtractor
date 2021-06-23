@@ -1,0 +1,8 @@
+a key requirement
+(NP (DT )(JJ )(NN ))
+Phase: generated26977
+Input: Token
+Rule: generated26977
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn26977 --> :pttrn26977.extracted={}
+

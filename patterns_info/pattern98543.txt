@@ -1,0 +1,8 @@
+the stem
+(NP (DT )(NN ))
+Phase: generated98543
+Input: Token
+Rule: generated98543
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn98543 --> :pttrn98543.extracted={}
+

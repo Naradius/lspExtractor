@@ -1,0 +1,8 @@
+figured out by the equivalentproportional relationship
+(VP (VBN )(PRT (RP ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated69128
+Input: Token
+Rule: generated69128
+(
+(({ Token.category == VBN })(({ Token.category == RP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn69128 --> :pttrn69128.extracted={}
+

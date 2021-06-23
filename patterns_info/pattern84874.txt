@@ -1,0 +1,8 @@
+the Location slot
+(NP (DT )(NN ){1,2})
+Phase: generated84874
+Input: Token
+Rule: generated84874
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn84874 --> :pttrn84874.extracted={}
+

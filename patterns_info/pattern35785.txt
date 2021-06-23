@@ -1,0 +1,8 @@
+an associate professor in ComputerScience and Technology
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNP )(CC )(NNP ))))
+Phase: generated35785
+Input: Token
+Rule: generated35785
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn35785 --> :pttrn35785.extracted={}
+

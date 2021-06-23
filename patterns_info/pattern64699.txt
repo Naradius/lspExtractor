@@ -1,0 +1,8 @@
+be assumed as the CPU time
+(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN )))))
+Phase: generated64699
+Input: Token
+Rule: generated64699
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn64699 --> :pttrn64699.extracted={}
+

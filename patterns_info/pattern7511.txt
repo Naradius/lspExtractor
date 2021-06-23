@@ -1,0 +1,8 @@
+the next CHs.Before
+(NP (DT )(JJ )(NNP ))
+Phase: generated7511
+Input: Token
+Rule: generated7511
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))):pttrn7511 --> :pttrn7511.extracted={}
+

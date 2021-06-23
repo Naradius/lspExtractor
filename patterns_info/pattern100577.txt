@@ -1,0 +1,8 @@
+our participation in this challenge
+(NP (NP (PRP$ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated100577
+Input: Token
+Rule: generated100577
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn100577 --> :pttrn100577.extracted={}
+

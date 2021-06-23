@@ -1,0 +1,8 @@
+are sent to the same node
+(VP (VBP )(VP (VBN )(PP (TO )(NP (DT )(JJ )(NN )))))
+Phase: generated43876
+Input: Token
+Rule: generated43876
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn43876 --> :pttrn43876.extracted={}
+

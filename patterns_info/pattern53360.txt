@@ -1,0 +1,8 @@
+nodeknows the information about the other nodes so global transmis-sion is possible which reduces the energy consumption of the nodesin the network
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )))))
+Phase: generated53360
+Input: Token
+Rule: generated53360
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn53360 --> :pttrn53360.extracted={}
+

@@ -1,0 +1,8 @@
+in the challenge
+(PP (IN )(NP (DT )(NN )))
+Phase: generated100584
+Input: Token
+Rule: generated100584
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn100584 --> :pttrn100584.extracted={}
+

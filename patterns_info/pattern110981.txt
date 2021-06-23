@@ -1,0 +1,8 @@
+anomalyeconstruction and detection using robust controller / observer
+(NP (NP (NN )(CC )(NN ))(VP (VBG )(NP (JJ )(NN ){1,2})))
+Phase: generated110981
+Input: Token
+Rule: generated110981
+(
+((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn110981 --> :pttrn110981.extracted={}
+

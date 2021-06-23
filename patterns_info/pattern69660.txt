@@ -1,0 +1,8 @@
+its velocity
+(NP (PRP$ )(NN ))
+Phase: generated69660
+Input: Token
+Rule: generated69660
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn69660 --> :pttrn69660.extracted={}
+

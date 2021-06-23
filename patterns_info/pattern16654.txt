@@ -1,0 +1,8 @@
+ensuringat least 80
+(QP (RB )(JJS )(CD ))
+Phase: generated16654
+Input: Token
+Rule: generated16654
+(
+(({ Token.category == RB })({ Token.category == JJS })({ Token.category == CD }))):pttrn16654 --> :pttrn16654.extracted={}
+

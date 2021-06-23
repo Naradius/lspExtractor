@@ -1,0 +1,8 @@
+before the systemachieves convergence
+(PP (IN )(NP (DT )(NNS )(NN )))
+Phase: generated8522
+Input: Token
+Rule: generated8522
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))):pttrn8522 --> :pttrn8522.extracted={}
+

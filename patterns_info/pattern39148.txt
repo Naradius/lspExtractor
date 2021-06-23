@@ -1,0 +1,8 @@
+all the participating node
+(NP (PDT )(DT )(VBG )(NN ))
+Phase: generated39148
+Input: Token
+Rule: generated39148
+(
+(({ Token.category == PDT })({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))):pttrn39148 --> :pttrn39148.extracted={}
+

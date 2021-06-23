@@ -1,0 +1,8 @@
+select the optimum paths to route theackets
+(VP (VB )(NP (NP (DT )(NN )(NNS ))(PP (TO )(NP (NN )(NNS )))))
+Phase: generated66888
+Input: Token
+Rule: generated66888
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn66888 --> :pttrn66888.extracted={}
+

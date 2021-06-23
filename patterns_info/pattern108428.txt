@@ -1,0 +1,8 @@
+njR2R1 R2 RqRkFigure 3:Solution Encoding.530R.K. Ambekar
+(NP (DT )(NNP ){1,2})
+Phase: generated108428
+Input: Token
+Rule: generated108428
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn108428 --> :pttrn108428.extracted={}
+

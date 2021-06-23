@@ -1,0 +1,6 @@
+Phase: generated103372
+Input: Token
+Rule: generated103372
+(
+((({ Token.category == NN })({ Token.category == SYM })({ Token.category == FW }))(({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNP })))):pttrn103372 --> :pttrn103372.extracted={}
+

@@ -1,0 +1,8 @@
+is built based on the algorithm presented in this paper
+(VP (VBZ )(VP (VBN )(PP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated114750
+Input: Token
+Rule: generated114750
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn114750 --> :pttrn114750.extracted={}
+

@@ -1,0 +1,8 @@
+exhibit good results, in most cases.In the preparation of the article, various approaches to the routing problem solution based on the bee algorithm
+(VP (VBP )(NP (JJ )(NNS ))(PP (IN )(NP (NP (JJS )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(NP (NP (JJ )(NNS ))(PP (TO )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))))))))))))
+Phase: generated2533
+Input: Token
+Rule: generated2533
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))))))))):pttrn2533 --> :pttrn2533.extracted={}
+

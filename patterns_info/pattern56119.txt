@@ -1,0 +1,8 @@
+SNs and second one isfrom SNs
+(NP (NNP )(CC )(JJ )(CD )(NN )(NNS ))
+Phase: generated56119
+Input: Token
+Rule: generated56119
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn56119 --> :pttrn56119.extracted={}
+

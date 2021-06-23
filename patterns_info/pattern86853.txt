@@ -1,0 +1,8 @@
+a set of all classes
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated86853
+Input: Token
+Rule: generated86853
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn86853 --> :pttrn86853.extracted={}
+

@@ -1,0 +1,8 @@
+to follow the PNmovements but also to reduce the length of the routes and,therefore, to reduce the packet delivery times
+(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(CC )(RB )(VP (TO )(VP (VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))(CC )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}(NNS )))))))))
+Phase: generated14205
+Input: Token
+Rule: generated14205
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })({ Token.category == RB })(({ Token.category == TO })((({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))))))))):pttrn14205 --> :pttrn14205.extracted={}
+

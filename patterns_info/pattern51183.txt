@@ -1,0 +1,8 @@
+their resource limitations.Therefore
+(NP (PRP$ )(NN ){1,2})
+Phase: generated51183
+Input: Token
+Rule: generated51183
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn51183 --> :pttrn51183.extracted={}
+

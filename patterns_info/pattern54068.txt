@@ -1,0 +1,8 @@
+,where j0
+(NP (DT )(NN ))
+Phase: generated54068
+Input: Token
+Rule: generated54068
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn54068 --> :pttrn54068.extracted={}
+

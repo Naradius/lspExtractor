@@ -1,0 +1,8 @@
+the nodesin Route 1
+(NP (DT )(NN )(NNP )(CD ))
+Phase: generated48866
+Input: Token
+Rule: generated48866
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == CD }))):pttrn48866 --> :pttrn48866.extracted={}
+

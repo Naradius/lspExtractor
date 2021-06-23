@@ -1,0 +1,8 @@
+tagged 20,000 sentences for the part of speech tagging work
+(VP (VBD )(NP (CD )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(VBG )(NN ))))))
+Phase: generated97986
+Input: Token
+Rule: generated97986
+(
+(({ Token.category == VBD })(({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == VBG })({ Token.category == NN }))))))):pttrn97986 --> :pttrn97986.extracted={}
+

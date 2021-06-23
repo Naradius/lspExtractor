@@ -1,0 +1,8 @@
+of thecase frames used in MUC-6.An example
+(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated82504
+Input: Token
+Rule: generated82504
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn82504 --> :pttrn82504.extracted={}
+

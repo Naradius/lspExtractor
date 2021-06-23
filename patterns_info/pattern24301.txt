@@ -1,0 +1,8 @@
+protection purposes
+(NP (NN )(NNS ))
+Phase: generated24301
+Input: Token
+Rule: generated24301
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn24301 --> :pttrn24301.extracted={}
+

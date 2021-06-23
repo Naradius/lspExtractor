@@ -1,0 +1,8 @@
+the travelling sales manalgorithm
+(NP (DT )(NN )(NNS )(NN ))
+Phase: generated56383
+Input: Token
+Rule: generated56383
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN }))):pttrn56383 --> :pttrn56383.extracted={}
+

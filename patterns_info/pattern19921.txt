@@ -1,0 +1,8 @@
+can be enhanced to workith some other parameters such as scalability, cost, reliability andvailability
+(VP (MD )(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NNS ))(PP (JJ )(IN ))))))))
+Phase: generated19921
+Input: Token
+Rule: generated19921
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))))))):pttrn19921 --> :pttrn19921.extracted={}
+

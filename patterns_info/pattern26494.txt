@@ -1,0 +1,8 @@
+begins with the calculation of a variable known asank Increase for every link
+(VP (VBZ )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(VBN )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated26494
+Input: Token
+Rule: generated26494
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn26494 --> :pttrn26494.extracted={}
+

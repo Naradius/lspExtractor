@@ -1,0 +1,8 @@
+of relevant sentences
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated80623
+Input: Token
+Rule: generated80623
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn80623 --> :pttrn80623.extracted={}
+

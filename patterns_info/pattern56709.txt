@@ -1,0 +1,8 @@
+as compared with LEACH-mobile protocol.Al-Refai et al
+(PP (IN )(PP (VBN )(PP (IN )(NP (JJ ){1,2}(NNP )(NN )))))
+Phase: generated56709
+Input: Token
+Rule: generated56709
+(
+(({ Token.category == IN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NN })))))):pttrn56709 --> :pttrn56709.extracted={}
+

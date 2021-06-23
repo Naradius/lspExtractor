@@ -1,0 +1,8 @@
+of the blockwhen
+(PP (IN )(NP (DT )(NN )))
+Phase: generated36916
+Input: Token
+Rule: generated36916
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn36916 --> :pttrn36916.extracted={}
+

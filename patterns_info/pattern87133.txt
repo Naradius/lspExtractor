@@ -1,0 +1,8 @@
+textual documentsare
+(NP (JJ )(NN ))
+Phase: generated87133
+Input: Token
+Rule: generated87133
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn87133 --> :pttrn87133.extracted={}
+

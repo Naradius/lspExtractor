@@ -1,0 +1,8 @@
+the iFogSim application layer
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated19770
+Input: Token
+Rule: generated19770
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn19770 --> :pttrn19770.extracted={}
+

@@ -1,0 +1,8 @@
+with the learning as described later
+(PP (IN )(NP (NP (DT )(NN ))(IN )))
+Phase: generated82764
+Input: Token
+Rule: generated82764
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == IN })))):pttrn82764 --> :pttrn82764.extracted={}
+

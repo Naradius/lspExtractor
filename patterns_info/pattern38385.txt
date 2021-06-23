@@ -1,0 +1,8 @@
+the collaborative intrusion detection in the resource-constrained devices
+(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated38385
+Input: Token
+Rule: generated38385
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn38385 --> :pttrn38385.extracted={}
+

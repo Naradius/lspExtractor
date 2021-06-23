@@ -1,0 +1,8 @@
+for parallel transmissions.Data Transmission PhaseIt is like a steady-state phase ofLEACH protocol where sensed data is sent to the BS.HIT minimizes energy consumption and network delay by usingthe parallel transmissions among multiple clusters and within acluster
+(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBZ )(PP (IN )(NP (NP (DT )(NN ){1,2}(NNP )(NN ))(WHADVP (WRB )))))))
+Phase: generated55839
+Input: Token
+Rule: generated55839
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == WRB })))))))):pttrn55839 --> :pttrn55839.extracted={}
+

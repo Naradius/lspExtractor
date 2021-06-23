@@ -1,0 +1,8 @@
+only the filter
+(NP (RB )(DT )(NN ))
+Phase: generated100422
+Input: Token
+Rule: generated100422
+(
+(({ Token.category == RB })({ Token.category == DT })({ Token.category == NN }))):pttrn100422 --> :pttrn100422.extracted={}
+

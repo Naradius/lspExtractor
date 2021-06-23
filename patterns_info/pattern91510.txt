@@ -1,0 +1,8 @@
+the current word itself, the tags or the words in the contextof the current word.                                                1 Initial state annotation is done differently depending on which learning module is used
+(NP (NP (DT )(NNS ))(CC )(NP (NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))(NP (DT )(JJ )(NN )(CD )(JJ )(NN ){1,2})))
+Phase: generated91510
+Input: Token
+Rule: generated91510
+(
+((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })(((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn91510 --> :pttrn91510.extracted={}
+

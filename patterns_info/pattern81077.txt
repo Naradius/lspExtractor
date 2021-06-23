@@ -1,0 +1,8 @@
+Long and highly varied phrases
+(NP (CC )(NP (ADJP (RB )(VBN ))(NNS )))
+Phase: generated81077
+Input: Token
+Rule: generated81077
+(
+(({ Token.category == CC })((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNS })))):pttrn81077 --> :pttrn81077.extracted={}
+

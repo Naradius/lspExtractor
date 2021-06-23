@@ -1,0 +1,8 @@
+RPL routers and exchange only RPL control mes-sages among themselves and the Edge router.The Edge router in the baseline experiment only runs the basic RPL rootfunctionalities.Another issue that usually rises when dealing with IoT is the Radio Duty Cycle
+(NP (NP (NP (NNP )(NNS ))(CC ))(CC )(NP (DT )(NNP ){1,2}(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated37635
+Input: Token
+Rule: generated37635
+(
+(((({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn37635 --> :pttrn37635.extracted={}
+

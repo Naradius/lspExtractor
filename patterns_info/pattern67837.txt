@@ -1,0 +1,8 @@
+of practices and chal-lenges in intrusion detection systems
+(PP (IN )(NP (NP (NNS )(CC )(NNS ))(PP (IN )(NP (NN ){1,2}(NNS )))))
+Phase: generated67837
+Input: Token
+Rule: generated67837
+(
+(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))))):pttrn67837 --> :pttrn67837.extracted={}
+

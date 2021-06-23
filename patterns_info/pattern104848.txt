@@ -1,0 +1,8 @@
+a quite complete history mechanism
+(NP (DT )(RB )(JJ )(NN ){1,2})
+Phase: generated104848
+Input: Token
+Rule: generated104848
+(
+(({ Token.category == DT })({ Token.category == RB })({ Token.category == JJ })({ Token.category == NN })+)):pttrn104848 --> :pttrn104848.extracted={}
+

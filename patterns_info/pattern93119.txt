@@ -1,0 +1,8 @@
+presents the preprocessing of the newsitems
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated93119
+Input: Token
+Rule: generated93119
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn93119 --> :pttrn93119.extracted={}
+

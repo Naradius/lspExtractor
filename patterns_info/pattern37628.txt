@@ -1,0 +1,8 @@
+rises when dealing with IoT
+(VP (VBZ )(WHADVP (WRB )))
+Phase: generated37628
+Input: Token
+Rule: generated37628
+(
+(({ Token.category == VBZ })(({ Token.category == WRB })))):pttrn37628 --> :pttrn37628.extracted={}
+

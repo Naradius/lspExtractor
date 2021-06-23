@@ -1,0 +1,8 @@
+are added to a rule one at a time until the errors are reduced to zero or apre-pruning criterion
+(VP (VBP )(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2}))(PP (IN )(NP (DT )(NN )))(IN )))
+Phase: generated80726
+Input: Token
+Rule: generated80726
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == IN })))):pttrn80726 --> :pttrn80726.extracted={}
+

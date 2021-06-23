@@ -1,0 +1,8 @@
+modal verbs such as canand
+(NP (NP (JJ )(NNS ))(PP (JJ )(IN )))
+Phase: generated72549
+Input: Token
+Rule: generated72549
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn72549 --> :pttrn72549.extracted={}
+

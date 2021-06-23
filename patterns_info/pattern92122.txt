@@ -1,0 +1,8 @@
+as to expressdeath or injury
+(PP (IN )(PP (TO )(NP (NN )(CC )(NN ))))
+Phase: generated92122
+Input: Token
+Rule: generated92122
+(
+(({ Token.category == IN })(({ Token.category == TO })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn92122 --> :pttrn92122.extracted={}
+

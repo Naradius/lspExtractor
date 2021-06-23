@@ -1,0 +1,8 @@
+updated within the An-droid application
+(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated18941
+Input: Token
+Rule: generated18941
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn18941 --> :pttrn18941.extracted={}
+

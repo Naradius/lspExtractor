@@ -1,0 +1,8 @@
+separation and alignment
+(NP (NN )(CC )(NN ))
+Phase: generated12312
+Input: Token
+Rule: generated12312
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn12312 --> :pttrn12312.extracted={}
+

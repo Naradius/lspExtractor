@@ -1,0 +1,8 @@
+the shortest distance
+(NP (DT )(NN ){1,2})
+Phase: generated107448
+Input: Token
+Rule: generated107448
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn107448 --> :pttrn107448.extracted={}
+

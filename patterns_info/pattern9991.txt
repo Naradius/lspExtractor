@@ -1,0 +1,8 @@
+the energy backup of the th sensornode and the
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ){1,2})(CC ))))
+Phase: generated9991
+Input: Token
+Rule: generated9991
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC }))))):pttrn9991 --> :pttrn9991.extracted={}
+

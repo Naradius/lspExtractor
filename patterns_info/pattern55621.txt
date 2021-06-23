@@ -1,0 +1,8 @@
+how many times
+(WHNP (WHADJP (WRB )(JJ ))(NNS ))
+Phase: generated55621
+Input: Token
+Rule: generated55621
+(
+((({ Token.category == WRB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn55621 --> :pttrn55621.extracted={}
+

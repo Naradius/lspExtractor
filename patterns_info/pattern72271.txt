@@ -1,0 +1,8 @@
+widely varying
+(ADJP (RB )(VBG ))
+Phase: generated72271
+Input: Token
+Rule: generated72271
+(
+(({ Token.category == RB })({ Token.category == VBG }))):pttrn72271 --> :pttrn72271.extracted={}
+

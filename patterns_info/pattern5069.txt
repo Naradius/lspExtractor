@@ -1,0 +1,8 @@
+be able to perform as well asT-ANT due to its clustering process
+(VP (VB )(ADJP (JJ )(VP (TO )(VP (VB )(JJ )(PP (JJ )(PP (TO )(NP (PRP$ )(NN ){1,2})))))))
+Phase: generated5069
+Input: Token
+Rule: generated5069
+(
+(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == JJ })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN })+)))))))):pttrn5069 --> :pttrn5069.extracted={}
+

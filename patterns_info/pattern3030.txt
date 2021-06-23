@@ -1,0 +1,8 @@
+ontodata packets
+(NP (NNP )(NNS ))
+Phase: generated3030
+Input: Token
+Rule: generated3030
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn3030 --> :pttrn3030.extracted={}
+

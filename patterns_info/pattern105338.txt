@@ -1,0 +1,8 @@
+of a visualprogram
+(PP (IN )(NP (DT )(NN )))
+Phase: generated105338
+Input: Token
+Rule: generated105338
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn105338 --> :pttrn105338.extracted={}
+

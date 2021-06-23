@@ -1,0 +1,8 @@
+created from source node ni to destination node nj, which can be described as follows: 1 2 3 4 i j i j i j i j i jR n n r n n r n n r n n r n n=  where k is the total number of disjoint routing path and u denotes the number of routing paths available between the source and destination node
+(VP (VBN )(PP (IN )(NP (NN ){1,2}(NNS ))))
+Phase: generated108206
+Input: Token
+Rule: generated108206
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))):pttrn108206 --> :pttrn108206.extracted={}
+

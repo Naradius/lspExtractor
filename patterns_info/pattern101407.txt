@@ -1,0 +1,8 @@
+5th international conference on Language Resources
+(NP (NP (JJ ){1,2}(NN ))(PP (IN )(NP (NNP )(NNPS ))))
+Phase: generated101407
+Input: Token
+Rule: generated101407
+(
+((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNPS }))))):pttrn101407 --> :pttrn101407.extracted={}
+

@@ -1,0 +1,8 @@
+to answer complex queries in an industrial environment, reconstructing semantic content efficiently by extracting related terms through analysis and classification
+(VP (TO )(VP (VB )(NP (JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))(VP (VBG )(NP (JJ )(NN ))(PP (IN )(VP (VBG )(NP (VBN )(NNS ))(PP (IN )(NP (NN )(CC )(NN ))))))))
+Phase: generated117477
+Input: Token
+Rule: generated117477
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))))))):pttrn117477 --> :pttrn117477.extracted={}
+

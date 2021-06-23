@@ -1,0 +1,8 @@
+the existing Bluetooth
+(NP (DT )(VBG )(NNP ))
+Phase: generated44531
+Input: Token
+Rule: generated44531
+(
+(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNP }))):pttrn44531 --> :pttrn44531.extracted={}
+

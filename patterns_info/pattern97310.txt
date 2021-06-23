@@ -1,0 +1,8 @@
+the uncertainties
+(NP (DT )(NNS ))
+Phase: generated97310
+Input: Token
+Rule: generated97310
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn97310 --> :pttrn97310.extracted={}
+

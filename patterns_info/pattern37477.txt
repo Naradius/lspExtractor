@@ -1,0 +1,8 @@
+connects it to the Internet through a SLIP interface to a computer
+(VP (VBZ )(PP (TO )(NP (DT )(NNP )))(PP (IN )(NP (DT )(NNP )(NN )))(PP (TO )(NP (DT )(NN ))))
+Phase: generated37477
+Input: Token
+Rule: generated37477
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn37477 --> :pttrn37477.extracted={}
+

@@ -1,0 +1,8 @@
+whya certain relation
+(NP (DT )(JJ )(NN ))
+Phase: generated95078
+Input: Token
+Rule: generated95078
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn95078 --> :pttrn95078.extracted={}
+

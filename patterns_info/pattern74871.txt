@@ -1,0 +1,8 @@
+well-formed text
+(NP (JJ )(NN ))
+Phase: generated74871
+Input: Token
+Rule: generated74871
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn74871 --> :pttrn74871.extracted={}
+

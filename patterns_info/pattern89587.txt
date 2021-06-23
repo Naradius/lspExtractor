@@ -1,0 +1,8 @@
+as noun- or proper noun phrases
+(PP (IN )(NP (CC )(NP (JJ )(NN )(NNS ))))
+Phase: generated89587
+Input: Token
+Rule: generated89587
+(
+(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn89587 --> :pttrn89587.extracted={}
+

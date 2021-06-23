@@ -1,0 +1,8 @@
+the HDRP protocol relation
+(NP (DT )(NNP )(NN ){1,2})
+Phase: generated40507
+Input: Token
+Rule: generated40507
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)):pttrn40507 --> :pttrn40507.extracted={}
+

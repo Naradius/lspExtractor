@@ -1,0 +1,8 @@
+cyber attacks
+(NP (NN )(NNS ))
+Phase: generated35011
+Input: Token
+Rule: generated35011
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn35011 --> :pttrn35011.extracted={}
+

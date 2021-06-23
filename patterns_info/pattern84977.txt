@@ -1,0 +1,8 @@
+Simulation results on BBC news and BBC sport datasets
+(NP (NP (NN )(NNS ))(PP (IN )(NP (NP (NNP )(NN ))(CC )(NP (NNP )(NN )(NNS )))))
+Phase: generated84977
+Input: Token
+Rule: generated84977
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))))):pttrn84977 --> :pttrn84977.extracted={}
+

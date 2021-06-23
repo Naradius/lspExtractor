@@ -1,0 +1,8 @@
+notbeen any attempt thus far to propose a scheme orto discuss the issues related to the transport layerof a sensor network in literature
+(VP (VBN )(NP (DT )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN )(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(VP (VBN )(PP (TO )(NP (DT )(NN )))))))))))
+Phase: generated48649
+Input: Token
+Rule: generated48649
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn48649 --> :pttrn48649.extracted={}
+

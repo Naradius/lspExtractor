@@ -1,0 +1,8 @@
+on CSO.The simulation results
+(PP (IN )(NP (DT )(NN )(NNS )))
+Phase: generated70023
+Input: Token
+Rule: generated70023
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn70023 --> :pttrn70023.extracted={}
+

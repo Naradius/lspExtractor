@@ -1,0 +1,8 @@
+would reduce the amount of E2E delay by up to3% in comparison with OFFL
+(VP (MD )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))(PP (IN )(NP (QP (RB )(CD ))(NN )))))
+Phase: generated27814
+Input: Token
+Rule: generated27814
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NN })))))):pttrn27814 --> :pttrn27814.extracted={}
+

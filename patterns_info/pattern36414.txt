@@ -1,0 +1,8 @@
+written into the block
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated36414
+Input: Token
+Rule: generated36414
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn36414 --> :pttrn36414.extracted={}
+

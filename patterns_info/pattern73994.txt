@@ -1,0 +1,8 @@
+focusing on expert-authored textshow improvement in identifying food and drug
+(VP (VBG )(PP (IN )(NP (NP (JJ )(NN ){1,2})(PP (IN )(VP (VBG )(NP (NN )(CC )(NN )))))))
+Phase: generated73994
+Input: Token
+Rule: generated73994
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))))):pttrn73994 --> :pttrn73994.extracted={}
+

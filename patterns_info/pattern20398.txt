@@ -1,0 +1,8 @@
+propose a Fog-enabled Cloud computing re-source management framework for smart homes
+(VP (VBP )(NP (NP (DT )(JJ )(NNP )(NN ){1,2})(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated20398
+Input: Token
+Rule: generated20398
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn20398 --> :pttrn20398.extracted={}
+

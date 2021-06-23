@@ -1,0 +1,8 @@
+opti-mized link state routing
+(NP (JJ )(NN ){1,2})
+Phase: generated16491
+Input: Token
+Rule: generated16491
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn16491 --> :pttrn16491.extracted={}
+

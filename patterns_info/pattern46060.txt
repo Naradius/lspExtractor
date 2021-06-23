@@ -1,0 +1,8 @@
+traditional single hop communication
+(NP (JJ ){1,2}(NN ){1,2})
+Phase: generated46060
+Input: Token
+Rule: generated46060
+(
+(({ Token.category == JJ })+({ Token.category == NN })+)):pttrn46060 --> :pttrn46060.extracted={}
+

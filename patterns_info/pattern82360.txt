@@ -1,0 +1,8 @@
+an unrelated slot
+(NP (DT )(JJ )(NN ))
+Phase: generated82360
+Input: Token
+Rule: generated82360
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn82360 --> :pttrn82360.extracted={}
+

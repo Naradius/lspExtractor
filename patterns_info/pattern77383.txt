@@ -1,0 +1,8 @@
+as wellas the quality of the learned model
+(PP (IN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated77383
+Input: Token
+Rule: generated77383
+(
+(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn77383 --> :pttrn77383.extracted={}
+

@@ -1,0 +1,8 @@
+andabnormal events and overall security postures in the system aresensed in time to make early warning and risk control
+(NP (NP (JJ )(NNS ))(CC )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NN )(CC )(NN ){1,2}))))))))
+Phase: generated35023
+Input: Token
+Rule: generated35023
+(
+((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))))))))):pttrn35023 --> :pttrn35023.extracted={}
+

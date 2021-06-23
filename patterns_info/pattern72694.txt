@@ -1,0 +1,8 @@
+extracted from the web
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated72694
+Input: Token
+Rule: generated72694
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn72694 --> :pttrn72694.extracted={}
+

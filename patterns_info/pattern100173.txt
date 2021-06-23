@@ -1,0 +1,8 @@
+the type strong andinflected
+(NP (DT )(NN )(JJ ){1,2})
+Phase: generated100173
+Input: Token
+Rule: generated100173
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })+)):pttrn100173 --> :pttrn100173.extracted={}
+

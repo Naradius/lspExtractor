@@ -1,0 +1,8 @@
+state-of-the-art machinelearning systems
+(NP (JJ )(NN )(NNS ))
+Phase: generated96034
+Input: Token
+Rule: generated96034
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn96034 --> :pttrn96034.extracted={}
+

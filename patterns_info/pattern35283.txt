@@ -1,0 +1,8 @@
+volumeof the data blockchain
+(PP (IN )(NP (DT )(NNS )(NN )))
+Phase: generated35283
+Input: Token
+Rule: generated35283
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))):pttrn35283 --> :pttrn35283.extracted={}
+

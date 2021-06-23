@@ -1,0 +1,8 @@
+due to the available information on the nodes location.Another solution for FANET routing
+(ADJP (JJ )(PP (TO )(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NNS )(JJ )(NN ))))(PP (IN )(NP (NNP )(NN ))))))
+Phase: generated2074
+Input: Token
+Rule: generated2074
+(
+(({ Token.category == JJ })(({ Token.category == TO })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))))):pttrn2074 --> :pttrn2074.extracted={}
+

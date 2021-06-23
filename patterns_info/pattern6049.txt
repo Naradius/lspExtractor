@@ -1,0 +1,8 @@
+modify the mechanics of the agents
+(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated6049
+Input: Token
+Rule: generated6049
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn6049 --> :pttrn6049.extracted={}
+

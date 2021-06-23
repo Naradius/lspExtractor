@@ -1,0 +1,8 @@
+dynamically and periodically
+(ADVP (RB )(CC )(RB ))
+Phase: generated56814
+Input: Token
+Rule: generated56814
+(
+(({ Token.category == RB })({ Token.category == CC })({ Token.category == RB }))):pttrn56814 --> :pttrn56814.extracted={}
+

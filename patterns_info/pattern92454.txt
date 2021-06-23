@@ -1,0 +1,8 @@
+an ontology
+(NP (DT )(NN ))
+Phase: generated92454
+Input: Token
+Rule: generated92454
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn92454 --> :pttrn92454.extracted={}
+

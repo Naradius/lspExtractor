@@ -1,0 +1,8 @@
+subsequently try toidentify their associated cue scope
+(VP (VB )(PP (TO )(NP (PRP$ )(JJ )(NN ){1,2})))
+Phase: generated96144
+Input: Token
+Rule: generated96144
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn96144 --> :pttrn96144.extracted={}
+

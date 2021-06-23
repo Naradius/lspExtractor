@@ -1,0 +1,8 @@
+these networksare inherently three-dimensional  since the devices can be deployed at varying depthsdepending on the phenomenon to supervise
+(NP (NP (DT )(JJ ))(ADJP (RB )(JJ )))
+Phase: generated50191
+Input: Token
+Rule: generated50191
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == RB })({ Token.category == JJ })))):pttrn50191 --> :pttrn50191.extracted={}
+

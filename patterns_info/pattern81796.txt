@@ -1,0 +1,8 @@
+focus only on the step ofextracting information at the sentence level.1.3
+(VP (VBP )(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2}(CD ))))))
+Phase: generated81796
+Input: Token
+Rule: generated81796
+(
+(({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CD }))))))):pttrn81796 --> :pttrn81796.extracted={}
+

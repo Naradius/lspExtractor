@@ -1,0 +1,8 @@
+too strict a stopping condition
+(NP (ADJP (RB )(JJ ))(DT )(NN ){1,2})
+Phase: generated83586
+Input: Token
+Rule: generated83586
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == DT })({ Token.category == NN })+)):pttrn83586 --> :pttrn83586.extracted={}
+

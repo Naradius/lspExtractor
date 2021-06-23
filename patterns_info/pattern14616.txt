@@ -1,0 +1,8 @@
+of the T_RequestWait
+(PP (IN )(NP (DT )(NN )))
+Phase: generated14616
+Input: Token
+Rule: generated14616
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn14616 --> :pttrn14616.extracted={}
+

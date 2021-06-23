@@ -1,0 +1,8 @@
+,which classifies news items using the GATE archi-tecture
+(PP (IN )(NP (NP (VBG )(NN )(NNS ))(VP (VBG )(NP (DT )(NNP )(NN )))))
+Phase: generated93192
+Input: Token
+Rule: generated93192
+(
+(({ Token.category == IN })((({ Token.category == VBG })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn93192 --> :pttrn93192.extracted={}
+

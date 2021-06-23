@@ -1,0 +1,8 @@
+the cluster size and the duration of a node beingnominated as a CH based on the assumption that the loca-tions are known a priori
+(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NNP ))(VP (VBN )(PP (IN )(NP (DT )(NN )(IN )))))))))))
+Phase: generated9762
+Input: Token
+Rule: generated9762
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == IN })))))))))))):pttrn9762 --> :pttrn9762.extracted={}
+

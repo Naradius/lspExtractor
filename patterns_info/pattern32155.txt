@@ -1,0 +1,8 @@
+WSN applications
+(NP (NNP )(NNS ))
+Phase: generated32155
+Input: Token
+Rule: generated32155
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn32155 --> :pttrn32155.extracted={}
+

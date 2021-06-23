@@ -1,0 +1,8 @@
+Q/A pairs that are syntac-tically similar and avoiding the creation of seed composed by pairs like How many years didRip Van Winkle sleep?
+(NP (NP (NNP )(NNS ))(VP (VP (VBP )(ADJP (RB )(JJ )))(CC )))
+Phase: generated98973
+Input: Token
+Rule: generated98973
+(
+((({ Token.category == NNP })({ Token.category == NNS }))((({ Token.category == VBP })(({ Token.category == RB })({ Token.category == JJ })))({ Token.category == CC })))):pttrn98973 --> :pttrn98973.extracted={}
+

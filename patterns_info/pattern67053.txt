@@ -1,0 +1,8 @@
+executed by OLSR protocol to identify the feasible sensorodes for monitoring duty
+(VP (VBN )(PP (IN )(NP (NNP )(NN )))(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (VBG )(NN )))))))
+Phase: generated67053
+Input: Token
+Rule: generated67053
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN })))))))):pttrn67053 --> :pttrn67053.extracted={}
+

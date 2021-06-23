@@ -1,0 +1,8 @@
+of text extraction rules that identify relevant information to beextracted.For structured text
+(PP (IN )(NP (NP (NN ){1,2}(NNS ))(VP (VBP )(NP (JJ )(NN )))))
+Phase: generated81555
+Input: Token
+Rule: generated81555
+(
+(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn81555 --> :pttrn81555.extracted={}
+

@@ -1,0 +1,8 @@
+to extract event-based knowledge.Many studies within the information extraction communityhave been devoted to the extraction of event-based knowledge.Detecting events automatically and obtaining a semantic represen-tation for them
+(VP (TO )(VP (VB )(NP (JJ )(NN ))(PP (IN )(NP (PP (IN )(NP (DT )(NN ){1,2}))(VP (VBN )(VP (VBN )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(VP (CC )(VP (VBG )(NP (DT )(JJ )(NN ))))))))))))))
+Phase: generated72176
+Input: Token
+Rule: generated72176
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))))))))):pttrn72176 --> :pttrn72176.extracted={}
+

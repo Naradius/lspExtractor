@@ -1,0 +1,8 @@
+a predefinedmaximum velocity for every dimension
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated69369
+Input: Token
+Rule: generated69369
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn69369 --> :pttrn69369.extracted={}
+

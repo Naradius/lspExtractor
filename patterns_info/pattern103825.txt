@@ -1,0 +1,8 @@
+check the existence of an edge with label k between two already knownvertices x and y of R, and call it z.Furthermore, left returns the variable name x of a matching directivemd
+(VP (VP (VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))(CC ))(VP (VBD )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated103825
+Input: Token
+Rule: generated103825
+(
+(((({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))({ Token.category == CC }))(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn103825 --> :pttrn103825.extracted={}
+

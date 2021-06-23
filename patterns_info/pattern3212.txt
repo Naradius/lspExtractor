@@ -1,0 +1,8 @@
+have inspired computer scientists to repli-cate them as they exhibits many attractive features, such asrobustness and reliability through redundancy .In this paper
+(VP (VBP )(VP (VBN )(NP (NN )(NNS ))(VP (TO )(VP (VB )(IN )))))
+Phase: generated3212
+Input: Token
+Rule: generated3212
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))))):pttrn3212 --> :pttrn3212.extracted={}
+

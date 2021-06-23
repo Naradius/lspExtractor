@@ -1,0 +1,8 @@
+Gates 2A,353 Serra Mall
+(NP (NNP )(CD )(NNP ){1,2})
+Phase: generated73681
+Input: Token
+Rule: generated73681
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+)):pttrn73681 --> :pttrn73681.extracted={}
+

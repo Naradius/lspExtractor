@@ -1,0 +1,8 @@
+according to which this anaphora substitution occurred
+(PP (VBG )(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated114332
+Input: Token
+Rule: generated114332
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn114332 --> :pttrn114332.extracted={}
+

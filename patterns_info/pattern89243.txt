@@ -1,0 +1,8 @@
+referent.3.4.2 Coreference and appositionApart from coreference between non-adjacent text units
+(VP (VB )(NP (NNP )(CC )(NN )))
+Phase: generated89243
+Input: Token
+Rule: generated89243
+(
+(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })))):pttrn89243 --> :pttrn89243.extracted={}
+

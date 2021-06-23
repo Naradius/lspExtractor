@@ -1,0 +1,8 @@
+the ocial MUC-6 answer key
+(NP (DT )(JJ )(NNP )(NN ){1,2})
+Phase: generated84193
+Input: Token
+Rule: generated84193
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)):pttrn84193 --> :pttrn84193.extracted={}
+

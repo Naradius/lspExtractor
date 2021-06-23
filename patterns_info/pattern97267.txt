@@ -1,0 +1,8 @@
+The Linguistics Journal Volume
+(NP (DT )(NNP ){1,2}(NN ))
+Phase: generated97267
+Input: Token
+Rule: generated97267
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))):pttrn97267 --> :pttrn97267.extracted={}
+

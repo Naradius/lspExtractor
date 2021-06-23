@@ -1,0 +1,8 @@
+to determine the POS weights and deliver the most accurate similarity measure possible between sentences
+(VP (TO )(VP (VP (VB )(NP (DT )(NNP )(NNS )))(CC )(VP (VB )(NP (DT )(ADJP (RBS )(JJ ))(NN ){1,2}))))
+Phase: generated113044
+Input: Token
+Rule: generated113044
+(
+(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN })+))))):pttrn113044 --> :pttrn113044.extracted={}
+

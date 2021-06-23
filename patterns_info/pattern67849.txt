@@ -1,0 +1,8 @@
+NewAspects of Applied Informatics, Biomedical Electronics and Informatics andCommunications, 2010
+(VP (VBZ )(PP (IN )(NP (CC )(NP (NNP )(NNS )(CD )))))
+Phase: generated67849
+Input: Token
+Rule: generated67849
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NNS })({ Token.category == CD })))))):pttrn67849 --> :pttrn67849.extracted={}
+

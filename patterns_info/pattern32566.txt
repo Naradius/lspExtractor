@@ -1,0 +1,8 @@
+In the proposedalgorithm
+(PP (IN )(NP (DT )(NN )))
+Phase: generated32566
+Input: Token
+Rule: generated32566
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn32566 --> :pttrn32566.extracted={}
+

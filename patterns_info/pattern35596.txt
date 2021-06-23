@@ -1,0 +1,8 @@
+uses a simplereactive route discovery mechanism
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated35596
+Input: Token
+Rule: generated35596
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn35596 --> :pttrn35596.extracted={}
+

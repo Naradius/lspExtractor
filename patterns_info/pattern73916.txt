@@ -1,0 +1,8 @@
+.org/10.1136/amiajnl-2014-002669http://dx.doi.org/10.1136/amiajnl-2014-002669http://crossmark.crossref.org/dialog/?doi=10.1136/amiajnl-2014-002669&domain=pdf&date_stamp=2014-06-26http://www.medhelp.orghttp://www.medhelp.orghttp://www.medhelp.orghttp
+(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ ){1,2}(NN ){1,2})))))
+Phase: generated73916
+Input: Token
+Rule: generated73916
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })+)))))):pttrn73916 --> :pttrn73916.extracted={}
+

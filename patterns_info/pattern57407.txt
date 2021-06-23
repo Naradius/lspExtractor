@@ -1,0 +1,8 @@
+The proposal which is used to save theenergy for small networks consisting of few nodes
+(NP (NP (DT )(NN ))(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(PP (IN )(NP (JJ )(NNS )))))))))))
+Phase: generated57407
+Input: Token
+Rule: generated57407
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))))))):pttrn57407 --> :pttrn57407.extracted={}
+

@@ -1,0 +1,8 @@
+therule notation
+(NP (DT )(NN ))
+Phase: generated90174
+Input: Token
+Rule: generated90174
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn90174 --> :pttrn90174.extracted={}
+

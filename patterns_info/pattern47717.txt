@@ -1,0 +1,8 @@
+GHz122123 GHz 122.5 GHz244246 GHz 245
+(PP (IN )(NP (NNP )(CD )(NNP ){1,2}(CD )))
+Phase: generated47717
+Input: Token
+Rule: generated47717
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == CD })))):pttrn47717 --> :pttrn47717.extracted={}
+

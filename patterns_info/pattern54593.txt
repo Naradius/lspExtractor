@@ -1,0 +1,8 @@
+The information retrieved by the CH
+(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NNP )))))
+Phase: generated54593
+Input: Token
+Rule: generated54593
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn54593 --> :pttrn54593.extracted={}
+

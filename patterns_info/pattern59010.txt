@@ -1,0 +1,8 @@
+in adistributed way
+(PP (IN )(NP (DT )(NN )))
+Phase: generated59010
+Input: Token
+Rule: generated59010
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn59010 --> :pttrn59010.extracted={}
+

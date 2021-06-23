@@ -1,0 +1,8 @@
+in-dividual tokens or relations
+(NP (JJ )(NNS )(CC )(NNS ))
+Phase: generated76638
+Input: Token
+Rule: generated76638
+(
+(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn76638 --> :pttrn76638.extracted={}
+

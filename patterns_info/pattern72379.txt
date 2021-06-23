@@ -1,0 +1,8 @@
+parsedusing a SRL engine to extract the semantic roles associated withthe event in each sentence
+(VP (VBG )(NP (DT )(NNP )(NN )))
+Phase: generated72379
+Input: Token
+Rule: generated72379
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn72379 --> :pttrn72379.extracted={}
+

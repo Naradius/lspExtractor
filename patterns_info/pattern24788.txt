@@ -1,0 +1,8 @@
+Hosseini Monazzah et al. / Microprocessors
+(NP (NNP ){1,2}(NN ){1,2}(NNS ))
+Phase: generated24788
+Input: Token
+Rule: generated24788
+(
+(({ Token.category == NNP })+({ Token.category == NN })+({ Token.category == NNS }))):pttrn24788 --> :pttrn24788.extracted={}
+

@@ -1,0 +1,8 @@
+TheInternational Journal of Distributed Sensor Networks 9Table 2
+(NP (NP (DT )(NNP ))(PP (IN )(NP (NNP ){1,2}(CD ))))
+Phase: generated69725
+Input: Token
+Rule: generated69725
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD }))))):pttrn69725 --> :pttrn69725.extracted={}
+

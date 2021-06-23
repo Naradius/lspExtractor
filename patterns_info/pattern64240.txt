@@ -1,0 +1,8 @@
+to achieve to the betterFig
+(VP (TO )(VP (VB )(PP (TO )(NP (DT )(NN )))))
+Phase: generated64240
+Input: Token
+Rule: generated64240
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn64240 --> :pttrn64240.extracted={}
+

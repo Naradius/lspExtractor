@@ -1,0 +1,8 @@
+to verify the location information of the system for secure storage devices
+(VP (TO )(VP (VB )(NP (NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (JJ )(NN )(NNS ))))))
+Phase: generated36010
+Input: Token
+Rule: generated36010
+(
+(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn36010 --> :pttrn36010.extracted={}
+

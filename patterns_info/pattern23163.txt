@@ -1,0 +1,8 @@
+minimum number
+(NP (JJ )(NN ))
+Phase: generated23163
+Input: Token
+Rule: generated23163
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn23163 --> :pttrn23163.extracted={}
+

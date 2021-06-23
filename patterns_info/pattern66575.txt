@@ -1,0 +1,8 @@
+intended to reduce the tension on individ-al sensor nodes that select the sufficient random guard nodes toravel around the network
+(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN )(NNS ))(VP (VBP )(NP (DT )(JJ ){1,2}(NN )(NNS )(NN ))(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated66575
+Input: Token
+Rule: generated66575
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn66575 --> :pttrn66575.extracted={}
+

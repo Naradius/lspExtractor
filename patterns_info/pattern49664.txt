@@ -1,0 +1,8 @@
+to monitor the energy supplyand consumption process thanks to an automated andintelligent power-system management
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})(ADVP (NNS )(PP (TO )(NP (DT )(VBN )(NN ){1,2})))))
+Phase: generated49664
+Input: Token
+Rule: generated49664
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == NNS })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))))):pttrn49664 --> :pttrn49664.extracted={}
+

@@ -1,0 +1,8 @@
+of the true errorof
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated83025
+Input: Token
+Rule: generated83025
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn83025 --> :pttrn83025.extracted={}
+

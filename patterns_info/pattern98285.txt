@@ -1,0 +1,8 @@
+some additional information such as weight of the words
+(NP (NP (DT )(JJ )(NN ))(PP (JJ )(IN )))
+Phase: generated98285
+Input: Token
+Rule: generated98285
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn98285 --> :pttrn98285.extracted={}
+

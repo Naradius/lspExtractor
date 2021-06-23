@@ -1,0 +1,8 @@
+will co-occur with hippos Improves effectiveness
+(VP (MD )(VP (VB )(PP (IN )(NP (NNS ){1,2}(NN )))))
+Phase: generated96512
+Input: Token
+Rule: generated96512
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NNS })+({ Token.category == NN })))))):pttrn96512 --> :pttrn96512.extracted={}
+

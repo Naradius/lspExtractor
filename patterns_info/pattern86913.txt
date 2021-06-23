@@ -1,0 +1,8 @@
+Find two closest clusters ci and cj .2.5.
+(VP (VB )(NP (NP (CD )(JJS )(NNS ){1,2})(CC )(NP (JJ )(CD ))))
+Phase: generated86913
+Input: Token
+Rule: generated86913
+(
+(({ Token.category == VB })((({ Token.category == CD })({ Token.category == JJS })({ Token.category == NNS })+)({ Token.category == CC })(({ Token.category == JJ })({ Token.category == CD }))))):pttrn86913 --> :pttrn86913.extracted={}
+

@@ -1,0 +1,8 @@
+recognizes sequencesbelonging to an algebraic language
+(VP (VBZ )(VP (VBG )(PP (TO )(NP (DT )(JJ )(NN )))))
+Phase: generated105634
+Input: Token
+Rule: generated105634
+(
+(({ Token.category == VBZ })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn105634 --> :pttrn105634.extracted={}
+

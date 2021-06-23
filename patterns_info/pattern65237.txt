@@ -1,0 +1,8 @@
+a partr complete network access
+(NP (DT )(NN )(JJ )(NN ){1,2})
+Phase: generated65237
+Input: Token
+Rule: generated65237
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)):pttrn65237 --> :pttrn65237.extracted={}
+

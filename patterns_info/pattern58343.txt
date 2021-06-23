@@ -1,0 +1,8 @@
+Network and Computer Applications 36  623645 625Transmitting radio equations
+(NP (CC )(NP (NNP ){1,2}(CD ){1,2}(JJ )(NN )(NNS )))
+Phase: generated58343
+Input: Token
+Rule: generated58343
+(
+(({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == CD })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn58343 --> :pttrn58343.extracted={}
+

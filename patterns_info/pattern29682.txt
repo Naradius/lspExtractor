@@ -1,0 +1,8 @@
+the main sensor with its associated temperature tsi
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NN )(NNS ))))
+Phase: generated29682
+Input: Token
+Rule: generated29682
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn29682 --> :pttrn29682.extracted={}
+

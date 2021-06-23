@@ -1,0 +1,8 @@
+in the light of the proposedframework
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated76946
+Input: Token
+Rule: generated76946
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn76946 --> :pttrn76946.extracted={}
+

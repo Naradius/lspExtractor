@@ -1,0 +1,8 @@
+receiving the request from the reader
+(VP (VBG )(NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated34514
+Input: Token
+Rule: generated34514
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn34514 --> :pttrn34514.extracted={}
+

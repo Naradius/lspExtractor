@@ -1,0 +1,8 @@
+at least one PNin
+(NP (QP (IN )(JJS )(CD ))(NN ))
+Phase: generated12990
+Input: Token
+Rule: generated12990
+(
+((({ Token.category == IN })({ Token.category == JJS })({ Token.category == CD }))({ Token.category == NN }))):pttrn12990 --> :pttrn12990.extracted={}
+

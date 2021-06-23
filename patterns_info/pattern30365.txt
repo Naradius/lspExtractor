@@ -1,0 +1,8 @@
+has investigated the inaccuracy problem of IoT net-work algorithms using heterogeneous input data
+(VP (VBZ )(VP (VBN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (NNP )(NN )(NNS ))(VP (VBG )(NP (JJ )(NN )(NNS ))))))))
+Phase: generated30365
+Input: Token
+Rule: generated30365
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn30365 --> :pttrn30365.extracted={}
+

@@ -1,0 +1,8 @@
+a location based multicast routing protocol
+(NP (DT )(NN )(VBN )(NN ){1,2})
+Phase: generated565
+Input: Token
+Rule: generated565
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == VBN })({ Token.category == NN })+)):pttrn565 --> :pttrn565.extracted={}
+

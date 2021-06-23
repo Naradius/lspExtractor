@@ -1,0 +1,8 @@
+questionable semantic roles
+(NP (JJ ){1,2}(NNS ))
+Phase: generated72821
+Input: Token
+Rule: generated72821
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn72821 --> :pttrn72821.extracted={}
+

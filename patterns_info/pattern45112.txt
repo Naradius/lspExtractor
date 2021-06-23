@@ -1,0 +1,8 @@
+BER and an overall gain
+(NP (CC )(NP (DT )(JJ )(NN )))
+Phase: generated45112
+Input: Token
+Rule: generated45112
+(
+(({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn45112 --> :pttrn45112.extracted={}
+

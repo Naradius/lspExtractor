@@ -1,0 +1,8 @@
+instantiated with the content of thequestions respective syntactic constituents
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NNS ))))))
+Phase: generated99554
+Input: Token
+Rule: generated99554
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))))))):pttrn99554 --> :pttrn99554.extracted={}
+

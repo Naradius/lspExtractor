@@ -1,0 +1,8 @@
+act as ordinary nodes
+(VP (VBP )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated58290
+Input: Token
+Rule: generated58290
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn58290 --> :pttrn58290.extracted={}
+

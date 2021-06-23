@@ -1,0 +1,8 @@
+decide if an event is malicious or non-malicious
+(VP (VB )(IN ))
+Phase: generated39764
+Input: Token
+Rule: generated39764
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn39764 --> :pttrn39764.extracted={}
+

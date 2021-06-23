@@ -1,0 +1,8 @@
+to insert new in-ventories
+(VP (TO )(VP (VB )(NP (JJ )(NNS ))))
+Phase: generated46725
+Input: Token
+Rule: generated46725
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn46725 --> :pttrn46725.extracted={}
+

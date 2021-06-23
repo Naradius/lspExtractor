@@ -1,0 +1,8 @@
+the communicationarchitecturesinsmartgrid,Comput.Netw.5536043629
+(NP (DT )(NN ))
+Phase: generated52653
+Input: Token
+Rule: generated52653
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn52653 --> :pttrn52653.extracted={}
+

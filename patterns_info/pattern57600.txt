@@ -1,0 +1,8 @@
+ishow the data aggregation can be performed keeping in view ofthe high mobility of the nodes in VANETs
+(VP (VBP )(NP (DT )(NNS )(NN )))
+Phase: generated57600
+Input: Token
+Rule: generated57600
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))):pttrn57600 --> :pttrn57600.extracted={}
+

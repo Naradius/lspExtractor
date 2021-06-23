@@ -1,0 +1,8 @@
+for a fixed number ofnodes
+(PP (IN )(NP (DT )(JJ )(NN )(NNS )))
+Phase: generated8436
+Input: Token
+Rule: generated8436
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn8436 --> :pttrn8436.extracted={}
+

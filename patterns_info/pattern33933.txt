@@ -1,0 +1,8 @@
+is much shorter thanthat of AODV
+(VP (VBZ )(ADJP (JJ )(JJR )))
+Phase: generated33933
+Input: Token
+Rule: generated33933
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == JJR })))):pttrn33933 --> :pttrn33933.extracted={}
+

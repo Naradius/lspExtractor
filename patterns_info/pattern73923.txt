@@ -1,0 +1,8 @@
+my doctors
+(NP (PRP$ )(NNS ))
+Phase: generated73923
+Input: Token
+Rule: generated73923
+(
+(({ Token.category == PRP$ })({ Token.category == NNS }))):pttrn73923 --> :pttrn73923.extracted={}
+

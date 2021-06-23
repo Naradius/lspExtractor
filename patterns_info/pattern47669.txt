@@ -1,0 +1,8 @@
+the smartdust mote , which is an autonomous sensing,computing and communication system that uses op-tical medium for transmission
+(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(NP (NP (DT )(JJ )(NN ){1,2}(CC )(NN ){1,2})(VP (VBZ )(NP (JJ )(NN ))))))
+Phase: generated47669
+Input: Token
+Rule: generated47669
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn47669 --> :pttrn47669.extracted={}
+

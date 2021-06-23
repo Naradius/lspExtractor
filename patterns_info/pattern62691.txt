@@ -1,0 +1,8 @@
+repeat the previous actions
+(VP (VBP )(NP (DT )(JJ )(NNS )))
+Phase: generated62691
+Input: Token
+Rule: generated62691
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn62691 --> :pttrn62691.extracted={}
+

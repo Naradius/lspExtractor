@@ -1,0 +1,8 @@
+the cost function canbe
+(NP (DT )(NN ){1,2})
+Phase: generated22401
+Input: Token
+Rule: generated22401
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn22401 --> :pttrn22401.extracted={}
+

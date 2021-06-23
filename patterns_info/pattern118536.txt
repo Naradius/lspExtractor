@@ -1,0 +1,8 @@
+/ relaxed mode	agree
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated118536
+Input: Token
+Rule: generated118536
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn118536 --> :pttrn118536.extracted={}
+

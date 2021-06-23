@@ -1,0 +1,8 @@
+The Detection Engine at the edge router
+(NP (NP (DT )(NNP ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated39998
+Input: Token
+Rule: generated39998
+(
+((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn39998 --> :pttrn39998.extracted={}
+

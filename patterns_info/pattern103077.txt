@@ -1,0 +1,8 @@
+the so-called dangling edge condition of definition 3.4
+(NP (NP (DT )(JJ ){1,2}(NN ))(PP (IN )(NP (NN )(CD ))))
+Phase: generated103077
+Input: Token
+Rule: generated103077
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))):pttrn103077 --> :pttrn103077.extracted={}
+

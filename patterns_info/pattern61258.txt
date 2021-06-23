@@ -1,0 +1,8 @@
+for un-qual clustering
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated61258
+Input: Token
+Rule: generated61258
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn61258 --> :pttrn61258.extracted={}
+

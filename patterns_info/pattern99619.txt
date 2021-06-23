@@ -1,0 +1,8 @@
+be associated with the syntactic constituents of the second Q/A pair.Algorithm 2
+(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NNP )(NN )(CD )))))))
+Phase: generated99619
+Input: Token
+Rule: generated99619
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })({ Token.category == CD })))))))):pttrn99619 --> :pttrn99619.extracted={}
+

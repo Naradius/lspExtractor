@@ -1,0 +1,8 @@
+a simple strategy
+(NP (DT )(JJ )(NN ))
+Phase: generated11991
+Input: Token
+Rule: generated11991
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn11991 --> :pttrn11991.extracted={}
+

@@ -1,0 +1,8 @@
+Selvakennedy et al. / Computer Communications 30  27862801 2795application and the network layer, and thus, the overallsystem framework is as shown in Fig. 2.Based on the given simulation framework
+(NP (NP (NP (NNP ){1,2}(NN ))('' )(NP (NP (NNP )(NNPS )(CD ){1,2})(CC )(NP (DT )(NN ){1,2})))(CC )(NP (DT )(JJ )(NN )))
+Phase: generated8128
+Input: Token
+Rule: generated8128
+(
+(((({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == '' })((({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == CD })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn8128 --> :pttrn8128.extracted={}
+

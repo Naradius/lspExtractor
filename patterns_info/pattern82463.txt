@@ -1,0 +1,8 @@
+structured or semi-structuredtext
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated82463
+Input: Token
+Rule: generated82463
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn82463 --> :pttrn82463.extracted={}
+

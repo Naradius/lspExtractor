@@ -1,0 +1,8 @@
+the perimeter forwarding
+(NP (DT )(NN ){1,2})
+Phase: generated17471
+Input: Token
+Rule: generated17471
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn17471 --> :pttrn17471.extracted={}
+

@@ -1,0 +1,8 @@
+the IoT users
+(NP (DT )(NNP )(NNS ))
+Phase: generated65220
+Input: Token
+Rule: generated65220
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn65220 --> :pttrn65220.extracted={}
+

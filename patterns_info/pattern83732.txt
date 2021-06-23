@@ -1,0 +1,8 @@
+the Management Succession cor-pus
+(NP (DT )(NNP ){1,2}(NN ))
+Phase: generated83732
+Input: Token
+Rule: generated83732
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))):pttrn83732 --> :pttrn83732.extracted={}
+

@@ -1,0 +1,8 @@
+the 2009 Conference on Empirical Methods in Natural Language Processing, 2009
+(NP (NP (DT )(CD )(NNP ))(PP (IN )(NP (NP (NNP )(NNPS ))(PP (IN )(NP (NNP ){1,2}(CD ))))))
+Phase: generated116860
+Input: Token
+Rule: generated116860
+(
+((({ Token.category == DT })({ Token.category == CD })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNPS }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD }))))))):pttrn116860 --> :pttrn116860.extracted={}
+

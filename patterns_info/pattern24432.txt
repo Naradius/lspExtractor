@@ -1,0 +1,8 @@
+conflict free end-to-end routes tointerfering SD pairs without compromising effective data rate andassignment fairness
+(NP (NP (NN )(JJ )(NN )(NNS ))(VP (VBG )(NP (NNP )(NNS ))(PP (IN )(VP (VBG )(NP (JJ )(NNS )(NN ))))))
+Phase: generated24432
+Input: Token
+Rule: generated24432
+(
+((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))))))):pttrn24432 --> :pttrn24432.extracted={}
+

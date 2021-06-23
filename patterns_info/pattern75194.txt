@@ -1,0 +1,8 @@
+as inhaler and inhalers
+(PP (IN )(NP (NN )(CC )(NNS )))
+Phase: generated75194
+Input: Token
+Rule: generated75194
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })))):pttrn75194 --> :pttrn75194.extracted={}
+

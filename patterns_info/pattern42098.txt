@@ -1,0 +1,8 @@
+duringj=1 j = 1
+(PP (IN )(NP (JJ )(SYM )(CD )))
+Phase: generated42098
+Input: Token
+Rule: generated42098
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == SYM })({ Token.category == CD })))):pttrn42098 --> :pttrn42098.extracted={}
+

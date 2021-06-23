@@ -1,0 +1,8 @@
+node uand v
+(NP (NN )(CC )(NN ))
+Phase: generated43797
+Input: Token
+Rule: generated43797
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn43797 --> :pttrn43797.extracted={}
+

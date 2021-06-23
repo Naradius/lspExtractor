@@ -1,0 +1,8 @@
+the phrases in different dictionaries.The latter
+(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NN ){1,2})))
+Phase: generated74418
+Input: Token
+Rule: generated74418
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn74418 --> :pttrn74418.extracted={}
+

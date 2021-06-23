@@ -1,0 +1,8 @@
+announces it has signed the ABM treaty
+(VP (VBZ )(VP (VBZ )(VP (VBN )(NP (DT )(NNP )(NN )))))
+Phase: generated89986
+Input: Token
+Rule: generated89986
+(
+(({ Token.category == VBZ })(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn89986 --> :pttrn89986.extracted={}
+

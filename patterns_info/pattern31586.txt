@@ -1,0 +1,8 @@
+has contributedto significant progress in this field
+(VP (VBZ )(VP (VBN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated31586
+Input: Token
+Rule: generated31586
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn31586 --> :pttrn31586.extracted={}
+

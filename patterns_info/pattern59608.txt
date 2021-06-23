@@ -1,0 +1,8 @@
+The steps of the proposed routing algorithm
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(VBN )(NN ){1,2})))
+Phase: generated59608
+Input: Token
+Rule: generated59608
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))):pttrn59608 --> :pttrn59608.extracted={}
+

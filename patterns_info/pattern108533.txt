@@ -1,0 +1,8 @@
+To reduce the transmission delay
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated108533
+Input: Token
+Rule: generated108533
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn108533 --> :pttrn108533.extracted={}
+

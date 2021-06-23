@@ -1,0 +1,8 @@
+for a Question Answering system
+(PP (IN )(NP (DT )(NNP ){1,2}(NN )))
+Phase: generated70439
+Input: Token
+Rule: generated70439
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))):pttrn70439 --> :pttrn70439.extracted={}
+

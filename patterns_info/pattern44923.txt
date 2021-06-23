@@ -1,0 +1,8 @@
+used for sensor networks
+(VP (VBN )(PP (IN )(NP (NN )(NNS ))))
+Phase: generated44923
+Input: Token
+Rule: generated44923
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn44923 --> :pttrn44923.extracted={}
+

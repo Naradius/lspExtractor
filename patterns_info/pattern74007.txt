@@ -1,0 +1,8 @@
+generalize across PATsources.The most relevant work to ours
+(VP (VB )(PP (IN )(NP (DT )(ADJP (RBS )(JJ ))(NN ))))
+Phase: generated74007
+Input: Token
+Rule: generated74007
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))))):pttrn74007 --> :pttrn74007.extracted={}
+

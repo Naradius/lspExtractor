@@ -1,0 +1,8 @@
+protocols and al-gorithms for sensor networks
+(NP (NP (NNS )(CC )(NNS ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated48369
+Input: Token
+Rule: generated48369
+(
+((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn48369 --> :pttrn48369.extracted={}
+

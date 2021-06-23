@@ -1,0 +1,8 @@
+aimsat exchanging subpopulation information and forming thecooperation structure between different groups
+(PP (IN )(VP (VBG )(NP (CC )(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated68855
+Input: Token
+Rule: generated68855
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn68855 --> :pttrn68855.extracted={}
+

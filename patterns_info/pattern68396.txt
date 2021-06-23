@@ -1,0 +1,8 @@
+sensor nodes scattered in the network field
+(NP (NP (NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated68396
+Input: Token
+Rule: generated68396
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn68396 --> :pttrn68396.extracted={}
+

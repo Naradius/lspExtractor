@@ -1,0 +1,8 @@
+as a rst step in knowledge discovery systems that look fortrends in massive amounts of text data
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NN ){1,2}(NNS ))(VP (VBP )(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NN )(NNS ))))))))))
+Phase: generated81531
+Input: Token
+Rule: generated81531
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))))):pttrn81531 --> :pttrn81531.extracted={}
+

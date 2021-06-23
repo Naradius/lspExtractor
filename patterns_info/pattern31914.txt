@@ -1,0 +1,8 @@
+the development of this model
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated31914
+Input: Token
+Rule: generated31914
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn31914 --> :pttrn31914.extracted={}
+

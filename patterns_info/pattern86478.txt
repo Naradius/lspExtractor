@@ -1,0 +1,8 @@
+termweighting.3.1
+(NP (NN )(CD ))
+Phase: generated86478
+Input: Token
+Rule: generated86478
+(
+(({ Token.category == NN })({ Token.category == CD }))):pttrn86478 --> :pttrn86478.extracted={}
+

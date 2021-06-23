@@ -1,0 +1,8 @@
+the caseof structural health monitoring applications
+(NP (DT )(NN )(JJ )(NN ){1,2}(NNS ))
+Phase: generated50216
+Input: Token
+Rule: generated50216
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))):pttrn50216 --> :pttrn50216.extracted={}
+

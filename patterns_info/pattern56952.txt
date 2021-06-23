@@ -1,0 +1,8 @@
+suited for mission critical applications and for the situation inwhich losing any sensing data
+(VP (VBD )(PP (PP (IN )(NP (NN )(JJ )(NNS )))(CC )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (DT )(NN )(NNS ))))))))
+Phase: generated56952
+Input: Token
+Rule: generated56952
+(
+(({ Token.category == VBD })((({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn56952 --> :pttrn56952.extracted={}
+

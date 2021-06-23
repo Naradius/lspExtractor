@@ -1,0 +1,8 @@
+the geographical areas
+(NP (DT )(JJ )(NNS ))
+Phase: generated32198
+Input: Token
+Rule: generated32198
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn32198 --> :pttrn32198.extracted={}
+

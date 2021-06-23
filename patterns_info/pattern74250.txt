@@ -1,0 +1,8 @@
+only two or fewer stop words
+(NP (QP (RB )(CD )(CC )(JJR ))(NN )(NNS ))
+Phase: generated74250
+Input: Token
+Rule: generated74250
+(
+((({ Token.category == RB })({ Token.category == CD })({ Token.category == CC })({ Token.category == JJR }))({ Token.category == NN })({ Token.category == NNS }))):pttrn74250 --> :pttrn74250.extracted={}
+

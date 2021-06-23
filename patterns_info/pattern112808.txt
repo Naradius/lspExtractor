@@ -1,0 +1,8 @@
+are principally based on data packetsignature
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NNS )(NN )))))
+Phase: generated112808
+Input: Token
+Rule: generated112808
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })))))):pttrn112808 --> :pttrn112808.extracted={}
+

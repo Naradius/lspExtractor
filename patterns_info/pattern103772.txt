@@ -1,0 +1,8 @@
+a linearsearch plan
+(NP (DT )(NN ){1,2})
+Phase: generated103772
+Input: Token
+Rule: generated103772
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn103772 --> :pttrn103772.extracted={}
+

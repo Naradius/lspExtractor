@@ -1,0 +1,8 @@
+W. ntema
+(NP (NNP )(NN ))
+Phase: generated94746
+Input: Token
+Rule: generated94746
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn94746 --> :pttrn94746.extracted={}
+

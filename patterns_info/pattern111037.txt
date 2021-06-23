@@ -1,0 +1,8 @@
+the state feedback AQM in  and observer gains
+(NP (NP (DT )(NN ){1,2}(NNP ))(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated111037
+Input: Token
+Rule: generated111037
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn111037 --> :pttrn111037.extracted={}
+

@@ -1,0 +1,8 @@
+show how graph grammars can be usedas syntax definition formalism for graphical languages
+(VP (VB )(WHADVP (WRB )))
+Phase: generated105199
+Input: Token
+Rule: generated105199
+(
+(({ Token.category == VB })(({ Token.category == WRB })))):pttrn105199 --> :pttrn105199.extracted={}
+

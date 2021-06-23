@@ -1,0 +1,8 @@
+thestate information on emptying regions
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated15228
+Input: Token
+Rule: generated15228
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn15228 --> :pttrn15228.extracted={}
+

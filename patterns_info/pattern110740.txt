@@ -1,0 +1,8 @@
+by taking into account the exact UAVenvironment of the drone mission we have considered in this re-search
+(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated110740
+Input: Token
+Rule: generated110740
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn110740 --> :pttrn110740.extracted={}
+

@@ -1,0 +1,8 @@
+based hierarchical routing schemefor WSN based on Line Optimization algorithm
+(VP (VBN )(NP (JJ )(NN ){1,2}))
+Phase: generated9803
+Input: Token
+Rule: generated9803
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn9803 --> :pttrn9803.extracted={}
+

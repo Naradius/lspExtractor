@@ -1,0 +1,8 @@
+to its easiness and its usefulnessin extensive range of application with little cost of computation
+(PP (TO )(NP (NP (PRP$ )(NN ))(CC )))
+Phase: generated20422
+Input: Token
+Rule: generated20422
+(
+(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == NN }))({ Token.category == CC })))):pttrn20422 --> :pttrn20422.extracted={}
+

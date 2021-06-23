@@ -1,0 +1,8 @@
+can increaseheir influence on reliability and E2E delay by nearly 15% and 16%,espectively
+(VP (MD )(VP (VB )(PP (IN )(NP (NP (QP (RB )(CD ))(NN ))(CC )(NP (CD )(NN ))))))
+Phase: generated28889
+Input: Token
+Rule: generated28889
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NN }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN }))))))):pttrn28889 --> :pttrn28889.extracted={}
+

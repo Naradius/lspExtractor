@@ -1,0 +1,8 @@
+minimizing makespan in a multi-processor open shop
+(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN )(JJ )(NN ))))
+Phase: generated63538
+Input: Token
+Rule: generated63538
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))):pttrn63538 --> :pttrn63538.extracted={}
+

@@ -1,0 +1,8 @@
+inter-domain routing and inmost cases
+(NP (NP (JJ )(NN ))(CC )(NP (JJ )(NNS )))
+Phase: generated22888
+Input: Token
+Rule: generated22888
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn22888 --> :pttrn22888.extracted={}
+

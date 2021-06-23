@@ -1,0 +1,8 @@
+as fuzzy variables
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated60128
+Input: Token
+Rule: generated60128
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn60128 --> :pttrn60128.extracted={}
+

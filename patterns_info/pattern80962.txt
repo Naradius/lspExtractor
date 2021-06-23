@@ -1,0 +1,8 @@
+WHISKanchors slot i by adding terms until the rule
+(NP (NP (NNS )(NN ){1,2})(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated80962
+Input: Token
+Rule: generated80962
+(
+((({ Token.category == NNS })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn80962 --> :pttrn80962.extracted={}
+

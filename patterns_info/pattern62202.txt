@@ -1,0 +1,8 @@
+utilize modern equipment to analyze thetraffic flow
+(VP (VB )(NP (NP (JJ )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN ))))))
+Phase: generated62202
+Input: Token
+Rule: generated62202
+(
+(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn62202 --> :pttrn62202.extracted={}
+

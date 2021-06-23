@@ -1,0 +1,8 @@
+An improvement of LEACH routing
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN ))))
+Phase: generated58047
+Input: Token
+Rule: generated58047
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn58047 --> :pttrn58047.extracted={}
+

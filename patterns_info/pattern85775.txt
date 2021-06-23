@@ -1,0 +1,8 @@
+the k-means
+(NP (DT )(NNS ))
+Phase: generated85775
+Input: Token
+Rule: generated85775
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn85775 --> :pttrn85775.extracted={}
+

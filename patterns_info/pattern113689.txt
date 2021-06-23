@@ -1,0 +1,8 @@
+a first floor unit
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated113689
+Input: Token
+Rule: generated113689
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn113689 --> :pttrn113689.extracted={}
+

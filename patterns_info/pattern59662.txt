@@ -1,0 +1,8 @@
+Step 6 : Send data collected by nodes through the cluster headsusing the shortest path found in step 5: and also by applyingfuzzy rules
+(NP (NP (NNP )(CD ))(NP (NP (NNP )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated59662
+Input: Token
+Rule: generated59662
+(
+((({ Token.category == NNP })({ Token.category == CD }))((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn59662 --> :pttrn59662.extracted={}
+

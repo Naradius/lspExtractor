@@ -1,0 +1,8 @@
+syntactic parse tree
+(NP (JJ )(NN ){1,2})
+Phase: generated70506
+Input: Token
+Rule: generated70506
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn70506 --> :pttrn70506.extracted={}
+

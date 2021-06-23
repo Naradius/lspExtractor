@@ -1,0 +1,8 @@
+more scalable data gathering and routing
+(NP (JJR )(JJ )(NNS )(NN )(CC )(NN ))
+Phase: generated9218
+Input: Token
+Rule: generated9218
+(
+(({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn9218 --> :pttrn9218.extracted={}
+

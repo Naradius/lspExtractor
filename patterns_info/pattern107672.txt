@@ -1,0 +1,8 @@
+without much packet loss
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated107672
+Input: Token
+Rule: generated107672
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn107672 --> :pttrn107672.extracted={}
+

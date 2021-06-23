@@ -1,0 +1,8 @@
+environmental monitoring,public safety and industry
+(NP (JJ )(NN )(JJ )(NN )(CC )(NN ))
+Phase: generated50113
+Input: Token
+Rule: generated50113
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn50113 --> :pttrn50113.extracted={}
+

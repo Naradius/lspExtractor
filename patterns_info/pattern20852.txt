@@ -1,0 +1,8 @@
+to the CDS
+(PP (TO )(NP (DT )(NNP )))
+Phase: generated20852
+Input: Token
+Rule: generated20852
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })))):pttrn20852 --> :pttrn20852.extracted={}
+

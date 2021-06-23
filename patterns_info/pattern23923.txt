@@ -1,0 +1,8 @@
+is at least one route from each domain to each other.Reachability
+(VP (VBZ )(NP (NP (QP (IN )(JJS )(CD ))(NN ))(PP (PP (IN )(NP (DT )(NN )))(PP (TO )(NP (DT )(NN ))))))
+Phase: generated23923
+Input: Token
+Rule: generated23923
+(
+(({ Token.category == VBZ })(((({ Token.category == IN })({ Token.category == JJS })({ Token.category == CD }))({ Token.category == NN }))((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn23923 --> :pttrn23923.extracted={}
+

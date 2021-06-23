@@ -1,0 +1,8 @@
+to tag the text
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated97642
+Input: Token
+Rule: generated97642
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn97642 --> :pttrn97642.extracted={}
+

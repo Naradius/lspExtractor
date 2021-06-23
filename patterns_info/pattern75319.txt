@@ -1,0 +1,8 @@
+some incor-rect phrases
+(NP (DT )(JJ )(NNS ))
+Phase: generated75319
+Input: Token
+Rule: generated75319
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn75319 --> :pttrn75319.extracted={}
+

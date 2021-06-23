@@ -1,0 +1,8 @@
+s  R  t
+(VP (VBZ )(NP (NNP )(NN )))
+Phase: generated67144
+Input: Token
+Rule: generated67144
+(
+(({ Token.category == VBZ })(({ Token.category == NNP })({ Token.category == NN })))):pttrn67144 --> :pttrn67144.extracted={}
+

@@ -1,0 +1,8 @@
+a workload allocation problem tostudy the tradeoff between energy consumption and delay withina Cloud-Fog computing system
+(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN ){1,2}(CC )(NN ))(PP (IN )(NP (NNP )(VBG )(NN )))))))
+Phase: generated20489
+Input: Token
+Rule: generated20489
+(
+((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == VBG })({ Token.category == NN })))))))):pttrn20489 --> :pttrn20489.extracted={}
+

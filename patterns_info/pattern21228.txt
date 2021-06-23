@@ -1,0 +1,8 @@
+produced and consumed data
+(NP (JJ )(CC )(VBN )(NNS ))
+Phase: generated21228
+Input: Token
+Rule: generated21228
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == VBN })({ Token.category == NNS }))):pttrn21228 --> :pttrn21228.extracted={}
+

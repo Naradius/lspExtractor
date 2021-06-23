@@ -1,0 +1,8 @@
+generalize up to 50 linguistic phrases and 40 thicket phrases of the first thicket against the set of similar size for the second thicket
+(VP (VB )(PRT (RP ))(PP (TO )(NP (NP (CD )(JJ )(NNS )(CC )(CD )(NN )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )))(PP (IN )(NP (DT )(JJ )(NN ))))))))))
+Phase: generated116774
+Input: Token
+Rule: generated116774
+(
+(({ Token.category == VB })(({ Token.category == RP }))(({ Token.category == TO })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))))):pttrn116774 --> :pttrn116774.extracted={}
+

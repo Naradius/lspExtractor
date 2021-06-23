@@ -1,0 +1,8 @@
+indicated by curly brackets to-gether with the eld name, such as \fSUBJ ... g" for the subject of a clause.WHISK
+(VP (VBN )(PP (IN )(NP (NP (JJ )(NNS ))(ADJP (JJ )(PP (IN )(NP (NP (NP (DT )(JJ )(NN ))(PP (JJ )(IN )))(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))))))))
+Phase: generated82602
+Input: Token
+Rule: generated82602
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })))((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))))))):pttrn82602 --> :pttrn82602.extracted={}
+

@@ -1,0 +1,8 @@
+possible.Another policy
+(NP (JJ ){1,2}(NN ))
+Phase: generated89472
+Input: Token
+Rule: generated89472
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn89472 --> :pttrn89472.extracted={}
+

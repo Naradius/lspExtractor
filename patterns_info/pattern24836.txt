@@ -1,0 +1,8 @@
+of emerging non-olatile memories, fault-tolerant hybrid memory hierarchy design
+(PP (IN )(NP (NP (VBG )(JJ )(NNS ))(NP (JJ ){1,2}(NN ){1,2})))
+Phase: generated24836
+Input: Token
+Rule: generated24836
+(
+(({ Token.category == IN })((({ Token.category == VBG })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })+({ Token.category == NN })+)))):pttrn24836 --> :pttrn24836.extracted={}
+

@@ -1,0 +1,8 @@
+be represented on a screen to the user
+(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (TO )(NP (DT )(NN )))))
+Phase: generated105326
+Input: Token
+Rule: generated105326
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn105326 --> :pttrn105326.extracted={}
+

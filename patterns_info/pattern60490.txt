@@ -1,0 +1,8 @@
+mobile phones, laptops, sensors and house holdevices
+(NP (JJ )(NNS ){1,2}(CC )(NN )(NNS ))
+Phase: generated60490
+Input: Token
+Rule: generated60490
+(
+(({ Token.category == JJ })({ Token.category == NNS })+({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn60490 --> :pttrn60490.extracted={}
+

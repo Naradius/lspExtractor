@@ -1,0 +1,8 @@
+MicroMachine and Human Science, New York, NY, 1995
+(NP (NP (NNP )(CC )(NNP ){1,2})(NP (NNP )(CD )))
+Phase: generated65027
+Input: Token
+Rule: generated65027
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)(({ Token.category == NNP })({ Token.category == CD })))):pttrn65027 --> :pttrn65027.extracted={}
+

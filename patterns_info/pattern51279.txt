@@ -1,0 +1,8 @@
+the short operational range
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated51279
+Input: Token
+Rule: generated51279
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn51279 --> :pttrn51279.extracted={}
+

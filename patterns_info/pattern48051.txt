@@ -1,0 +1,8 @@
+to leak-age currents
+(PP (TO )(NP (JJ )(NNS )))
+Phase: generated48051
+Input: Token
+Rule: generated48051
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn48051 --> :pttrn48051.extracted={}
+

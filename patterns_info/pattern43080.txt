@@ -1,0 +1,8 @@
+a function of the networkdensity for the three mechanisms
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(CD )(NNS ))))))
+Phase: generated43080
+Input: Token
+Rule: generated43080
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))))))):pttrn43080 --> :pttrn43080.extracted={}
+

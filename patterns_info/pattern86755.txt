@@ -1,0 +1,8 @@
+the equal highest value
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated86755
+Input: Token
+Rule: generated86755
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn86755 --> :pttrn86755.extracted={}
+

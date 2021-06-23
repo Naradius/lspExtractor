@@ -1,0 +1,8 @@
+development and 10% for testing .5.2 Lexical resourcesThe lexical resources
+(NP (CC )(NP (NP (CD )(NN ))(PP (IN )(NP (NN )(CD )(NNP ){1,2}(JJ )(NNS )))))
+Phase: generated105586
+Input: Token
+Rule: generated105586
+(
+(({ Token.category == CC })((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNS })))))):pttrn105586 --> :pttrn105586.extracted={}
+

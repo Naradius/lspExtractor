@@ -1,0 +1,8 @@
+of the blockchain directlysubverts
+(PP (IN )(NP (DT )(NN )(NNS )))
+Phase: generated36426
+Input: Token
+Rule: generated36426
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn36426 --> :pttrn36426.extracted={}
+

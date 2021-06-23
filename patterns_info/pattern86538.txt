@@ -1,0 +1,8 @@
+the normal distributionwhen n
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated86538
+Input: Token
+Rule: generated86538
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn86538 --> :pttrn86538.extracted={}
+

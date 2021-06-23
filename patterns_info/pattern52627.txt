@@ -1,0 +1,8 @@
+a wireless tele-home-care situation
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated52627
+Input: Token
+Rule: generated52627
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn52627 --> :pttrn52627.extracted={}
+

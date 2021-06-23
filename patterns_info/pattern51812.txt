@@ -1,0 +1,8 @@
+be able to share energy betweenneighbours
+(VP (VB )(ADJP (JJ )(VP (TO )(VP (VB )(NP (NN )(NNS ))))))
+Phase: generated51812
+Input: Token
+Rule: generated51812
+(
+(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn51812 --> :pttrn51812.extracted={}
+

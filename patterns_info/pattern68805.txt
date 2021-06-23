@@ -1,0 +1,8 @@
+follows:V
+(NP (NNS )(NNP ))
+Phase: generated68805
+Input: Token
+Rule: generated68805
+(
+(({ Token.category == NNS })({ Token.category == NNP }))):pttrn68805 --> :pttrn68805.extracted={}
+

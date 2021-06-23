@@ -1,0 +1,8 @@
+for accurate estimation of that abnor- mal traffic
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN )))))
+Phase: generated112602
+Input: Token
+Rule: generated112602
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))):pttrn112602 --> :pttrn112602.extracted={}
+

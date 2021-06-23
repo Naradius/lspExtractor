@@ -1,0 +1,8 @@
+the Elec-tronic Engineering degree and the Bachelors degreein education from Universidad Politecnica Salesiana
+(NP (NP (DT )(NNP ){1,2}(NN ))(CC ))
+Phase: generated12577
+Input: Token
+Rule: generated12577
+(
+((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == CC }))):pttrn12577 --> :pttrn12577.extracted={}
+

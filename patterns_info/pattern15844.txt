@@ -1,0 +1,8 @@
+12. Setting to illustrate the soft handoff mechanism of VNAODV+.C. Soft Handoff ProcedureForwarding packets by unicast, as explained in Section V-A,raises the question of what happens when a leader leaves itsregion, such as when the  pairs in therouting tables of the neighboring leaders will no longer becorrect.
+(NP (NP (CD )(NNP ){1,2})(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (NNP ){1,2}(NNS )))))))
+Phase: generated15844
+Input: Token
+Rule: generated15844
+(
+((({ Token.category == CD })({ Token.category == NNP })+)(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NNS })))))))):pttrn15844 --> :pttrn15844.extracted={}
+

@@ -1,0 +1,8 @@
+is assignedto one or more FREEBASE relations with different confidence strengths
+(VP (VBZ )(VP (VBN )(NP (CD )(CC )(JJR )(JJ )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated77455
+Input: Token
+Rule: generated77455
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == CD })({ Token.category == CC })({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn77455 --> :pttrn77455.extracted={}
+

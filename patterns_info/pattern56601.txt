@@ -1,0 +1,8 @@
+have been proposed which is well suited when SNs are mobile
+(VP (VBP )(VP (VBN )(VP (VBN )(VP (VBZ )(VP (VBN )(WHADVP (WRB )))))))
+Phase: generated56601
+Input: Token
+Rule: generated56601
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == WRB })))))))):pttrn56601 --> :pttrn56601.extracted={}
+

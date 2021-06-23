@@ -1,0 +1,8 @@
+as future research
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated94679
+Input: Token
+Rule: generated94679
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn94679 --> :pttrn94679.extracted={}
+

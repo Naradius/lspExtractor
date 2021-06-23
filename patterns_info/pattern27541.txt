@@ -1,0 +1,8 @@
+in active andow power modes
+(PP (IN )(NP (JJ )(NN ){1,2}(NNS )))
+Phase: generated27541
+Input: Token
+Rule: generated27541
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn27541 --> :pttrn27541.extracted={}
+

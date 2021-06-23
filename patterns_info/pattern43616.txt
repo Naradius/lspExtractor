@@ -1,0 +1,8 @@
+The evolution
+(NP (DT )(NN ))
+Phase: generated43616
+Input: Token
+Rule: generated43616
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn43616 --> :pttrn43616.extracted={}
+

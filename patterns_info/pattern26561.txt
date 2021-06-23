@@ -1,0 +1,8 @@
+is worthy toention that in order to prevent loops in the RPL, nodes are onlyermitted to select those of nodes with lower ranks  as their parents
+(VP (VBZ )(NP (JJ )(NN ))(IN ))
+Phase: generated26561
+Input: Token
+Rule: generated26561
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN }))({ Token.category == IN }))):pttrn26561 --> :pttrn26561.extracted={}
+

@@ -1,0 +1,8 @@
+used in a stochastic algorithm to obtainnear optimum solutions to complex, non-linear optimiza-tion problems
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(PP (TO )(NP (JJ ){1,2}(NN )(NNS )))))))
+Phase: generated3133
+Input: Token
+Rule: generated3133
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })))))))):pttrn3133 --> :pttrn3133.extracted={}
+

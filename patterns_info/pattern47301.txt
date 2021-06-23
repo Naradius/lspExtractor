@@ -1,0 +1,8 @@
+3500 bytesOS code space and 4500 bytes available codespace
+(NP (NP (CD )(NNS )(NN ){1,2})(CC )(NP (NP (CD )(NNS ))(JJ )(NN )))
+Phase: generated47301
+Input: Token
+Rule: generated47301
+(
+((({ Token.category == CD })({ Token.category == NNS })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == CD })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NN })))):pttrn47301 --> :pttrn47301.extracted={}
+

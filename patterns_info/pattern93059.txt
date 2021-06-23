@@ -1,0 +1,8 @@
+a concept
+(NP (DT )(NN ))
+Phase: generated93059
+Input: Token
+Rule: generated93059
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn93059 --> :pttrn93059.extracted={}
+

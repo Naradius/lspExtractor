@@ -1,0 +1,8 @@
+respectto the metrics such as energy consumption and network lifetime.Abdulsalam and Kamel
+(VP (VBG )(NP (NP (DT )(NNS ))(PP (JJ )(IN ))))
+Phase: generated54744
+Input: Token
+Rule: generated54744
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn54744 --> :pttrn54744.extracted={}
+

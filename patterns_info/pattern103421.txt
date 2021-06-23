@@ -1,0 +1,8 @@
+linear search
+(NP (JJ )(NN ))
+Phase: generated103421
+Input: Token
+Rule: generated103421
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn103421 --> :pttrn103421.extracted={}
+

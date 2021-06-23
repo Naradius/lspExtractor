@@ -1,0 +1,8 @@
+nodes wakeup at thesame time after an inactive periodNodes
+(NP (NP (NP (NNS )(NN ))(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated51406
+Input: Token
+Rule: generated51406
+(
+(((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn51406 --> :pttrn51406.extracted={}
+

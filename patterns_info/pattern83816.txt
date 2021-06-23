@@ -1,0 +1,8 @@
+whose condencelevel
+(WHNP (WP$ )(NN ))
+Phase: generated83816
+Input: Token
+Rule: generated83816
+(
+(({ Token.category == WP$ })({ Token.category == NN }))):pttrn83816 --> :pttrn83816.extracted={}
+

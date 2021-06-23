@@ -1,0 +1,8 @@
+event relation recognition in text-based newsitems in the domains of finance and politics using Hermes, an ontology-driven news personalization service
+(VP (VB )(PP (IN )(NP (JJ )(NNS )))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NN )(CC )(NNS ))))))
+Phase: generated94896
+Input: Token
+Rule: generated94896
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))))))):pttrn94896 --> :pttrn94896.extracted={}
+

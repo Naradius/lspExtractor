@@ -1,0 +1,8 @@
+ofWall Street Journal articles
+(PP (RB )(NP (NNP ){1,2}(NNS )))
+Phase: generated84127
+Input: Token
+Rule: generated84127
+(
+(({ Token.category == RB })(({ Token.category == NNP })+({ Token.category == NNS })))):pttrn84127 --> :pttrn84127.extracted={}
+

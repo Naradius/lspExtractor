@@ -1,0 +1,8 @@
+a , M. Selvi
+(NP (DT )(NNP ){1,2})
+Phase: generated60376
+Input: Token
+Rule: generated60376
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn60376 --> :pttrn60376.extracted={}
+

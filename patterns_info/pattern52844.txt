@@ -1,0 +1,8 @@
+future wireless networks
+(NP (JJ ){1,2}(NNS ))
+Phase: generated52844
+Input: Token
+Rule: generated52844
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn52844 --> :pttrn52844.extracted={}
+

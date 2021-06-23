@@ -1,0 +1,8 @@
+the term ti and aj
+(NP (NP (DT )(NN )(NNS ))(CC ))
+Phase: generated86629
+Input: Token
+Rule: generated86629
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn86629 --> :pttrn86629.extracted={}
+

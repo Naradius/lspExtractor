@@ -1,0 +1,8 @@
+little bit easy
+(ADJP (NP (JJ )(NN ))(JJ ))
+Phase: generated97974
+Input: Token
+Rule: generated97974
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == JJ }))):pttrn97974 --> :pttrn97974.extracted={}
+

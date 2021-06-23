@@ -1,0 +1,8 @@
+the like-lihood estimates
+(NP (DT )(JJ )(NNS ))
+Phase: generated78017
+Input: Token
+Rule: generated78017
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn78017 --> :pttrn78017.extracted={}
+

@@ -1,0 +1,8 @@
+behaviorsof social insects
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated3205
+Input: Token
+Rule: generated3205
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn3205 --> :pttrn3205.extracted={}
+

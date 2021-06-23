@@ -1,0 +1,8 @@
+A d  x (t   ) + B p(t   ) y  = C  x
+(NP (NP (NP (DT )(JJ )(NN ))(PRN (-LRB- )(-RRB- ))(NN ))(-RRB- )(NN )(NNP )(NN ))
+Phase: generated110516
+Input: Token
+Rule: generated110516
+(
+(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))({ Token.category == NN }))({ Token.category == -RRB- })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))):pttrn110516 --> :pttrn110516.extracted={}
+

@@ -1,0 +1,8 @@
+nodes or entities
+(NP (NNS )(CC )(NNS ))
+Phase: generated52385
+Input: Token
+Rule: generated52385
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn52385 --> :pttrn52385.extracted={}
+

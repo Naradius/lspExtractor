@@ -1,0 +1,8 @@
+the appropriate swarm size
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated3472
+Input: Token
+Rule: generated3472
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn3472 --> :pttrn3472.extracted={}
+

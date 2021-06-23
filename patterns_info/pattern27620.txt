@@ -1,0 +1,8 @@
+in different fixed-node IoT network scenarios
+(PP (IN )(NP (JJ ){1,2}(NNP )(NN )(NNS )))
+Phase: generated27620
+Input: Token
+Rule: generated27620
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))):pttrn27620 --> :pttrn27620.extracted={}
+

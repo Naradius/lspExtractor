@@ -1,0 +1,8 @@
+of other production instances
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated103156
+Input: Token
+Rule: generated103156
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn103156 --> :pttrn103156.extracted={}
+

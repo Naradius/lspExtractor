@@ -1,0 +1,8 @@
+pi3and the graph of Fig. 9. However,in this graph the right-hand side of two instances of production 4b can be recognized, too
+(VP (VP (VBD )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP ){1,2}(CD )))))(RB )(PP (IN )(NP (NP (DT )(NN ))(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (CD )(NNS ))(PP (IN )(NP (NN )(NNS )))))))))
+Phase: generated104322
+Input: Token
+Rule: generated104322
+(
+((({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })))))({ Token.category == RB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))))):pttrn104322 --> :pttrn104322.extracted={}
+

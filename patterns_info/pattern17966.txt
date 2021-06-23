@@ -1,0 +1,8 @@
+In the case of 150 nodes
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NNS )))))
+Phase: generated17966
+Input: Token
+Rule: generated17966
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn17966 --> :pttrn17966.extracted={}
+

@@ -1,0 +1,8 @@
+the interested packages
+(NP (DT )(JJ )(NNS ))
+Phase: generated69985
+Input: Token
+Rule: generated69985
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn69985 --> :pttrn69985.extracted={}
+

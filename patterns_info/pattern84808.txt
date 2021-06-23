@@ -1,0 +1,8 @@
+no semantic classes other than Number and Digit.Recall
+(NP (NP (DT )(JJ )(NNS ))(ADJP (JJ )(PP (IN )(NP (NNP )(CC )(NNP )))))
+Phase: generated84808
+Input: Token
+Rule: generated84808
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))))):pttrn84808 --> :pttrn84808.extracted={}
+

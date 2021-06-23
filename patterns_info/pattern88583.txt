@@ -1,0 +1,8 @@
+can be used to write a full or partial syntactic grammar of a language
+(VP (MD )(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(CC )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated88583
+Input: Token
+Rule: generated88583
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn88583 --> :pttrn88583.extracted={}
+

@@ -1,0 +1,8 @@
+verb-156QUESTION GENERATION WITH THE-MENTORphrases
+(NP (JJ )(NNP ){1,2}(NNS ))
+Phase: generated99384
+Input: Token
+Rule: generated99384
+(
+(({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NNS }))):pttrn99384 --> :pttrn99384.extracted={}
+

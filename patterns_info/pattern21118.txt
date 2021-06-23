@@ -1,0 +1,8 @@
+oArticle history
+(NP (DT )(NN ))
+Phase: generated21118
+Input: Token
+Rule: generated21118
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn21118 --> :pttrn21118.extracted={}
+

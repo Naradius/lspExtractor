@@ -1,0 +1,8 @@
+represents an atypical use of the swarm intelli-gence approach
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated3327
+Input: Token
+Rule: generated3327
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn3327 --> :pttrn3327.extracted={}
+

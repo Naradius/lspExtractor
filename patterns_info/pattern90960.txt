@@ -1,0 +1,8 @@
+all text files
+(NP (DT )(NN )(NNS ))
+Phase: generated90960
+Input: Token
+Rule: generated90960
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn90960 --> :pttrn90960.extracted={}
+

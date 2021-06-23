@@ -1,0 +1,8 @@
+at least one active sensor
+(NP (QP (IN )(JJS )(CD ))(JJ )(NN ))
+Phase: generated68449
+Input: Token
+Rule: generated68449
+(
+((({ Token.category == IN })({ Token.category == JJS })({ Token.category == CD }))({ Token.category == JJ })({ Token.category == NN }))):pttrn68449 --> :pttrn68449.extracted={}
+

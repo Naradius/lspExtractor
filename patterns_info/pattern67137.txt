@@ -1,0 +1,8 @@
+OLSR = OFF ; Table 6 On-Demand Route Maintenance.
+(NP (NP (NNP )(SYM )(NN ))(NP (NNP )(CD )(NNP ){1,2}))
+Phase: generated67137
+Input: Token
+Rule: generated67137
+(
+((({ Token.category == NNP })({ Token.category == SYM })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+))):pttrn67137 --> :pttrn67137.extracted={}
+

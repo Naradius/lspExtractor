@@ -1,0 +1,8 @@
+tentative CHs that do not finally becomeCHs, as highlighted earlier
+(NP (NP (JJ )(NNP ))(VP (VBP )(RB )(PP (IN )(NP (JJ )(JJR )))))
+Phase: generated8696
+Input: Token
+Rule: generated8696
+(
+((({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == JJR })))))):pttrn8696 --> :pttrn8696.extracted={}
+

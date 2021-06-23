@@ -1,0 +1,8 @@
+af-fect the ETX of the paths
+(VP (VB )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated27747
+Input: Token
+Rule: generated27747
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn27747 --> :pttrn27747.extracted={}
+

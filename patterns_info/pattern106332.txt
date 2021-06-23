@@ -1,0 +1,8 @@
+identi-fied.Our paper presents a MWU-aware POS tagger.It is based on a Conditional Random Field model that integrates features computed from large-coverage morphosyntactic lexicons and fine-grainedMWU resources
+(VP (VBN )(PP (IN )(NP (NP (NN )(NNS ))(NP (DT )(JJ )(NNP )(NN )))))
+Phase: generated106332
+Input: Token
+Rule: generated106332
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })))))):pttrn106332 --> :pttrn106332.extracted={}
+

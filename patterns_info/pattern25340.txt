@@ -1,0 +1,8 @@
+the applications re-quirements
+(NP (DT )(NNS ){1,2})
+Phase: generated25340
+Input: Token
+Rule: generated25340
+(
+(({ Token.category == DT })({ Token.category == NNS })+)):pttrn25340 --> :pttrn25340.extracted={}
+

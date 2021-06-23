@@ -1,0 +1,8 @@
+a novelapproach
+(NP (DT )(NN ))
+Phase: generated112432
+Input: Token
+Rule: generated112432
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn112432 --> :pttrn112432.extracted={}
+

@@ -1,0 +1,8 @@
+a corpus based on a tag-set
+(NP (NP (DT )(JJ ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated96832
+Input: Token
+Rule: generated96832
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn96832 --> :pttrn96832.extracted={}
+

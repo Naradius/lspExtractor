@@ -1,0 +1,8 @@
+sensor guardodes that are available from the set of n sensor nodes of the de-igned network
+(NP (NP (NN )(NNS ))(VP (VBP )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN ){1,2}(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))))))
+Phase: generated66537
+Input: Token
+Rule: generated66537
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn66537 --> :pttrn66537.extracted={}
+

@@ -1,0 +1,8 @@
+a twister
+(NP (DT )(NN ))
+Phase: generated47470
+Input: Token
+Rule: generated47470
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn47470 --> :pttrn47470.extracted={}
+

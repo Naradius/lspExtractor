@@ -1,0 +1,8 @@
+thetransmission time
+(NP (DT )(NN ))
+Phase: generated50806
+Input: Token
+Rule: generated50806
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn50806 --> :pttrn50806.extracted={}
+

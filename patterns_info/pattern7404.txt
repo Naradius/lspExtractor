@@ -1,0 +1,8 @@
+:Dp  k EresiEmax 1n2c14Eresi
+(NP (JJ )(NN )(NNP ){1,2})
+Phase: generated7404
+Input: Token
+Rule: generated7404
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+)):pttrn7404 --> :pttrn7404.extracted={}
+

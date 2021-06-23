@@ -1,0 +1,8 @@
+involving all SD pairsand converge to an equilibrium
+(VP (VBG )(NP (DT )(NNP )(NN ){1,2})(PP (TO )(NP (DT )(NN ))))
+Phase: generated22812
+Input: Token
+Rule: generated22812
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn22812 --> :pttrn22812.extracted={}
+

@@ -1,0 +1,8 @@
+MAC design
+(NP (NNP )(NN ))
+Phase: generated22195
+Input: Token
+Rule: generated22195
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn22195 --> :pttrn22195.extracted={}
+

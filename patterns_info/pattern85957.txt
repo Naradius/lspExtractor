@@ -1,0 +1,8 @@
+/JPEG2000ColorImageDict <
+(NP (JJ )(NN ))
+Phase: generated85957
+Input: Token
+Rule: generated85957
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn85957 --> :pttrn85957.extracted={}
+

@@ -1,0 +1,8 @@
+build the edge product algorithm for PT case ouselves and integrated it with the available solution for the click problem of JGraphT library
+(VP (VP (VBP )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NNP )(NN )(NNS )))))(CC )(VP (VBD )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNP )(NN )))))))))
+Phase: generated114688
+Input: Token
+Rule: generated114688
+(
+((({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))))))):pttrn114688 --> :pttrn114688.extracted={}
+

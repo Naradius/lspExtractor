@@ -1,0 +1,8 @@
+used on a UAV ad hoc network traffic
+(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN ){1,2})))
+Phase: generated109513
+Input: Token
+Rule: generated109513
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))):pttrn109513 --> :pttrn109513.extracted={}
+

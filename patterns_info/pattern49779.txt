@@ -1,0 +1,8 @@
+.In safety systems
+(NP (JJ )(NN )(NNS ))
+Phase: generated49779
+Input: Token
+Rule: generated49779
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn49779 --> :pttrn49779.extracted={}
+

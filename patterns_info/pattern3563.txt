@@ -1,0 +1,8 @@
+are distributed as per independenthomogeneous spatial Poisson processes P1 and P0 of inten-sity k1 = pk
+(VP (VBP )(VP (VBN )(PP (IN )(PP (IN )(NP (NP (JJ ){1,2}(NNP )(NNS )(NNP ))(CC ))))))
+Phase: generated3563
+Input: Token
+Rule: generated3563
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NNP }))({ Token.category == CC }))))))):pttrn3563 --> :pttrn3563.extracted={}
+

@@ -1,0 +1,8 @@
+is the identifier of the present node and  is theidentifier of the previous sensor node.Initially, the cluster leader node forwards the  to the nearbynodes and all the nodes forwards the  to the other nodes withinthe communication range
+(VP (VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))(CC ))
+Phase: generated10070
+Input: Token
+Rule: generated10070
+(
+((({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))({ Token.category == CC }))):pttrn10070 --> :pttrn10070.extracted={}
+

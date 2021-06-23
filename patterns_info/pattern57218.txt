@@ -1,0 +1,8 @@
+Table 2Relative comparison
+(NP (JJ ){1,2}(NN ))
+Phase: generated57218
+Input: Token
+Rule: generated57218
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn57218 --> :pttrn57218.extracted={}
+

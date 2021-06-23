@@ -1,0 +1,8 @@
+rewrite avertex object
+(VP (VBP )(NP (JJ )(NN )))
+Phase: generated102188
+Input: Token
+Rule: generated102188
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })))):pttrn102188 --> :pttrn102188.extracted={}
+

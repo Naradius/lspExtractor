@@ -1,0 +1,8 @@
+on the performance at the upper layers
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )))))
+Phase: generated16413
+Input: Token
+Rule: generated16413
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn16413 --> :pttrn16413.extracted={}
+

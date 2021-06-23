@@ -1,0 +1,8 @@
+the Third Annual CommunicationNetworks
+(NP (DT )(NNP ){1,2})
+Phase: generated60187
+Input: Token
+Rule: generated60187
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn60187 --> :pttrn60187.extracted={}
+

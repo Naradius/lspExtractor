@@ -1,0 +1,8 @@
+a large group
+(NP (DT )(JJ )(NN ))
+Phase: generated96856
+Input: Token
+Rule: generated96856
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn96856 --> :pttrn96856.extracted={}
+

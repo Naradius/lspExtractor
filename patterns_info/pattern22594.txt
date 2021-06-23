@@ -1,0 +1,8 @@
+same recursive process
+(NP (JJ ){1,2}(NN ))
+Phase: generated22594
+Input: Token
+Rule: generated22594
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn22594 --> :pttrn22594.extracted={}
+

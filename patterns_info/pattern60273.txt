@@ -1,0 +1,8 @@
+research challenges, J. Ad Hoc Netw. 10   14971516Elsevier
+(NP (NP (NN )(NNS ))(NP (NNP ){1,2}(CD ){1,2}))
+Phase: generated60273
+Input: Token
+Rule: generated60273
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == CD })+))):pttrn60273 --> :pttrn60273.extracted={}
+

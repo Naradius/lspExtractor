@@ -1,0 +1,8 @@
+In firstphase SNs of every chain transmit data to the respective CHs inparallel
+(PP (IN )(NP (NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}(NNS ))))(PP (TO )(NP (DT )(JJ )(NNP )(NN )))))
+Phase: generated56348
+Input: Token
+Rule: generated56348
+(
+(({ Token.category == IN })(((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })))))):pttrn56348 --> :pttrn56348.extracted={}
+

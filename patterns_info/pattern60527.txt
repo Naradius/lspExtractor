@@ -1,0 +1,8 @@
+making ef-ective decisions on actions to be performed
+(VP (VBG )(NP (JJ )(NNS )))
+Phase: generated60527
+Input: Token
+Rule: generated60527
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn60527 --> :pttrn60527.extracted={}
+

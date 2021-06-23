@@ -1,0 +1,8 @@
+of on-line seminar announcementsand a collection of on-line job listings
+(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))))
+Phase: generated81899
+Input: Token
+Rule: generated81899
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn81899 --> :pttrn81899.extracted={}
+

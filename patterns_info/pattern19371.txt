@@ -1,0 +1,8 @@
+is used to mon-itor the resource utilization statistics during scheduling ofresources
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ){1,2}(NNS ))(PP (IN )(NP (NN )(NNS ))))))))
+Phase: generated19371
+Input: Token
+Rule: generated19371
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn19371 --> :pttrn19371.extracted={}
+

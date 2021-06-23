@@ -1,0 +1,8 @@
+be purely byUDP type protocols, because each sensor node haslimited memory.Unlike protocols such as TCP, the end-to-endcommunication schemes in sensor networks arenot based on global addressing
+(VP (VB )(PP (IN )(NP (NN )(NNS ))))
+Phase: generated48709
+Input: Token
+Rule: generated48709
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn48709 --> :pttrn48709.extracted={}
+

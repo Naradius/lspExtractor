@@ -1,0 +1,8 @@
+10th Annual International Confer-ence on Mobile Computing and Networking, 2004
+(NP (CC )(NP (NNP )(CD )))
+Phase: generated5504
+Input: Token
+Rule: generated5504
+(
+(({ Token.category == CC })(({ Token.category == NNP })({ Token.category == CD })))):pttrn5504 --> :pttrn5504.extracted={}
+

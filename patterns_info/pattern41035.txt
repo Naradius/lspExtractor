@@ -1,0 +1,8 @@
+spend excessivenetwork resources, while others reduce the overhead rate
+(VP (VBP )(NP (NN )(NNS )))
+Phase: generated41035
+Input: Token
+Rule: generated41035
+(
+(({ Token.category == VBP })(({ Token.category == NN })({ Token.category == NNS })))):pttrn41035 --> :pttrn41035.extracted={}
+

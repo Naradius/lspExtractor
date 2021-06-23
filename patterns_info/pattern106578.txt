@@ -1,0 +1,8 @@
+a digit &t0
+(NP (DT )(JJ )(CD ))
+Phase: generated106578
+Input: Token
+Rule: generated106578
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD }))):pttrn106578 --> :pttrn106578.extracted={}
+

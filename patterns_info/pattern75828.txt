@@ -1,0 +1,8 @@
+different confidence strengths
+(NP (JJ )(NN )(NNS ))
+Phase: generated75828
+Input: Token
+Rule: generated75828
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn75828 --> :pttrn75828.extracted={}
+

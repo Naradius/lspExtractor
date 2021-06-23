@@ -1,0 +1,8 @@
+are relayedn the confounding ring
+(VP (VBP )(VP (VBN )(NP (DT )(JJ )(NN ))))
+Phase: generated63435
+Input: Token
+Rule: generated63435
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn63435 --> :pttrn63435.extracted={}
+

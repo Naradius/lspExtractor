@@ -1,0 +1,8 @@
+active learning
+(NP (JJ )(NN ))
+Phase: generated83787
+Input: Token
+Rule: generated83787
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn83787 --> :pttrn83787.extracted={}
+

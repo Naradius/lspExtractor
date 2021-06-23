@@ -1,0 +1,8 @@
+were created in non-hotspot areas andhe number of branches was determined by the energy obtainedy the nodes, thereby saving energy
+(VP (VBD )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))(VP (VBD )(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (DT )(NNS )))))))
+Phase: generated61941
+Input: Token
+Rule: generated61941
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn61941 --> :pttrn61941.extracted={}
+

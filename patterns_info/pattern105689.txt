@@ -1,0 +1,8 @@
+by our lexical resources.The segmentation task
+(PP (IN )(NP (PRP$ )(JJ )(NNS )(NN ){1,2}))
+Phase: generated105689
+Input: Token
+Rule: generated105689
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })+))):pttrn105689 --> :pttrn105689.extracted={}
+

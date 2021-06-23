@@ -1,0 +1,8 @@
+using the Rule Matcher
+(VP (VBG )(NP (DT )(NNP ){1,2}))
+Phase: generated93410
+Input: Token
+Rule: generated93410
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn93410 --> :pttrn93410.extracted={}
+

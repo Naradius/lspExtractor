@@ -1,0 +1,8 @@
+minimize latency of executingasks on Fog devices whilst decreasing Cloud economic costs
+(VP (VB )(PP (RB )(IN )))
+Phase: generated20687
+Input: Token
+Rule: generated20687
+(
+(({ Token.category == VB })(({ Token.category == RB })({ Token.category == IN })))):pttrn20687 --> :pttrn20687.extracted={}
+

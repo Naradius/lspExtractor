@@ -1,0 +1,8 @@
+By examining the resulted signatures
+(PP (IN )(VP (VBG )(NP (DT )(VBN )(NNS ))))
+Phase: generated112607
+Input: Token
+Rule: generated112607
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS }))))):pttrn112607 --> :pttrn112607.extracted={}
+

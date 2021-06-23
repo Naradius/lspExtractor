@@ -1,0 +1,8 @@
+Hop count
+(NP (NNP )(NN ))
+Phase: generated43200
+Input: Token
+Rule: generated43200
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn43200 --> :pttrn43200.extracted={}
+

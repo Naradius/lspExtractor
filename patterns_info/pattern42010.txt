@@ -1,0 +1,8 @@
+will receive its requested bundle j of theencountered node
+(VP (MD )(VP (VB )(NP (NP (PRP$ )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))))
+Phase: generated42010
+Input: Token
+Rule: generated42010
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn42010 --> :pttrn42010.extracted={}
+

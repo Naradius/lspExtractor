@@ -1,0 +1,8 @@
+is deployed in the center of the network
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated63134
+Input: Token
+Rule: generated63134
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn63134 --> :pttrn63134.extracted={}
+

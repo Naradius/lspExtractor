@@ -1,0 +1,8 @@
+validation Q/A pair of the seed/validation pair
+(NP (NP (NN )(NNP )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated99547
+Input: Token
+Rule: generated99547
+(
+((({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn99547 --> :pttrn99547.extracted={}
+

@@ -1,0 +1,8 @@
+better energy efficiency and packet delivery rate
+(NP (JJR )(NN ){1,2}(CC )(NN ){1,2})
+Phase: generated10364
+Input: Token
+Rule: generated10364
+(
+(({ Token.category == JJR })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)):pttrn10364 --> :pttrn10364.extracted={}
+

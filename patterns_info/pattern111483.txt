@@ -1,0 +1,8 @@
+the best performancend easiest implementation
+(NP (DT )(JJS )(NN )(JJS )(NN ))
+Phase: generated111483
+Input: Token
+Rule: generated111483
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })({ Token.category == JJS })({ Token.category == NN }))):pttrn111483 --> :pttrn111483.extracted={}
+

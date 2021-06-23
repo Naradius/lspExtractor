@@ -1,0 +1,8 @@
+a split cluster
+(NP (DT )(NN ){1,2})
+Phase: generated85087
+Input: Token
+Rule: generated85087
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn85087 --> :pttrn85087.extracted={}
+

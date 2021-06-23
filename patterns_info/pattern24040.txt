@@ -1,0 +1,8 @@
+higher capacity
+(NP (JJR )(NN ))
+Phase: generated24040
+Input: Token
+Rule: generated24040
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn24040 --> :pttrn24040.extracted={}
+

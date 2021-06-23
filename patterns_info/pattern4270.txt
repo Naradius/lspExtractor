@@ -1,0 +1,8 @@
+this results in similar cluster
+(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated4270
+Input: Token
+Rule: generated4270
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn4270 --> :pttrn4270.extracted={}
+

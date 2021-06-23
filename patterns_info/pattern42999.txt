@@ -1,0 +1,8 @@
+theHDRP protocol.As
+(NP (DT )(NNS ))
+Phase: generated42999
+Input: Token
+Rule: generated42999
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn42999 --> :pttrn42999.extracted={}
+

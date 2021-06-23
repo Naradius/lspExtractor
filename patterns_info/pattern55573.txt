@@ -1,0 +1,8 @@
+become CH and 0oyo1
+(VP (VB )(NP (NNP )(CC )(NNP )))
+Phase: generated55573
+Input: Token
+Rule: generated55573
+(
+(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn55573 --> :pttrn55573.extracted={}
+

@@ -1,0 +1,8 @@
+the counter
+(NP (DT )(NN ))
+Phase: generated2165
+Input: Token
+Rule: generated2165
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn2165 --> :pttrn2165.extracted={}
+

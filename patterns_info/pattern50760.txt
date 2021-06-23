@@ -1,0 +1,8 @@
+the radio
+(NP (DT )(NN ))
+Phase: generated50760
+Input: Token
+Rule: generated50760
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn50760 --> :pttrn50760.extracted={}
+

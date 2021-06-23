@@ -1,0 +1,8 @@
+.tassignnn fiftsendtassignforkFigure 4: An abstract syntax graph for a process flow diagram3.1
+(PP (IN )(NP (NP (JJ )(CD ))(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2}(NNS ))))))
+Phase: generated102616
+Input: Token
+Rule: generated102616
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == CD }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn102616 --> :pttrn102616.extracted={}
+

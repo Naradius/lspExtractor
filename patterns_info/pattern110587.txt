@@ -1,0 +1,8 @@
+for moreomplex dynamical systems
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated110587
+Input: Token
+Rule: generated110587
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn110587 --> :pttrn110587.extracted={}
+

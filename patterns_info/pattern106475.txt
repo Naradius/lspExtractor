@@ -1,0 +1,8 @@
+candidate tags
+(NP (NN )(NNS ))
+Phase: generated106475
+Input: Token
+Rule: generated106475
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn106475 --> :pttrn106475.extracted={}
+

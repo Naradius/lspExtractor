@@ -1,0 +1,8 @@
+Mostalgorithms aim at generating the minimum number of clus-ters and transmission distance.
+(NP (NP (NNP )(NN ))(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNS )(CC )(NN ){1,2}))))))
+Phase: generated9399
+Input: Token
+Rule: generated9399
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+))))))):pttrn9399 --> :pttrn9399.extracted={}
+

@@ -1,0 +1,8 @@
+to the first sentence and double line  to the second sentence
+(PP (TO )(NP (NP (DT )(JJ )(NN ))(CC )(NP (NP (JJ )(NN ))(PP (TO )(NP (DT )(JJ )(NN ))))))
+Phase: generated70114
+Input: Token
+Rule: generated70114
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn70114 --> :pttrn70114.extracted={}
+

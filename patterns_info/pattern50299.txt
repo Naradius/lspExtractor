@@ -1,0 +1,8 @@
+address the requirements of low-cost,low-power devices
+(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated50299
+Input: Token
+Rule: generated50299
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn50299 --> :pttrn50299.extracted={}
+

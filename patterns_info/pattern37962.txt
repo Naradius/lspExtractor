@@ -1,0 +1,8 @@
+these alerts
+(NP (DT )(NNS ))
+Phase: generated37962
+Input: Token
+Rule: generated37962
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn37962 --> :pttrn37962.extracted={}
+

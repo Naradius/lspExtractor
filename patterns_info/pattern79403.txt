@@ -1,0 +1,8 @@
+dozens of names,addresses, and phone numbers
+(NP (CC )(NP (NN )(NNS )))
+Phase: generated79403
+Input: Token
+Rule: generated79403
+(
+(({ Token.category == CC })(({ Token.category == NN })({ Token.category == NNS })))):pttrn79403 --> :pttrn79403.extracted={}
+

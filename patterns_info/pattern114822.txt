@@ -1,0 +1,8 @@
+to a PT-based multi-sentence search
+(PP (TO )(NP (DT )(JJ ){1,2}(NN )))
+Phase: generated114822
+Input: Token
+Rule: generated114822
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))):pttrn114822 --> :pttrn114822.extracted={}
+

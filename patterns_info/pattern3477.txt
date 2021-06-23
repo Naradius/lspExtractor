@@ -1,0 +1,8 @@
+scattered in a two-dimensionalplane
+(VP (VBN )(PP (IN )(NP (DT )(JJ ))))
+Phase: generated3477
+Input: Token
+Rule: generated3477
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ }))))):pttrn3477 --> :pttrn3477.extracted={}
+

@@ -1,0 +1,8 @@
+to achieve theoptimal performance in terms of energy dissipation.Accordingly
+(VP (TO )(VP (VB )(NP (JJ )(NN ))))
+Phase: generated5413
+Input: Token
+Rule: generated5413
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn5413 --> :pttrn5413.extracted={}
+

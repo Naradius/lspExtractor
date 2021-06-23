@@ -1,0 +1,8 @@
+multimediaservices.Jose Juan Pazos-Arias
+(NP (JJ )(NNP ){1,2})
+Phase: generated12609
+Input: Token
+Rule: generated12609
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn12609 --> :pttrn12609.extracted={}
+

@@ -1,0 +1,8 @@
+received herMTech degree in Elec-tronics and Communication Engineering from JadavpurUniversity, India in 2012, and BTech degree Electronicsand Communication Engineering from West Bengal Uni-versity of Technology, India in 2010
+(VP (VBN )(NP (JJ )(NN )))
+Phase: generated24619
+Input: Token
+Rule: generated24619
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn24619 --> :pttrn24619.extracted={}
+

@@ -1,0 +1,8 @@
+have used current energy for CH election andalso used multihop routing as discussed above.Cui and Liu  have proposed Balanced Clustering Energy-Efficient  hierarchical routing protocol
+(VP (VBP )(VP (VBN )(NP (JJ )(NN ))(PP (IN )(NP (NP (NNP )(NN ))(VP (VBN )(NP (JJ )(NN ))(IN ))))))
+Phase: generated56004
+Input: Token
+Rule: generated56004
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))({ Token.category == IN }))))))):pttrn56004 --> :pttrn56004.extracted={}
+

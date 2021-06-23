@@ -1,0 +1,8 @@
+andhave the same topology for the purpose of applying the clusteringtechnique to find IoT devices with similar temperatures and formhomogeneous groups of IoT devices.The type of sensor deployed in the building
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (DT )(NN ))(VP (TO )(VP (VB )(NP (NNP )(NNS ))))))))))
+Phase: generated29912
+Input: Token
+Rule: generated29912
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NNS }))))))))))):pttrn29912 --> :pttrn29912.extracted={}
+

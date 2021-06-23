@@ -1,0 +1,8 @@
+this movie
+(NP (DT )(NN ))
+Phase: generated118113
+Input: Token
+Rule: generated118113
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn118113 --> :pttrn118113.extracted={}
+

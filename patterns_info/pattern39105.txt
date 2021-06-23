@@ -1,0 +1,8 @@
+to use collective information from various devices to have rigorous view of the characteristics of events visible tothem.In this paper we propose a framework for COLlaborative Intrusion DEtection for IoT  which leverages the funda-mental principle of collaboration between individual sensor nodes and the edge router to achieve efficient and cost-effective intrusion detection for IoT systems
+(VP (TO )(VP (VB )(NP (JJ )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated39105
+Input: Token
+Rule: generated39105
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn39105 --> :pttrn39105.extracted={}
+

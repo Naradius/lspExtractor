@@ -1,0 +1,8 @@
+to learn perfect text extraction rules
+(VP (TO )(VP (VB )(NP (JJ )(NN ){1,2}(NNS ))))
+Phase: generated83985
+Input: Token
+Rule: generated83985
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn83985 --> :pttrn83985.extracted={}
+

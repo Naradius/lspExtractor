@@ -1,0 +1,8 @@
+the efficiency of this technique
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated31202
+Input: Token
+Rule: generated31202
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn31202 --> :pttrn31202.extracted={}
+

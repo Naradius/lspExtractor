@@ -1,0 +1,8 @@
+the Energy-Efficient Coverageand Connectivity Preserving Routing Algorithm
+(NP (DT )(JJ )(NNP ){1,2})
+Phase: generated55901
+Input: Token
+Rule: generated55901
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)):pttrn55901 --> :pttrn55901.extracted={}
+

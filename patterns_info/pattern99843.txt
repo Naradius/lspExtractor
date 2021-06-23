@@ -1,0 +1,8 @@
+The Wh-phrase
+(NP (DT )(NNP ))
+Phase: generated99843
+Input: Token
+Rule: generated99843
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn99843 --> :pttrn99843.extracted={}
+

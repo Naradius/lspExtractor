@@ -1,0 +1,8 @@
+follows:EdToS ZyZxffiffiffiffiffiffiffiffiffiffiffiffiffiffix2  y2p 1M2dxdyffiffiffiffiffiffiffiffi1=6pM5Limits of the definite integral are  for both xand y
+(VP (VBZ )(VP (VBP )(PP (IN )(NP (DT )(NNP )(NN )))))
+Phase: generated7155
+Input: Token
+Rule: generated7155
+(
+(({ Token.category == VBZ })(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn7155 --> :pttrn7155.extracted={}
+

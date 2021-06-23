@@ -1,0 +1,8 @@
+security and energy
+(NP (NN )(CC )(NN ))
+Phase: generated52018
+Input: Token
+Rule: generated52018
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn52018 --> :pttrn52018.extracted={}
+

@@ -1,0 +1,8 @@
+taken care of during the design of the networkystem
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated109687
+Input: Token
+Rule: generated109687
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn109687 --> :pttrn109687.extracted={}
+

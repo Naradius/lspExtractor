@@ -1,0 +1,8 @@
+based on the structural linguistics which determines the word and morpheme boundaries based on distribution of phonemes
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NNS ))(VP (VBZ )(NP (NP (DT )(NN ))(CC ))))))
+Phase: generated98020
+Input: Token
+Rule: generated98020
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))))))):pttrn98020 --> :pttrn98020.extracted={}
+

@@ -1,0 +1,8 @@
+Becker et al
+(NP (NNP ){1,2}(NN ))
+Phase: generated98768
+Input: Token
+Rule: generated98768
+(
+(({ Token.category == NNP })+({ Token.category == NN }))):pttrn98768 --> :pttrn98768.extracted={}
+

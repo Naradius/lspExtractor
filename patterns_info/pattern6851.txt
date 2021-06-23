@@ -1,0 +1,8 @@
+restricted by its time-to-live value
+(VP (VBN )(PP (IN )(NP (PRP$ )(JJ )(NN ))))
+Phase: generated6851
+Input: Token
+Rule: generated6851
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))):pttrn6851 --> :pttrn6851.extracted={}
+

@@ -1,0 +1,8 @@
+the facility tobuild complex descriptions
+(NP (DT )(NN ){1,2}(NNS ))
+Phase: generated87362
+Input: Token
+Rule: generated87362
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))):pttrn87362 --> :pttrn87362.extracted={}
+

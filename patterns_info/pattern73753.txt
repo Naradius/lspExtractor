@@ -1,0 +1,8 @@
+missing from typical dictionaries.INTRODUCTIONIn 2013
+(VP (VBG )(PP (IN )(NP (JJ )(NN )(CD ))))
+Phase: generated73753
+Input: Token
+Rule: generated73753
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))))):pttrn73753 --> :pttrn73753.extracted={}
+

@@ -1,0 +1,8 @@
+such as the subject, action, object, place, time
+(PP (JJ )(IN ))
+Phase: generated72133
+Input: Token
+Rule: generated72133
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn72133 --> :pttrn72133.extracted={}
+

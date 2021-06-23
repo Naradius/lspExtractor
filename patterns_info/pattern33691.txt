@@ -1,0 +1,8 @@
+WSN routing algorithm
+(NP (NNP )(NN ){1,2})
+Phase: generated33691
+Input: Token
+Rule: generated33691
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn33691 --> :pttrn33691.extracted={}
+

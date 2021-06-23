@@ -1,0 +1,8 @@
+with multiple partners
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated63901
+Input: Token
+Rule: generated63901
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn63901 --> :pttrn63901.extracted={}
+

@@ -1,0 +1,8 @@
+Long-man, 1989
+(NP (NNP )(CD ))
+Phase: generated94806
+Input: Token
+Rule: generated94806
+(
+(({ Token.category == NNP })({ Token.category == CD }))):pttrn94806 --> :pttrn94806.extracted={}
+

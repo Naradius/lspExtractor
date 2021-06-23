@@ -1,0 +1,8 @@
+unification-based and information-based
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated87367
+Input: Token
+Rule: generated87367
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn87367 --> :pttrn87367.extracted={}
+

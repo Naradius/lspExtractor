@@ -1,0 +1,8 @@
+the physical system
+(NP (DT )(JJ )(NN ))
+Phase: generated37061
+Input: Token
+Rule: generated37061
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn37061 --> :pttrn37061.extracted={}
+

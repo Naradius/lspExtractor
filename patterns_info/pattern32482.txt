@@ -1,0 +1,8 @@
+for wirelesssensor networks, discussed the general principles of SI and itsapplication to routing, and introduced a novel taxonomy for routingprotocols in wireless sensor networks and use it to classify thesurveyed protocols
+(PP (IN )(NP (NP (NN )(NNS ))(VP (CC )(VP (VP (VBD )(NP (DT )(NN ){1,2}))(CC )(VP (VB )(VP (TO )(VP (VB )(NP (DT )(NNS )))))))))
+Phase: generated32482
+Input: Token
+Rule: generated32482
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == CC })((({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })+))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))))))))):pttrn32482 --> :pttrn32482.extracted={}
+

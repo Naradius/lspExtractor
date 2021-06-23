@@ -1,0 +1,8 @@
+a city, or even a location in general to succeed if thecomparison is with a sub-path
+(NP (NP (DT )(NN ))(CC ))
+Phase: generated90239
+Input: Token
+Rule: generated90239
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))):pttrn90239 --> :pttrn90239.extracted={}
+

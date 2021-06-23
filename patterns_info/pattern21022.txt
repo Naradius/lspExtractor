@@ -1,0 +1,8 @@
+used to update particles velocitynd position in every generation
+(VP (VBN )(VP (TO )(VP (VB )(NP (NP (NNS )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))))
+Phase: generated21022
+Input: Token
+Rule: generated21022
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NNS })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn21022 --> :pttrn21022.extracted={}
+

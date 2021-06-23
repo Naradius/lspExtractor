@@ -1,0 +1,8 @@
+the crowd
+(NP (DT )(NN ))
+Phase: generated75627
+Input: Token
+Rule: generated75627
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn75627 --> :pttrn75627.extracted={}
+

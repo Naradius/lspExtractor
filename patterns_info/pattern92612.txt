@@ -1,0 +1,8 @@
+the world
+(NP (DT )(NN ))
+Phase: generated92612
+Input: Token
+Rule: generated92612
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn92612 --> :pttrn92612.extracted={}
+

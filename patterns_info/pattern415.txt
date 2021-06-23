@@ -1,0 +1,8 @@
+classified into five categories: ad-hoc, position-based, cluster-based, broadcast, and geocast routing
+(VP (VBN )(PP (IN )(NP (NP (CD )(NNS ))(NP (NN )(JJ ){1,2}(NN )(CC )(NN ){1,2}))))
+Phase: generated415
+Input: Token
+Rule: generated415
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))))):pttrn415 --> :pttrn415.extracted={}
+

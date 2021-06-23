@@ -1,0 +1,8 @@
+the new objective function
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated107443
+Input: Token
+Rule: generated107443
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn107443 --> :pttrn107443.extracted={}
+

@@ -1,0 +1,8 @@
+the Joint Conference
+(NP (DT )(NNP ){1,2})
+Phase: generated78411
+Input: Token
+Rule: generated78411
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn78411 --> :pttrn78411.extracted={}
+

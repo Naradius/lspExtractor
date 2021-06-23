@@ -1,0 +1,8 @@
+for nectar search.Suppose the search space
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated1300
+Input: Token
+Rule: generated1300
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn1300 --> :pttrn1300.extracted={}
+

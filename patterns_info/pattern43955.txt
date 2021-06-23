@@ -1,0 +1,8 @@
+on two basic ideas
+(PP (IN )(NP (CD )(JJ )(NNS )))
+Phase: generated43955
+Input: Token
+Rule: generated43955
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))):pttrn43955 --> :pttrn43955.extracted={}
+

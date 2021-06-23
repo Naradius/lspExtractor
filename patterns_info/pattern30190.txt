@@ -1,0 +1,8 @@
+the two experimental results
+(NP (DT )(CD )(JJ )(NNS ))
+Phase: generated30190
+Input: Token
+Rule: generated30190
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn30190 --> :pttrn30190.extracted={}
+

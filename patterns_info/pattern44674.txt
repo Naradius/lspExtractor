@@ -1,0 +1,8 @@
+assume full control of the connection pro-cess and also decide when to drop connections,thereby minimizing messaging overhead
+(VP (VP (VBP )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))(CC ))
+Phase: generated44674
+Input: Token
+Rule: generated44674
+(
+((({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))({ Token.category == CC }))):pttrn44674 --> :pttrn44674.extracted={}
+

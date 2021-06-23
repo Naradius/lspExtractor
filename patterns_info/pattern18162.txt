@@ -1,0 +1,8 @@
+Systems and Software, 2009
+(NP (NNP )(CC )(NNP )(CD ))
+Phase: generated18162
+Input: Token
+Rule: generated18162
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == CD }))):pttrn18162 --> :pttrn18162.extracted={}
+

@@ -1,0 +1,8 @@
+the important challenges into be addressed in the de-ign of IoT based networks
+(NP (NP (DT )(JJ )(NNS ))(VP (TO )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(JJ )(NNS )))))))))
+Phase: generated60550
+Input: Token
+Rule: generated60550
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn60550 --> :pttrn60550.extracted={}
+

@@ -1,0 +1,8 @@
+the user.Based
+(NP (DT )(VBN ))
+Phase: generated36058
+Input: Token
+Rule: generated36058
+(
+(({ Token.category == DT })({ Token.category == VBN }))):pttrn36058 --> :pttrn36058.extracted={}
+

@@ -1,0 +1,8 @@
+such as animals.2.6
+(PP (JJ )(IN )(NP (NNS )(CD )))
+Phase: generated50106
+Input: Token
+Rule: generated50106
+(
+(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CD })))):pttrn50106 --> :pttrn50106.extracted={}
+

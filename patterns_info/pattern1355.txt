@@ -1,0 +1,8 @@
+the behavioral model
+(NP (DT )(JJ )(NN ))
+Phase: generated1355
+Input: Token
+Rule: generated1355
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn1355 --> :pttrn1355.extracted={}
+

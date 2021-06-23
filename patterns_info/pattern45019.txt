@@ -1,0 +1,8 @@
+are existent in literature for othermobile networks
+(VP (VBP )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated45019
+Input: Token
+Rule: generated45019
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn45019 --> :pttrn45019.extracted={}
+

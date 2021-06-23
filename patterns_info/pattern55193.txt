@@ -1,0 +1,8 @@
+2-hop and 1-hop
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated55193
+Input: Token
+Rule: generated55193
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn55193 --> :pttrn55193.extracted={}
+

@@ -1,0 +1,8 @@
+just another featureconstraint
+(NP (RB )(DT )(NN ))
+Phase: generated88177
+Input: Token
+Rule: generated88177
+(
+(({ Token.category == RB })({ Token.category == DT })({ Token.category == NN }))):pttrn88177 --> :pttrn88177.extracted={}
+

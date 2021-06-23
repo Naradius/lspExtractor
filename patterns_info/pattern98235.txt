@@ -1,0 +1,8 @@
+learning View projectVairaprakash GurusamyMadurai Kamaraj University25 PUBLICATIONS92 CITATIONSSEE PROFILESubbu KannanMadurai Kamaraj University26 PUBLICATIONS138 CITATIONSSEE PROFILEAll content following this page
+(VP (VBG )(NP (NNP )(NN )(NNP ){1,2}(CD )(NNP )(NN ){1,2})(PP (VBG )(NP (DT )(NN ))))
+Phase: generated98235
+Input: Token
+Rule: generated98235
+(
+(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))):pttrn98235 --> :pttrn98235.extracted={}
+

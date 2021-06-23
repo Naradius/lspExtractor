@@ -1,0 +1,8 @@
+correspond to atemperature cluster, where each node of each layer has a temper-ature similar to the other nodes of the same layer
+(VP (VB )(PP (TO )(NP (NP (DT )(NN ))(WHADVP (WRB )))))
+Phase: generated29303
+Input: Token
+Rule: generated29303
+(
+(({ Token.category == VB })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == WRB })))))):pttrn29303 --> :pttrn29303.extracted={}
+

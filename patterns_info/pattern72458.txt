@@ -1,0 +1,8 @@
+collect a large number of rawsentences possibly containing the target knowledge through websearch engines
+(VP (VB )(VP (VBG )(NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(NNS )))))
+Phase: generated72458
+Input: Token
+Rule: generated72458
+(
+(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn72458 --> :pttrn72458.extracted={}
+

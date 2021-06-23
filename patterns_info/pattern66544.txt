@@ -1,0 +1,8 @@
+the guard nodes
+(NP (DT )(NN )(NNS ))
+Phase: generated66544
+Input: Token
+Rule: generated66544
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn66544 --> :pttrn66544.extracted={}
+

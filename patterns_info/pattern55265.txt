@@ -1,0 +1,8 @@
+in mobility centric environ-ments
+(PP (IN )(NP (NN )(JJ )(NNS )))
+Phase: generated55265
+Input: Token
+Rule: generated55265
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))):pttrn55265 --> :pttrn55265.extracted={}
+

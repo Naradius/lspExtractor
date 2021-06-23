@@ -1,0 +1,8 @@
+verbose anddescriptive and hence harder to extract using patterns
+(ADJP (ADJP (RB )(JJ ))(CC )(ADJP (RB )(JJR )(VP (TO )(VP (VB )(NP (VBG )(NNS ))))))
+Phase: generated75144
+Input: Token
+Rule: generated75144
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == CC })(({ Token.category == RB })({ Token.category == JJR })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBG })({ Token.category == NNS }))))))):pttrn75144 --> :pttrn75144.extracted={}
+

@@ -1,0 +1,8 @@
+by the transportlayer
+(PP (IN )(NP (DT )(NN )))
+Phase: generated48130
+Input: Token
+Rule: generated48130
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn48130 --> :pttrn48130.extracted={}
+

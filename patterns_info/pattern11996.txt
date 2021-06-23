@@ -1,0 +1,8 @@
+the routing overhead
+(NP (DT )(NN ){1,2})
+Phase: generated11996
+Input: Token
+Rule: generated11996
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn11996 --> :pttrn11996.extracted={}
+

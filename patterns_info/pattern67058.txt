@@ -1,0 +1,8 @@
+the INITREQ and INITRES of packet struc-ures executed by OLSR protocol to identify the feasible sensorodes for monitoring duty
+(NP (NP (DT )(NN )(CC )(NNP ))(PP (IN )(NP (NP (NN )(NNS ))(VP (VBN )(PP (IN )(NP (NNP )(NN )))(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (VBG )(NN ))))))))))
+Phase: generated67058
+Input: Token
+Rule: generated67058
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN }))))))))))):pttrn67058 --> :pttrn67058.extracted={}
+

@@ -1,0 +1,8 @@
+within constrained devices such as the IoT.
+(PP (IN )(NP (NP (VBN )(NNS ))(PP (JJ )(IN )(NP (DT )(NNP )))))
+Phase: generated38536
+Input: Token
+Rule: generated38536
+(
+(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn38536 --> :pttrn38536.extracted={}
+

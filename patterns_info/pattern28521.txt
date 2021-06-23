@@ -1,0 +1,8 @@
+s  r  i  t  rD aS fRne another, the relative Received Signal Strength Index ,eighbour and parent tables, preferred parent of the nodes andany more inconsistencies
+(VP (VBZ )(NP (NP (DT )(JJ )(NNP ){1,2}(CD ))(CC )(NP (NP (NN )(NNS ))(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(CC )(NP (JJR )(NNS ))))))))
+Phase: generated28521
+Input: Token
+Rule: generated28521
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == CD }))({ Token.category == CC })((({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJR })({ Token.category == NNS }))))))))):pttrn28521 --> :pttrn28521.extracted={}
+

@@ -1,0 +1,8 @@
+helps inorming effective clusters
+(VP (VBZ )(VP (VBG )(NP (JJ )(NNS ))))
+Phase: generated58845
+Input: Token
+Rule: generated58845
+(
+(({ Token.category == VBZ })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn58845 --> :pttrn58845.extracted={}
+

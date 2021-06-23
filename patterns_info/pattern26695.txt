@@ -1,0 +1,8 @@
+to the minimum expected number ofacket transmissions
+(PP (TO )(NP (DT )(NN )(VBN )(NN ){1,2}(NNS )))
+Phase: generated26695
+Input: Token
+Rule: generated26695
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == VBN })({ Token.category == NN })+({ Token.category == NNS })))):pttrn26695 --> :pttrn26695.extracted={}
+

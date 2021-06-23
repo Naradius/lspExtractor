@@ -1,0 +1,8 @@
+leaving the stem
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated98168
+Input: Token
+Rule: generated98168
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn98168 --> :pttrn98168.extracted={}
+

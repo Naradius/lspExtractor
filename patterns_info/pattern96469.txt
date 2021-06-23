@@ -1,0 +1,8 @@
+effectivefulness ful usefulness
+(NP (NN )(JJ )(NN ))
+Phase: generated96469
+Input: Token
+Rule: generated96469
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))):pttrn96469 --> :pttrn96469.extracted={}
+

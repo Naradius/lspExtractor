@@ -1,0 +1,8 @@
+on multiple, multi-hop indirect transmissions
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated56802
+Input: Token
+Rule: generated56802
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn56802 --> :pttrn56802.extracted={}
+

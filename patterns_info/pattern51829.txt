@@ -1,0 +1,8 @@
+wireless charging protocols
+(NP (JJ )(VBG )(NNS ))
+Phase: generated51829
+Input: Token
+Rule: generated51829
+(
+(({ Token.category == JJ })({ Token.category == VBG })({ Token.category == NNS }))):pttrn51829 --> :pttrn51829.extracted={}
+

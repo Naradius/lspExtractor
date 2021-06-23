@@ -1,0 +1,8 @@
+mapping the syntactic generalization into semantic generalization allowed to treat text relevance in a systematic way
+(VP (VBG )(NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(JJ )(NN )))))))))
+Phase: generated70422
+Input: Token
+Rule: generated70422
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn70422 --> :pttrn70422.extracted={}
+

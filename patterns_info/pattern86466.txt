@@ -1,0 +1,8 @@
+of the term weighting
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated86466
+Input: Token
+Rule: generated86466
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn86466 --> :pttrn86466.extracted={}
+

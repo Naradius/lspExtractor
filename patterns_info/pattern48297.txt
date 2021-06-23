@@ -1,0 +1,8 @@
+the userthrough conventional network services
+(NP (DT )(JJ ){1,2}(NN )(NNS ))
+Phase: generated48297
+Input: Token
+Rule: generated48297
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))):pttrn48297 --> :pttrn48297.extracted={}
+

@@ -1,0 +1,8 @@
+using genetic algorithms.Pattern Recognit
+(VP (VBG )(NP (JJ )(NN ){1,2}))
+Phase: generated65008
+Input: Token
+Rule: generated65008
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn65008 --> :pttrn65008.extracted={}
+

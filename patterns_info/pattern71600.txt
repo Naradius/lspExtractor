@@ -1,0 +1,8 @@
+require fine-grained and sophisti-cated inferences
+(VP (VBP )(NP (ADJP (JJ )(CC )(JJ ))(NNS )))
+Phase: generated71600
+Input: Token
+Rule: generated71600
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS })))):pttrn71600 --> :pttrn71600.extracted={}
+

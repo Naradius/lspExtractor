@@ -1,0 +1,8 @@
+of the IoT slicing technique
+(PP (IN )(NP (DT )(NNP )(NN ){1,2}))
+Phase: generated30239
+Input: Token
+Rule: generated30239
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+))):pttrn30239 --> :pttrn30239.extracted={}
+

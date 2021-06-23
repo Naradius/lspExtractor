@@ -1,0 +1,8 @@
+of layered context-sensitive graph grammars
+(PP (IN )(NP (JJ ){1,2}(NN )(NNS )))
+Phase: generated105175
+Input: Token
+Rule: generated105175
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })))):pttrn105175 --> :pttrn105175.extracted={}
+

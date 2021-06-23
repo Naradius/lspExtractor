@@ -1,0 +1,8 @@
+in step 5: and also by applyingfuzzy rules
+(PP (IN )(NP (NP (NN )(CD ))(CC )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated59655
+Input: Token
+Rule: generated59655
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))({ Token.category == CC })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn59655 --> :pttrn59655.extracted={}
+

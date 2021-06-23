@@ -1,0 +1,8 @@
+go to step 4. Else go to step 6
+(VP (VBP )(VP (TO )(VP (VB )(RB ))))
+Phase: generated59679
+Input: Token
+Rule: generated59679
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == RB }))))):pttrn59679 --> :pttrn59679.extracted={}
+

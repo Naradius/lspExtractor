@@ -1,0 +1,8 @@
+the route determination
+(NP (DT )(NN ){1,2})
+Phase: generated2196
+Input: Token
+Rule: generated2196
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn2196 --> :pttrn2196.extracted={}
+

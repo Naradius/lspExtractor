@@ -1,0 +1,8 @@
+7. Example
+(NP (DT )(NNP ))
+Phase: generated51425
+Input: Token
+Rule: generated51425
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn51425 --> :pttrn51425.extracted={}
+

@@ -1,0 +1,8 @@
+any one reason
+(NP (DT )(CD )(NN ))
+Phase: generated57067
+Input: Token
+Rule: generated57067
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NN }))):pttrn57067 --> :pttrn57067.extracted={}
+

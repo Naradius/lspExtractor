@@ -1,0 +1,8 @@
+the representation schemes
+(NP (DT )(NN )(NNS ))
+Phase: generated77147
+Input: Token
+Rule: generated77147
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn77147 --> :pttrn77147.extracted={}
+

@@ -1,0 +1,8 @@
+eies or aies  Then ies -> y b
+(NP (NP (NNS )(CC )(NNS ))(VP (VBZ )(NP (JJ )(NN ){1,2})))
+Phase: generated98182
+Input: Token
+Rule: generated98182
+(
+((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn98182 --> :pttrn98182.extracted={}
+

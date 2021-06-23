@@ -1,0 +1,8 @@
+for HIEL lexico-semantic patterns
+(PP (IN )(NP (NNP )(JJ )(NNS )))
+Phase: generated94118
+Input: Token
+Rule: generated94118
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS })))):pttrn94118 --> :pttrn94118.extracted={}
+

@@ -1,0 +1,8 @@
+as transformed features of the text classi-fication problem.5
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated86991
+Input: Token
+Rule: generated86991
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn86991 --> :pttrn86991.extracted={}
+

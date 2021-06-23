@@ -1,0 +1,8 @@
+the Java Annotations Pattern Engine language
+(NP (DT )(NNP ){1,2}(NN ))
+Phase: generated95176
+Input: Token
+Rule: generated95176
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))):pttrn95176 --> :pttrn95176.extracted={}
+

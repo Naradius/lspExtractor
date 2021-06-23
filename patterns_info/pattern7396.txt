@@ -1,0 +1,8 @@
+the uniform ant routing algorithm
+(NP (DT )(JJ ){1,2}(NN ){1,2})
+Phase: generated7396
+Input: Token
+Rule: generated7396
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn7396 --> :pttrn7396.extracted={}
+

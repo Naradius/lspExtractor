@@ -1,0 +1,8 @@
+the syntactic dependency
+(NP (DT )(NN ){1,2})
+Phase: generated113842
+Input: Token
+Rule: generated113842
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn113842 --> :pttrn113842.extracted={}
+

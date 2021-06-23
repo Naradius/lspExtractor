@@ -1,0 +1,8 @@
+of the art OFs in fixed-node and mobile-node scenarios
+(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (ADJP (JJ )(CC )(JJ ))(NNS )))))
+Phase: generated26996
+Input: Token
+Rule: generated26996
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS })))))):pttrn26996 --> :pttrn26996.extracted={}
+

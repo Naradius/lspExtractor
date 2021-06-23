@@ -1,0 +1,8 @@
+With appropriate bounds on nodedensity, intra-cluster and inter-cluster transmission ranges
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NN ){1,2}(CC )(NN ){1,2}(NNS )))))
+Phase: generated53239
+Input: Token
+Rule: generated53239
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS })))))):pttrn53239 --> :pttrn53239.extracted={}
+

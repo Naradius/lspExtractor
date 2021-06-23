@@ -1,0 +1,8 @@
+to 500 s
+(PP (TO )(NP (CD )(NNS )))
+Phase: generated11822
+Input: Token
+Rule: generated11822
+(
+(({ Token.category == TO })(({ Token.category == CD })({ Token.category == NNS })))):pttrn11822 --> :pttrn11822.extracted={}
+

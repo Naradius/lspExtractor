@@ -1,0 +1,8 @@
+given inFigure 1.A brief review of EPCSO algorithm is given as follows.Step 1. Create  cats, randomly classify the cats into the-dimensional solution space within the limited ranges ofthe initial value, and randomly split them into  groups.Generate the velocities for each dimension of each cat and setthe motion flags that define whichmode the cat belongs to beaccording to the user predefined value of MR, where MR
+(VP (VBN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNP )(NN )))))
+Phase: generated68587
+Input: Token
+Rule: generated68587
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn68587 --> :pttrn68587.extracted={}
+

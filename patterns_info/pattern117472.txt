@@ -1,0 +1,8 @@
+by extracting related terms through analysis and classification
+(PP (IN )(VP (VBG )(NP (VBN )(NNS ))(PP (IN )(NP (NN )(CC )(NN )))))
+Phase: generated117472
+Input: Token
+Rule: generated117472
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn117472 --> :pttrn117472.extracted={}
+

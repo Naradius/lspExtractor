@@ -1,0 +1,8 @@
+Computer Networks 38  393422
+(NP (NNP ){1,2}(CD ){1,2})
+Phase: generated67784
+Input: Token
+Rule: generated67784
+(
+(({ Token.category == NNP })+({ Token.category == CD })+)):pttrn67784 --> :pttrn67784.extracted={}
+

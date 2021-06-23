@@ -1,0 +1,8 @@
+the semanticclass HumanTarget
+(NP (DT )(NN )(NNP ))
+Phase: generated80188
+Input: Token
+Rule: generated80188
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))):pttrn80188 --> :pttrn80188.extracted={}
+

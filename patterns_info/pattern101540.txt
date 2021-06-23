@@ -1,0 +1,8 @@
+.net/project/eSPERTo-System-for-Paraphrasing-in-Editing-and-Revision-of-Text?enrichId=rgreq-b2bc2ab0921d6752f9667a382e20f737-XXX&enrichSource=Y292ZXJQYWdlOzI2NTQ5MDkyMDtBUzozNDIwMzQ2NzkzODYxMTJAMTQ1ODU1ODgzMDYwNQ%3D%3D&el=1_x_9&_esc=publicationCoverPdfhttps
+(NP (JJ ){1,2}(NN )(NNS ))
+Phase: generated101540
+Input: Token
+Rule: generated101540
+(
+(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))):pttrn101540 --> :pttrn101540.extracted={}
+

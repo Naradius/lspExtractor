@@ -1,0 +1,8 @@
+the pattern for the questionWho
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated99396
+Input: Token
+Rule: generated99396
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn99396 --> :pttrn99396.extracted={}
+

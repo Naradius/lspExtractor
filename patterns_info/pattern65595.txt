@@ -1,0 +1,8 @@
+elect the nodes in Ad hoc sensor networks
+(VP (VB )(NP (DT )(NNS ))(PP (IN )(NP (NNP )(JJ )(NN )(NNS ))))
+Phase: generated65595
+Input: Token
+Rule: generated65595
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn65595 --> :pttrn65595.extracted={}
+

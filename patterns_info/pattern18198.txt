@@ -1,0 +1,8 @@
+wireless ad hoc networks
+(NP (JJ )(NN )(JJ )(NNS ))
+Phase: generated18198
+Input: Token
+Rule: generated18198
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn18198 --> :pttrn18198.extracted={}
+

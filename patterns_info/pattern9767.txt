@@ -1,0 +1,8 @@
+are proposed to maximize the network lifetime byvarying the cluster size and the duration of a node beingnominated as a CH based on the assumption that the loca-tions are known a priori
+(VP (VBP )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NNP ))(VP (VBN )(PP (IN )(NP (DT )(NN )(IN ))))))))))))))))
+Phase: generated9767
+Input: Token
+Rule: generated9767
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == IN }))))))))))))))))):pttrn9767 --> :pttrn9767.extracted={}
+

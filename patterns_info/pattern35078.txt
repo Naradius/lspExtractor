@@ -1,0 +1,8 @@
+this frameworkis
+(NP (DT )(NN ))
+Phase: generated35078
+Input: Token
+Rule: generated35078
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn35078 --> :pttrn35078.extracted={}
+

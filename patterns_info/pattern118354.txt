@@ -1,0 +1,8 @@
+de-emphasize the actual intentions
+(VP (VBP )(NP (DT )(JJ )(NNS )))
+Phase: generated118354
+Input: Token
+Rule: generated118354
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn118354 --> :pttrn118354.extracted={}
+

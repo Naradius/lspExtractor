@@ -1,0 +1,8 @@
+is an example for the techniques used forenergy scavenging.The transceiver unit of sensor nodes
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(NNS ))))))))))
+Phase: generated47239
+Input: Token
+Rule: generated47239
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))))):pttrn47239 --> :pttrn47239.extracted={}
+

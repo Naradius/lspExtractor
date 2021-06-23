@@ -1,0 +1,8 @@
+In one sce-nario
+(PP (IN )(NP (CD )(NN )))
+Phase: generated49079
+Input: Token
+Rule: generated49079
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))):pttrn49079 --> :pttrn49079.extracted={}
+

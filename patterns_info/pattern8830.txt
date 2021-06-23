@@ -1,0 +1,8 @@
+indicates the utility of a clustering algorithmagainst a flat routing approach
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN )))))))
+Phase: generated8830
+Input: Token
+Rule: generated8830
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))))):pttrn8830 --> :pttrn8830.extracted={}
+

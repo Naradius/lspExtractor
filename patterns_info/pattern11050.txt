@@ -1,0 +1,8 @@
+dynamic clustering issuesand
+(NP (JJ )(NN ){1,2})
+Phase: generated11050
+Input: Token
+Rule: generated11050
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn11050 --> :pttrn11050.extracted={}
+

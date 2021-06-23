@@ -1,0 +1,8 @@
+deterministic cluster-head selection
+(NP (JJ )(NN ){1,2})
+Phase: generated5582
+Input: Token
+Rule: generated5582
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn5582 --> :pttrn5582.extracted={}
+

@@ -1,0 +1,8 @@
+Emerging Telecommunica-tions Technologies
+(NP (NNP ){1,2}(NNPS ))
+Phase: generated67777
+Input: Token
+Rule: generated67777
+(
+(({ Token.category == NNP })+({ Token.category == NNPS }))):pttrn67777 --> :pttrn67777.extracted={}
+

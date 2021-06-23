@@ -1,0 +1,8 @@
+according to its visual language
+(PP (VBG )(PP (TO )(NP (PRP$ )(JJ )(NN ))))
+Phase: generated105273
+Input: Token
+Rule: generated105273
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))):pttrn105273 --> :pttrn105273.extracted={}
+

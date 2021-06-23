@@ -1,0 +1,8 @@
+the variety
+(NP (DT )(NN ))
+Phase: generated41245
+Input: Token
+Rule: generated41245
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn41245 --> :pttrn41245.extracted={}
+

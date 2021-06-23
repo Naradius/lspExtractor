@@ -1,0 +1,8 @@
+identifies the CH by choosing the node withthe highest degree
+(VP (VBZ )(NP (DT )(NNP ))(PP (IN )(VP (VBG )(NP (DT )(NN ))(NP (DT )(JJS )(NN )))))
+Phase: generated6223
+Input: Token
+Rule: generated6223
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })))))):pttrn6223 --> :pttrn6223.extracted={}
+

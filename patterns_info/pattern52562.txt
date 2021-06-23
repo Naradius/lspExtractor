@@ -1,0 +1,8 @@
+the readerwith
+(NP (DT )(NN ))
+Phase: generated52562
+Input: Token
+Rule: generated52562
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn52562 --> :pttrn52562.extracted={}
+

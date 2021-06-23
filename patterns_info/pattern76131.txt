@@ -1,0 +1,8 @@
+a filter stepsthat removes all sentences that do not contain at least twoFREEBASE entities.Parsing
+(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NNS ))(VP (VBP )(RB )(VP (VB )(NP (ADJP (ADVP (IN )(JJS ))(JJ ))(NN )))))))
+Phase: generated76131
+Input: Token
+Rule: generated76131
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VB })(((({ Token.category == IN })({ Token.category == JJS }))({ Token.category == JJ }))({ Token.category == NN })))))))):pttrn76131 --> :pttrn76131.extracted={}
+

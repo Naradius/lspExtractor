@@ -1,0 +1,8 @@
+unexplored in the regime ofsensor networks, though many adaptive and low-power versions are existent in literature for othermobile networks
+(VP (JJ )(PP (IN )(NP (DT )(NN ){1,2}(NNS )))(IN ))
+Phase: generated45021
+Input: Token
+Rule: generated45021
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))({ Token.category == IN }))):pttrn45021 --> :pttrn45021.extracted={}
+

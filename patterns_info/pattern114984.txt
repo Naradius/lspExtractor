@@ -1,0 +1,8 @@
+into noun-phrase class, verb-phrase class, how-to class
+(PP (IN )(NP (NP (JJ )(NN )(JJ )(NN ))(NP (PRP$ )(NN ))))
+Phase: generated114984
+Input: Token
+Rule: generated114984
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn114984 --> :pttrn114984.extracted={}
+

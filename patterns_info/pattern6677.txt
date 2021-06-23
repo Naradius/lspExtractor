@@ -1,0 +1,8 @@
+a swarmBehavior DescriptionSeparation Avoid collisions
+(NP (DT )(JJ )(NN )(NNP )(NNS ))
+Phase: generated6677
+Input: Token
+Rule: generated6677
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NNS }))):pttrn6677 --> :pttrn6677.extracted={}
+

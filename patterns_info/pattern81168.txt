@@ -1,0 +1,8 @@
+into a table of relational database tuples
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated81168
+Input: Token
+Rule: generated81168
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn81168 --> :pttrn81168.extracted={}
+

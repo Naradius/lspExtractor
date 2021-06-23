@@ -1,0 +1,8 @@
+to a collection of Reutersnews stories on corporate acquisitions
+(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP )(NNS ))(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated79794
+Input: Token
+Rule: generated79794
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn79794 --> :pttrn79794.extracted={}
+

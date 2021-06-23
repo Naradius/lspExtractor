@@ -1,0 +1,8 @@
+9. Average energy consumption versus distance
+(NP (CD )(NNP )(NN ){1,2})
+Phase: generated62618
+Input: Token
+Rule: generated62618
+(
+(({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })+)):pttrn62618 --> :pttrn62618.extracted={}
+

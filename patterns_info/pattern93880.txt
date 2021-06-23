@@ -1,0 +1,8 @@
+ontology concepts
+(NP (NN )(NNS ))
+Phase: generated93880
+Input: Token
+Rule: generated93880
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn93880 --> :pttrn93880.extracted={}
+

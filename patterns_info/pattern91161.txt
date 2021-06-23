@@ -1,0 +1,8 @@
+any efficiencyaspects considered in the actual software
+(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated91161
+Input: Token
+Rule: generated91161
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn91161 --> :pttrn91161.extracted={}
+

@@ -1,0 +1,8 @@
+has a wildcard within the extraction eld, such as thepattern for StartTime \ * 'Time
+(VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN )(JJ ))(PP (JJ )(IN )))))
+Phase: generated78435
+Input: Token
+Rule: generated78435
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ }))(({ Token.category == JJ })({ Token.category == IN })))))):pttrn78435 --> :pttrn78435.extracted={}
+

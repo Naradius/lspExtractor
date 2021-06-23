@@ -1,0 +1,8 @@
+routed hop by hop through the WINSnodes until it reaches the sink, i.e., a WINS gate-way
+(VP (VBN )(PP (IN )(NP (DT )(NNP ))))
+Phase: generated48285
+Input: Token
+Rule: generated48285
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn48285 --> :pttrn48285.extracted={}
+

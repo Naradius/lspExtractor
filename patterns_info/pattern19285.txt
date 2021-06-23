@@ -1,0 +1,8 @@
+implemented by extending the class Pow-erVm in CloudSim
+(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2}))))
+Phase: generated19285
+Input: Token
+Rule: generated19285
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn19285 --> :pttrn19285.extracted={}
+

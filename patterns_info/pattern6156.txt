@@ -1,0 +1,8 @@
+low-power signal processing architecture,routing protocol and data gathering strategy
+(NP (JJ )(NN )(VBG )(NN ){1,2}(CC )(NNS )(NN ){1,2})
+Phase: generated6156
+Input: Token
+Rule: generated6156
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == VBG })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN })+)):pttrn6156 --> :pttrn6156.extracted={}
+

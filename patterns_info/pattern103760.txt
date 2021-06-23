@@ -1,0 +1,8 @@
+The Bottom-Up Phase4.1.1.
+(NP (NP (DT )(JJ ))(NNP ))
+Phase: generated103760
+Input: Token
+Rule: generated103760
+(
+((({ Token.category == DT })({ Token.category == JJ }))({ Token.category == NNP }))):pttrn103760 --> :pttrn103760.extracted={}
+

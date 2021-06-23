@@ -1,0 +1,8 @@
+interactively query and fil-ter a subset of the derived pattern.tence
+(VP (VB )(CC )(VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(NN )))))
+Phase: generated76619
+Input: Token
+Rule: generated76619
+(
+(({ Token.category == VB })({ Token.category == CC })({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))))):pttrn76619 --> :pttrn76619.extracted={}
+

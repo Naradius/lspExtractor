@@ -1,0 +1,8 @@
+the new tagwill
+(NP (DT )(JJ )(NN ))
+Phase: generated91926
+Input: Token
+Rule: generated91926
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn91926 --> :pttrn91926.extracted={}
+

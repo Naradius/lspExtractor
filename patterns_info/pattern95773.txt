@@ -1,0 +1,8 @@
+a super-vised classifier
+(NP (DT )(JJ )(NN ))
+Phase: generated95773
+Input: Token
+Rule: generated95773
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn95773 --> :pttrn95773.extracted={}
+

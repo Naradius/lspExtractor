@@ -1,0 +1,8 @@
+for both inter-domain and intra-domain routing, with higher rs
+(PP (IN )(NP (NP (ADJP (DT )(JJ )(CC )(JJ ))(NN ))(PP (IN )(NP (JJR )(NNS )))))
+Phase: generated24045
+Input: Token
+Rule: generated24045
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NNS })))))):pttrn24045 --> :pttrn24045.extracted={}
+

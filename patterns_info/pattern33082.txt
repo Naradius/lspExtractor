@@ -1,0 +1,8 @@
+hopes to establish routing with other nodes
+(VP (VBZ )(VP (TO )(VP (VB )(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated33082
+Input: Token
+Rule: generated33082
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn33082 --> :pttrn33082.extracted={}
+

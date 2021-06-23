@@ -1,0 +1,8 @@
+information.Given a path P
+(PP (IN )(NP (DT )(NN )(NNP )))
+Phase: generated32827
+Input: Token
+Rule: generated32827
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })))):pttrn32827 --> :pttrn32827.extracted={}
+

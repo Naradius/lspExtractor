@@ -1,0 +1,8 @@
+more energythan
+(NP (JJR )(FW ))
+Phase: generated44947
+Input: Token
+Rule: generated44947
+(
+(({ Token.category == JJR })({ Token.category == FW }))):pttrn44947 --> :pttrn44947.extracted={}
+

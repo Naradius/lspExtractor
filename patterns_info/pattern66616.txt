@@ -1,0 +1,8 @@
+enabled by the proto-ol for transmission
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated66616
+Input: Token
+Rule: generated66616
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn66616 --> :pttrn66616.extracted={}
+

@@ -1,0 +1,8 @@
+different mining purposes
+(NP (JJ )(NN )(NNS ))
+Phase: generated77292
+Input: Token
+Rule: generated77292
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn77292 --> :pttrn77292.extracted={}
+

@@ -1,0 +1,8 @@
+to deliver them to a re-ote server  through the Internet
+(VP (TO )(VP (VB )(PP (TO )(NP (DT )(NN ){1,2}))(PP (IN )(NP (DT )(NNP )))))
+Phase: generated27107
+Input: Token
+Rule: generated27107
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn27107 --> :pttrn27107.extracted={}
+

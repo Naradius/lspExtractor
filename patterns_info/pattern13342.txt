@@ -1,0 +1,8 @@
+Brown  and Wu
+(NP (NNP )(CC )(NNP ))
+Phase: generated13342
+Input: Token
+Rule: generated13342
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn13342 --> :pttrn13342.extracted={}
+

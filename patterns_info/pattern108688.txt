@@ -1,0 +1,8 @@
+the best vector
+(NP (DT )(JJS )(NN ))
+Phase: generated108688
+Input: Token
+Rule: generated108688
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))):pttrn108688 --> :pttrn108688.extracted={}
+

@@ -1,0 +1,6 @@
+Phase: generated49453
+Input: Token
+Rule: generated49453
+(
+(({ Token.category == VBP })((({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn49453 --> :pttrn49453.extracted={}
+

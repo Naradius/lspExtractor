@@ -1,0 +1,8 @@
+dense enough
+(ADJP (JJ )(RB ))
+Phase: generated18005
+Input: Token
+Rule: generated18005
+(
+(({ Token.category == JJ })({ Token.category == RB }))):pttrn18005 --> :pttrn18005.extracted={}
+

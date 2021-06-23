@@ -1,0 +1,8 @@
+the Linker module
+(NP (DT )(NNP )(NN ))
+Phase: generated111464
+Input: Token
+Rule: generated111464
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn111464 --> :pttrn111464.extracted={}
+

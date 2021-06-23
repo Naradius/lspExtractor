@@ -1,0 +1,8 @@
+identify the com-monsense knowledge of is capable of
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(IN )))
+Phase: generated72525
+Input: Token
+Rule: generated72525
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == IN })))):pttrn72525 --> :pttrn72525.extracted={}
+

@@ -1,0 +1,8 @@
+received funding from the German Federal Ministryof Economics and Technology  under grant agree-ment A01MD11018, A cloud-based Marketplace for In-formation and Analytics on the German Web
+(VP (VBD )(PP (IN )(NP (NP (DT )(NNP ){1,2})(CC ))))
+Phase: generated78351
+Input: Token
+Rule: generated78351
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC }))))):pttrn78351 --> :pttrn78351.extracted={}
+

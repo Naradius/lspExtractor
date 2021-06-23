@@ -1,0 +1,8 @@
+been generated usingPlease cite this article as:
+(VP (VBN )(NP (JJ )(NN ){1,2}))
+Phase: generated110805
+Input: Token
+Rule: generated110805
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn110805 --> :pttrn110805.extracted={}
+

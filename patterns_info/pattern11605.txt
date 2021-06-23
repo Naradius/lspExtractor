@@ -1,0 +1,8 @@
+through LO algorithm
+(PP (IN )(NP (NNP )(NN )))
+Phase: generated11605
+Input: Token
+Rule: generated11605
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn11605 --> :pttrn11605.extracted={}
+

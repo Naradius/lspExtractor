@@ -1,0 +1,8 @@
+An on-demand weightedclustering algorithm
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated9036
+Input: Token
+Rule: generated9036
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn9036 --> :pttrn9036.extracted={}
+

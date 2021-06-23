@@ -1,0 +1,8 @@
+be capable of providing effective network The total number of the routing algorithms is large enough due to the diversity of the requirements to the information exchange, characteristics of the transmitted data and functionality of hardware and software
+(VP (VB )(ADJP (JJ )(PP (IN )(VP (VBG )(NP (JJ )(NN ))))))
+Phase: generated2008
+Input: Token
+Rule: generated2008
+(
+(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn2008 --> :pttrn2008.extracted={}
+

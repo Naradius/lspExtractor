@@ -1,0 +1,8 @@
+have been injected into Simulink to compare our IDS modelith the real traffic traces
+(VP (VBP )(VP (VBN )(VP (VBN )(VP (TO )(VP (VB )(NP (PRP$ )(NNP ))(NP (DT )(JJ )(NN )(NNS )))))))
+Phase: generated111182
+Input: Token
+Rule: generated111182
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NNP }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn111182 --> :pttrn111182.extracted={}
+

@@ -1,0 +1,8 @@
+fail to identify specificentity types or perform poorly
+(VP (VBP )(VP (TO )(VP (VP (VB )(NP (NN )(NNS )))(CC ))))
+Phase: generated73698
+Input: Token
+Rule: generated73698
+(
+(({ Token.category == VBP })(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))({ Token.category == CC }))))):pttrn73698 --> :pttrn73698.extracted={}
+

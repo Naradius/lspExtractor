@@ -1,0 +1,8 @@
+9e 2 h1(E(Xlhs)
+(VP (VBD )(NP (CD )(JJ )(NNS ))(-RRB- ))
+Phase: generated104420
+Input: Token
+Rule: generated104420
+(
+(({ Token.category == VBD })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == -RRB- }))):pttrn104420 --> :pttrn104420.extracted={}
+

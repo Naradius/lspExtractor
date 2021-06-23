@@ -1,0 +1,8 @@
+the plausibility of its semantic roles
+(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NNS ))))
+Phase: generated72398
+Input: Token
+Rule: generated72398
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn72398 --> :pttrn72398.extracted={}
+

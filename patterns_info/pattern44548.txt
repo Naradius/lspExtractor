@@ -1,0 +1,8 @@
+the newregime
+(NP (DT )(NN ))
+Phase: generated44548
+Input: Token
+Rule: generated44548
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn44548 --> :pttrn44548.extracted={}
+

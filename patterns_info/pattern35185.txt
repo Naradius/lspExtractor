@@ -1,0 +1,8 @@
+asa real ledger.9
+(PP (IN )(NP (JJ )(UH )))
+Phase: generated35185
+Input: Token
+Rule: generated35185
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == UH })))):pttrn35185 --> :pttrn35185.extracted={}
+

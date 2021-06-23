@@ -1,0 +1,8 @@
+://doi.org/10.1016/j.adhoc.2019.1020222
+(NP (NNP )(CD ))
+Phase: generated65275
+Input: Token
+Rule: generated65275
+(
+(({ Token.category == NNP })({ Token.category == CD }))):pttrn65275 --> :pttrn65275.extracted={}
+

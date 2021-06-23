@@ -1,0 +1,8 @@
+less linguistically peculiar patterns and rules and heavy annotated corpora
+(NP (NP (NP (ADJP (RB )(JJ ))(NNS ))(CC ))(CC )(NP (JJ ){1,2}(NN )))
+Phase: generated97389
+Input: Token
+Rule: generated97389
+(
+((((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))({ Token.category == CC }))({ Token.category == CC })(({ Token.category == JJ })+({ Token.category == NN })))):pttrn97389 --> :pttrn97389.extracted={}
+

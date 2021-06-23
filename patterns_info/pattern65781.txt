@@ -1,0 +1,8 @@
+concludes the research work
+(VP (VBZ )(NP (DT )(NN ){1,2}))
+Phase: generated65781
+Input: Token
+Rule: generated65781
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))):pttrn65781 --> :pttrn65781.extracted={}
+

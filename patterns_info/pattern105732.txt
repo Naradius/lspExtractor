@@ -1,0 +1,8 @@
+are in the lexical resources
+(VP (VBP )(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated105732
+Input: Token
+Rule: generated105732
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn105732 --> :pttrn105732.extracted={}
+

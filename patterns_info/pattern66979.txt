@@ -1,0 +1,8 @@
+would update OLSR link-state topology table through theerification of numbers of requests and responses in sequence.D. B.D. and F. Al-Turjman / Ad Hoc Networks 97  102022 7 Fig. 4. OLSR Routing Table
+(VP (MD )(VP (VB )(NP (NNP )(NN ){1,2})))
+Phase: generated66979
+Input: Token
+Rule: generated66979
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NN })+)))):pttrn66979 --> :pttrn66979.extracted={}
+

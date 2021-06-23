@@ -1,0 +1,8 @@
+s  having the  corresponding set of the sites 1,2,s rA l =
+(VP (VBZ )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )(SYM ))))))))
+Phase: generated1565
+Input: Token
+Rule: generated1565
+(
+(({ Token.category == VBZ })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == SYM }))))))))):pttrn1565 --> :pttrn1565.extracted={}
+

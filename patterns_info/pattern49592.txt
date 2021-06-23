@@ -1,0 +1,8 @@
++ + + + + Safety system
+(NP (NP (JJ ){1,2}(NN ))(PP (IN )(NP (NNP ){1,2}(NN ))))
+Phase: generated49592
+Input: Token
+Rule: generated49592
+(
+((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))):pttrn49592 --> :pttrn49592.extracted={}
+

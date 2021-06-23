@@ -1,0 +1,8 @@
+for automatic methods
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated116316
+Input: Token
+Rule: generated116316
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn116316 --> :pttrn116316.extracted={}
+

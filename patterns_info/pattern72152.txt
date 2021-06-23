@@ -1,0 +1,8 @@
+represent the associated knowledge of the event
+(VP (VB )(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated72152
+Input: Token
+Rule: generated72152
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn72152 --> :pttrn72152.extracted={}
+

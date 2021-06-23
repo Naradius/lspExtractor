@@ -1,0 +1,8 @@
+sensor networks, bioinformatics, intelli-gent distributed systems and non-linear optimi-zation
+(NP (NP (NN )(NNS ))(NP (JJ ){1,2}(NNS ))(CC )(NP (JJ )(NN )))
+Phase: generated5678
+Input: Token
+Rule: generated5678
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })))):pttrn5678 --> :pttrn5678.extracted={}
+

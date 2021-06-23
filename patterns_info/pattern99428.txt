@@ -1,0 +1,8 @@
+the question.A final type
+(NP (DT )(NNP )(JJ )(NN ))
+Phase: generated99428
+Input: Token
+Rule: generated99428
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))):pttrn99428 --> :pttrn99428.extracted={}
+

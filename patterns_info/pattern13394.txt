@@ -1,0 +1,8 @@
+proposed a long link  mechanism to allowPNs to accept any messages they would hear, even from non-neighboring regions
+(VP (VBD )(NP (DT )(JJ )(NN ){1,2})(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(VP (MD )(VP (VB )(PP (IN )(NP (JJ )(NNS )))))))))
+Phase: generated13394
+Input: Token
+Rule: generated13394
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn13394 --> :pttrn13394.extracted={}
+

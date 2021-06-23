@@ -1,0 +1,8 @@
+by EUm = u +u =  + uk
+(PP (IN )(NP (NNP )(SYM )(FW ){1,2}(SYM )(JJ )(NNP )))
+Phase: generated23400
+Input: Token
+Rule: generated23400
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == SYM })({ Token.category == FW })+({ Token.category == SYM })({ Token.category == JJ })({ Token.category == NNP })))):pttrn23400 --> :pttrn23400.extracted={}
+

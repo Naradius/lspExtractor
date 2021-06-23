@@ -1,0 +1,8 @@
+could be worth presenting such questions to theuser of THE-MENTOR, depending on the application goal
+(VP (MD )(VP (VB )(ADJP (JJ )(VP (VBG )(NP (JJ )(NNS ))(PP (VBG )(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated101081
+Input: Token
+Rule: generated101081
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn101081 --> :pttrn101081.extracted={}
+

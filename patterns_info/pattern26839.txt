@@ -1,0 +1,8 @@
+a numeric interval intoseveral sub-sets
+(NP (DT )(JJ )(NN )(JJ )(NNS ))
+Phase: generated26839
+Input: Token
+Rule: generated26839
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn26839 --> :pttrn26839.extracted={}
+

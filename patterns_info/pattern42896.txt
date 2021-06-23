@@ -1,0 +1,8 @@
+the TSP
+(NP (DT )(NNP ))
+Phase: generated42896
+Input: Token
+Rule: generated42896
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn42896 --> :pttrn42896.extracted={}
+

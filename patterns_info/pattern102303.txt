@@ -1,0 +1,8 @@
+a kind of context-freegraph grammars with rather restricted forms of embedding rules
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))(PP (IN )(NP (NP (ADJP (RB )(JJ ))(NNS ))(PP (IN )(NP (VBG )(NNS ))))))
+Phase: generated102303
+Input: Token
+Rule: generated102303
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS }))))))):pttrn102303 --> :pttrn102303.extracted={}
+

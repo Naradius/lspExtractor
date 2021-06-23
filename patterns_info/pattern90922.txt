@@ -1,0 +1,8 @@
+the tags for the unknown words
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated90922
+Input: Token
+Rule: generated90922
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn90922 --> :pttrn90922.extracted={}
+

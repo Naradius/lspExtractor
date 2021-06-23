@@ -1,0 +1,8 @@
+is a Platform unless part of the phrase \Windows95" or \Windows NT", in which case the longer phrase should be extracted as thePlatform
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated78585
+Input: Token
+Rule: generated78585
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn78585 --> :pttrn78585.extracted={}
+

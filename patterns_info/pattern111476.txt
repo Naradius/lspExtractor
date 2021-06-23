@@ -1,0 +1,8 @@
+designed to first intercept / sniff packetsetween the Linker module and the UAV, then apply WLM anal-sis, in real-time, on collected packets and compare resulted sig-ature with a bank of signatures to determine the nature of theraffic
+(VP (VBN )(PP (TO )(NP (JJ )(NN )))(PP (IN )(VP (VBG )(VP (VBN )(NP (NP (DT )(NNP )(NN ))(CC )(NP (DT )(NNP )))(VP (VP (VB )(NP (NNP )(NN ))(PP (IN )(NP (VBN )(NNS ))))(CC ))))))
+Phase: generated111476
+Input: Token
+Rule: generated111476
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })))((({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NNS }))))({ Token.category == CC }))))))):pttrn111476 --> :pttrn111476.extracted={}
+

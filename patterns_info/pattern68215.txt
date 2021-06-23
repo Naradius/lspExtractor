@@ -1,0 +1,8 @@
+of theinner layer nodes
+(PP (IN )(NP (PRP$ )(NN )(NNS )))
+Phase: generated68215
+Input: Token
+Rule: generated68215
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS })))):pttrn68215 --> :pttrn68215.extracted={}
+

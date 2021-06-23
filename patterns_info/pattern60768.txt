@@ -1,0 +1,8 @@
+the lifespan of the WSN.
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated60768
+Input: Token
+Rule: generated60768
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn60768 --> :pttrn60768.extracted={}
+

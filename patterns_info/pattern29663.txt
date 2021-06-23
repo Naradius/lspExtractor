@@ -1,0 +1,8 @@
+by the IoT nodes.In this algorithm, we want the neighborhood coalitions to demo-cratically decide the temperature of the main sensor
+(PP (IN )(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated29663
+Input: Token
+Rule: generated29663
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn29663 --> :pttrn29663.extracted={}
+

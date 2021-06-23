@@ -1,0 +1,8 @@
+to make sure they can only join the network through one ofthe IDS nodes in the first tier which means that their packets have to pass through an IDS node before reaching the edgerouter
+(VP (TO )(VP (VB )(ADJP (JJ )(VP (MD )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (CD )(DT )(NNP )(NNS )))(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(IN )))))))))
+Phase: generated37568
+Input: Token
+Rule: generated37568
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })({ Token.category == IN })))))))))):pttrn37568 --> :pttrn37568.extracted={}
+

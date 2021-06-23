@@ -1,0 +1,8 @@
+pi4and pi5
+(NP (DT )(NN ))
+Phase: generated104721
+Input: Token
+Rule: generated104721
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn104721 --> :pttrn104721.extracted={}
+

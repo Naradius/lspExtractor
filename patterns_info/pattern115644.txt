@@ -1,0 +1,8 @@
+a phrase base approach
+(NP (DT )(NN ){1,2})
+Phase: generated115644
+Input: Token
+Rule: generated115644
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn115644 --> :pttrn115644.extracted={}
+

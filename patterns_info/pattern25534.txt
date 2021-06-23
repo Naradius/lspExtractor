@@ -1,0 +1,8 @@
+affect the power con-umption by up to 80%, while their impact on reliability, E2E De-ay, and control overhead would be as high as 54%, 75%, and 50%espectively
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated25534
+Input: Token
+Rule: generated25534
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn25534 --> :pttrn25534.extracted={}
+

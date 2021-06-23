@@ -1,0 +1,8 @@
+messages and nodes
+(NP (NNS )(CC )(NNS ))
+Phase: generated41498
+Input: Token
+Rule: generated41498
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn41498 --> :pttrn41498.extracted={}
+

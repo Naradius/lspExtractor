@@ -1,0 +1,8 @@
+The experimental results ofthe proposed approach
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (VBN )(NN ))))
+Phase: generated10317
+Input: Token
+Rule: generated10317
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN }))))):pttrn10317 --> :pttrn10317.extracted={}
+

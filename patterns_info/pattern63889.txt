@@ -1,0 +1,8 @@
+catch the victimwith a fast attack
+(VP (VB )(NP (DT )(NN ))(NP (DT )(JJ )(NN )))
+Phase: generated63889
+Input: Token
+Rule: generated63889
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn63889 --> :pttrn63889.extracted={}
+

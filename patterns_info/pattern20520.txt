@@ -1,0 +1,8 @@
+vir-ual gateway functions, flows, and resources
+(NP (NP (JJ )(NN )(NNS ))(CC ))
+Phase: generated20520
+Input: Token
+Rule: generated20520
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn20520 --> :pttrn20520.extracted={}
+

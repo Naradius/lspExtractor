@@ -1,0 +1,8 @@
+Mechanical Systems
+(NP (NNP )(NNPS ))
+Phase: generated39509
+Input: Token
+Rule: generated39509
+(
+(({ Token.category == NNP })({ Token.category == NNPS }))):pttrn39509 --> :pttrn39509.extracted={}
+

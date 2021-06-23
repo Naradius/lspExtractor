@@ -1,0 +1,8 @@
+is MATLAB and the sinknode
+(VP (VBZ )(NP (CC )(NP (DT )(NN ))))
+Phase: generated63127
+Input: Token
+Rule: generated63127
+(
+(({ Token.category == VBZ })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN }))))):pttrn63127 --> :pttrn63127.extracted={}
+

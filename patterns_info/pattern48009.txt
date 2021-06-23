@@ -1,0 +1,8 @@
+gives us quadratic gains
+(VP (VBZ )(NP (JJ )(NNS )))
+Phase: generated48009
+Input: Token
+Rule: generated48009
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn48009 --> :pttrn48009.extracted={}
+

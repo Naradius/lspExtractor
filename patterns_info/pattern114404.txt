@@ -1,0 +1,8 @@
+nuclear weapon
+(NP (JJ )(NN ))
+Phase: generated114404
+Input: Token
+Rule: generated114404
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn114404 --> :pttrn114404.extracted={}
+

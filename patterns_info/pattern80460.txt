@@ -1,0 +1,8 @@
+is learned for each exemplar based on its performanceon training sentences
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ ))(VP (VBN )(PP (IN )(NP (PRP$ )(NN ){1,2}(NNS ))))))))
+Phase: generated80460
+Input: Token
+Rule: generated80460
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+({ Token.category == NNS }))))))))):pttrn80460 --> :pttrn80460.extracted={}
+

@@ -1,0 +1,8 @@
+the verification
+(NP (DT )(NN ))
+Phase: generated72857
+Input: Token
+Rule: generated72857
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn72857 --> :pttrn72857.extracted={}
+

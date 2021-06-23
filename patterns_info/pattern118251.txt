@@ -1,0 +1,8 @@
+establish their attributes, leveraging Speech Act Theory.Definition 2.2.1
+(VP (VB )(NP (NP (PRP$ )(NNS ))(NP (NN )(NNP ){1,2}(CD ))))
+Phase: generated118251
+Input: Token
+Rule: generated118251
+(
+(({ Token.category == VB })((({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CD }))))):pttrn118251 --> :pttrn118251.extracted={}
+

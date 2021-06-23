@@ -1,0 +1,8 @@
+the secure network infrastructure
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated38911
+Input: Token
+Rule: generated38911
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn38911 --> :pttrn38911.extracted={}
+

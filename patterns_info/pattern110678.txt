@@ -1,0 +1,8 @@
+versionof the Linux kernel
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated110678
+Input: Token
+Rule: generated110678
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn110678 --> :pttrn110678.extracted={}
+

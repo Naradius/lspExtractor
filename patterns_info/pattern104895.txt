@@ -1,0 +1,8 @@
+to identify equivalent sub-derivations which are the result of local ambiguities
+(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated104895
+Input: Token
+Rule: generated104895
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn104895 --> :pttrn104895.extracted={}
+

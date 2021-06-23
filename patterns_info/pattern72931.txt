@@ -1,0 +1,8 @@
+George Bush canget + ARG1 and Bill Clinton
+(NP (NP (NNP ){1,2}(NN ){1,2})(CC ))
+Phase: generated72931
+Input: Token
+Rule: generated72931
+(
+((({ Token.category == NNP })+({ Token.category == NN })+)({ Token.category == CC }))):pttrn72931 --> :pttrn72931.extracted={}
+

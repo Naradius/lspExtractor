@@ -1,0 +1,8 @@
+PT contribution
+(NP (NNP )(NN ))
+Phase: generated115952
+Input: Token
+Rule: generated115952
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn115952 --> :pttrn115952.extracted={}
+

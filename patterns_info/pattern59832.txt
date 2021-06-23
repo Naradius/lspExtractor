@@ -1,0 +1,8 @@
+Weak ,ess weak , Medium , Low medium
+(NP (NNP ){1,2}(JJ )(NNP ){1,2}(NN ))
+Phase: generated59832
+Input: Token
+Rule: generated59832
+(
+(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NN }))):pttrn59832 --> :pttrn59832.extracted={}
+

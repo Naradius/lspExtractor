@@ -1,0 +1,8 @@
+distinguishing systems
+(NP (NN )(NNS ))
+Phase: generated80659
+Input: Token
+Rule: generated80659
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn80659 --> :pttrn80659.extracted={}
+

@@ -1,0 +1,8 @@
+asingle copy of each message
+(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated41513
+Input: Token
+Rule: generated41513
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn41513 --> :pttrn41513.extracted={}
+

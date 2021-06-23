@@ -1,0 +1,8 @@
+of unique digrams in second word
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated98151
+Input: Token
+Rule: generated98151
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn98151 --> :pttrn98151.extracted={}
+

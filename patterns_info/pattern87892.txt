@@ -1,0 +1,8 @@
+sem1 and orth in  are atomic symbols, written as contiguous sequences ofalphabetic characters , underscores and hyphens
+(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(VP (VBN )(PP (IN )(NP (NP (JJ )(NNS )(JJ )(NNS ))(NP (NNS )(CC )(NNS ))))))))
+Phase: generated87892
+Input: Token
+Rule: generated87892
+(
+((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))))))):pttrn87892 --> :pttrn87892.extracted={}
+

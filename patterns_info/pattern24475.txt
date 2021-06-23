@@ -1,0 +1,8 @@
+Priority-based dynamic spectrummanagement
+(NP (JJ ){1,2}(NN ))
+Phase: generated24475
+Input: Token
+Rule: generated24475
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn24475 --> :pttrn24475.extracted={}
+

@@ -1,0 +1,8 @@
+to define a set of syntactic phrasal categories to use consistently
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))))
+Phase: generated88837
+Input: Token
+Rule: generated88837
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn88837 --> :pttrn88837.extracted={}
+

@@ -1,0 +1,8 @@
+instantaneous processing requirements.In , the authors propose a workload predic-tion scheme based on adaptive filtering of thepast workload profile and analyze several filter-ing schemes
+(NP (NP (JJ )(NN )(NNS ))(IN ))
+Phase: generated48032
+Input: Token
+Rule: generated48032
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == IN }))):pttrn48032 --> :pttrn48032.extracted={}
+

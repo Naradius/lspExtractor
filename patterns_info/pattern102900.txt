@@ -1,0 +1,8 @@
+common verticesof L
+(NP (JJ ){1,2}(NNP ))
+Phase: generated102900
+Input: Token
+Rule: generated102900
+(
+(({ Token.category == JJ })+({ Token.category == NNP }))):pttrn102900 --> :pttrn102900.extracted={}
+

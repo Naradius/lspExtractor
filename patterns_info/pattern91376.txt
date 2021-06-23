@@ -1,0 +1,8 @@
+differ in thedifferent temporary corpora
+(VP (VBP )(PP (IN )(NP (JJ ){1,2}(NN ))))
+Phase: generated91376
+Input: Token
+Rule: generated91376
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))):pttrn91376 --> :pttrn91376.extracted={}
+

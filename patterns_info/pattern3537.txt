@@ -1,0 +1,8 @@
+nodes in this area
+(VP (VBZ )(PP (IN )(NP (DT )(NN ))))
+Phase: generated3537
+Input: Token
+Rule: generated3537
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn3537 --> :pttrn3537.extracted={}
+

@@ -1,0 +1,8 @@
+close to 98%
+(ADJP (JJ )(PP (TO )(NP (CD )(NN ))))
+Phase: generated73464
+Input: Token
+Rule: generated73464
+(
+(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == CD })({ Token.category == NN }))))):pttrn73464 --> :pttrn73464.extracted={}
+

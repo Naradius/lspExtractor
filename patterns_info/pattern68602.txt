@@ -1,0 +1,8 @@
+the tracing mode
+(NP (DT )(NN ){1,2})
+Phase: generated68602
+Input: Token
+Rule: generated68602
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn68602 --> :pttrn68602.extracted={}
+

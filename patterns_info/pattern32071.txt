@@ -1,0 +1,8 @@
+These commonareas such as the reception, the rooms where the offices are
+(NP (NP (DT )(NNS ))(PP (JJ )(IN )))
+Phase: generated32071
+Input: Token
+Rule: generated32071
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn32071 --> :pttrn32071.extracted={}
+

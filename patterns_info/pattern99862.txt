@@ -1,0 +1,8 @@
+is used.Figure 7 shows graphically the generation of a question for a strong pattern and all theinformation involved in this subtask
+(VP (VBZ )(VP (VBN )(NP (NN )(CD )(NNS ))(PP (RB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(CC )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))))))))))
+Phase: generated99862
+Input: Token
+Rule: generated99862
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == NN })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == RB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))))))):pttrn99862 --> :pttrn99862.extracted={}
+

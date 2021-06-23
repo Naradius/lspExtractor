@@ -1,0 +1,8 @@
+theTADAP and SQDDP as described in Sections4.1.2
+(NP (NP (DT )(CC )(NNP ))(IN ))
+Phase: generated48618
+Input: Token
+Rule: generated48618
+(
+((({ Token.category == DT })({ Token.category == CC })({ Token.category == NNP }))({ Token.category == IN }))):pttrn48618 --> :pttrn48618.extracted={}
+

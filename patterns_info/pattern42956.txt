@@ -1,0 +1,8 @@
+the DRHT topology
+(NP (DT )(NNP )(NN ))
+Phase: generated42956
+Input: Token
+Rule: generated42956
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn42956 --> :pttrn42956.extracted={}
+

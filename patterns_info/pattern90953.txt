@@ -1,0 +1,8 @@
+inREADME files in the directory Docs
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated90953
+Input: Token
+Rule: generated90953
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn90953 --> :pttrn90953.extracted={}
+

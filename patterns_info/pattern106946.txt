@@ -1,0 +1,8 @@
+weighted by CRF-based probabilities in orderto
+(VP (VBN )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated106946
+Input: Token
+Rule: generated106946
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn106946 --> :pttrn106946.extracted={}
+

@@ -1,0 +1,8 @@
+up to 17 slots such as City, State, Country, Language , Platform , Application ,and Required years of experience
+(NP (NP (QP (RB )(TO )(CD ))(NNS ))(PP (JJ )(IN )))
+Phase: generated84103
+Input: Token
+Rule: generated84103
+(
+(((({ Token.category == RB })({ Token.category == TO })({ Token.category == CD }))({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn84103 --> :pttrn84103.extracted={}
+

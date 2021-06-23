@@ -1,0 +1,8 @@
+carried out to avoid the converging in the local optima
+(VP (VBN )(PRT (RP ))(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated108617
+Input: Token
+Rule: generated108617
+(
+(({ Token.category == VBN })(({ Token.category == RP }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn108617 --> :pttrn108617.extracted={}
+

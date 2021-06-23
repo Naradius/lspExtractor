@@ -1,0 +1,8 @@
+a random Booleandecision
+(NP (DT )(JJ )(NN ))
+Phase: generated13600
+Input: Token
+Rule: generated13600
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn13600 --> :pttrn13600.extracted={}
+

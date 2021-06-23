@@ -1,0 +1,8 @@
+a new class whichs called hybrid routing protocols
+(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBN )(NP (JJ )(NN )(NNS ))))
+Phase: generated25720
+Input: Token
+Rule: generated25720
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn25720 --> :pttrn25720.extracted={}
+

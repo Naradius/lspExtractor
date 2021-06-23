@@ -1,0 +1,8 @@
+their ID and local position to the NearestCHs
+(NP (NP (PRP$ )(NN ))(CC )(NP (NP (JJ )(NN ))(PP (TO )(NP (DT )(NNP )))))
+Phase: generated55036
+Input: Token
+Rule: generated55036
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn55036 --> :pttrn55036.extracted={}
+

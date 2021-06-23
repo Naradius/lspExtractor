@@ -1,0 +1,8 @@
+different types of interactionbetween nodes
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated29133
+Input: Token
+Rule: generated29133
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn29133 --> :pttrn29133.extracted={}
+

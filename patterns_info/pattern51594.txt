@@ -1,0 +1,8 @@
+to prolong the network lifetime
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated51594
+Input: Token
+Rule: generated51594
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn51594 --> :pttrn51594.extracted={}
+

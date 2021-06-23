@@ -1,0 +1,8 @@
+theAFOSR sponsored Young Investigator Program  Award
+(NP (DT )(VBN )(NNP ){1,2})
+Phase: generated24645
+Input: Token
+Rule: generated24645
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })+)):pttrn24645 --> :pttrn24645.extracted={}
+

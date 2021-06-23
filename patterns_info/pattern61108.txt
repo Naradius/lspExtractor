@@ -1,0 +1,8 @@
+by applying fuzzy logic basedecision making model
+(PP (IN )(VP (VBG )(NP (JJ )(NN ){1,2}(VBG )(NN ))))
+Phase: generated61108
+Input: Token
+Rule: generated61108
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == VBG })({ Token.category == NN }))))):pttrn61108 --> :pttrn61108.extracted={}
+

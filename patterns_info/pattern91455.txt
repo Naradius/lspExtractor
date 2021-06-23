@@ -1,0 +1,8 @@
+the contextual module, also usingtransformation-based error-driven learning
+(NP (NP (DT )(JJ )(NN ))(NP (JJ ){1,2}(NN )))
+Phase: generated91455
+Input: Token
+Rule: generated91455
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })+({ Token.category == NN })))):pttrn91455 --> :pttrn91455.extracted={}
+

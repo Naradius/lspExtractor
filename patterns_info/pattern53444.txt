@@ -1,0 +1,8 @@
+the sequential manner
+(NP (DT )(JJ )(NN ))
+Phase: generated53444
+Input: Token
+Rule: generated53444
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn53444 --> :pttrn53444.extracted={}
+

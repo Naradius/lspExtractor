@@ -1,0 +1,8 @@
+of cluster sizes that are measured usinghe number of members joined in each cluster for LEACH, FLCFP,EED and FBCFP for SCENARIO #1 and SCENARIO #2 are presented
+(PP (IN )(NP (NP (NN )(NNS ))(VP (VBP )(VP (VBN )(VP (VBD )(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated60013
+Input: Token
+Rule: generated60013
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn60013 --> :pttrn60013.extracted={}
+

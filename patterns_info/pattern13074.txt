@@ -1,0 +1,8 @@
+the imple-mentations of both the VNLayer and the virtualized versionof AODV
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NP (DT )(NNP ))(CC )(NP (DT )(JJ ){1,2}(NN )))))
+Phase: generated13074
+Input: Token
+Rule: generated13074
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))):pttrn13074 --> :pttrn13074.extracted={}
+

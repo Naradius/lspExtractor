@@ -1,0 +1,8 @@
+achieved the best results
+(VP (VBD )(NP (DT )(JJS )(NNS )))
+Phase: generated100560
+Input: Token
+Rule: generated100560
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS })))):pttrn100560 --> :pttrn100560.extracted={}
+

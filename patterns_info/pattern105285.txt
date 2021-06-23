@@ -1,0 +1,8 @@
+will appear in the September 1996 issueof the Journal of Visual Languages and Computing.2
+(VP (MD )(VP (VB )(PP (IN )(NP (DT )(NNP )(CD )))(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (JJ )(NNS )(CC )(NNS )))))))
+Phase: generated105285
+Input: Token
+Rule: generated105285
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CD })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))))))):pttrn105285 --> :pttrn105285.extracted={}
+

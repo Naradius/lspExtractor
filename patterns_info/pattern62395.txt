@@ -1,0 +1,8 @@
+the probabilityp j
+(NP (DT )(NN ){1,2})
+Phase: generated62395
+Input: Token
+Rule: generated62395
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn62395 --> :pttrn62395.extracted={}
+

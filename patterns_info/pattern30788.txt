@@ -1,0 +1,8 @@
+in the year2000, President of the IEEE Systems, Man and Cybernetics Spanish Chapter,Academic Director of the Institute of Digital Art and Animation of the Universityof Salamanca
+(PP (IN )(NP (NP (NP (DT )(NN ))(CC ))(CC )))
+Phase: generated30788
+Input: Token
+Rule: generated30788
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))({ Token.category == CC })))):pttrn30788 --> :pttrn30788.extracted={}
+

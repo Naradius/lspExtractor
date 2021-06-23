@@ -1,0 +1,8 @@
+to illustrate the variety of the representation schemes available.Cartia's ThemeScape
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(JJ )(NP (NNP )(POS ))(NNP ))))))
+Phase: generated77154
+Input: Token
+Rule: generated77154
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == JJ })(({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NNP }))))))):pttrn77154 --> :pttrn77154.extracted={}
+

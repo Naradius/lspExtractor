@@ -1,0 +1,8 @@
+HierarchicaMultihopTransmReliabilityLEACH-ERLEACH-TMSHRPFig. 7. Categorization of multihop data transm2.2
+(NP (NP (NNP )(CD )(NNP ))(PP (IN )(NP (JJ )(NNS )(NN ))))
+Phase: generated55459
+Input: Token
+Rule: generated55459
+(
+((({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))))):pttrn55459 --> :pttrn55459.extracted={}
+

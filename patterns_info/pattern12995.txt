@@ -1,0 +1,8 @@
+be fault tolerant even when individual PNsfail or leave the region as long as there remains at least one PNin the corresponding region.The key point about the VNLayer is that it resides betweenthe link layer and the Internet layer so that the VNs can beaddressed as if they were static server devices
+(VP (VB )(WHADVP (WRB )))
+Phase: generated12995
+Input: Token
+Rule: generated12995
+(
+(({ Token.category == VB })(({ Token.category == WRB })))):pttrn12995 --> :pttrn12995.extracted={}
+

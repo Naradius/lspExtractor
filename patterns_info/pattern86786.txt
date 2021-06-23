@@ -1,0 +1,8 @@
+termclusteringThe idea
+(NP (DT )(NN ))
+Phase: generated86786
+Input: Token
+Rule: generated86786
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn86786 --> :pttrn86786.extracted={}
+

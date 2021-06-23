@@ -1,0 +1,8 @@
+select the optimal sensor node to play therole of the cluster leader
+(VP (VB )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated11272
+Input: Token
+Rule: generated11272
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn11272 --> :pttrn11272.extracted={}
+

@@ -1,0 +1,8 @@
+the route with minimal hop count,which means the shortest path
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}))(VP (VBZ )(NP (DT )(JJS )(NN ))))
+Phase: generated10161
+Input: Token
+Rule: generated10161
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))))):pttrn10161 --> :pttrn10161.extracted={}
+

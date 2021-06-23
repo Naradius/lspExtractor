@@ -1,0 +1,8 @@
+onlAMPS wireless
+(ADJP (RB )(JJ ))
+Phase: generated47313
+Input: Token
+Rule: generated47313
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn47313 --> :pttrn47313.extracted={}
+

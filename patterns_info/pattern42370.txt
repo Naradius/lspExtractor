@@ -1,0 +1,8 @@
+thenodes, the routing, etc
+(NP (NP (DT )(NN ))(FW ))
+Phase: generated42370
+Input: Token
+Rule: generated42370
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == FW }))):pttrn42370 --> :pttrn42370.extracted={}
+

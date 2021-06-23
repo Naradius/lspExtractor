@@ -1,0 +1,8 @@
+have labels for nodes and vertexes.Fig
+(VP (VBP )(PP (IN )(NP (NNS )(CC )(NNS )(NN ))))
+Phase: generated113539
+Input: Token
+Rule: generated113539
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN }))))):pttrn113539 --> :pttrn113539.extracted={}
+

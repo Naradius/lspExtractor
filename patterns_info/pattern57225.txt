@@ -1,0 +1,8 @@
+arestationary HighBinary schemes with &without CDMA Single-hop Homogeneous ChainbasedHigh Random
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNP ){1,2}))))
+Phase: generated57225
+Input: Token
+Rule: generated57225
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })+))))):pttrn57225 --> :pttrn57225.extracted={}
+

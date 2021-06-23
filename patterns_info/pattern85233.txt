@@ -1,0 +1,8 @@
+are preprocessed and segmented into textual units
+(VP (VBP )(VP (CC )(VP (VBN )(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated85233
+Input: Token
+Rule: generated85233
+(
+(({ Token.category == VBP })(({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn85233 --> :pttrn85233.extracted={}
+

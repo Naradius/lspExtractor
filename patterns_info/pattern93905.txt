@@ -1,0 +1,8 @@
+12object properties
+(NP (JJ )(NNS ))
+Phase: generated93905
+Input: Token
+Rule: generated93905
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn93905 --> :pttrn93905.extracted={}
+

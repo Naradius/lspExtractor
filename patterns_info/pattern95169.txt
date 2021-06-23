@@ -1,0 +1,8 @@
+the triple paradigm
+(NP (DT )(JJ )(NN ))
+Phase: generated95169
+Input: Token
+Rule: generated95169
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn95169 --> :pttrn95169.extracted={}
+

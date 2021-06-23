@@ -1,0 +1,8 @@
+between the lists and the ontol-ogy classes
+(PP (IN )(NP (NP (DT )(NNS ))(CC )(NP (DT )(JJ )(NNS ))))
+Phase: generated93355
+Input: Token
+Rule: generated93355
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn93355 --> :pttrn93355.extracted={}
+

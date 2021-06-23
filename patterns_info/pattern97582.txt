@@ -1,0 +1,8 @@
+works on the basis of the most frequently used tag for a specific word in the annotated training data and also this information
+(VP (VP (VBZ )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(ADJP (RBS )(RB )(VBN ))(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(NNS ))))))))))(CC )(NP (DT )(NN )))
+Phase: generated97582
+Input: Token
+Rule: generated97582
+(
+((({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })(({ Token.category == RBS })({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))):pttrn97582 --> :pttrn97582.extracted={}
+

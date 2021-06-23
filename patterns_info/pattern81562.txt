@@ -1,0 +1,8 @@
+andthe labels or HTML tags that delimit strings to be extracted
+(PP (IN )(NP (CC )(NP (NP (JJ )(NNS ))(NP (NN )(NNS )))))
+Phase: generated81562
+Input: Token
+Rule: generated81562
+(
+(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == NN })({ Token.category == NNS })))))):pttrn81562 --> :pttrn81562.extracted={}
+

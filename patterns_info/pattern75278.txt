@@ -1,0 +1,8 @@
+forhead allegeries, energyless, jsut, neurothapy, tyoe,vomiting-more, weezynesscaner, posibility, tratmentErroneous phrases
+(NP (NP (RB )(NP (JJ )(NN )))(NP (JJ )(NNS )))
+Phase: generated75278
+Input: Token
+Rule: generated75278
+(
+((({ Token.category == RB })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == JJ })({ Token.category == NNS })))):pttrn75278 --> :pttrn75278.extracted={}
+

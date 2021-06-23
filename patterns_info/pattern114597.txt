@@ -1,0 +1,8 @@
+a common subPT
+(NP (DT )(JJ )(NN ))
+Phase: generated114597
+Input: Token
+Rule: generated114597
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn114597 --> :pttrn114597.extracted={}
+

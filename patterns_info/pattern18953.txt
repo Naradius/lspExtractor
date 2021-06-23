@@ -1,0 +1,8 @@
+detect the heatsignals and motion inside the room
+(VP (VB )(NP (NP (DT )(NNS )(CC )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated18953
+Input: Token
+Rule: generated18953
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn18953 --> :pttrn18953.extracted={}
+

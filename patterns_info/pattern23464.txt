@@ -1,0 +1,8 @@
+two player game scenario tomultiple interfering SD pairs
+(NP (CD )(NN ){1,2}(NNP )(NNS ))
+Phase: generated23464
+Input: Token
+Rule: generated23464
+(
+(({ Token.category == CD })({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NNS }))):pttrn23464 --> :pttrn23464.extracted={}
+

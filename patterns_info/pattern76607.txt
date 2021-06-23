@@ -1,0 +1,8 @@
+OutlookWith our web demonstrator, available at free-pal.appspot.com
+(PP (IN )(NP (NP (PRP$ )(NN ){1,2})(ADJP (JJ )(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated76607
+Input: Token
+Rule: generated76607
+(
+(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN })+)(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn76607 --> :pttrn76607.extracted={}
+

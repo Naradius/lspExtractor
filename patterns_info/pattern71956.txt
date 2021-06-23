@@ -1,0 +1,8 @@
+to retrieve partwhole relations
+(VP (TO )(VP (VB )(NP (NN )(NNS ))))
+Phase: generated71956
+Input: Token
+Rule: generated71956
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn71956 --> :pttrn71956.extracted={}
+

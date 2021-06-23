@@ -1,0 +1,8 @@
+to the node amount
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated18088
+Input: Token
+Rule: generated18088
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn18088 --> :pttrn18088.extracted={}
+

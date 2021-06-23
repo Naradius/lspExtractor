@@ -1,0 +1,8 @@
+the number of active nodes
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated51315
+Input: Token
+Rule: generated51315
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn51315 --> :pttrn51315.extracted={}
+

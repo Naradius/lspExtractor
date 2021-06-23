@@ -1,0 +1,8 @@
+218 K. Thangaramya, K. Kulothungan and R. Logambigai et al
+(NP (CC )(NP (NNP ){1,2}(NN )))
+Phase: generated59667
+Input: Token
+Rule: generated59667
+(
+(({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == NN })))):pttrn59667 --> :pttrn59667.extracted={}
+

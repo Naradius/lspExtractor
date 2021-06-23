@@ -1,0 +1,8 @@
+a Botnet
+(NP (DT )(NN ))
+Phase: generated37358
+Input: Token
+Rule: generated37358
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn37358 --> :pttrn37358.extracted={}
+

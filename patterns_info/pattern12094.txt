@@ -1,0 +1,8 @@
+healthcare, remote monitoring, object tracking, security and surveillance based applications etc. Theinexpensive nature of wireless sensors make it so popular and the major issue being faced by WN is theenergy efficiency
+(NP (NP (JJ )(NN ))(NP (NP (NN )(CC )(NN ))(VP (VBN )(VP (NN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated12094
+Input: Token
+Rule: generated12094
+(
+((({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == NN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn12094 --> :pttrn12094.extracted={}
+

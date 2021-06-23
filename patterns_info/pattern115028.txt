@@ -1,0 +1,8 @@
+took each product and found a posting somewhere on the web  about this product, requesting a particular information or addressing a particular user feature, need, or concern
+(VP (VP (VBD )(NP (DT )(NN )))(CC )(VP (VBD )(NP (NP (DT )(VBG )(RB ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))(VP (VP (VBG )(NP (DT )(JJ )(NN )))(CC )(VP (VBG )(NP (NP (DT )(JJ )(NN ){1,2})(CC ))))))
+Phase: generated115028
+Input: Token
+Rule: generated115028
+(
+((({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == VBG })({ Token.category == RB }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC }))))))):pttrn115028 --> :pttrn115028.extracted={}
+

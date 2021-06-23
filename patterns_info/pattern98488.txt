@@ -1,0 +1,8 @@
+divide into smaller units
+(VP (VBP )(PP (IN )(NP (JJR )(NNS ))))
+Phase: generated98488
+Input: Token
+Rule: generated98488
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NNS }))))):pttrn98488 --> :pttrn98488.extracted={}
+

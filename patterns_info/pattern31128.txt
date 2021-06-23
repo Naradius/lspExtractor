@@ -1,0 +1,8 @@
+the advantages
+(NP (DT )(NNS ))
+Phase: generated31128
+Input: Token
+Rule: generated31128
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn31128 --> :pttrn31128.extracted={}
+

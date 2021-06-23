@@ -1,0 +1,8 @@
+follow any rigid format
+(VP (VB )(NP (DT )(JJ )(NN )))
+Phase: generated81608
+Input: Token
+Rule: generated81608
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn81608 --> :pttrn81608.extracted={}
+

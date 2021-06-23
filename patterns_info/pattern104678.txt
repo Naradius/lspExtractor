@@ -1,0 +1,8 @@
+D)odwhile :empty dod :=  = top
+(PP (IN )(NP (NP (JJ ){1,2}(NN )(SYM ))(NN )))
+Phase: generated104678
+Input: Token
+Rule: generated104678
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NN })({ Token.category == SYM }))({ Token.category == NN })))):pttrn104678 --> :pttrn104678.extracted={}
+

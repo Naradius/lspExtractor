@@ -1,0 +1,8 @@
+by the ESP over the local hotspot
+(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated18862
+Input: Token
+Rule: generated18862
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn18862 --> :pttrn18862.extracted={}
+

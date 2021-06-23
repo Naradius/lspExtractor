@@ -1,0 +1,8 @@
+the 500th s
+(NP (DT )(JJ )(NNS ))
+Phase: generated11839
+Input: Token
+Rule: generated11839
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn11839 --> :pttrn11839.extracted={}
+

@@ -1,0 +1,8 @@
+of generated packets in the nodes
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated27969
+Input: Token
+Rule: generated27969
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn27969 --> :pttrn27969.extracted={}
+

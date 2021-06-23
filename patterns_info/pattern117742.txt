@@ -1,0 +1,8 @@
+attempt to systematically extract semantic features from paragraphs of text using a graph-based learning, assuming that adequate parsing trees for individual sentences are available
+(VP (VBP )(VP (TO )(VP (MD )(VP (VB )(NP (JJ )(NNS ))))))
+Phase: generated117742
+Input: Token
+Rule: generated117742
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn117742 --> :pttrn117742.extracted={}
+

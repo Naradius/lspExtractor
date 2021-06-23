@@ -1,0 +1,8 @@
+transmitting or lis-tening
+(NP (NN )(CC )(NN ))
+Phase: generated37666
+Input: Token
+Rule: generated37666
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn37666 --> :pttrn37666.extracted={}
+

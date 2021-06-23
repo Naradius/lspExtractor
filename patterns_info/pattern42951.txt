@@ -1,0 +1,8 @@
+the increase
+(NP (DT )(NN ))
+Phase: generated42951
+Input: Token
+Rule: generated42951
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn42951 --> :pttrn42951.extracted={}
+

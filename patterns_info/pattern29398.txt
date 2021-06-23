@@ -1,0 +1,8 @@
+graph and its layer
+(NP (CC )(NP (PRP$ )(NN )))
+Phase: generated29398
+Input: Token
+Rule: generated29398
+(
+(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn29398 --> :pttrn29398.extracted={}
+

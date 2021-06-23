@@ -1,0 +1,8 @@
+,which enhance the expressivity of the rules
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated94564
+Input: Token
+Rule: generated94564
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn94564 --> :pttrn94564.extracted={}
+

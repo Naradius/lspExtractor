@@ -1,0 +1,8 @@
+from a set of predefined transformation templates
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (VBN )(NN )(NNS )))))
+Phase: generated91292
+Input: Token
+Rule: generated91292
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS })))))):pttrn91292 --> :pttrn91292.extracted={}
+

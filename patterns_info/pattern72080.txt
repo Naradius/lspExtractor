@@ -1,0 +1,8 @@
+be used instead to indicate group membershiprelations
+(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (NN )(NNS ))))))
+Phase: generated72080
+Input: Token
+Rule: generated72080
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn72080 --> :pttrn72080.extracted={}
+

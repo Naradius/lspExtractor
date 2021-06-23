@@ -1,0 +1,8 @@
+Relevance improvement for the queries ranging from a few keywords to a whole sentence
+(NP (NP (NNP )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(VP (VBG )(PP (PP (IN )(NP (DT )(JJ )(NNS )))(PP (TO )(NP (DT )(JJ )(NN ))))))))
+Phase: generated115269
+Input: Token
+Rule: generated115269
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn115269 --> :pttrn115269.extracted={}
+

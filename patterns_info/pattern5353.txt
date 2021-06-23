@@ -1,0 +1,8 @@
+sustain network lifetime atleast twice the lifetime of the minimum hop routing protocol
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated5353
+Input: Token
+Rule: generated5353
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn5353 --> :pttrn5353.extracted={}
+

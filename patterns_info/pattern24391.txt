@@ -1,0 +1,8 @@
+significantly better than other schemes
+(ADJP (ADJP (RB )(JJR ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated24391
+Input: Token
+Rule: generated24391
+(
+((({ Token.category == RB })({ Token.category == JJR }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn24391 --> :pttrn24391.extracted={}
+

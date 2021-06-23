@@ -1,0 +1,8 @@
+IEEE 802.16 IEEE 802.15.3 IEEE
+(NP (NN )(CD )(NN )(CD )(NN ))
+Phase: generated50734
+Input: Token
+Rule: generated50734
+(
+(({ Token.category == NN })({ Token.category == CD })({ Token.category == NN })({ Token.category == CD })({ Token.category == NN }))):pttrn50734 --> :pttrn50734.extracted={}
+

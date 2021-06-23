@@ -1,0 +1,8 @@
+Consider all possible assignments
+(VP (VB )(NP (DT )(JJ )(NNS )))
+Phase: generated85787
+Input: Token
+Rule: generated85787
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn85787 --> :pttrn85787.extracted={}
+

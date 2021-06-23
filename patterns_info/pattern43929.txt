@@ -1,0 +1,8 @@
+selects randomly another sen-sor node
+(VP (VBZ )(NP (RB )(DT )(NN ){1,2}))
+Phase: generated43929
+Input: Token
+Rule: generated43929
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == DT })({ Token.category == NN })+))):pttrn43929 --> :pttrn43929.extracted={}
+

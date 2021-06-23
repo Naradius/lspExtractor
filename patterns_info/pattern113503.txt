@@ -1,0 +1,8 @@
+identify communicative actions and generalize them together with their subjects according to the specific patterns of Speech Act Theory
+(VP (VP (VB )(NP (JJ )(NNS )))(CC ))
+Phase: generated113503
+Input: Token
+Rule: generated113503
+(
+((({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC }))):pttrn113503 --> :pttrn113503.extracted={}
+

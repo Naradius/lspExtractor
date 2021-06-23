@@ -1,0 +1,8 @@
+in the sensor network andtraditional TCP/UDP protocols in the Internet orSatellite network.4.3
+(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (NNP )(NNS ))(PP (IN )(NP (DT )(NNP ){1,2}(NN )(CD ))))))
+Phase: generated48775
+Input: Token
+Rule: generated48775
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })({ Token.category == CD }))))))):pttrn48775 --> :pttrn48775.extracted={}
+

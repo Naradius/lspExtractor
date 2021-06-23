@@ -1,0 +1,8 @@
+faster convergence
+(NP (JJR )(NN ))
+Phase: generated11218
+Input: Token
+Rule: generated11218
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn11218 --> :pttrn11218.extracted={}
+

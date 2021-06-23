@@ -1,0 +1,8 @@
+of the 2nd ACM international workshop onModeling
+(PP (IN )(NP (DT )(NNP ){1,2}(JJ )(NN ){1,2}))
+Phase: generated24795
+Input: Token
+Rule: generated24795
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NN })+))):pttrn24795 --> :pttrn24795.extracted={}
+

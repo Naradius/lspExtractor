@@ -1,0 +1,8 @@
+investigate novelapproaches  for user utteranceclassification.This paper is organized as follows
+(VP (VB )(VP (VBZ )(VP (VBN )(IN ))))
+Phase: generated86284
+Input: Token
+Rule: generated86284
+(
+(({ Token.category == VB })(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == IN }))))):pttrn86284 --> :pttrn86284.extracted={}
+

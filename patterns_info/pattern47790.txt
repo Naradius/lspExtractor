@@ -1,0 +1,8 @@
+In other mobile and ad hoc networks
+(PP (IN )(NP (JJ ){1,2}(CC )(NN )(JJ )(NNS )))
+Phase: generated47790
+Input: Token
+Rule: generated47790
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == CC })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))):pttrn47790 --> :pttrn47790.extracted={}
+

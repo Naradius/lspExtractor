@@ -1,0 +1,8 @@
+medical blogs
+(NP (JJ )(NNS ))
+Phase: generated73760
+Input: Token
+Rule: generated73760
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn73760 --> :pttrn73760.extracted={}
+

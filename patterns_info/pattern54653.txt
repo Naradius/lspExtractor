@@ -1,0 +1,8 @@
+the network.Farooq et al
+(NP (DT )(NN )(NNP )(FW )(NN ))
+Phase: generated54653
+Input: Token
+Rule: generated54653
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == FW })({ Token.category == NN }))):pttrn54653 --> :pttrn54653.extracted={}
+

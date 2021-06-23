@@ -1,0 +1,8 @@
+the two generated solution vectors
+(NP (DT )(CD )(JJ )(NN )(NNS ))
+Phase: generated108640
+Input: Token
+Rule: generated108640
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn108640 --> :pttrn108640.extracted={}
+

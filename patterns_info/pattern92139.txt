@@ -1,0 +1,8 @@
+some other constants, suchas murder and d-vp
+(NP (NP (DT )(JJ )(NNS ))(NP (JJ )(NN )(CC )(NN )))
+Phase: generated92139
+Input: Token
+Rule: generated92139
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn92139 --> :pttrn92139.extracted={}
+

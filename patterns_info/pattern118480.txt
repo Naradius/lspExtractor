@@ -1,0 +1,8 @@
+communicative activity
+(NP (JJ )(NN ))
+Phase: generated118480
+Input: Token
+Rule: generated118480
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn118480 --> :pttrn118480.extracted={}
+

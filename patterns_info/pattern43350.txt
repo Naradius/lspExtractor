@@ -1,0 +1,8 @@
+a quite important delivery rate
+(NP (DT )(ADJP (RB )(JJ ))(NN ){1,2})
+Phase: generated43350
+Input: Token
+Rule: generated43350
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })+)):pttrn43350 --> :pttrn43350.extracted={}
+

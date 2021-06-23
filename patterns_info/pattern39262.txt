@@ -1,0 +1,8 @@
+both focus
+(NP (DT )(NN ))
+Phase: generated39262
+Input: Token
+Rule: generated39262
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn39262 --> :pttrn39262.extracted={}
+

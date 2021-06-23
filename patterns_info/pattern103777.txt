@@ -1,0 +1,8 @@
+a method which constructs a linearsearch plan for the right-hand side of every production
+(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated103777
+Input: Token
+Rule: generated103777
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn103777 --> :pttrn103777.extracted={}
+

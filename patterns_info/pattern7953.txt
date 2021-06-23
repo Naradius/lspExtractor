@@ -1,0 +1,8 @@
+to allow natural mapping to areal sensor network
+(VP (TO )(VP (VB )(NP (JJ )(NN ))))
+Phase: generated7953
+Input: Token
+Rule: generated7953
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn7953 --> :pttrn7953.extracted={}
+

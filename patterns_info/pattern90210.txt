@@ -1,0 +1,8 @@
+relies on the analogy with function composition
+(VP (VBZ )(PP (IN )(NP (DT )(NN ))))
+Phase: generated90210
+Input: Token
+Rule: generated90210
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn90210 --> :pttrn90210.extracted={}
+

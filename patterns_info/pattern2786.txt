@@ -1,0 +1,8 @@
+performed by a single element of the system under diverse circumstances without an external management
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))(PP (IN )(NP (JJ )(NNS )))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated2786
+Input: Token
+Rule: generated2786
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn2786 --> :pttrn2786.extracted={}
+

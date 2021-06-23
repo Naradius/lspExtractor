@@ -1,0 +1,8 @@
+use the hop count as the metric to describe the path length used in network with fixed radio range node
+(VP (VBP )(NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(JJ ))))
+Phase: generated17194
+Input: Token
+Rule: generated17194
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ }))))):pttrn17194 --> :pttrn17194.extracted={}
+

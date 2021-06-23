@@ -1,0 +1,8 @@
+an outgoing control flow edge from thedeleted nonterminal vertex
+(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated102702
+Input: Token
+Rule: generated102702
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn102702 --> :pttrn102702.extracted={}
+

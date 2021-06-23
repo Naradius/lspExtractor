@@ -1,0 +1,8 @@
+com-ined the features of a global adversary and a local adversary
+(NP (NP (JJ )(DT )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))(CC )(NP (DT )(JJ )(NN )))
+Phase: generated61946
+Input: Token
+Rule: generated61946
+(
+((({ Token.category == JJ })({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn61946 --> :pttrn61946.extracted={}
+

@@ -1,0 +1,8 @@
+limit the choice of a carrier frequency for suchtransceivers to the ultrahigh frequency range
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated47578
+Input: Token
+Rule: generated47578
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn47578 --> :pttrn47578.extracted={}
+

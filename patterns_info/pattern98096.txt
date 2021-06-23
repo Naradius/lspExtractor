@@ -1,0 +1,8 @@
+is a pair of consecutive letters
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated98096
+Input: Token
+Rule: generated98096
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn98096 --> :pttrn98096.extracted={}
+

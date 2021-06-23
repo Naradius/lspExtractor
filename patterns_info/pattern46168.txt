@@ -1,0 +1,8 @@
+temperature, humidity, vehicular movement, lightning condition, pressure, soil makeup, noise levels, the presence or absence of certain kinds of ob-jects, mechanical stress levels on attached objects, and the current characteristics such as speed, direc-tion, and size of an object.Sensor
+(NP (NP (JJ )(NN ))(NP (NN )(NNS ))(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (VBN )(NNS ))))(CC )(NP (NP (DT )(JJ )(NNS ))(PP (JJ )(IN ))))
+Phase: generated46168
+Input: Token
+Rule: generated46168
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NNS }))))({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn46168 --> :pttrn46168.extracted={}
+

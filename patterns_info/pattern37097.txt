@@ -1,0 +1,8 @@
+does not rely on third-party interme-diaries or trust institutions
+(VP (VBZ )(RB )(VP (VB )(PP (IN )(NP (JJ )(NNS )(CC )(NN )(NNS )))))
+Phase: generated37097
+Input: Token
+Rule: generated37097
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))))):pttrn37097 --> :pttrn37097.extracted={}
+

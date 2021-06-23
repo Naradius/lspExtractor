@@ -1,0 +1,8 @@
+the trans-mission delay
+(NP (DT )(NN ){1,2})
+Phase: generated52170
+Input: Token
+Rule: generated52170
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn52170 --> :pttrn52170.extracted={}
+

@@ -1,0 +1,8 @@
+been illustrated in Table 3 , in order to have a set ofomplementary evaluations, three levels of TI has been consideredo generate different traffic rates, i.e
+(VP (VBN )(VP (VBN )(PP (IN )(NP (NN )(CD )))))
+Phase: generated27439
+Input: Token
+Rule: generated27439
+(
+(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))):pttrn27439 --> :pttrn27439.extracted={}
+

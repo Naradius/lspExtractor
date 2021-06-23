@@ -1,0 +1,8 @@
+explicit phrase queries611Phrase processing Add phrase terms to the query just like other terms This really violates independence assumptions but a lot of people do it anyway Give phrase terms a different weight than query terms12Constructing Phrases using n-gram words Using bigrams, trigrams Start with all 2-word pairs that are not separated by punctuation, stop words, or special characters Only store those that occur more than x times Example:  New York; Apple Pie;713Constructing Phrases using term positions Store the term positions  Identify phrases at the query processing time Good flexibility for various window sizes May be too slow for large collections14Constructing Phrasesusing Part-of-Speech TaggingCan take advantage of NLP techniques: Using part-of-Speech tagging to identify key components of a sentence  store all noun phrases Republic of China, or store adjective followed by noun Red Carpet Problem: too slow
+(NP (JJ )(NN ){1,2}(VP (VBG )(NP (NNP )(NN )(NNS ))(PP (TO )(NP (DT )(NN )))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated96307
+Input: Token
+Rule: generated96307
+(
+(({ Token.category == JJ })({ Token.category == NN })+(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn96307 --> :pttrn96307.extracted={}
+

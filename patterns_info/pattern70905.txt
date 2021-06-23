@@ -1,0 +1,8 @@
+is a node with this word in this form
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated70905
+Input: Token
+Rule: generated70905
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn70905 --> :pttrn70905.extracted={}
+

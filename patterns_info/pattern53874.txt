@@ -1,0 +1,8 @@
+introducing differentiated services method for datatransmission
+(VP (VBG )(NP (JJ )(NNS )(NN )))
+Phase: generated53874
+Input: Token
+Rule: generated53874
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })))):pttrn53874 --> :pttrn53874.extracted={}
+

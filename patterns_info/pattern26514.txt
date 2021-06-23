@@ -1,0 +1,8 @@
+R p  isesponsible
+(NP (NN ){1,2}(NNS ))
+Phase: generated26514
+Input: Token
+Rule: generated26514
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn26514 --> :pttrn26514.extracted={}
+

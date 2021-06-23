@@ -1,0 +1,8 @@
+AODV protocols
+(NP (NNP )(NNS ))
+Phase: generated35549
+Input: Token
+Rule: generated35549
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn35549 --> :pttrn35549.extracted={}
+

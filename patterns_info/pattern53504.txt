@@ -1,0 +1,8 @@
+proposed an Energy EfficientCluster Formation Protocol  which provides energy effi-ciency and clustering to increase the lifetime of the network
+(VP (VBN )(NP (NP (DT )(NNP ){1,2})(VP (CC )(VP (VBG )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated53504
+Input: Token
+Rule: generated53504
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn53504 --> :pttrn53504.extracted={}
+

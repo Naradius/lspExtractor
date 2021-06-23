@@ -1,0 +1,8 @@
+removing common words  increase the F1 scores by 35%
+(VP (VBG )(NP (NP (JJ )(NNS ))(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (CD )(NN ))))))
+Phase: generated74812
+Input: Token
+Rule: generated74812
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))))):pttrn74812 --> :pttrn74812.extracted={}
+

@@ -1,0 +1,8 @@
+CSO 82%respectively
+(NP (NNP )(CD )(NN ))
+Phase: generated10324
+Input: Token
+Rule: generated10324
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN }))):pttrn10324 --> :pttrn10324.extracted={}
+

@@ -1,0 +1,8 @@
+How can we express a commonality between the expressions?
+(SBARQ (WHADVP (WRB ))(SQ (MD )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))))
+Phase: generated118681
+Input: Token
+Rule: generated118681
+(
+((({ Token.category == WRB }))(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn118681 --> :pttrn118681.extracted={}
+

@@ -1,0 +1,8 @@
+256    /Quality
+(NP (CD )(NN ))
+Phase: generated12699
+Input: Token
+Rule: generated12699
+(
+(({ Token.category == CD })({ Token.category == NN }))):pttrn12699 --> :pttrn12699.extracted={}
+

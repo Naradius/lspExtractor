@@ -1,0 +1,8 @@
+the complexity
+(NP (DT )(NN ))
+Phase: generated110112
+Input: Token
+Rule: generated110112
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn110112 --> :pttrn110112.extracted={}
+

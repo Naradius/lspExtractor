@@ -1,0 +1,8 @@
+the adaptive routing for such type of volatile network
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated107618
+Input: Token
+Rule: generated107618
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn107618 --> :pttrn107618.extracted={}
+

@@ -1,0 +1,8 @@
+of the other occurrence on the left hand side of the rule
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))))
+Phase: generated88801
+Input: Token
+Rule: generated88801
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn88801 --> :pttrn88801.extracted={}
+

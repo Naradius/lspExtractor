@@ -1,0 +1,8 @@
+written by considering the second-order derivative functions
+(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(JJ ){1,2}(NNS )))))
+Phase: generated108748
+Input: Token
+Rule: generated108748
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))))):pttrn108748 --> :pttrn108748.extracted={}
+

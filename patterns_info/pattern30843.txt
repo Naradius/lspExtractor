@@ -1,0 +1,8 @@
+37008 Salamanca
+(NP (CD )(NNP ))
+Phase: generated30843
+Input: Token
+Rule: generated30843
+(
+(({ Token.category == CD })({ Token.category == NNP }))):pttrn30843 --> :pttrn30843.extracted={}
+

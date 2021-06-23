@@ -1,0 +1,8 @@
+on the overheads at the device level
+(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated37327
+Input: Token
+Rule: generated37327
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn37327 --> :pttrn37327.extracted={}
+

@@ -1,0 +1,8 @@
+to calculatethe path cost and consequently the value of the rank
+(PP (PP (TO )(NP (DT )(NN ){1,2}))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated25364
+Input: Token
+Rule: generated25364
+(
+((({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn25364 --> :pttrn25364.extracted={}
+

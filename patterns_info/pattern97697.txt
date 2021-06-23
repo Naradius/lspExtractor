@@ -1,0 +1,8 @@
+refers to the fact that the tag which is the best for a given word is determined by the probability which occurs with the n-1 previous tags
+(VP (VBZ )(PP (TO )(NP (DT )(NN )(IN ))))
+Phase: generated97697
+Input: Token
+Rule: generated97697
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == IN }))))):pttrn97697 --> :pttrn97697.extracted={}
+

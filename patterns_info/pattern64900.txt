@@ -1,0 +1,8 @@
+the fourth composition group
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated64900
+Input: Token
+Rule: generated64900
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn64900 --> :pttrn64900.extracted={}
+

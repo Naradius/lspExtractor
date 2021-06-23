@@ -1,0 +1,8 @@
+in Figure 9, where all the remaining categories had 0questions associated and are not in the chart.Figure 9
+(PP (IN )(NP (NP (NN )(CD ))(WHADVP (WRB ))))
+Phase: generated100525
+Input: Token
+Rule: generated100525
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == WRB }))))):pttrn100525 --> :pttrn100525.extracted={}
+

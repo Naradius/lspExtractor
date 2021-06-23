@@ -1,0 +1,8 @@
+the non-linear methods22]
+(NP (DT )(JJ )(NN ))
+Phase: generated109929
+Input: Token
+Rule: generated109929
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn109929 --> :pttrn109929.extracted={}
+

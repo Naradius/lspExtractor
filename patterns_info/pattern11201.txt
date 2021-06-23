@@ -1,0 +1,8 @@
+scalability and manageabil-ity
+(NP (NN )(CC )(NN ))
+Phase: generated11201
+Input: Token
+Rule: generated11201
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn11201 --> :pttrn11201.extracted={}
+

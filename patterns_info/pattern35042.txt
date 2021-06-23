@@ -1,0 +1,8 @@
+of the data blockchain and the transactionblockchain
+(PP (IN )(NP (NP (DT )(NNS )(NN ))(CC )(NP (DT )(NN ))))
+Phase: generated35042
+Input: Token
+Rule: generated35042
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN }))))):pttrn35042 --> :pttrn35042.extracted={}
+

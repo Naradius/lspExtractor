@@ -1,0 +1,8 @@
+varying due to the network situation
+(VP (VBG )(PP (JJ )(PP (TO )(NP (DT )(NN ){1,2}))))
+Phase: generated2225
+Input: Token
+Rule: generated2225
+(
+(({ Token.category == VBG })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn2225 --> :pttrn2225.extracted={}
+

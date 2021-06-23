@@ -1,0 +1,8 @@
+was facilitated by the appearance of apublicly available annotated corpus
+(VP (VBD )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (ADJP (RB )(JJ ))(JJ )(NN )))))))
+Phase: generated95761
+Input: Token
+Rule: generated95761
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NN })))))))):pttrn95761 --> :pttrn95761.extracted={}
+

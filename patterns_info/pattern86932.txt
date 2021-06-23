@@ -1,0 +1,8 @@
+belonging to classesWe propose a novel feature transformation method basedon terms belonging to classes
+(VP (VBG )(VP (TO )(VP (VB )(VP (VB )(NP (DT )(NN ){1,2})))))
+Phase: generated86932
+Input: Token
+Rule: generated86932
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn86932 --> :pttrn86932.extracted={}
+

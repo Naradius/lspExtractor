@@ -1,0 +1,8 @@
+the smart con-tract participating in the supervision
+(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated35379
+Input: Token
+Rule: generated35379
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn35379 --> :pttrn35379.extracted={}
+

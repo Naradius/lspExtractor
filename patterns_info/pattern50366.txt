@@ -1,0 +1,8 @@
+to further improve energysavings.The
+(PP (TO )(NP (JJ )(NN ){1,2}))
+Phase: generated50366
+Input: Token
+Rule: generated50366
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn50366 --> :pttrn50366.extracted={}
+

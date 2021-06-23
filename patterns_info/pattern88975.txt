@@ -1,0 +1,8 @@
+are built into the configuration of the software,there
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated88975
+Input: Token
+Rule: generated88975
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn88975 --> :pttrn88975.extracted={}
+

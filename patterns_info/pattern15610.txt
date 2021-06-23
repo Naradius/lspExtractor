@@ -1,0 +1,8 @@
+their routing tables
+(NP (PRP$ )(NN )(NNS ))
+Phase: generated15610
+Input: Token
+Rule: generated15610
+(
+(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))):pttrn15610 --> :pttrn15610.extracted={}
+

@@ -1,0 +1,8 @@
+have been presented to be exploited in mobile appli-ations based on their characteristics
+(VP (VBP )(VP (VBN )(VP (VBN )(VP (TO )(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))(PP (VBN )(PP (IN )(NP (PRP$ )(NNS ))))))))))
+Phase: generated28160
+Input: Token
+Rule: generated28160
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))))))))):pttrn28160 --> :pttrn28160.extracted={}
+

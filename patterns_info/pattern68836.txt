@@ -1,0 +1,8 @@
+the mostadaptive factors
+(NP (DT )(JJ )(NNS ))
+Phase: generated68836
+Input: Token
+Rule: generated68836
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn68836 --> :pttrn68836.extracted={}
+

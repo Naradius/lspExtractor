@@ -1,0 +1,8 @@
+in cognitiveradio networks
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated24535
+Input: Token
+Rule: generated24535
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn24535 --> :pttrn24535.extracted={}
+

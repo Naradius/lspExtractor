@@ -1,0 +1,8 @@
+the average number hop count
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated43520
+Input: Token
+Rule: generated43520
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn43520 --> :pttrn43520.extracted={}
+

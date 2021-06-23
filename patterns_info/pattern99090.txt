@@ -1,0 +1,8 @@
+less expressive
+(ADJP (RBR )(JJ ))
+Phase: generated99090
+Input: Token
+Rule: generated99090
+(
+(({ Token.category == RBR })({ Token.category == JJ }))):pttrn99090 --> :pttrn99090.extracted={}
+

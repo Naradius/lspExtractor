@@ -1,0 +1,8 @@
+is well formulated at thelexical, syntactical and semantical levels and makes sense in the context of the sentence thatoriginate it
+(VP (VP (VBZ )(ADJP (RB )(VBN ))(PP (IN )(NP (ADJP (JJ ){1,2}(CC )(JJ ))(NNS ))))(CC ))
+Phase: generated100348
+Input: Token
+Rule: generated100348
+(
+((({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == VBN }))(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))))({ Token.category == CC }))):pttrn100348 --> :pttrn100348.extracted={}
+

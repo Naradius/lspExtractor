@@ -1,0 +1,8 @@
+a precision and recall of 76% and 72%, respec-tively, for lexico-semantic HIEL rule sets, JAPErules measure respective scores of 70% and 63%.With F1 scores of 74% and 66%
+(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (NP (NP (CD )(NN ))(CC )(NP (CD )(NN )))(PP (IN )(NP (NP (JJ )(NNP )(NN )(NNS ))(NP (NP (NP (JJ )(NN ))(JJ )(NNS ))(PP (IN )(NP (NP (CD )(NN ))(CC )(NP (NP (CD )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (CD )(NN ))(CC )(NP (CD )(NN )))))))))))))))
+Phase: generated94438
+Input: Token
+Rule: generated94438
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN })))))))))))))))):pttrn94438 --> :pttrn94438.extracted={}
+

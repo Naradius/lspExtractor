@@ -1,0 +1,8 @@
+intrusion detection sys-tems
+(NP (NN ){1,2}(NNS ))
+Phase: generated67942
+Input: Token
+Rule: generated67942
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn67942 --> :pttrn67942.extracted={}
+

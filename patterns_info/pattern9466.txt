@@ -1,0 +1,8 @@
+maintain many state variables
+(VP (VB )(NP (JJ )(NN )(NNS )))
+Phase: generated9466
+Input: Token
+Rule: generated9466
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn9466 --> :pttrn9466.extracted={}
+

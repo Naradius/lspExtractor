@@ -1,0 +1,8 @@
+50 iterations
+(NP (CD )(NNS ))
+Phase: generated75072
+Input: Token
+Rule: generated75072
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn75072 --> :pttrn75072.extracted={}
+

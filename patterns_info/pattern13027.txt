@@ -1,0 +1,8 @@
+to deal with the complexities ofmobility, location checking, leader election, packet buffering,and state replication
+(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NNS )(NN ))(NP (NN ){1,2}(CC )(NN ){1,2})))))
+Phase: generated13027
+Input: Token
+Rule: generated13027
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)))))):pttrn13027 --> :pttrn13027.extracted={}
+

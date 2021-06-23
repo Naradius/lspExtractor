@@ -1,0 +1,8 @@
+of PEGASIS and Energy EfficientPEGASIS-Based Protocol
+(PP (IN )(NP (NNP )(CC )(NNP )(JJ )(NNP )))
+Phase: generated54202
+Input: Token
+Rule: generated54202
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP })))):pttrn54202 --> :pttrn54202.extracted={}
+

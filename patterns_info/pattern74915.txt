@@ -1,0 +1,8 @@
+long-acting  ago-nists
+(NP (JJ )(NNS ))
+Phase: generated74915
+Input: Token
+Rule: generated74915
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn74915 --> :pttrn74915.extracted={}
+

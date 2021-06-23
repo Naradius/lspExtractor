@@ -1,0 +1,8 @@
+a simplelocation verification algorithm
+(NP (DT )(NN ){1,2})
+Phase: generated66183
+Input: Token
+Rule: generated66183
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn66183 --> :pttrn66183.extracted={}
+

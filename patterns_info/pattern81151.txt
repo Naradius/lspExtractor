@@ -1,0 +1,8 @@
+andsome form of semantic tagging
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated81151
+Input: Token
+Rule: generated81151
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn81151 --> :pttrn81151.extracted={}
+

@@ -1,0 +1,8 @@
+is a sub-set of the set of thicket phrases
+(VP (VBZ )(NP (NP (DT )(JJ ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS )))))))
+Phase: generated114005
+Input: Token
+Rule: generated114005
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))):pttrn114005 --> :pttrn114005.extracted={}
+

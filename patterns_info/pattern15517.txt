@@ -1,0 +1,8 @@
+to the characteristic features of node mobilityin VANETs
+(PP (TO )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NN ){1,2}(NNP )))))
+Phase: generated15517
+Input: Token
+Rule: generated15517
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNP })))))):pttrn15517 --> :pttrn15517.extracted={}
+

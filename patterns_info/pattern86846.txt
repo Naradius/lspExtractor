@@ -1,0 +1,8 @@
+one class for each term
+(NP (NP (CD )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated86846
+Input: Token
+Rule: generated86846
+(
+((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn86846 --> :pttrn86846.extracted={}
+

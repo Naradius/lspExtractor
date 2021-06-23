@@ -1,0 +1,8 @@
+atne or more sink nodes
+(NP (CC )(NP (JJR )(NN )(NNS )))
+Phase: generated25835
+Input: Token
+Rule: generated25835
+(
+(({ Token.category == CC })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS })))):pttrn25835 --> :pttrn25835.extracted={}
+

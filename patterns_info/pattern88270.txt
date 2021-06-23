@@ -1,0 +1,8 @@
+are browsed or edited in a tree viewrule display
+(VP (VBP )(ADJP (JJ )(CC )(VBN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated88270
+Input: Token
+Rule: generated88270
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == VBN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn88270 --> :pttrn88270.extracted={}
+

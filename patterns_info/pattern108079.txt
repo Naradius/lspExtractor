@@ -1,0 +1,8 @@
+jn n =   through intermediate nodes such as nf, nh, nb, ne, nd, ng, ny, na, and nc
+(VP (VBD )(PP (IN )(NP (NP (JJ )(NNS ))(PP (JJ )(IN )))))
+Phase: generated108079
+Input: Token
+Rule: generated108079
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))))):pttrn108079 --> :pttrn108079.extracted={}
+

@@ -1,0 +1,8 @@
+get the estimation of  for the rate of virtualiza-tion messages, which we will later confront with the corre-sponding expressions for the VaNetLayer   + 2    BP ++ 1T _Heartbeat
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))(VP (MD )(VP (VB )(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NNP )(NN )(CD )(NNP ){1,2})))))))))))
+Phase: generated13860
+Input: Token
+Rule: generated13860
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })+)))))))))))):pttrn13860 --> :pttrn13860.extracted={}
+

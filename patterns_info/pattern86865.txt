@@ -1,0 +1,8 @@
+to reduce the dictionary size we apply hierarchicalagglomerative clustering  with Euclideanmetric
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ){1,2})(VP (VBP )(NP (JJ )(NN ))))))
+Phase: generated86865
+Input: Token
+Rule: generated86865
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn86865 --> :pttrn86865.extracted={}
+

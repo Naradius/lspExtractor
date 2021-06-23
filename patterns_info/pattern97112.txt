@@ -1,0 +1,8 @@
+the training corpus
+(NP (DT )(NN )(JJ ))
+Phase: generated97112
+Input: Token
+Rule: generated97112
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ }))):pttrn97112 --> :pttrn97112.extracted={}
+

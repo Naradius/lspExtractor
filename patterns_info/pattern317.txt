@@ -1,0 +1,8 @@
+routing because of the dynamic nature of mobile nodes in the network
+(VP (VBG )(PP (IN ){1,2}(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated317
+Input: Token
+Rule: generated317
+(
+(({ Token.category == VBG })(({ Token.category == IN })+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn317 --> :pttrn317.extracted={}
+

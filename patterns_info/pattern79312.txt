@@ -1,0 +1,8 @@
+the Management Succession domain at each training level
+(NP (NP (DT )(NNP ){1,2}(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated79312
+Input: Token
+Rule: generated79312
+(
+((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn79312 --> :pttrn79312.extracted={}
+

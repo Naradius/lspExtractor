@@ -1,0 +1,8 @@
+the productrepresents an object property
+(NP (NP (DT )(NNS ))(NP (DT )(NN ){1,2}))
+Phase: generated92949
+Input: Token
+Rule: generated92949
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })+))):pttrn92949 --> :pttrn92949.extracted={}
+

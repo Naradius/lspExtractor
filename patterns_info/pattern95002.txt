@@ -1,0 +1,8 @@
+with associated inter-concept relations
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated95002
+Input: Token
+Rule: generated95002
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn95002 --> :pttrn95002.extracted={}
+

@@ -1,0 +1,8 @@
+the betterfitness value calculated so far.Step 3. Move the cats by the seeking mode process or thetracingmode process
+(NP (NP (DT )(NN ){1,2})(VP (VBN )(VP (VBD )(VP (VB )(NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(VBG )(NN ){1,2})(CC )(NP (DT )(NN ))))))))
+Phase: generated68642
+Input: Token
+Rule: generated68642
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == VBD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn68642 --> :pttrn68642.extracted={}
+

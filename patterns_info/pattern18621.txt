@@ -1,0 +1,8 @@
+the best heuristic
+(NP (DT )(JJS )(NN ))
+Phase: generated18621
+Input: Token
+Rule: generated18621
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))):pttrn18621 --> :pttrn18621.extracted={}
+

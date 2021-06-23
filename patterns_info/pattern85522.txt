@@ -1,0 +1,8 @@
+high-dimensional data in a lower-dimensional subspace
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated85522
+Input: Token
+Rule: generated85522
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn85522 --> :pttrn85522.extracted={}
+

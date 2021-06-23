@@ -1,0 +1,8 @@
+look through all results and range them due to cliques cardinality
+(VP (VP (VBP )(PP (IN )(NP (DT )(NNS ))))(CC )(VP (VBP )(PP (JJ )(PP (TO )(NP (NNS )(NN ))))))
+Phase: generated114645
+Input: Token
+Rule: generated114645
+(
+((({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == NNS })({ Token.category == NN }))))))):pttrn114645 --> :pttrn114645.extracted={}
+

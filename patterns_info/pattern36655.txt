@@ -1,0 +1,8 @@
+be understood as a distributedconsistency algorithm based on Byzantine fault tolerance
+(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NNP )(NN ){1,2})))))))
+Phase: generated36655
+Input: Token
+Rule: generated36655
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+)))))))):pttrn36655 --> :pttrn36655.extracted={}
+

@@ -1,0 +1,8 @@
+of this operator
+(PP (IN )(NP (DT )(NN )))
+Phase: generated64374
+Input: Token
+Rule: generated64374
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn64374 --> :pttrn64374.extracted={}
+

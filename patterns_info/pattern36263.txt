@@ -1,0 +1,8 @@
+realize resource and data transactionsin the transaction blockchain, and improve transaction efficiencyand privacy protection through improved algorithm based onpartial blind signature algorithm
+(VP (VP (VB )(NP (NP (NN )(CC )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))(CC )(VP (VB )(PP (IN )(NP (NP (VBN )(NN ))(VP (VBN )(NP (JJ ){1,2}(NN ){1,2}))))))
+Phase: generated36263
+Input: Token
+Rule: generated36263
+(
+((({ Token.category == VB })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == JJ })+({ Token.category == NN })+))))))):pttrn36263 --> :pttrn36263.extracted={}
+

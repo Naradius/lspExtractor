@@ -1,0 +1,8 @@
+of basic solutions X l X l
+(PP (IN )(NP (JJ )(NNS )(NNP )(JJ )(NNP )(NN )))
+Phase: generated1481
+Input: Token
+Rule: generated1481
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })))):pttrn1481 --> :pttrn1481.extracted={}
+

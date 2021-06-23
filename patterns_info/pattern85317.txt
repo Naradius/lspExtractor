@@ -1,0 +1,8 @@
+reduce the number of features in the feature space
+(VP (VB )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated85317
+Input: Token
+Rule: generated85317
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn85317 --> :pttrn85317.extracted={}
+

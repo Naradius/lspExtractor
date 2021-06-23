@@ -1,0 +1,8 @@
+should also carry thecorresponding velocities to all components
+(VP (MD )(VP (VB )(NP (DT )(NNS ))(PP (TO )(NP (DT )(NNS )))))
+Phase: generated69345
+Input: Token
+Rule: generated69345
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn69345 --> :pttrn69345.extracted={}
+

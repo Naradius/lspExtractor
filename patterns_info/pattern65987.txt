@@ -1,0 +1,8 @@
+the highest remaining resource
+(NP (DT )(JJS )(VBG )(NN ))
+Phase: generated65987
+Input: Token
+Rule: generated65987
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == VBG })({ Token.category == NN }))):pttrn65987 --> :pttrn65987.extracted={}
+

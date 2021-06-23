@@ -1,0 +1,8 @@
+Thisrepresents half of the diagonal terrain length
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated3386
+Input: Token
+Rule: generated3386
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn3386 --> :pttrn3386.extracted={}
+

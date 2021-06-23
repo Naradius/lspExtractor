@@ -1,0 +1,8 @@
+is an arithmetic or algebraic operator.doublequote
+(VP (VBZ )(NP (DT )(JJ )(CC )(JJ )(NN )))
+Phase: generated88232
+Input: Token
+Rule: generated88232
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })))):pttrn88232 --> :pttrn88232.extracted={}
+

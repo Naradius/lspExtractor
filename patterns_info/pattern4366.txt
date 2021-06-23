@@ -1,0 +1,8 @@
+the separation behavior
+(NP (DT )(NN ){1,2})
+Phase: generated4366
+Input: Token
+Rule: generated4366
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn4366 --> :pttrn4366.extracted={}
+

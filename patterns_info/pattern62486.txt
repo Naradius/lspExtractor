@@ -1,0 +1,8 @@
+various radii
+(NP (JJ )(NNS ))
+Phase: generated62486
+Input: Token
+Rule: generated62486
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn62486 --> :pttrn62486.extracted={}
+

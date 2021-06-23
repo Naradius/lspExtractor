@@ -1,0 +1,8 @@
+the absence
+(NP (DT )(NN ))
+Phase: generated16208
+Input: Token
+Rule: generated16208
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn16208 --> :pttrn16208.extracted={}
+

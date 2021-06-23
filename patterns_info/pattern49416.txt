@@ -1,0 +1,8 @@
+energy-efficient sensor networks
+(NP (JJ )(NN )(NNS ))
+Phase: generated49416
+Input: Token
+Rule: generated49416
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn49416 --> :pttrn49416.extracted={}
+

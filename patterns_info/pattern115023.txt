@@ -1,0 +1,8 @@
+addressing a particular user feature, need, or concern
+(VP (VBG )(NP (NP (DT )(JJ )(NN ){1,2})(CC )))
+Phase: generated115023
+Input: Token
+Rule: generated115023
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })))):pttrn115023 --> :pttrn115023.extracted={}
+

@@ -1,0 +1,8 @@
+Bee Routing   QoS routing MANETFBeeAdHoc   Secure routing MANETQoSBeeVanet   QoS-multicast routing VANETBee Life Algorithm  QoS-multicast routing VANETHybrid Bee Swarm Routing   Hybrid routing VANETMulticast Quality Of Service Swarm Bee Routing   QoS-multicast routing VANETBee Optimized Fuzzy Geographical Routing  Geographical routing VANETBeeSensor  scalable routingWSN Dynamic deployment WSNImproved version of Cluster based Wireless sensor network routings algorithm considering Quality of service   QoS routingWSNBee-Sensor-C  Scalable MultipathRoutingWSN130 17th INTERNATIONAL CONFERENCE ON MICRO/NANOTECHNOLOGIES AND ELECTRON DEVICES EDM 2016TABLE IIISIMULATION PARAMETERSParameter ValueSimulated area 1500 m x 1500 mMobility model Random waypoint UAV number 10, 20, 30, 40, 50Simulation runs 10Simulation duration 20 secNodes velocity 20, 40, 60, 80, 100 m/sCBRMAC layer protocol
+(NP (NP (NNP ){1,2}(NN )(NNP ){1,2}(NN )(NNP ){1,2}(NN ))(NP (NP (NNP ){1,2}(NN )(NNP ){1,2}(NN )(NNP ){1,2})(PP (IN )(NP (NNP ){1,2}(NN )(NNP ){1,2}(NN )(NNP )(JJ )(NN )(NNP )))))
+Phase: generated2407
+Input: Token
+Rule: generated2407
+(
+((({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN }))((({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })))))):pttrn2407 --> :pttrn2407.extracted={}
+

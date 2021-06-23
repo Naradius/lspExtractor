@@ -1,0 +1,8 @@
+a user-friendly for-mat
+(NP (DT )(JJ )(NN ))
+Phase: generated96101
+Input: Token
+Rule: generated96101
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn96101 --> :pttrn96101.extracted={}
+

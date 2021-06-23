@@ -1,0 +1,8 @@
+graph search problems with additive lexicographic goals
+(NP (NP (NN ){1,2}(NNS ))(PP (IN )(NP (JJ ){1,2}(NNS ))))
+Phase: generated116062
+Input: Token
+Rule: generated116062
+(
+((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn116062 --> :pttrn116062.extracted={}
+

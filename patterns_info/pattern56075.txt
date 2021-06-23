@@ -1,0 +1,8 @@
+forMinimum Cost Forwarding  protocol
+(NP (JJ )(NNP ){1,2}(NN ))
+Phase: generated56075
+Input: Token
+Rule: generated56075
+(
+(({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NN }))):pttrn56075 --> :pttrn56075.extracted={}
+

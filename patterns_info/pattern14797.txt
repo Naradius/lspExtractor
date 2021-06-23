@@ -1,0 +1,8 @@
+its own M_Heartbeat
+(NP (PRP$ )(JJ )(NN ))
+Phase: generated14797
+Input: Token
+Rule: generated14797
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))):pttrn14797 --> :pttrn14797.extracted={}
+

@@ -1,0 +1,8 @@
+be-coming more accurate and more robust, enabling their useon corpora of different domains, see Petrov and McDon-ald  for a detailed discussion
+(VP (VBG )(ADJP (ADJP (RBR )(JJ ))(CC )(ADJP (RBR )(JJ ))))
+Phase: generated77534
+Input: Token
+Rule: generated77534
+(
+(({ Token.category == VBG })((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == CC })(({ Token.category == RBR })({ Token.category == JJ }))))):pttrn77534 --> :pttrn77534.extracted={}
+

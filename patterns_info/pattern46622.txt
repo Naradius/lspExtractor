@@ -1,0 +1,8 @@
+tracking and detection
+(NP (NN )(CC )(NN ))
+Phase: generated46622
+Input: Token
+Rule: generated46622
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn46622 --> :pttrn46622.extracted={}
+

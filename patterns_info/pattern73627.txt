@@ -1,0 +1,8 @@
+of the association
+(PP (IN )(NP (DT )(NN )))
+Phase: generated73627
+Input: Token
+Rule: generated73627
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn73627 --> :pttrn73627.extracted={}
+

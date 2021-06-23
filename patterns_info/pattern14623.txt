@@ -1,0 +1,8 @@
+midway values
+(NP (NN )(NNS ))
+Phase: generated14623
+Input: Token
+Rule: generated14623
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn14623 --> :pttrn14623.extracted={}
+

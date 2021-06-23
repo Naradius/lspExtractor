@@ -1,0 +1,8 @@
+got into theLEADER state
+(VP (VBD )(PP (IN )(NP (DT )(NN ))))
+Phase: generated14778
+Input: Token
+Rule: generated14778
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn14778 --> :pttrn14778.extracted={}
+

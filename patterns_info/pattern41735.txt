@@ -1,0 +1,8 @@
+will update theprobability table according to equation :P = Pold + (1  Pold)  Pinit  cTrd2 with:Trd =L1i=1(1k
+(VP (MD )(VP (VB )(PP (VBG )(PP (TO )(NP (NP (NP (NNP )(SYM )(NNP ){1,2})(PRN (-LRB- )(NP (CD )(NNP ))(-RRB- ))(NNP )(NNS ))(PP (IN )(NP (JJ )(NN ))))))))
+Phase: generated41735
+Input: Token
+Rule: generated41735
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == TO })(((({ Token.category == NNP })({ Token.category == SYM })({ Token.category == NNP })+)(({ Token.category == -LRB- })(({ Token.category == CD })({ Token.category == NNP }))({ Token.category == -RRB- }))({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn41735 --> :pttrn41735.extracted={}
+

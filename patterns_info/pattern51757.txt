@@ -1,0 +1,8 @@
+applica-ble to a WSN with ultra-low power requirement and lowsensing activities
+(ADJP (JJ )(PP (TO )(NP (NP (DT )(NNP ))(PP (IN )(NP (NP (JJ )(NN ){1,2})(CC )(NP (JJ )(NNS )))))))
+Phase: generated51757
+Input: Token
+Rule: generated51757
+(
+(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn51757 --> :pttrn51757.extracted={}
+

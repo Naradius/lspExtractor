@@ -1,0 +1,8 @@
+about 200 very common words, 26 very common medical terms and theirderivatives , and words that do not904 Gupta S, et al
+(NP (NP (CD )(ADJP (RB )(JJ ))(NNS ))(NP (CD )(RB )(JJ ){1,2}(NNS )(CC )(NNS ))(CC ))
+Phase: generated74661
+Input: Token
+Rule: generated74661
+(
+((({ Token.category == CD })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == CD })({ Token.category == RB })({ Token.category == JJ })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))({ Token.category == CC }))):pttrn74661 --> :pttrn74661.extracted={}
+

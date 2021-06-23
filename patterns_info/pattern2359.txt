@@ -1,0 +1,8 @@
+used: byte and the last received byte
+(VP (VBN )(NP (CC )(NP (DT )(JJ )(VBN )(NN ))))
+Phase: generated2359
+Input: Token
+Rule: generated2359
+(
+(({ Token.category == VBN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN }))))):pttrn2359 --> :pttrn2359.extracted={}
+

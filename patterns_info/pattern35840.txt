@@ -1,0 +1,8 @@
+from the Henan agricultural university in 2001 andthe M.S. degrees and Ph.D. degree in China academy ofagricultural science in 2004 and 2007
+(PP (IN )(NP (NP (NNP )(NNS ))(CC )(NP (NP (NNP )(NN ))(PP (IN )(NP (NNP )(NN ))))))
+Phase: generated35840
+Input: Token
+Rule: generated35840
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))))):pttrn35840 --> :pttrn35840.extracted={}
+

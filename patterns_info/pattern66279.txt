@@ -1,0 +1,8 @@
+the optimal paths
+(NP (DT )(JJ )(NNS ))
+Phase: generated66279
+Input: Token
+Rule: generated66279
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn66279 --> :pttrn66279.extracted={}
+

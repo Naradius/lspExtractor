@@ -1,0 +1,8 @@
+in deployingsensor nodes
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated68927
+Input: Token
+Rule: generated68927
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn68927 --> :pttrn68927.extracted={}
+

@@ -1,0 +1,8 @@
+in two steps
+(PP (IN )(NP (CD )(NNS )))
+Phase: generated70651
+Input: Token
+Rule: generated70651
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))):pttrn70651 --> :pttrn70651.extracted={}
+

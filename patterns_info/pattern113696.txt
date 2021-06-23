@@ -1,0 +1,8 @@
+the rental income
+(NP (DT )(JJ )(NN ))
+Phase: generated113696
+Input: Token
+Rule: generated113696
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn113696 --> :pttrn113696.extracted={}
+

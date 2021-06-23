@@ -1,0 +1,8 @@
+at only 0.1 J
+(PP (IN )(NP (RB )(CD )(NNP )))
+Phase: generated8751
+Input: Token
+Rule: generated8751
+(
+(({ Token.category == IN })(({ Token.category == RB })({ Token.category == CD })({ Token.category == NNP })))):pttrn8751 --> :pttrn8751.extracted={}
+

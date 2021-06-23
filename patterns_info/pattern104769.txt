@@ -1,0 +1,8 @@
+be used to develop  syntax directed edi-tors for visual languages
+(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (NN )(JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated104769
+Input: Token
+Rule: generated104769
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn104769 --> :pttrn104769.extracted={}
+

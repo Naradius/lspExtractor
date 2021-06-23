@@ -1,0 +1,8 @@
+affect the overall task of the sensornetwork
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated46796
+Input: Token
+Rule: generated46796
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn46796 --> :pttrn46796.extracted={}
+

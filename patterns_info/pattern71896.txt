@@ -1,0 +1,8 @@
+of handc-rafted lexico-syntactic patterns
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated71896
+Input: Token
+Rule: generated71896
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn71896 --> :pttrn71896.extracted={}
+

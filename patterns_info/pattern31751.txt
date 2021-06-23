@@ -1,0 +1,8 @@
+the distributive IoT platform
+(NP (DT )(JJ )(NNP )(NN ))
+Phase: generated31751
+Input: Token
+Rule: generated31751
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))):pttrn31751 --> :pttrn31751.extracted={}
+

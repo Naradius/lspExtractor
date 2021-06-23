@@ -1,0 +1,8 @@
+size-limited packetsto be compliant with ZigBee
+(VP (VBD )(RB ))
+Phase: generated50595
+Input: Token
+Rule: generated50595
+(
+(({ Token.category == VBD })({ Token.category == RB }))):pttrn50595 --> :pttrn50595.extracted={}
+

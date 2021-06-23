@@ -1,0 +1,8 @@
+a sec-ond strategy called Forwarding strategy
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(NP (NNP )(NN ))))
+Phase: generated41506
+Input: Token
+Rule: generated41506
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn41506 --> :pttrn41506.extracted={}
+

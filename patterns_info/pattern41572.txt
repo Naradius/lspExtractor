@@ -1,0 +1,8 @@
+of the proposed protocol
+(PP (IN )(NP (DT )(VBN )(NN )))
+Phase: generated41572
+Input: Token
+Rule: generated41572
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))):pttrn41572 --> :pttrn41572.extracted={}
+

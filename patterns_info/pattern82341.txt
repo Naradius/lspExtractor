@@ -1,0 +1,8 @@
+the WHISK rule
+(NP (DT )(NN ){1,2})
+Phase: generated82341
+Input: Token
+Rule: generated82341
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn82341 --> :pttrn82341.extracted={}
+

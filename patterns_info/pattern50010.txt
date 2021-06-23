@@ -1,0 +1,8 @@
+run into coverage problems
+(VP (VB )(PP (IN )(NP (NN )(NNS ))))
+Phase: generated50010
+Input: Token
+Rule: generated50010
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn50010 --> :pttrn50010.extracted={}
+

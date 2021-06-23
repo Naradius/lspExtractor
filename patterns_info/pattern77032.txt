@@ -1,0 +1,8 @@
+a concept-based IF deduces patterns
+(NP (NP (DT )(JJ ))(PP (IN )(NP (VBG )(NNS ))))
+Phase: generated77032
+Input: Token
+Rule: generated77032
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS }))))):pttrn77032 --> :pttrn77032.extracted={}
+

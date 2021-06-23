@@ -1,0 +1,8 @@
+conduct regular emergency drills,discover the source of network security problems and systemvulnerabilities
+(NP (NP (NN )(JJ )(NN )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(NNS )(CC )(NNS ))))))
+Phase: generated34996
+Input: Token
+Rule: generated34996
+(
+((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))))):pttrn34996 --> :pttrn34996.extracted={}
+

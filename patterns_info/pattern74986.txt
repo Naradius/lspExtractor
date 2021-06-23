@@ -1,0 +1,8 @@
+the top most frequent phrasesextracted from the Diabetes forum in figure
+(NP (NP (DT )(JJ )(RBS )(JJ ))(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN )))))
+Phase: generated74986
+Input: Token
+Rule: generated74986
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == RBS })({ Token.category == JJ }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn74986 --> :pttrn74986.extracted={}
+

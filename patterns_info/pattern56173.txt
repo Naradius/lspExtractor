@@ -1,0 +1,8 @@
+have equal significance
+(VP (VBP )(NP (JJ )(NN )))
+Phase: generated56173
+Input: Token
+Rule: generated56173
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })))):pttrn56173 --> :pttrn56173.extracted={}
+

@@ -1,0 +1,8 @@
+not based uponthree important metrics as First Node Dies , HNA, and LastNode Dies
+(VP (RB )(VBN ))
+Phase: generated53958
+Input: Token
+Rule: generated53958
+(
+(({ Token.category == RB })({ Token.category == VBN }))):pttrn53958 --> :pttrn53958.extracted={}
+

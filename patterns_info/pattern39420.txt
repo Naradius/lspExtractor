@@ -1,0 +1,8 @@
+random neural networks
+(NP (JJ ){1,2}(NNS ))
+Phase: generated39420
+Input: Token
+Rule: generated39420
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn39420 --> :pttrn39420.extracted={}
+

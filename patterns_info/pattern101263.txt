@@ -1,0 +1,8 @@
+the PIDDAC Programfunds
+(NP (DT )(NNP ){1,2})
+Phase: generated101263
+Input: Token
+Rule: generated101263
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn101263 --> :pttrn101263.extracted={}
+

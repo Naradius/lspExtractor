@@ -1,0 +1,8 @@
+in our simulations.Fig
+(PP (IN )(NP (PRP$ )(NNS )(NN )))
+Phase: generated16587
+Input: Token
+Rule: generated16587
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS })({ Token.category == NN })))):pttrn16587 --> :pttrn16587.extracted={}
+

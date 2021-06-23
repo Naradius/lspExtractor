@@ -1,0 +1,8 @@
+is independent of the density ofIoT devices in the network
+(VP (VBZ )(ADJP (JJ )(PP (IN )(NP (DT )(NN ){1,2}(NNS ))))(PP (IN )(NP (DT )(NN ))))
+Phase: generated24246
+Input: Token
+Rule: generated24246
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn24246 --> :pttrn24246.extracted={}
+

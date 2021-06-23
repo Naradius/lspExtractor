@@ -1,0 +1,8 @@
+2.00333  /EncodeGrayImages true  /GrayImageFilter /DCTEncode  /AutoFilterGrayImages false  /GrayImageAutoFilterStrategy /JPEG  /GrayACSImageDict <<    /QFactor 0.76    /HSamples  /VSamples
+(NP (NP (CD )(NNS ))(NP (NP (JJ )(NN )(JJ )(NNS ))(NP (JJ )(NN )(NNP ){1,2}(CD )(NNS ){1,2})))
+Phase: generated85988
+Input: Token
+Rule: generated85988
+(
+((({ Token.category == CD })({ Token.category == NNS }))((({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNS })+)))):pttrn85988 --> :pttrn85988.extracted={}
+

@@ -1,0 +1,8 @@
+.doi.org/10.1016/j.comnet.2019.04.017http://refhub.elsevier.com/S0167-739X31272-5/sb24http://refhub.elsevier.com/S0167-739X31272-5/sb24http://refhub.elsevier.com/S0167-739X31272-5/sb24http://refhub.elsevier.com/S0167-739X31272-5/sb24http://refhub.elsevier.com/S0167-739X31272-5/sb24http://refhub.elsevier.com/S0167-739X31272-5/sb25http://refhub.elsevier.com/S0167-739X31272-5/sb25http://refhub.elsevier.com/S0167-739X31272-5/sb25http://refhub.elsevier.com/S0167-739X31272-5/sb26http://refhub.elsevier.com/S0167-739X31272-5/sb26http://refhub.elsevier.com/S0167-739X31272-5/sb26http://refhub.elsevier.com/S0167-739X31272-5/sb27http://refhub.elsevier.com/S0167-739X31272-5/sb27http://refhub.elsevier.com/S0167-739X31272-5/sb27http://refhub.elsevier.com/S0167-739X31272-5/sb27http://refhub.elsevier.com/S0167-739X31272-5/sb27http://refhub.elsevier.com/S0167-739X31272-5/sb28http://refhub.elsevier.com/S0167-739X31272-5/sb28http://refhub.elsevier.com/S0167-739X31272-5/sb28http://refhub.elsevier.com/S0167-739X31272-5/sb28http://refhub.elsevier.com/S0167-739X31272-5/sb28mailto:haiping@henau.edu.cnmailto:sunchang_xia@126.commailto:lyl_lingling@163.commailto
+(PP (IN )(NP (JJ ){1,2}(NN ){1,2}))
+Phase: generated35892
+Input: Token
+Rule: generated35892
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })+))):pttrn35892 --> :pttrn35892.extracted={}
+

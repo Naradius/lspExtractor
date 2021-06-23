@@ -1,0 +1,8 @@
+the metrics
+(NP (DT )(NNS ))
+Phase: generated54508
+Input: Token
+Rule: generated54508
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn54508 --> :pttrn54508.extracted={}
+

@@ -1,0 +1,8 @@
+UW/MS workshop
+(NP (NNP )(NN ))
+Phase: generated76808
+Input: Token
+Rule: generated76808
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn76808 --> :pttrn76808.extracted={}
+

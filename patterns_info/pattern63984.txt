@@ -1,0 +1,8 @@
+the resident maleis
+(NP (DT )(NN ){1,2})
+Phase: generated63984
+Input: Token
+Rule: generated63984
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn63984 --> :pttrn63984.extracted={}
+

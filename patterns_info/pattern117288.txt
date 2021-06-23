@@ -1,0 +1,8 @@
+to rely on the parse forest for the sentences this paragraph comprises
+(VP (TO )(VP (VB )(PP (IN )(NP (DT )(JJ )(NN )))(PP (IN )(NP (NP (DT )(NNS ))(NP (DT )(NN )(NNS ))))))
+Phase: generated117288
+Input: Token
+Rule: generated117288
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn117288 --> :pttrn117288.extracted={}
+

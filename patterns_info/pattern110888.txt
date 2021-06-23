@@ -1,0 +1,8 @@
+4 u  o  t  C  e  m  t
+(NP (NP (CD )(NN ))(PP (IN )(NP (JJ )(NNP )(NN ){1,2})))
+Phase: generated110888
+Input: Token
+Rule: generated110888
+(
+((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)))):pttrn110888 --> :pttrn110888.extracted={}
+

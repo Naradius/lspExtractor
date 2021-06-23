@@ -1,0 +1,8 @@
+escape from local optima.3
+(VP (VB )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated64778
+Input: Token
+Rule: generated64778
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn64778 --> :pttrn64778.extracted={}
+

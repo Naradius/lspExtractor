@@ -1,0 +1,8 @@
+in analysis . . . . . . . . . . . . . . . . . . . . .
+(PP (IN )(NP (NN )(NNP ){1,2}))
+Phase: generated87114
+Input: Token
+Rule: generated87114
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })+))):pttrn87114 --> :pttrn87114.extracted={}
+

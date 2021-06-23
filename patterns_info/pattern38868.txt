@@ -1,0 +1,8 @@
+of IoT applications
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated38868
+Input: Token
+Rule: generated38868
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn38868 --> :pttrn38868.extracted={}
+

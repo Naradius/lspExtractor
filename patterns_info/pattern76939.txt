@@ -1,0 +1,8 @@
+the gap between text mining and data mining
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(CC )(NNS )(NN ))))
+Phase: generated76939
+Input: Token
+Rule: generated76939
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN }))))):pttrn76939 --> :pttrn76939.extracted={}
+

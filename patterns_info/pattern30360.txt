@@ -1,0 +1,8 @@
+IoT net-work algorithms using heterogeneous input data
+(NP (NP (NNP )(NN )(NNS ))(VP (VBG )(NP (JJ )(NN )(NNS ))))
+Phase: generated30360
+Input: Token
+Rule: generated30360
+(
+((({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn30360 --> :pttrn30360.extracted={}
+

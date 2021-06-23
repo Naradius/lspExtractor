@@ -1,0 +1,8 @@
+July 2019
+(NP (NNP )(CD ))
+Phase: generated40368
+Input: Token
+Rule: generated40368
+(
+(({ Token.category == NNP })({ Token.category == CD }))):pttrn40368 --> :pttrn40368.extracted={}
+

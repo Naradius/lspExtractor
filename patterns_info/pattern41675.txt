@@ -1,0 +1,8 @@
+denoted by :Ak = j=1,j=kjjkTherefore
+(VP (VBN )(PP (IN )(NP (NNP )(SYM )(CD ))))
+Phase: generated41675
+Input: Token
+Rule: generated41675
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == SYM })({ Token.category == CD }))))):pttrn41675 --> :pttrn41675.extracted={}
+

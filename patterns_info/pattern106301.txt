@@ -1,0 +1,8 @@
+powerful discriminative multi-feature models such as Conditional Random Fields, Support Vector Machine, Maximum Entropy
+(NP (NP (JJ ){1,2}(NNS ))(PP (JJ )(IN )))
+Phase: generated106301
+Input: Token
+Rule: generated106301
+(
+((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn106301 --> :pttrn106301.extracted={}
+

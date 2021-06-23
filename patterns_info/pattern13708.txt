@@ -1,0 +1,8 @@
+the operation of the VNLayer
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated13708
+Input: Token
+Rule: generated13708
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn13708 --> :pttrn13708.extracted={}
+

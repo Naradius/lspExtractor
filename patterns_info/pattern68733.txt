@@ -1,0 +1,8 @@
+of the optimization process
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated68733
+Input: Token
+Rule: generated68733
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn68733 --> :pttrn68733.extracted={}
+

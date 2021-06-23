@@ -1,0 +1,8 @@
+are the training set
+(VP (VBP )(NP (DT )(NN ){1,2}))
+Phase: generated97666
+Input: Token
+Rule: generated97666
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+))):pttrn97666 --> :pttrn97666.extracted={}
+

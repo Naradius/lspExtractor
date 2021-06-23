@@ -1,0 +1,8 @@
+the Eu-ropean Telecommunications Standards Institute
+(NP (DT )(JJ )(NNP ){1,2})
+Phase: generated35054
+Input: Token
+Rule: generated35054
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)):pttrn35054 --> :pttrn35054.extracted={}
+

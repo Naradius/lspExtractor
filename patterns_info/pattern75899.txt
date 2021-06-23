@@ -1,0 +1,8 @@
+are currently witnessing three trends that point to in-creased potential for executing Relation Extraction on web scale text collections
+(VP (VBP )(VP (VBG )(NP (CD )(NNS ))(NP (DT )(NN ))(PP (IN )(VP (VBG )(PP (IN )(NP (NN ){1,2}(NNS )))))))
+Phase: generated75899
+Input: Token
+Rule: generated75899
+(
+(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))))))):pttrn75899 --> :pttrn75899.extracted={}
+

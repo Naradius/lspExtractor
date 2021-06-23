@@ -1,0 +1,8 @@
+employed this fixed number of agents toelect clusterheads
+(VP (VBD )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNS )(NN )(NNS )))))
+Phase: generated5418
+Input: Token
+Rule: generated5418
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS })))))):pttrn5418 --> :pttrn5418.extracted={}
+

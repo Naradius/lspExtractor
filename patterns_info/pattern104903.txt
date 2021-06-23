@@ -1,0 +1,8 @@
+have an indication on how to solvethis problem
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(WHADVP (WRB )))))
+Phase: generated104903
+Input: Token
+Rule: generated104903
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == WRB })))))):pttrn104903 --> :pttrn104903.extracted={}
+

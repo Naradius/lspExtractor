@@ -1,0 +1,8 @@
+a maximum clique
+(NP (DT )(NN ){1,2})
+Phase: generated114664
+Input: Token
+Rule: generated114664
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn114664 --> :pttrn114664.extracted={}
+

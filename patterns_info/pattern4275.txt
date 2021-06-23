@@ -1,0 +1,8 @@
+to theenvironment uncertainty or any node failure
+(PP (TO )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN ){1,2})))
+Phase: generated4275
+Input: Token
+Rule: generated4275
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn4275 --> :pttrn4275.extracted={}
+

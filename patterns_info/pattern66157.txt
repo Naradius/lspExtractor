@@ -1,0 +1,8 @@
+of trusted clusters with pre-distribution keys
+(PP (IN )(NP (NP (VBN )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated66157
+Input: Token
+Rule: generated66157
+(
+(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn66157 --> :pttrn66157.extracted={}
+

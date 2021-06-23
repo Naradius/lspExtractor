@@ -1,0 +1,8 @@
+has been an associate professor withComputer Science and Technology Department, HenanAgricultural University
+(VP (VBZ )(VP (VBN )(NP (DT )(JJ )(NN ))))
+Phase: generated35821
+Input: Token
+Rule: generated35821
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn35821 --> :pttrn35821.extracted={}
+

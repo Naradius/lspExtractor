@@ -1,0 +1,8 @@
+the two leaders
+(NP (DT )(CD )(NNS ))
+Phase: generated15319
+Input: Token
+Rule: generated15319
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))):pttrn15319 --> :pttrn15319.extracted={}
+

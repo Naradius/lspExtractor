@@ -1,0 +1,8 @@
+the literature
+(NP (DT )(NN ))
+Phase: generated40695
+Input: Token
+Rule: generated40695
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn40695 --> :pttrn40695.extracted={}
+

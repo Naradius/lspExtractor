@@ -1,0 +1,8 @@
+a significant impact
+(NP (DT )(JJ )(NN ))
+Phase: generated42889
+Input: Token
+Rule: generated42889
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn42889 --> :pttrn42889.extracted={}
+

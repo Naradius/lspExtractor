@@ -1,0 +1,8 @@
+in many current cluster-ing proposals
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated3310
+Input: Token
+Rule: generated3310
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn3310 --> :pttrn3310.extracted={}
+

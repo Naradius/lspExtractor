@@ -1,0 +1,8 @@
+are one editdistance away
+(VP (VBP )(NP (CD )(NN )))
+Phase: generated74190
+Input: Token
+Rule: generated74190
+(
+(({ Token.category == VBP })(({ Token.category == CD })({ Token.category == NN })))):pttrn74190 --> :pttrn74190.extracted={}
+

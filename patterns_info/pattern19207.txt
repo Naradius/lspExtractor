@@ -1,0 +1,8 @@
+the AppModules ontheir assigned Fog devices following the placement informationprovided by Module Mapping object and periodically manages theresources of Fog devices as shown in Fig. 11
+(NP (NP (DT )(NNP ))(PP (IN )(NP (NP (VBN )(NN )(NNS ))(PP (VBG )(NP (NP (DT )(NN ))(VP (VP (VBN )(PP (IN )(NP (NNP ){1,2}(NN ))))(CC )))))))
+Phase: generated19207
+Input: Token
+Rule: generated19207
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))({ Token.category == CC })))))))):pttrn19207 --> :pttrn19207.extracted={}
+

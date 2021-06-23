@@ -1,0 +1,8 @@
+an equivalence class.Class names
+(NP (DT )(NN ){1,2}(NNS ))
+Phase: generated82372
+Input: Token
+Rule: generated82372
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))):pttrn82372 --> :pttrn82372.extracted={}
+

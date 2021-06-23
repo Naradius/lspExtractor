@@ -1,0 +1,8 @@
+is a grammatical category, commonly including verbs, nouns, adjectives, adverbs, determiner, and so on
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (VBG )(NP (CC )(ADVP (RB )(IN ))))))
+Phase: generated97425
+Input: Token
+Rule: generated97425
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == CC })(({ Token.category == RB })({ Token.category == IN }))))))):pttrn97425 --> :pttrn97425.extracted={}
+

@@ -1,0 +1,8 @@
+change to UNKNOWN and start theirT_LeaderRequest respective timers
+(VP (CC )(VP (VB )(NP (DT )(JJ )(NNS ))))
+Phase: generated13552
+Input: Token
+Rule: generated13552
+(
+(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn13552 --> :pttrn13552.extracted={}
+

@@ -1,0 +1,8 @@
+the average path-loss factor
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated22516
+Input: Token
+Rule: generated22516
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn22516 --> :pttrn22516.extracted={}
+

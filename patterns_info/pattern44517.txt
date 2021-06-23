@@ -1,0 +1,8 @@
+a much larger number of nodes.The transmission power  and radio
+(NP (NP (DT )(ADJP (RB )(JJR ))(NN ))(PP (IN )(NP (DT )(NN ){1,2}(CC )(NN ))))
+Phase: generated44517
+Input: Token
+Rule: generated44517
+(
+((({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJR }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))):pttrn44517 --> :pttrn44517.extracted={}
+

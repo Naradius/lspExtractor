@@ -1,0 +1,8 @@
+planarized by GG or RNG algorithms to eliminate crosslink and potential routing loop
+(VP (VBN )(PP (IN )(NP (NNP )(CC )(NNP )(NNS )))(VP (TO )(VP (VB )(NP (CC )(NP (JJ )(NN ){1,2})))))
+Phase: generated17096
+Input: Token
+Rule: generated17096
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNS })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn17096 --> :pttrn17096.extracted={}
+

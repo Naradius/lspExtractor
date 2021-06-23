@@ -1,0 +1,8 @@
+slicing Final temperature with slicing22.98
+(VP (VBG )(NP (JJ )(NN )))
+Phase: generated30124
+Input: Token
+Rule: generated30124
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })))):pttrn30124 --> :pttrn30124.extracted={}
+

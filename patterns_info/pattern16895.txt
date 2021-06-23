@@ -1,0 +1,8 @@
+a questionof checking whether the exchange of additional messages canbe accomplished quickly enough and does not actually causeinconveniences such as excessive overhead or more abundantcollisions
+(NP (NP (DT )(NN ))(VP (VBG )(IN )))
+Phase: generated16895
+Input: Token
+Rule: generated16895
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })({ Token.category == IN })))):pttrn16895 --> :pttrn16895.extracted={}
+

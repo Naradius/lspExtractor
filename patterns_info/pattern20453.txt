@@ -1,0 +1,8 @@
+of an IoT smarthome environment that leverages a Fog-assisted Cloud computingenvironment, analyzing the performance of various QoS parame-ters within different operational contexts
+(PP (IN )(NP (NP (DT )(NNP )(NN ){1,2})(VP (VBZ )(NP (DT )(JJ )(NNP )(NN ))(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ){1,2})))(PP (IN )(NP (JJ ){1,2}(NNS )))))))
+Phase: generated20453
+Input: Token
+Rule: generated20453
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })+)))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))))):pttrn20453 --> :pttrn20453.extracted={}
+

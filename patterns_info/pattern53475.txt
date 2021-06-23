@@ -1,0 +1,8 @@
+the tree with the help ofant colony optimization
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated53475
+Input: Token
+Rule: generated53475
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn53475 --> :pttrn53475.extracted={}
+

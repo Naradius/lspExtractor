@@ -1,0 +1,8 @@
+:1627.Teodorovic D. Bee colony optimization
+(NP (JJ )(NNP ){1,2}(NN ){1,2})
+Phase: generated34134
+Input: Token
+Rule: generated34134
+(
+(({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NN })+)):pttrn34134 --> :pttrn34134.extracted={}
+

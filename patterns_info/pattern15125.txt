@@ -1,0 +1,8 @@
+should discard the state snapshotimmediately , keep it indefinitely , or keepit for the number of milliseconds returned as a positive number.The VaNetLayer takes action by itself when it has a statesnapshot in memory for a region that is empty
+(VP (MD )(VP (VP (VB )(NP (DT )(NN )))(CC )))
+Phase: generated15125
+Input: Token
+Rule: generated15125
+(
+(({ Token.category == MD })((({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC })))):pttrn15125 --> :pttrn15125.extracted={}
+

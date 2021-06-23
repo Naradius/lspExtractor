@@ -1,0 +1,8 @@
+in the artificial intelligenceresearch community for a large-scale commonsense knowledge-base.To
+(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated71540
+Input: Token
+Rule: generated71540
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn71540 --> :pttrn71540.extracted={}
+

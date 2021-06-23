@@ -1,0 +1,8 @@
+raises new challenges
+(VP (VBZ )(NP (JJ )(NNS )))
+Phase: generated51943
+Input: Token
+Rule: generated51943
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn51943 --> :pttrn51943.extracted={}
+

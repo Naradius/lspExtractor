@@ -1,0 +1,8 @@
+efficiencybased on improved leach in wireless sensor networks
+(VP (VBD )(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))))
+Phase: generated57793
+Input: Token
+Rule: generated57793
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn57793 --> :pttrn57793.extracted={}
+

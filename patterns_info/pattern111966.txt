@@ -1,0 +1,8 @@
+in theost significant changes in the signatures
+(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated111966
+Input: Token
+Rule: generated111966
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn111966 --> :pttrn111966.extracted={}
+

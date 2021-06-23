@@ -1,0 +1,8 @@
+can be further processed by an extensive set of graph algorithms
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))))))
+Phase: generated114803
+Input: Token
+Rule: generated114803
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn114803 --> :pttrn114803.extracted={}
+

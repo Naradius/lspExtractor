@@ -1,0 +1,8 @@
+tries to select the better detouring paths
+(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(JJR )(NN )(NNS )))))
+Phase: generated18494
+Input: Token
+Rule: generated18494
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS })))))):pttrn18494 --> :pttrn18494.extracted={}
+

@@ -1,0 +1,8 @@
+compared with the traditionalAODV algorithm and EEABR algorithm
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (NNP )(NN )))))
+Phase: generated33976
+Input: Token
+Rule: generated33976
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn33976 --> :pttrn33976.extracted={}
+

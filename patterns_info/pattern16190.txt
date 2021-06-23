@@ -1,0 +1,8 @@
+VN downtimes
+(NP (NNP )(NNS ))
+Phase: generated16190
+Input: Token
+Rule: generated16190
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn16190 --> :pttrn16190.extracted={}
+

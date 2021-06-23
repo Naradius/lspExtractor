@@ -1,0 +1,8 @@
+the beacon
+(NP (DT )(NN ))
+Phase: generated4595
+Input: Token
+Rule: generated4595
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn4595 --> :pttrn4595.extracted={}
+

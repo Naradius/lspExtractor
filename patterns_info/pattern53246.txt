@@ -1,0 +1,8 @@
+scalability, prolonged net-work lifetime, fault tolerance, and load balancing
+(NP (NP (VBN )(NN ){1,2})(CC ))
+Phase: generated53246
+Input: Token
+Rule: generated53246
+(
+((({ Token.category == VBN })({ Token.category == NN })+)({ Token.category == CC }))):pttrn53246 --> :pttrn53246.extracted={}
+

@@ -1,0 +1,8 @@
+of the emulation
+(PP (IN )(NP (DT )(NN )))
+Phase: generated111863
+Input: Token
+Rule: generated111863
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn111863 --> :pttrn111863.extracted={}
+

@@ -1,0 +1,8 @@
+the syntactic patterns de-scribed in the previous section
+(NP (NP (DT )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated73216
+Input: Token
+Rule: generated73216
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn73216 --> :pttrn73216.extracted={}
+

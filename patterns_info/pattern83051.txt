@@ -1,0 +1,8 @@
+covers a single tag with no error3.13Top-down
+(VP (VBZ )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated83051
+Input: Token
+Rule: generated83051
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn83051 --> :pttrn83051.extracted={}
+

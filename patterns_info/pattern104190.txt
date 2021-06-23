@@ -1,0 +1,8 @@
+the main loop of the bottom-up phase the next to be processed dotted rule is selected atrandom
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(NP (DT )(JJ )))))
+Phase: generated104190
+Input: Token
+Rule: generated104190
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == JJ })))))):pttrn104190 --> :pttrn104190.extracted={}
+

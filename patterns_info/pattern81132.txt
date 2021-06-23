@@ -1,0 +1,8 @@
+an IE system
+(NP (DT )(NN ){1,2})
+Phase: generated81132
+Input: Token
+Rule: generated81132
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn81132 --> :pttrn81132.extracted={}
+

@@ -1,0 +1,8 @@
+weutilize EPCSO to design a routing algorithm for provid-ing the balanced routing paths
+(VP (VB )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN )(NNS )))))))
+Phase: generated68346
+Input: Token
+Rule: generated68346
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn68346 --> :pttrn68346.extracted={}
+

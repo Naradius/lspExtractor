@@ -1,0 +1,8 @@
+the IoT network
+(NP (DT )(NNP )(NN ))
+Phase: generated29797
+Input: Token
+Rule: generated29797
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn29797 --> :pttrn29797.extracted={}
+

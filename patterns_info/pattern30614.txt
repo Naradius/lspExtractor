@@ -1,0 +1,8 @@
+a Full Professor
+(NP (DT )(JJ )(NNP ))
+Phase: generated30614
+Input: Token
+Rule: generated30614
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))):pttrn30614 --> :pttrn30614.extracted={}
+

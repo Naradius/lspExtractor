@@ -1,0 +1,8 @@
+atthe beginning of the lexical unit
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated106638
+Input: Token
+Rule: generated106638
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn106638 --> :pttrn106638.extracted={}
+

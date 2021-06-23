@@ -1,0 +1,8 @@
+The remainder of this article
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated10914
+Input: Token
+Rule: generated10914
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn10914 --> :pttrn10914.extracted={}
+

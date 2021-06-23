@@ -1,0 +1,8 @@
+in a D2D IoT network
+(PP (IN )(NP (DT )(NNP ){1,2}(NN )))
+Phase: generated24396
+Input: Token
+Rule: generated24396
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))):pttrn24396 --> :pttrn24396.extracted={}
+

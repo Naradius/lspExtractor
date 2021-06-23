@@ -1,0 +1,8 @@
+with the highest score
+(PP (IN )(NP (DT )(JJS )(NN )))
+Phase: generated90783
+Input: Token
+Rule: generated90783
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })))):pttrn90783 --> :pttrn90783.extracted={}
+

@@ -1,0 +1,8 @@
+are many potential distinctions we can draw leading to potentially large tag sets
+(VP (VBP )(NP (NP (JJ ){1,2}(NNS ))(VP (MD )(VP (VB )(VP (VBG )(PP (TO )(NP (ADJP (RB )(JJ ))(NN )(NNS ))))))))
+Phase: generated97449
+Input: Token
+Rule: generated97449
+(
+(({ Token.category == VBP })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn97449 --> :pttrn97449.extracted={}
+

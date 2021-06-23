@@ -1,0 +1,8 @@
+have shown that in fixed-node IoT infrastructures, OFs couldffect the power consumption by up to 80%, while their impactn reliability and E2E delay would be as high as 54% and 75%, re-pectively
+(VP (VBP )(VP (VBN )(IN )))
+Phase: generated28872
+Input: Token
+Rule: generated28872
+(
+(({ Token.category == VBP })(({ Token.category == VBN })({ Token.category == IN })))):pttrn28872 --> :pttrn28872.extracted={}
+

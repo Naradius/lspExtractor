@@ -1,0 +1,8 @@
+questions.Considering the evaluation of QG systems
+(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NNS )))))
+Phase: generated98749
+Input: Token
+Rule: generated98749
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))):pttrn98749 --> :pttrn98749.extracted={}
+

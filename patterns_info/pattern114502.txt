@@ -1,0 +1,8 @@
+the edge product
+(NP (DT )(NN ){1,2})
+Phase: generated114502
+Input: Token
+Rule: generated114502
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn114502 --> :pttrn114502.extracted={}
+

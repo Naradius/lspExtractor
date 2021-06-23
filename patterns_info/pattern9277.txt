@@ -1,0 +1,8 @@
+found to ensure a good distribution of clusterheads through a totally distributed approach
+(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(ADJP (RB )(VBN ))(NN ))))))
+Phase: generated9277
+Input: Token
+Rule: generated9277
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NN }))))))):pttrn9277 --> :pttrn9277.extracted={}
+

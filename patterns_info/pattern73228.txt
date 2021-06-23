@@ -1,0 +1,8 @@
+the snippets
+(NP (DT )(NNS ))
+Phase: generated73228
+Input: Token
+Rule: generated73228
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn73228 --> :pttrn73228.extracted={}
+

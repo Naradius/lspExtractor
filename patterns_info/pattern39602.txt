@@ -1,0 +1,8 @@
+two levels
+(NP (CD )(NNS ))
+Phase: generated39602
+Input: Token
+Rule: generated39602
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn39602 --> :pttrn39602.extracted={}
+

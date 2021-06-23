@@ -1,0 +1,8 @@
+Network and Computer Applications 148  102456Among the main communication requirements for heterogeneousDTN applications
+(NP (NP (NNP )(CC )(NNP ){1,2}(CD ))(PP (IN )(NP (NP (DT )(JJ )(NN )(NNS ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated41350
+Input: Token
+Rule: generated41350
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+({ Token.category == CD }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn41350 --> :pttrn41350.extracted={}
+

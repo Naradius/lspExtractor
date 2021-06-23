@@ -1,0 +1,8 @@
+at least half
+(NP (ADVP (IN )(JJS ))(NN ))
+Phase: generated35217
+Input: Token
+Rule: generated35217
+(
+((({ Token.category == IN })({ Token.category == JJS }))({ Token.category == NN }))):pttrn35217 --> :pttrn35217.extracted={}
+

@@ -1,0 +1,8 @@
+be received from the othernodes till the time expires
+(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NNS )))(PP (IN )(NP (DT )(NN )))))
+Phase: generated55150
+Input: Token
+Rule: generated55150
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn55150 --> :pttrn55150.extracted={}
+

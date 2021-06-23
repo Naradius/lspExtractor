@@ -1,0 +1,8 @@
+to explore different  treatments that people are using for a condi-tion
+(VP (TO )(VP (VB )(NP (JJ )(NNS ))))
+Phase: generated74993
+Input: Token
+Rule: generated74993
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn74993 --> :pttrn74993.extracted={}
+

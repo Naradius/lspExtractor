@@ -1,0 +1,8 @@
+eval-uated each MWU-aware tagger on the decomposedTEST corpus and computed the f-score, combiningprecision and recall12
+(VP (VP (VBD )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))(CC )(VP (VBD )(NP (NP (DT )(NN ))(NP (NN )(CC )(NN )))))
+Phase: generated105992
+Input: Token
+Rule: generated105992
+(
+((({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC })(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn105992 --> :pttrn105992.extracted={}
+

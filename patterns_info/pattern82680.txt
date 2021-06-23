@@ -1,0 +1,8 @@
+*  * '@Passive' *F 'named' * fPP
+(NP (NP (JJ )(SYM )(JJ )('' )(NN )(CC )(POS ))(JJ )(NNS ))
+Phase: generated82680
+Input: Token
+Rule: generated82680
+(
+((({ Token.category == JJ })({ Token.category == SYM })({ Token.category == JJ })({ Token.category == '' })({ Token.category == NN })({ Token.category == CC })({ Token.category == POS }))({ Token.category == JJ })({ Token.category == NNS }))):pttrn82680 --> :pttrn82680.extracted={}
+

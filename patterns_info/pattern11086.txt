@@ -1,0 +1,8 @@
+a trust evaluation modelby DS theory
+(NP (DT )(NN ){1,2}(NNP )(NN ))
+Phase: generated11086
+Input: Token
+Rule: generated11086
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NN }))):pttrn11086 --> :pttrn11086.extracted={}
+

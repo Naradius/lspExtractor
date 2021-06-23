@@ -1,0 +1,8 @@
+different order
+(NP (JJ )(NN ))
+Phase: generated71196
+Input: Token
+Rule: generated71196
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn71196 --> :pttrn71196.extracted={}
+

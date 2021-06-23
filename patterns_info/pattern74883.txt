@@ -1,0 +1,8 @@
+the fact that, unlike in well-formed text, abbreviations inPAT tend to lack identifying structure such as capitalization andFigure 1 Examples of how patterns match to sentences
+(NP (DT )(NN )(IN ))
+Phase: generated74883
+Input: Token
+Rule: generated74883
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == IN }))):pttrn74883 --> :pttrn74883.extracted={}
+

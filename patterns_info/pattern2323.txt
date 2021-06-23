@@ -1,0 +1,8 @@
+for standard compilers to specialized programming languages
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (TO )(NP (JJ )(NN )(NNS )))))
+Phase: generated2323
+Input: Token
+Rule: generated2323
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn2323 --> :pttrn2323.extracted={}
+

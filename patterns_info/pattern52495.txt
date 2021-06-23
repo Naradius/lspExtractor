@@ -1,0 +1,8 @@
+the flexibility of the obtained trade-off
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(NN ))))
+Phase: generated52495
+Input: Token
+Rule: generated52495
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))):pttrn52495 --> :pttrn52495.extracted={}
+

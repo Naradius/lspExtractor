@@ -1,0 +1,8 @@
+The violenceSoldier Obey
+(NP (DT )(NN )(NNP ))
+Phase: generated73191
+Input: Token
+Rule: generated73191
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))):pttrn73191 --> :pttrn73191.extracted={}
+

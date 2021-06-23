@@ -1,0 +1,8 @@
+as a text classification problem based on abag-of-words model
+(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NNS )(NN ))))))
+Phase: generated86232
+Input: Token
+Rule: generated86232
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))))):pttrn86232 --> :pttrn86232.extracted={}
+

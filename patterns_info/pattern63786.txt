@@ -1,0 +1,8 @@
+Lion's Algorithm
+(NP (NP (NNP )(POS ))(NNP ))
+Phase: generated63786
+Input: Token
+Rule: generated63786
+(
+((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NNP }))):pttrn63786 --> :pttrn63786.extracted={}
+

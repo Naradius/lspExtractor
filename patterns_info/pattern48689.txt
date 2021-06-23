@@ -1,0 +1,8 @@
+the Internet or Sat-ellite
+(NP (NP (DT )(NNP ))(CC ))
+Phase: generated48689
+Input: Token
+Rule: generated48689
+(
+((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC }))):pttrn48689 --> :pttrn48689.extracted={}
+

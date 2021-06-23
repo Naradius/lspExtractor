@@ -1,0 +1,8 @@
+InternationalJournal of Information Technology, Communication and Convergence 2011;1:13045.Kumar GSanthosh, Vinu Paul MV, Poulose Jacob K. Mobility metric based LEACH-mobile protocol, ADCOM-2008.
+(NP (NP (NNP )(CC )(NNP ){1,2})(NP (NNP ){1,2}(JJ )(VBN )(NNP )(NN ))('' ))
+Phase: generated57853
+Input: Token
+Rule: generated57853
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == '' }))):pttrn57853 --> :pttrn57853.extracted={}
+

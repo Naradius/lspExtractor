@@ -1,0 +1,8 @@
+the complex NP optimizing tasks
+(NP (DT )(JJ )(NNP )(JJ )(NNS ))
+Phase: generated33408
+Input: Token
+Rule: generated33408
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))):pttrn33408 --> :pttrn33408.extracted={}
+

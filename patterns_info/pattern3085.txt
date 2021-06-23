@@ -1,0 +1,8 @@
+ensure safe separation between the agents andcoverage efficiency while enforcing a level of cohesion thatmaintains a level of connectivity between the mobile agents.These nodes
+(VP (VB )(IN ))
+Phase: generated3085
+Input: Token
+Rule: generated3085
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn3085 --> :pttrn3085.extracted={}
+

@@ -1,0 +1,8 @@
+thefollowing term in a rule
+(NP (NP (VBG )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated79173
+Input: Token
+Rule: generated79173
+(
+((({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn79173 --> :pttrn79173.extracted={}
+

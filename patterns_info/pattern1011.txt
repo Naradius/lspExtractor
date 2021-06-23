@@ -1,0 +1,8 @@
+use a string as a unique identifier for each node
+(VP (VBP )(NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated1011
+Input: Token
+Rule: generated1011
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn1011 --> :pttrn1011.extracted={}
+

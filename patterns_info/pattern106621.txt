@@ -1,0 +1,8 @@
+the form X+B or X+I
+(NP (NP (DT )(NN )(NNP ))(CC ))
+Phase: generated106621
+Input: Token
+Rule: generated106621
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))({ Token.category == CC }))):pttrn106621 --> :pttrn106621.extracted={}
+

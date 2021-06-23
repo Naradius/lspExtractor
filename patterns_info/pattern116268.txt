@@ -1,0 +1,8 @@
+have learned the best matches for decomposed questions relying on user selections
+(VP (VBP )(VP (VBN )(NP (DT )(JJS )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(PP (IN )(NP (NN )(NNS ))))))))
+Phase: generated116268
+Input: Token
+Rule: generated116268
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn116268 --> :pttrn116268.extracted={}
+

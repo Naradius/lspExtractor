@@ -1,0 +1,8 @@
+the network performance of ad-hoc on-demand routing40]
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ ){1,2}(NN ))))
+Phase: generated65896
+Input: Token
+Rule: generated65896
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))):pttrn65896 --> :pttrn65896.extracted={}
+

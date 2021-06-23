@@ -1,0 +1,8 @@
+IoT information sharing se-curity mechanism
+(NP (NNP )(NN ){1,2})
+Phase: generated34309
+Input: Token
+Rule: generated34309
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn34309 --> :pttrn34309.extracted={}
+

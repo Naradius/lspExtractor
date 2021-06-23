@@ -1,0 +1,8 @@
+preserving its LRD characteristic
+(VP (VBG )(NP (PRP$ )(NNP )(NN )))
+Phase: generated112167
+Input: Token
+Rule: generated112167
+(
+(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NNP })({ Token.category == NN })))):pttrn112167 --> :pttrn112167.extracted={}
+

@@ -1,0 +1,8 @@
+of intelligent machine learning tech
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated60400
+Input: Token
+Rule: generated60400
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn60400 --> :pttrn60400.extracted={}
+

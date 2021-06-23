@@ -1,0 +1,8 @@
+calculated oncefor each word from the dictionary
+(VP (VBN )(PP (IN )(NP (DT )(NN ))){1,2})
+Phase: generated86473
+Input: Token
+Rule: generated86473
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))+)):pttrn86473 --> :pttrn86473.extracted={}
+

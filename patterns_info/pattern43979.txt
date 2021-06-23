@@ -1,0 +1,8 @@
+in Step 1 of Fig. 6
+(PP (IN )(NP (NP (NNP )(CD ))(PP (IN )(NP (NNP ){1,2}(CD )))))
+Phase: generated43979
+Input: Token
+Rule: generated43979
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })))))):pttrn43979 --> :pttrn43979.extracted={}
+

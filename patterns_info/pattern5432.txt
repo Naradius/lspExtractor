@@ -1,0 +1,8 @@
+a fully distributed way
+(NP (DT )(ADJP (RB )(VBN ))(NN ))
+Phase: generated5432
+Input: Token
+Rule: generated5432
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NN }))):pttrn5432 --> :pttrn5432.extracted={}
+

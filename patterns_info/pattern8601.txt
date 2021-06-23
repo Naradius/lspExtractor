@@ -1,0 +1,8 @@
+do not ultimatelybecome CHs
+(VP (VBP )(RB ))
+Phase: generated8601
+Input: Token
+Rule: generated8601
+(
+(({ Token.category == VBP })({ Token.category == RB }))):pttrn8601 --> :pttrn8601.extracted={}
+

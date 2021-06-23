@@ -1,0 +1,8 @@
+some other Reduces index size
+(NP (DT )(JJ )(NNP )(NN ){1,2})
+Phase: generated96385
+Input: Token
+Rule: generated96385
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)):pttrn96385 --> :pttrn96385.extracted={}
+

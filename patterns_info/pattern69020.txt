@@ -1,0 +1,8 @@
+higher density in the inner layer sectors.Furthermore, the possibility of network paralyzing caused bydisabled internal nodes is reduced
+(NP (NP (JJR )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(NNS ))))
+Phase: generated69020
+Input: Token
+Rule: generated69020
+(
+((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn69020 --> :pttrn69020.extracted={}
+

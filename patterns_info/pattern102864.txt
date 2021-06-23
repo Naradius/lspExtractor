@@ -1,0 +1,8 @@
+assume that a single production with wildcards is replaced by anappropriate set of productions without wildcards
+(VP (VB )(IN ))
+Phase: generated102864
+Input: Token
+Rule: generated102864
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn102864 --> :pttrn102864.extracted={}
+

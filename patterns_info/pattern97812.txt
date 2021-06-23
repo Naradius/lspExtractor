@@ -1,0 +1,8 @@
+the n-gram approach
+(NP (DT )(NN ){1,2})
+Phase: generated97812
+Input: Token
+Rule: generated97812
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn97812 --> :pttrn97812.extracted={}
+

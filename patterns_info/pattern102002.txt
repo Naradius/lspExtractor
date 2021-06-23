@@ -1,0 +1,8 @@
+free to insert, delete, change, or move any graphical object without anyinterference by the syntax directed nature of the editor
+(ADJP (JJ )(VP (TO )(VP (CC )(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated102002
+Input: Token
+Rule: generated102002
+(
+(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn102002 --> :pttrn102002.extracted={}
+

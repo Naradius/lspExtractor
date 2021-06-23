@@ -1,0 +1,8 @@
+HMI in-terfaces
+(NP (NNP )(NNS ))
+Phase: generated111321
+Input: Token
+Rule: generated111321
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn111321 --> :pttrn111321.extracted={}
+

@@ -1,0 +1,8 @@
+the most well-known OFs
+(NP (DT )(ADJP (RBS )(JJ ))(NNS ))
+Phase: generated25371
+Input: Token
+Rule: generated25371
+(
+(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn25371 --> :pttrn25371.extracted={}
+

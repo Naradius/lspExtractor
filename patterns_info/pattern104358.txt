@@ -1,0 +1,8 @@
+to the top-down phase
+(PP (TO )(NP (DT )(JJ )(NN )))
+Phase: generated104358
+Input: Token
+Rule: generated104358
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn104358 --> :pttrn104358.extracted={}
+

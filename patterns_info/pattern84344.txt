@@ -1,0 +1,8 @@
+the World Wide Web
+(NP (DT )(NNP ){1,2})
+Phase: generated84344
+Input: Token
+Rule: generated84344
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn84344 --> :pttrn84344.extracted={}
+

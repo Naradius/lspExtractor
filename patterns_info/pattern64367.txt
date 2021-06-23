@@ -1,0 +1,8 @@
+isadaptive in every iteration
+(VP (VBZ )(PP (IN )(NP (DT )(NN ))))
+Phase: generated64367
+Input: Token
+Rule: generated64367
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn64367 --> :pttrn64367.extracted={}
+

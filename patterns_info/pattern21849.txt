@@ -1,0 +1,8 @@
+pathswith higher spectrum availability
+(NP (DT )(JJR )(NN ){1,2})
+Phase: generated21849
+Input: Token
+Rule: generated21849
+(
+(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })+)):pttrn21849 --> :pttrn21849.extracted={}
+

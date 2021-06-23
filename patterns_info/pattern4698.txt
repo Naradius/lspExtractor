@@ -1,0 +1,8 @@
+is operationally the same
+(VP (VBZ )(NP (DT )(JJ )))
+Phase: generated4698
+Input: Token
+Rule: generated4698
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })))):pttrn4698 --> :pttrn4698.extracted={}
+

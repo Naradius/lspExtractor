@@ -1,0 +1,8 @@
+of production instances which together generate the given input graph .Definition 3.5 A production instance of a production p :=  is a tuple pi := such that h
+(PP (IN )(NP (NP (NN )(NNS ))(VP (VBP )(NP (DT )(VBN )(NN ){1,2}))))
+Phase: generated103209
+Input: Token
+Rule: generated103209
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+))))):pttrn103209 --> :pttrn103209.extracted={}
+

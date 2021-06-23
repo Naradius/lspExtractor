@@ -1,0 +1,8 @@
+the Statue
+(NP (DT )(NNP ))
+Phase: generated98985
+Input: Token
+Rule: generated98985
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn98985 --> :pttrn98985.extracted={}
+

@@ -1,0 +1,8 @@
+The parametersused in the simulation
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated63141
+Input: Token
+Rule: generated63141
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn63141 --> :pttrn63141.extracted={}
+

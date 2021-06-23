@@ -1,0 +1,8 @@
+several parameters based upon which LEACH proto-col
+(NP (NP (JJ )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN )))))
+Phase: generated58518
+Input: Token
+Rule: generated58518
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn58518 --> :pttrn58518.extracted={}
+

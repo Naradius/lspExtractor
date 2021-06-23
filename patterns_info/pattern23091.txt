@@ -1,0 +1,8 @@
+as the sufficient conditionfor
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated23091
+Input: Token
+Rule: generated23091
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn23091 --> :pttrn23091.extracted={}
+

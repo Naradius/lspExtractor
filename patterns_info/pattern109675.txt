@@ -1,0 +1,8 @@
+summarize the latest research on the related fields
+(VP (VB )(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )))))
+Phase: generated109675
+Input: Token
+Rule: generated109675
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn109675 --> :pttrn109675.extracted={}
+

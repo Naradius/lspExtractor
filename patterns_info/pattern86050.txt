@@ -1,0 +1,8 @@
+re-duces the dimensionality radically with appropriate classi-fication results and can be useful for real-time classificationsystems
+(VP (VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))(CC )(VP (MD )(VP (VB )(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated86050
+Input: Token
+Rule: generated86050
+(
+((({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn86050 --> :pttrn86050.extracted={}
+

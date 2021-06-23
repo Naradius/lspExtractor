@@ -1,0 +1,8 @@
+at least twoFREEBASE entities.Parsing
+(NP (ADJP (ADVP (IN )(JJS ))(JJ ))(NN ))
+Phase: generated76124
+Input: Token
+Rule: generated76124
+(
+(((({ Token.category == IN })({ Token.category == JJS }))({ Token.category == JJ }))({ Token.category == NN }))):pttrn76124 --> :pttrn76124.extracted={}
+

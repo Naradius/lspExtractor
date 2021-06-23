@@ -1,0 +1,8 @@
+the HTTP packet
+(NP (DT )(NNP )(NN ))
+Phase: generated18881
+Input: Token
+Rule: generated18881
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn18881 --> :pttrn18881.extracted={}
+

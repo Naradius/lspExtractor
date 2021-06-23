@@ -1,0 +1,8 @@
+its application to resource construction and evalua-tion
+(NP (NP (PRP$ )(NN ))(VP (TO )(VP (VB )(NP (NN )(CC )(NN )))))
+Phase: generated90602
+Input: Token
+Rule: generated90602
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn90602 --> :pttrn90602.extracted={}
+

@@ -1,0 +1,8 @@
+theirvaluable comments that helped to improve the quality ofthis paper
+(NP (NP (DT )(NNS ))(VP (VBD )(VP (TO )(VP (VB )(NP (DT )(NN ))))))
+Phase: generated52579
+Input: Token
+Rule: generated52579
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn52579 --> :pttrn52579.extracted={}
+

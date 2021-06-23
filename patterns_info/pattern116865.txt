@@ -1,0 +1,8 @@
+their applications in molecular science
+(NP (NP (PRP$ )(NNS ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated116865
+Input: Token
+Rule: generated116865
+(
+((({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn116865 --> :pttrn116865.extracted={}
+

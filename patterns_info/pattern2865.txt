@@ -1,0 +1,8 @@
+probabilistic self-election
+(NP (JJ )(NN ))
+Phase: generated2865
+Input: Token
+Rule: generated2865
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn2865 --> :pttrn2865.extracted={}
+

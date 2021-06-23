@@ -1,0 +1,8 @@
+a problem in MANET simulations
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated14477
+Input: Token
+Rule: generated14477
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn14477 --> :pttrn14477.extracted={}
+

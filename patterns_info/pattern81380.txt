@@ -1,0 +1,8 @@
+through the Linguistic DataConsortium
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated81380
+Input: Token
+Rule: generated81380
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn81380 --> :pttrn81380.extracted={}
+

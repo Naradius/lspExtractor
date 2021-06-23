@@ -1,0 +1,8 @@
+a position-based fashion
+(NP (DT )(JJ )(NN ))
+Phase: generated486
+Input: Token
+Rule: generated486
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn486 --> :pttrn486.extracted={}
+

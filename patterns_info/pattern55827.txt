@@ -1,0 +1,8 @@
+among multiple clusters and within acluster
+(PP (PP (IN )(NP (JJ )(NNS )))(CC ))
+Phase: generated55827
+Input: Token
+Rule: generated55827
+(
+((({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC }))):pttrn55827 --> :pttrn55827.extracted={}
+

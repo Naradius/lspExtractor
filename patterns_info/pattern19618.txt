@@ -1,0 +1,8 @@
+the appliances and device capacities using open adjustment panel
+(NP (NP (DT )(NNS )(CC )(NN )(NNS ))(VP (VBG )(NP (JJ )(NN ){1,2})))
+Phase: generated19618
+Input: Token
+Rule: generated19618
+(
+((({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn19618 --> :pttrn19618.extracted={}
+

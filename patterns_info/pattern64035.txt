@@ -1,0 +1,8 @@
+%N of generated solutions
+(NP (NP (NN )(NNP ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated64035
+Input: Token
+Rule: generated64035
+(
+((({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn64035 --> :pttrn64035.extracted={}
+

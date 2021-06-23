@@ -1,0 +1,8 @@
+syntactic tags that have been provided bya syntactic analyzer
+(NP (NP (JJ )(NNS ))(VP (VBP )(VP (VBN )(VP (VBN )(PRT (RP ))(NP (JJ )(NN ))))))
+Phase: generated80568
+Input: Token
+Rule: generated80568
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == RP }))(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn80568 --> :pttrn80568.extracted={}
+

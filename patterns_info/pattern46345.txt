@@ -1,0 +1,8 @@
+automated data collection
+(NP (VBN )(NNS )(NN ))
+Phase: generated46345
+Input: Token
+Rule: generated46345
+(
+(({ Token.category == VBN })({ Token.category == NNS })({ Token.category == NN }))):pttrn46345 --> :pttrn46345.extracted={}
+

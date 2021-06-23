@@ -1,0 +1,8 @@
+with the lexical rules and severalother files
+(PP (IN )(NP (NP (DT )(JJ )(NNS ))(CC )(NP (JJ )(NNS ))))
+Phase: generated90855
+Input: Token
+Rule: generated90855
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn90855 --> :pttrn90855.extracted={}
+

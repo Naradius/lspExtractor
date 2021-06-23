@@ -1,0 +1,8 @@
+theshaded area
+(NP (DT )(NN ))
+Phase: generated7705
+Input: Token
+Rule: generated7705
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn7705 --> :pttrn7705.extracted={}
+

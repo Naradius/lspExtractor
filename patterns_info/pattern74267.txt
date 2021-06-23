@@ -1,0 +1,8 @@
+:DT forasthma
+(NP (NNP )(NN ))
+Phase: generated74267
+Input: Token
+Rule: generated74267
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn74267 --> :pttrn74267.extracted={}
+

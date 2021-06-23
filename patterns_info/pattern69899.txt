@@ -1,0 +1,8 @@
+the coverage of random-ized scheduling in wireless sensor networks, IEEE TransactionsonWireless Communications
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (JJ )(NN )(NNS ))(NP (NNP ){1,2}(NNPS )))))))
+Phase: generated69899
+Input: Token
+Rule: generated69899
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == NNPS })))))))):pttrn69899 --> :pttrn69899.extracted={}
+

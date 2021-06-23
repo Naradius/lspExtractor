@@ -1,0 +1,8 @@
+are treated like Prolog variables, sharing with other occurrencesof the same variable
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NNP )(NNS )))(VP (VBG )(PP (IN )(NP (DT )(JJ ){1,2})))))
+Phase: generated88354
+Input: Token
+Rule: generated88354
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+)))))):pttrn88354 --> :pttrn88354.extracted={}
+

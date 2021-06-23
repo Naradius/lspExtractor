@@ -1,0 +1,8 @@
+supplies the power for the sensor node
+(VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated70070
+Input: Token
+Rule: generated70070
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn70070 --> :pttrn70070.extracted={}
+

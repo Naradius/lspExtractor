@@ -1,0 +1,8 @@
+for selecting ateast one feasible successor and consequently to maintain the pathiversity in the network
+(PP (IN )(VP (VP (VBG )(PP (IN )(NP (CD )(JJ )(NN ))))(CC )(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated26526
+Input: Token
+Rule: generated26526
+(
+(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn26526 --> :pttrn26526.extracted={}
+

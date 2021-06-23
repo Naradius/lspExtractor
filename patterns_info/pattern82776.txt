@@ -1,0 +1,8 @@
+constitutes an instance
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated82776
+Input: Token
+Rule: generated82776
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn82776 --> :pttrn82776.extracted={}
+

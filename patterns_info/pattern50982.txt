@@ -1,0 +1,8 @@
+an intelligent radio that can dynamically select acommunication channel in the wireless spectrum and canadapt its transmission and reception parameters accord-ingly
+(NP (NP (DT )(JJ )(NN ))(VP (MD )(RB )(VP (CC )(VP (VB )(NP (PRP$ )(NN )(CC )(NN )(NNS ))))))
+Phase: generated50982
+Input: Token
+Rule: generated50982
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == MD })({ Token.category == RB })(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn50982 --> :pttrn50982.extracted={}
+

@@ -1,0 +1,8 @@
+consideringthe movements of intermediate PNs in the routes  instead of the movements of the destinations
+(NP (NP (NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS ))))(PP (IN )(NP (DT )(NNS ))))(PP (RB )(IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS ))))))
+Phase: generated15923
+Input: Token
+Rule: generated15923
+(
+((((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))(({ Token.category == RB })({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn15923 --> :pttrn15923.extracted={}
+

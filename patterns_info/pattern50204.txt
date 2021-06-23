@@ -1,0 +1,8 @@
+great importance due to the dif-ficulty of unearthing a device to replace it or recharge itsbattery
+(NP (NP (JJ )(NN ))(ADJP (JJ )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (DT )(NN ))(VP (TO )(VP (VB )(NP (CC )(NP (JJ )(NN )))))))))))
+Phase: generated50204
+Input: Token
+Rule: generated50204
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })))))))))))):pttrn50204 --> :pttrn50204.extracted={}
+

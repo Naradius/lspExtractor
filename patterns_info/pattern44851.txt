@@ -1,0 +1,8 @@
+communicate to a single, nearby, high-powered base station
+(VP (VBP )(PP (TO )(NP (DT )(JJ ){1,2}(NN ){1,2})))
+Phase: generated44851
+Input: Token
+Rule: generated44851
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)))):pttrn44851 --> :pttrn44851.extracted={}
+

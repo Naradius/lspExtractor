@@ -1,0 +1,8 @@
+in the fixed-nodecenarios
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated28703
+Input: Token
+Rule: generated28703
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn28703 --> :pttrn28703.extracted={}
+

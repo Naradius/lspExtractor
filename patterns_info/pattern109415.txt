@@ -1,0 +1,8 @@
+S. Chatterjee and S. Das
+(NP (NNP ){1,2}(CC )(NNP ){1,2})
+Phase: generated109415
+Input: Token
+Rule: generated109415
+(
+(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)):pttrn109415 --> :pttrn109415.extracted={}
+

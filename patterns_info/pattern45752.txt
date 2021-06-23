@@ -1,0 +1,8 @@
+A low-powerlow-voltage transceiver architecture suitable
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated45752
+Input: Token
+Rule: generated45752
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn45752 --> :pttrn45752.extracted={}
+

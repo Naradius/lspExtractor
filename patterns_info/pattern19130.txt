@@ -1,0 +1,8 @@
+a reference attribute
+(NP (DT )(NN ){1,2})
+Phase: generated19130
+Input: Token
+Rule: generated19130
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn19130 --> :pttrn19130.extracted={}
+

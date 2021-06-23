@@ -1,0 +1,8 @@
+were extracted as drugs and treatment  byour system for the Diabetes forum
+(VP (VBD )(VP (VBN )(PP (IN )(NP (NP (NNS )(CC )(NN ){1,2})(PP (IN )(NP (DT )(NNP )(NN )))))))
+Phase: generated75508
+Input: Token
+Rule: generated75508
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))))):pttrn75508 --> :pttrn75508.extracted={}
+

@@ -1,0 +1,8 @@
+instancescovered monotonically
+(NP (JJ )(NN ))
+Phase: generated83056
+Input: Token
+Rule: generated83056
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn83056 --> :pttrn83056.extracted={}
+

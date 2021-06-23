@@ -1,0 +1,8 @@
+are retained.Despite its simple architecture
+(VP (VBP )(VP (VBN )(PP (IN )(NP (PRP$ )(JJ )(NN )))))
+Phase: generated80262
+Input: Token
+Rule: generated80262
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))))):pttrn80262 --> :pttrn80262.extracted={}
+

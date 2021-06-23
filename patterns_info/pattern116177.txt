@@ -1,0 +1,8 @@
+be solved at syntactic level
+(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NN )))))
+Phase: generated116177
+Input: Token
+Rule: generated116177
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn116177 --> :pttrn116177.extracted={}
+

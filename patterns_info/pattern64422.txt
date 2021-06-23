@@ -1,0 +1,8 @@
+to search aroundof a solution to improve it
+(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN )))))
+Phase: generated64422
+Input: Token
+Rule: generated64422
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn64422 --> :pttrn64422.extracted={}
+

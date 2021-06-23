@@ -1,0 +1,8 @@
+presents a Software Defined Network  approachbased hierarchical routing scheme for WSN based on Line Optimization algorithm
+(VP (VBZ )(NP (DT )(NNP ){1,2}))
+Phase: generated10613
+Input: Token
+Rule: generated10613
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn10613 --> :pttrn10613.extracted={}
+

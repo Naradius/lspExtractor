@@ -1,0 +1,8 @@
+the nodes mobility in wireless sensornetworks.Power Control and Conservation
+(NP (NP (DT )(NNS )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NNP )(CC )(NNP ))))))
+Phase: generated32724
+Input: Token
+Rule: generated32724
+(
+((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))))):pttrn32724 --> :pttrn32724.extracted={}
+

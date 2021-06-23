@@ -1,0 +1,8 @@
+should stayas close as possible to the others
+(VP (MD )(RB )(VP (VB )(PP (TO )(NP (DT )(NNS )))))
+Phase: generated6658
+Input: Token
+Rule: generated6658
+(
+(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn6658 --> :pttrn6658.extracted={}
+

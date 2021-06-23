@@ -1,0 +1,8 @@
+in AODV to the point that they may failto follow the pace of movement of the vehicles
+(PP (IN )(NP (PP (TO )(NP (DT )(NN )))(IN )))
+Phase: generated15512
+Input: Token
+Rule: generated15512
+(
+(({ Token.category == IN })((({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == IN })))):pttrn15512 --> :pttrn15512.extracted={}
+

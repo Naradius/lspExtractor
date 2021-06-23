@@ -1,0 +1,8 @@
+the property capital accesses
+(NP (DT )(NN ){1,2}(NNS ))
+Phase: generated90198
+Input: Token
+Rule: generated90198
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))):pttrn90198 --> :pttrn90198.extracted={}
+

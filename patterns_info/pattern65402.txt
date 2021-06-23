@@ -1,0 +1,8 @@
+the endurance
+(NP (DT )(NN ))
+Phase: generated65402
+Input: Token
+Rule: generated65402
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn65402 --> :pttrn65402.extracted={}
+

@@ -1,0 +1,8 @@
+typed binary relations
+(NP (JJ ){1,2}(NNS ))
+Phase: generated76148
+Input: Token
+Rule: generated76148
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn76148 --> :pttrn76148.extracted={}
+

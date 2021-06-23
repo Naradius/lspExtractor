@@ -1,0 +1,8 @@
+is a ME pathfrom u0 to uk if Cr6Cr0 for all paths r0 betweennode u0 and uk in G0
+(VP (VBZ )(NP (NP (DT )(NNP )(NN ))(VP (VBD )(VP (TO )(VP (VB )(IN ))))))
+Phase: generated43833
+Input: Token
+Rule: generated43833
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN }))))))):pttrn43833 --> :pttrn43833.extracted={}
+

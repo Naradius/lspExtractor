@@ -1,0 +1,8 @@
+related to the information sourcesin use
+(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated101889
+Input: Token
+Rule: generated101889
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn101889 --> :pttrn101889.extracted={}
+

@@ -1,0 +1,8 @@
+mayhave fewer or more than the optimal number at any time.The given pheromone expression guides the evolution ofthe swarm to achieve the separation behavior among antsin the swarm, which is one the swarm principles highlightedin Section 3. Separation may not be achieved immediatelyupon the random release of these ants by the sink
+(VP (VBP )(NP (NP (JJR )(CC )(JJR ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated4378
+Input: Token
+Rule: generated4378
+(
+(({ Token.category == VBP })((({ Token.category == JJR })({ Token.category == CC })({ Token.category == JJR }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn4378 --> :pttrn4378.extracted={}
+

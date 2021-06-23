@@ -1,0 +1,8 @@
+several potential inefficiencies
+(NP (JJ ){1,2}(NNS ))
+Phase: generated15433
+Input: Token
+Rule: generated15433
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn15433 --> :pttrn15433.extracted={}
+

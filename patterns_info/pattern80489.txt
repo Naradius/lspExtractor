@@ -1,0 +1,8 @@
+on a parallel computer
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated80489
+Input: Token
+Rule: generated80489
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn80489 --> :pttrn80489.extracted={}
+

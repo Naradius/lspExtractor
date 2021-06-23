@@ -1,0 +1,8 @@
+suffer from low recall values,caused by the wide structural variety and complex-ity of sentences denoting these events.On a side note, within our framework it is rela-tively straightforward to obtain high recall scores.For instance
+(VP (VBP )(PP (IN )(NP (NP (JJ )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(JJ ){1,2}(NN ))(CC )))))))
+Phase: generated94473
+Input: Token
+Rule: generated94473
+(
+(({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))({ Token.category == CC })))))))):pttrn94473 --> :pttrn94473.extracted={}
+

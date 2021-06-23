@@ -1,0 +1,8 @@
+with the FREEBASE entities Ran-dolph and Thomas Jefferson from the FACC1 corpus
+(PP (IN )(NP (NP (DT )(NNP )(NNS )(NNP ))(CC )))
+Phase: generated77854
+Input: Token
+Rule: generated77854
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NNP }))({ Token.category == CC })))):pttrn77854 --> :pttrn77854.extracted={}
+

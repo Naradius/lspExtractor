@@ -1,0 +1,8 @@
+the proposed FLCFP reduceshe energy utilization
+(NP (DT )(VBN )(NNP )(NN ){1,2})
+Phase: generated60978
+Input: Token
+Rule: generated60978
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })({ Token.category == NN })+)):pttrn60978 --> :pttrn60978.extracted={}
+

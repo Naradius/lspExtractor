@@ -1,0 +1,8 @@
+of clusteredsensor networks
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated57956
+Input: Token
+Rule: generated57956
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn57956 --> :pttrn57956.extracted={}
+

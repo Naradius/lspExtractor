@@ -1,0 +1,8 @@
+supple-mentary control message exchange
+(NP (JJ )(NN ){1,2})
+Phase: generated51955
+Input: Token
+Rule: generated51955
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn51955 --> :pttrn51955.extracted={}
+

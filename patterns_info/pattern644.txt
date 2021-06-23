@@ -1,0 +1,8 @@
+with no inter-cluster link
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated644
+Input: Token
+Rule: generated644
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn644 --> :pttrn644.extracted={}
+

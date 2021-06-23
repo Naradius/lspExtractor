@@ -1,0 +1,8 @@
+application resource requirements
+(NP (NN ){1,2}(NNS ))
+Phase: generated20780
+Input: Token
+Rule: generated20780
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn20780 --> :pttrn20780.extracted={}
+

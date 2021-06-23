@@ -1,0 +1,8 @@
+the attitudes
+(NP (DT )(NNS ))
+Phase: generated118440
+Input: Token
+Rule: generated118440
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn118440 --> :pttrn118440.extracted={}
+

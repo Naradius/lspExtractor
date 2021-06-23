@@ -1,0 +1,8 @@
+because of its ability to surround every aspect of hu-ans daily activities
+(PP (IN ){1,2}(NP (PRP$ )(NN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NNS ))))))))
+Phase: generated25068
+Input: Token
+Rule: generated25068
+(
+(({ Token.category == IN })+(({ Token.category == PRP$ })({ Token.category == NN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn25068 --> :pttrn25068.extracted={}
+

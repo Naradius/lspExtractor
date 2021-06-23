@@ -1,0 +1,8 @@
+the prefix x, |x| 789:;<=>
+(NP (NP (DT )(NN ){1,2})(NP (NNP ){1,2}(CD )))
+Phase: generated91859
+Input: Token
+Rule: generated91859
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == NNP })+({ Token.category == CD })))):pttrn91859 --> :pttrn91859.extracted={}
+

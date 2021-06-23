@@ -1,0 +1,8 @@
+create higher level tokens
+(VP (VB )(NP (JJR )(NN )(NNS )))
+Phase: generated85221
+Input: Token
+Rule: generated85221
+(
+(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS })))):pttrn85221 --> :pttrn85221.extracted={}
+

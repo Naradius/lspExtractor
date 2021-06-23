@@ -1,0 +1,8 @@
+the rank calculation
+(NP (DT )(NN ){1,2})
+Phase: generated25980
+Input: Token
+Rule: generated25980
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn25980 --> :pttrn25980.extracted={}
+

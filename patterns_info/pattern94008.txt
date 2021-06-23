@@ -1,0 +1,8 @@
+is applied to compute an even combina-tion, i.e., the harmonic mean of precision and re-call:F1 =2 PrecisionRecallPrecision+Recall
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(ADJP (RB )(JJ )))))))
+Phase: generated94008
+Input: Token
+Rule: generated94008
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ })))))))):pttrn94008 --> :pttrn94008.extracted={}
+

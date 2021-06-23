@@ -1,0 +1,8 @@
+compensated by the advantages of the other, resulting in a better convergence rate
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )))))(VP (VBG )(PP (IN )(NP (DT )(JJR )(NN ){1,2}))))
+Phase: generated2571
+Input: Token
+Rule: generated2571
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })+))))):pttrn2571 --> :pttrn2571.extracted={}
+

@@ -1,0 +1,8 @@
+of a Graph Transformation Language
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated71316
+Input: Token
+Rule: generated71316
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn71316 --> :pttrn71316.extracted={}
+

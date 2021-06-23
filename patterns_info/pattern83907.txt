@@ -1,0 +1,8 @@
+PAC analysis
+(NP (NNP )(NN ))
+Phase: generated83907
+Input: Token
+Rule: generated83907
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn83907 --> :pttrn83907.extracted={}
+

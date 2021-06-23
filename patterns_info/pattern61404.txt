@@ -1,0 +1,8 @@
+countering aglobal eavesdropper in WSNs, IEEE Trans
+(VP (VBG )(NP (JJ )(NN )))
+Phase: generated61404
+Input: Token
+Rule: generated61404
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })))):pttrn61404 --> :pttrn61404.extracted={}
+

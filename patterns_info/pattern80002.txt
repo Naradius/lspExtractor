@@ -1,0 +1,8 @@
+onprior semantic tagging of person names and RAPIER
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(CC )))))
+Phase: generated80002
+Input: Token
+Rule: generated80002
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })))))):pttrn80002 --> :pttrn80002.extracted={}
+

@@ -1,0 +1,8 @@
+In The 2ndWorkshop on Question Generation, 2009.172QUESTION
+(PP (IN )(NP (NP (DT )(JJ ))(PP (IN )(NP (NNP ){1,2}(CD )(NN )))))
+Phase: generated101304
+Input: Token
+Rule: generated101304
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NN })))))):pttrn101304 --> :pttrn101304.extracted={}
+

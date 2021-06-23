@@ -1,0 +1,8 @@
+each othersradio range
+(NP (DT )(JJ )(NN ))
+Phase: generated7645
+Input: Token
+Rule: generated7645
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn7645 --> :pttrn7645.extracted={}
+

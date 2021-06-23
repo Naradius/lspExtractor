@@ -1,0 +1,8 @@
+,despite being very popular for extracting entities from human-labeled text data
+(PP (IN )(VP (VBG )(ADJP (RB )(JJ ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS )))))))
+Phase: generated75170
+Input: Token
+Rule: generated75170
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn75170 --> :pttrn75170.extracted={}
+

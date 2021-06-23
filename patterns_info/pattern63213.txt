@@ -1,0 +1,8 @@
+the relationship between the energy consumptionand the distance from the source node to the sink node
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (NP (DT )(NN ))(PP (PP (IN )(NP (DT )(NN ){1,2}))(PP (TO )(NP (DT )(NN ){1,2})))))))
+Phase: generated63213
+Input: Token
+Rule: generated63213
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn63213 --> :pttrn63213.extracted={}
+

@@ -1,0 +1,8 @@
+replace the worst solution by new the bestsolution
+(VP (VB )(NP (DT )(JJS )(NN ))(PP (IN )(NP (JJ )(DT )(NN ))))
+Phase: generated63793
+Input: Token
+Rule: generated63793
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN }))))):pttrn63793 --> :pttrn63793.extracted={}
+

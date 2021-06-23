@@ -1,0 +1,8 @@
+the individ-ual literals
+(NP (DT )(JJ )(NNS ))
+Phase: generated94650
+Input: Token
+Rule: generated94650
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn94650 --> :pttrn94650.extracted={}
+

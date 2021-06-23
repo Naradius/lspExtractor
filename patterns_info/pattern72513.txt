@@ -1,0 +1,8 @@
+automatic discovery of a semantic relationmust start
+(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN ))))
+Phase: generated72513
+Input: Token
+Rule: generated72513
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn72513 --> :pttrn72513.extracted={}
+

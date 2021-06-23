@@ -1,0 +1,8 @@
+can observer that building PT for an answer online and matching it with question delivers answers which would be determined as irrelevant without building coreference chains
+(VP (MD )(VP (VP (VB )(NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))(CC )(VP (VBG )(PP (IN )(NP (NP (NN )(NNS ){1,2})(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(VP (VBG )(NP (NN )(NNS ))))))))))))
+Phase: generated113625
+Input: Token
+Rule: generated113625
+(
+(({ Token.category == MD })((({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS })+)(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))))))))))))):pttrn113625 --> :pttrn113625.extracted={}
+

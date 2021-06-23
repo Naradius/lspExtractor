@@ -1,0 +1,8 @@
+a specified packet-error-rate
+(NP (DT )(VBN )(NN ))
+Phase: generated52216
+Input: Token
+Rule: generated52216
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn52216 --> :pttrn52216.extracted={}
+

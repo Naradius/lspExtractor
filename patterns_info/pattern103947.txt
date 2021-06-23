@@ -1,0 +1,8 @@
+can be active or suspended
+(VP (MD )(VP (VB )(ADJP (JJ )(CC )(VBN ))))
+Phase: generated103947
+Input: Token
+Rule: generated103947
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == VBN }))))):pttrn103947 --> :pttrn103947.extracted={}
+

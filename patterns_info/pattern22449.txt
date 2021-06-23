@@ -1,0 +1,8 @@
+the next hop networkaddress
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated22449
+Input: Token
+Rule: generated22449
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn22449 --> :pttrn22449.extracted={}
+

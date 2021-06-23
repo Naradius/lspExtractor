@@ -1,0 +1,8 @@
+,11 andApache cTakes12 perform poorly mainly because they aredesigned for fine-grained entity extraction on expert-authoredtext
+(VP (VBZ )(NP (DT )(JJ )(NN ))(IN ))
+Phase: generated73970
+Input: Token
+Rule: generated73970
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == IN }))):pttrn73970 --> :pttrn73970.extracted={}
+

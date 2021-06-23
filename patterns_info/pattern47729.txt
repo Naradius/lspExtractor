@@ -1,0 +1,8 @@
+MHz902928 MHz 915 MHz24002500 MHz 2450 MHz57255875 MHz 5800 MHz2424.25 GHz 24.125 GHz6161.5 GHz 61.25 GHz122123 GHz 122.5 GHz244246 GHz 245
+(PP (IN )(NP (NP (NNP )(CD ))(PP (IN )(NP (NP (NNP )(CD ))(PP (IN )(NP (NP (NNP )(CD ){1,2}(NNP )(CD ))(PP (IN )(NP (NP (NNP )(CD ))(PP (IN )(NP (NNP )(CD )(NNP ){1,2}(CD )))))))))))
+Phase: generated47729
+Input: Token
+Rule: generated47729
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == CD })))))))))))):pttrn47729 --> :pttrn47729.extracted={}
+

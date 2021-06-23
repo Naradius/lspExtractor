@@ -1,0 +1,8 @@
+of data non-overlapping subsets  such that each data object is in correctly one subset
+(PP (IN )(NP (NP (NNS )(JJ )(NNS ))(ADJP (JJ )(IN ))))
+Phase: generated85070
+Input: Token
+Rule: generated85070
+(
+(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn85070 --> :pttrn85070.extracted={}
+

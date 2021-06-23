@@ -1,0 +1,8 @@
+several terms used in this paper
+(NP (NP (JJ )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated62317
+Input: Token
+Rule: generated62317
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn62317 --> :pttrn62317.extracted={}
+

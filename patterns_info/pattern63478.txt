@@ -1,0 +1,8 @@
+under dynamic coverageconstraint
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated63478
+Input: Token
+Rule: generated63478
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn63478 --> :pttrn63478.extracted={}
+

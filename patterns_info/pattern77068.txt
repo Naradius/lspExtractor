@@ -1,0 +1,8 @@
+the newsarticles
+(NP (DT )(NNS ))
+Phase: generated77068
+Input: Token
+Rule: generated77068
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn77068 --> :pttrn77068.extracted={}
+

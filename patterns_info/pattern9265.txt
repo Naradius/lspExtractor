@@ -1,0 +1,8 @@
+involving critical components of the communi-cation stack
+(VP (VBG )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated9265
+Input: Token
+Rule: generated9265
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn9265 --> :pttrn9265.extracted={}
+

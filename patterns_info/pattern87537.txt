@@ -1,0 +1,8 @@
+the performance of rule-based analysis.The ideal way to improve the tagger
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(DT )(JJ )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN )))))))
+Phase: generated87537
+Input: Token
+Rule: generated87537
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn87537 --> :pttrn87537.extracted={}
+

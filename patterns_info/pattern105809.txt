@@ -1,0 +1,8 @@
+test MElt included all lexical re-sources9 described in section 5
+(VP (VB )(VP (VBD )(NP (NP (DT )(JJ )(CD ))(VP (VBN )(PP (IN )(NP (NN )(CD )))))))
+Phase: generated105809
+Input: Token
+Rule: generated105809
+(
+(({ Token.category == VB })(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))):pttrn105809 --> :pttrn105809.extracted={}
+

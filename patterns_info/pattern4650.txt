@@ -1,0 +1,8 @@
+not within the radio range
+(PP (RB )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated4650
+Input: Token
+Rule: generated4650
+(
+(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn4650 --> :pttrn4650.extracted={}
+

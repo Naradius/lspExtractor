@@ -1,0 +1,8 @@
+the average number CHs
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated7886
+Input: Token
+Rule: generated7886
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn7886 --> :pttrn7886.extracted={}
+

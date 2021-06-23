@@ -1,0 +1,8 @@
+deploying more numberf nodes in the network
+(VP (VBG )(NP (NP (JJR )(NN )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated28564
+Input: Token
+Rule: generated28564
+(
+(({ Token.category == VBG })((({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn28564 --> :pttrn28564.extracted={}
+

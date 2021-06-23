@@ -1,0 +1,8 @@
+J. Automatically building conceptual graphs
+(NP (NNP ){1,2}(NN )(JJ )(NNS ))
+Phase: generated116925
+Input: Token
+Rule: generated116925
+(
+(({ Token.category == NNP })+({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn116925 --> :pttrn116925.extracted={}
+

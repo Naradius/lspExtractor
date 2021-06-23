@@ -1,0 +1,8 @@
+from the manually tagged corpus and the large unannotated corpus
+(PP (IN )(NP (NP (DT )(ADJP (RB )(VBN ))(NN ))(CC )(NP (DT )(JJ ){1,2}(NN ))))
+Phase: generated91577
+Input: Token
+Rule: generated91577
+(
+(({ Token.category == IN })((({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn91577 --> :pttrn91577.extracted={}
+

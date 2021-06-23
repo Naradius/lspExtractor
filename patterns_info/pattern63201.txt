@@ -1,0 +1,8 @@
+to find the source node
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated63201
+Input: Token
+Rule: generated63201
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn63201 --> :pttrn63201.extracted={}
+

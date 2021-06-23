@@ -1,0 +1,8 @@
+be composed ofeveral RPL instances with different and potentially inconsistentonstraints with each containing one or more DODAGs
+(VP (VB )(VP (VBN )(NP (JJ ){1,2}(NNS ))(PP (IN )(NP (JJ )(CC )(RB )(NNS )))))
+Phase: generated25878
+Input: Token
+Rule: generated25878
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == RB })({ Token.category == NNS })))))):pttrn25878 --> :pttrn25878.extracted={}
+

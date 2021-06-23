@@ -1,0 +1,8 @@
+the quality
+(NP (DT )(NN ))
+Phase: generated52574
+Input: Token
+Rule: generated52574
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn52574 --> :pttrn52574.extracted={}
+

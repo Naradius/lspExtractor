@@ -1,0 +1,8 @@
+of the data blockchain simulation system
+(PP (IN )(NP (DT )(NNS )(NN ){1,2}))
+Phase: generated35126
+Input: Token
+Rule: generated35126
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+))):pttrn35126 --> :pttrn35126.extracted={}
+

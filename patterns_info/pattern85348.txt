@@ -1,0 +1,8 @@
+the term and the document matrix
+(NP (NP (DT )(NN ))(CC )(NP (DT )(NN ){1,2}))
+Phase: generated85348
+Input: Token
+Rule: generated85348
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))):pttrn85348 --> :pttrn85348.extracted={}
+

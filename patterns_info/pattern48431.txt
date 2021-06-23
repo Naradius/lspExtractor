@@ -1,0 +1,8 @@
+sen-sor networks
+(NP (JJ )(NNS ))
+Phase: generated48431
+Input: Token
+Rule: generated48431
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn48431 --> :pttrn48431.extracted={}
+

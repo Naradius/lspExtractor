@@ -1,0 +1,8 @@
+of existing systems
+(PP (IN )(NP (VBG )(NNS )))
+Phase: generated81959
+Input: Token
+Rule: generated81959
+(
+(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS })))):pttrn81959 --> :pttrn81959.extracted={}
+

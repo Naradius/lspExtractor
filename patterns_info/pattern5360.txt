@@ -1,0 +1,8 @@
+to the resource-starvedFig. 9
+(PP (TO )(NP (DT )(JJ )(NNP )(CD )))
+Phase: generated5360
+Input: Token
+Rule: generated5360
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == CD })))):pttrn5360 --> :pttrn5360.extracted={}
+

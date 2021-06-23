@@ -1,0 +1,8 @@
+multiple sentences within one document
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (CD )(NN ))))
+Phase: generated115094
+Input: Token
+Rule: generated115094
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn115094 --> :pttrn115094.extracted={}
+

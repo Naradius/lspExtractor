@@ -1,0 +1,8 @@
+false      /GenerateStructure false      /IncludeBookmarks false      /IncludeHyperlinks false      /IncludeInteractive false      /IncludeLayers
+(NP (NP (NP (NP (JJ )(NN ))(JJ )(NNS ))(JJ )(NNS ))(JJ ){1,2}(NNS ))
+Phase: generated12730
+Input: Token
+Rule: generated12730
+(
+((((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == JJ })+({ Token.category == NNS }))):pttrn12730 --> :pttrn12730.extracted={}
+

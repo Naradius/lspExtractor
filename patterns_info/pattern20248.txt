@@ -1,0 +1,8 @@
+such applications wheneployed
+(NP (JJ )(NNS )(WP ))
+Phase: generated20248
+Input: Token
+Rule: generated20248
+(
+(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == WP }))):pttrn20248 --> :pttrn20248.extracted={}
+

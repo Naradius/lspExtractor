@@ -1,0 +1,8 @@
+proper channel IDs
+(NP (JJ )(NN )(NNS ))
+Phase: generated67191
+Input: Token
+Rule: generated67191
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn67191 --> :pttrn67191.extracted={}
+

@@ -1,0 +1,8 @@
+construction.The annotation validator
+(NP (DT )(NN ){1,2})
+Phase: generated93675
+Input: Token
+Rule: generated93675
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn93675 --> :pttrn93675.extracted={}
+

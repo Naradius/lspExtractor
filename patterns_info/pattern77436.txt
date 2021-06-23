@@ -1,0 +1,8 @@
+of Deep Lexico-Syntactic Patternsfor Relation ExtractionJohannes Kirschnick, Alan Akbik, Holmer HemsenTechnische Universitat BerlinDatabase Systems and Information Management GroupEinsteinufer 17, 10587 Berlin, Germany@tu-berlin.deAbstractThe increasing availability and maturity of both scalable computing architectures and deep syntactic parsers
+(PP (IN )(NP (CC )(NP (NP (NNP ){1,2}(CD ){1,2}(NNP ))(NP (DT )(VBG )(NN ))(CC ))))
+Phase: generated77436
+Input: Token
+Rule: generated77436
+(
+(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == NNP })+({ Token.category == CD })+({ Token.category == NNP }))(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))({ Token.category == CC }))))):pttrn77436 --> :pttrn77436.extracted={}
+

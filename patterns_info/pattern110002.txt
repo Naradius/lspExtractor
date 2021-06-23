@@ -1,0 +1,8 @@
+of adjusting data flow rates
+(PP (IN )(NP (NN )(NNS )(NN )(NNS )))
+Phase: generated110002
+Input: Token
+Rule: generated110002
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS })))):pttrn110002 --> :pttrn110002.extracted={}
+

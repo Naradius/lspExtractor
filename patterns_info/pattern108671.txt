@@ -1,0 +1,8 @@
+of both cmX  and cfX
+(PP (IN )(NP (DT )(NNS )(CC )(NNS )))
+Phase: generated108671
+Input: Token
+Rule: generated108671
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn108671 --> :pttrn108671.extracted={}
+

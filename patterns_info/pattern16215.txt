@@ -1,0 +1,8 @@
+would take place in the absence of syn-chronized backups or any other nodes whatsoever
+(VP (MD )(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(CC )(NP (DT )(JJ )(NNS )(RB ))))))))
+Phase: generated16215
+Input: Token
+Rule: generated16215
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == RB }))))))))):pttrn16215 --> :pttrn16215.extracted={}
+

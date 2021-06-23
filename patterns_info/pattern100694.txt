@@ -1,0 +1,8 @@
+83/209 D 1.74  0.99 2.64  0.96 1.96  0.71 44/168 THE-MENTOR 1.28  0.68 2.08  1.88 1.64  0.86 14/25 Table 9
+(PP (IN )(NP (NP (NNP )(CD ){1,2}(JJ )(CD ){1,2})(PP (IN )(NP (NN )(CD )))))
+Phase: generated100694
+Input: Token
+Rule: generated100694
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD })+({ Token.category == JJ })({ Token.category == CD })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))):pttrn100694 --> :pttrn100694.extracted={}
+

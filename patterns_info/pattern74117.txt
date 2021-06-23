@@ -1,0 +1,8 @@
+with theirpart-of-speech  tags and lemma
+(PP (IN )(NP (DT )(NNS )(CC )(NN )))
+Phase: generated74117
+Input: Token
+Rule: generated74117
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })))):pttrn74117 --> :pttrn74117.extracted={}
+

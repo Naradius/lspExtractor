@@ -1,0 +1,8 @@
+distinguishing systems for semi-structured textis less important with free text
+(NP (NP (NN )(NNS ))(PP (IN )(NP (NP (JJ )(NN ))(ADJP (RBR )(JJ )(PP (IN )(NP (JJ )(NN )))))))
+Phase: generated80661
+Input: Token
+Rule: generated80661
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RBR })({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn80661 --> :pttrn80661.extracted={}
+

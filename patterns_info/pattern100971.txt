@@ -1,0 +1,8 @@
+a human user, the otherclassified it taking in consideration the entire task of QG: for instance, despite the lexical, syntacticand semantic correction of the generated question, if the answer can not be found in the supportingsentence
+(NP (NP (DT )(JJ )(NN ))(NP (NP (DT )(JJ ))(VP (VBG )(PP (IN )(NP (NP (DT )(JJ ){1,2}(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))(IN ))))
+Phase: generated100971
+Input: Token
+Rule: generated100971
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))({ Token.category == IN }))))):pttrn100971 --> :pttrn100971.extracted={}
+

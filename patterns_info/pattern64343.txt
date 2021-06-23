@@ -1,0 +1,8 @@
+to a point that is far from the optimum point.Similarly, a low number of success shows that the lions areswinging around the optimum solution without significantimprovement
+(PP (TO )(NP (NP (DT )(NN ))(VP (VBZ )(ADVP (RB )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated64343
+Input: Token
+Rule: generated64343
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn64343 --> :pttrn64343.extracted={}
+

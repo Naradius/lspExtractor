@@ -1,0 +1,8 @@
+clus-er based routing
+(NP (JJ )(VBN )(NN ))
+Phase: generated59576
+Input: Token
+Rule: generated59576
+(
+(({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN }))):pttrn59576 --> :pttrn59576.extracted={}
+

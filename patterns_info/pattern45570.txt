@@ -1,0 +1,8 @@
+dust  Laser communication from a cubic millimeterMote deliverySubmicroWatt electronicsPower sourcesMacroMotes
+(NP (NP (NN )(NNP )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2}(NNS ))))
+Phase: generated45570
+Input: Token
+Rule: generated45570
+(
+((({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+({ Token.category == NNS }))))):pttrn45570 --> :pttrn45570.extracted={}
+

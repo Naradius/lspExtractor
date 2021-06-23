@@ -1,0 +1,8 @@
+normalized them to their most frequent spel-ling variation
+(VP (VBD )(PP (TO )(NP (PRP$ )(ADJP (RBS )(JJ ))(NN ){1,2})))
+Phase: generated74974
+Input: Token
+Rule: generated74974
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == PRP$ })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN })+)))):pttrn74974 --> :pttrn74974.extracted={}
+

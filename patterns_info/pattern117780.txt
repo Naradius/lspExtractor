@@ -1,0 +1,8 @@
+re-rank answers
+(NP (NNP )(NNS ))
+Phase: generated117780
+Input: Token
+Rule: generated117780
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn117780 --> :pttrn117780.extracted={}
+

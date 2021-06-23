@@ -1,0 +1,8 @@
+its neigh-bours and this procedure iterates
+(NP (NP (PRP$ )(NNS ))(CC )(NP (DT )(NN )(NNS )))
+Phase: generated26000
+Input: Token
+Rule: generated26000
+(
+((({ Token.category == PRP$ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn26000 --> :pttrn26000.extracted={}
+

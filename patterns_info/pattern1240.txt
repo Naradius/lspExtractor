@@ -1,0 +1,8 @@
+the other bees where exactly the food source is located and the amount of the pollen or nectar in it
+(NP (NP (DT )(JJ )(NNS ))(WHADVP (WRB )))
+Phase: generated1240
+Input: Token
+Rule: generated1240
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == WRB })))):pttrn1240 --> :pttrn1240.extracted={}
+

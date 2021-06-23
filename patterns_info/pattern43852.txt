@@ -1,0 +1,8 @@
+an old technique that canalso be used for routing in sensor networks
+(NP (NP (DT )(JJ )(NN ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(VP (VBG )(PP (IN )(NP (NN )(NNS )))))))))
+Phase: generated43852
+Input: Token
+Rule: generated43852
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))))):pttrn43852 --> :pttrn43852.extracted={}
+

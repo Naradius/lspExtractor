@@ -1,0 +1,8 @@
+the internet
+(NP (DT )(NN ))
+Phase: generated67765
+Input: Token
+Rule: generated67765
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn67765 --> :pttrn67765.extracted={}
+

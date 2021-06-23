@@ -1,0 +1,8 @@
+in the sensoractuator coordination
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated8938
+Input: Token
+Rule: generated8938
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn8938 --> :pttrn8938.extracted={}
+

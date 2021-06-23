@@ -1,0 +1,8 @@
+a swarm
+(NP (DT )(JJ ))
+Phase: generated6641
+Input: Token
+Rule: generated6641
+(
+(({ Token.category == DT })({ Token.category == JJ }))):pttrn6641 --> :pttrn6641.extracted={}
+

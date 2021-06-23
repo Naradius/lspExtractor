@@ -1,0 +1,8 @@
+The structure to distinguish between renting for yourself and deducting from total income and renting to someone and adding to income
+(NP (NP (DT )(NN ))(VP (TO )(VP (VP (VP (CC )(VP (VBG )(PP (IN )(NP (JJ )(NN )))))(CC ))(CC ))))
+Phase: generated113787
+Input: Token
+Rule: generated113787
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(((({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))({ Token.category == CC }))({ Token.category == CC }))))):pttrn113787 --> :pttrn113787.extracted={}
+

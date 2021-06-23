@@ -1,0 +1,8 @@
+proposed DTN routing protocolssuch as Epidemic , Spray
+(VP (VBN )(NP (NNP )(NN ){1,2}))
+Phase: generated40356
+Input: Token
+Rule: generated40356
+(
+(({ Token.category == VBN })(({ Token.category == NNP })({ Token.category == NN })+))):pttrn40356 --> :pttrn40356.extracted={}
+

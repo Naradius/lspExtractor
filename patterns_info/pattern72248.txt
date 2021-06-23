@@ -1,0 +1,8 @@
+a single noun phrase
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated72248
+Input: Token
+Rule: generated72248
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn72248 --> :pttrn72248.extracted={}
+

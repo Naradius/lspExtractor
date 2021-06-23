@@ -1,0 +1,8 @@
+by broadcastingan advertisement  message with their node id
+(PP (IN )(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (PRP$ )(NN ){1,2}))))
+Phase: generated7318
+Input: Token
+Rule: generated7318
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+))))):pttrn7318 --> :pttrn7318.extracted={}
+

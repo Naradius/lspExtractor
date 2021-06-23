@@ -1,0 +1,8 @@
+a contactand
+(NP (DT )(NN ))
+Phase: generated41778
+Input: Token
+Rule: generated41778
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn41778 --> :pttrn41778.extracted={}
+

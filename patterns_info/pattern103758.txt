@@ -1,0 +1,8 @@
+entirely matched pro-duction instances, and combines constructed production instances into viable derivation se-quences.4.1
+(NP (NP (RB )(VBN )(NN )(NNS ))(CC ))
+Phase: generated103758
+Input: Token
+Rule: generated103758
+(
+((({ Token.category == RB })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn103758 --> :pttrn103758.extracted={}
+

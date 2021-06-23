@@ -1,0 +1,8 @@
+the enhancement
+(NP (DT )(NN ))
+Phase: generated61253
+Input: Token
+Rule: generated61253
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn61253 --> :pttrn61253.extracted={}
+

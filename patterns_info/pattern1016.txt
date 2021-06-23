@@ -1,0 +1,8 @@
+the following roles
+(NP (DT )(VBG )(NNS ))
+Phase: generated1016
+Input: Token
+Rule: generated1016
+(
+(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))):pttrn1016 --> :pttrn1016.extracted={}
+

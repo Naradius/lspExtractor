@@ -1,0 +1,8 @@
+routing ad hoc networks, in
+(VP (VBG )(NP (NN )(JJ )(NNS )))
+Phase: generated107032
+Input: Token
+Rule: generated107032
+(
+(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))):pttrn107032 --> :pttrn107032.extracted={}
+

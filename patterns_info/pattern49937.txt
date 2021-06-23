@@ -1,0 +1,8 @@
+differentiation and data integrity provisioning
+(NP (NN )(CC )(NNS )(NN ){1,2})
+Phase: generated49937
+Input: Token
+Rule: generated49937
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN })+)):pttrn49937 --> :pttrn49937.extracted={}
+

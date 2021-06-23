@@ -1,0 +1,8 @@
+is usedfor data transmission
+(VP (VBZ )(VP (VBN )(NP (NNS )(NN ))))
+Phase: generated51250
+Input: Token
+Rule: generated51250
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == NNS })({ Token.category == NN }))))):pttrn51250 --> :pttrn51250.extracted={}
+

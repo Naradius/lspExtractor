@@ -1,0 +1,8 @@
+their CHs
+(NP (PRP$ )(NNP ))
+Phase: generated4505
+Input: Token
+Rule: generated4505
+(
+(({ Token.category == PRP$ })({ Token.category == NNP }))):pttrn4505 --> :pttrn4505.extracted={}
+

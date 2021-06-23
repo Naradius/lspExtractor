@@ -1,0 +1,8 @@
+the backtracking time
+(NP (DT )(JJ )(NN ))
+Phase: generated61633
+Input: Token
+Rule: generated61633
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn61633 --> :pttrn61633.extracted={}
+

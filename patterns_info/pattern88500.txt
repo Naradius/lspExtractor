@@ -1,0 +1,8 @@
+in the newly createdphrasal text unit
+(PP (IN )(NP (DT )(ADJP (RB )(JJ ))(NN ){1,2}))
+Phase: generated88500
+Input: Token
+Rule: generated88500
+(
+(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })+))):pttrn88500 --> :pttrn88500.extracted={}
+

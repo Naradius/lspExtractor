@@ -1,0 +1,8 @@
+The performance of the current system
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated97208
+Input: Token
+Rule: generated97208
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn97208 --> :pttrn97208.extracted={}
+

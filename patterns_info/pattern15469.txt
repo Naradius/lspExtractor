@@ -1,0 +1,8 @@
+link breakages
+(NP (NN )(NNS ))
+Phase: generated15469
+Input: Token
+Rule: generated15469
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn15469 --> :pttrn15469.extracted={}
+

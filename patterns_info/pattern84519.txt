@@ -1,0 +1,8 @@
+achieve high performance on22semi-structured text, as shown later in this section
+(VP (VB )(NP (JJ )(NN )(JJ )(NN )))
+Phase: generated84519
+Input: Token
+Rule: generated84519
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })))):pttrn84519 --> :pttrn84519.extracted={}
+

@@ -1,0 +1,8 @@
+of full ontologies for a complete translation from natural language to logic language
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (PP (IN )(NP (JJ )(NN )))(PP (TO )(NP (JJ )(NN ))))))))
+Phase: generated118643
+Input: Token
+Rule: generated118643
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn118643 --> :pttrn118643.extracted={}
+

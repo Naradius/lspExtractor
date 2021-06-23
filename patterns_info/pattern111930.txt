@@ -1,0 +1,8 @@
+test the computation limit by increasing theindow-sliding frequency
+(VP (VB )(NP (DT )(NN ){1,2})(PP (IN )(VP (VBG )(NP (DT )(NN )))))
+Phase: generated111930
+Input: Token
+Rule: generated111930
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))))):pttrn111930 --> :pttrn111930.extracted={}
+

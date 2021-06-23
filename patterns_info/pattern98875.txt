@@ -1,0 +1,8 @@
+are the QAsystems described by Brill et al.  and Figueroa and Neumann
+(VP (VBP )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (NP (NNP ){1,2}(NN ))(CC )(NP (NNP )(CC )(NNP )))))))
+Phase: generated98875
+Input: Token
+Rule: generated98875
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))))))):pttrn98875 --> :pttrn98875.extracted={}
+

@@ -1,0 +1,8 @@
+a certain interval
+(NP (DT )(JJ )(NN ))
+Phase: generated20905
+Input: Token
+Rule: generated20905
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn20905 --> :pttrn20905.extracted={}
+

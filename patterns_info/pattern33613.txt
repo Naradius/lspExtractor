@@ -1,0 +1,8 @@
+establish the path set between the source node and the destination node
+(VP (VB )(NP (NP (DT )(NN )(VBN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(NN ){1,2})))))
+Phase: generated33613
+Input: Token
+Rule: generated33613
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == VBN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn33613 --> :pttrn33613.extracted={}
+

@@ -1,0 +1,8 @@
+assumedto follow an isotropic propagation
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))))
+Phase: generated7958
+Input: Token
+Rule: generated7958
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn7958 --> :pttrn7958.extracted={}
+

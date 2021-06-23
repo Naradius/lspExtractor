@@ -1,0 +1,8 @@
+is a special character or a number then that feature should be removed
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(CC )(NP (DT )(NN )))(IN ))
+Phase: generated85269
+Input: Token
+Rule: generated85269
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == IN }))):pttrn85269 --> :pttrn85269.extracted={}
+

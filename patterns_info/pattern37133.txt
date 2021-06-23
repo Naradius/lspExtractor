@@ -1,0 +1,8 @@
+theblock gap
+(NP (DT )(NN ))
+Phase: generated37133
+Input: Token
+Rule: generated37133
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn37133 --> :pttrn37133.extracted={}
+

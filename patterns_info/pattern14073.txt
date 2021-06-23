@@ -1,0 +1,8 @@
+the overhead
+(NP (DT )(NN ))
+Phase: generated14073
+Input: Token
+Rule: generated14073
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn14073 --> :pttrn14073.extracted={}
+

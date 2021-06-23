@@ -1,0 +1,8 @@
+to emulate virtual nodes that remain in known grid locations, as shown in Fig. 1
+(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(VP (VBP )(PP (IN )(NP (JJ )(NN )(NNS )))))))
+Phase: generated12880
+Input: Token
+Rule: generated12880
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn12880 --> :pttrn12880.extracted={}
+

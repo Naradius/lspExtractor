@@ -1,0 +1,8 @@
+this first evaluation, k sensor nodesre
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated66702
+Input: Token
+Rule: generated66702
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn66702 --> :pttrn66702.extracted={}
+

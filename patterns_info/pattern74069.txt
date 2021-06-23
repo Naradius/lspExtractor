@@ -1,0 +1,8 @@
+are then used to identify new examples
+(VP (VBP )(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NNS ))))))
+Phase: generated74069
+Input: Token
+Rule: generated74069
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn74069 --> :pttrn74069.extracted={}
+

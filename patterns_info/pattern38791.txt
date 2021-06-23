@@ -1,0 +1,8 @@
+the ad hoc nature ofsuch systems as well as emerging complex threats such as botnets
+(NP (NP (DT )(NN )(JJ )(NN )(JJ )(NNS ))(CONJP (RB ){1,2}(IN ))(VP (VBG )(NP (NP (JJ )(NNS ))(PP (JJ )(IN )))))
+Phase: generated38791
+Input: Token
+Rule: generated38791
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == RB })+({ Token.category == IN }))(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))))):pttrn38791 --> :pttrn38791.extracted={}
+

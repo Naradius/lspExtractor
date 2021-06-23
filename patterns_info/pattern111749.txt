@@ -1,0 +1,8 @@
+flooded with packet payload data size = 100
+(VP (VBD )(PP (IN )(NP (NN ){1,2}(NNS )(NN )))(SYM ))
+Phase: generated111749
+Input: Token
+Rule: generated111749
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })({ Token.category == NN })))({ Token.category == SYM }))):pttrn111749 --> :pttrn111749.extracted={}
+

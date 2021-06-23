@@ -1,0 +1,8 @@
+the coverage quality
+(NP (DT )(NN ){1,2})
+Phase: generated68468
+Input: Token
+Rule: generated68468
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn68468 --> :pttrn68468.extracted={}
+

@@ -1,0 +1,8 @@
+be divided into three categories
+(VP (VB )(VP (VBN )(PP (IN )(NP (CD )(NNS )))))
+Phase: generated97535
+Input: Token
+Rule: generated97535
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn97535 --> :pttrn97535.extracted={}
+

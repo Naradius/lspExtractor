@@ -1,0 +1,8 @@
+by negotiation and resourceadaptation
+(PP (IN )(NP (NN )(CC )(NN )))
+Phase: generated43948
+Input: Token
+Rule: generated43948
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn43948 --> :pttrn43948.extracted={}
+

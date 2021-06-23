@@ -1,0 +1,8 @@
+pursuing Ph.D. in the Facultyof Information and Communication Engineering, AnnaUniversity Chennai in the area of Intelligent and SecureRouting Algorithms for Wireless Sensor Networks
+(VP (VBG )(PP (IN )(NP (NP (DT )(NNP ){1,2})(CC ))))
+Phase: generated60285
+Input: Token
+Rule: generated60285
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC }))))):pttrn60285 --> :pttrn60285.extracted={}
+

@@ -1,0 +1,8 @@
+malebecomes the resident lion
+(VP (VBZ )(NP (DT )(NN ){1,2}))
+Phase: generated63991
+Input: Token
+Rule: generated63991
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))):pttrn63991 --> :pttrn63991.extracted={}
+

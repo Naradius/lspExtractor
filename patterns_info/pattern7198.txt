@@ -1,0 +1,8 @@
+determine the energy spent in a cluster during each round as:EC3jN  n
+(VP (VB )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))))))
+Phase: generated7198
+Input: Token
+Rule: generated7198
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn7198 --> :pttrn7198.extracted={}
+

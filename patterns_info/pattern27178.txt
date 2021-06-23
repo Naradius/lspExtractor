@@ -1,0 +1,8 @@
+choosing a reliable path to the sink
+(VP (VBG )(NP (DT )(JJ )(NN ))(PP (TO )(NP (DT )(NN ))))
+Phase: generated27178
+Input: Token
+Rule: generated27178
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn27178 --> :pttrn27178.extracted={}
+

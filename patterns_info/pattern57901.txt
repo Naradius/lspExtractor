@@ -1,0 +1,8 @@
+An energy-balanced clustering routing protocol inwireless sensor networks.
+(NP (NP (DT )(JJ )(NN ))(VP (VBG )(NP (NN )(JJ )(NN )(NNS ))))
+Phase: generated57901
+Input: Token
+Rule: generated57901
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn57901 --> :pttrn57901.extracted={}
+

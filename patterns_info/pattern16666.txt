@@ -1,0 +1,8 @@
+our proposal does not only deliver more packetsbut also deliver them faster
+(NP (PRP$ )(NN )(VP (VBZ )(RB )(VP (VB )(NP (JJR )(NN )))))
+Phase: generated16666
+Input: Token
+Rule: generated16666
+(
+(({ Token.category == PRP$ })({ Token.category == NN })(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN })))))):pttrn16666 --> :pttrn16666.extracted={}
+

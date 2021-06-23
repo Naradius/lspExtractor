@@ -1,0 +1,8 @@
+improves the routesuccess rate
+(VP (VBZ )(NP (DT )(NN ){1,2}))
+Phase: generated35616
+Input: Token
+Rule: generated35616
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))):pttrn35616 --> :pttrn35616.extracted={}
+

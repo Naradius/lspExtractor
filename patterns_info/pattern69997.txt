@@ -1,0 +1,8 @@
+capable of generating a set of thepredetermined paths and of smelting the balanced path for every sensor node to forward the interested packages
+(ADJP (JJ )(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(PP (PP (IN )(NP (DT )(NNS )))(CC )(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))(VP (TO )(VP (VB )(NP (DT )(JJ )(NNS )))))))))))
+Phase: generated69997
+Input: Token
+Rule: generated69997
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))))))):pttrn69997 --> :pttrn69997.extracted={}
+

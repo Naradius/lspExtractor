@@ -1,0 +1,8 @@
+its ant for the nextround
+(NP (NP (PRP$ )(JJ ))(PP (IN )(NP (DT )(JJ ))))
+Phase: generated3967
+Input: Token
+Rule: generated3967
+(
+((({ Token.category == PRP$ })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ }))))):pttrn3967 --> :pttrn3967.extracted={}
+

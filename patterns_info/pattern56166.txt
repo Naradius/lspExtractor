@@ -1,0 +1,8 @@
+Lin suggestedbetter and sufficient connectivity condition that two CHs com-municate
+(NP (NP (NP (NNP )(NN ))(CC )(NP (JJ )(NN ){1,2}))(PP (IN )(NP (CD )(JJ )(NN ))))
+Phase: generated56166
+Input: Token
+Rule: generated56166
+(
+(((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))))):pttrn56166 --> :pttrn56166.extracted={}
+

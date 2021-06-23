@@ -1,0 +1,8 @@
+a token that represents a measure.CAFETIERE also takes into account the orderingof the rules
+(NP (NP (DT )(NN ))(VP (VBZ )(NP (DT )(NN ){1,2})(VP (VBZ )(NP (DT )(NN ))(NP (DT )(NNS )))))
+Phase: generated92213
+Input: Token
+Rule: generated92213
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NNS })))))):pttrn92213 --> :pttrn92213.extracted={}
+

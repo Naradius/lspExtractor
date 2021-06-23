@@ -1,0 +1,8 @@
+encourage moreinsight into the problems and more development insolutions to the open research issues as describedin this paper.References G.D. Abowd, J.P.G.
+(VP (VBP )(PP (IN )(NP (NP (DT )(NNS ))(CC )(NP (JJR )(NN )(NNS )))))
+Phase: generated45516
+Input: Token
+Rule: generated45516
+(
+(({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS })))))):pttrn45516 --> :pttrn45516.extracted={}
+

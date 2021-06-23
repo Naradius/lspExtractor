@@ -1,0 +1,8 @@
+its efficiency withFig
+(NP (PRP$ )(NN ){1,2})
+Phase: generated39680
+Input: Token
+Rule: generated39680
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn39680 --> :pttrn39680.extracted={}
+

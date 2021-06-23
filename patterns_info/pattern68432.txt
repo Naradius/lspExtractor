@@ -1,0 +1,8 @@
+minimum requirement of the sensor node number hasbeen discussed in many exiting literatures
+(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBN )(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NNS ))))))))
+Phase: generated68432
+Input: Token
+Rule: generated68432
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))))))):pttrn68432 --> :pttrn68432.extracted={}
+

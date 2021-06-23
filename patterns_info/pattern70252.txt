@@ -1,0 +1,8 @@
+used 10 searches for each category
+(VP (VBD )(NP (CD )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated70252
+Input: Token
+Rule: generated70252
+(
+(({ Token.category == VBD })(({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn70252 --> :pttrn70252.extracted={}
+

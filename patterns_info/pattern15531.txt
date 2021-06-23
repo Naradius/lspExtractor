@@ -1,0 +1,8 @@
+aggravated in VANET scenarios since our simulationsshowed that, due to the characteristic features of node mobilityin VANETs, broadcast was used much more often than inMANET settings .Plain AODV uses unicast whenever it is known which nodeis intended to receive one packet, leaving broadcast only forpackets that may be processed by any node
+(VP (VBN )(VP (VBN )(IN )))
+Phase: generated15531
+Input: Token
+Rule: generated15531
+(
+(({ Token.category == VBN })(({ Token.category == VBN })({ Token.category == IN })))):pttrn15531 --> :pttrn15531.extracted={}
+

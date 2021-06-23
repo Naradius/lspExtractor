@@ -1,0 +1,8 @@
+the Workshop on Multiword Expres-sions of the 41st Annual Meeting of the Associationof Computational Linguistics , 4149.J. Gimenez and L. Marquez
+(NP (NP (DT )(NNP ))(PP (IN )(NP (NP (NNP )(NNS ))(PP (IN )(NP (NP (DT )(JJ ){1,2}(NNP ))(PP (IN )(NP (NP (DT )(NNP ){1,2})(NP (DT )(NNP )(CC )(NNP ){1,2}))))))))
+Phase: generated106186
+Input: Token
+Rule: generated106186
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+))))))))):pttrn106186 --> :pttrn106186.extracted={}
+

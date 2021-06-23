@@ -1,0 +1,8 @@
+may reduce indexing size as much as 40-50%
+(VP (MD )(VP (VB )(NP (QP (RB )(JJ )(IN )(CD ))(NN ))))
+Phase: generated98369
+Input: Token
+Rule: generated98369
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == RB })({ Token.category == JJ })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN }))))):pttrn98369 --> :pttrn98369.extracted={}
+

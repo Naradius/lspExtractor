@@ -1,0 +1,8 @@
+of FANET secu- rity
+(PP (IN )(NP (NNP )(NNS )(NN )))
+Phase: generated112559
+Input: Token
+Rule: generated112559
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NN })))):pttrn112559 --> :pttrn112559.extracted={}
+

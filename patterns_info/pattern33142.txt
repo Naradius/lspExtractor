@@ -1,0 +1,8 @@
+of the node vkaccording
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated33142
+Input: Token
+Rule: generated33142
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn33142 --> :pttrn33142.extracted={}
+

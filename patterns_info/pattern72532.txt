@@ -1,0 +1,8 @@
+automatic discovery of a semantic relationmust start with a thorough investigation of the lexical terms andsyntactic forms
+(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN ))))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(JJ )(NNS ))))))
+Phase: generated72532
+Input: Token
+Rule: generated72532
+(
+(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn72532 --> :pttrn72532.extracted={}
+

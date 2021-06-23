@@ -1,0 +1,8 @@
+to achieve comparable delivery rates
+(VP (TO )(VP (VB )(NP (JJ )(NN )(NNS ))))
+Phase: generated41042
+Input: Token
+Rule: generated41042
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn41042 --> :pttrn41042.extracted={}
+

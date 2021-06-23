@@ -1,0 +1,8 @@
+as Mirain 2016
+(PP (IN )(NP (NNP )(CD )))
+Phase: generated65251
+Input: Token
+Rule: generated65251
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })))):pttrn65251 --> :pttrn65251.extracted={}
+

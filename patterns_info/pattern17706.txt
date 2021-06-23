@@ -1,0 +1,8 @@
+intermediate relay discovery
+(NP (JJ )(NN ){1,2})
+Phase: generated17706
+Input: Token
+Rule: generated17706
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn17706 --> :pttrn17706.extracted={}
+

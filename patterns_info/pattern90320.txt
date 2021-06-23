@@ -1,0 +1,8 @@
+the subject and object
+(NP (DT )(NN )(CC )(NN ))
+Phase: generated90320
+Input: Token
+Rule: generated90320
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn90320 --> :pttrn90320.extracted={}
+

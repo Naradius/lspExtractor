@@ -1,0 +1,8 @@
+the combination of fuzzy logic and ACO algorithm
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (NNP )(NN )))))
+Phase: generated12367
+Input: Token
+Rule: generated12367
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn12367 --> :pttrn12367.extracted={}
+

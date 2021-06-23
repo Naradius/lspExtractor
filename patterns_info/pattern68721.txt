@@ -1,0 +1,8 @@
+store the present position as one of thecandidates.Step 2. For each copy cat, according to CDC, randomly plusor minus SRD percent values and replace the old ones
+(VP (VP (PP (IN )(NP (DT )(NN ){1,2}))(PP (VBG )(PP (TO )(NP (ADVP (RB )(CC ))(PP (CC )(NP (NNP )(NN )(NNS )))))))(CC )(VP (VB )(NP (DT )(JJ )(NNS ))))
+Phase: generated68721
+Input: Token
+Rule: generated68721
+(
+(((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == RB })({ Token.category == CC }))(({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))))))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn68721 --> :pttrn68721.extracted={}
+

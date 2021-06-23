@@ -1,0 +1,8 @@
+that the transmission range of a single sensornode
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated69207
+Input: Token
+Rule: generated69207
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn69207 --> :pttrn69207.extracted={}
+

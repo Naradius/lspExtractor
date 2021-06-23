@@ -1,0 +1,8 @@
+POS tag in the text =
+(NP (NP (NNP )(NN ))(PP (IN )(NP (DT )(NN )(SYM ))))
+Phase: generated96947
+Input: Token
+Rule: generated96947
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == SYM }))))):pttrn96947 --> :pttrn96947.extracted={}
+

@@ -1,0 +1,8 @@
+of QoS-PSO algorithm
+(PP (IN )(NP (NNP )(NN )))
+Phase: generated33763
+Input: Token
+Rule: generated33763
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn33763 --> :pttrn33763.extracted={}
+

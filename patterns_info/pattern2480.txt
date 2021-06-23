@@ -1,0 +1,8 @@
+to the changes and exhibit the best throughput values.As one can see from Fig
+(PP (TO )(NP (NP (DT )(NNS ))(CC )(VBP )(NP (DT )(JJS )(NN ){1,2})))
+Phase: generated2480
+Input: Token
+Rule: generated2480
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+)))):pttrn2480 --> :pttrn2480.extracted={}
+

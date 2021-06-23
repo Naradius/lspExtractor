@@ -1,0 +1,8 @@
+on Empirical methods
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated101311
+Input: Token
+Rule: generated101311
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn101311 --> :pttrn101311.extracted={}
+

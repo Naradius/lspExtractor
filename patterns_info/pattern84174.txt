@@ -1,0 +1,8 @@
+as the ocialMUC-6 conference test set
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated84174
+Input: Token
+Rule: generated84174
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn84174 --> :pttrn84174.extracted={}
+

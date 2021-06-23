@@ -1,0 +1,8 @@
+a lexico-syntactic overlap between the pattern and the fragment
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN )))))
+Phase: generated99700
+Input: Token
+Rule: generated99700
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))))):pttrn99700 --> :pttrn99700.extracted={}
+

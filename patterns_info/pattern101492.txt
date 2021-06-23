@@ -1,0 +1,8 @@
+on Question Generation, 2009.Feiyu Xu, Hans Uszkoreit, Sebastian Krause, and Hong Li
+(PP (IN )(NP (NP (NNP ){1,2}(CD )(NNP ){1,2})(CC )))
+Phase: generated101492
+Input: Token
+Rule: generated101492
+(
+(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNP })+)({ Token.category == CC })))):pttrn101492 --> :pttrn101492.extracted={}
+

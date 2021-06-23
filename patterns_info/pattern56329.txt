@@ -1,0 +1,8 @@
+network size increases
+(NP (NN ){1,2}(NNS ))
+Phase: generated56329
+Input: Token
+Rule: generated56329
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn56329 --> :pttrn56329.extracted={}
+

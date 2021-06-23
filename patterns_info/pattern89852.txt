@@ -1,0 +1,8 @@
+loadedinto the Feature Editor Area that was shown in figure 5.1, where their textual values can bechanged .Chapter 6Knowledge-base in place ofgazetteerThis chapter describes planned rather than current capabilities of the Cafetiere system
+(PP (IN )(NP (NP (DT )(NNP ){1,2})(VP (VBD )(VP (VBN )(PP (IN )(NP (NP (NN )(CD ))(WHADVP (WRB ))))))))
+Phase: generated89852
+Input: Token
+Rule: generated89852
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == WRB }))))))))):pttrn89852 --> :pttrn89852.extracted={}
+

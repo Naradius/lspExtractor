@@ -1,0 +1,8 @@
+a classification task thatdetermines
+(NP (DT )(NN ){1,2}(NNS ))
+Phase: generated95792
+Input: Token
+Rule: generated95792
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))):pttrn95792 --> :pttrn95792.extracted={}
+

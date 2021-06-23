@@ -1,0 +1,8 @@
+The waiting time for the link to be connected; Buffer time: The waiting time during which the message is stored inthe buffer; Transmission Time: The time to deliver the message from the bufferto the link; Delay: The time for the message to cross the link.We
+(NP (NP (NNP )(NN ))(NP (NP (NP (DT )(VBG )(NN ))(NP (DT )(NN )))(NP (NP (DT )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN )))))(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(VP (TO )(VP (VB )(NP (DT )(NN )))))))
+Phase: generated42323
+Input: Token
+Rule: generated42323
+(
+((({ Token.category == NNP })({ Token.category == NN }))(((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn42323 --> :pttrn42323.extracted={}
+

@@ -1,0 +1,8 @@
+a particular type
+(NP (DT )(JJ )(NN ))
+Phase: generated113534
+Input: Token
+Rule: generated113534
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn113534 --> :pttrn113534.extracted={}
+

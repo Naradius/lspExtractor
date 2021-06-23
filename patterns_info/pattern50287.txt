@@ -1,0 +1,8 @@
+use a slotted CSMA/CA  a contention-freeT.
+(VP (VBP )(NP (NP (DT )(JJ )(NNP ))(NP (DT )(NN ))))
+Phase: generated50287
+Input: Token
+Rule: generated50287
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == DT })({ Token.category == NN }))))):pttrn50287 --> :pttrn50287.extracted={}
+

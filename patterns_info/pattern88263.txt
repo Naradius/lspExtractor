@@ -1,0 +1,8 @@
+The comment lines
+(NP (DT )(NN )(NNS ))
+Phase: generated88263
+Input: Token
+Rule: generated88263
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn88263 --> :pttrn88263.extracted={}
+

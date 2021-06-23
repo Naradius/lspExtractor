@@ -1,0 +1,8 @@
+of packetdelivery rate
+(PP (IN )(NP (DT )(NN )))
+Phase: generated11671
+Input: Token
+Rule: generated11671
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn11671 --> :pttrn11671.extracted={}
+

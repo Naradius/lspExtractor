@@ -1,0 +1,8 @@
+for the fact that the PNstypically stay within the region covered by one VN for a limitedtime only
+(PP (IN )(NP (DT )(NN )))
+Phase: generated14164
+Input: Token
+Rule: generated14164
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn14164 --> :pttrn14164.extracted={}
+

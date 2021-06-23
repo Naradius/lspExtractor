@@ -1,0 +1,8 @@
+swarm optimization
+(NP (JJ )(NN ))
+Phase: generated65039
+Input: Token
+Rule: generated65039
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn65039 --> :pttrn65039.extracted={}
+

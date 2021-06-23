@@ -1,0 +1,8 @@
+the entity pairs
+(NP (DT )(NN )(NNS ))
+Phase: generated76306
+Input: Token
+Rule: generated76306
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn76306 --> :pttrn76306.extracted={}
+

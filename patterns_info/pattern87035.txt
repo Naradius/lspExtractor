@@ -1,0 +1,8 @@
+with stop-wordsfiltering and stemming
+(PP (IN )(NP (NN )(CC )(NN )))
+Phase: generated87035
+Input: Token
+Rule: generated87035
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn87035 --> :pttrn87035.extracted={}
+

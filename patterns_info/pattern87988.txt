@@ -1,0 +1,8 @@
+strings or numbers, or disjunctions of stringsor numbers
+(NP (NP (NNS )(CC )(NNS ))(CC ))
+Phase: generated87988
+Input: Token
+Rule: generated87988
+(
+((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))({ Token.category == CC }))):pttrn87988 --> :pttrn87988.extracted={}
+

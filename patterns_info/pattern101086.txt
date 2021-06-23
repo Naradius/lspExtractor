@@ -1,0 +1,8 @@
+the correctness of the usersanswer
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated101086
+Input: Token
+Rule: generated101086
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn101086 --> :pttrn101086.extracted={}
+

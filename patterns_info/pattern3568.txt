@@ -1,0 +1,8 @@
+a Voronoi tessellation
+(NP (DT )(NNP )(NN ))
+Phase: generated3568
+Input: Token
+Rule: generated3568
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn3568 --> :pttrn3568.extracted={}
+

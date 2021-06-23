@@ -1,0 +1,8 @@
+a rule such as :-$sub:= %$obj:=to discover each and every existing product rela-tion
+(NP (NP (DT )(NN ))(PP (JJ )(IN )(NP (JJ )(NN ){1,2})))
+Phase: generated94480
+Input: Token
+Rule: generated94480
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn94480 --> :pttrn94480.extracted={}
+

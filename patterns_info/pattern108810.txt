@@ -1,0 +1,8 @@
+on the less delay
+(PP (IN )(NP (DT )(JJR )(NN )))
+Phase: generated108810
+Input: Token
+Rule: generated108810
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })))):pttrn108810 --> :pttrn108810.extracted={}
+

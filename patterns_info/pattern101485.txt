@@ -1,0 +1,8 @@
+openlearn study units
+(NP (JJ )(NN )(NNS ))
+Phase: generated101485
+Input: Token
+Rule: generated101485
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn101485 --> :pttrn101485.extracted={}
+

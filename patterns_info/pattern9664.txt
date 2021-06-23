@@ -1,0 +1,8 @@
+wireless ad hoc and sensor networks
+(NP (JJ )(NN ){1,2}(CC )(NN )(NNS ))
+Phase: generated9664
+Input: Token
+Rule: generated9664
+(
+(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn9664 --> :pttrn9664.extracted={}
+

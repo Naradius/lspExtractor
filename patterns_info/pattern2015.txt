@@ -1,0 +1,8 @@
+proactive and reactive protocols
+(NP (JJ )(CC )(JJ )(NNS ))
+Phase: generated2015
+Input: Token
+Rule: generated2015
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS }))):pttrn2015 --> :pttrn2015.extracted={}
+

@@ -1,0 +1,8 @@
+the 7th annual conference on Genetic and evolutionary computation, 2005, pp
+(NP (NP (DT )(NNP )(JJ )(NN ))(PP (IN )(NP (JJ )(CC )(JJ )(NN )(CD )(NN ))))
+Phase: generated2643
+Input: Token
+Rule: generated2643
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD })({ Token.category == NN }))))):pttrn2643 --> :pttrn2643.extracted={}
+

@@ -1,0 +1,8 @@
+to the homo-geneous multiplex data
+(PP (TO )(NP (DT )(JJ ){1,2}(NNS )))
+Phase: generated29513
+Input: Token
+Rule: generated29513
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))):pttrn29513 --> :pttrn29513.extracted={}
+

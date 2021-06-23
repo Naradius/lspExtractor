@@ -1,0 +1,8 @@
+web pages for various domestic and international
+(NP (NP (NN )(NNS ))(PP (IN )(NP (JJ ){1,2}(CC )(JJ ))))
+Phase: generated84017
+Input: Token
+Rule: generated84017
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ }))))):pttrn84017 --> :pttrn84017.extracted={}
+

@@ -1,0 +1,8 @@
+an uppercase character
+(NP (DT )(JJ )(NN ))
+Phase: generated92779
+Input: Token
+Rule: generated92779
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn92779 --> :pttrn92779.extracted={}
+

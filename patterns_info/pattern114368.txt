@@ -1,0 +1,8 @@
+to indicate a structure of a dialogue or a conflict
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN )))))))
+Phase: generated114368
+Input: Token
+Rule: generated114368
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn114368 --> :pttrn114368.extracted={}
+

@@ -1,0 +1,8 @@
+IoT devices,Mechanical Systems and Signal Processing
+(NP (NP (NNP )(NNS ))(NP (NNP )(NNPS ))(CC ))
+Phase: generated38639
+Input: Token
+Rule: generated38639
+(
+((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == NNP })({ Token.category == NNPS }))({ Token.category == CC }))):pttrn38639 --> :pttrn38639.extracted={}
+

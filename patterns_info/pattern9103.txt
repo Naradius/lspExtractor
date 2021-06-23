@@ -1,0 +1,8 @@
+Genetic and Evolutionary Computation, June 2005,pp
+(NP (NP (NNP )(CC )(NNP ){1,2})(NP (NNP )(CD )))
+Phase: generated9103
+Input: Token
+Rule: generated9103
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)(({ Token.category == NNP })({ Token.category == CD })))):pttrn9103 --> :pttrn9103.extracted={}
+

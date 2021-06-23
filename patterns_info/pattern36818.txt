@@ -1,0 +1,8 @@
+trusttypes and behaviors
+(NP (NNS )(CC )(NNS ))
+Phase: generated36818
+Input: Token
+Rule: generated36818
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn36818 --> :pttrn36818.extracted={}
+

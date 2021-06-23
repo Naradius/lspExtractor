@@ -1,0 +1,8 @@
+the contribution of PT increases from 12%
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))(PP (IN )(NP (CD )(NN ))))
+Phase: generated115403
+Input: Token
+Rule: generated115403
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn115403 --> :pttrn115403.extracted={}
+

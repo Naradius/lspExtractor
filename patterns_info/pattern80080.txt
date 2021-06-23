@@ -1,0 +1,8 @@
+the two other systems
+(NP (DT )(CD )(JJ )(NNS ))
+Phase: generated80080
+Input: Token
+Rule: generated80080
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn80080 --> :pttrn80080.extracted={}
+

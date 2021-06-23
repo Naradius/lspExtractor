@@ -1,0 +1,8 @@
+finds the optimal routing paths de-pending upon the network scenario
+(VP (VBZ )(NP (DT )(JJ )(NN )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated65703
+Input: Token
+Rule: generated65703
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn65703 --> :pttrn65703.extracted={}
+

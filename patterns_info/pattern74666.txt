@@ -1,0 +1,8 @@
+the OBA annotator11 and theMetaMap
+(NP (DT )(NNP )(NN )(CC )(NN ))
+Phase: generated74666
+Input: Token
+Rule: generated74666
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn74666 --> :pttrn74666.extracted={}
+

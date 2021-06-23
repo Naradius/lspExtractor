@@ -1,0 +1,8 @@
+a longer period than the other two algorithms.his is because, for longer network period the energy of the nodesre very important
+(NP (NP (DT )(JJR )(NN ))(PP (IN )(NP (NP (DT )(JJ )(CD )(NNS ))(VP (VBZ )(PP (IN )(NP (RBR )(NN ){1,2}))(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(ADJP (RB )(JJ )))))))))
+Phase: generated59896
+Input: Token
+Rule: generated59896
+(
+((({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == RBR })({ Token.category == NN })+))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == RB })({ Token.category == JJ })))))))))):pttrn59896 --> :pttrn59896.extracted={}
+

@@ -1,0 +1,8 @@
+applicationsstart with a letter  when evaluating the systems.BaselinesWe compared our system with the OBA annotator11 and theMetaMap
+(VP (VB )(PP (IN )(NP (DT )(NN ))))
+Phase: generated74673
+Input: Token
+Rule: generated74673
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn74673 --> :pttrn74673.extracted={}
+

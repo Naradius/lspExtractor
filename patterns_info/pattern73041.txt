@@ -1,0 +1,8 @@
+such a case
+(NP (JJ )(DT )(NN ))
+Phase: generated73041
+Input: Token
+Rule: generated73041
+(
+(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN }))):pttrn73041 --> :pttrn73041.extracted={}
+

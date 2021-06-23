@@ -1,0 +1,8 @@
+be large enough to ruleout randomness, as the F1 measure for a randomclassifier  isa lot less than 0.5 due to the fact that events areseldomly occurring in a news item
+(VP (VB )(ADJP (JJ )(RB )(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))(NP (QP (JJR )(IN )(CD ))(ADJP (JJ )(PP (TO )(NP (DT )(NN )))))))))))
+Phase: generated94039
+Input: Token
+Rule: generated94039
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == RB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn94039 --> :pttrn94039.extracted={}
+

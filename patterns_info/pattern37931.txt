@@ -1,0 +1,8 @@
+an IDS node vs the Number of malicious packets
+(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated37931
+Input: Token
+Rule: generated37931
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn37931 --> :pttrn37931.extracted={}
+

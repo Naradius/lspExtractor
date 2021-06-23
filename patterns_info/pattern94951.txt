@@ -1,0 +1,8 @@
+manu-Corresponding author
+(NP (JJ )(NN ))
+Phase: generated94951
+Input: Token
+Rule: generated94951
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn94951 --> :pttrn94951.extracted={}
+

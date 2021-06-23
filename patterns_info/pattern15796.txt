@@ -1,0 +1,8 @@
+the neighboring leaders
+(NP (DT )(JJ )(NNS ))
+Phase: generated15796
+Input: Token
+Rule: generated15796
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn15796 --> :pttrn15796.extracted={}
+

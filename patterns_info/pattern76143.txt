@@ -1,0 +1,8 @@
+perform dependency parsing on the re-maining sentences, which uses a very fast parser with highaccuracy
+(VP (VB )(NP (NN )(VBG ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(VP (VBZ )(NP (DT )(ADJP (RB )(JJ ))(NN ))))))
+Phase: generated76143
+Input: Token
+Rule: generated76143
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == VBG }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))))))):pttrn76143 --> :pttrn76143.extracted={}
+

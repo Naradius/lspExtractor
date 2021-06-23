@@ -1,0 +1,8 @@
+Service  attacks
+(NP (NNP )(NNS ))
+Phase: generated112776
+Input: Token
+Rule: generated112776
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn112776 --> :pttrn112776.extracted={}
+

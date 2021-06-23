@@ -1,0 +1,8 @@
+extract, each enclosedin curly brackets
+(VP (VB )(NP (DT )(JJ ){1,2}(NNS )))
+Phase: generated82927
+Input: Token
+Rule: generated82927
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))):pttrn82927 --> :pttrn82927.extracted={}
+

@@ -1,0 +1,8 @@
+cost of current position of theith lion in nomads and the best cost of the nomad lion
+(NP (CC )(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated64493
+Input: Token
+Rule: generated64493
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn64493 --> :pttrn64493.extracted={}
+

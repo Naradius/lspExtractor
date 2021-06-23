@@ -1,0 +1,8 @@
+The main steps of the LOA
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated64711
+Input: Token
+Rule: generated64711
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn64711 --> :pttrn64711.extracted={}
+

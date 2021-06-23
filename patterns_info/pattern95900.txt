@@ -1,0 +1,8 @@
+was compared to a base-line rule-based system that does not use syntac-tic information
+(VP (VBD )(VP (VBN )(PP (TO )(NP (NP (DT )(NN )(JJ )(NN ))(VP (VBZ )(RB )(VP (VB )(NP (JJ )(NN ))))))))
+Phase: generated95900
+Input: Token
+Rule: generated95900
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn95900 --> :pttrn95900.extracted={}
+

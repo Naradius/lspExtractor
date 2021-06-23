@@ -1,0 +1,8 @@
+all nodes dying at about the same time, as the antsare mostly well distributed
+(NP (NP (DT )(NNS ))(VP (VBG )(PP (IN )(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated7795
+Input: Token
+Rule: generated7795
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn7795 --> :pttrn7795.extracted={}
+

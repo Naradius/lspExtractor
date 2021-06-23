@@ -1,0 +1,8 @@
+primary receivers and other hidden/exposed IoT devices.growing
+(NP (NP (NP (JJ )(NNS ))(CC )(NP (JJ ){1,2}(NN )(NNS )))(VBG ))
+Phase: generated21275
+Input: Token
+Rule: generated21275
+(
+(((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })))({ Token.category == VBG }))):pttrn21275 --> :pttrn21275.extracted={}
+

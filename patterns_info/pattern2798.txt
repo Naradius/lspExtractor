@@ -1,0 +1,8 @@
+complex optimization optimal solution
+(NP (JJ )(NN )(JJ )(NN ))
+Phase: generated2798
+Input: Token
+Rule: generated2798
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))):pttrn2798 --> :pttrn2798.extracted={}
+

@@ -1,0 +1,8 @@
+depicts the average number of hop counts for the studiedprotocol under DRHT and TSP.
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (NNP )(CC )(NNP ))))
+Phase: generated43446
+Input: Token
+Rule: generated43446
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn43446 --> :pttrn43446.extracted={}
+

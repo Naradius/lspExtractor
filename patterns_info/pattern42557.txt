@@ -1,0 +1,8 @@
+the delivery rate of the bundles for each pro-tocol according to the density of the network
+(NP (NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS ))))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated42557
+Input: Token
+Rule: generated42557
+(
+(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn42557 --> :pttrn42557.extracted={}
+

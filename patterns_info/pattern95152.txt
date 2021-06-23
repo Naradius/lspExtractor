@@ -1,0 +1,8 @@
+In we extend the Hermes news processing frameworkby adding triple-based lexico-semantic event rulesthat make use of ontological concepts, in order to beable to recognize economic events.
+(PP (IN )(VP (VBP )(NP (DT )(NNP )(NN ){1,2})))
+Phase: generated95152
+Input: Token
+Rule: generated95152
+(
+(({ Token.category == IN })(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))):pttrn95152 --> :pttrn95152.extracted={}
+

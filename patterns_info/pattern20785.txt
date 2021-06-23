@@ -1,0 +1,8 @@
+is furtherforwarded to the Resource Provisioning service to deter-mine application resource requirements
+(VP (VBZ )(VP (VBN )(PP (TO )(NP (DT )(NNP ){1,2}(NN )))(VP (TO )(VP (VB )(NP (NN ){1,2}(NNS ))))))
+Phase: generated20785
+Input: Token
+Rule: generated20785
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn20785 --> :pttrn20785.extracted={}
+

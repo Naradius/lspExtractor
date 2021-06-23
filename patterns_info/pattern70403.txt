@@ -1,0 +1,8 @@
+be well suited for text learning tasks
+(VP (VB )(ADJP (RB )(VBN )(PP (IN )(NP (NN ){1,2}(NNS )))))
+Phase: generated70403
+Input: Token
+Rule: generated70403
+(
+(({ Token.category == VB })(({ Token.category == RB })({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))))):pttrn70403 --> :pttrn70403.extracted={}
+

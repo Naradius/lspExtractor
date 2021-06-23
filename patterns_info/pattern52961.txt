@@ -1,0 +1,8 @@
+IEEE Global Telecommunications Conference, Miami, 2010, pp.15
+(NP (NP (NN )(NNP ){1,2})(NP (NNP )(CD )))
+Phase: generated52961
+Input: Token
+Rule: generated52961
+(
+((({ Token.category == NN })({ Token.category == NNP })+)(({ Token.category == NNP })({ Token.category == CD })))):pttrn52961 --> :pttrn52961.extracted={}
+

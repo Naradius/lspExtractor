@@ -1,0 +1,8 @@
+consumed in each cluster in each round then the totalenergy consumed in each round can be formulated as follows:Etotal  E1mE2bmE3where m is the data collection time when nodes are in the workingstage, b is the ratio of cluster maintenance time to the datacollection time
+(VP (VBN )(PP (IN )(NP (DT )(NN ))){1,2}(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated54116
+Input: Token
+Rule: generated54116
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn54116 --> :pttrn54116.extracted={}
+

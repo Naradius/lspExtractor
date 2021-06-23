@@ -1,0 +1,8 @@
+graph elements
+(NP (NN )(NNS ))
+Phase: generated104208
+Input: Token
+Rule: generated104208
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn104208 --> :pttrn104208.extracted={}
+

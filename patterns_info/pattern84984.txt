@@ -1,0 +1,8 @@
+going to implement any operation on the text data
+(VP (VBG )(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(NNS ))))))
+Phase: generated84984
+Input: Token
+Rule: generated84984
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn84984 --> :pttrn84984.extracted={}
+

@@ -1,0 +1,8 @@
+propose a model to optimize the numberof HDRP replications
+(VP (VBP )(NP (DT )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN )(NNP )(NNS )))))
+Phase: generated41589
+Input: Token
+Rule: generated41589
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NNS })))))):pttrn41589 --> :pttrn41589.extracted={}
+

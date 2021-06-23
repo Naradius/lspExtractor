@@ -1,0 +1,8 @@
+a case study
+(NP (DT )(NN ){1,2})
+Phase: generated9108
+Input: Token
+Rule: generated9108
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn9108 --> :pttrn9108.extracted={}
+

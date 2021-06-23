@@ -1,0 +1,8 @@
+DIO DODAG Information Obje ct
+(NP (NNP ){1,2}(NN ))
+Phase: generated25202
+Input: Token
+Rule: generated25202
+(
+(({ Token.category == NNP })+({ Token.category == NN }))):pttrn25202 --> :pttrn25202.extracted={}
+

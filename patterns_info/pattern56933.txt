@@ -1,0 +1,8 @@
+C3Ralgorithm and this algorithm
+(NP (CC )(NP (DT )(NN )))
+Phase: generated56933
+Input: Token
+Rule: generated56933
+(
+(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))):pttrn56933 --> :pttrn56933.extracted={}
+

@@ -1,0 +1,8 @@
+the leader of neighboring region B
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNP ))))
+Phase: generated15144
+Input: Token
+Rule: generated15144
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))))):pttrn15144 --> :pttrn15144.extracted={}
+

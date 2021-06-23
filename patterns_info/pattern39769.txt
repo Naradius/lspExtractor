@@ -1,0 +1,8 @@
+will be important to decide if an event is malicious or non-malicious
+(VP (MD )(VP (VB )(ADJP (JJ )(VP (TO )(VP (VB )(IN ))))))
+Phase: generated39769
+Input: Token
+Rule: generated39769
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN }))))))):pttrn39769 --> :pttrn39769.extracted={}
+

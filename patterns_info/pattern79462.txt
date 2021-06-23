@@ -1,0 +1,8 @@
+IE systems
+(NP (NNP )(NNS ))
+Phase: generated79462
+Input: Token
+Rule: generated79462
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn79462 --> :pttrn79462.extracted={}
+

@@ -1,0 +1,8 @@
+the correlation task which directly affects the effectiveness of theoverall intrusion detection process
+(NP (NP (DT )(NN ){1,2})(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated38471
+Input: Token
+Rule: generated38471
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn38471 --> :pttrn38471.extracted={}
+

@@ -1,0 +1,8 @@
+to learning text extraction rules
+(PP (TO )(VP (VBG )(NP (NN ){1,2}(NNS ))))
+Phase: generated80943
+Input: Token
+Rule: generated80943
+(
+(({ Token.category == TO })(({ Token.category == VBG })(({ Token.category == NN })+({ Token.category == NNS }))))):pttrn80943 --> :pttrn80943.extracted={}
+

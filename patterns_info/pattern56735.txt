@@ -1,0 +1,8 @@
+can beaggregated by SNs rather than sending the original data to theBS as discussed above
+(VP (MD )(VP (CONJP (RB )(IN ))(VP (VBG )(NP (DT )(JJ )(NNS ))(IN ))))
+Phase: generated56735
+Input: Token
+Rule: generated56735
+(
+(({ Token.category == MD })((({ Token.category == RB })({ Token.category == IN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == IN }))))):pttrn56735 --> :pttrn56735.extracted={}
+

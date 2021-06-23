@@ -1,0 +1,8 @@
+node mobility and failure
+(VP (VB )(NP (NN )(CC )(NN )))
+Phase: generated44524
+Input: Token
+Rule: generated44524
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn44524 --> :pttrn44524.extracted={}
+

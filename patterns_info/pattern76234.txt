@@ -1,0 +1,8 @@
+the FREEBASE entities Ran-dolph
+(NP (DT )(NNP )(NNS )(NNP ))
+Phase: generated76234
+Input: Token
+Rule: generated76234
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NNP }))):pttrn76234 --> :pttrn76234.extracted={}
+

@@ -1,0 +1,8 @@
+a new nature-inspired metaheur-istic
+(NP (DT )(JJ ){1,2})
+Phase: generated63533
+Input: Token
+Rule: generated63533
+(
+(({ Token.category == DT })({ Token.category == JJ })+)):pttrn63533 --> :pttrn63533.extracted={}
+

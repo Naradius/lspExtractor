@@ -1,0 +1,8 @@
+leach protocolfor wireless sensor network
+(NP (JJ )(NN )(JJ )(NN ){1,2})
+Phase: generated58030
+Input: Token
+Rule: generated58030
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)):pttrn58030 --> :pttrn58030.extracted={}
+

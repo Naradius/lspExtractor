@@ -1,0 +1,8 @@
+to the wired technology
+(PP (TO )(NP (DT )(VBN )(NN )))
+Phase: generated9404
+Input: Token
+Rule: generated9404
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))):pttrn9404 --> :pttrn9404.extracted={}
+

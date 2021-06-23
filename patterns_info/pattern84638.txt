@@ -1,0 +1,8 @@
+to nd a left and right delimiter.5.1.3
+(VP (TO )(VP (VB )(NP (DT )(JJ )(CC )(JJ )(NN ))))
+Phase: generated84638
+Input: Token
+Rule: generated84638
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN }))))):pttrn84638 --> :pttrn84638.extracted={}
+

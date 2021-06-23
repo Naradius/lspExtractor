@@ -1,0 +1,8 @@
+the neighborhood of the basic site las
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(NNS ))))
+Phase: generated1493
+Input: Token
+Rule: generated1493
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn1493 --> :pttrn1493.extracted={}
+

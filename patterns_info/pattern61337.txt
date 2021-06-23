@@ -1,0 +1,8 @@
+improv-ng the performance
+(NP (JJ )(DT )(NN ))
+Phase: generated61337
+Input: Token
+Rule: generated61337
+(
+(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN }))):pttrn61337 --> :pttrn61337.extracted={}
+

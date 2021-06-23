@@ -1,0 +1,8 @@
+in the US Englishusage where occupational titles are more often used as honorifics than in British English
+(PP (IN )(NP (NP (DT )(NNP ){1,2})(WHADVP (WRB ))))
+Phase: generated89310
+Input: Token
+Rule: generated89310
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == WRB }))))):pttrn89310 --> :pttrn89310.extracted={}
+

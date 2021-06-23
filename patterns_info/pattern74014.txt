@@ -1,0 +1,8 @@
+in building the consumerhealth vocabularies
+(PP (IN )(VP (VBG )(NP (DT )(NN )(NNS ))))
+Phase: generated74014
+Input: Token
+Rule: generated74014
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn74014 --> :pttrn74014.extracted={}
+

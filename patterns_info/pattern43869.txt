@@ -1,0 +1,8 @@
+is a reactive technique
+(VP (VBZ )(NP (DT )(NN ){1,2}))
+Phase: generated43869
+Input: Token
+Rule: generated43869
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))):pttrn43869 --> :pttrn43869.extracted={}
+

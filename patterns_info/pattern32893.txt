@@ -1,0 +1,8 @@
+for every path
+(PP (IN )(NP (DT )(NN )))
+Phase: generated32893
+Input: Token
+Rule: generated32893
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn32893 --> :pttrn32893.extracted={}
+

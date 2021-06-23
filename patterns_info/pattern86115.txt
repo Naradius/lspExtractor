@@ -1,0 +1,8 @@
+the 18thACM conference
+(NP (DT )(JJ )(NN ))
+Phase: generated86115
+Input: Token
+Rule: generated86115
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn86115 --> :pttrn86115.extracted={}
+

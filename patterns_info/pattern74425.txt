@@ -1,0 +1,8 @@
+a combination of term frequency-inversedocument frequency  scoring, weight of the patterns,and relative frequency of the phrases in different dictionaries.The latter weighting term assigns higher weight to words thatare sub-phrases of phrases in the entitys dictionary
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (NN )(JJ )(NN ){1,2})))(CC )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NN ){1,2})))(VP (VBG )(NP (NN )(NNS ))(NP (JJR )(NN )))))))
+Phase: generated74425
+Input: Token
+Rule: generated74425
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJR })({ Token.category == NN })))))))):pttrn74425 --> :pttrn74425.extracted={}
+

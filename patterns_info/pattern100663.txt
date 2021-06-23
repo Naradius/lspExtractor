@@ -1,0 +1,8 @@
+the semantic filter
+(NP (DT )(JJ )(NN ))
+Phase: generated100663
+Input: Token
+Rule: generated100663
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn100663 --> :pttrn100663.extracted={}
+

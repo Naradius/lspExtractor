@@ -1,0 +1,8 @@
+learns the exact delimiters of the target phrase and requiresno later processing to trim away extraneous words.It is on semi-structured text that WHISK oers a denite advance
+(VP (VP (VBZ )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))(CC )(VP (VB )(VP (VBG )(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(VP (VBZ )(PP (IN )(NP (JJ )(NN ))))))))))
+Phase: generated81230
+Input: Token
+Rule: generated81230
+(
+((({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))))))):pttrn81230 --> :pttrn81230.extracted={}
+

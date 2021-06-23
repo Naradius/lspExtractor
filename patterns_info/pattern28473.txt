@@ -1,0 +1,8 @@
+based on our observations
+(PP (VBN )(PP (IN )(NP (PRP$ )(NNS ))))
+Phase: generated28473
+Input: Token
+Rule: generated28473
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))):pttrn28473 --> :pttrn28473.extracted={}
+

@@ -1,0 +1,8 @@
+cleared from allits current annotations, enabling the pipeline to re-annotate the text
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated93271
+Input: Token
+Rule: generated93271
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn93271 --> :pttrn93271.extracted={}
+

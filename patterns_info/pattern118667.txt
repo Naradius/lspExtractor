@@ -1,0 +1,8 @@
+of two NL expressions using logic formulas
+(PP (IN )(NP (NP (CD )(NNP )(NNS ))(VP (VBG )(NP (NN )(NNS )))))
+Phase: generated118667
+Input: Token
+Rule: generated118667
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn118667 --> :pttrn118667.extracted={}
+

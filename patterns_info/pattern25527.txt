@@ -1,0 +1,8 @@
+54%, 75%, and 50%espectively
+(NP (NP (CD )(NN )){1,2}(CC )(NP (CD )(RB )))
+Phase: generated25527
+Input: Token
+Rule: generated25527
+(
+((({ Token.category == CD })({ Token.category == NN }))+({ Token.category == CC })(({ Token.category == CD })({ Token.category == RB })))):pttrn25527 --> :pttrn25527.extracted={}
+

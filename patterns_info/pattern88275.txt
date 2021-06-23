@@ -1,0 +1,8 @@
+are available to view when the rules are browsed or edited in a tree viewrule display
+(VP (VBP )(ADJP (JJ )(VP (TO )(VP (VB )(WHADVP (WRB ))))))
+Phase: generated88275
+Input: Token
+Rule: generated88275
+(
+(({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == WRB }))))))):pttrn88275 --> :pttrn88275.extracted={}
+

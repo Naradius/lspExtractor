@@ -1,0 +1,8 @@
+of the QoS from the numerous paths
+(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(JJ )(NNS )))))
+Phase: generated32621
+Input: Token
+Rule: generated32621
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn32621 --> :pttrn32621.extracted={}
+

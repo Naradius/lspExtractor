@@ -1,0 +1,8 @@
+an endfont tag
+(NP (DT )(NN ){1,2})
+Phase: generated84435
+Input: Token
+Rule: generated84435
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn84435 --> :pttrn84435.extracted={}
+

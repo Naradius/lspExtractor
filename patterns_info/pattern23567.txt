@@ -1,0 +1,8 @@
+this case u = uk + uj =
+(NP (NP (DT )(NN ))(PP (IN )(NP (SYM )(NNP ){1,2}(SYM ))))
+Phase: generated23567
+Input: Token
+Rule: generated23567
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == SYM })({ Token.category == NNP })+({ Token.category == SYM }))))):pttrn23567 --> :pttrn23567.extracted={}
+

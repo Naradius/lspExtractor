@@ -1,0 +1,8 @@
+Corresponding author.E-mail address
+(NP (NNP )(NN ){1,2})
+Phase: generated36046
+Input: Token
+Rule: generated36046
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn36046 --> :pttrn36046.extracted={}
+

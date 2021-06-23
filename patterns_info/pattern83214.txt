@@ -1,0 +1,8 @@
+followed bya hyphen
+(VP (VBD )(NP (DT )(NN )))
+Phase: generated83214
+Input: Token
+Rule: generated83214
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })))):pttrn83214 --> :pttrn83214.extracted={}
+

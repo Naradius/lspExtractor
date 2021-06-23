@@ -1,0 +1,8 @@
+a failure
+(NP (DT )(NN ))
+Phase: generated14042
+Input: Token
+Rule: generated14042
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn14042 --> :pttrn14042.extracted={}
+

@@ -1,0 +1,8 @@
+is chosen as the adaptive value of a Particle SwarmOptimization algorithm to improve the overall performance of network
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NNP ){1,2}(NN )))))))
+Phase: generated32174
+Input: Token
+Rule: generated32174
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))))))):pttrn32174 --> :pttrn32174.extracted={}
+

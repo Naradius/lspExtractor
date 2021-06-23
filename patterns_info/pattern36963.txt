@@ -1,0 +1,8 @@
+used for a large numberof nodes
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )(NNS ))))
+Phase: generated36963
+Input: Token
+Rule: generated36963
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn36963 --> :pttrn36963.extracted={}
+

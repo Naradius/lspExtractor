@@ -1,0 +1,8 @@
+this kind of sensor networks
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated46851
+Input: Token
+Rule: generated46851
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn46851 --> :pttrn46851.extracted={}
+

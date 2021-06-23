@@ -1,0 +1,8 @@
+collects available autonomous cluster information, includingcluster size, gateway processing power, and network delay
+(VP (VBZ )(NP (NP (JJ ){1,2}(NN ){1,2})(CC )))
+Phase: generated34545
+Input: Token
+Rule: generated34545
+(
+(({ Token.category == VBZ })((({ Token.category == JJ })+({ Token.category == NN })+)({ Token.category == CC })))):pttrn34545 --> :pttrn34545.extracted={}
+

@@ -1,0 +1,8 @@
+control theegular nodes through the RPLs ICMPv6 control messages
+(VP (VB )(NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated27410
+Input: Token
+Rule: generated27410
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn27410 --> :pttrn27410.extracted={}
+

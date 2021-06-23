@@ -1,0 +1,8 @@
+an intrusion detection
+(NP (DT )(NN ){1,2})
+Phase: generated19455
+Input: Token
+Rule: generated19455
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn19455 --> :pttrn19455.extracted={}
+

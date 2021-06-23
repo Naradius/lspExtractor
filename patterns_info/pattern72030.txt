@@ -1,0 +1,8 @@
+Another problem associatedwith the pattern-based approaches
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated72030
+Input: Token
+Rule: generated72030
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn72030 --> :pttrn72030.extracted={}
+

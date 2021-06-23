@@ -1,0 +1,8 @@
+J. Zhang, A. Pokluda
+(NP (NNP ){1,2}(NN )(NNP ))
+Phase: generated38622
+Input: Token
+Rule: generated38622
+(
+(({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP }))):pttrn38622 --> :pttrn38622.extracted={}
+

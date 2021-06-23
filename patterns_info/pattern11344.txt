@@ -1,0 +1,8 @@
+greater energy backup and minimaldistance
+(NP (JJR )(NN ){1,2}(CC )(NN ))
+Phase: generated11344
+Input: Token
+Rule: generated11344
+(
+(({ Token.category == JJR })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn11344 --> :pttrn11344.extracted={}
+

@@ -1,0 +1,8 @@
+our label alphabet LVand LE,the language of a graph grammar gg may be decomposed into a number of sub-languagesL0
+(NP (NP (PRP$ )(NN ){1,2})(NP (NP (NNP ){1,2}(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated103380
+Input: Token
+Rule: generated103380
+(
+((({ Token.category == PRP$ })({ Token.category == NN })+)((({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn103380 --> :pttrn103380.extracted={}
+

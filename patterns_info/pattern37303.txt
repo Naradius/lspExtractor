@@ -1,0 +1,8 @@
+of cause and effect which will be beneficial inclassifying events as malicious or non-malicious.4
+(PP (IN )(NP (NP (NN )(CC )(NN ))(VP (MD )(VP (VB )(NP (JJ )(VBG )(NNS ))(PP (IN )(ADJP (JJ )(CC )(JJ )))))))
+Phase: generated37303
+Input: Token
+Rule: generated37303
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })))))))):pttrn37303 --> :pttrn37303.extracted={}
+

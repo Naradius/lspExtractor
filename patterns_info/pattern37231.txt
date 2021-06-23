@@ -1,0 +1,8 @@
+uses its own private key as the secretshare, which can distribute the secret share at the same timeas the secret distribution, without any processing in advance
+(VP (VBZ )(NP (PRP$ )(JJ ){1,2}(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (MD )(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )))(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated37231
+Input: Token
+Rule: generated37231
+(
+(({ Token.category == VBZ })(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn37231 --> :pttrn37231.extracted={}
+

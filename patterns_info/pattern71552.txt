@@ -1,0 +1,8 @@
+has been a thirst in the artificial intelligenceresearch community for a large-scale commonsense knowledge-base.To build a large-scale commonsense knowledgebase is an extre-mely complicated task and usually requires investing enormousamounts of human effort
+(VP (VBZ )(VP (VBN )(NP (NP (DT )(JJ ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ){1,2})))))))
+Phase: generated71552
+Input: Token
+Rule: generated71552
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))))):pttrn71552 --> :pttrn71552.extracted={}
+

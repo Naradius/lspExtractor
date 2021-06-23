@@ -1,0 +1,8 @@
+their neighbors outside the shaded area
+(NP (NP (PRP$ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated4216
+Input: Token
+Rule: generated4216
+(
+((({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn4216 --> :pttrn4216.extracted={}
+

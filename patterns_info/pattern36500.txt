@@ -1,0 +1,8 @@
+of the IoT,some functions of the dual-chain are outsourced to the cloudservice/fog calculation
+(PP (IN )(NP (NP (DT )(NNP )(JJ )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2})))))))
+Phase: generated36500
+Input: Token
+Rule: generated36500
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn36500 --> :pttrn36500.extracted={}
+

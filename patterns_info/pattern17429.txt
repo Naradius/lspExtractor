@@ -1,0 +1,8 @@
+the source and destination, the greedy forwarding fails and perimeter scheme resumes
+(NP (NP (DT )(NN ))(CC ))
+Phase: generated17429
+Input: Token
+Rule: generated17429
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))):pttrn17429 --> :pttrn17429.extracted={}
+

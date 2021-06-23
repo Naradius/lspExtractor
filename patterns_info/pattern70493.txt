@@ -1,0 +1,8 @@
+trained on large annotated or unannotated natural language corpora
+(VP (VBN )(PP (IN )(NP (JJ ){1,2}(CC )(JJ ){1,2}(NN ){1,2})))
+Phase: generated70493
+Input: Token
+Rule: generated70493
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })+({ Token.category == NN })+)))):pttrn70493 --> :pttrn70493.extracted={}
+

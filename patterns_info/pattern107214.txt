@@ -1,0 +1,8 @@
+to resolve the routing problems in ad hoc networks, which are roughly classified as unicast protocol, multicast protocol, broadcast protocol, and anycast protocol
+(VP (TO )(VP (VB )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NP (NN )(JJ )(NNS ))(VP (VBP )(VP (VBN )(PP (IN )(NP (CC )(NP (DT )(NN )))))))))))
+Phase: generated107214
+Input: Token
+Rule: generated107214
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn107214 --> :pttrn107214.extracted={}
+

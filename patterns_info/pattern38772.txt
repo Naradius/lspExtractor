@@ -1,0 +1,8 @@
+the underlying resource constraints and ad hoc nature of suchsystems
+(NP (NP (DT )(VBG )(NN )(NNS ))(CC ))
+Phase: generated38772
+Input: Token
+Rule: generated38772
+(
+((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn38772 --> :pttrn38772.extracted={}
+

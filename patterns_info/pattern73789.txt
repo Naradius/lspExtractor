@@ -1,0 +1,8 @@
+extracting the efficacy and side effects of bothpharmaceutical and alternative treatments
+(VP (VBG )(NP (NP (DT )(NN )(CC )(NN )(NNS ))(PP (IN )(NP (JJ )(CC )(JJ )(NNS )))))
+Phase: generated73789
+Input: Token
+Rule: generated73789
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn73789 --> :pttrn73789.extracted={}
+

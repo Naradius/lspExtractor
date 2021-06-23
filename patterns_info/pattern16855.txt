@@ -1,0 +1,8 @@
+2293come up with implementations of the VaNetLayer complying,as far as possible, with the different reference frameworks beingdiscussed, such as the Connected Vehicle Reference Implemen-tation Architecture11 or the Android environment sought by theOpen Automotive Alliance
+(VP (VBP )(PRT (RP )))
+Phase: generated16855
+Input: Token
+Rule: generated16855
+(
+(({ Token.category == VBP })(({ Token.category == RP })))):pttrn16855 --> :pttrn16855.extracted={}
+

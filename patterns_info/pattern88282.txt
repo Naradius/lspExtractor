@@ -1,0 +1,8 @@
+about the simplest usage of the rule formalism
+(PP (IN )(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated88282
+Input: Token
+Rule: generated88282
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn88282 --> :pttrn88282.extracted={}
+

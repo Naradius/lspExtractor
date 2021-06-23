@@ -1,0 +1,8 @@
+t  n m  b  v  ion of bits bt and
+(NP (PP (IN )(NP (NNS )(NN )))(CC ))
+Phase: generated66864
+Input: Token
+Rule: generated66864
+(
+((({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })))({ Token.category == CC }))):pttrn66864 --> :pttrn66864.extracted={}
+

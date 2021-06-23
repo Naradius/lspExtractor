@@ -1,0 +1,8 @@
+node 2 which are waiting to join the chain
+(NP (NP (NN )(CD ))(VP (VBP )(VP (VBG )(VP (TO )(VP (VB )(NP (DT )(NN )))))))
+Phase: generated54273
+Input: Token
+Rule: generated54273
+(
+((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn54273 --> :pttrn54273.extracted={}
+

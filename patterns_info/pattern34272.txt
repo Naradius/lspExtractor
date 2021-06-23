@@ -1,0 +1,8 @@
+a block that is determined tobe valid by a node running the new version of the protocol
+(NP (NP (DT )(NN ))(VP (VBZ )(VP (VBN )(NP (DT )(JJ ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated34272
+Input: Token
+Rule: generated34272
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn34272 --> :pttrn34272.extracted={}
+

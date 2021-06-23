@@ -1,0 +1,8 @@
+in theblockchain technology of Bitcoin application
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN )))))
+Phase: generated34394
+Input: Token
+Rule: generated34394
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn34394 --> :pttrn34394.extracted={}
+

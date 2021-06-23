@@ -1,0 +1,8 @@
+s  O  r  d  h  Fig. 6
+(VP (CC )(VP (VBD )(NP (JJ )(NNP ){1,2}(CD ))))
+Phase: generated27613
+Input: Token
+Rule: generated27613
+(
+(({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == CD }))))):pttrn27613 --> :pttrn27613.extracted={}
+

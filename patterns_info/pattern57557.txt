@@ -1,0 +1,8 @@
+the size of the data and available bandwidth the commu-nication cost may vary from very low, low, medium and high.Table 2 below provides a detailed categorization of all the existingproposals based upon the above mentioned issues.4
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))(CC ))
+Phase: generated57557
+Input: Token
+Rule: generated57557
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))({ Token.category == CC }))):pttrn57557 --> :pttrn57557.extracted={}
+

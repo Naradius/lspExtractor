@@ -1,0 +1,8 @@
+a node with this word in this form
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated112934
+Input: Token
+Rule: generated112934
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn112934 --> :pttrn112934.extracted={}
+

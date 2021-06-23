@@ -1,0 +1,8 @@
+namely cur-ent energy level of the CH
+(PP (RB )(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (DT )(NNP )))))
+Phase: generated60907
+Input: Token
+Rule: generated60907
+(
+(({ Token.category == RB })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn60907 --> :pttrn60907.extracted={}
+

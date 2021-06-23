@@ -1,0 +1,8 @@
+Ad hoc sensor nodes
+(NP (NNP )(JJ )(NN )(NNS ))
+Phase: generated65746
+Input: Token
+Rule: generated65746
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn65746 --> :pttrn65746.extracted={}
+

@@ -1,0 +1,8 @@
+its characteristics and behavior.
+(NP (NP (PRP$ )(NNS ))(CC ))
+Phase: generated109668
+Input: Token
+Rule: generated109668
+(
+((({ Token.category == PRP$ })({ Token.category == NNS }))({ Token.category == CC }))):pttrn109668 --> :pttrn109668.extracted={}
+

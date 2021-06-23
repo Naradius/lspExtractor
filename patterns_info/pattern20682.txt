@@ -1,0 +1,8 @@
+is performed at this layer to handlehe large data coming from different IoT applications and processhrough different stages such as preprocessing, classification andrediction
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(NN )))(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(VP (VP (VBG )(PP (IN )(NP (JJ )(NN )(NNS ))))(CC )(VP (VB )(NP (NP (JJ )(NNS ))(PP (JJ )(IN ))))))))))
+Phase: generated20682
+Input: Token
+Rule: generated20682
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))((({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))))))))):pttrn20682 --> :pttrn20682.extracted={}
+

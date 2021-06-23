@@ -1,0 +1,8 @@
+a crucial goal
+(NP (DT )(JJ )(NN ))
+Phase: generated16843
+Input: Token
+Rule: generated16843
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn16843 --> :pttrn16843.extracted={}
+

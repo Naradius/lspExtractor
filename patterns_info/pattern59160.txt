@@ -1,0 +1,8 @@
+a suitable CH inrder
+(NP (DT )(JJ )(NNP )(NN ))
+Phase: generated59160
+Input: Token
+Rule: generated59160
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))):pttrn59160 --> :pttrn59160.extracted={}
+

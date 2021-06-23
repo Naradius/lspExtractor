@@ -1,0 +1,8 @@
+the dimensionality
+(NP (DT )(NN ))
+Phase: generated86043
+Input: Token
+Rule: generated86043
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn86043 --> :pttrn86043.extracted={}
+

@@ -1,0 +1,8 @@
+big data: a survey, IEEE Access 6 20392054
+(NP (NP (JJ )(NNS ))(NP (NP (DT )(NN ))(NP (NN )(NNP )(CD ){1,2})))
+Phase: generated30542
+Input: Token
+Rule: generated30542
+(
+((({ Token.category == JJ })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == NN })({ Token.category == NNP })({ Token.category == CD })+)))):pttrn30542 --> :pttrn30542.extracted={}
+

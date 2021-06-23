@@ -1,0 +1,8 @@
+Its worth
+(NP (PRP$ )(NN ))
+Phase: generated110967
+Input: Token
+Rule: generated110967
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn110967 --> :pttrn110967.extracted={}
+

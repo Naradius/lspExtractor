@@ -1,0 +1,8 @@
+match the sentences from which new questions  can begenerated
+(VP (VB )(NP (NP (DT )(NNS ))(NP (JJ )(NNS ))))
+Phase: generated101583
+Input: Token
+Rule: generated101583
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn101583 --> :pttrn101583.extracted={}
+

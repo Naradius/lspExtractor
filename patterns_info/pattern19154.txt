@@ -1,0 +1,8 @@
+simulate the behavior of dif-ferent sensors, which are gathering different types of informationat IoT layer as shown in Fig. 10
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBP )(VP (VBG )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNP )(NN ))))))))))
+Phase: generated19154
+Input: Token
+Rule: generated19154
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))))))))))):pttrn19154 --> :pttrn19154.extracted={}
+

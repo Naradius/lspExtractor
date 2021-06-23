@@ -1,0 +1,8 @@
+To generate the abbreviatedname
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated76186
+Input: Token
+Rule: generated76186
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn76186 --> :pttrn76186.extracted={}
+

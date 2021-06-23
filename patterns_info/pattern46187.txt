@@ -1,0 +1,8 @@
+an integral partof military command, control, communications,computing, intelligence, surveillance, reconnaissanceand targeting  systems
+(NP (NP (DT )(JJ )(NN )(JJ )(NN ))(NP (NNS )(NN ))(CC )(NP (VBG )(NNS )))
+Phase: generated46187
+Input: Token
+Rule: generated46187
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NNS })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == VBG })({ Token.category == NNS })))):pttrn46187 --> :pttrn46187.extracted={}
+

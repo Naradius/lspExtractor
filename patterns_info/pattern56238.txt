@@ -1,0 +1,8 @@
+are having b times more energy than the type-1nodes
+(VP (VBP )(VP (VBG )(NP (NP (NN )(NNS ))(NP (NP (JJR )(NN ))(PP (IN )(NP (DT )(NNS )))))))
+Phase: generated56238
+Input: Token
+Rule: generated56238
+(
+(({ Token.category == VBP })(({ Token.category == VBG })((({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn56238 --> :pttrn56238.extracted={}
+

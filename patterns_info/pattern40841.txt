@@ -1,0 +1,8 @@
+be considerably damaged by intermediate nodes
+(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated40841
+Input: Token
+Rule: generated40841
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn40841 --> :pttrn40841.extracted={}
+

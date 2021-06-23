@@ -1,0 +1,8 @@
+a sensor field
+(NP (DT )(NN ){1,2})
+Phase: generated48292
+Input: Token
+Rule: generated48292
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn48292 --> :pttrn48292.extracted={}
+

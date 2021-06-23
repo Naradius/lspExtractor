@@ -1,0 +1,8 @@
+was used to find the routing path for the mobile nodes
+(VP (VBD )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NNS ))))))))
+Phase: generated107285
+Input: Token
+Rule: generated107285
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn107285 --> :pttrn107285.extracted={}
+

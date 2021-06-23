@@ -1,0 +1,8 @@
+denote the LHS of a pattern as follows
+(VP (VBP )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NN ))))(IN ))
+Phase: generated92708
+Input: Token
+Rule: generated92708
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == IN }))):pttrn92708 --> :pttrn92708.extracted={}
+

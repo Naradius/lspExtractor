@@ -1,0 +1,8 @@
+the GDE
+(NP (DT )(NNP ))
+Phase: generated39843
+Input: Token
+Rule: generated39843
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn39843 --> :pttrn39843.extracted={}
+

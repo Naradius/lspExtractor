@@ -1,0 +1,8 @@
+to define a robust framework to identify CA arcs in PT we are interested in distinguishing which are the most common communicative actions used in complaint scenarios
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))))
+Phase: generated118524
+Input: Token
+Rule: generated118524
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn118524 --> :pttrn118524.extracted={}
+

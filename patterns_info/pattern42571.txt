@@ -1,0 +1,8 @@
+the TTL of the bundles
+(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated42571
+Input: Token
+Rule: generated42571
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn42571 --> :pttrn42571.extracted={}
+

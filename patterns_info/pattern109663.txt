@@ -1,0 +1,8 @@
+analyze the traffic andPlease
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated109663
+Input: Token
+Rule: generated109663
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn109663 --> :pttrn109663.extracted={}
+

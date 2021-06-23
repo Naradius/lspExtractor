@@ -1,0 +1,8 @@
+thereverse agent
+(NP (DT )(NN ))
+Phase: generated33317
+Input: Token
+Rule: generated33317
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn33317 --> :pttrn33317.extracted={}
+

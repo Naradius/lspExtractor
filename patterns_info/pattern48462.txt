@@ -1,0 +1,8 @@
+task assignment anddata advertisement protocol
+(NP (NN ){1,2}(CC )(NN ){1,2})
+Phase: generated48462
+Input: Token
+Rule: generated48462
+(
+(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)):pttrn48462 --> :pttrn48462.extracted={}
+

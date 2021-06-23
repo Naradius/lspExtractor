@@ -1,0 +1,8 @@
+the struc-tured presentation of dictionary definitions
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated71968
+Input: Token
+Rule: generated71968
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn71968 --> :pttrn71968.extracted={}
+

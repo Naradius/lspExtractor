@@ -1,0 +1,8 @@
+the total energy usage
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated7210
+Input: Token
+Rule: generated7210
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn7210 --> :pttrn7210.extracted={}
+

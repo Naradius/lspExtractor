@@ -1,0 +1,8 @@
+can be re-sorted, as well as all nouns except the head one
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated113273
+Input: Token
+Rule: generated113273
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn113273 --> :pttrn113273.extracted={}
+

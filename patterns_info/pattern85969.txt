@@ -1,0 +1,8 @@
+>  /JPEG2000GrayACSImageDict <
+(NP (JJ ){1,2}(NN ))
+Phase: generated85969
+Input: Token
+Rule: generated85969
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn85969 --> :pttrn85969.extracted={}
+

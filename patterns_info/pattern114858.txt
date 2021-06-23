@@ -1,0 +1,8 @@
+of PT-supported search and its various forms of reduction
+(PP (IN )(NP (NP (JJ )(NN ))(CC )))
+Phase: generated114858
+Input: Token
+Rule: generated114858
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })))):pttrn114858 --> :pttrn114858.extracted={}
+

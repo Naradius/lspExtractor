@@ -1,0 +1,8 @@
+a memory-based classifier
+(NP (DT )(JJ )(NN ))
+Phase: generated95864
+Input: Token
+Rule: generated95864
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn95864 --> :pttrn95864.extracted={}
+

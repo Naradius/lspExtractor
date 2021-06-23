@@ -1,0 +1,8 @@
+possibility ofaggregationMobile applications
+(NP (NN ){1,2}(NNS ))
+Phase: generated51401
+Input: Token
+Rule: generated51401
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn51401 --> :pttrn51401.extracted={}
+

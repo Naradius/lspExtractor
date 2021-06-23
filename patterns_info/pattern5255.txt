@@ -1,0 +1,8 @@
+has to operate under this sub-optimal structure for a certain interval.6.5
+(VP (VBZ )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(JJ )(NN )))(PP (IN )(NP (DT )(JJ )(NN )(CD ))))))
+Phase: generated5255
+Input: Token
+Rule: generated5255
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))))))):pttrn5255 --> :pttrn5255.extracted={}
+

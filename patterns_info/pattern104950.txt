@@ -1,0 +1,8 @@
+planning, therefore, to add embedding rules to our graph grammar formalism.Other considered extensions concern the introduction of attributes and negative applicationconditions.We are currently implementing the parsing algorithm as a stand-alone software packagewhich may be used within different environments
+(VP (VBG )(VP (TO )(VP (VB )(NP (VBG )(NNS )))))
+Phase: generated104950
+Input: Token
+Rule: generated104950
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBG })({ Token.category == NNS })))))):pttrn104950 --> :pttrn104950.extracted={}
+

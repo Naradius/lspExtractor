@@ -1,0 +1,8 @@
+call center employees customer orientation be-haviors
+(NP (NN ){1,2}(NNS )(NN ){1,2}(NNS ))
+Phase: generated86127
+Input: Token
+Rule: generated86127
+(
+(({ Token.category == NN })+({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS }))):pttrn86127 --> :pttrn86127.extracted={}
+

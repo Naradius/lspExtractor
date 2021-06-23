@@ -1,0 +1,8 @@
+the conceptual structure
+(NP (DT )(JJ )(NN ))
+Phase: generated90306
+Input: Token
+Rule: generated90306
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn90306 --> :pttrn90306.extracted={}
+

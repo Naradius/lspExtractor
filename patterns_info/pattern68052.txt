@@ -1,0 +1,8 @@
+a leading authority
+(NP (DT )(JJ )(NN ))
+Phase: generated68052
+Input: Token
+Rule: generated68052
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn68052 --> :pttrn68052.extracted={}
+

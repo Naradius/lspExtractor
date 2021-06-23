@@ -1,0 +1,8 @@
+in a duty-cycled net-ork
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated27558
+Input: Token
+Rule: generated27558
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn27558 --> :pttrn27558.extracted={}
+

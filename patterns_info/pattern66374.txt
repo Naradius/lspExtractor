@@ -1,0 +1,8 @@
+On the account of net-ork broadcasting
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated66374
+Input: Token
+Rule: generated66374
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn66374 --> :pttrn66374.extracted={}
+

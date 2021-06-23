@@ -1,0 +1,8 @@
+large text corpora.5
+(NP (JJ )(NN ){1,2})
+Phase: generated76712
+Input: Token
+Rule: generated76712
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn76712 --> :pttrn76712.extracted={}
+

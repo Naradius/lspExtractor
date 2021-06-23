@@ -1,0 +1,8 @@
+shadowing andpath-loss effects, if the node density is high enough.Similarly, while propagation losses and channelcapacity limit data reliability, this very fact canbe used for spatial frequency re-use
+(VP (VBG )(NP (JJ )(NNS ))(IN ))
+Phase: generated45377
+Input: Token
+Rule: generated45377
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == IN }))):pttrn45377 --> :pttrn45377.extracted={}
+

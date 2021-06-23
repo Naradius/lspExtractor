@@ -1,0 +1,8 @@
+0.2566	0.2602	0.2620	0.2908	1.1253	0.0297	0.00219		Average	0.2636	0.2599	0.2764	0.3029	1.1570	0.0315		1 sentence
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated115873
+Input: Token
+Rule: generated115873
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn115873 --> :pttrn115873.extracted={}
+

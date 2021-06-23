@@ -1,0 +1,8 @@
+service   QoS routingWSNBee-Sensor-C  Scalable MultipathRoutingWSN130 17th INTERNATIONAL CONFERENCE
+(NP (NN )(NNP ){1,2}(NNPS )(JJ )(NNP ){1,2})
+Phase: generated2394
+Input: Token
+Rule: generated2394
+(
+(({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NNPS })({ Token.category == JJ })({ Token.category == NNP })+)):pttrn2394 --> :pttrn2394.extracted={}
+

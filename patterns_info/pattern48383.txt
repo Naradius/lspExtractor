@@ -1,0 +1,8 @@
+tothe choice of physical layer components
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated48383
+Input: Token
+Rule: generated48383
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn48383 --> :pttrn48383.extracted={}
+

@@ -1,0 +1,8 @@
+.The flowchart of EPCSO algorithm
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN ))))
+Phase: generated68547
+Input: Token
+Rule: generated68547
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn68547 --> :pttrn68547.extracted={}
+

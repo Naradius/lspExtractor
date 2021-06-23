@@ -1,0 +1,8 @@
+17 else 18 if  then 19 Node.Y  Node.YMaxBoundary
+(NP (NP (CD )(JJ )(CD ))(PP (IN )(NP (RB )(CD )(NNP ){1,2})))
+Phase: generated28232
+Input: Token
+Rule: generated28232
+(
+((({ Token.category == CD })({ Token.category == JJ })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == RB })({ Token.category == CD })({ Token.category == NNP })+)))):pttrn28232 --> :pttrn28232.extracted={}
+

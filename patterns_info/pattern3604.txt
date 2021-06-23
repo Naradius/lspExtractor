@@ -1,0 +1,8 @@
+vjN  n  EN v k0k1 1 pp1ELvjN  n  ELv k02k321 1 p2p32ffiffiffikp 2Now, to derive the energy dissipation
+(VP (VBD )(RB )(VP (VBD )(NP (CD )(NN ){1,2})(NP (NNP )(CD ){1,2}(JJ ){1,2})(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))))
+Phase: generated3604
+Input: Token
+Rule: generated3604
+(
+(({ Token.category == VBD })({ Token.category == RB })(({ Token.category == VBD })(({ Token.category == CD })({ Token.category == NN })+)(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == JJ })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn3604 --> :pttrn3604.extracted={}
+

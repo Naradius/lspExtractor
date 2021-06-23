@@ -1,0 +1,8 @@
+table 3.Conditional random field  classifierA CRF is a Markov random field-based classifier that uses wordfeatures and context features such as the words and labels ofnearby words
+(NP (NP (NN )(JJ ){1,2}(NN ){1,2})(VP (VBZ )(NP (NP (DT )(NNP )(JJ ){1,2}(NN ))(VP (VBZ )(NP (NP (NNS )(CC )(NN )(NNS ))(PP (JJ )(IN )))))))
+Phase: generated74740
+Input: Token
+Rule: generated74740
+(
+((({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))))))):pttrn74740 --> :pttrn74740.extracted={}
+

@@ -1,0 +1,8 @@
+assigned by the system = 16958                                                                                            No. of POS tag in the text = 18160                                                                                                                               Thus the accuracy of the system is 93.38%
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(SYM ))))
+Phase: generated96928
+Input: Token
+Rule: generated96928
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == SYM }))))):pttrn96928 --> :pttrn96928.extracted={}
+

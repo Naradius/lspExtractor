@@ -1,0 +1,8 @@
+be very limited.One of the challenges of the IoT
+(VP (VB )(NP (NP (ADJP (RB )(JJ ))(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNP )))))))
+Phase: generated40351
+Input: Token
+Rule: generated40351
+(
+(({ Token.category == VB })(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))):pttrn40351 --> :pttrn40351.extracted={}
+

@@ -1,0 +1,8 @@
+is not easily guessed by some methods
+(VP (VBZ )(RB )(VP (VBN )(PP (IN )(NP (DT )(NNS )))))
+Phase: generated97105
+Input: Token
+Rule: generated97105
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn97105 --> :pttrn97105.extracted={}
+

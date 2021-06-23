@@ -1,0 +1,8 @@
+generates a one-time public key address ptmp for thetransaction, as a payment address to the CSP
+(VP (VBZ )(NP (DT )(JJ ){1,2}(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (TO )(NP (DT )(NNP ))))))
+Phase: generated34612
+Input: Token
+Rule: generated34612
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP }))))))):pttrn34612 --> :pttrn34612.extracted={}
+

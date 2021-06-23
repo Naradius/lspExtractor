@@ -1,0 +1,8 @@
+recognition.In Baird, Bunke, and Yamamoto, editors, Structured Document Image Analysis, pages 500519.Springer, 1992
+(VP (VBZ )(PP (IN )(NP (CC )(NP (NP (NNP )(NNS )(NNP ){1,2})(NP (NNS )(CD ){1,2})))))
+Phase: generated105018
+Input: Token
+Rule: generated105018
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NNP })+)(({ Token.category == NNS })({ Token.category == CD })+)))))):pttrn105018 --> :pttrn105018.extracted={}
+

@@ -1,0 +1,8 @@
+this canenhance the lifetime of the network
+(NP (NP (DT )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated56063
+Input: Token
+Rule: generated56063
+(
+((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn56063 --> :pttrn56063.extracted={}
+

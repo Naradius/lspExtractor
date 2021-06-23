@@ -1,0 +1,8 @@
+to its CH.
+(PP (TO )(NP (PRP$ )(NNP )))
+Phase: generated4053
+Input: Token
+Rule: generated4053
+(
+(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NNP })))):pttrn4053 --> :pttrn4053.extracted={}
+

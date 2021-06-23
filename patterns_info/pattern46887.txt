@@ -1,0 +1,8 @@
+ScalabilityThe number of sensor nodes
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated46887
+Input: Token
+Rule: generated46887
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn46887 --> :pttrn46887.extracted={}
+

@@ -1,0 +1,8 @@
+the hypothesis
+(NP (DT )(NN ))
+Phase: generated36837
+Input: Token
+Rule: generated36837
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn36837 --> :pttrn36837.extracted={}
+

@@ -1,0 +1,8 @@
+elected as theeader and the second problem
+(VP (VBN )(PP (IN )(NP (CC )(NP (DT )(JJ )(NN )))))
+Phase: generated66019
+Input: Token
+Rule: generated66019
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn66019 --> :pttrn66019.extracted={}
+

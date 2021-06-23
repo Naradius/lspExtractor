@@ -1,0 +1,8 @@
+the distance
+(NP (DT )(NN ))
+Phase: generated56553
+Input: Token
+Rule: generated56553
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn56553 --> :pttrn56553.extracted={}
+

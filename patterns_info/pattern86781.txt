@@ -1,0 +1,8 @@
+CW and GR with the class-based approach only for problem 1.4.3
+(NP (NP (NNP )(CC )(CD ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(CD ))))))
+Phase: generated86781
+Input: Token
+Rule: generated86781
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == CD }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))))):pttrn86781 --> :pttrn86781.extracted={}
+

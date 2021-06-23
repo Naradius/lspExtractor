@@ -1,0 +1,8 @@
+ad hoc networks
+(NP (NN )(JJ )(NNS ))
+Phase: generated12596
+Input: Token
+Rule: generated12596
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn12596 --> :pttrn12596.extracted={}
+

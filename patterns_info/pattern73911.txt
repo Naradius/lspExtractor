@@ -1,0 +1,8 @@
+.org/10.1136/amiajnl-2014-002669http://crossmark
+(NP (JJ )(NN ))
+Phase: generated73911
+Input: Token
+Rule: generated73911
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn73911 --> :pttrn73911.extracted={}
+

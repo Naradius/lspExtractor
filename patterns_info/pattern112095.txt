@@ -1,0 +1,8 @@
+our IDS methodology
+(NP (PRP$ )(NNP )(NN ))
+Phase: generated112095
+Input: Token
+Rule: generated112095
+(
+(({ Token.category == PRP$ })({ Token.category == NNP })({ Token.category == NN }))):pttrn112095 --> :pttrn112095.extracted={}
+

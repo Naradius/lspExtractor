@@ -1,0 +1,8 @@
+have proposed Stable Election Protocol  as discussed above.Shih et al
+(VP (VBP )(VP (VBN )(NP (JJ )(NNP ){1,2})))
+Phase: generated56180
+Input: Token
+Rule: generated56180
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNP })+)))):pttrn56180 --> :pttrn56180.extracted={}
+

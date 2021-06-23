@@ -1,0 +1,8 @@
+of the TPSis ms, which can be accepted by most IoT application scenarios
+(PP (IN )(NP (NP (DT )(NNP )(NNS ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (JJS )(NNP )(NN )(NNS ))))))))
+Phase: generated35355
+Input: Token
+Rule: generated35355
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJS })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn35355 --> :pttrn35355.extracted={}
+

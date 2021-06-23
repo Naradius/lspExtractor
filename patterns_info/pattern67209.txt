@@ -1,0 +1,8 @@
+the absolute random keys
+(NP (DT )(JJ ){1,2}(NNS ))
+Phase: generated67209
+Input: Token
+Rule: generated67209
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn67209 --> :pttrn67209.extracted={}
+

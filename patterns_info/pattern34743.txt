@@ -1,0 +1,8 @@
+of the blockchainreflects
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated34743
+Input: Token
+Rule: generated34743
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn34743 --> :pttrn34743.extracted={}
+

@@ -1,0 +1,8 @@
+by a binary function fk depending onthe current position t in x, the current label yt,the preceding one yt1 and the whole input se-quence x
+(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBG )(PP (IN )(NP (JJ )(NN ){1,2})))))
+Phase: generated106404
+Input: Token
+Rule: generated106404
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn106404 --> :pttrn106404.extracted={}
+

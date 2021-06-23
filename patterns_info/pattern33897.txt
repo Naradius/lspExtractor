@@ -1,0 +1,8 @@
+by even 60%,and
+(PP (IN )(NP (NP (QP (RB )(CD ))(NN ))(NN )))
+Phase: generated33897
+Input: Token
+Rule: generated33897
+(
+(({ Token.category == IN })(((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NN }))({ Token.category == NN })))):pttrn33897 --> :pttrn33897.extracted={}
+

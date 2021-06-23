@@ -1,0 +1,8 @@
+follow theFirst-In First-Out
+(VP (VB )(NP (DT )(NNP )))
+Phase: generated33185
+Input: Token
+Rule: generated33185
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP })))):pttrn33185 --> :pttrn33185.extracted={}
+

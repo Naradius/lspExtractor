@@ -1,0 +1,8 @@
+caught the attention from the drone community
+(VP (VBN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated109838
+Input: Token
+Rule: generated109838
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn109838 --> :pttrn109838.extracted={}
+

@@ -1,0 +1,8 @@
+into i levels
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated54919
+Input: Token
+Rule: generated54919
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn54919 --> :pttrn54919.extracted={}
+

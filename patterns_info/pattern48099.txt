@@ -1,0 +1,8 @@
+in Fig. 2. Each of these scat-tered sensor nodes has the capabilities to collectdata and route data back to the sink and the endusers
+(PP (IN )(NP (NP (NNP )(CD ))(VP (VBZ )(NP (NP (DT )(NNS ))(PP (TO )(NP (NP (NNS )(CC )(NN )(NNS ))(ADVP (RB )(PP (TO )(NP (NP (DT )(NN ))(CC )(NP (DT )(NNS )))))))))))
+Phase: generated48099
+Input: Token
+Rule: generated48099
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == TO })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == RB })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNS })))))))))))):pttrn48099 --> :pttrn48099.extracted={}
+

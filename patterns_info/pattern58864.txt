@@ -1,0 +1,8 @@
+the decision making
+(NP (DT )(NN ){1,2})
+Phase: generated58864
+Input: Token
+Rule: generated58864
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn58864 --> :pttrn58864.extracted={}
+

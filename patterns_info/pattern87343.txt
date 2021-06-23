@@ -1,0 +1,8 @@
+ableto represents facts or events
+(NP (JJ )(NNS ){1,2}(CC )(NNS ))
+Phase: generated87343
+Input: Token
+Rule: generated87343
+(
+(({ Token.category == JJ })({ Token.category == NNS })+({ Token.category == CC })({ Token.category == NNS }))):pttrn87343 --> :pttrn87343.extracted={}
+

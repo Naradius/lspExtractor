@@ -1,0 +1,8 @@
+To study the anecdotal efficacy of cinnamon and vinegarfor managing diabetes
+(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(CC )(NN ){1,2})))))
+Phase: generated75495
+Input: Token
+Rule: generated75495
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)))))):pttrn75495 --> :pttrn75495.extracted={}
+

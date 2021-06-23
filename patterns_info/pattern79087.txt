@@ -1,0 +1,8 @@
+41 years
+(NP (CD )(NNS ))
+Phase: generated79087
+Input: Token
+Rule: generated79087
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn79087 --> :pttrn79087.extracted={}
+

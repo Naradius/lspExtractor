@@ -1,0 +1,8 @@
+such as temperature sensor, humidity sensor,umber of devices connected to smart home and consumption oflectricity
+(PP (JJ )(IN ))
+Phase: generated19009
+Input: Token
+Rule: generated19009
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn19009 --> :pttrn19009.extracted={}
+

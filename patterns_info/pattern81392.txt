@@ -1,0 +1,8 @@
+to treat entire HTML tags as single tokens
+(VP (TO )(VP (VB )(NP (JJ ){1,2}(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated81392
+Input: Token
+Rule: generated81392
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn81392 --> :pttrn81392.extracted={}
+

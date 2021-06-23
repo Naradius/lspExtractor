@@ -1,0 +1,8 @@
+be to expand queries during the learning process
+(VP (VB )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated101196
+Input: Token
+Rule: generated101196
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn101196 --> :pttrn101196.extracted={}
+

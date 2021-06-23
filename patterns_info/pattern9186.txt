@@ -1,0 +1,8 @@
+A biologically-inspired clustering protocol for wireless sensor networks	Introduction	Related work	Swarm principles	The T-ANT protocol	Overview of the T-ANT protocol	The ant release component	The clustering algorithm	The clustering properties	The simulation framework	Results and discussions	T-ANT characteristics	Clustering properties	Load distribution	Dynamics of clustered topology	Network lifetime	Conclusions	Acknowledgements	References
+(NP (NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (JJ )(NN ){1,2}(NNS ))))))(NP (NP (NP (DT )(JJ )(NN )(NNP ))(PP (IN )(NP (DT )(NNP )(NN ))))(NP (NP (DT )(JJ )(NN )(JJ ))(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN )(NNS )){1,2}(CC )))))))
+Phase: generated9186
+Input: Token
+Rule: generated9186
+(
+(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))))(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))+({ Token.category == CC })))))))):pttrn9186 --> :pttrn9186.extracted={}
+

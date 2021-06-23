@@ -1,0 +1,8 @@
+I. Gupta , D. Riordan , S. Sampalli , Cluster-head election using fuzzy logic forwireless sensor networks, in: Proceedings of the Third Annual CommunicationNetworks and Services Research Conference , 2005, pp.
+(NP (NP (NN )(NNP ))(NP (NP (NNP )(NN ))(VP (VBG )(NP (NP (JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))))
+Phase: generated60194
+Input: Token
+Rule: generated60194
+(
+((({ Token.category == NN })({ Token.category == NNP }))((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))):pttrn60194 --> :pttrn60194.extracted={}
+

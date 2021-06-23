@@ -1,0 +1,8 @@
+is to compute an absolute value for thetemperature difference between the temperatures of eachsensor and the average temperature:Tksi = 12972 R. Casado-Vara, A. Martin-del Rey, S. Affes et al. / Future Generation Computer Systems 102  9659773
+(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NP (CC )(NP (DT )(JJ )(NN )(SYM )))(NP (CD )(NNP ){1,2}))(NP (NP (NNP ){1,2}(NN ))('' )(NP (NNP ){1,2}(NNPS )(CD ){1,2})))))))))
+Phase: generated29719
+Input: Token
+Rule: generated29719
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == SYM })))(({ Token.category == CD })({ Token.category == NNP })+))((({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == '' })(({ Token.category == NNP })+({ Token.category == NNPS })({ Token.category == CD })+)))))))))):pttrn29719 --> :pttrn29719.extracted={}
+

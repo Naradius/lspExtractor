@@ -1,0 +1,8 @@
+by two sentences
+(PP (IN )(NP (CD )(NNS )))
+Phase: generated118650
+Input: Token
+Rule: generated118650
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))):pttrn118650 --> :pttrn118650.extracted={}
+

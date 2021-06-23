@@ -1,0 +1,8 @@
+in the building
+(PP (IN )(NP (DT )(NN )))
+Phase: generated29900
+Input: Token
+Rule: generated29900
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn29900 --> :pttrn29900.extracted={}
+

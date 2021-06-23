@@ -1,0 +1,8 @@
+rhetoric markers
+(NP (NN )(NNS ))
+Phase: generated117145
+Input: Token
+Rule: generated117145
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn117145 --> :pttrn117145.extracted={}
+

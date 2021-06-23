@@ -1,0 +1,8 @@
+overall PT-supported search
+(NP (JJ ){1,2}(NN ))
+Phase: generated115348
+Input: Token
+Rule: generated115348
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn115348 --> :pttrn115348.extracted={}
+

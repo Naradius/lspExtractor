@@ -1,0 +1,8 @@
+the order of the generalizations
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated113130
+Input: Token
+Rule: generated113130
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn113130 --> :pttrn113130.extracted={}
+

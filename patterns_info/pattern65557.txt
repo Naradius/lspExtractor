@@ -1,0 +1,8 @@
+the fault re-overy process
+(NP (DT )(NN ){1,2})
+Phase: generated65557
+Input: Token
+Rule: generated65557
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn65557 --> :pttrn65557.extracted={}
+

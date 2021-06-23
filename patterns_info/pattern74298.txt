@@ -1,0 +1,8 @@
+the above patternswith
+(NP (DT )(JJ )(NN ))
+Phase: generated74298
+Input: Token
+Rule: generated74298
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn74298 --> :pttrn74298.extracted={}
+

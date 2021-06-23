@@ -1,0 +1,8 @@
+every relation
+(NP (DT )(NN ))
+Phase: generated75961
+Input: Token
+Rule: generated75961
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn75961 --> :pttrn75961.extracted={}
+

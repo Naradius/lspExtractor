@@ -1,0 +1,8 @@
+Cyc formalizes commonsense knowledgeinto a logical framework expressed by the CycL, which attemptsto produce unambiguous logical formulations for human knowl-edge .
+(NP (NP (NNP )(NNS )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NNP ))(VP (VBP )(VP (VB )(NP (JJ ){1,2}(NNS ))(PP (IN )(NP (JJ )(NN )))))))))))
+Phase: generated71624
+Input: Token
+Rule: generated71624
+(
+((({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBP })(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))))))):pttrn71624 --> :pttrn71624.extracted={}
+

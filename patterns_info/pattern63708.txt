@@ -1,0 +1,8 @@
+on reproduction strategyof cuckoos
+(PP (IN )(NP (NN ){1,2}(NNS )))
+Phase: generated63708
+Input: Token
+Rule: generated63708
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn63708 --> :pttrn63708.extracted={}
+

@@ -1,0 +1,8 @@
+validated via integrationith a lab-controlled smart home automation case study describedn Section 4 , which is further integrated into an application modeluilt within the iFogSim application layer
+(VP (VBN )(NP (NP (DT )(JJ ){1,2}(NN ){1,2})(PP (IN )(NP (NP (NNP )(CD ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))))))))
+Phase: generated19782
+Input: Token
+Rule: generated19782
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))))))))):pttrn19782 --> :pttrn19782.extracted={}
+

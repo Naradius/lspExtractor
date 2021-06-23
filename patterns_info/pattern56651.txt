@@ -1,0 +1,8 @@
+knows its location and velocity
+(VP (VBZ )(NP (PRP$ )(NN )(CC )(NN )))
+Phase: generated56651
+Input: Token
+Rule: generated56651
+(
+(({ Token.category == VBZ })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn56651 --> :pttrn56651.extracted={}
+

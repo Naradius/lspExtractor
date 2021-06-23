@@ -1,0 +1,8 @@
+each other, which is employed in building PTs
+(NP (NP (DT )(JJ ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated118046
+Input: Token
+Rule: generated118046
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn118046 --> :pttrn118046.extracted={}
+

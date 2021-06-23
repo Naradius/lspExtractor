@@ -1,0 +1,8 @@
+of location and energy reserved aboutcandidates and their neighbors
+(PP (IN )(NP (NP (NN )(CC )(NN ))(VP (VBN )(NP (CC )(NP (PRP$ )(NNS ))))))
+Phase: generated32542
+Input: Token
+Rule: generated32542
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NNS }))))))):pttrn32542 --> :pttrn32542.extracted={}
+

@@ -1,0 +1,8 @@
+Orthographic CategoryIn addition
+(NP (JJ )(NNP )(NN ))
+Phase: generated92774
+Input: Token
+Rule: generated92774
+(
+(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))):pttrn92774 --> :pttrn92774.extracted={}
+

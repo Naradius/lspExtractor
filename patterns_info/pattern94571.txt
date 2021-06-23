@@ -1,0 +1,8 @@
+provided a formal syntax for thelexico-semantic rules.Secondly, in order to show how the proposed rule-based extraction method can be applied in practice
+(VP (VBN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated94571
+Input: Token
+Rule: generated94571
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn94571 --> :pttrn94571.extracted={}
+

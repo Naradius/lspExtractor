@@ -1,0 +1,8 @@
+different specific se-mantic models
+(NP (JJ ){1,2}(NNS ))
+Phase: generated86220
+Input: Token
+Rule: generated86220
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn86220 --> :pttrn86220.extracted={}
+

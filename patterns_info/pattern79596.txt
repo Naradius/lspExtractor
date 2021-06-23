@@ -1,0 +1,8 @@
+to overly restrictive rules that do not generalize well to new instances.Another system that induces rules for structured text is that of Ashish andKnoblock
+(PP (TO )(NP (NP (RB )(JJ )(NNS ))(VP (VBP )(RB ))))
+Phase: generated79596
+Input: Token
+Rule: generated79596
+(
+(({ Token.category == TO })((({ Token.category == RB })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB }))))):pttrn79596 --> :pttrn79596.extracted={}
+

@@ -1,0 +1,8 @@
+the start-up power consumption
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated47867
+Input: Token
+Rule: generated47867
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn47867 --> :pttrn47867.extracted={}
+

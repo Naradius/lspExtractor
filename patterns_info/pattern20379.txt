@@ -1,0 +1,8 @@
+round-robin based ap-proaches
+(NP (JJ )(VBN )(NNS ))
+Phase: generated20379
+Input: Token
+Rule: generated20379
+(
+(({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NNS }))):pttrn20379 --> :pttrn20379.extracted={}
+

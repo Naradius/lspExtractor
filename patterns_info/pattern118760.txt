@@ -1,0 +1,8 @@
+an arbitrary word
+(NP (DT )(JJ )(NN ))
+Phase: generated118760
+Input: Token
+Rule: generated118760
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn118760 --> :pttrn118760.extracted={}
+

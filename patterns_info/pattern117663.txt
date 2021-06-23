@@ -1,0 +1,8 @@
+the profits of health insurance companies
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NN ){1,2}(NNS ))))
+Phase: generated117663
+Input: Token
+Rule: generated117663
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))):pttrn117663 --> :pttrn117663.extracted={}
+

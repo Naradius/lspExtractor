@@ -1,0 +1,8 @@
+various challenges
+(NP (JJ )(NNS ))
+Phase: generated65191
+Input: Token
+Rule: generated65191
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn65191 --> :pttrn65191.extracted={}
+

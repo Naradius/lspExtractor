@@ -1,0 +1,8 @@
+to other nodes in its range
+(PP (TO )(NP (NP (JJ )(NNS ))(PP (IN )(NP (PRP$ )(NN )))))
+Phase: generated107709
+Input: Token
+Rule: generated107709
+(
+(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))))):pttrn107709 --> :pttrn107709.extracted={}
+

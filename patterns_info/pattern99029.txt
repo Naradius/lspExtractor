@@ -1,0 +1,8 @@
+such as Whopainted the Birth of Venus
+(PP (JJ )(IN ))
+Phase: generated99029
+Input: Token
+Rule: generated99029
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn99029 --> :pttrn99029.extracted={}
+

@@ -1,0 +1,8 @@
+Networking Conference, 2006, pp
+(NP (NP (JJ )(NNP ))(NP (CD )(NN )))
+Phase: generated8980
+Input: Token
+Rule: generated8980
+(
+((({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == CD })({ Token.category == NN })))):pttrn8980 --> :pttrn8980.extracted={}
+

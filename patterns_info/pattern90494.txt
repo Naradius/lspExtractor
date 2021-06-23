@@ -1,0 +1,8 @@
+NLP modules
+(NP (NNP )(NNS ))
+Phase: generated90494
+Input: Token
+Rule: generated90494
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn90494 --> :pttrn90494.extracted={}
+

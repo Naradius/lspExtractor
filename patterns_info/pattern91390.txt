@@ -1,0 +1,8 @@
+the goal corpus
+(NP (DT )(NN ){1,2})
+Phase: generated91390
+Input: Token
+Rule: generated91390
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn91390 --> :pttrn91390.extracted={}
+

@@ -1,0 +1,8 @@
+Of all data preprocessing steps
+(PP (IN )(NP (DT )(NNS )(NN )(NNS )))
+Phase: generated76578
+Input: Token
+Rule: generated76578
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS })))):pttrn76578 --> :pttrn76578.extracted={}
+

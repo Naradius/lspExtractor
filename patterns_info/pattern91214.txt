@@ -1,0 +1,8 @@
+the lexical module
+(NP (DT )(JJ )(NN ))
+Phase: generated91214
+Input: Token
+Rule: generated91214
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn91214 --> :pttrn91214.extracted={}
+

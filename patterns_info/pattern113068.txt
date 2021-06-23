@@ -1,0 +1,8 @@
+as a deviation in the order of search results from the best result for a given query
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS )))))(PP (IN )(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (DT )(VBN )(NN )))))))
+Phase: generated113068
+Input: Token
+Rule: generated113068
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))))))):pttrn113068 --> :pttrn113068.extracted={}
+

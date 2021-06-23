@@ -1,0 +1,8 @@
+NKRLis a knowledge representation language which hasbeen defined before the Semantic Web era, and hasno formal semantics.
+(NP (CC )(NP (PRP$ )(JJ )(NNS )))
+Phase: generated92466
+Input: Token
+Rule: generated92466
+(
+(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS })))):pttrn92466 --> :pttrn92466.extracted={}
+

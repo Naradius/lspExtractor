@@ -1,0 +1,8 @@
+available spectrum blocks
+(NP (JJ )(NN )(NNS ))
+Phase: generated21856
+Input: Token
+Rule: generated21856
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn21856 --> :pttrn21856.extracted={}
+

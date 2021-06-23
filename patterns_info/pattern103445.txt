@@ -1,0 +1,8 @@
+The non-emptiness of the left-hand side guarantees that each application of a production uses graph elements that have been created by another applicationor that belong to the initial graph.
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(NNS )))(IN ))
+Phase: generated103445
+Input: Token
+Rule: generated103445
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))({ Token.category == IN }))):pttrn103445 --> :pttrn103445.extracted={}
+

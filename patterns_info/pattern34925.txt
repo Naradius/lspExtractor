@@ -1,0 +1,8 @@
+on physical securitycan
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated34925
+Input: Token
+Rule: generated34925
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn34925 --> :pttrn34925.extracted={}
+

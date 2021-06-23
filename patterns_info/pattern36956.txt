@@ -1,0 +1,8 @@
+The typical mechanism
+(NP (DT )(JJ )(NN ))
+Phase: generated36956
+Input: Token
+Rule: generated36956
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn36956 --> :pttrn36956.extracted={}
+

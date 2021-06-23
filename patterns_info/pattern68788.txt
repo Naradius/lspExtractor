@@ -1,0 +1,8 @@
+a random value
+(NP (DT )(JJ )(NN ))
+Phase: generated68788
+Input: Token
+Rule: generated68788
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn68788 --> :pttrn68788.extracted={}
+

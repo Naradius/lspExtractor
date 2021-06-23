@@ -1,0 +1,8 @@
+found empirically that separation is attainedrather quickly within a small constant number of rounds.To quantify this phenomenon
+(VP (VBN )(RB ))
+Phase: generated7874
+Input: Token
+Rule: generated7874
+(
+(({ Token.category == VBN })({ Token.category == RB }))):pttrn7874 --> :pttrn7874.extracted={}
+

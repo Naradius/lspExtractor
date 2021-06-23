@@ -1,0 +1,8 @@
+the scheduling, power control, and routingproblems simultaneously
+(NP (NP (DT )(NN ))(CC ))
+Phase: generated21818
+Input: Token
+Rule: generated21818
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))):pttrn21818 --> :pttrn21818.extracted={}
+

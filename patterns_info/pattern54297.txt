@@ -1,0 +1,8 @@
+the node for round n
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated54297
+Input: Token
+Rule: generated54297
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn54297 --> :pttrn54297.extracted={}
+

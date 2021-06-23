@@ -1,0 +1,8 @@
+0 0.06 s 4 c  l  c  l  b  a  t  L  i4   a  T  h  r  i  i  .2.2
+(NP (NP (CD ){1,2}(NNS ))(NP (NP (CD )(JJ ){1,2}(NN ){1,2})(NP (DT )(NN )(NNP ))(PP (IN )(NP (NP (DT )(NNP )(NN ){1,2})(PP (IN )(NP (NN )(CD )))))))
+Phase: generated110903
+Input: Token
+Rule: generated110903
+(
+((({ Token.category == CD })+({ Token.category == NNS }))((({ Token.category == CD })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))):pttrn110903 --> :pttrn110903.extracted={}
+

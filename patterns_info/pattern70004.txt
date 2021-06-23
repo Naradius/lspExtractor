@@ -1,0 +1,8 @@
+their payload and the distance to the sink node
+(NP (NP (PRP$ )(NN ))(CC )(NP (NP (DT )(NN ))(PP (TO )(NP (DT )(NN ){1,2}))))
+Phase: generated70004
+Input: Token
+Rule: generated70004
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn70004 --> :pttrn70004.extracted={}
+

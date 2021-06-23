@@ -1,0 +1,8 @@
+a number of specific events
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated72224
+Input: Token
+Rule: generated72224
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn72224 --> :pttrn72224.extracted={}
+

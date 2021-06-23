@@ -1,0 +1,8 @@
+a stand-alone software
+(NP (DT )(JJ )(NN ))
+Phase: generated104939
+Input: Token
+Rule: generated104939
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn104939 --> :pttrn104939.extracted={}
+

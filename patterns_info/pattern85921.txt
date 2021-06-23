@@ -1,0 +1,8 @@
+for mining non-taxonomic relations from unstructured text., Knowledge and information systems, vol
+(PP (IN )(NP (NP (NN )(JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NN ))(NP (NNP )(CC )(NN )(NNS ))))))
+Phase: generated85921
+Input: Token
+Rule: generated85921
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn85921 --> :pttrn85921.extracted={}
+

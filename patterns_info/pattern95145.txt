@@ -1,0 +1,8 @@
+economic events
+(NP (JJ )(NNS ))
+Phase: generated95145
+Input: Token
+Rule: generated95145
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn95145 --> :pttrn95145.extracted={}
+

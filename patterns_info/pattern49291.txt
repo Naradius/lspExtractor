@@ -1,0 +1,8 @@
+conflict with the specific requirements.Finally
+(VP (VBP )(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated49291
+Input: Token
+Rule: generated49291
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn49291 --> :pttrn49291.extracted={}
+

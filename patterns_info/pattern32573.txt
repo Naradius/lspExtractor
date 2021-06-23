@@ -1,0 +1,8 @@
+in delay, packet loss, and the synthetic QoS, respectively,with little energy consumption.3
+(PP (IN )(NP (NP (CC )(NP (DT )(JJ )(NNP )))(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated32573
+Input: Token
+Rule: generated32573
+(
+(({ Token.category == IN })((({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn32573 --> :pttrn32573.extracted={}
+

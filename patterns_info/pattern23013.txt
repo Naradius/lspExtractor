@@ -1,0 +1,8 @@
+lThe expected number of edge devices
+(PP (IN )(NP (NP (VBN )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated23013
+Input: Token
+Rule: generated23013
+(
+(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn23013 --> :pttrn23013.extracted={}
+

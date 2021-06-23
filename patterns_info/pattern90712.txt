@@ -1,0 +1,8 @@
+the templates
+(NP (DT )(NNS ))
+Phase: generated90712
+Input: Token
+Rule: generated90712
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn90712 --> :pttrn90712.extracted={}
+

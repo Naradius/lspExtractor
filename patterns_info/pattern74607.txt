@@ -1,0 +1,8 @@
+on the ENT forum test set.MetricsWe used token-level precision, recall, and F1 metrics to evaluateour system and the baselines
+(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2}(NNS ))(VP (VBD )(NP (NP (JJ )(NN ))(CC )(NP (NP (NNP )(NNS ))(PP (TO )(NP (NP (PRP$ )(NN ))(CC )(NP (DT )(NNS )))))))))
+Phase: generated74607
+Input: Token
+Rule: generated74607
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBD })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNS })))))))))):pttrn74607 --> :pttrn74607.extracted={}
+

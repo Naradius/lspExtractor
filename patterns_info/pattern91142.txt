@@ -1,0 +1,8 @@
+train and test that tagger
+(VP (CC )(VP (VB )(NP (DT )(NN ))))
+Phase: generated91142
+Input: Token
+Rule: generated91142
+(
+(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn91142 --> :pttrn91142.extracted={}
+

@@ -1,0 +1,8 @@
+is very stable
+(VP (VBZ )(ADJP (RB )(JJ )))
+Phase: generated113207
+Input: Token
+Rule: generated113207
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == JJ })))):pttrn113207 --> :pttrn113207.extracted={}
+

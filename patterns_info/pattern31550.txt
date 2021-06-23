@@ -1,0 +1,8 @@
+are referred to as data flows.2.3
+(VP (VBP )(VP (VBN )(IN )))
+Phase: generated31550
+Input: Token
+Rule: generated31550
+(
+(({ Token.category == VBP })(({ Token.category == VBN })({ Token.category == IN })))):pttrn31550 --> :pttrn31550.extracted={}
+

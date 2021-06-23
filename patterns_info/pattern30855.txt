@@ -1,0 +1,8 @@
+low energy consumption
+(NP (JJ )(NN ){1,2}){1,2}
+Phase: generated30855
+Input: Token
+Rule: generated30855
+(
+(({ Token.category == JJ })({ Token.category == NN })+)+):pttrn30855 --> :pttrn30855.extracted={}
+

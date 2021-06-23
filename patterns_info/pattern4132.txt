@@ -1,0 +1,8 @@
+to the selected CHEndFig
+(PP (TO )(NP (DT )(VBN )(NNP )))
+Phase: generated4132
+Input: Token
+Rule: generated4132
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })))):pttrn4132 --> :pttrn4132.extracted={}
+

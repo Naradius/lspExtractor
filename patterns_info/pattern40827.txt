@@ -1,0 +1,8 @@
+match the Prophetv2 specifications with only smallcode changes .PROPHET
+(VP (VB )(NP (NP (DT )(NNP )(NNS ))(PP (IN )(NP (RB )(JJ )(NNS )(NN )))))
+Phase: generated40827
+Input: Token
+Rule: generated40827
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == RB })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })))))):pttrn40827 --> :pttrn40827.extracted={}
+

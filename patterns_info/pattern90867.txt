@@ -1,0 +1,8 @@
+to tag unannotated text
+(VP (TO )(VP (VB )(NP (JJ )(NN ))))
+Phase: generated90867
+Input: Token
+Rule: generated90867
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn90867 --> :pttrn90867.extracted={}
+

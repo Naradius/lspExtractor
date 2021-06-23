@@ -1,0 +1,8 @@
+for PANcoordinator election in IEEE 802.15.4-based sensor net-works
+(PP (IN )(NP (NP (NNP )(NN ))(PP (IN )(NP (NNP )(JJ )(NN )(NNS )))))
+Phase: generated52230
+Input: Token
+Rule: generated52230
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn52230 --> :pttrn52230.extracted={}
+

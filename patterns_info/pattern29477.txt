@@ -1,0 +1,8 @@
+are going to create each of theadjacency matrices for each of the layers  asfollows:Layer 1 of the multiplex contains only the IoT nodes 1, 2, 4and 5
+(VP (VBP )(VP (VBG )(VP (TO )(VP (VB )(NP (RB )(DT )(NNP )(NNS )(CD ){1,2}(CC )(CD ))))))
+Phase: generated29477
+Input: Token
+Rule: generated29477
+(
+(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RB })({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })({ Token.category == CD })+({ Token.category == CC })({ Token.category == CD }))))))):pttrn29477 --> :pttrn29477.extracted={}
+

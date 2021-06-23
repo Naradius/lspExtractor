@@ -1,0 +1,8 @@
+the discovery of morecomplicated event-based knowledge
+(NP (NP (DT )(NN ))(PP (IN )(NP (VBN )(JJ )(NN ))))
+Phase: generated72327
+Input: Token
+Rule: generated72327
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NN }))))):pttrn72327 --> :pttrn72327.extracted={}
+

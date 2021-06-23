@@ -1,0 +1,8 @@
+is included in the system configuration
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated88058
+Input: Token
+Rule: generated88058
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn88058 --> :pttrn88058.extracted={}
+

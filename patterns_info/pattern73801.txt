@@ -1,0 +1,8 @@
+replicating results of adouble-blind medical trial,6
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ ){1,2}(NN )(NNS ))))
+Phase: generated73801
+Input: Token
+Rule: generated73801
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))))):pttrn73801 --> :pttrn73801.extracted={}
+

@@ -1,0 +1,8 @@
+to capture the impor-ant characteristics
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NNS ))))
+Phase: generated65825
+Input: Token
+Rule: generated65825
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn65825 --> :pttrn65825.extracted={}
+

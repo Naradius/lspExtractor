@@ -1,0 +1,8 @@
+licensed incumbent protection
+(NP (JJ ){1,2}(NN ))
+Phase: generated21184
+Input: Token
+Rule: generated21184
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn21184 --> :pttrn21184.extracted={}
+

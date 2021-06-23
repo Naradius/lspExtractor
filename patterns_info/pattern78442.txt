@@ -1,0 +1,8 @@
+found until much later in the text
+(VP (VBN )(PP (IN )(NP (JJ )(ADVP (RB )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated78442
+Input: Token
+Rule: generated78442
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn78442 --> :pttrn78442.extracted={}
+

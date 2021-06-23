@@ -1,0 +1,8 @@
+strong enough to try to take over a pride byfighting its males
+(ADJP (JJ )(RB )(VP (TO )(VP (VB )(VP (TO )(VP (VB )(PRT (RP ))(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(NNS )))))))))
+Phase: generated64589
+Input: Token
+Rule: generated64589
+(
+(({ Token.category == JJ })({ Token.category == RB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RP }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS })))))))))):pttrn64589 --> :pttrn64589.extracted={}
+

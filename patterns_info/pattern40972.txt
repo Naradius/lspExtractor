@@ -1,0 +1,8 @@
+to evaluate the proposed protocol.In addition
+(VP (TO )(VP (VB )(NP (DT )(VBN )(NN ))))
+Phase: generated40972
+Input: Token
+Rule: generated40972
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))):pttrn40972 --> :pttrn40972.extracted={}
+

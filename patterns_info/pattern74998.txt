@@ -1,0 +1,8 @@
+see thatour system extracts more relevant phrases.Our system can be used to explore different  treatments that people are using for a condi-tion
+(VP (VB )(NP (DT )(NN )))
+Phase: generated74998
+Input: Token
+Rule: generated74998
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn74998 --> :pttrn74998.extracted={}
+

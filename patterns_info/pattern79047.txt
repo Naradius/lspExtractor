@@ -1,0 +1,8 @@
+on all 599 texts
+(PP (IN )(NP (DT )(CD )(NNS )))
+Phase: generated79047
+Input: Token
+Rule: generated79047
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS })))):pttrn79047 --> :pttrn79047.extracted={}
+

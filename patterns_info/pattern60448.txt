@@ -1,0 +1,8 @@
+f  w  kaku  b  t a  p  u  f  d  r  r
+(PP (IN )(NP (NP (FW )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN ){1,2}))))))
+Phase: generated60448
+Input: Token
+Rule: generated60448
+(
+(({ Token.category == IN })((({ Token.category == FW })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn60448 --> :pttrn60448.extracted={}
+

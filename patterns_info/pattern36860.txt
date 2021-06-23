@@ -1,0 +1,8 @@
+to form a chain structure
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated36860
+Input: Token
+Rule: generated36860
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn36860 --> :pttrn36860.extracted={}
+

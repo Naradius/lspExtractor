@@ -1,0 +1,8 @@
+pruned pattern trees  on thetest data
+(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated95714
+Input: Token
+Rule: generated95714
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn95714 --> :pttrn95714.extracted={}
+

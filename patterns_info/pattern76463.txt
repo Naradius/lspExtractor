@@ -1,0 +1,8 @@
+is skewed in the sense that weobserve a power law distribution of relations in the corpus.This means that there are a few relations  that dominate FREEBASE, while other relations aremore scarce
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (DT )(JJ )(NNS )))(IN )))
+Phase: generated76463
+Input: Token
+Rule: generated76463
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == IN })))):pttrn76463 --> :pttrn76463.extracted={}
+

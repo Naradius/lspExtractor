@@ -1,0 +1,8 @@
+United States
+(NP (NNP )(NNPS ))
+Phase: generated34103
+Input: Token
+Rule: generated34103
+(
+(({ Token.category == NNP })({ Token.category == NNPS }))):pttrn34103 --> :pttrn34103.extracted={}
+

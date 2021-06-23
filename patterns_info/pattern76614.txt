@@ -1,0 +1,8 @@
+Web demonstrator
+(NP (NNP )(NN ))
+Phase: generated76614
+Input: Token
+Rule: generated76614
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn76614 --> :pttrn76614.extracted={}
+

@@ -1,0 +1,8 @@
+the seeds
+(NP (DT )(NNS ))
+Phase: generated101008
+Input: Token
+Rule: generated101008
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn101008 --> :pttrn101008.extracted={}
+

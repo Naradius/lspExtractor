@@ -1,0 +1,8 @@
+the number84 B. Safaei, A .A
+(NP (NP (DT )(NN )(NNP ){1,2})(NP (DT )(NN )))
+Phase: generated26858
+Input: Token
+Rule: generated26858
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })+)(({ Token.category == DT })({ Token.category == NN })))):pttrn26858 --> :pttrn26858.extracted={}
+

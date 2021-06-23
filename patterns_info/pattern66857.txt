@@ -1,0 +1,8 @@
+are converted into a collec-Fig
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated66857
+Input: Token
+Rule: generated66857
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn66857 --> :pttrn66857.extracted={}
+

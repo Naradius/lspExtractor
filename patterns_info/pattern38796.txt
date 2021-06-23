@@ -1,0 +1,8 @@
+the feasibilityof collaboration between the host  and the edge devices for effective intrusiondetection whilst minimizing energy consumption and communication overhead
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC ))))
+Phase: generated38796
+Input: Token
+Rule: generated38796
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))))):pttrn38796 --> :pttrn38796.extracted={}
+

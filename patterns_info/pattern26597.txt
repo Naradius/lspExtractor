@@ -1,0 +1,8 @@
+an existing path in the nodes neighbour table
+(NP (NP (DT )(VBG )(NN ))(PP (IN )(NP (DT )(NNS )(NN ){1,2})))
+Phase: generated26597
+Input: Token
+Rule: generated26597
+(
+((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+)))):pttrn26597 --> :pttrn26597.extracted={}
+

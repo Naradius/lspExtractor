@@ -1,0 +1,8 @@
+have chosen a smart build-ing
+(VP (VBP )(VP (VBN )(NP (DT )(JJ )(NN ))))
+Phase: generated29821
+Input: Token
+Rule: generated29821
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn29821 --> :pttrn29821.extracted={}
+

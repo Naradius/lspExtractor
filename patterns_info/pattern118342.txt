@@ -1,0 +1,8 @@
+a natural condition or state
+(NP (DT )(JJ )(NN )(CC )(NN ))
+Phase: generated118342
+Input: Token
+Rule: generated118342
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn118342 --> :pttrn118342.extracted={}
+

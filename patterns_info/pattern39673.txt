@@ -1,0 +1,8 @@
+the unique visibility offered by a device level system to improve the overall intru-sion detection
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ){1,2})))))))
+Phase: generated39673
+Input: Token
+Rule: generated39673
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))))):pttrn39673 --> :pttrn39673.extracted={}
+

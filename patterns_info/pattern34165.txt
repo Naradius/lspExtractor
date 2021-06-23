@@ -1,0 +1,8 @@
+routing	Forward agent	Reverse agent	PSO and agent based algorithm for the QoS routing model	Experiments and analysis	Conclusion	Acknowledgments
+(VP (VBG )(NP (NP (NNP )(NN )(NNP )(NN )(NNP )(CC )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NNP )(NN ){1,2}(NNS ))(CC )(NP (NN ){1,2}(NNS )))))))
+Phase: generated34165
+Input: Token
+Rule: generated34165
+(
+(({ Token.category == VBG })((({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == NN })+({ Token.category == NNS })))))))):pttrn34165 --> :pttrn34165.extracted={}
+

@@ -1,0 +1,8 @@
+adaptive clustering technique
+(NP (JJ )(NN ){1,2})
+Phase: generated58192
+Input: Token
+Rule: generated58192
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn58192 --> :pttrn58192.extracted={}
+

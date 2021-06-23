@@ -1,0 +1,8 @@
+2. Take one velocity set to update the original velocityV,, shown as follows:V,  ={{{{{{{{{{{{{{{Vmax, if V,  + Vset,exceeds themaximum velocity,V,  + Vset, , otherwise.Then update the position , of the present cat as follows
+(VP (VBD )(VP (VP (VB )(NP (NP (CD )(NN ))(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NNS )(NNP ))))))))))(RB )(-LRB- ){1,2}(IN )(VP (RB )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))(IN )))))
+Phase: generated68824
+Input: Token
+Rule: generated68824
+(
+(({ Token.category == VBD })((({ Token.category == VB })((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NNP }))))))))))({ Token.category == RB })({ Token.category == -LRB- })+({ Token.category == IN })(({ Token.category == RB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == IN })))))):pttrn68824 --> :pttrn68824.extracted={}
+

@@ -1,0 +1,8 @@
+noun phrases
+(NP (NN )(NNS ))
+Phase: generated113261
+Input: Token
+Rule: generated113261
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn113261 --> :pttrn113261.extracted={}
+

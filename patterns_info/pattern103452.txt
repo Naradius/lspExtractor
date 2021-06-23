@@ -1,0 +1,8 @@
+a certain graph
+(NP (DT )(JJ )(NN ))
+Phase: generated103452
+Input: Token
+Rule: generated103452
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn103452 --> :pttrn103452.extracted={}
+

@@ -1,0 +1,8 @@
+is not the casethat
+(VP (VBZ )(RB )(NP (DT )(NN )))
+Phase: generated88480
+Input: Token
+Rule: generated88480
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == DT })({ Token.category == NN })))):pttrn88480 --> :pttrn88480.extracted={}
+

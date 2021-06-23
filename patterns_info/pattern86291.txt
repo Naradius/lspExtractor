@@ -1,0 +1,8 @@
+describes the con-sidered term weighting approaches
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2}(NNS )))
+Phase: generated86291
+Input: Token
+Rule: generated86291
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn86291 --> :pttrn86291.extracted={}
+

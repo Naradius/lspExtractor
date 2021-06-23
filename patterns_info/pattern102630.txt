@@ -1,0 +1,8 @@
+are well-known and therefore adequate forintroductory discussions
+(VP (VBP )(NP (ADJP (CC )(ADJP (RB )(JJ )))(JJ )(NNS )))
+Phase: generated102630
+Input: Token
+Rule: generated102630
+(
+(({ Token.category == VBP })((({ Token.category == CC })(({ Token.category == RB })({ Token.category == JJ })))({ Token.category == JJ })({ Token.category == NNS })))):pttrn102630 --> :pttrn102630.extracted={}
+

@@ -1,0 +1,8 @@
+helps us to forge and generate as many TCP orDP packets as we want in the network and for whatever networkestination  we define
+(VP (VBZ )(VP (TO )(VP (VB )(CC )(VP (VB )(PP (IN )(NP (JJ )(NNP ){1,2}(NNS )))))))
+Phase: generated111665
+Input: Token
+Rule: generated111665
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NNS })))))))):pttrn111665 --> :pttrn111665.extracted={}
+

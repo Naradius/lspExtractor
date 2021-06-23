@@ -1,0 +1,8 @@
+designate the probability that node i will bethe node encountered in the future
+(VP (VB )(NP (DT )(NN )))
+Phase: generated41990
+Input: Token
+Rule: generated41990
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn41990 --> :pttrn41990.extracted={}
+

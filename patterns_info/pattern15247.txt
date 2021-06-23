@@ -1,0 +1,8 @@
+can countfour messages every time, thus getting   (4 p1  )
+(VP (MD )(VP (VP (VB )(NP (DT )(NN )))(VP (VBG )(PRN (-LRB- )(NP (CD )(NN ))(-RRB- )))))
+Phase: generated15247
+Input: Token
+Rule: generated15247
+(
+(({ Token.category == MD })((({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == VBG })(({ Token.category == -LRB- })(({ Token.category == CD })({ Token.category == NN }))({ Token.category == -RRB- })))))):pttrn15247 --> :pttrn15247.extracted={}
+

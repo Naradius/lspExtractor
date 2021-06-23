@@ -1,0 +1,8 @@
+singular values and two orthogonal bases of singularvectors
+(NP (NP (JJ )(NNS ))(CC ))
+Phase: generated85584
+Input: Token
+Rule: generated85584
+(
+((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC }))):pttrn85584 --> :pttrn85584.extracted={}
+

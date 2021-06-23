@@ -1,0 +1,8 @@
+of total energy
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated10221
+Input: Token
+Rule: generated10221
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn10221 --> :pttrn10221.extracted={}
+

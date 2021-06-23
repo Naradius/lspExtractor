@@ -1,0 +1,8 @@
+set in a promiscuous node
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated15942
+Input: Token
+Rule: generated15942
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn15942 --> :pttrn15942.extracted={}
+

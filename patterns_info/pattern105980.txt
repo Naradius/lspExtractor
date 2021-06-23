@@ -1,0 +1,8 @@
+a standard CRF-based tagging with no MW segmentation
+(NP (NP (DT )(JJ ){1,2}(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated105980
+Input: Token
+Rule: generated105980
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn105980 --> :pttrn105980.extracted={}
+

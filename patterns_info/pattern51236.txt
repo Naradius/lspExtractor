@@ -1,0 +1,8 @@
+nodes online inorder to optimise power consumption in function of thetraffic load, buffer overflows, delay requirements or har-vested energy
+(NP (JJ )(NN ))
+Phase: generated51236
+Input: Token
+Rule: generated51236
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn51236 --> :pttrn51236.extracted={}
+

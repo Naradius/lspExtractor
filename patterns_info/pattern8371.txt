@@ -1,0 +1,8 @@
+are fewer or more clusters in the network,the energy dissipation worsens
+(VP (VBP )(NP (NP (ADJP (JJR )(CC )(JJR ))(NNS ))(PP (IN )(NP (NP (DT )(NN ))(NP (NN ){1,2}(NNS ))))))
+Phase: generated8371
+Input: Token
+Rule: generated8371
+(
+(({ Token.category == VBP })(((({ Token.category == JJR })({ Token.category == CC })({ Token.category == JJR }))({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn8371 --> :pttrn8371.extracted={}
+

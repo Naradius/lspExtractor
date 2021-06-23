@@ -1,0 +1,8 @@
+b times
+(NP (NN )(NNS ))
+Phase: generated56233
+Input: Token
+Rule: generated56233
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn56233 --> :pttrn56233.extracted={}
+

@@ -1,0 +1,8 @@
+the left hand side of a revised rule
+(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(VBN )(NN ))))
+Phase: generated90143
+Input: Token
+Rule: generated90143
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))):pttrn90143 --> :pttrn90143.extracted={}
+

@@ -1,0 +1,8 @@
+to express my thanks to the helpful feedback from Ray Mooney, ClaireCardie, and the anonymous reviewers
+(VP (TO )(VP (VB )(NP (NP (NP (PRP$ )(NNS ))(PP (TO )(NP (DT )(JJ )(NN ))))(PP (IN )(NP (CC )(NP (DT )(JJ )(NNS )))))))
+Phase: generated81321
+Input: Token
+Rule: generated81321
+(
+(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn81321 --> :pttrn81321.extracted={}
+

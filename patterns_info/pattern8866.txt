@@ -1,0 +1,8 @@
+converge very quickly with only limitedoverhead
+(VP (VB )(PP (IN )(NP (JJ )(NN ))))
+Phase: generated8866
+Input: Token
+Rule: generated8866
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn8866 --> :pttrn8866.extracted={}
+

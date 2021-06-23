@@ -1,0 +1,8 @@
+to a list of all correct slot llers found in the training
+(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated79668
+Input: Token
+Rule: generated79668
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn79668 --> :pttrn79668.extracted={}
+

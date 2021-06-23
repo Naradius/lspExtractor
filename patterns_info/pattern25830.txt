@@ -1,0 +1,8 @@
+a col-ecting point
+(NP (DT )(JJ )(NN ))
+Phase: generated25830
+Input: Token
+Rule: generated25830
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn25830 --> :pttrn25830.extracted={}
+

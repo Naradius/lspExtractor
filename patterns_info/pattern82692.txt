@@ -1,0 +1,8 @@
+for the pattern\@PNPN"
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated82692
+Input: Token
+Rule: generated82692
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn82692 --> :pttrn82692.extracted={}
+

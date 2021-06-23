@@ -1,0 +1,8 @@
+themajor weakness of the evolutionary approach
+(NP (NP (PRP$ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated52476
+Input: Token
+Rule: generated52476
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn52476 --> :pttrn52476.extracted={}
+

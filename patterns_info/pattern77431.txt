@@ -1,0 +1,8 @@
+Information Management GroupEinsteinufer 17, 10587 Berlin
+(NP (NNP ){1,2}(CD ){1,2}(NNP ))
+Phase: generated77431
+Input: Token
+Rule: generated77431
+(
+(({ Token.category == NNP })+({ Token.category == CD })+({ Token.category == NNP }))):pttrn77431 --> :pttrn77431.extracted={}
+

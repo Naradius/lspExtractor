@@ -1,0 +1,8 @@
+the numberof deployed sensors
+(NP (DT )(JJ ){1,2}(NNS ))
+Phase: generated22998
+Input: Token
+Rule: generated22998
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn22998 --> :pttrn22998.extracted={}
+

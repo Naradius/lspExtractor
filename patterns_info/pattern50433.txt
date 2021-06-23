@@ -1,0 +1,8 @@
+inthe vicinity of, or inside a human body
+(PP (CC )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated50433
+Input: Token
+Rule: generated50433
+(
+(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn50433 --> :pttrn50433.extracted={}
+

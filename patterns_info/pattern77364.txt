@@ -1,0 +1,8 @@
+used as early as in the text refining stage.It
+(VP (VBN )(ADVP (ADVP (RB )(JJ ))(PP (IN )(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated77364
+Input: Token
+Rule: generated77364
+(
+(({ Token.category == VBN })((({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn77364 --> :pttrn77364.extracted={}
+

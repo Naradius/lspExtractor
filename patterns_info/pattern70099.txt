@@ -1,0 +1,8 @@
+original sentences and paragraphs
+(NP (JJ )(NNS )(CC )(NNS ))
+Phase: generated70099
+Input: Token
+Rule: generated70099
+(
+(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn70099 --> :pttrn70099.extracted={}
+

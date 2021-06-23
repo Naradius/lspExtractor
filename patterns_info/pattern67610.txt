@@ -1,0 +1,8 @@
+be routedhrough the optimal path using multi-path routing by the authen-icated forwarding nodes and in a strongly encrypted format viaultiple channels
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(VP (VBG )(NP (JJ )(NN ))(PP (PP (IN )(NP (DT )(JJ ){1,2}(NNS )))(CC )(PP (IN )(NP (DT )(ADJP (RB )(VBN ))(PP (IN )(NP (JJ )(NNS )))))))))
+Phase: generated67610
+Input: Token
+Rule: generated67610
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn67610 --> :pttrn67610.extracted={}
+

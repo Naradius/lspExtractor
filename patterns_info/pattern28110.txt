@@ -1,0 +1,8 @@
+the links
+(NP (DT )(NNS ))
+Phase: generated28110
+Input: Token
+Rule: generated28110
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn28110 --> :pttrn28110.extracted={}
+

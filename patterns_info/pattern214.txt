@@ -1,0 +1,8 @@
+the network performance
+(NP (DT )(NN ){1,2})
+Phase: generated214
+Input: Token
+Rule: generated214
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn214 --> :pttrn214.extracted={}
+

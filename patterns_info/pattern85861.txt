@@ -1,0 +1,8 @@
+the clustering of the document
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated85861
+Input: Token
+Rule: generated85861
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn85861 --> :pttrn85861.extracted={}
+

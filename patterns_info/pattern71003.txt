@@ -1,0 +1,8 @@
+to a savings account
+(PP (TO )(NP (DT )(NNS )(NN )))
+Phase: generated71003
+Input: Token
+Rule: generated71003
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))):pttrn71003 --> :pttrn71003.extracted={}
+

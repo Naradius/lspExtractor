@@ -1,0 +1,8 @@
+those do-mains
+(NP (DT )(NNS ))
+Phase: generated22962
+Input: Token
+Rule: generated22962
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn22962 --> :pttrn22962.extracted={}
+

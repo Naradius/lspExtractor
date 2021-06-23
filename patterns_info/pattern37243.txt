@@ -1,0 +1,8 @@
+a real secret share
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated37243
+Input: Token
+Rule: generated37243
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn37243 --> :pttrn37243.extracted={}
+

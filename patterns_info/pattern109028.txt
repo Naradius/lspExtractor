@@ -1,0 +1,8 @@
+as TOHIP and FL-TOHIP with and without the attacker nodes
+(PP (IN )(NP (NP (NNP )(CC )(NNP ))(PP (IN )(CC )(PP (IN )(NP (DT )(NN )(NNS ))))))
+Phase: generated109028
+Input: Token
+Rule: generated109028
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))(({ Token.category == IN })({ Token.category == CC })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn109028 --> :pttrn109028.extracted={}
+

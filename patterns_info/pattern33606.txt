@@ -1,0 +1,8 @@
+the reverse agent
+(NP (DT )(JJ )(NN ))
+Phase: generated33606
+Input: Token
+Rule: generated33606
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn33606 --> :pttrn33606.extracted={}
+

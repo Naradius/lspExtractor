@@ -1,0 +1,8 @@
+am  sites
+(NP (NN )(NNS ))
+Phase: generated1735
+Input: Token
+Rule: generated1735
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn1735 --> :pttrn1735.extracted={}
+

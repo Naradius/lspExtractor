@@ -1,0 +1,8 @@
+high or even perfect accuracy
+(NP (ADJP (JJ )(CC )(RB )(JJ ))(NN ))
+Phase: generated82148
+Input: Token
+Rule: generated82148
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))):pttrn82148 --> :pttrn82148.extracted={}
+

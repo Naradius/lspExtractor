@@ -1,0 +1,8 @@
+the routing table that have the Received Signal StrengthIndicator  values below a minimum threshold
+(NP (NP (DT )(NN ){1,2})(VP (VBP )(NP (NP (DT )(NNPS )(NNP )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated55676
+Input: Token
+Rule: generated55676
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNPS })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn55676 --> :pttrn55676.extracted={}
+

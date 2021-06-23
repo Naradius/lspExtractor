@@ -1,0 +1,8 @@
+for intelli-gent robust and non-linear control and monitoring,blockchain and knowledge discovery data
+(PP (IN )(NP (NP (ADJP (JJ ){1,2}(CC )(JJ ))(NN ))(CC )(NP (NN ){1,2}(CC )(NN ){1,2}(NNS ))))
+Phase: generated30582
+Input: Token
+Rule: generated30582
+(
+(({ Token.category == IN })(((({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN }))({ Token.category == CC })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn30582 --> :pttrn30582.extracted={}
+

@@ -1,0 +1,8 @@
+the state-of-the-art Internet routing protocols, such as, LSR , and OSPF ,or traditional wireless mesh network routing protocols, such as,DSR and AODV cannot be seamlessly applied to DSA based IoTcommunications
+(NP (NP (DT )(NN )(NNP )(NN )(NNS ))(PP (JJ )(IN )))
+Phase: generated21366
+Input: Token
+Rule: generated21366
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn21366 --> :pttrn21366.extracted={}
+

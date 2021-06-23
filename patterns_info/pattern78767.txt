@@ -1,0 +1,8 @@
+the number of tagged training instances grows
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated78767
+Input: Token
+Rule: generated78767
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn78767 --> :pttrn78767.extracted={}
+

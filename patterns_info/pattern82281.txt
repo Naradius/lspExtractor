@@ -1,0 +1,8 @@
+from the last character matched by the prior application of the rule
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated82281
+Input: Token
+Rule: generated82281
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn82281 --> :pttrn82281.extracted={}
+

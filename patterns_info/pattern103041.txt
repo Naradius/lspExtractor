@@ -1,0 +1,8 @@
+wedo with the edge which has the deleted Stat node as source
+(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (DT )(VBN )(NNP )(NN ))))))
+Phase: generated103041
+Input: Token
+Rule: generated103041
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })({ Token.category == NN }))))))):pttrn103041 --> :pttrn103041.extracted={}
+

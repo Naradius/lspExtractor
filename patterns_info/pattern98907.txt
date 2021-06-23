@@ -1,0 +1,8 @@
+originate the patterns
+(VP (VBP )(NP (DT )(NNS )))
+Phase: generated98907
+Input: Token
+Rule: generated98907
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNS })))):pttrn98907 --> :pttrn98907.extracted={}
+

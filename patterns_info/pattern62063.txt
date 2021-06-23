@@ -1,0 +1,8 @@
+uniformly and randomly
+(ADVP (RB )(CC )(RB ))
+Phase: generated62063
+Input: Token
+Rule: generated62063
+(
+(({ Token.category == RB })({ Token.category == CC })({ Token.category == RB }))):pttrn62063 --> :pttrn62063.extracted={}
+

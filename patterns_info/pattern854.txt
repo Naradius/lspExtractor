@@ -1,0 +1,8 @@
+Unlike regular MANETs
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated854
+Input: Token
+Rule: generated854
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn854 --> :pttrn854.extracted={}
+

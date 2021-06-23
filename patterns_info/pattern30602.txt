@@ -1,0 +1,8 @@
+the department of AppliedMathematics .Soffiene Affes
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP ){1,2}(NNPS ))))
+Phase: generated30602
+Input: Token
+Rule: generated30602
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NNPS }))))):pttrn30602 --> :pttrn30602.extracted={}
+

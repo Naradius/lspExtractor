@@ -1,0 +1,8 @@
+thedifferent WSN applications
+(NP (JJ )(NNP )(NNS ))
+Phase: generated52555
+Input: Token
+Rule: generated52555
+(
+(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))):pttrn52555 --> :pttrn52555.extracted={}
+

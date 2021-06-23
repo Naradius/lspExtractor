@@ -1,0 +1,8 @@
+bd Descartes
+(NP (NN )(NNS ))
+Phase: generated106265
+Input: Token
+Rule: generated106265
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn106265 --> :pttrn106265.extracted={}
+

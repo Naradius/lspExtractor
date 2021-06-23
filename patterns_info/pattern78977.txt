@@ -1,0 +1,8 @@
+distinguish these lowfrequency patterns from features accidentally associated with the concept.How good
+(VP (VB )(NP (DT )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated78977
+Input: Token
+Rule: generated78977
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn78977 --> :pttrn78977.extracted={}
+

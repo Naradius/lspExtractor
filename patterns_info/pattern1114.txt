@@ -1,0 +1,8 @@
+by examining the neighbor table of its neighbors
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (PRP$ )(NNS ))))))
+Phase: generated1114
+Input: Token
+Rule: generated1114
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))))):pttrn1114 --> :pttrn1114.extracted={}
+

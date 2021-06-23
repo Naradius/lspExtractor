@@ -1,0 +1,8 @@
+is broader and quicker than their typical implemen-tation
+(VP (VBZ )(ADJP (ADJP (JJR )(CC )(JJR ))(PP (IN )(NP (PRP$ )(JJ )(NN )))))
+Phase: generated7360
+Input: Token
+Rule: generated7360
+(
+(({ Token.category == VBZ })((({ Token.category == JJR })({ Token.category == CC })({ Token.category == JJR }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))))):pttrn7360 --> :pttrn7360.extracted={}
+

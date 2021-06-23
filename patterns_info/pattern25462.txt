@@ -1,0 +1,8 @@
+of the art OFs
+(PP (IN )(NP (DT )(NN )(NNS )))
+Phase: generated25462
+Input: Token
+Rule: generated25462
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn25462 --> :pttrn25462.extracted={}
+

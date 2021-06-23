@@ -1,0 +1,8 @@
+going from physical layer optimisation to net-work layer solutions
+(VP (VBG )(PP (IN )(NP (JJ )(NN ){1,2}))(PP (TO )(NP (NN ){1,2}(NNS ))))
+Phase: generated49253
+Input: Token
+Rule: generated49253
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == NN })+({ Token.category == NNS }))))):pttrn49253 --> :pttrn49253.extracted={}
+

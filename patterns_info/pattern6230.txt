@@ -1,0 +1,8 @@
+the Distrib-uted Cluster Algorithm   and Weighted Cluster-ing Algorithm
+(NP (NP (DT )(NNP ){1,2})(CC ))
+Phase: generated6230
+Input: Token
+Rule: generated6230
+(
+((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC }))):pttrn6230 --> :pttrn6230.extracted={}
+

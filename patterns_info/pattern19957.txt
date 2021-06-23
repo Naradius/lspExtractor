@@ -1,0 +1,8 @@
+andevaluation of resource provisioning algorithms
+(PP (IN )(PP (IN )(NP (NN ){1,2}(NNS ))))
+Phase: generated19957
+Input: Token
+Rule: generated19957
+(
+(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))):pttrn19957 --> :pttrn19957.extracted={}
+

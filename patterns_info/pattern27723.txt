@@ -1,0 +1,8 @@
+in their buffers
+(PP (IN )(NP (PRP$ )(NNS )))
+Phase: generated27723
+Input: Token
+Rule: generated27723
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS })))):pttrn27723 --> :pttrn27723.extracted={}
+

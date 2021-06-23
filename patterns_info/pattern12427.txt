@@ -1,0 +1,8 @@
+data transmission distance,direction and energy residual for presenting an optimal route
+(NP (NP (NNS )(NN ){1,2}(CC )(NN ){1,2})(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN )))))
+Phase: generated12427
+Input: Token
+Rule: generated12427
+(
+((({ Token.category == NNS })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn12427 --> :pttrn12427.extracted={}
+

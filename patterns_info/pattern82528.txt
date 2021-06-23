@@ -1,0 +1,8 @@
+rather than
+(CONJP (RB )(IN ))
+Phase: generated82528
+Input: Token
+Rule: generated82528
+(
+(({ Token.category == RB })({ Token.category == IN }))):pttrn82528 --> :pttrn82528.extracted={}
+

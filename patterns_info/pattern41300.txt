@@ -1,0 +1,8 @@
+to form islands of objectsisolated from each other.Given these different challenges that face IoT, it is necessary toimplement routing protocols that adapt the requirements of these envi-ronments, particularly in the context of DTN networks.5
+(VP (TO )(VP (VB )(PP (IN )(NP (DT )(JJ )))(NP (NP (DT )(JJ )(NNS ))(VP (VBZ )(NP (NP (JJ )(NN ){1,2}(NNS ))(VP (VBP )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS ))))))))))
+Phase: generated41300
+Input: Token
+Rule: generated41300
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))))))):pttrn41300 --> :pttrn41300.extracted={}
+

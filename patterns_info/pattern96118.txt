@@ -1,0 +1,8 @@
+man-ual adaptation to new domains and corpora.2
+(NP (NP (JJ )(NN ))(PP (TO )(NP (JJ )(NNS )(CC )(NNS ))))
+Phase: generated96118
+Input: Token
+Rule: generated96118
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))):pttrn96118 --> :pttrn96118.extracted={}
+

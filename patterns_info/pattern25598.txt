@@ -1,0 +1,8 @@
+Low power and lossy networks routing protocols classification.
+(NP (NP (JJ )(NN ))(CC )(NP (NP (JJ )(NNS ))(VP (VBG )(NP (NNS )(NN )))))
+Phase: generated25598
+Input: Token
+Rule: generated25598
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == NN })))))):pttrn25598 --> :pttrn25598.extracted={}
+

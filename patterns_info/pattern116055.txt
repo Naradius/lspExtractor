@@ -1,0 +1,8 @@
+are the mappings between their maximal common sub-graphs
+(VP (VBP )(NP (NP (DT )(NNS ))(PP (IN )(NP (PRP$ )(JJ ){1,2}(NNS )))))
+Phase: generated116055
+Input: Token
+Rule: generated116055
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NNS })))))):pttrn116055 --> :pttrn116055.extracted={}
+

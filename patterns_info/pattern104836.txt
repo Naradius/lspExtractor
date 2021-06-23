@@ -1,0 +1,8 @@
+can reject any grammar for which termination of the generated parser cannotbe guaranteed.Our approach differs from other visual language approaches in the large class of grammarsit accepts
+(VP (MD )(VP (VB )(NP (NP (DT )(NN ))(VP (VBZ )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))))))
+Phase: generated104836
+Input: Token
+Rule: generated104836
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))))):pttrn104836 --> :pttrn104836.extracted={}
+

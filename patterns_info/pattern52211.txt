@@ -1,0 +1,8 @@
+Liu et al
+(NP (NNP ){1,2}(NN ))
+Phase: generated52211
+Input: Token
+Rule: generated52211
+(
+(({ Token.category == NNP })+({ Token.category == NN }))):pttrn52211 --> :pttrn52211.extracted={}
+

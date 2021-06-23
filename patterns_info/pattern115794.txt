@@ -1,0 +1,8 @@
+that highly relevant documents appearing lower in a search result list should be penalized as the graded relevance value is reduced logarithmically proportional to the position of the result
+(NP (NP (DT )(ADJP (RB )(JJ ))(NNS ))(VP (VBG )(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (MD )(VP (VB )(VP (VBN )(IN ))))))))
+Phase: generated115794
+Input: Token
+Rule: generated115794
+(
+((({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN }))))))))):pttrn115794 --> :pttrn115794.extracted={}
+

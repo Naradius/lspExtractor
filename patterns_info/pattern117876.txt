@@ -1,0 +1,8 @@
+will define the operation of generalization on a pair of PT as finding the maximal common sub-thickets and outline two approaches to it:Based on generalizing phrases from two paragraphs of textBased on generalizing graph representation for PTs for these paragraphs
+(VP (MD )(VP (VB )(PP (IN )(VP (VP (VBG )(NP (DT )(JJ ){1,2}(NNS )))(CC )))))
+Phase: generated117876
+Input: Token
+Rule: generated117876
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))({ Token.category == CC })))))):pttrn117876 --> :pttrn117876.extracted={}
+

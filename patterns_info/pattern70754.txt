@@ -1,0 +1,8 @@
+Rather than extracting common keywords
+(PP (RB )(IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated70754
+Input: Token
+Rule: generated70754
+(
+(({ Token.category == RB })({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn70754 --> :pttrn70754.extracted={}
+

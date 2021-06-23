@@ -1,0 +1,8 @@
+for initial deploymentmust
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated47384
+Input: Token
+Rule: generated47384
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn47384 --> :pttrn47384.extracted={}
+

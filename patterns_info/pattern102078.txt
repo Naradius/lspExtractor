@@ -1,0 +1,8 @@
+the left-hand side of every production
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated102078
+Input: Token
+Rule: generated102078
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn102078 --> :pttrn102078.extracted={}
+

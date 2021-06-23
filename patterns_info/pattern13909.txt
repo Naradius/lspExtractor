@@ -1,0 +1,8 @@
+with the VNLayerp = p0 + minT2
+(PP (IN )(NP (DT )(NNP )(SYM )(FW )(NNP )(NN )))
+Phase: generated13909
+Input: Token
+Rule: generated13909
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == SYM })({ Token.category == FW })({ Token.category == NNP })({ Token.category == NN })))):pttrn13909 --> :pttrn13909.extracted={}
+

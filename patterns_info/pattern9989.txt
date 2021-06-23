@@ -1,0 +1,8 @@
+between the BS and the nodecalculated through Received Signal Strength
+(PP (IN )(NP (NP (DT )(NNP ))(CC )))
+Phase: generated9989
+Input: Token
+Rule: generated9989
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC })))):pttrn9989 --> :pttrn9989.extracted={}
+

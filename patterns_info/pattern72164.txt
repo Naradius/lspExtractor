@@ -1,0 +1,8 @@
+event-based knowledge.Detecting events automatically and obtaining a semantic represen-tation for them
+(NP (NP (JJ )(NN ))(VP (CC )(VP (VBG )(NP (DT )(JJ )(NN )))))
+Phase: generated72164
+Input: Token
+Rule: generated72164
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn72164 --> :pttrn72164.extracted={}
+

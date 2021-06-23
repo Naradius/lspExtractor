@@ -1,0 +1,8 @@
+78. Vismara, P. and  B. Valery.
+(NP (NP (CD )(NNP ){1,2})(NP (NNP )(CC )(NNP ){1,2}))
+Phase: generated117073
+Input: Token
+Rule: generated117073
+(
+((({ Token.category == CD })({ Token.category == NNP })+)(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+))):pttrn117073 --> :pttrn117073.extracted={}
+

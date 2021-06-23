@@ -1,0 +1,8 @@
+succeed to provide a scalable and energy-efficientsolution
+(VP (VB )(VP (TO )(VP (VB )(NP (DT )(JJ )(CC )(NN )))))
+Phase: generated6163
+Input: Token
+Rule: generated6163
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN })))))):pttrn6163 --> :pttrn6163.extracted={}
+

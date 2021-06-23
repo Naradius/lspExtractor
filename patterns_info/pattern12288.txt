@@ -1,0 +1,8 @@
+is elaborated in Section 3. Energy consumption andnetwork life time analysis is discussed in Section 4. The performanceof the proposed hierarchical routing scheme is evaluated in Section 5.Finally, the conclusions of this article are summarized in Section
+(VP (VBZ )(VP (VP (VBN )(PP (IN )(NP (NP (NNP )(CD )(NNP )(NN ){1,2})(VP (VBZ )(VP (VBN )(PP (IN )(NP (NNP )(CD ))))))))(IN )))
+Phase: generated12288
+Input: Token
+Rule: generated12288
+(
+(({ Token.category == VBZ })((({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))))))({ Token.category == IN })))):pttrn12288 --> :pttrn12288.extracted={}
+

@@ -1,0 +1,8 @@
+compared tolexico-syntactic ones
+(VP (VBN )(NP (JJ )(NNS )))
+Phase: generated95267
+Input: Token
+Rule: generated95267
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn95267 --> :pttrn95267.extracted={}
+

@@ -1,0 +1,8 @@
+a knowledge structure
+(NP (DT )(NN ){1,2})
+Phase: generated77388
+Input: Token
+Rule: generated77388
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn77388 --> :pttrn77388.extracted={}
+

@@ -1,0 +1,8 @@
+a given edgesequence
+(NP (DT )(VBN )(NN ))
+Phase: generated89425
+Input: Token
+Rule: generated89425
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn89425 --> :pttrn89425.extracted={}
+

@@ -1,0 +1,8 @@
+more unreliable
+(ADJP (RBR )(JJ ))
+Phase: generated15500
+Input: Token
+Rule: generated15500
+(
+(({ Token.category == RBR })({ Token.category == JJ }))):pttrn15500 --> :pttrn15500.extracted={}
+

@@ -1,0 +1,8 @@
+doi: 10.1016/j.adhoc.2019.102022
+(NP (FW )(CD ))
+Phase: generated67753
+Input: Token
+Rule: generated67753
+(
+(({ Token.category == FW })({ Token.category == CD }))):pttrn67753 --> :pttrn67753.extracted={}
+

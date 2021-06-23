@@ -1,0 +1,8 @@
+use a variety of antecedentlyexisting processing and data resources, subjecting the text to each of several levels of analysis,and to correlate the attributes thereby assigned to text elements and spans with those of theitems to be extracted
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(CC )(NNS ){1,2})))(VP (VBG )(NP (DT )(NN ))))
+Phase: generated87180
+Input: Token
+Rule: generated87180
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NNS })+)))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))):pttrn87180 --> :pttrn87180.extracted={}
+

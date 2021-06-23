@@ -1,0 +1,8 @@
+are the same in the same form
+(VP (VBP )(NP (DT )(JJ ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated70897
+Input: Token
+Rule: generated70897
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn70897 --> :pttrn70897.extracted={}
+

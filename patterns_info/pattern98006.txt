@@ -1,0 +1,8 @@
+tags the words in a sentence with their corresponding tags
+(VP (VBZ )(NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NNS ))))))
+Phase: generated98006
+Input: Token
+Rule: generated98006
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn98006 --> :pttrn98006.extracted={}
+

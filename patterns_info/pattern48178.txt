@@ -1,0 +1,8 @@
+The mo-bility management plane detects and registers themovement of sensor nodes, so a route back to theuser
+(NP (NP (DT )(NN ){1,2}(NNS ))(CC )(NP (NP (NNS )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated48178
+Input: Token
+Rule: generated48178
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn48178 --> :pttrn48178.extracted={}
+

@@ -1,0 +1,8 @@
+depends on the verbs properties and the polarity of the context in which the verb appears
+(VP (VBZ )(PP (IN )(NP (NP (DT )(NNS ){1,2})(CC ))))
+Phase: generated113238
+Input: Token
+Rule: generated113238
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })+)({ Token.category == CC }))))):pttrn113238 --> :pttrn113238.extracted={}
+

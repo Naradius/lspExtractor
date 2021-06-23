@@ -1,0 +1,8 @@
+the design of such a scheme
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(DT )(NN ))))
+Phase: generated45045
+Input: Token
+Rule: generated45045
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN }))))):pttrn45045 --> :pttrn45045.extracted={}
+

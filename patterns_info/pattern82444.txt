@@ -1,0 +1,8 @@
+$1g
+(NP ($ )(CD ))
+Phase: generated82444
+Input: Token
+Rule: generated82444
+(
+(({ Token.category == $ })({ Token.category == CD }))):pttrn82444 --> :pttrn82444.extracted={}
+

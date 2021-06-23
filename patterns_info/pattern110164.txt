@@ -1,0 +1,8 @@
+according to two complementary parameters: the timecale and the moment of analysis
+(PP (VBG )(PP (TO )(NP (NP (CD )(JJ )(NNS ))(NP (NP (DT )(NN ))(CC )))))
+Phase: generated110164
+Input: Token
+Rule: generated110164
+(
+(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))))):pttrn110164 --> :pttrn110164.extracted={}
+

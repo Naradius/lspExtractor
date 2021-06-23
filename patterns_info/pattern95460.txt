@@ -1,0 +1,8 @@
+contained a negation or speculationcue using the Stanford parser
+(VP (VBD )(NP (NP (DT )(NN )(CC )(NN ))(VP (VBG )(NP (DT )(NNP )(NN )))))
+Phase: generated95460
+Input: Token
+Rule: generated95460
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn95460 --> :pttrn95460.extracted={}
+

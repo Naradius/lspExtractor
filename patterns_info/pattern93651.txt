@@ -1,0 +1,8 @@
+to validate and save the11SequenceORgetNextMatchcountgetNextMatchcount,getNextMatchcountandgetNextMatchcount Repetition NNPgetNextMatchcountcountgetNextMatchFigure 3: Rule tree example of Rule 14rule
+(VP (TO )(VP (VB )(CC )))
+Phase: generated93651
+Input: Token
+Rule: generated93651
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC })))):pttrn93651 --> :pttrn93651.extracted={}
+

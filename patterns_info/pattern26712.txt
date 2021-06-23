@@ -1,0 +1,8 @@
+provide lower ETX and thus, it could be se-ected as the preferred path with higher probability
+(VP (VP (VB )(NP (JJR )(NNP )))(CC )(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJR )(NN )))))))))
+Phase: generated26712
+Input: Token
+Rule: generated26712
+(
+((({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NNP })))({ Token.category == CC })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })))))))))):pttrn26712 --> :pttrn26712.extracted={}
+

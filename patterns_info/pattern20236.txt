@@ -1,0 +1,8 @@
+of data velocity
+(PP (IN )(NP (NNS )(NN )))
+Phase: generated20236
+Input: Token
+Rule: generated20236
+(
+(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })))):pttrn20236 --> :pttrn20236.extracted={}
+

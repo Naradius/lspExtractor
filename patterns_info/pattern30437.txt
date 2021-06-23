@@ -1,0 +1,8 @@
+the management and analysis of energy data,Future Gener
+(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (NN )(NNS )(NN ){1,2})))
+Phase: generated30437
+Input: Token
+Rule: generated30437
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })+)))):pttrn30437 --> :pttrn30437.extracted={}
+

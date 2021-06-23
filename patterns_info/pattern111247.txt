@@ -1,0 +1,8 @@
+the Matlab Simulink estimator
+(NP (DT )(NNP ){1,2}(NN ))
+Phase: generated111247
+Input: Token
+Rule: generated111247
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))):pttrn111247 --> :pttrn111247.extracted={}
+

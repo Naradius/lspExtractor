@@ -1,0 +1,8 @@
+as base stationshave unlimited power supply and the mobile usercan
+(PP (IN )(NP (NP (JJ )(NN )(JJ )(NN ){1,2})(CC )(NP (DT )(JJ )(NN ))))
+Phase: generated44392
+Input: Token
+Rule: generated44392
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn44392 --> :pttrn44392.extracted={}
+

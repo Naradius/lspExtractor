@@ -1,0 +1,8 @@
+in the first tier which means that their packets have to pass through an IDS node before reaching the edgerouter
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(IN ))))
+Phase: generated37563
+Input: Token
+Rule: generated37563
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })({ Token.category == IN }))))):pttrn37563 --> :pttrn37563.extracted={}
+

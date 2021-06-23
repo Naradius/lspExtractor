@@ -1,0 +1,8 @@
+5.2.2 Packet delivery rate
+(NP (CD )(NNP )(NN ){1,2})
+Phase: generated17997
+Input: Token
+Rule: generated17997
+(
+(({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })+)):pttrn17997 --> :pttrn17997.extracted={}
+

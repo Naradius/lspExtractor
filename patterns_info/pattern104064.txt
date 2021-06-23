@@ -1,0 +1,8 @@
+starts by attach-ing initial dotted rules to all matching vertices in the host graph
+(VP (VBZ )(PP (IN )(NP (DT )(JJ ){1,2}(NNS )))(PP (TO )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated104064
+Input: Token
+Rule: generated104064
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn104064 --> :pttrn104064.extracted={}
+

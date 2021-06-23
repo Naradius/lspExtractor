@@ -1,0 +1,8 @@
+A biologically-inspired clustering protocol
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated5685
+Input: Token
+Rule: generated5685
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn5685 --> :pttrn5685.extracted={}
+

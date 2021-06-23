@@ -1,0 +1,8 @@
+Lin suggestedbetter and sufficient connectivity condition
+(NP (NP (NNP )(NN ))(CC )(NP (JJ )(NN ){1,2}))
+Phase: generated56154
+Input: Token
+Rule: generated56154
+(
+((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn56154 --> :pttrn56154.extracted={}
+

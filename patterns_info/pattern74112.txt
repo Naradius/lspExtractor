@@ -1,0 +1,8 @@
+quali-tative results of our system run on three other forums: the AdultType II Diabetes forum , the Acne forum, and the Breast Cancer forum
+(NP (NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (PRP$ )(NN ))(VP (VBN )(PP (IN )(NP (CD )(JJ )(NNS )))))))(NP (NP (DT )(NNP ){1,2}(NN )){1,2}(CC )(NP (DT )(NNP ){1,2}(NN ))))
+Phase: generated74112
+Input: Token
+Rule: generated74112
+(
+(((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))))))((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))+({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))))):pttrn74112 --> :pttrn74112.extracted={}
+

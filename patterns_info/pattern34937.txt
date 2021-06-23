@@ -1,0 +1,8 @@
+the blockchain IoT system, thereading and writing of data, and the abnormal use of systemresources
+(NP (NP (DT )(NN )(NNP )(NN ))(CC ))
+Phase: generated34937
+Input: Token
+Rule: generated34937
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC }))):pttrn34937 --> :pttrn34937.extracted={}
+

@@ -1,0 +1,8 @@
+the number of all words that match the pattern,and freq
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))(VP (VBP )(NP (DT )(NN )(CC )(NN ))))
+Phase: generated74358
+Input: Token
+Rule: generated74358
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn74358 --> :pttrn74358.extracted={}
+

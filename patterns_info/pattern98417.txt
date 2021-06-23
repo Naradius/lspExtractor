@@ -1,0 +1,8 @@
+the words of the data set
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated98417
+Input: Token
+Rule: generated98417
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn98417 --> :pttrn98417.extracted={}
+

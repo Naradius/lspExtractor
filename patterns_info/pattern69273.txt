@@ -1,0 +1,8 @@
+the identity index
+(NP (DT )(NN ){1,2})
+Phase: generated69273
+Input: Token
+Rule: generated69273
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn69273 --> :pttrn69273.extracted={}
+

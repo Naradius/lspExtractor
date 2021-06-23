@@ -1,0 +1,8 @@
+a packet
+(NP (DT )(NN ))
+Phase: generated33063
+Input: Token
+Rule: generated33063
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn33063 --> :pttrn33063.extracted={}
+

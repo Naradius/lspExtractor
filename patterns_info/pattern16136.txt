@@ -1,0 +1,8 @@
+the number of PNsmoving around  and the size of thesquare VN regions
+(NP (CC )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )(NNS )))))
+Phase: generated16136
+Input: Token
+Rule: generated16136
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))))):pttrn16136 --> :pttrn16136.extracted={}
+

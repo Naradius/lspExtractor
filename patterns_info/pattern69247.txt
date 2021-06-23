@@ -1,0 +1,8 @@
+composed of the coordinate representing its positionin the solution space
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBG )(NP (PRP$ )(NN ))(NP (DT )(NN ){1,2})))))
+Phase: generated69247
+Input: Token
+Rule: generated69247
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn69247 --> :pttrn69247.extracted={}
+

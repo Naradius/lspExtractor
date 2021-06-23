@@ -1,0 +1,8 @@
+the secure routingrotocol
+(NP (DT )(JJ )(NN ))
+Phase: generated66604
+Input: Token
+Rule: generated66604
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn66604 --> :pttrn66604.extracted={}
+

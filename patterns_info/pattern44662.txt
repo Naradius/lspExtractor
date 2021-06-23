@@ -1,0 +1,8 @@
+by using a randomwake-up schedule during the connection phase andby turning the radio off during idle time slots.The EAR protocol  attempts to offer con-tinuous service to the mobile nodes under bothmobile and stationary conditions
+(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(VP (VBG )(NP (DT )(NN ))(PRT (RP ))(PP (IN )(NP (CC )(NP (JJ )(NNS ))))))))))
+Phase: generated44662
+Input: Token
+Rule: generated44662
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == RP }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))))))))):pttrn44662 --> :pttrn44662.extracted={}
+

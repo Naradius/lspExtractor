@@ -1,0 +1,8 @@
+isnecessary to address these characteristics in the control algorithmapplied by the networks
+(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NNS )))))))))
+Phase: generated31653
+Input: Token
+Rule: generated31653
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))))):pttrn31653 --> :pttrn31653.extracted={}
+

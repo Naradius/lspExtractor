@@ -1,0 +1,8 @@
+the periods
+(NP (DT )(NNS ))
+Phase: generated13872
+Input: Token
+Rule: generated13872
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn13872 --> :pttrn13872.extracted={}
+

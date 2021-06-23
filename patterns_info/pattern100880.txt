@@ -1,0 +1,8 @@
+of a question well formulated at the lexical, syntactic and semantic leveland, according to an annotator
+(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(JJ ){1,2}(CC )(JJ )(NN )))(PP (VBG )(PP (TO )(NP (DT )(NN )))))))
+Phase: generated100880
+Input: Token
+Rule: generated100880
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn100880 --> :pttrn100880.extracted={}
+

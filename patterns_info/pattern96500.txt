@@ -1,0 +1,8 @@
+Language dependent approach 32Corpus-based Co-Occurrence Use Porter
+(NP (JJ ){1,2}(NN )(JJ )(NNP ){1,2})
+Phase: generated96500
+Input: Token
+Rule: generated96500
+(
+(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNP })+)):pttrn96500 --> :pttrn96500.extracted={}
+

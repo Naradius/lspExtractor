@@ -1,0 +1,8 @@
+the text or links
+(NP (DT )(NN )(CC )(NNS ))
+Phase: generated81809
+Input: Token
+Rule: generated81809
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))):pttrn81809 --> :pttrn81809.extracted={}
+

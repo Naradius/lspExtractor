@@ -1,0 +1,8 @@
+propose a solution allowing the sharing and theeasy exchange of data thanks to IoT, while relying on DTN networks.1.2
+(VP (VB )(NP (NP (DT )(NN ))(VP (VBG )(NP (NP (DT )(NN ))(CC )))))
+Phase: generated40454
+Input: Token
+Rule: generated40454
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))))):pttrn40454 --> :pttrn40454.extracted={}
+

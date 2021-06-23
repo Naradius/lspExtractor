@@ -1,0 +1,8 @@
+the details about the four parame-ers
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(CD )(NNS ))))
+Phase: generated59149
+Input: Token
+Rule: generated59149
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))))):pttrn59149 --> :pttrn59149.extracted={}
+

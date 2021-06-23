@@ -1,0 +1,8 @@
+residualenergy and number of the neighbors
+(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated53112
+Input: Token
+Rule: generated53112
+(
+((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn53112 --> :pttrn53112.extracted={}
+

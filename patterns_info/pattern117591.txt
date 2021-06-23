@@ -1,0 +1,8 @@
+a single entity and its attributes
+(NP (NP (DT )(JJ )(NN ))(CC )(NP (PRP$ )(NNS )))
+Phase: generated117591
+Input: Token
+Rule: generated117591
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NNS })))):pttrn117591 --> :pttrn117591.extracted={}
+

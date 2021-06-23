@@ -1,0 +1,8 @@
+leading from the source todestination node
+(VP (VBG )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated10142
+Input: Token
+Rule: generated10142
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn10142 --> :pttrn10142.extracted={}
+

@@ -1,0 +1,8 @@
+for graphical languages, themost important thing
+(PP (IN )(NP (NP (JJ )(NNS ))(RB )(NN )))
+Phase: generated102085
+Input: Token
+Rule: generated102085
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == RB })({ Token.category == NN })))):pttrn102085 --> :pttrn102085.extracted={}
+

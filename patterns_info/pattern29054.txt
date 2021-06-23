@@ -1,0 +1,8 @@
+the 7th IFIP Wireless and Mobile Net-working Conference , IEEE, 2014, pp
+(NP (NP (DT )(NNP ){1,2})(CC ))
+Phase: generated29054
+Input: Token
+Rule: generated29054
+(
+((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC }))):pttrn29054 --> :pttrn29054.extracted={}
+

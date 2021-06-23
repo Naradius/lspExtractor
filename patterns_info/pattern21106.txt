@@ -1,0 +1,8 @@
+the best hops, best channels, and optimal transmission powers along a route
+(NP (NP (DT )(JJS )(NNS ))(NP (JJS )(NNS ))(CC )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated21106
+Input: Token
+Rule: generated21106
+(
+((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS }))(({ Token.category == JJS })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn21106 --> :pttrn21106.extracted={}
+

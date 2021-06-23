@@ -1,0 +1,8 @@
+data plaintext transmis-sion
+(NP (NNS )(NN ){1,2})
+Phase: generated34860
+Input: Token
+Rule: generated34860
+(
+(({ Token.category == NNS })({ Token.category == NN })+)):pttrn34860 --> :pttrn34860.extracted={}
+

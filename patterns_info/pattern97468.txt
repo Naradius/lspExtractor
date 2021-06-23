@@ -1,0 +1,8 @@
+those words whose
+(NP (DT )(NNS )(WP$ ))
+Phase: generated97468
+Input: Token
+Rule: generated97468
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == WP$ }))):pttrn97468 --> :pttrn97468.extracted={}
+

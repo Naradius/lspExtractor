@@ -1,0 +1,8 @@
+consider the cases in which more than one leader emerges in the network and a submesh group communication is formed
+(VP (VB )(NP (NP (DT )(NNS ))(VP (VBZ )(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(JJ )(NN ){1,2}))))))
+Phase: generated107606
+Input: Token
+Rule: generated107606
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn107606 --> :pttrn107606.extracted={}
+

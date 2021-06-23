@@ -1,0 +1,8 @@
+fast and timely responsiveness
+(NP (ADJP (JJ )(CC )(JJ ))(NN ))
+Phase: generated49320
+Input: Token
+Rule: generated49320
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN }))):pttrn49320 --> :pttrn49320.extracted={}
+

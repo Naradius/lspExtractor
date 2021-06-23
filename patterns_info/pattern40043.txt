@@ -1,0 +1,8 @@
+> tcp-$  g9Ehi
+(PP (IN )(NP (JJ )(NNP )))
+Phase: generated40043
+Input: Token
+Rule: generated40043
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })))):pttrn40043 --> :pttrn40043.extracted={}
+

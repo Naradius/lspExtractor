@@ -1,0 +1,8 @@
+is compared and evaluated by means of simulations through the OpportunisticNetwork Environment  simulation tool
+(VP (VBZ )(VP (CC )(VP (VBN )(PP (IN )(NP (DT )(NNP ){1,2}(NN ){1,2})))))
+Phase: generated40198
+Input: Token
+Rule: generated40198
+(
+(({ Token.category == VBZ })(({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })+)))))):pttrn40198 --> :pttrn40198.extracted={}
+

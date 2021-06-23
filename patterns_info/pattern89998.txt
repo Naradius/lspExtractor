@@ -1,0 +1,8 @@
+the access
+(NP (DT )(NN ))
+Phase: generated89998
+Input: Token
+Rule: generated89998
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn89998 --> :pttrn89998.extracted={}
+

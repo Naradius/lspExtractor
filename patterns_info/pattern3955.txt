@@ -1,0 +1,8 @@
+sending a JOIN message withits id, the selected CH id and its pheromone level
+(VP (VBG )(NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(VBN )(NNP )(NN ))(CC )(NP (PRP$ )(NN ){1,2}))))
+Phase: generated3955
+Input: Token
+Rule: generated3955
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })+))))):pttrn3955 --> :pttrn3955.extracted={}
+

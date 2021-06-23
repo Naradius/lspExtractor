@@ -1,0 +1,8 @@
+traditional wireless networks
+(NP (JJ ){1,2}(NNS ))
+Phase: generated22848
+Input: Token
+Rule: generated22848
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn22848 --> :pttrn22848.extracted={}
+

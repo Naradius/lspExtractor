@@ -1,0 +1,8 @@
+Leveraging sequence kernel and tree kernel
+(VP (VBG )(NP (NN ){1,2}(CC )(NN ){1,2}))
+Phase: generated116703
+Input: Token
+Rule: generated116703
+(
+(({ Token.category == VBG })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+))):pttrn116703 --> :pttrn116703.extracted={}
+

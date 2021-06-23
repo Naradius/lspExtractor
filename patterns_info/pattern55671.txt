@@ -1,0 +1,8 @@
+the Received Signal StrengthIndicator  values
+(NP (DT )(NNPS )(NNP )(NN )(NNS ))
+Phase: generated55671
+Input: Token
+Rule: generated55671
+(
+(({ Token.category == DT })({ Token.category == NNPS })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))):pttrn55671 --> :pttrn55671.extracted={}
+

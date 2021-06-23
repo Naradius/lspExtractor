@@ -1,0 +1,8 @@
+applyingthe user-defined extraction rules to the existingnews items
+(NP (NP (DT )(JJ )(NN )(NNS ))(PP (TO )(NP (DT )(NN )(NNS ))))
+Phase: generated93682
+Input: Token
+Rule: generated93682
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn93682 --> :pttrn93682.extracted={}
+

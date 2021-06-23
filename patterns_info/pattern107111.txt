@@ -1,0 +1,8 @@
+disjoint routing paths
+(NP (JJ )(NN )(NNS ))
+Phase: generated107111
+Input: Token
+Rule: generated107111
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn107111 --> :pttrn107111.extracted={}
+

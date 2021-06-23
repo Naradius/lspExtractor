@@ -1,0 +1,8 @@
+wormhole and IP spoof-ing
+(NP (NN )(CC )(NN ){1,2})
+Phase: generated67440
+Input: Token
+Rule: generated67440
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)):pttrn67440 --> :pttrn67440.extracted={}
+

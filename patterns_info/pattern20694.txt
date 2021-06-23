@@ -1,0 +1,8 @@
+Peer Network Management     Lee et al
+(NP (NNP ){1,2}(NN ))
+Phase: generated20694
+Input: Token
+Rule: generated20694
+(
+(({ Token.category == NNP })+({ Token.category == NN }))):pttrn20694 --> :pttrn20694.extracted={}
+

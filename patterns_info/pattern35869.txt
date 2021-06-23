@@ -1,0 +1,8 @@
+the same university
+(NP (DT )(JJ )(NN ))
+Phase: generated35869
+Input: Token
+Rule: generated35869
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn35869 --> :pttrn35869.extracted={}
+

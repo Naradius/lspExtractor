@@ -1,0 +1,8 @@
+Game theoretic modeling and analysis	Game formulation
+(NP (NNP )(JJ )(NN )(CC )(NN )(NNP )(NN ))
+Phase: generated24697
+Input: Token
+Rule: generated24697
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))):pttrn24697 --> :pttrn24697.extracted={}
+

@@ -1,0 +1,8 @@
+for the SRV system  onthis data set.StartTime and EndTime
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NNS )(NN )(CC )(NNP )))))
+Phase: generated84839
+Input: Token
+Rule: generated84839
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNP })))))):pttrn84839 --> :pttrn84839.extracted={}
+

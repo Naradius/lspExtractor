@@ -1,0 +1,8 @@
+has been proposedn this paper for effectively classifying the nodes which helps inorming effective clusters
+(VP (VBZ )(VP (VBN )(VP (VBN )(NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (NP (DT )(NNS ))(VP (VBZ )(VP (VBG )(NP (JJ )(NNS ))))))))))
+Phase: generated58852
+Input: Token
+Rule: generated58852
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))))))))))):pttrn58852 --> :pttrn58852.extracted={}
+

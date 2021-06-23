@@ -1,0 +1,8 @@
+are not same as the receiving path
+(VP (VBP )(RB )(ADJP (JJ )(PP (IN )(NP (DT )(VBG )(NN )))))
+Phase: generated66623
+Input: Token
+Rule: generated66623
+(
+(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })))))):pttrn66623 --> :pttrn66623.extracted={}
+

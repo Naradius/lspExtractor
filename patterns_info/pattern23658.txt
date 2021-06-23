@@ -1,0 +1,8 @@
+at any given time
+(PP (IN )(NP (DT )(VBN )(NN )))
+Phase: generated23658
+Input: Token
+Rule: generated23658
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))):pttrn23658 --> :pttrn23658.extracted={}
+

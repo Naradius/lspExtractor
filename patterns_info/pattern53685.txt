@@ -1,0 +1,8 @@
+the normal nodes
+(NP (DT )(JJ )(NNS ))
+Phase: generated53685
+Input: Token
+Rule: generated53685
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn53685 --> :pttrn53685.extracted={}
+

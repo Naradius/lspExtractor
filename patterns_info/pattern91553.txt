@@ -1,0 +1,8 @@
+unknown words
+(NP (JJ )(NNS ))
+Phase: generated91553
+Input: Token
+Rule: generated91553
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn91553 --> :pttrn91553.extracted={}
+

@@ -1,0 +1,8 @@
+be learned easily from only a few examples.Structured text on the World Wide Web
+(VP (VB )(VP (VBN )(PP (IN )(NP (NP (RB )(DT )(JJ )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NNP ){1,2})))))))
+Phase: generated84351
+Input: Token
+Rule: generated84351
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+)))))))):pttrn84351 --> :pttrn84351.extracted={}
+

@@ -1,0 +1,8 @@
+set to 1.0 second since shorter interval made little improvement but incur more overhead in dynamic network
+(VP (VBN )(PP (TO )(NP (CD )(NN )))(IN ))
+Phase: generated17823
+Input: Token
+Rule: generated17823
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == CD })({ Token.category == NN })))({ Token.category == IN }))):pttrn17823 --> :pttrn17823.extracted={}
+

@@ -1,0 +1,8 @@
+memory and communication bandwidth
+(NP (NN )(CC )(NN ){1,2})
+Phase: generated9320
+Input: Token
+Rule: generated9320
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)):pttrn9320 --> :pttrn9320.extracted={}
+

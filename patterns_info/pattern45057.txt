@@ -1,0 +1,8 @@
+the channelcharacteristics and implementation techniques.
+(NP (DT )(NNS )(CC )(NN ){1,2})
+Phase: generated45057
+Input: Token
+Rule: generated45057
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+)):pttrn45057 --> :pttrn45057.extracted={}
+

@@ -1,0 +1,8 @@
+the third ACM international conference onWeb search and data mining, pages 441450
+(NP (NP (DT )(JJ )(NNP )(JJ )(NN ))(PP (IN )(NP (NN )(CC )(NNS )(NN )(NNS )(CD ))))
+Phase: generated78404
+Input: Token
+Rule: generated78404
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS })({ Token.category == CD }))))):pttrn78404 --> :pttrn78404.extracted={}
+

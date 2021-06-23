@@ -1,0 +1,8 @@
+of the IEEE Computer and Communications, March2000, pp
+(PP (IN )(NP (NP (DT )(NNP ){1,2})(CC )))
+Phase: generated5523
+Input: Token
+Rule: generated5523
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC })))):pttrn5523 --> :pttrn5523.extracted={}
+

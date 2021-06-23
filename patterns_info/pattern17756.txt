@@ -1,0 +1,8 @@
+sequential forwarding
+(NP (JJ )(NN ))
+Phase: generated17756
+Input: Token
+Rule: generated17756
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn17756 --> :pttrn17756.extracted={}
+

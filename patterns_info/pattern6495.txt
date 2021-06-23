@@ -1,0 +1,8 @@
+as some ants
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated6495
+Input: Token
+Rule: generated6495
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn6495 --> :pttrn6495.extracted={}
+

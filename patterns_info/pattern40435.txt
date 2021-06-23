@@ -1,0 +1,8 @@
+of wireless communi-cations and networks
+(PP (IN )(NP (JJ )(NNS )(CC )(NNS )))
+Phase: generated40435
+Input: Token
+Rule: generated40435
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn40435 --> :pttrn40435.extracted={}
+

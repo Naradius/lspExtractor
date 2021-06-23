@@ -1,0 +1,8 @@
+increased complexity
+(NP (JJ )(NN ))
+Phase: generated13419
+Input: Token
+Rule: generated13419
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn13419 --> :pttrn13419.extracted={}
+

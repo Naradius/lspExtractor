@@ -1,0 +1,8 @@
+:Received 22 June 2019Received in revised form 25 September2019Accepted 10 October 2019Available online xxxxKeywords:Internet of Things Industrial IoTIntrusion detectionConstrained IoT devicesPerformance evaluationa b s t r a c tIndustrial Internet of Things  exemplifies IoT with applications in manufacturing,surveillance, automotive, smart buildings, homes and transport
+(VP (VBD )(NP (CD )(NNP )(CD ))(PP (IN )(NP (VBN )(NN )(CD ))))
+Phase: generated38741
+Input: Token
+Rule: generated38741
+(
+(({ Token.category == VBD })(({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN })({ Token.category == CD }))))):pttrn38741 --> :pttrn38741.extracted={}
+

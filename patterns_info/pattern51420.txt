@@ -1,0 +1,8 @@
+only whenanother wants to communicatewith itNodes wakeup at the same time as itsneighbours according to a wakeup schedule.Then they go to sleep until their next rendez-vousEach node wakes up independently but itsactive period must overlap with itsneighboursBroadcast No Yes NoSynchronisation No Yes NoEnergy-efficiencyNodes remain active only for theminimum time requiredMore collisions because nodes wakeup at thesame time after an inactive periodNodes need to wake up more frequently.Either the sender sends long preamble orthe receiver remains awake longerExamples ofapplicationsEven-driven application withlow duty cycleData-gathering application with possibility ofaggregationMobile applications when theneighbourhood is unpredictableIllustrationFig
+(PP (IN )(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated51420
+Input: Token
+Rule: generated51420
+(
+(({ Token.category == IN })(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn51420 --> :pttrn51420.extracted={}
+

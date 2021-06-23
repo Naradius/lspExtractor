@@ -1,0 +1,8 @@
+of links and a different neigh-borhood in each layer
+(PP (IN )(NP (CC )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated29236
+Input: Token
+Rule: generated29236
+(
+(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn29236 --> :pttrn29236.extracted={}
+

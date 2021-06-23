@@ -1,0 +1,8 @@
+to the fitness function
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated68594
+Input: Token
+Rule: generated68594
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn68594 --> :pttrn68594.extracted={}
+

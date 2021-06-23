@@ -1,0 +1,8 @@
+the reasonable common-sense knowledge
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated73402
+Input: Token
+Rule: generated73402
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn73402 --> :pttrn73402.extracted={}
+

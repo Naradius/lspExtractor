@@ -1,0 +1,8 @@
+redefined at every interval
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated20924
+Input: Token
+Rule: generated20924
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn20924 --> :pttrn20924.extracted={}
+

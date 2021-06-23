@@ -1,0 +1,8 @@
+thepheromone level
+(NP (DT )(NN ))
+Phase: generated3857
+Input: Token
+Rule: generated3857
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn3857 --> :pttrn3857.extracted={}
+

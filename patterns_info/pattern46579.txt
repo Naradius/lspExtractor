@@ -1,0 +1,8 @@
+each otherand the room server
+(NP (NP (DT )(JJ ))(NP (DT )(NN ){1,2}))
+Phase: generated46579
+Input: Token
+Rule: generated46579
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == DT })({ Token.category == NN })+))):pttrn46579 --> :pttrn46579.extracted={}
+

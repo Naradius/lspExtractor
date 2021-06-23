@@ -1,0 +1,8 @@
+the mobility of the BS.
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated57497
+Input: Token
+Rule: generated57497
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn57497 --> :pttrn57497.extracted={}
+

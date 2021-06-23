@@ -1,0 +1,8 @@
+Zadehs fuzzy relation
+(NP (NNP )(JJ )(NN ))
+Phase: generated31333
+Input: Token
+Rule: generated31333
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))):pttrn31333 --> :pttrn31333.extracted={}
+

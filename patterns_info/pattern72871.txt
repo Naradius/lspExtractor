@@ -1,0 +1,8 @@
+theARGM-TMP or
+(NP (DT )(NN ))
+Phase: generated72871
+Input: Token
+Rule: generated72871
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn72871 --> :pttrn72871.extracted={}
+

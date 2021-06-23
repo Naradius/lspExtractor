@@ -1,0 +1,8 @@
+to WHISK.In some domains an entire text constitutes an instance with no alteration
+(VP (TO )(VP (VB )(NP (DT )(NNS ))))
+Phase: generated82788
+Input: Token
+Rule: generated82788
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn82788 --> :pttrn82788.extracted={}
+

@@ -1,0 +1,8 @@
+a message, which is characterized bya variable size and a lifetime (Time To Live )
+(NP (NP (DT )(NN ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (NP (DT )(NN ))(PRN (-LRB- )(-RRB- ))))))))
+Phase: generated40592
+Input: Token
+Rule: generated40592
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))))))))):pttrn40592 --> :pttrn40592.extracted={}
+

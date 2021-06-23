@@ -1,0 +1,8 @@
+of minimum number of overlapping regionsconnecting all domains
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN )))(NP (DT )(NNS ))))
+Phase: generated23168
+Input: Token
+Rule: generated23168
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == DT })({ Token.category == NNS }))))):pttrn23168 --> :pttrn23168.extracted={}
+

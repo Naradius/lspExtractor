@@ -1,0 +1,8 @@
+depending on the configura-ion of the system
+(PP (VBG )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated28786
+Input: Token
+Rule: generated28786
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn28786 --> :pttrn28786.extracted={}
+

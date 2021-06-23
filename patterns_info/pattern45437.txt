@@ -1,0 +1,8 @@
+an at-tractive candidate
+(NP (DT )(JJ )(NN ))
+Phase: generated45437
+Input: Token
+Rule: generated45437
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn45437 --> :pttrn45437.extracted={}
+

@@ -1,0 +1,8 @@
+described in , uses a Blue-tooth-compatible 2.4 GHz transceiver with an in-tegrated frequency synthesizer
+(VP (VBD )(VP (VBZ )(NP (DT )(JJ )(CD )(NNP )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated47633
+Input: Token
+Rule: generated47633
+(
+(({ Token.category == VBD })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn47633 --> :pttrn47633.extracted={}
+

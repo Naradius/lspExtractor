@@ -1,0 +1,8 @@
+http://www.cs.rutgers
+(NP (JJ )(NNS ){1,2})
+Phase: generated45594
+Input: Token
+Rule: generated45594
+(
+(({ Token.category == JJ })({ Token.category == NNS })+)):pttrn45594 --> :pttrn45594.extracted={}
+

@@ -1,0 +1,8 @@
+even 800 instances
+(NP (RB )(CD )(NNS ))
+Phase: generated78808
+Input: Token
+Rule: generated78808
+(
+(({ Token.category == RB })({ Token.category == CD })({ Token.category == NNS }))):pttrn78808 --> :pttrn78808.extracted={}
+

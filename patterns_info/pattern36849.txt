@@ -1,0 +1,8 @@
+a block addresscorresponding thereto
+(NP (DT )(NN ){1,2})
+Phase: generated36849
+Input: Token
+Rule: generated36849
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn36849 --> :pttrn36849.extracted={}
+

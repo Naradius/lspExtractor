@@ -1,0 +1,8 @@
+from the intermediate form.We
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated76862
+Input: Token
+Rule: generated76862
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn76862 --> :pttrn76862.extracted={}
+

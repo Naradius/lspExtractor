@@ -1,0 +1,8 @@
+the data structure
+(NP (DT )(NNS )(NN ))
+Phase: generated33016
+Input: Token
+Rule: generated33016
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))):pttrn33016 --> :pttrn33016.extracted={}
+

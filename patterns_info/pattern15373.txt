@@ -1,0 +1,8 @@
+the VaNetLayer scales
+(NP (DT )(NNP )(NNS ))
+Phase: generated15373
+Input: Token
+Rule: generated15373
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn15373 --> :pttrn15373.extracted={}
+

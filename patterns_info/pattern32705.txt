@@ -1,0 +1,8 @@
+be chosen when several paths aresynchronously available.Jitter: also called alterable delay
+(VP (VB )(VP (VBN )(WHADVP (WRB ))))
+Phase: generated32705
+Input: Token
+Rule: generated32705
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == WRB }))))):pttrn32705 --> :pttrn32705.extracted={}
+

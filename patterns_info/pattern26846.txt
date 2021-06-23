@@ -1,0 +1,8 @@
+The process of dividing a numeric interval intoseveral sub-sets and determining weather a linguistic variablebelongs to which of the sub-sets
+(NP (NP (DT )(NN ))(PP (IN )(VP (VP (VBG )(NP (DT )(JJ )(NN )(JJ )(NNS )))(CC ))))
+Phase: generated26846
+Input: Token
+Rule: generated26846
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC }))))):pttrn26846 --> :pttrn26846.extracted={}
+

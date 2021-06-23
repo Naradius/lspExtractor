@@ -1,0 +1,8 @@
+collecting the data from the nodes and forwardingthem through the CHs to the sink node
+(VP (VP (VBG )(NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS ))))(CC )(VP (VB )(PP (IN )(NP (DT )(NNP )))(PP (TO )(NP (DT )(NN ){1,2}))))
+Phase: generated60756
+Input: Token
+Rule: generated60756
+(
+((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn60756 --> :pttrn60756.extracted={}
+

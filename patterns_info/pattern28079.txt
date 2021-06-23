@@ -1,0 +1,8 @@
+will be no parent switches in the networkhile there is not any link failures
+(VP (MD )(VP (VB )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(NN ))))(VP (VBZ )(RB )(NP (DT )(NN )(NNS )))))
+Phase: generated28079
+Input: Token
+Rule: generated28079
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))):pttrn28079 --> :pttrn28079.extracted={}
+

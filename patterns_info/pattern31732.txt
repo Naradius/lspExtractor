@@ -1,0 +1,8 @@
+multi-objective consultationbetween users
+(NP (JJ )(NN )(NNS ))
+Phase: generated31732
+Input: Token
+Rule: generated31732
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn31732 --> :pttrn31732.extracted={}
+

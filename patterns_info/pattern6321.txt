@@ -1,0 +1,8 @@
+to the next-hop
+(PP (TO )(NP (DT )(JJ )))
+Phase: generated6321
+Input: Token
+Rule: generated6321
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })))):pttrn6321 --> :pttrn6321.extracted={}
+

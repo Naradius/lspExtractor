@@ -1,0 +1,8 @@
+does not cover TagEXTEND RULERule = Base 1If Base 2 covers more of Training than Base 1Rule = Base 2Figure 14
+(VP (VBZ )(RB )(VP (VB )(NP (NP (NNP ){1,2}(SYM )(NNP ))(PP (IN )(NP (NNP )(CD ))))))
+Phase: generated83503
+Input: Token
+Rule: generated83503
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })((({ Token.category == NNP })+({ Token.category == SYM })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))))):pttrn83503 --> :pttrn83503.extracted={}
+

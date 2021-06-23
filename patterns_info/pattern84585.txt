@@ -1,0 +1,8 @@
+of the rst entry
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated84585
+Input: Token
+Rule: generated84585
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn84585 --> :pttrn84585.extracted={}
+

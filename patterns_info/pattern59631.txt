@@ -1,0 +1,8 @@
+perform the clus-ter head selection for each cluster by considering the dis-tances and energy levels of nodes
+(VP (VB )(NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated59631
+Input: Token
+Rule: generated59631
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn59631 --> :pttrn59631.extracted={}
+

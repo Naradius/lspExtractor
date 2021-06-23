@@ -1,0 +1,8 @@
+descriptive patterns, whichwere observed with too many different relations
+(NP (NP (NN )(NNS ))(VP (VBD )(PP (IN )(NP (ADJP (RB )(JJ ))(JJ )(NNS )))))
+Phase: generated78024
+Input: Token
+Rule: generated78024
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NNS })))))):pttrn78024 --> :pttrn78024.extracted={}
+

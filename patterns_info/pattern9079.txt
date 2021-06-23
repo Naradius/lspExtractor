@@ -1,0 +1,8 @@
+et al., Adaptive-sdr:adaptive swarm-based distributed routing, in: International JointConference on Neural Networks, May 2002, pp
+(VP (VBD )(NP (NP (JJ )(NNP ))(NP (NNP )(JJ ){1,2}(VBN )(NN ))))
+Phase: generated9079
+Input: Token
+Rule: generated9079
+(
+(({ Token.category == VBD })((({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == NNP })({ Token.category == JJ })+({ Token.category == VBN })({ Token.category == NN }))))):pttrn9079 --> :pttrn9079.extracted={}
+

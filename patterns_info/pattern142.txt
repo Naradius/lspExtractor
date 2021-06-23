@@ -1,0 +1,8 @@
+for exchanging information on a motorway
+(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(NN )))))
+Phase: generated142
+Input: Token
+Rule: generated142
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn142 --> :pttrn142.extracted={}
+

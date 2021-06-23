@@ -1,0 +1,8 @@
+uses the multihopcommunication to reduce the energy dissipation of CHs which arefarthest from the BS whereas the CHs around the BS undertakelarger relaying loads and exhaust their energy more quickly
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated54907
+Input: Token
+Rule: generated54907
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn54907 --> :pttrn54907.extracted={}
+

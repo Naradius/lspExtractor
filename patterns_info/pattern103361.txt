@@ -1,0 +1,8 @@
+of a given graph G
+(PP (IN )(NP (DT )(VBN )(NN )(NNP )))
+Phase: generated103361
+Input: Token
+Rule: generated103361
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNP })))):pttrn103361 --> :pttrn103361.extracted={}
+

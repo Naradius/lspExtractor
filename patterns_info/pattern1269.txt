@@ -1,0 +1,8 @@
+with the maximal nectar amount
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated1269
+Input: Token
+Rule: generated1269
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn1269 --> :pttrn1269.extracted={}
+

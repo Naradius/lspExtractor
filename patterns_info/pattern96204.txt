@@ -1,0 +1,8 @@
+word boundaries
+(NP (NN )(NNS ))
+Phase: generated96204
+Input: Token
+Rule: generated96204
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn96204 --> :pttrn96204.extracted={}
+

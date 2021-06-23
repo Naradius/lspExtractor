@@ -1,0 +1,8 @@
+given in
+(VP (VBN )(PRT (RP )))
+Phase: generated69302
+Input: Token
+Rule: generated69302
+(
+(({ Token.category == VBN })(({ Token.category == RP })))):pttrn69302 --> :pttrn69302.extracted={}
+

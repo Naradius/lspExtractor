@@ -1,0 +1,8 @@
+the Ph.D. degree  insignal processing
+(NP (DT )(NNP )(NN ){1,2})
+Phase: generated30607
+Input: Token
+Rule: generated30607
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)):pttrn30607 --> :pttrn30607.extracted={}
+

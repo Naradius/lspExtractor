@@ -1,0 +1,8 @@
+should be able to rewrite the top/left graph into the top/right graph of12 REKERS & SCHURRn fifnforkbeginStatttjoinendtnfifStattnn fifnforkbeginttjoinendtnfiftnreceivesendton fifnforkbeginttjoinendtnfiftnreceivetot nsend Statnoninjective applicationof production 5disallowedapplicationof prod
+(VP (MD )(VP (VB )(ADJP (JJ )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}))))))
+Phase: generated102979
+Input: Token
+Rule: generated102979
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn102979 --> :pttrn102979.extracted={}
+

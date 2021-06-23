@@ -1,0 +1,8 @@
+the mathematical theory called fractional calculus
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(NP (JJ )(NN ))))
+Phase: generated11127
+Input: Token
+Rule: generated11127
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn11127 --> :pttrn11127.extracted={}
+

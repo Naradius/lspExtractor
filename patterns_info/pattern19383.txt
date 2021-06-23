@@ -1,0 +1,8 @@
+close to the edge of the network and customizedresource scheduling policy by overriding the method up-dateAllocatedMips inside the class FogDevice
+(ADJP (RB )(PP (TO )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(CC ))))
+Phase: generated19383
+Input: Token
+Rule: generated19383
+(
+(({ Token.category == RB })(({ Token.category == TO })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC }))))):pttrn19383 --> :pttrn19383.extracted={}
+

@@ -1,0 +1,8 @@
+the most efficient routebased on this scheme
+(NP (DT )(ADJP (RBS )(JJ ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated48921
+Input: Token
+Rule: generated48921
+(
+(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn48921 --> :pttrn48921.extracted={}
+

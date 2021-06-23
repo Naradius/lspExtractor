@@ -1,0 +1,8 @@
+is same/sub/super-entity - based , coreferences-based,  RST-based and SpActT-based
+(VP (VBZ )(NP (VBN )(JJ ){1,2}(CC )(JJ )))
+Phase: generated115317
+Input: Token
+Rule: generated115317
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })))):pttrn115317 --> :pttrn115317.extracted={}
+

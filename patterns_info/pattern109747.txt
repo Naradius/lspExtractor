@@ -1,0 +1,8 @@
+discussed a sce-ario where attacks can happen on a illegally captured drone
+(VP (VBD )(NP (DT )(NN )))
+Phase: generated109747
+Input: Token
+Rule: generated109747
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })))):pttrn109747 --> :pttrn109747.extracted={}
+

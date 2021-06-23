@@ -1,0 +1,8 @@
+IPv6Routing Protocol for low-power and lossy networks  for de-facto routing standard in IoT networks
+(VP (VBG )(PP (IN )(NP (CC )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (JJ ){1,2}(NN ))(PP (IN )(NP (NNP )(NNS )))))))))
+Phase: generated21710
+Input: Token
+Rule: generated21710
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))))))):pttrn21710 --> :pttrn21710.extracted={}
+

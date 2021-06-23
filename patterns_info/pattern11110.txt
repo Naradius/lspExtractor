@@ -1,0 +1,8 @@
+for Wireless Sensor Networks Based on Animal and Naturalbehavior
+(PP (IN )(NP (NP (JJ )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (NNP )(CC )(NNP ))))))
+Phase: generated11110
+Input: Token
+Rule: generated11110
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))))):pttrn11110 --> :pttrn11110.extracted={}
+

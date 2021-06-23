@@ -1,0 +1,8 @@
+at the Network and Service Security, 2009
+(PP (IN )(NP (DT )(NNP )(CC )(NNP ){1,2}(CD )))
+Phase: generated161
+Input: Token
+Rule: generated161
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+({ Token.category == CD })))):pttrn161 --> :pttrn161.extracted={}
+

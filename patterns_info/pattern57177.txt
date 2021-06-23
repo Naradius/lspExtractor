@@ -1,0 +1,8 @@
+proposed Arranging Cluster Sizes andTransmission Ranges  for WSNs as discussed above
+(VP (VBN )(VP (VBG )(IN )))
+Phase: generated57177
+Input: Token
+Rule: generated57177
+(
+(({ Token.category == VBN })(({ Token.category == VBG })({ Token.category == IN })))):pttrn57177 --> :pttrn57177.extracted={}
+

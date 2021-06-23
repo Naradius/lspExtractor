@@ -1,0 +1,8 @@
+operate only on rigidly structured text such as Wrapper Induc-tion  , or on semi-structured text suchas RAPIER  or SRV
+(VP (VP (VBP )(PP (PP (IN )(NP (NP (RB )(VBN )(NN ))(PP (JJ )(IN ))))(CC )(PP (IN )(NP (JJ )(NN )))))(VP (VBZ )(NP (NNP )(CC )(NNP ))))
+Phase: generated81978
+Input: Token
+Rule: generated81978
+(
+((({ Token.category == VBP })((({ Token.category == IN })((({ Token.category == RB })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN }))))({ Token.category == CC })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))(({ Token.category == VBZ })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn81978 --> :pttrn81978.extracted={}
+

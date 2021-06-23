@@ -1,0 +1,8 @@
+Medium access controlThe MAC protocol in a wireless multihop self-organizing sensor network
+(NP (NP (NNP )(NN ){1,2}(NNP )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2})))
+Phase: generated44299
+Input: Token
+Rule: generated44299
+(
+((({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)))):pttrn44299 --> :pttrn44299.extracted={}
+

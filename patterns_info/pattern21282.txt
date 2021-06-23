@@ -1,0 +1,8 @@
+1. Inefficient multi-hop routing among secondary IoT devices causing interfer-ence to primary receivers and other hidden/exposed IoT devices.growing
+(NP (NP (CD )(NNP )(JJ )(NN ))(PP (IN )(NP (NP (JJ )(NN )(NNS ))(VP (VBG )(PP (TO )(NP (NP (NP (JJ )(NNS ))(CC )(NP (JJ ){1,2}(NN )(NNS )))(VBG )))))))
+Phase: generated21282
+Input: Token
+Rule: generated21282
+(
+((({ Token.category == CD })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == TO })(((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })))({ Token.category == VBG })))))))):pttrn21282 --> :pttrn21282.extracted={}
+

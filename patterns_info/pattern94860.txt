@@ -1,0 +1,8 @@
+Box 1738, NL-3000 DR, Rotterdam, The NetherlandsAbstractThe Semantic Web
+(NP (NP (NNP )(CD ))(NP (DT )(NN ))(NP (DT )(NNP ){1,2}))
+Phase: generated94860
+Input: Token
+Rule: generated94860
+(
+((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NNP })+))):pttrn94860 --> :pttrn94860.extracted={}
+

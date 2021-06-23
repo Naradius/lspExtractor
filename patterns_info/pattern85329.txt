@@ -1,0 +1,8 @@
+conflated into a single feature by removal of the different suffixes -s, -ed, -ing to get the single feature connect
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated85329
+Input: Token
+Rule: generated85329
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn85329 --> :pttrn85329.extracted={}
+

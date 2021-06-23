@@ -1,0 +1,8 @@
+the MUC-6 conference
+(NP (DT )(NNP )(NN ))
+Phase: generated78989
+Input: Token
+Rule: generated78989
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn78989 --> :pttrn78989.extracted={}
+

@@ -1,0 +1,8 @@
+by the edgerouter.Within
+(PP (IN )(NP (DT )(JJ )))
+Phase: generated39824
+Input: Token
+Rule: generated39824
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))):pttrn39824 --> :pttrn39824.extracted={}
+

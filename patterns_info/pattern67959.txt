@@ -1,0 +1,8 @@
+Real-Time Multimedia Wireless Sensor Networks,IEEE Communications Surveys and Tutorials 19   14241456
+(NP (NP (NNP ){1,2}(NNPS )(NNP ))(CC )(NP (NNP )(CD ){1,2}))
+Phase: generated67959
+Input: Token
+Rule: generated67959
+(
+((({ Token.category == NNP })+({ Token.category == NNPS })({ Token.category == NNP }))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == CD })+))):pttrn67959 --> :pttrn67959.extracted={}
+

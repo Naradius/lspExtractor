@@ -1,0 +1,8 @@
+research challenges, Ad Hoc Netw. 4  669686
+(NP (NP (NN )(NNS ))(NP (NNP ){1,2}(CD ){1,2}))
+Phase: generated52760
+Input: Token
+Rule: generated52760
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == CD })+))):pttrn52760 --> :pttrn52760.extracted={}
+

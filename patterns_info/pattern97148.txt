@@ -1,0 +1,8 @@
+of Speech tag to each word in a sentence and literature
+(PP (IN )(NP (NP (NNP )(NN ))(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(CC )(NN )))))))
+Phase: generated97148
+Input: Token
+Rule: generated97148
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))))):pttrn97148 --> :pttrn97148.extracted={}
+

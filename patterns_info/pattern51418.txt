@@ -1,0 +1,8 @@
+On-demand Schedule rendez-vous AsynchronousPrinciple Wake
+(NP (NNP ){1,2}(JJ )(NNP ){1,2})
+Phase: generated51418
+Input: Token
+Rule: generated51418
+(
+(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNP })+)):pttrn51418 --> :pttrn51418.extracted={}
+

@@ -1,0 +1,8 @@
+four algorithms.Nodes Methods
+(NP (CD )(NNS ){1,2})
+Phase: generated69720
+Input: Token
+Rule: generated69720
+(
+(({ Token.category == CD })({ Token.category == NNS })+)):pttrn69720 --> :pttrn69720.extracted={}
+

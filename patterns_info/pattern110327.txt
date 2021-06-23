@@ -1,0 +1,8 @@
+an accurate estimate  x ofon-measured states x  given knowledge of the inputs and anrray of imperfect measurements
+(NP (NP (DT )(JJ )(NN ){1,2})(NP (JJ )(NNS )))
+Phase: generated110327
+Input: Token
+Rule: generated110327
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == NNS })))):pttrn110327 --> :pttrn110327.extracted={}
+

@@ -1,0 +1,8 @@
+occurred in the network topology
+(VP (VBD )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated107202
+Input: Token
+Rule: generated107202
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn107202 --> :pttrn107202.extracted={}
+

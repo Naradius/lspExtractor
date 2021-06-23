@@ -1,0 +1,8 @@
+choose the routing protocol in accordance with the problem under consideration
+(VP (VBP )(NP (DT )(NN ){1,2}))
+Phase: generated2010
+Input: Token
+Rule: generated2010
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+))):pttrn2010 --> :pttrn2010.extracted={}
+

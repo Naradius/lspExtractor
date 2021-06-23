@@ -1,0 +1,8 @@
+the VNLayer
+(NP (DT )(NNP ))
+Phase: generated14327
+Input: Token
+Rule: generated14327
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn14327 --> :pttrn14327.extracted={}
+

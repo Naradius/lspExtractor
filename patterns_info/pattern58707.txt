@@ -1,0 +1,8 @@
+to take the role of the CH in casethat the underlying CH dies
+(VP (TO )(VP (VB )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP ))))(PP (IN )(VP (VBG )(NP (DT )(JJ )(NNP )))))))
+Phase: generated58707
+Input: Token
+Rule: generated58707
+(
+(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })))))))):pttrn58707 --> :pttrn58707.extracted={}
+

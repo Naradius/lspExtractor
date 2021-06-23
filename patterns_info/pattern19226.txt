@@ -1,0 +1,8 @@
+between generating two tuples
+(PP (IN )(NP (VBG )(CD )(NNS )))
+Phase: generated19226
+Input: Token
+Rule: generated19226
+(
+(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == CD })({ Token.category == NNS })))):pttrn19226 --> :pttrn19226.extracted={}
+

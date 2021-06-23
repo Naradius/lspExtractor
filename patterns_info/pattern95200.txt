@@ -1,0 +1,8 @@
+makes it impossible to express more complexconstructions
+(VP (VBZ )(VP (TO )(VP (VB )(NP (JJR )(NNS )))))
+Phase: generated95200
+Input: Token
+Rule: generated95200
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NNS })))))):pttrn95200 --> :pttrn95200.extracted={}
+

@@ -1,0 +1,8 @@
+optimal inputs
+(NP (JJ )(NNS ))
+Phase: generated31037
+Input: Token
+Rule: generated31037
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn31037 --> :pttrn31037.extracted={}
+

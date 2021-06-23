@@ -1,0 +1,8 @@
+on all rounds and hence it performs clustering continu-usly like the LEACH protocol
+(PP (IN )(NP (NP (DT )(NNS )(CC )(NN ))(VP (VBZ )(VP (VBG )(PP (IN )(NP (DT )(NNP )(NN )))))))
+Phase: generated61277
+Input: Token
+Rule: generated61277
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))))):pttrn61277 --> :pttrn61277.extracted={}
+

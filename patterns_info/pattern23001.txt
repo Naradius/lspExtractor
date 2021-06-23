@@ -1,0 +1,8 @@
+is the numberof deployed sensors in the grid
+(VP (VBZ )(NP (NP (DT )(JJ ){1,2}(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated23001
+Input: Token
+Rule: generated23001
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn23001 --> :pttrn23001.extracted={}
+

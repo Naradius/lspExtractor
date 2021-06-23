@@ -1,0 +1,8 @@
+identifies the name of a university
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated88909
+Input: Token
+Rule: generated88909
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn88909 --> :pttrn88909.extracted={}
+

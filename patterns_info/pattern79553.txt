@@ -1,0 +1,8 @@
+is similar to WHISK's step of anchoring eachextraction slot with terms immediately outside the left and right boundaries of anextracted phrase
+(VP (VBZ )(ADJP (JJ )(PP (TO )(NP (NP (DT )(JJ )(NN ))(PP (IN )(VP (VBG )(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))))))))
+Phase: generated79553
+Input: Token
+Rule: generated79553
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))))):pttrn79553 --> :pttrn79553.extracted={}
+

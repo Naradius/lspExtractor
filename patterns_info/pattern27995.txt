@@ -1,0 +1,8 @@
+the rate of con-rol packets
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated27995
+Input: Token
+Rule: generated27995
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn27995 --> :pttrn27995.extracted={}
+

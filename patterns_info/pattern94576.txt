@@ -1,0 +1,8 @@
+as the Hermes Information Ex-traction Engine  plug-in
+(PP (IN )(NP (DT )(NNP ){1,2}(NN )))
+Phase: generated94576
+Input: Token
+Rule: generated94576
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))):pttrn94576 --> :pttrn94576.extracted={}
+

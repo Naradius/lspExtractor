@@ -1,0 +1,8 @@
+using the short-st path
+(VP (VBG )(NP (DT )(JJ )(NN )))
+Phase: generated61893
+Input: Token
+Rule: generated61893
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn61893 --> :pttrn61893.extracted={}
+

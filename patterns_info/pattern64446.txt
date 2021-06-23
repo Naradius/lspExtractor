@@ -1,0 +1,8 @@
+forsearching a wider area around current solution and addingintensification property
+(PP (IN )(NP (NP (DT )(JJR )(NN ))(PP (IN )(NP (JJ )(NN )(CC )(NN ){1,2}))))
+Phase: generated64446
+Input: Token
+Rule: generated64446
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))))):pttrn64446 --> :pttrn64446.extracted={}
+

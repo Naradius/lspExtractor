@@ -1,0 +1,8 @@
+in a sensor field
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated44307
+Input: Token
+Rule: generated44307
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn44307 --> :pttrn44307.extracted={}
+

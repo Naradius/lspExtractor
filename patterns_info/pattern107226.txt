@@ -1,0 +1,8 @@
+the multicast protocol
+(NP (DT )(NN ){1,2})
+Phase: generated107226
+Input: Token
+Rule: generated107226
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn107226 --> :pttrn107226.extracted={}
+

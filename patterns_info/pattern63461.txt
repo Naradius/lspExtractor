@@ -1,0 +1,8 @@
+the National Key Research and De-elopment Program
+(NP (DT )(NNP ){1,2}(CC )(NNP ){1,2})
+Phase: generated63461
+Input: Token
+Rule: generated63461
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)):pttrn63461 --> :pttrn63461.extracted={}
+

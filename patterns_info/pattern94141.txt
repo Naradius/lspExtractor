@@ -1,0 +1,8 @@
+the political test set 15ally, for our political data set we observe similarresults, although the measured differences are reg-ularly smaller.The major cause of the construction time reduc-tion that is measured when switching from lexico-syntactic to lexico-semantic patterns lies within thefact that concepts used in HIEL and JAPE lexico-semantic rules
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NP (PRP$ )(JJ )(NNS ))(VP (VBN )(VP (VBP )(IN )))))))
+Phase: generated94141
+Input: Token
+Rule: generated94141
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == VBP })({ Token.category == IN })))))))):pttrn94141 --> :pttrn94141.extracted={}
+

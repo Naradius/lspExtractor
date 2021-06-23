@@ -1,0 +1,8 @@
+through a routersee Fig. 4
+(PP (IN )(NP (DT )(JJ )(NNP )(CD )))
+Phase: generated110346
+Input: Token
+Rule: generated110346
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == CD })))):pttrn110346 --> :pttrn110346.extracted={}
+

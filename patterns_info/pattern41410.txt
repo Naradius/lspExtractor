@@ -1,0 +1,8 @@
+Security mechanisms
+(NP (NNP )(NNS ))
+Phase: generated41410
+Input: Token
+Rule: generated41410
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn41410 --> :pttrn41410.extracted={}
+

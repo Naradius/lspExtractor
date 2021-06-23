@@ -1,0 +1,8 @@
+their anonymized data
+(NP (PRP$ )(JJ )(NNS ))
+Phase: generated75598
+Input: Token
+Rule: generated75598
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))):pttrn75598 --> :pttrn75598.extracted={}
+

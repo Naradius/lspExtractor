@@ -1,0 +1,8 @@
+nodes movement
+(NP (DT )(NN ))
+Phase: generated28268
+Input: Token
+Rule: generated28268
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn28268 --> :pttrn28268.extracted={}
+

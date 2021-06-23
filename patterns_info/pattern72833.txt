@@ -1,0 +1,8 @@
+Expert Systems
+(NP (NNP )(NNPS ))
+Phase: generated72833
+Input: Token
+Rule: generated72833
+(
+(({ Token.category == NNP })({ Token.category == NNPS }))):pttrn72833 --> :pttrn72833.extracted={}
+

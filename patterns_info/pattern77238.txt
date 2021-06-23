@@ -1,0 +1,8 @@
+offers a set of text analysis tools, including a feature extraction tool, a set ofclustering tools, a summarization tool, and a categorization tool
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(NNS )))(PP (VBG )(NP (NP (DT )(NN ){1,2})(NP (DT )(VBN )(NN )(NNS ))(NP (DT )(NN ){1,2})(CC )(NP (DT )(NN ){1,2})))))
+Phase: generated77238
+Input: Token
+Rule: generated77238
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn77238 --> :pttrn77238.extracted={}
+

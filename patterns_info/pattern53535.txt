@@ -1,0 +1,8 @@
+the quality of the application.Heinzelman et al
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(NNP ){1,2}(NN ))))
+Phase: generated53535
+Input: Token
+Rule: generated53535
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN }))))):pttrn53535 --> :pttrn53535.extracted={}
+

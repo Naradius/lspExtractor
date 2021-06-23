@@ -1,0 +1,8 @@
+The determined amount
+(NP (DT )(VBN )(NN ))
+Phase: generated1288
+Input: Token
+Rule: generated1288
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn1288 --> :pttrn1288.extracted={}
+

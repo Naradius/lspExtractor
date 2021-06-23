@@ -1,0 +1,8 @@
+in a smart building and transforms
+(PP (IN )(NP (DT )(JJ )(NN )(CC )(NNS )))
+Phase: generated30879
+Input: Token
+Rule: generated30879
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })))):pttrn30879 --> :pttrn30879.extracted={}
+

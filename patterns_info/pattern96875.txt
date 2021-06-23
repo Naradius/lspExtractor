@@ -1,0 +1,8 @@
+designed based on the lexical category of a word
+(VP (VBN )(PP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated96875
+Input: Token
+Rule: generated96875
+(
+(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn96875 --> :pttrn96875.extracted={}
+

@@ -1,0 +1,8 @@
+local leaderPN 1
+(NP (JJ )(NN )(CD ))
+Phase: generated13311
+Input: Token
+Rule: generated13311
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))):pttrn13311 --> :pttrn13311.extracted={}
+

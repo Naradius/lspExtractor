@@ -1,0 +1,8 @@
+to meeting the needs of multi-objective consultationbetween users and the data platform, as well as query accuracy,promptness and confidentiality restrictions
+(PP (TO )(VP (VBG )(NP (NP (NP (DT )(NNS ))(PP (IN )(NP (NP (JJ )(NN )(NNS ))(CC )(NP (DT )(NNS )(NN )))))(CONJP (RB ){1,2}(IN ))(NP (CC )(NP (NN )(NNS ))))))
+Phase: generated31744
+Input: Token
+Rule: generated31744
+(
+(({ Token.category == TO })(({ Token.category == VBG })(((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))))(({ Token.category == RB })+({ Token.category == IN }))(({ Token.category == CC })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn31744 --> :pttrn31744.extracted={}
+

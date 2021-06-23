@@ -1,0 +1,8 @@
+is selected toadd variety in the solution by generating random integer between
+(VP (VBZ )(VP (VBN )(NP (JJ )(NN ))(PP (IN )(NP (DT )(NN )))(PP (IN )(VP (VBG )(NP (JJ )(NN ))))))
+Phase: generated53776
+Input: Token
+Rule: generated53776
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn53776 --> :pttrn53776.extracted={}
+

@@ -1,0 +1,8 @@
+Fig. 9. Defense operatorassists
+(NP (NNP ){1,2}(CD )(NNP )(NNS ))
+Phase: generated64609
+Input: Token
+Rule: generated64609
+(
+(({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNP })({ Token.category == NNS }))):pttrn64609 --> :pttrn64609.extracted={}
+

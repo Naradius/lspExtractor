@@ -1,0 +1,8 @@
+the assigned routesand the overall IoT network,  effectiveness in licensed incumbent protection, and  degree of fairnesswhile assigning routes to multiple interfering devices
+(NP (NP (DT )(VBN ))(CC )(NP (DT )(JJ )(NNP )(NN ))(CC ))
+Phase: generated21209
+Input: Token
+Rule: generated21209
+(
+((({ Token.category == DT })({ Token.category == VBN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC }))):pttrn21209 --> :pttrn21209.extracted={}
+

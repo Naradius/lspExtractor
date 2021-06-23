@@ -1,0 +1,8 @@
+Bayesian inference techniques
+(NP (NNP )(NN )(NNS ))
+Phase: generated30752
+Input: Token
+Rule: generated30752
+(
+(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))):pttrn30752 --> :pttrn30752.extracted={}
+

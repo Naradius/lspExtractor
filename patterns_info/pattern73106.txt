@@ -1,0 +1,8 @@
+pruning the knowledge items that have a high probabilityof erroneously parsed semantic roles, the remaining ones
+(VP (VBG )(NP (NP (DT )(NN )(NNS ))(VP (VBP )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(NP (JJ )(NNS )))))(NP (DT )(VBG )(NNS ))))
+Phase: generated73106
+Input: Token
+Rule: generated73106
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS })))))(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))))):pttrn73106 --> :pttrn73106.extracted={}
+

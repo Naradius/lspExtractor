@@ -1,0 +1,8 @@
+erroneously given as piano severalyears ago
+(VP (VBN )(PP (IN )(ADVP (NP (NN )(NNS ))(RB ))))
+Phase: generated72888
+Input: Token
+Rule: generated72888
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == RB }))))):pttrn72888 --> :pttrn72888.extracted={}
+

@@ -1,0 +1,8 @@
+routing protocols in this category.Al-Refai et al
+(VP (VBG )(PP (IN )(NP (DT )(NN )(NNP ){1,2}(NN ))))
+Phase: generated58663
+Input: Token
+Rule: generated58663
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN }))))):pttrn58663 --> :pttrn58663.extracted={}
+

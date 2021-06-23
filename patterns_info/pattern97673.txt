@@ -1,0 +1,8 @@
+are required by the supervised POS tagging models as they are used to learn information about the tag-set, word-tag frequencies, rule sets etc for training
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNP )(NN )(NNS )))(IN )))
+Phase: generated97673
+Input: Token
+Rule: generated97673
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))({ Token.category == IN })))):pttrn97673 --> :pttrn97673.extracted={}
+

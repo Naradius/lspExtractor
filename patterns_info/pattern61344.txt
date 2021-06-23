@@ -1,0 +1,8 @@
+is different from the above work in improv-ng the performance of the WSN.
+(VP (VBZ )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (JJ )(DT )(NN ))(PP (IN )(NP (DT )(NNP ))))))))
+Phase: generated61344
+Input: Token
+Rule: generated61344
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))))))):pttrn61344 --> :pttrn61344.extracted={}
+

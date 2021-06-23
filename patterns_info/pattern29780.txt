@@ -1,0 +1,8 @@
+wasused in smart buildings
+(VP (VBD )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated29780
+Input: Token
+Rule: generated29780
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn29780 --> :pttrn29780.extracted={}
+

@@ -1,0 +1,8 @@
+the fact that events areseldomly occurring in a news item
+(NP (DT )(NN ))
+Phase: generated94027
+Input: Token
+Rule: generated94027
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn94027 --> :pttrn94027.extracted={}
+

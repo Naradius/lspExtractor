@@ -1,0 +1,8 @@
+E2E delay in a path, isthe occurrence of congestion which enforces nodes to drop the ex-isting packets in their buffers
+(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated27728
+Input: Token
+Rule: generated27728
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn27728 --> :pttrn27728.extracted={}
+

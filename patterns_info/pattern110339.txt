@@ -1,0 +1,8 @@
+using a linearizeduid-flow model  associated with our network topology
+(VP (VBG )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (PRP$ )(NN ){1,2})))))
+Phase: generated110339
+Input: Token
+Rule: generated110339
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+)))))):pttrn110339 --> :pttrn110339.extracted={}
+

@@ -1,0 +1,8 @@
+stored in the ontology
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated94708
+Input: Token
+Rule: generated94708
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn94708 --> :pttrn94708.extracted={}
+

@@ -1,0 +1,8 @@
+based POS tagging
+(VP (VBN )(NP (NNP )(NN )))
+Phase: generated97733
+Input: Token
+Rule: generated97733
+(
+(({ Token.category == VBN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn97733 --> :pttrn97733.extracted={}
+

@@ -1,0 +1,8 @@
+limited utility unless a later module assembles these isolatedfacts into the proper events.Succession eventPersonOut
+(VP (VBN )(PP (IN )(NP (DT )(ADJP (RB )(JJ ))(NNS )))(NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )(NNS )(NN ))))
+Phase: generated81868
+Input: Token
+Rule: generated81868
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS })))(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))))):pttrn81868 --> :pttrn81868.extracted={}
+

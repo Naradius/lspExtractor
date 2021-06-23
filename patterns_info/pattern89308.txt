@@ -1,0 +1,8 @@
+the US Englishusage
+(NP (DT )(NNP ){1,2})
+Phase: generated89308
+Input: Token
+Rule: generated89308
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn89308 --> :pttrn89308.extracted={}
+

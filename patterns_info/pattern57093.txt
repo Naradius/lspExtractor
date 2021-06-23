@@ -1,0 +1,8 @@
+of tracking quality and recovery of target losses.Yan et al
+(PP (IN )(VP (VBG )(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (NNP )(NN ))))))))
+Phase: generated57093
+Input: Token
+Rule: generated57093
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))))))):pttrn57093 --> :pttrn57093.extracted={}
+

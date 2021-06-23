@@ -1,0 +1,8 @@
+the first place,preserve the battery life of the devices
+(NP (NP (DT )(JJ )(NN ))(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS )))))
+Phase: generated40260
+Input: Token
+Rule: generated40260
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn40260 --> :pttrn40260.extracted={}
+

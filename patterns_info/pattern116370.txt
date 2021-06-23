@@ -1,0 +1,8 @@
+of natural language processing
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated116370
+Input: Token
+Rule: generated116370
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn116370 --> :pttrn116370.extracted={}
+

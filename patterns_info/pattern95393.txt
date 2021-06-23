@@ -1,0 +1,8 @@
+the corpus focuses
+(NP (DT )(JJ )(NNS ))
+Phase: generated95393
+Input: Token
+Rule: generated95393
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn95393 --> :pttrn95393.extracted={}
+

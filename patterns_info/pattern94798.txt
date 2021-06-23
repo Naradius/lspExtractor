@@ -1,0 +1,8 @@
+the Association forComputational Linguistics
+(NP (DT )(NNP )(JJ )(NNP ))
+Phase: generated94798
+Input: Token
+Rule: generated94798
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP }))):pttrn94798 --> :pttrn94798.extracted={}
+

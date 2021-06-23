@@ -1,0 +1,8 @@
+propose inducing lexico-syntac-tic patterns using seed dictionaries to identify spe-cific medical entity types in PAT.
+(VP (VBP )(VP (VBG )(NP (NP (JJ )(NNS ))(VP (VBG )(NP (NN )(NNS ))))))
+Phase: generated73825
+Input: Token
+Rule: generated73825
+(
+(({ Token.category == VBP })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn73825 --> :pttrn73825.extracted={}
+

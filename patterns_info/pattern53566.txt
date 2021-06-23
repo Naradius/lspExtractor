@@ -1,0 +1,8 @@
+Steady phase etc. InCH election each node elects itself as CH at beginning of time twith probability as P. If the expected number of CH for this roundare assumed to be n such that N are the total number of nodes inthe network thenPNi  1 Pi  1 n.Authors
+(NP (NP (NNP )(NN ))(NP (NP (FW )(NNP )(NN ))(NP (DT )(NN ))))
+Phase: generated53566
+Input: Token
+Rule: generated53566
+(
+((({ Token.category == NNP })({ Token.category == NN }))((({ Token.category == FW })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN }))))):pttrn53566 --> :pttrn53566.extracted={}
+

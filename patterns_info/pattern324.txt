@@ -1,0 +1,8 @@
+a cluster-based algorithm which imposes a low End-to-End delay
+(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(NP (DT )(JJ )(NNP )(NN ))))
+Phase: generated324
+Input: Token
+Rule: generated324
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))))):pttrn324 --> :pttrn324.extracted={}
+

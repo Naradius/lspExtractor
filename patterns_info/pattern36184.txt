@@ -1,0 +1,8 @@
+research analyzes
+(NP (NN )(NNS ))
+Phase: generated36184
+Input: Token
+Rule: generated36184
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn36184 --> :pttrn36184.extracted={}
+

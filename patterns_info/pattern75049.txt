@@ -1,0 +1,8 @@
+new phrases from the systemsthat
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated75049
+Input: Token
+Rule: generated75049
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn75049 --> :pttrn75049.extracted={}
+

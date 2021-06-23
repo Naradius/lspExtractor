@@ -1,0 +1,8 @@
+disseminate control packets
+(VP (VB )(NP (NN )(NNS )))
+Phase: generated27192
+Input: Token
+Rule: generated27192
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))):pttrn27192 --> :pttrn27192.extracted={}
+

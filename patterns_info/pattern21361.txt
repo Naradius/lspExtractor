@@ -1,0 +1,8 @@
+traditional wireless mesh network
+(NP (JJ ){1,2}(NN ){1,2})
+Phase: generated21361
+Input: Token
+Rule: generated21361
+(
+(({ Token.category == JJ })+({ Token.category == NN })+)):pttrn21361 --> :pttrn21361.extracted={}
+

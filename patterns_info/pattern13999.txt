@@ -1,0 +1,8 @@
+the source node
+(NP (DT )(NN ){1,2})
+Phase: generated13999
+Input: Token
+Rule: generated13999
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn13999 --> :pttrn13999.extracted={}
+

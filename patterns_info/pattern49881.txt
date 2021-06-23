@@ -1,0 +1,8 @@
+to anticipate andmanage unpredictable events, such as natural disasters orman-made threats
+(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NNS ))(PP (JJ )(IN )(NP (NP (JJ )(NNS ))(JJ )(NNS ))))))
+Phase: generated49881
+Input: Token
+Rule: generated49881
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn49881 --> :pttrn49881.extracted={}
+

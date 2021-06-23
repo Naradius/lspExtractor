@@ -1,0 +1,8 @@
+driven out ofthe pride and becoming a nomad
+(VP (VP (VBN )(PP (IN )(NP (DT )(NN ))))(CC )(VP (VBG )(NP (DT )(NN ))))
+Phase: generated64596
+Input: Token
+Rule: generated64596
+(
+((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))):pttrn64596 --> :pttrn64596.extracted={}
+

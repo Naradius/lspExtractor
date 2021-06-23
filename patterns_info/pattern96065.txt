@@ -1,0 +1,8 @@
+attested by a num-ber of research initiatives
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated96065
+Input: Token
+Rule: generated96065
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn96065 --> :pttrn96065.extracted={}
+

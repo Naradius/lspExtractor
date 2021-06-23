@@ -1,0 +1,8 @@
+join words together in a sentence
+(VP (VB )(PP (IN )(NP (DT )(NN ))))
+Phase: generated98495
+Input: Token
+Rule: generated98495
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn98495 --> :pttrn98495.extracted={}
+

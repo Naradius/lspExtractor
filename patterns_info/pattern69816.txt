@@ -1,0 +1,8 @@
+consumptionbetween the forwarding distance and the energy saving for allnodes in the whole
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(CC )))
+Phase: generated69816
+Input: Token
+Rule: generated69816
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })))):pttrn69816 --> :pttrn69816.extracted={}
+

@@ -1,0 +1,8 @@
+R. Casado-Vara, F. Prieto-Castrillo, J.M. Corchado, A game theory approachfor cooperative control to improve data quality and false data detectionin WSN, Int.
+(NP (NP (NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN ))))(VP (TO )(VP (VB )(NP (NNS )(NN )))))(CC ))
+Phase: generated30456
+Input: Token
+Rule: generated30456
+(
+((((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NNS })({ Token.category == NN })))))({ Token.category == CC }))):pttrn30456 --> :pttrn30456.extracted={}
+

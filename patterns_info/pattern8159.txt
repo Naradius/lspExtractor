@@ -1,0 +1,8 @@
+other CHs
+(NP (JJ )(NNP ))
+Phase: generated8159
+Input: Token
+Rule: generated8159
+(
+(({ Token.category == JJ })({ Token.category == NNP }))):pttrn8159 --> :pttrn8159.extracted={}
+

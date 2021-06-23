@@ -1,0 +1,8 @@
+would be the delay betweenhe end nodes and the sink
+(VP (MD )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(CC )(NP (DT )(NN )))))))
+Phase: generated27130
+Input: Token
+Rule: generated27130
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn27130 --> :pttrn27130.extracted={}
+

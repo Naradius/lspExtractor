@@ -1,0 +1,8 @@
+called fractional calculus
+(VP (VBN )(NP (JJ )(NN )))
+Phase: generated107130
+Input: Token
+Rule: generated107130
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn107130 --> :pttrn107130.extracted={}
+

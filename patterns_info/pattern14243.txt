@@ -1,0 +1,8 @@
+to have time complexity TCAODV
+(VP (TO )(VP (VB )(NP (NN ){1,2}(NNP ))))
+Phase: generated14243
+Input: Token
+Rule: generated14243
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })+({ Token.category == NNP }))))):pttrn14243 --> :pttrn14243.extracted={}
+

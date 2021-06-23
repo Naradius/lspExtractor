@@ -1,0 +1,8 @@
+a text span and others that textually follow itrather than precede it
+(NP (NP (DT )(NN ){1,2})(CC ))
+Phase: generated89200
+Input: Token
+Rule: generated89200
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC }))):pttrn89200 --> :pttrn89200.extracted={}
+

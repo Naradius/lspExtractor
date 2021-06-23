@@ -1,0 +1,8 @@
+the target class for each occurrence in the data
+(NP (NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated85051
+Input: Token
+Rule: generated85051
+(
+(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn85051 --> :pttrn85051.extracted={}
+

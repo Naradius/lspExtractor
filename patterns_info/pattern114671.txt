@@ -1,0 +1,8 @@
+of finding a maximum clique, or all cliques, in a given graph, which is NP-complete, one of Karp's 21 NP-complete problems
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(NNS )))))
+Phase: generated114671
+Input: Token
+Rule: generated114671
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn114671 --> :pttrn114671.extracted={}
+

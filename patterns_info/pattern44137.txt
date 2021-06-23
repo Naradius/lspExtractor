@@ -1,0 +1,8 @@
+the high-energy dissipation
+(NP (DT )(JJ )(NN ))
+Phase: generated44137
+Input: Token
+Rule: generated44137
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn44137 --> :pttrn44137.extracted={}
+

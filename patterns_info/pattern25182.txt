@@ -1,0 +1,8 @@
+Objective Function Zero MRHOF Minimum Rank
+(NP (JJ )(NNP ){1,2})
+Phase: generated25182
+Input: Token
+Rule: generated25182
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn25182 --> :pttrn25182.extracted={}
+

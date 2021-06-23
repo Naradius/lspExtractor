@@ -1,0 +1,8 @@
+of the same channel Ch2
+(PP (IN )(NP (DT )(JJ )(NN )(NNP )))
+Phase: generated21402
+Input: Token
+Rule: generated21402
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })))):pttrn21402 --> :pttrn21402.extracted={}
+

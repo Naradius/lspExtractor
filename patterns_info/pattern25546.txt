@@ -1,0 +1,8 @@
+reduce OFs contribution inhe power consumption by more than 10% compared with staticoT infrastructures, while they can increase OFs influence on reli-bility, and E2E delay by nearly 15% and 16% respectively
+(VP (VB )(PP (IN )(NP (QP (JJR )(IN )(CD ))(NN )))(PP (VBN )(PP (IN )(NP (NN )(NNS ))))(IN ))
+Phase: generated25546
+Input: Token
+Rule: generated25546
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN })))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))({ Token.category == IN }))):pttrn25546 --> :pttrn25546.extracted={}
+

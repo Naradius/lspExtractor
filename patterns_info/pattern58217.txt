@@ -1,0 +1,8 @@
+of existing protocols
+(PP (IN )(NP (VBG )(NNS )))
+Phase: generated58217
+Input: Token
+Rule: generated58217
+(
+(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS })))):pttrn58217 --> :pttrn58217.extracted={}
+

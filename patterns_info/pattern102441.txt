@@ -1,0 +1,8 @@
+arbitrary graphs
+(NP (JJ )(NNS ))
+Phase: generated102441
+Input: Token
+Rule: generated102441
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn102441 --> :pttrn102441.extracted={}
+

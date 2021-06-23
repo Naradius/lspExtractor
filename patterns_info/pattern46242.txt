@@ -1,0 +1,8 @@
+equipment and am-munition
+(NP (NN )(CC )(NN ))
+Phase: generated46242
+Input: Token
+Rule: generated46242
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn46242 --> :pttrn46242.extracted={}
+

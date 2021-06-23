@@ -1,0 +1,8 @@
+for such types of peer-to-peer networks
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated2275
+Input: Token
+Rule: generated2275
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn2275 --> :pttrn2275.extracted={}
+

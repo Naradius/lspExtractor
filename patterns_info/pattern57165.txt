@@ -1,0 +1,8 @@
+haveexcellent network lifetime
+(NP (JJ )(NN ){1,2})
+Phase: generated57165
+Input: Token
+Rule: generated57165
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn57165 --> :pttrn57165.extracted={}
+

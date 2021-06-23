@@ -1,0 +1,8 @@
+the installation cost
+(NP (DT )(NN ){1,2})
+Phase: generated47389
+Input: Token
+Rule: generated47389
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn47389 --> :pttrn47389.extracted={}
+

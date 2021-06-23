@@ -1,0 +1,8 @@
+a technique used tosolve the implosion and overlap problems in data-centric routing
+(NP (NP (DT )(NN ))(VP (VBN )(PP (TO )(NP (NP (NP (DT )(NN ))(CC )(NP (JJ )(NNS )))(PP (IN )(NP (JJ )(NN )))))))
+Phase: generated49000
+Input: Token
+Rule: generated49000
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn49000 --> :pttrn49000.extracted={}
+

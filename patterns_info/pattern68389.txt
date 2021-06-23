@@ -1,0 +1,8 @@
+real-world application
+(NP (NNP )(NN ))
+Phase: generated68389
+Input: Token
+Rule: generated68389
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn68389 --> :pttrn68389.extracted={}
+

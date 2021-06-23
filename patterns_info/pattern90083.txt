@@ -1,0 +1,8 @@
+be able to know that Washington names a capital city,and that it it the capital of the USA, and to access the entity ids of the relevant entities
+(VP (VB )(ADJP (JJ )(VP (VP (TO )(VP (VB )(IN )))(CC )(VP (TO )(VP (VB )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NNS )))))))))
+Phase: generated90083
+Input: Token
+Rule: generated90083
+(
+(({ Token.category == VB })(({ Token.category == JJ })((({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn90083 --> :pttrn90083.extracted={}
+

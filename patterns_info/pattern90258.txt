@@ -1,0 +1,8 @@
+betweenthe knowledge-base path  of a textfragment and the one specified in the rule
+(PP (IN )(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))(CC )(NP (NP (DT )(CD ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated90258
+Input: Token
+Rule: generated90258
+(
+(({ Token.category == IN })(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })((({ Token.category == DT })({ Token.category == CD }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn90258 --> :pttrn90258.extracted={}
+

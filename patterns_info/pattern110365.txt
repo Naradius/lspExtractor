@@ -1,0 +1,8 @@
+the estimation problem
+(NP (DT )(NN ){1,2})
+Phase: generated110365
+Input: Token
+Rule: generated110365
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn110365 --> :pttrn110365.extracted={}
+

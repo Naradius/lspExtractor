@@ -1,0 +1,8 @@
+the first works intro-ducing lexico-semantic patterns
+(NP (DT )(JJ )(NNS )(JJ ){1,2}(NNS ))
+Phase: generated92103
+Input: Token
+Rule: generated92103
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn92103 --> :pttrn92103.extracted={}
+

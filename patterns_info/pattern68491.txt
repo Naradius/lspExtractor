@@ -1,0 +1,8 @@
+no less than the threshold value
+(NP (NP (RB )(JJR ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated68491
+Input: Token
+Rule: generated68491
+(
+((({ Token.category == RB })({ Token.category == JJR }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn68491 --> :pttrn68491.extracted={}
+

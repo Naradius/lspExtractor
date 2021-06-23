@@ -1,0 +1,8 @@
+linked by a wireless medium
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated47535
+Input: Token
+Rule: generated47535
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn47535 --> :pttrn47535.extracted={}
+

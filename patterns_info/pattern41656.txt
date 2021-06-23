@@ -1,0 +1,8 @@
+their TTL.
+(NP (PRP$ )(NN ))
+Phase: generated41656
+Input: Token
+Rule: generated41656
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn41656 --> :pttrn41656.extracted={}
+

@@ -1,0 +1,8 @@
+after distilling 472 477Accurate commonsense knowledge item 460 467Accuracy rate  97 981000
+(PP (IN )(VP (VBG )(NP (CD )(JJ )(NN ){1,2})))
+Phase: generated73378
+Input: Token
+Rule: generated73378
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn73378 --> :pttrn73378.extracted={}
+

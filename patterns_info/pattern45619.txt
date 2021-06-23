@@ -1,0 +1,8 @@
+the elderly, Journal ofTelemedicine
+(NP (DT )(JJ )(NNP ){1,2})
+Phase: generated45619
+Input: Token
+Rule: generated45619
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)):pttrn45619 --> :pttrn45619.extracted={}
+

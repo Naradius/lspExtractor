@@ -1,0 +1,8 @@
+to the routing algorithms
+(PP (TO )(NP (DT )(NN )(NNS )))
+Phase: generated33892
+Input: Token
+Rule: generated33892
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn33892 --> :pttrn33892.extracted={}
+

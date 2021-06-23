@@ -1,0 +1,8 @@
+preferred.Route 3 in Fig. 4
+(VP (VBN )(NP (NN )(CD ))(PP (IN )(NP (NNP )(CD ))))
+Phase: generated48914
+Input: Token
+Rule: generated48914
+(
+(({ Token.category == VBN })(({ Token.category == NN })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))):pttrn48914 --> :pttrn48914.extracted={}
+

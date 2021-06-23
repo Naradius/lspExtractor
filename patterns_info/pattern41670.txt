@@ -1,0 +1,8 @@
+have = k + 1 hop between ns and nd
+(VP (VBP )(VP (VB )(NP (NP (NNP )(CD )(NN ))(PP (IN )(NP (NNS )(CC )(NN ))))))
+Phase: generated41670
+Input: Token
+Rule: generated41670
+(
+(({ Token.category == VBP })(({ Token.category == VB })((({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN }))))))):pttrn41670 --> :pttrn41670.extracted={}
+

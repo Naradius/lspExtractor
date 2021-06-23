@@ -1,0 +1,8 @@
+lled for a given job posting: ID, Title, Salary, Company, Recruiter,State, City, Country, Language, Platform, Application, Area, Req years experience,Desired years experience, Req degree, Desired degree, and Post date.Figure 23 shows results of ten-fold cross validation on 100 randomly selected textsfrom the Software Jobs domain
+(VP (VBD )(PP (IN )(NP (NP (DT )(VBN )(NN ))(VP (VBG )(NP (NP (JJ )(NNS )(NN ))(NP (NNP )(NNS )(NN ))(NP (NNP )(NN )){1,2}(CC )(NP (NP (NNP )(NN ))(NP (NNP )(CD ))))))))
+Phase: generated78526
+Input: Token
+Rule: generated78526
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == NN }))+({ Token.category == CC })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == CD }))))))))):pttrn78526 --> :pttrn78526.extracted={}
+

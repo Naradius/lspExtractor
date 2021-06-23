@@ -1,0 +1,8 @@
+given by:Dp  k EresiEmax 1n2c14Eresi
+(VP (VBN )(PP (IN )(NP (JJ )(NN )(NNP ){1,2})))
+Phase: generated3924
+Input: Token
+Rule: generated3924
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+)))):pttrn3924 --> :pttrn3924.extracted={}
+

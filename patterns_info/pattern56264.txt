@@ -1,0 +1,8 @@
+Using the above equations
+(PP (VBG )(NP (DT )(NN )(NNS )))
+Phase: generated56264
+Input: Token
+Rule: generated56264
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn56264 --> :pttrn56264.extracted={}
+

@@ -1,0 +1,8 @@
+measure the rule creation times by averagingthe individual rule set creation times of our domainexperts
+(VP (VBP )(NP (DT )(NN ){1,2}(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2}(NNS ))(PP (IN )(NP (PRP$ )(NNS ))))))
+Phase: generated94015
+Input: Token
+Rule: generated94015
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))))):pttrn94015 --> :pttrn94015.extracted={}
+

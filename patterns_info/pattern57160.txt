@@ -1,0 +1,8 @@
+to rectifythe energy hole problem
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated57160
+Input: Token
+Rule: generated57160
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn57160 --> :pttrn57160.extracted={}
+

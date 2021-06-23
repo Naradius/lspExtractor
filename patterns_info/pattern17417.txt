@@ -1,0 +1,8 @@
+destination specific temporary relaying node
+(NP (NN )(JJ ){1,2}(NN ))
+Phase: generated17417
+Input: Token
+Rule: generated17417
+(
+(({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NN }))):pttrn17417 --> :pttrn17417.extracted={}
+

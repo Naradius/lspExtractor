@@ -1,0 +1,8 @@
+is defined as:S i
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NNP )(FW )))))
+Phase: generated64331
+Input: Token
+Rule: generated64331
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == FW })))))):pttrn64331 --> :pttrn64331.extracted={}
+

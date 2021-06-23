@@ -1,0 +1,8 @@
+the problem size
+(NP (DT )(NN ){1,2})
+Phase: generated63624
+Input: Token
+Rule: generated63624
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn63624 --> :pttrn63624.extracted={}
+

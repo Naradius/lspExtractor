@@ -1,0 +1,8 @@
+the present cat
+(NP (DT )(JJ )(NN ))
+Phase: generated68843
+Input: Token
+Rule: generated68843
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn68843 --> :pttrn68843.extracted={}
+

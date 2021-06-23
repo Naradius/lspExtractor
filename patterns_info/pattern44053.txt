@@ -1,0 +1,8 @@
+an one hop neighbor
+(NP (DT )(CD )(NN ){1,2})
+Phase: generated44053
+Input: Token
+Rule: generated44053
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NN })+)):pttrn44053 --> :pttrn44053.extracted={}
+

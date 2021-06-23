@@ -1,0 +1,8 @@
+to improvethe performance of the NCSs
+(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )))))
+Phase: generated31665
+Input: Token
+Rule: generated31665
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn31665 --> :pttrn31665.extracted={}
+

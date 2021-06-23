@@ -1,0 +1,8 @@
+supporting multiple gateways tobalance the load in the network
+(VP (VBG )(NP (JJ )(NNS )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated50590
+Input: Token
+Rule: generated50590
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn50590 --> :pttrn50590.extracted={}
+

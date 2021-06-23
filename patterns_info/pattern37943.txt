@@ -1,0 +1,8 @@
+5 malicious packets
+(NP (CD )(JJ )(NNS ))
+Phase: generated37943
+Input: Token
+Rule: generated37943
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn37943 --> :pttrn37943.extracted={}
+

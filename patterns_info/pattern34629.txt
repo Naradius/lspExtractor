@@ -1,0 +1,8 @@
+the blind signature algorithmis
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated34629
+Input: Token
+Rule: generated34629
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn34629 --> :pttrn34629.extracted={}
+

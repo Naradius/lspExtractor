@@ -1,0 +1,8 @@
+conducted an experiment to compare the accuracyrates of ARG0, ARG1, ARGM-TMP, and ARGM-LOC before and afterthe verification process
+(VP (VBD )(NP (DT )(NN )))
+Phase: generated73263
+Input: Token
+Rule: generated73263
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })))):pttrn73263 --> :pttrn73263.extracted={}
+

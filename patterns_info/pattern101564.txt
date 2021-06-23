@@ -1,0 +1,8 @@
+the Web,THE-MENTOR learns
+(NP (DT )(JJ )(NNS ))
+Phase: generated101564
+Input: Token
+Rule: generated101564
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn101564 --> :pttrn101564.extracted={}
+

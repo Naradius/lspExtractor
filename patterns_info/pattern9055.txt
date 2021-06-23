@@ -1,0 +1,8 @@
+clustered wireless sensor networks
+(NP (VBN )(JJ )(NN )(NNS ))
+Phase: generated9055
+Input: Token
+Rule: generated9055
+(
+(({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn9055 --> :pttrn9055.extracted={}
+

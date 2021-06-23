@@ -1,0 +1,8 @@
+reliabil-ty guarantee protocols in a simpler and consolidated grouping ofxisting protocols
+(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (DT )(JJR )(CC )(JJ )(NN ){1,2}(NNS ))))
+Phase: generated61174
+Input: Token
+Rule: generated61174
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn61174 --> :pttrn61174.extracted={}
+

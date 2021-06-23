@@ -1,0 +1,8 @@
+interfering IoT SD pairs require routes
+(VP (VBG )(NP (NNP ){1,2}(NNS )))
+Phase: generated24372
+Input: Token
+Rule: generated24372
+(
+(({ Token.category == VBG })(({ Token.category == NNP })+({ Token.category == NNS })))):pttrn24372 --> :pttrn24372.extracted={}
+

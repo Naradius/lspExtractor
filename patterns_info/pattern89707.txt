@@ -1,0 +1,8 @@
+be initiated using the actions menu
+(VP (VB )(VP (VBN )(VP (VBG )(NP (DT )(NNS )(NN )))))
+Phase: generated89707
+Input: Token
+Rule: generated89707
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))))):pttrn89707 --> :pttrn89707.extracted={}
+

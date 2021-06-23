@@ -1,0 +1,8 @@
+The use of the generic class org and the separate feature sector
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(CC )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated88951
+Input: Token
+Rule: generated88951
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn88951 --> :pttrn88951.extracted={}
+

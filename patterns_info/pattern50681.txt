@@ -1,0 +1,8 @@
+WirelessHART and ISA100.11a
+(NP (NNP )(CC )(NNP ))
+Phase: generated50681
+Input: Token
+Rule: generated50681
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn50681 --> :pttrn50681.extracted={}
+

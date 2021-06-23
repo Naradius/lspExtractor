@@ -1,0 +1,8 @@
+Hamid Aghvami A. Autonomic hier-archical reconfiguration for wireless access networks
+(NP (NP (NNP ){1,2}(JJ )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated58011
+Input: Token
+Rule: generated58011
+(
+((({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn58011 --> :pttrn58011.extracted={}
+

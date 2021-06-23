@@ -1,0 +1,8 @@
+according to the corresponding simula-tion scenario
+(PP (VBG )(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated23772
+Input: Token
+Rule: generated23772
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn23772 --> :pttrn23772.extracted={}
+

@@ -1,0 +1,8 @@
+selected by the users
+(VP (VBN )(PP (IN )(NP (DT )(NNS ))))
+Phase: generated30318
+Input: Token
+Rule: generated30318
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn30318 --> :pttrn30318.extracted={}
+

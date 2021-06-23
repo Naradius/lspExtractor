@@ -1,0 +1,8 @@
+presentsthe best fitness value in its own cluster.This cat
+(NP (NP (DT )(JJS )(NN ){1,2})(PP (IN )(NP (PRP$ )(JJ )(NN ){1,2})))
+Phase: generated69417
+Input: Token
+Rule: generated69417
+(
+((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn69417 --> :pttrn69417.extracted={}
+

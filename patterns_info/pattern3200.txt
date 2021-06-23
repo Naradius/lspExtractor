@@ -1,0 +1,8 @@
+nearby agents.Cohesion
+(NP (JJ )(NN ))
+Phase: generated3200
+Input: Token
+Rule: generated3200
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn3200 --> :pttrn3200.extracted={}
+

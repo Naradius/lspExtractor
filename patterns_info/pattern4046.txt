@@ -1,0 +1,8 @@
+ensure that the ants do not return to the same nodetoo soon
+(VP (VB )(IN ))
+Phase: generated4046
+Input: Token
+Rule: generated4046
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn4046 --> :pttrn4046.extracted={}
+

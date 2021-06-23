@@ -1,0 +1,8 @@
+as context frame rules
+(PP (IN )(NP (NN ){1,2}(NNS )))
+Phase: generated97738
+Input: Token
+Rule: generated97738
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn97738 --> :pttrn97738.extracted={}
+

@@ -1,0 +1,8 @@
+thehighest scoring systems
+(NP (DT )(VBG )(NNS ))
+Phase: generated80477
+Input: Token
+Rule: generated80477
+(
+(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))):pttrn80477 --> :pttrn80477.extracted={}
+

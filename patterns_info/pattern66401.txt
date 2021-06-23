@@ -1,0 +1,8 @@
+sense the open channel
+(VP (VB )(NP (DT )(JJ )(NN )))
+Phase: generated66401
+Input: Token
+Rule: generated66401
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn66401 --> :pttrn66401.extracted={}
+

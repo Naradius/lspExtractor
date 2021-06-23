@@ -1,0 +1,6 @@
+Phase: generated104174
+Input: Token
+Rule: generated104174
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn104174 --> :pttrn104174.extracted={}
+

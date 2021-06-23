@@ -1,0 +1,8 @@
+knowledge to perform a pre-cise transceiver power control
+(VP (VBP )(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated2884
+Input: Token
+Rule: generated2884
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn2884 --> :pttrn2884.extracted={}
+

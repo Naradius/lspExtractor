@@ -1,0 +1,8 @@
+primary transmitters
+(NP (JJ )(NNS )){1,2}
+Phase: generated22033
+Input: Token
+Rule: generated22033
+(
+(({ Token.category == JJ })({ Token.category == NNS }))+):pttrn22033 --> :pttrn22033.extracted={}
+

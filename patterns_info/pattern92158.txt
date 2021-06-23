@@ -1,0 +1,8 @@
+the domainsemantics
+(NP (DT )(NNS ))
+Phase: generated92158
+Input: Token
+Rule: generated92158
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn92158 --> :pttrn92158.extracted={}
+

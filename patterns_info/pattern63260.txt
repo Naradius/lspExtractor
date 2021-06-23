@@ -1,0 +1,8 @@
+the thresh-ld d 0
+(NP (DT )(JJ ){1,2}(CD ))
+Phase: generated63260
+Input: Token
+Rule: generated63260
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == CD }))):pttrn63260 --> :pttrn63260.extracted={}
+

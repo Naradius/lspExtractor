@@ -1,0 +1,8 @@
+multiple case frames are output for a single sentence.There are some domains where multi-slot extraction is essential
+(SINV (NP (JJ )(NN )(NNS )))
+Phase: generated81870
+Input: Token
+Rule: generated81870
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn81870 --> :pttrn81870.extracted={}
+

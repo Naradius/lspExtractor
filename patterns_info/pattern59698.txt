@@ -1,0 +1,8 @@
+only less than 10%
+(NP (QP (RB )(JJR )(IN )(CD ))(NN ))
+Phase: generated59698
+Input: Token
+Rule: generated59698
+(
+((({ Token.category == RB })({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN }))):pttrn59698 --> :pttrn59698.extracted={}
+

@@ -1,0 +1,8 @@
+a separate generalization
+(NP (DT )(JJ )(NN ))
+Phase: generated116781
+Input: Token
+Rule: generated116781
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn116781 --> :pttrn116781.extracted={}
+

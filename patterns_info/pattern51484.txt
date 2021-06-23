@@ -1,0 +1,8 @@
+on its residual energy
+(PP (IN )(NP (PRP$ )(JJ )(NN )))
+Phase: generated51484
+Input: Token
+Rule: generated51484
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))):pttrn51484 --> :pttrn51484.extracted={}
+

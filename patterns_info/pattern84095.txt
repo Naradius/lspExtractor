@@ -1,0 +1,8 @@
+a separate tagfor each mention of the StartTime, a separate tag for each mention of the EndTime,and so forth.The Software Jobs domain has on-line job postings for programmers and systemsanalysts collected by Mary Elaine Cali
+(NP (NP (DT )(JJ )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNP ))(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNP ))(CC )(RB ))))))))))
+Phase: generated84095
+Input: Token
+Rule: generated84095
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC })({ Token.category == RB }))))))))))):pttrn84095 --> :pttrn84095.extracted={}
+

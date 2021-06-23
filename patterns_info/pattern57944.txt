@@ -1,0 +1,8 @@
+a hybrid, energy-efficient, distributedclustering approach
+(NP (DT )(JJ ){1,2}(VBG )(NN ))
+Phase: generated57944
+Input: Token
+Rule: generated57944
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == VBG })({ Token.category == NN }))):pttrn57944 --> :pttrn57944.extracted={}
+

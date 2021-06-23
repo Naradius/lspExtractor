@@ -1,0 +1,8 @@
+of L and R, and G n ( h ) = G0n ( h0 )14 REKERS & SCHURRThe application of a production p to a graph G with result G0 will be denoted as Gp=) G0.A potential production instance
+(PP (IN )(NP (NP (NP (NP (NNP )(CC )(NNP ))(CC )(NP (NP (NNP )(NN ))(PRN (-LRB- )(-RRB- ))))(SYM )(JJ )(PRN (-LRB- )(IN )(-RRB- )))(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated103228
+Input: Token
+Rule: generated103228
+(
+(({ Token.category == IN })((((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))({ Token.category == CC })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))))({ Token.category == SYM })({ Token.category == JJ })(({ Token.category == -LRB- })({ Token.category == IN })({ Token.category == -RRB- })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn103228 --> :pttrn103228.extracted={}
+

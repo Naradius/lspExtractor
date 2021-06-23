@@ -1,0 +1,8 @@
+a longer path
+(NP (DT )(JJR )(NN ))
+Phase: generated6483
+Input: Token
+Rule: generated6483
+(
+(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN }))):pttrn6483 --> :pttrn6483.extracted={}
+

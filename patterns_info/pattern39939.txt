@@ -1,0 +1,8 @@
+the GDE for specific IoTenvironments and ensures correctness of the scheme against design flaws
+(NP (NP (DT )(NNP ))(PP (IN )(NP (NP (JJ )(NNS )(CC )(NNS )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))))
+Phase: generated39939
+Input: Token
+Rule: generated39939
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn39939 --> :pttrn39939.extracted={}
+

@@ -1,0 +1,8 @@
+Queue/DropTaillPriQueue antenna model OmniAntenna distance
+(NP (NNP )(CC )(NN )(NNP )(NN ))
+Phase: generated1161
+Input: Token
+Rule: generated1161
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))):pttrn1161 --> :pttrn1161.extracted={}
+

@@ -1,0 +1,8 @@
+selected females migrate from pridesand become nomad, new nomad females and old nomadfemales
+(NP (NP (VBN )(NNS ))(ADJP (JJ )(PP (IN )(NP (NP (JJ ){1,2}(NNS ))(CC )(NP (JJ )(NNS ))))))
+Phase: generated64663
+Input: Token
+Rule: generated64663
+(
+((({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn64663 --> :pttrn64663.extracted={}
+

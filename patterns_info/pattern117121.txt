@@ -1,0 +1,8 @@
+IEEE transactions on audio, speech
+(NP (NP (NN )(NNS ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated117121
+Input: Token
+Rule: generated117121
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn117121 --> :pttrn117121.extracted={}
+

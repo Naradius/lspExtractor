@@ -1,0 +1,8 @@
+is quite considerable because the distances sepa-rating the nodes are increased
+(VP (VBZ )(ADJP (RB )(JJ )))
+Phase: generated42655
+Input: Token
+Rule: generated42655
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == JJ })))):pttrn42655 --> :pttrn42655.extracted={}
+

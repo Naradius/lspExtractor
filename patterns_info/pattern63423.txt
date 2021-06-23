@@ -1,0 +1,8 @@
+transmitted using theonfounding time-domain transmission
+(VP (VBN )(VP (VBG )(NP (VBG )(NN ){1,2})))
+Phase: generated63423
+Input: Token
+Rule: generated63423
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == VBG })({ Token.category == NN })+)))):pttrn63423 --> :pttrn63423.extracted={}
+

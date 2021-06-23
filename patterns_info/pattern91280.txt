@@ -1,0 +1,8 @@
+.A rule consists of two parts: a condition , and a resultingtag
+(VP (VBN )(NP (NP (NN )(NNS ))(PP (IN )(NP (NP (CD )(NNS ))(NP (NP (DT )(NN ))(CC )(NP (DT )(NN )))))))
+Phase: generated91280
+Input: Token
+Rule: generated91280
+(
+(({ Token.category == VBN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn91280 --> :pttrn91280.extracted={}
+

@@ -1,0 +1,8 @@
+consider dividing the network into small clusters/zones, and then perform intra- and inter-routing
+(VP (VBP )(VP (VP (VBG )(NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))(CONJP (CC )(RB ))(VP (VB )(NP (DT )(CC )(NN )))))
+Phase: generated6550
+Input: Token
+Rule: generated6550
+(
+(({ Token.category == VBP })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))(({ Token.category == CC })({ Token.category == RB }))(({ Token.category == VB })(({ Token.category == DT })({ Token.category == CC })({ Token.category == NN })))))):pttrn6550 --> :pttrn6550.extracted={}
+

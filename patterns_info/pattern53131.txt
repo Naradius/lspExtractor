@@ -1,0 +1,8 @@
+by the remaining energy of the nodes and the modifiedformula for LEACH in this proposal
+(PP (IN )(NP (NP (DT )(VBG )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(CC )))))
+Phase: generated53131
+Input: Token
+Rule: generated53131
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })))))):pttrn53131 --> :pttrn53131.extracted={}
+

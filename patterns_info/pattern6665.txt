@@ -1,0 +1,8 @@
+on locallyobservable phenomena
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated6665
+Input: Token
+Rule: generated6665
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn6665 --> :pttrn6665.extracted={}
+

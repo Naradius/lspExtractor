@@ -1,0 +1,8 @@
+of location-based information application scenarios.The above research analyzes
+(PP (IN )(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (NN )(NNS )))))
+Phase: generated36189
+Input: Token
+Rule: generated36189
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn36189 --> :pttrn36189.extracted={}
+

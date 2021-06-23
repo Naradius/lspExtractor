@@ -1,0 +1,8 @@
+returned to the cluster leader
+(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated11454
+Input: Token
+Rule: generated11454
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn11454 --> :pttrn11454.extracted={}
+

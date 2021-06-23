@@ -1,0 +1,8 @@
+the restriction
+(NP (DT )(NN ))
+Phase: generated88402
+Input: Token
+Rule: generated88402
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn88402 --> :pttrn88402.extracted={}
+

@@ -1,0 +1,8 @@
+far from the ideal mean
+(ADVP (RB )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated8503
+Input: Token
+Rule: generated8503
+(
+(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn8503 --> :pttrn8503.extracted={}
+

@@ -1,0 +1,8 @@
+can be settled by using DTN networks
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(VP (VBG )(NP (NNP )(NNS )))))))
+Phase: generated40296
+Input: Token
+Rule: generated40296
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == NNS })))))))):pttrn40296 --> :pttrn40296.extracted={}
+

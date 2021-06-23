@@ -1,0 +1,8 @@
+2.More information about rule-invocation matters
+(NP (NP (JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated87422
+Input: Token
+Rule: generated87422
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn87422 --> :pttrn87422.extracted={}
+

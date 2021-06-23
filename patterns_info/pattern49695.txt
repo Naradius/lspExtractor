@@ -1,0 +1,8 @@
+to their high volatility and flamma-bility
+(PP (TO )(NP (PRP$ )(JJ )(NN )(CC )(NN )))
+Phase: generated49695
+Input: Token
+Rule: generated49695
+(
+(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn49695 --> :pttrn49695.extracted={}
+

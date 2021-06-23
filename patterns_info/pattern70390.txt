@@ -1,0 +1,8 @@
+of a phenomenon
+(PP (IN )(NP (DT )(NN )))
+Phase: generated70390
+Input: Token
+Rule: generated70390
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn70390 --> :pttrn70390.extracted={}
+

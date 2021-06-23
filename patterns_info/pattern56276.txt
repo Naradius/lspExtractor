@@ -1,0 +1,8 @@
+data transmission
+(NP (NNS )(NN ))
+Phase: generated56276
+Input: Token
+Rule: generated56276
+(
+(({ Token.category == NNS })({ Token.category == NN }))):pttrn56276 --> :pttrn56276.extracted={}
+

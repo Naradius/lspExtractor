@@ -1,0 +1,8 @@
+attached to v0 doM = if mdiis of the form < z : xk  > ^ k = l ^ l = l thenproceed(G; )fiodIn the main loop of the bottom-up phase the next to be processed dotted rule is selected atrandom
+(VP (VBN )(VP (TO )(VP (VB )(SYM )(IN ))))
+Phase: generated104195
+Input: Token
+Rule: generated104195
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == SYM })({ Token.category == IN }))))):pttrn104195 --> :pttrn104195.extracted={}
+

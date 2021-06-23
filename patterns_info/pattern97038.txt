@@ -1,0 +1,8 @@
+Average accuracy
+(NP (JJ )(NN ))
+Phase: generated97038
+Input: Token
+Rule: generated97038
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn97038 --> :pttrn97038.extracted={}
+

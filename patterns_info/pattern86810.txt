@@ -1,0 +1,8 @@
+dictionary such that words of equal or1828similar weights are placed in the same cluster and one com-mon weight  will be assigned to all words inthis cluster.In our study we use class-based term clustering by weightsas described in
+(VP (VBP )(ADJP (JJ )(IN )))
+Phase: generated86810
+Input: Token
+Rule: generated86810
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == IN })))):pttrn86810 --> :pttrn86810.extracted={}
+

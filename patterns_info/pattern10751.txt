@@ -1,0 +1,8 @@
+bendy supervision WSNs
+(NP (JJ )(NN )(NNP ))
+Phase: generated10751
+Input: Token
+Rule: generated10751
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))):pttrn10751 --> :pttrn10751.extracted={}
+

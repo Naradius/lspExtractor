@@ -1,0 +1,8 @@
+an Assistant Professor in GuidanceNavigation and Control in the UAV team at the FrenchNational Civil Aviation University
+(NP (PP (IN )(NP (DT )(NNP )(NN )))(PP (IN )(NP (DT )(NNP ){1,2})))
+Phase: generated112451
+Input: Token
+Rule: generated112451
+(
+((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+)))):pttrn112451 --> :pttrn112451.extracted={}
+

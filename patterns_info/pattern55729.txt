@@ -1,0 +1,8 @@
+haveused different algorithm for this category
+(VP (VBD )(NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated55729
+Input: Token
+Rule: generated55729
+(
+(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn55729 --> :pttrn55729.extracted={}
+

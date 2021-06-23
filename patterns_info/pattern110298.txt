@@ -1,0 +1,8 @@
+on a set of n initialonditions
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated110298
+Input: Token
+Rule: generated110298
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn110298 --> :pttrn110298.extracted={}
+

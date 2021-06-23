@@ -1,0 +1,8 @@
+the routetable
+(NP (DT )(JJ ))
+Phase: generated10082
+Input: Token
+Rule: generated10082
+(
+(({ Token.category == DT })({ Token.category == JJ }))):pttrn10082 --> :pttrn10082.extracted={}
+

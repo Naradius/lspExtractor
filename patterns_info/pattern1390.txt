@@ -1,0 +1,8 @@
+the number of the size
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated1390
+Input: Token
+Rule: generated1390
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn1390 --> :pttrn1390.extracted={}
+

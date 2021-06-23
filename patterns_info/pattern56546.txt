@@ -1,0 +1,8 @@
+above.Guan et al
+(PP (IN )(NP (NNP ){1,2}(NN )))
+Phase: generated56546
+Input: Token
+Rule: generated56546
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })))):pttrn56546 --> :pttrn56546.extracted={}
+

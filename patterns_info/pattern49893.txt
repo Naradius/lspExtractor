@@ -1,0 +1,8 @@
+team-oriented activities
+(NP (JJ )(NNS ))
+Phase: generated49893
+Input: Token
+Rule: generated49893
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn49893 --> :pttrn49893.extracted={}
+

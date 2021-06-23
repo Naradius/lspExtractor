@@ -1,0 +1,8 @@
+different cluster
+(NP (JJ )(NN ))
+Phase: generated10075
+Input: Token
+Rule: generated10075
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn10075 --> :pttrn10075.extracted={}
+

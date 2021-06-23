@@ -1,0 +1,8 @@
+underlines the advantage of usinglexico-semantic rules
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated94662
+Input: Token
+Rule: generated94662
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn94662 --> :pttrn94662.extracted={}
+

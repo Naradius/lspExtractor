@@ -1,0 +1,8 @@
+p. 187-200. 5. Na
+(NP (NN )(CD )(NNP )(CD )(NNP ){1,2})
+Phase: generated18143
+Input: Token
+Rule: generated18143
+(
+(({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+)):pttrn18143 --> :pttrn18143.extracted={}
+

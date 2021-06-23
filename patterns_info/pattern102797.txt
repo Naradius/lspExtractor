@@ -1,0 +1,8 @@
+the intricacies of finding redexes and the resultingformal definition of a redex.Definition 3.1 G :=
+(NP (NP (DT )(NNS ))(PP (IN )(VP (VBG )(NP (CC )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )(CD )(NNP ){1,2})))))))
+Phase: generated102797
+Input: Token
+Rule: generated102797
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })+)))))))):pttrn102797 --> :pttrn102797.extracted={}
+

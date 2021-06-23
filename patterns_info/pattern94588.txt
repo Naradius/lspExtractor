@@ -1,0 +1,8 @@
+an OWL ontology, events and re-lations that occur in news items
+(NP (NP (DT )(JJ )(NN ))(NP (NP (NNS )(CC )(NNS ))(VP (VBP )(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated94588
+Input: Token
+Rule: generated94588
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn94588 --> :pttrn94588.extracted={}
+

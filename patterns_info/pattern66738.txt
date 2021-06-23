@@ -1,0 +1,8 @@
+thenode deviating
+(NP (DT )(NN ))
+Phase: generated66738
+Input: Token
+Rule: generated66738
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn66738 --> :pttrn66738.extracted={}
+

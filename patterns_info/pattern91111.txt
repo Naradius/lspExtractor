@@ -1,0 +1,8 @@
+in Brills own words
+(PP (IN )(NP (NNP )(JJ )(NNS )))
+Phase: generated91111
+Input: Token
+Rule: generated91111
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS })))):pttrn91111 --> :pttrn91111.extracted={}
+

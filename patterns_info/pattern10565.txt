@@ -1,0 +1,8 @@
+is 146 at500th s
+(VP (VBZ )(NP (CD )(JJ )(NNS )))
+Phase: generated10565
+Input: Token
+Rule: generated10565
+(
+(({ Token.category == VBZ })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))):pttrn10565 --> :pttrn10565.extracted={}
+

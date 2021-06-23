@@ -1,0 +1,8 @@
+only a fewones
+(NP (RB )(DT )(NNS ))
+Phase: generated76384
+Input: Token
+Rule: generated76384
+(
+(({ Token.category == RB })({ Token.category == DT })({ Token.category == NNS }))):pttrn76384 --> :pttrn76384.extracted={}
+

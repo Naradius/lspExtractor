@@ -1,0 +1,8 @@
+introduce the duration of the contact
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated41766
+Input: Token
+Rule: generated41766
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn41766 --> :pttrn41766.extracted={}
+

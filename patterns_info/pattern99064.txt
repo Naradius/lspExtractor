@@ -1,0 +1,8 @@
+learning community , because the authors have published a setof nearly 6,000 labeled questions ,freely available on the Web, making it a very valuable resource for training and testing ma-chine learning models.After these steps
+(VP (VBG )(IN ))
+Phase: generated99064
+Input: Token
+Rule: generated99064
+(
+(({ Token.category == VBG })({ Token.category == IN }))):pttrn99064 --> :pttrn99064.extracted={}
+

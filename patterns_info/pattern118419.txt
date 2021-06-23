@@ -1,0 +1,8 @@
+communicative actions
+(NP (JJ )(NNS ))
+Phase: generated118419
+Input: Token
+Rule: generated118419
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn118419 --> :pttrn118419.extracted={}
+

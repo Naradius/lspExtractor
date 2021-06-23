@@ -1,0 +1,8 @@
+disturbanceshave been introduced by in the members of our research groupwho
+(VP (VBP )(VP (VBN )(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (PRP$ )(NN ){1,2})))))))
+Phase: generated29995
+Input: Token
+Rule: generated29995
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+)))))))):pttrn29995 --> :pttrn29995.extracted={}
+

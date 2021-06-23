@@ -1,0 +1,8 @@
+1 and 2 with three situations
+(NP (NP (CD )(CC )(CD ))(PP (IN )(NP (CD )(NNS ))))
+Phase: generated87023
+Input: Token
+Rule: generated87023
+(
+((({ Token.category == CD })({ Token.category == CC })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))):pttrn87023 --> :pttrn87023.extracted={}
+

@@ -1,0 +1,8 @@
+decides to become a CH ifan ant wanders to it
+(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(NNP )(NN )(JJ )(NNS )))))
+Phase: generated7470
+Input: Token
+Rule: generated7470
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn7470 --> :pttrn7470.extracted={}
+

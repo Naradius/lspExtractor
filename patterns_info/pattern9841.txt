@@ -1,0 +1,8 @@
+isequally balanced by a leader node
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated9841
+Input: Token
+Rule: generated9841
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn9841 --> :pttrn9841.extracted={}
+

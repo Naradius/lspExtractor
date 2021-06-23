@@ -1,0 +1,8 @@
+the extraresources
+(NP (DT )(NNS ))
+Phase: generated37829
+Input: Token
+Rule: generated37829
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn37829 --> :pttrn37829.extracted={}
+

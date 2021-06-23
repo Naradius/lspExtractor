@@ -1,0 +1,8 @@
+validate thefeasibility of such system .Tracking and monitoring doctors and patientsinside a hospital
+(VP (CC )(VP (VB )(NP (DT )(NN ))))
+Phase: generated46495
+Input: Token
+Rule: generated46495
+(
+(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn46495 --> :pttrn46495.extracted={}
+

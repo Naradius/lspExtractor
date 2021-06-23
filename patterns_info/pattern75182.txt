@@ -1,0 +1,8 @@
+present in seed dic-tionaries, such as milk free diets and smelly nasal discharge.One of the reasons that the CRF does not perform so well,despite being very popular for extracting entities from human-labeled text data
+(VP (VB )(PP (IN )(NP (NP (NN )(NNS ))(PP (JJ )(IN )(NP (NP (NN )(JJ )(NNS )(CC )(NN )(JJ )(NN ){1,2})(PP (IN )(NP (NP (DT )(NNS ))(IN ))))))))
+Phase: generated75182
+Input: Token
+Rule: generated75182
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == IN }))))))))):pttrn75182 --> :pttrn75182.extracted={}
+

@@ -1,0 +1,8 @@
+evero setup an Unmanned Aerial System with complex topology tochieve sophisticated missions which were previously impossibleithout actual human involvements
+(NP (NP (DT )(NNP ){1,2})(PP (IN )(NP (NP (JJ )(NN ))(NP (NP (JJ )(NNS ))(VP (VBD )(VP (VBN )(NP (JJ ){1,2}(NNS ))))))))
+Phase: generated112680
+Input: Token
+Rule: generated112680
+(
+((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == JJ })+({ Token.category == NNS }))))))))):pttrn112680 --> :pttrn112680.extracted={}
+

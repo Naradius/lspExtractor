@@ -1,0 +1,8 @@
+of a judge
+(PP (IN )(NP (DT )(NN )))
+Phase: generated118282
+Input: Token
+Rule: generated118282
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn118282 --> :pttrn118282.extracted={}
+

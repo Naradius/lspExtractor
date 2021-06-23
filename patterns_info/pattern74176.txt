@@ -1,0 +1,8 @@
+spelling mistakes
+(NP (NN )(NNS ))
+Phase: generated74176
+Input: Token
+Rule: generated74176
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn74176 --> :pttrn74176.extracted={}
+

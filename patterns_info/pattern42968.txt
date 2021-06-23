@@ -1,0 +1,8 @@
+most efficient
+(ADJP (RBS )(JJ ))
+Phase: generated42968
+Input: Token
+Rule: generated42968
+(
+(({ Token.category == RBS })({ Token.category == JJ }))):pttrn42968 --> :pttrn42968.extracted={}
+

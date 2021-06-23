@@ -1,0 +1,8 @@
+be explained by the fact that many news itemsdiscuss companies and their products.For our political data set
+(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated94402
+Input: Token
+Rule: generated94402
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn94402 --> :pttrn94402.extracted={}
+

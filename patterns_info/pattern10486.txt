@@ -1,0 +1,8 @@
+simulation.The average energy consumption
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated10486
+Input: Token
+Rule: generated10486
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn10486 --> :pttrn10486.extracted={}
+

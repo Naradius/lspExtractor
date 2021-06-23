@@ -1,0 +1,8 @@
+LatencyIt is the time needed for a bundle to reach its final destination with-out exceeding a certain threshold.5.2.
+(SINV (VBZ )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))(VP (TO )(VP (VB )(NP (PRP$ )(JJ )(NN ))(VP (VBG )(NP (DT )(JJ )(NN ){1,2})))))))
+Phase: generated41367
+Input: Token
+Rule: generated41367
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))))):pttrn41367 --> :pttrn41367.extracted={}
+

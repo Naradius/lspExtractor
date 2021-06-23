@@ -1,0 +1,8 @@
+a ball
+(NP (DT )(NN ))
+Phase: generated73022
+Input: Token
+Rule: generated73022
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn73022 --> :pttrn73022.extracted={}
+

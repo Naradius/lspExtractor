@@ -1,0 +1,8 @@
+in Information andCommunication Technologies and the ExtraordinaryPerformance Award for Doctorate Studies from theUniversity of Valladolid in 2012
+(PP (IN )(NP (NP (NNP )(NN )(NNS ))(CC )))
+Phase: generated30685
+Input: Token
+Rule: generated30685
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })))):pttrn30685 --> :pttrn30685.extracted={}
+

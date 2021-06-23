@@ -1,0 +1,8 @@
+compromised node andits related cryptographic keys
+(NP (NP (JJ )(NN )(NNS ))(VP (VBN )(NP (JJ )(NNS ))))
+Phase: generated66773
+Input: Token
+Rule: generated66773
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn66773 --> :pttrn66773.extracted={}
+

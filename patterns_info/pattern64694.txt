@@ -1,0 +1,8 @@
+in optimi-zation algorithms
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated64694
+Input: Token
+Rule: generated64694
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn64694 --> :pttrn64694.extracted={}
+

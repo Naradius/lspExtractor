@@ -1,0 +1,8 @@
+have proposed Balanced Clustering Energy-Efficient  hierarchical routing protocol
+(VP (VBP )(VP (VBN )(NP (NNP ){1,2}(JJ )(NN ){1,2})))
+Phase: generated55996
+Input: Token
+Rule: generated55996
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NN })+)))):pttrn55996 --> :pttrn55996.extracted={}
+

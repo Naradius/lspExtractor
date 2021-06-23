@@ -1,0 +1,8 @@
+to the Right-Hand rule
+(PP (TO )(NP (DT )(NNP )(NN )))
+Phase: generated17104
+Input: Token
+Rule: generated17104
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn17104 --> :pttrn17104.extracted={}
+

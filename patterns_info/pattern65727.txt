@@ -1,0 +1,8 @@
+provide bet-er security on the multiple channels
+(VP (VB )(NP (JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated65727
+Input: Token
+Rule: generated65727
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn65727 --> :pttrn65727.extracted={}
+

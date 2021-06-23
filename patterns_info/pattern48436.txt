@@ -1,0 +1,8 @@
+lead to different types of sen-sor networks
+(VP (VB )(PP (TO )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated48436
+Input: Token
+Rule: generated48436
+(
+(({ Token.category == VB })(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn48436 --> :pttrn48436.extracted={}
+

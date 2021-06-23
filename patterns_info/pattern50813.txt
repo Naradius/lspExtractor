@@ -1,0 +1,8 @@
+three modulation schemes
+(NP (CD )(NN )(NNS ))
+Phase: generated50813
+Input: Token
+Rule: generated50813
+(
+(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn50813 --> :pttrn50813.extracted={}
+

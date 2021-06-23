@@ -1,0 +1,8 @@
+the proposed energy efficient approach
+(NP (DT )(JJ )(NN )(JJ )(NN ))
+Phase: generated58900
+Input: Token
+Rule: generated58900
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))):pttrn58900 --> :pttrn58900.extracted={}
+

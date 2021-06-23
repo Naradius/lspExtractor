@@ -1,0 +1,8 @@
+tothe partial signal cancellation
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated45353
+Input: Token
+Rule: generated45353
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn45353 --> :pttrn45353.extracted={}
+

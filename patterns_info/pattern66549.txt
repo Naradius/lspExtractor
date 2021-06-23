@@ -1,0 +1,8 @@
+to act as the guard nodes in the later process
+(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated66549
+Input: Token
+Rule: generated66549
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn66549 --> :pttrn66549.extracted={}
+

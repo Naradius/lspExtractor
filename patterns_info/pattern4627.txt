@@ -1,0 +1,8 @@
+20 sAnti-pheromone rate
+(NP (CD )(NN ){1,2})
+Phase: generated4627
+Input: Token
+Rule: generated4627
+(
+(({ Token.category == CD })({ Token.category == NN })+)):pttrn4627 --> :pttrn4627.extracted={}
+

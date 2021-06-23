@@ -1,0 +1,8 @@
+the cat at the current iteration
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated68771
+Input: Token
+Rule: generated68771
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn68771 --> :pttrn68771.extracted={}
+

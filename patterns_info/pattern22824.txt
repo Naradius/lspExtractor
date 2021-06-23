@@ -1,0 +1,8 @@
+discovered and areused for RREQ forwarding
+(VP (CC )(VP (VBN )(PP (IN )(NP (NNP )(NN )))))
+Phase: generated22824
+Input: Token
+Rule: generated22824
+(
+(({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn22824 --> :pttrn22824.extracted={}
+

@@ -1,0 +1,8 @@
+to choose the cluster head
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated1119
+Input: Token
+Rule: generated1119
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn1119 --> :pttrn1119.extracted={}
+

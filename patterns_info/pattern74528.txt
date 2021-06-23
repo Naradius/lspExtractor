@@ -1,0 +1,8 @@
+sentenceswere to include the minimum number of words to convey themedical information
+(VP (VBD )(VP (TO )(VP (VB )(VP (TO )(VP (VB )(NP (DT )(NN )))))))
+Phase: generated74528
+Input: Token
+Rule: generated74528
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn74528 --> :pttrn74528.extracted={}
+

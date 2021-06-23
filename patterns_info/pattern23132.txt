@@ -1,0 +1,8 @@
+the mapped graph.Lemma 1
+(NP (DT )(JJ )(NN )(CD ))
+Phase: generated23132
+Input: Token
+Rule: generated23132
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))):pttrn23132 --> :pttrn23132.extracted={}
+

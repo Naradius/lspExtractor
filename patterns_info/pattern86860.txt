@@ -1,0 +1,8 @@
+hierarchicalagglomerative clustering
+(NP (JJ )(NN ))
+Phase: generated86860
+Input: Token
+Rule: generated86860
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn86860 --> :pttrn86860.extracted={}
+

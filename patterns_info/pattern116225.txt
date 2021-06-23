@@ -1,0 +1,8 @@
+the topic of a complex question and sub-questions derived from topic-relevant passages that manifest these relations
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))(CC ))
+Phase: generated116225
+Input: Token
+Rule: generated116225
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == CC }))):pttrn116225 --> :pttrn116225.extracted={}
+

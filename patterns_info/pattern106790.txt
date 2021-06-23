@@ -1,0 +1,8 @@
+depending on MultiwordresourcesNew internal unigram featuresPOS0/POSITION0
+(VP (VBG )(PP (IN )(NP (NNP )(JJ )(NN ){1,2})))
+Phase: generated106790
+Input: Token
+Rule: generated106790
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn106790 --> :pttrn106790.extracted={}
+

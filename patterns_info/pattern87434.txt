@@ -1,0 +1,8 @@
+are carried out
+(VP (VBP )(VP (VBN )(PRT (RP ))))
+Phase: generated87434
+Input: Token
+Rule: generated87434
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == RP }))))):pttrn87434 --> :pttrn87434.extracted={}
+

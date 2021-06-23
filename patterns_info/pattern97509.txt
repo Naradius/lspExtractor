@@ -1,0 +1,8 @@
+are the major problem in the part of speech tagging
+(VP (VBP )(NP (DT )(JJ )(NN )))
+Phase: generated97509
+Input: Token
+Rule: generated97509
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn97509 --> :pttrn97509.extracted={}
+

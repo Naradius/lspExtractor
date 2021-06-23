@@ -1,0 +1,8 @@
+theneighboring region
+(NP (DT )(NN ))
+Phase: generated15235
+Input: Token
+Rule: generated15235
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn15235 --> :pttrn15235.extracted={}
+

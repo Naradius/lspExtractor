@@ -1,0 +1,8 @@
+through words map
+(PP (IN )(NP (NNS )(NN )))
+Phase: generated85305
+Input: Token
+Rule: generated85305
+(
+(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })))):pttrn85305 --> :pttrn85305.extracted={}
+

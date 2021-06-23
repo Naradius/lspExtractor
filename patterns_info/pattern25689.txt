@@ -1,0 +1,8 @@
+are also known as on-emand routing protocols
+(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated25689
+Input: Token
+Rule: generated25689
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn25689 --> :pttrn25689.extracted={}
+

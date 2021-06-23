@@ -1,0 +1,8 @@
+evolving rather rapidly invarious aspects, as it draws significant interests from differ-ent research communities such as wireless networking,embedded system, database, data mining and distributedcomputing groups
+(VP (VBG )(NP (JJ )(NNS )))
+Phase: generated9309
+Input: Token
+Rule: generated9309
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn9309 --> :pttrn9309.extracted={}
+

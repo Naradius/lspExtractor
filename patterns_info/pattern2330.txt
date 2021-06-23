@@ -1,0 +1,8 @@
+the routing protocol BeeAdHoc
+(NP (DT )(NN ){1,2}(NNP ))
+Phase: generated2330
+Input: Token
+Rule: generated2330
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNP }))):pttrn2330 --> :pttrn2330.extracted={}
+

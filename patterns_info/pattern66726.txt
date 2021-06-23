@@ -1,0 +1,8 @@
+direct com-6 D. B.D. and F. Al-Turjman / Ad Hoc Networks 97  102022                                    Table 2 Initial Setup
+(NP (NP (JJ )(NN )(NNP ){1,2})(CC )(NP (NNP ){1,2}(CD ){1,2}(NN )(CD )(JJ )(NN )))
+Phase: generated66726
+Input: Token
+Rule: generated66726
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+)({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == CD })+({ Token.category == NN })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })))):pttrn66726 --> :pttrn66726.extracted={}
+

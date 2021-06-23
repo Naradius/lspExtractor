@@ -1,0 +1,8 @@
+each adjacent node
+(NP (DT )(JJ )(NN ))
+Phase: generated33094
+Input: Token
+Rule: generated33094
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn33094 --> :pttrn33094.extracted={}
+

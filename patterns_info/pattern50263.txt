@@ -1,0 +1,8 @@
+IEEE 802.15.4
+(NP (NN )(CD ))
+Phase: generated50263
+Input: Token
+Rule: generated50263
+(
+(({ Token.category == NN })({ Token.category == CD }))):pttrn50263 --> :pttrn50263.extracted={}
+

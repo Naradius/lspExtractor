@@ -1,0 +1,8 @@
+the authors
+(NP (DT )(NNS ))
+Phase: generated75791
+Input: Token
+Rule: generated75791
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn75791 --> :pttrn75791.extracted={}
+

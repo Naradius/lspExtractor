@@ -1,0 +1,8 @@
+forwarded ontoits region and check whether the next_hop field contains its IPaddress
+(VP (CC )(VP (VB )(IN )))
+Phase: generated15947
+Input: Token
+Rule: generated15947
+(
+(({ Token.category == CC })(({ Token.category == VB })({ Token.category == IN })))):pttrn15947 --> :pttrn15947.extracted={}
+

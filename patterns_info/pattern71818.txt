@@ -1,0 +1,8 @@
+retrieving event-based knowledge,the data redundancy in the massive collections of available webpages
+(VP (VBG )(NP (JJ )(NN ))(PP (IN )(NP (NP (NNS )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated71818
+Input: Token
+Rule: generated71818
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn71818 --> :pttrn71818.extracted={}
+

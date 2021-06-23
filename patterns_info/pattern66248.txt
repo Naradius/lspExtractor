@@ -1,0 +1,8 @@
+the entire network lifetime
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated66248
+Input: Token
+Rule: generated66248
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn66248 --> :pttrn66248.extracted={}
+

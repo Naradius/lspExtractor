@@ -1,0 +1,8 @@
+of the training sets
+(PP (IN )(NP (DT )(NN )(NNS )))
+Phase: generated72761
+Input: Token
+Rule: generated72761
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn72761 --> :pttrn72761.extracted={}
+

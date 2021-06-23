@@ -1,0 +1,8 @@
+so many node-node relations
+(NP (ADJP (RB )(JJ ))(JJ )(NNS ))
+Phase: generated99499
+Input: Token
+Rule: generated99499
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NNS }))):pttrn99499 --> :pttrn99499.extracted={}
+

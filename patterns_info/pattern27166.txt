@@ -1,0 +1,8 @@
+in the IoTystem
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated27166
+Input: Token
+Rule: generated27166
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn27166 --> :pttrn27166.extracted={}
+

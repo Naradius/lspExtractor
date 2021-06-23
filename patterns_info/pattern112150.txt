@@ -1,0 +1,8 @@
+in real-world environments
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated112150
+Input: Token
+Rule: generated112150
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn112150 --> :pttrn112150.extracted={}
+

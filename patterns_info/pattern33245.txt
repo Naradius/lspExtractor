@@ -1,0 +1,8 @@
+morethan one forward agent
+(NP (JJR )(CD )(RB )(NN ))
+Phase: generated33245
+Input: Token
+Rule: generated33245
+(
+(({ Token.category == JJR })({ Token.category == CD })({ Token.category == RB })({ Token.category == NN }))):pttrn33245 --> :pttrn33245.extracted={}
+

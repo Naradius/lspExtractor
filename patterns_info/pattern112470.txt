@@ -1,0 +1,8 @@
+received in 2017 his Master degree inaerospace engineering from the ISAE-SUPAERO  and currentlypursuing his Ph.D. in the ENAC
+(VP (VP (VBD )(PP (TO )(NP (NNP )(NN ){1,2}))(PP (IN )(NP (DT )(NNP ))))(CC )(VP (VBG )(NP (PRP$ )(NNP ))(PP (IN )(NP (DT )(NNP )))))
+Phase: generated112470
+Input: Token
+Rule: generated112470
+(
+((({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == NNP })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn112470 --> :pttrn112470.extracted={}
+

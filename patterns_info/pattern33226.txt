@@ -1,0 +1,8 @@
+the routing table of the node vk
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated33226
+Input: Token
+Rule: generated33226
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn33226 --> :pttrn33226.extracted={}
+

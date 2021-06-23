@@ -1,0 +1,8 @@
+hand-selected examples to begin therule induction or require human review of the proposed rules.WHISK operates at a ner granularity than systems such as CRYSTAL andAutoSlog
+(NP (NP (JJ )(NNS ))(VP (TO )(VP (VP (VB )(NP (DT )(NN )))(CC ))))
+Phase: generated81204
+Input: Token
+Rule: generated81204
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC }))))):pttrn81204 --> :pttrn81204.extracted={}
+

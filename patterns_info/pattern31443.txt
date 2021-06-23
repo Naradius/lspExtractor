@@ -1,0 +1,8 @@
+an objective distance-based function and anapproach
+(NP (DT )(JJ ){1,2}(NN )(CC )(NN ))
+Phase: generated31443
+Input: Token
+Rule: generated31443
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn31443 --> :pttrn31443.extracted={}
+

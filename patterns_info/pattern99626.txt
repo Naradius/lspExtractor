@@ -1,0 +1,8 @@
+the maximum number
+(NP (DT )(JJ )(NN ))
+Phase: generated99626
+Input: Token
+Rule: generated99626
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn99626 --> :pttrn99626.extracted={}
+

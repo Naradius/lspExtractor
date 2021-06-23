@@ -1,0 +1,8 @@
+for parse structures
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated117224
+Input: Token
+Rule: generated117224
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn117224 --> :pttrn117224.extracted={}
+

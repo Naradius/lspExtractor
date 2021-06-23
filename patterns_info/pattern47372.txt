@@ -1,0 +1,8 @@
+bedeployed by dropping from a plane, delivering in an artillery shell
+(VP (VB )(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(NN )))(VP (VBG )(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated47372
+Input: Token
+Rule: generated47372
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn47372 --> :pttrn47372.extracted={}
+

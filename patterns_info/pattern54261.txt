@@ -1,0 +1,8 @@
+andhaving the information about the distance between themselvesand other nodes which have not joined the chain
+(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (CD )(JJ )(NNS ))(VP (VBP )(RB )(VP (VBN )(NP (DT )(NN ))))))))))
+Phase: generated54261
+Input: Token
+Rule: generated54261
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn54261 --> :pttrn54261.extracted={}
+

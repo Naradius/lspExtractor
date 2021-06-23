@@ -1,0 +1,8 @@
+by the precision, recall, and F1measures
+(PP (IN )(NP (NP (DT )(NN ))(CC )))
+Phase: generated94062
+Input: Token
+Rule: generated94062
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))):pttrn94062 --> :pttrn94062.extracted={}
+

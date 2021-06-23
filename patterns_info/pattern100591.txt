@@ -1,0 +1,8 @@
+more details
+(NP (RBR )(NNS ))
+Phase: generated100591
+Input: Token
+Rule: generated100591
+(
+(({ Token.category == RBR })({ Token.category == NNS }))):pttrn100591 --> :pttrn100591.extracted={}
+

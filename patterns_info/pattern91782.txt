@@ -1,0 +1,8 @@
+all the wordscores
+(NP (PDT )(DT )(NNS ))
+Phase: generated91782
+Input: Token
+Rule: generated91782
+(
+(({ Token.category == PDT })({ Token.category == DT })({ Token.category == NNS }))):pttrn91782 --> :pttrn91782.extracted={}
+

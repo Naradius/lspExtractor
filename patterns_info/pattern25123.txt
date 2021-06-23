@@ -1,0 +1,8 @@
+.org/10.1016/j.micpro.2019.05.010 141-9331/ 2019 Published by Elsevier B.V. otential to effect human lives and the global economy from everyspect
+(NP (NP (CD )(JJ )(CD ))(VP (VBN )(PP (IN )(NP (NNP ){1,2}(JJ )))(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(CC ))))))
+Phase: generated25123
+Input: Token
+Rule: generated25123
+(
+((({ Token.category == CD })({ Token.category == JJ })({ Token.category == CD }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == JJ })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC }))))))):pttrn25123 --> :pttrn25123.extracted={}
+

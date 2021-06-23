@@ -1,0 +1,8 @@
+a relationship between two already existing entities5 Entity
+(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(ADJP (RB )(VBG )))))
+Phase: generated105429
+Input: Token
+Rule: generated105429
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })(({ Token.category == RB })({ Token.category == VBG })))))):pttrn105429 --> :pttrn105429.extracted={}
+

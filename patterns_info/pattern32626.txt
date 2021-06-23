@@ -1,0 +1,8 @@
+use network resource even without the ability ofpre-reserving network resources
+(VP (VBP )(PP (IN )(NP (DT )(NN ){1,2}(NNS ))))
+Phase: generated32626
+Input: Token
+Rule: generated32626
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn32626 --> :pttrn32626.extracted={}
+

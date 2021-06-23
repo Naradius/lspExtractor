@@ -1,0 +1,8 @@
+selected by the mouse
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated89745
+Input: Token
+Rule: generated89745
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn89745 --> :pttrn89745.extracted={}
+

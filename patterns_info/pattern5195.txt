@@ -1,0 +1,8 @@
+During earlier rounds
+(PP (IN )(NP (JJR )(NNS )))
+Phase: generated5195
+Input: Token
+Rule: generated5195
+(
+(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NNS })))):pttrn5195 --> :pttrn5195.extracted={}
+

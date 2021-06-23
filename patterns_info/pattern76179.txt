@@ -1,0 +1,8 @@
+as right participants
+(NP (ADJP (RB )(JJ ))(NNS ))
+Phase: generated76179
+Input: Token
+Rule: generated76179
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn76179 --> :pttrn76179.extracted={}
+

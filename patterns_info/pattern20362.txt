@@ -1,0 +1,8 @@
+a  b  A  s  c  a  t  Z
+(NP (NP (DT )(NN ))(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated20362
+Input: Token
+Rule: generated20362
+(
+((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn20362 --> :pttrn20362.extracted={}
+

@@ -1,0 +1,8 @@
+QoS guarantees in wireless sensor networks consistsof a very challenging problem
+(NP (NP (NP (NNP )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS ))))(PP (IN )(NP (DT )(ADJP (RB )(JJ ))(NN ))))
+Phase: generated32391
+Input: Token
+Rule: generated32391
+(
+(((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))))):pttrn32391 --> :pttrn32391.extracted={}
+

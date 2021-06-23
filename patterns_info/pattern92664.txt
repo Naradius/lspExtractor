@@ -1,0 +1,8 @@
+at least the expressivity of reg-ular expressions
+(NP (NP (ADVP (IN )(JJS ))(DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated92664
+Input: Token
+Rule: generated92664
+(
+(((({ Token.category == IN })({ Token.category == JJS }))({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn92664 --> :pttrn92664.extracted={}
+

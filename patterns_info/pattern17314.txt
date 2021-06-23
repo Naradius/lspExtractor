@@ -1,0 +1,8 @@
+an simple planar polygon
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated17314
+Input: Token
+Rule: generated17314
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn17314 --> :pttrn17314.extracted={}
+

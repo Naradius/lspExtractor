@@ -1,0 +1,8 @@
+1Having built the similarity model for communicative actions
+(VP (VBG )(VP (VBN )(NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated118548
+Input: Token
+Rule: generated118548
+(
+(({ Token.category == VBG })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn118548 --> :pttrn118548.extracted={}
+

@@ -1,0 +1,8 @@
+in NLP System 1
+(PP (IN )(NP (NNP ){1,2}(CD )))
+Phase: generated98345
+Input: Token
+Rule: generated98345
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })))):pttrn98345 --> :pttrn98345.extracted={}
+

@@ -1,0 +1,8 @@
+a cost thatreflects its energy consumption, interference, and aggre-gation rate
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (PRP$ )(NN ){1,2})(CC )(NP (JJ )(NN )))))
+Phase: generated52417
+Input: Token
+Rule: generated52417
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn52417 --> :pttrn52417.extracted={}
+

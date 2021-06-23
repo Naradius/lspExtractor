@@ -1,0 +1,8 @@
+like to kindly inform the reader that we dont haveny conflict of interests
+(VP (VB )(VP (TO )(VP (VB )(NP (DT )(NN ))(IN ))))
+Phase: generated28896
+Input: Token
+Rule: generated28896
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))({ Token.category == IN }))))):pttrn28896 --> :pttrn28896.extracted={}
+

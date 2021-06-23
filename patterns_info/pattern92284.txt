@@ -1,0 +1,8 @@
+in the pat-tern.In  a MUlti-Source Entity recogni-tion system
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP ){1,2}(NN ){1,2}))))
+Phase: generated92284
+Input: Token
+Rule: generated92284
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })+))))):pttrn92284 --> :pttrn92284.extracted={}
+

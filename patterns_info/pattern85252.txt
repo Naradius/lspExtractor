@@ -1,0 +1,8 @@
+is a list of commonly repeated features which emerge in every text document
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(VBN )(NNS ))(VP (VBP )(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated85252
+Input: Token
+Rule: generated85252
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn85252 --> :pttrn85252.extracted={}
+

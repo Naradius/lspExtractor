@@ -1,0 +1,8 @@
+channelsfrom 5
+(NP (NN )(CD ))
+Phase: generated23725
+Input: Token
+Rule: generated23725
+(
+(({ Token.category == NN })({ Token.category == CD }))):pttrn23725 --> :pttrn23725.extracted={}
+

@@ -1,0 +1,8 @@
+efficientand sustainable sensor networks
+(NP (NN )(JJ )(NN )(NNS ))
+Phase: generated52567
+Input: Token
+Rule: generated52567
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn52567 --> :pttrn52567.extracted={}
+

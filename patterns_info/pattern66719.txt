@@ -1,0 +1,8 @@
+to en-ure the monitor/guard node identity
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated66719
+Input: Token
+Rule: generated66719
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn66719 --> :pttrn66719.extracted={}
+

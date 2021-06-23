@@ -1,0 +1,8 @@
+Pages 15211531 http://dx.doi.org/10.1016/j.engappai.2011.02.016
+(NP (NP (NNP )(CD )(NN ))(PP (IN )(NP (NNP )(CD ))))
+Phase: generated116944
+Input: Token
+Rule: generated116944
+(
+((({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))):pttrn116944 --> :pttrn116944.extracted={}
+

@@ -1,0 +1,8 @@
+oncurrent network conditions and application settings
+(PP (IN )(NP (NN )(NNS )(CC )(NN )(NNS )))
+Phase: generated52109
+Input: Token
+Rule: generated52109
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))):pttrn52109 --> :pttrn52109.extracted={}
+

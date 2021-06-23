@@ -1,0 +1,8 @@
+IoT and LLNs
+(NP (NNP )(CC )(NNP ))
+Phase: generated25756
+Input: Token
+Rule: generated25756
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn25756 --> :pttrn25756.extracted={}
+

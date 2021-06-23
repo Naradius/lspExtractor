@@ -1,0 +1,8 @@
+the malelion's position
+(NP (NP (DT )(NN )(POS ))(NN ))
+Phase: generated64439
+Input: Token
+Rule: generated64439
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))({ Token.category == NN }))):pttrn64439 --> :pttrn64439.extracted={}
+

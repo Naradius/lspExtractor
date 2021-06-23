@@ -1,0 +1,8 @@
+giving us a very goodbasis for determining patterns, while many other relationsare not
+(VP (VBG )(IN ))
+Phase: generated76523
+Input: Token
+Rule: generated76523
+(
+(({ Token.category == VBG })({ Token.category == IN }))):pttrn76523 --> :pttrn76523.extracted={}
+

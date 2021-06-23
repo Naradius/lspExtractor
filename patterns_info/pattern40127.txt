@@ -1,0 +1,8 @@
+as both conditions necessary for the hypothesisto
+(PP (IN )(NP (NP (DT )(NNS ))(ADJP (JJ )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated40127
+Input: Token
+Rule: generated40127
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn40127 --> :pttrn40127.extracted={}
+

@@ -1,0 +1,8 @@
+the bundles
+(NP (DT )(NNS ))
+Phase: generated41728
+Input: Token
+Rule: generated41728
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn41728 --> :pttrn41728.extracted={}
+

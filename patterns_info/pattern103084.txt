@@ -1,0 +1,8 @@
+graph grammars
+(NP (NN )(NNS ))
+Phase: generated103084
+Input: Token
+Rule: generated103084
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn103084 --> :pttrn103084.extracted={}
+

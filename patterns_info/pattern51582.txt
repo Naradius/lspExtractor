@@ -1,0 +1,8 @@
+to improve energy balance betweennodes, avoid sensor hot-spots and ensure coverage and k-connectivity
+(VP (TO )(VP (VP (VB )(NP (NN ){1,2}(NNS ))){1,2}(CC )(VP (VB )(NP (NN )(CC )(NN )))))
+Phase: generated51582
+Input: Token
+Rule: generated51582
+(
+(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == NN })+({ Token.category == NNS })))+({ Token.category == CC })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn51582 --> :pttrn51582.extracted={}
+

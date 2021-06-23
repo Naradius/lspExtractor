@@ -1,0 +1,8 @@
+1.5% of tokensare unknown and not present in the lexical resources,which shows that 70% of unknown words are cov-ered by our lexical resources.The segmentation task
+(NP (CC )(RB )(ADJP (JJ )(PP (IN )(NP (NP (DT )(JJ )(NNS ))(VP (VBZ )(IN ))))))
+Phase: generated105701
+Input: Token
+Rule: generated105701
+(
+(({ Token.category == CC })({ Token.category == RB })(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBZ })({ Token.category == IN }))))))):pttrn105701 --> :pttrn105701.extracted={}
+

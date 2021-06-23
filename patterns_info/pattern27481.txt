@@ -1,0 +1,8 @@
+the consumed power in aode during the listen phase to receive the arriving packets fromther nodes
+(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (TO )(VP (VB )(NP (DT )(VBG )(NNS )))))))
+Phase: generated27481
+Input: Token
+Rule: generated27481
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS })))))))):pttrn27481 --> :pttrn27481.extracted={}
+

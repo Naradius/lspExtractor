@@ -1,0 +1,8 @@
+FLTK 3
+(NP (NNP )(CD ))
+Phase: generated111508
+Input: Token
+Rule: generated111508
+(
+(({ Token.category == NNP })({ Token.category == CD }))):pttrn111508 --> :pttrn111508.extracted={}
+

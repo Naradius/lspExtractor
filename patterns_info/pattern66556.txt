@@ -1,0 +1,8 @@
+available nodes from multiple chan-els that are to act as the guard nodes in the later process
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBP )(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))))))))
+Phase: generated66556
+Input: Token
+Rule: generated66556
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))))):pttrn66556 --> :pttrn66556.extracted={}
+

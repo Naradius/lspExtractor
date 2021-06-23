@@ -1,0 +1,8 @@
+any primary receivers
+(NP (DT )(JJ )(NNS ))
+Phase: generated23942
+Input: Token
+Rule: generated23942
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn23942 --> :pttrn23942.extracted={}
+

@@ -1,0 +1,8 @@
+implemented into civil airspace
+(VP (VBN )(PP (IN )(NP (JJ )(NN ))))
+Phase: generated112554
+Input: Token
+Rule: generated112554
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn112554 --> :pttrn112554.extracted={}
+

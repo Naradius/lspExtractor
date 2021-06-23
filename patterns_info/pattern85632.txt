@@ -1,0 +1,8 @@
+shows its maximal variability
+(VP (VBZ )(NP (PRP$ )(JJ )(NN )))
+Phase: generated85632
+Input: Token
+Rule: generated85632
+(
+(({ Token.category == VBZ })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))):pttrn85632 --> :pttrn85632.extracted={}
+

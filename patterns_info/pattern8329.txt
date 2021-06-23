@@ -1,0 +1,8 @@
+represents the energy dis-sipated by all nodes in a round of data collection
+(VP (VBZ )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NNS )))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNS )(NN ))))))))
+Phase: generated8329
+Input: Token
+Rule: generated8329
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))))))):pttrn8329 --> :pttrn8329.extracted={}
+

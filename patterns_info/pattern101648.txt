@@ -1,0 +1,8 @@
+assesses the visitors knowledgeabout the monument
+(VP (VBZ )(NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated101648
+Input: Token
+Rule: generated101648
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn101648 --> :pttrn101648.extracted={}
+

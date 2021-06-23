@@ -1,0 +1,8 @@
+OBA, a conditional random field-basedclassifier, and a previous pattern learning approach.Conclusions Our entity extractor based on lexico-syntactic patterns
+(NP (NP (DT )(JJ ){1,2}(NN ))(CC )(NP (DT )(JJ )(NN ){1,2}(NNS ))(NP (NP (PRP$ )(NN ){1,2})(VP (VBN )(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated73741
+Input: Token
+Rule: generated73741
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))((({ Token.category == PRP$ })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn73741 --> :pttrn73741.extracted={}
+

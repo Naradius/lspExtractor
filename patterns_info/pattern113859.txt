@@ -1,0 +1,8 @@
+match their respective PTs and assign a score to the size of common sub-PT.We extend the syntactic relations between the nodes of the syntactic dependency parse trees towards more general text discourse relations
+(VP (VP (VBP )(NP (PRP$ )(JJ )(NNS )))(CC )(VP (VB )(NP (DT )(NN ))(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (CC )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN ){1,2})(NP (NP (JJ )(NNS ))(PP (IN )(NP (ADJP (RBR )(JJ ))(NN ){1,2}(NNS )))))))))))))))
+Phase: generated113859
+Input: Token
+Rule: generated113859
+(
+((({ Token.category == VBP })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NN })+({ Token.category == NNS })))))))))))))))):pttrn113859 --> :pttrn113859.extracted={}
+

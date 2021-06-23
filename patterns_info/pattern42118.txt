@@ -1,0 +1,8 @@
+to satisfy a request
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated42118
+Input: Token
+Rule: generated42118
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn42118 --> :pttrn42118.extracted={}
+

@@ -1,0 +1,8 @@
+mobiled hoc networks
+(NP (JJ ){1,2}(NNS ))
+Phase: generated66002
+Input: Token
+Rule: generated66002
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn66002 --> :pttrn66002.extracted={}
+

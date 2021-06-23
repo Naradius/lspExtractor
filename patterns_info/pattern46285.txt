@@ -1,0 +1,8 @@
+of the opposing forces
+(PP (IN )(NP (DT )(VBG )(NNS )))
+Phase: generated46285
+Input: Token
+Rule: generated46285
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS })))):pttrn46285 --> :pttrn46285.extracted={}
+

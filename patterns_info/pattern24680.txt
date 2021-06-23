@@ -1,0 +1,8 @@
+://ecfsapi.fcc.gov/file/60001841831.pdfhttps://ecfsapi.fcc.gov/file/60001841831.pdfhttp://refhub.elsevier.com/S0167-739X30714-8/sb53http://refhub.elsevier.com/S0167-739X30714-8/sb53http://refhub.elsevier.com/S0167-739X30714-8/sb53http://refhub.elsevier.com/S0167-739X30714-8/sb53http://refhub.elsevier.com/S0167-739X30714-8/sb53
+(NP (NP (NP (NNP )(POS ))(NN ))(PP (IN )(NP (JJ ){1,2}(CC ))))
+Phase: generated24680
+Input: Token
+Rule: generated24680
+(
+(((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == CC }))))):pttrn24680 --> :pttrn24680.extracted={}
+

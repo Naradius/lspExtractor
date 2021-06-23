@@ -1,0 +1,8 @@
+Accepted 1/12
+(NP (JJ )(CD ))
+Phase: generated101636
+Input: Token
+Rule: generated101636
+(
+(({ Token.category == JJ })({ Token.category == CD }))):pttrn101636 --> :pttrn101636.extracted={}
+

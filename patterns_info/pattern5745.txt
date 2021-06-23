@@ -1,0 +1,8 @@
+wellbalanced memberships
+(NP (JJ )(NNS ))
+Phase: generated5745
+Input: Token
+Rule: generated5745
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn5745 --> :pttrn5745.extracted={}
+

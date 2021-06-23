@@ -1,0 +1,8 @@
+only the IoT nodes 1, 2, 4and 5
+(NP (RB )(DT )(NNP )(NNS )(CD ){1,2}(CC )(CD ))
+Phase: generated29472
+Input: Token
+Rule: generated29472
+(
+(({ Token.category == RB })({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })({ Token.category == CD })+({ Token.category == CC })({ Token.category == CD }))):pttrn29472 --> :pttrn29472.extracted={}
+

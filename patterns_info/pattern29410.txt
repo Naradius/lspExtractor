@@ -1,0 +1,8 @@
+the graph of other layers
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated29410
+Input: Token
+Rule: generated29410
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn29410 --> :pttrn29410.extracted={}
+

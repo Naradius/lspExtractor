@@ -1,0 +1,8 @@
+served as a Co-chair for more than 50international conferences/workshops and as a Technical Program Committee mem-ber of more than 150 conferences
+(VP (VBN )(PP (PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (QP (JJR )(IN )(CD ))(NNS )))))(CC )(PP (IN )(NP (NP (DT )(NNP ){1,2}(NN ))(PP (IN )(NP (QP (JJR )(IN )(CD ))(NNS )))))))
+Phase: generated61487
+Input: Token
+Rule: generated61487
+(
+(({ Token.category == VBN })((({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS })))))))):pttrn61487 --> :pttrn61487.extracted={}
+

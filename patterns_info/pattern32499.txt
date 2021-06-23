@@ -1,0 +1,8 @@
+with initial pheromone settings
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated32499
+Input: Token
+Rule: generated32499
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn32499 --> :pttrn32499.extracted={}
+

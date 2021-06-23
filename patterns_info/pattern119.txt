@@ -1,0 +1,8 @@
+Vehicular Ad Hoc Networks, 2004
+(NP (NNP ){1,2}(CD ))
+Phase: generated119
+Input: Token
+Rule: generated119
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn119 --> :pttrn119.extracted={}
+

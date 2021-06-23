@@ -1,0 +1,8 @@
+each mention
+(NP (DT )(NN ))
+Phase: generated84083
+Input: Token
+Rule: generated84083
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn84083 --> :pttrn84083.extracted={}
+

@@ -1,0 +1,8 @@
+uses heuristics to create a rule from relevant examples that extracts the correctinformation from that example
+(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated80164
+Input: Token
+Rule: generated80164
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn80164 --> :pttrn80164.extracted={}
+

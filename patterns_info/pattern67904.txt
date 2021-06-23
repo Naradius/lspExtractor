@@ -1,0 +1,8 @@
+the2014 International Conference
+(NP (DT )(NNP ){1,2})
+Phase: generated67904
+Input: Token
+Rule: generated67904
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn67904 --> :pttrn67904.extracted={}
+

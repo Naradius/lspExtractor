@@ -1,0 +1,8 @@
+jjljk=1jk  Pj We note thatjjis the priority value  of the bundle j
+(VP (VBZ )(VP (JJ )(VP (VBP )(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated42213
+Input: Token
+Rule: generated42213
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn42213 --> :pttrn42213.extracted={}
+

@@ -1,0 +1,8 @@
+the delivery delay
+(NP (DT )(NN ){1,2})
+Phase: generated43007
+Input: Token
+Rule: generated43007
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn43007 --> :pttrn43007.extracted={}
+

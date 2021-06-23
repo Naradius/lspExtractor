@@ -1,0 +1,8 @@
+trained and tested on the sameManagement Succession texts as
+(VP (VBN )(CC )(VBN )(PP (IN )(NP (DT )(JJ )(NNP )(NNS ))))
+Phase: generated79035
+Input: Token
+Rule: generated79035
+(
+(({ Token.category == VBN })({ Token.category == CC })({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))):pttrn79035 --> :pttrn79035.extracted={}
+

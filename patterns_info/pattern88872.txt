@@ -1,0 +1,8 @@
+on theright-hand side of a rule.3.2.6
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(CD )))))
+Phase: generated88872
+Input: Token
+Rule: generated88872
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CD })))))):pttrn88872 --> :pttrn88872.extracted={}
+

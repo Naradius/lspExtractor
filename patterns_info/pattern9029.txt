@@ -1,0 +1,8 @@
+the IEEE 75   5673
+(NP (DT )(NNP )(CD ){1,2})
+Phase: generated9029
+Input: Token
+Rule: generated9029
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CD })+)):pttrn9029 --> :pttrn9029.extracted={}
+

@@ -1,0 +1,8 @@
+MR-LEACH:multi-hop routing with low energy adaptive clustering hierarchy.
+(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))
+Phase: generated57781
+Input: Token
+Rule: generated57781
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn57781 --> :pttrn57781.extracted={}
+

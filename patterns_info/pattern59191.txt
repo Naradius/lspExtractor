@@ -1,0 +1,8 @@
+The ar-hitecture of the Fuzzy rule
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated59191
+Input: Token
+Rule: generated59191
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn59191 --> :pttrn59191.extracted={}
+

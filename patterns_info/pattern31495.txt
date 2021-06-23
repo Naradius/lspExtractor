@@ -1,0 +1,8 @@
+cross-check five different clustering algorithmapproaches: self-organized mapping-based method, CLICK, dy-namical clustering, hierarchical and k-means
+(VP (VB )(NP (NP (CD )(JJ )(NN )(NNS ))(NP (NP (JJ ){1,2}(NN )){1,2}(NP (JJ )(CC )(NNS )))))
+Phase: generated31495
+Input: Token
+Rule: generated31495
+(
+(({ Token.category == VB })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == JJ })+({ Token.category == NN }))+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == NNS })))))):pttrn31495 --> :pttrn31495.extracted={}
+

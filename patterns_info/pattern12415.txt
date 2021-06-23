@@ -1,0 +1,8 @@
+is proposed in combina-tion with endocrine principle
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (JJ )(NN )))))
+Phase: generated12415
+Input: Token
+Rule: generated12415
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn12415 --> :pttrn12415.extracted={}
+

@@ -1,0 +1,8 @@
+Distributed and Parallel Computing
+(NP (NNP )(CC )(NNP ){1,2})
+Phase: generated20078
+Input: Token
+Rule: generated20078
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)):pttrn20078 --> :pttrn20078.extracted={}
+

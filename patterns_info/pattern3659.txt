@@ -1,0 +1,8 @@
+the distance function over the areaas
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated3659
+Input: Token
+Rule: generated3659
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn3659 --> :pttrn3659.extracted={}
+

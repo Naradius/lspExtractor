@@ -1,0 +1,8 @@
+generated when all the filters wereapplied and questions generated with the Semantic Filter
+(VP (VBN )(WHADVP (WRB )))
+Phase: generated100778
+Input: Token
+Rule: generated100778
+(
+(({ Token.category == VBN })(({ Token.category == WRB })))):pttrn100778 --> :pttrn100778.extracted={}
+

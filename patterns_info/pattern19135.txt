@@ -1,0 +1,8 @@
+of Systems and Software 154  125138 Fig
+(PP (IN )(NP (NNP )(CC )(NNP )(CD ){1,2}(NNP )))
+Phase: generated19135
+Input: Token
+Rule: generated19135
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NNP })))):pttrn19135 --> :pttrn19135.extracted={}
+

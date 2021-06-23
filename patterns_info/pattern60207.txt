@@ -1,0 +1,8 @@
+for wireless sensornetworks using energy predication, IEEE Sens. J. 12   28912897
+(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(NP (NNP ){1,2}(CD ){1,2}))))
+Phase: generated60207
+Input: Token
+Rule: generated60207
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == NNP })+({ Token.category == CD })+))))):pttrn60207 --> :pttrn60207.extracted={}
+

@@ -1,0 +1,8 @@
+the sum of Expected Number of Trans-EE 802.15.4 beacon-enabled mode
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (VBN )(NN ))(PP (IN )(NP (NNP )(CD )(JJ )(NN ))))))
+Phase: generated50524
+Input: Token
+Rule: generated50524
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn50524 --> :pttrn50524.extracted={}
+

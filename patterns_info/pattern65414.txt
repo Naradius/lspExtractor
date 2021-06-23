@@ -1,0 +1,8 @@
+cyber securities
+(NP (NN )(NNS ))
+Phase: generated65414
+Input: Token
+Rule: generated65414
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn65414 --> :pttrn65414.extracted={}
+

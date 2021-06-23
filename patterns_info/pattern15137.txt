@@ -1,0 +1,8 @@
+.Upon hearing this message, the leader of region B
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNP )))))))
+Phase: generated15137
+Input: Token
+Rule: generated15137
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })))))))):pttrn15137 --> :pttrn15137.extracted={}
+

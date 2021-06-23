@@ -1,0 +1,8 @@
+implies more newcomers that may be confused bylost M_LeaderReply messages
+(VP (VBZ )(NP (NP (JJR )(NNS ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (RB )(NNS ))))))))
+Phase: generated16377
+Input: Token
+Rule: generated16377
+(
+(({ Token.category == VBZ })((({ Token.category == JJR })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == RB })({ Token.category == NNS }))))))))):pttrn16377 --> :pttrn16377.extracted={}
+

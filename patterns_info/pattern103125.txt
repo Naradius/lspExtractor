@@ -1,0 +1,8 @@
+all host graphelements matched by Xrhs elements and to add for any Xlhs element one copy to the host
+(NP (NP (DT )(NN )(NNS ))(VP (VP (VBN )(PP (IN )(NP (NNP )(NNS ))))(CC )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NNS )(NN )))(NP (CD )(NN ))(PP (TO )(NP (DT )(NN )))))))
+Phase: generated103125
+Input: Token
+Rule: generated103125
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))(({ Token.category == CD })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn103125 --> :pttrn103125.extracted={}
+

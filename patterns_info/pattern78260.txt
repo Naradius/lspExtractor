@@ -1,0 +1,8 @@
+powerful relation extraction systems
+(NP (JJ )(NN ){1,2}(NNS ))
+Phase: generated78260
+Input: Token
+Rule: generated78260
+(
+(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))):pttrn78260 --> :pttrn78260.extracted={}
+

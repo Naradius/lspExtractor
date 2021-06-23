@@ -1,0 +1,8 @@
+the CSO method, whichhas the ability to find the near best solution under more strictconditions
+(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (DT )(NN )(VP (TO )(VP (VB )(NP (DT )(JJ )(JJS )(NN ))(PP (IN )(NP (JJR )(NNS ))))))))
+Phase: generated68523
+Input: Token
+Rule: generated68523
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NNS }))))))))):pttrn68523 --> :pttrn68523.extracted={}
+

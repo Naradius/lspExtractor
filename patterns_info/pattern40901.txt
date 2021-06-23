@@ -1,0 +1,8 @@
+a DTN routingprotocol called GT-ACR on the game theory for IoT applications
+(NP (NP (DT )(NNP )(NN ))(VP (VBD )(NP (PP (IN )(NP (DT )(NN ){1,2}))(PP (IN )(NP (NNP )(NNS ))))))
+Phase: generated40901
+Input: Token
+Rule: generated40901
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBD })((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))))):pttrn40901 --> :pttrn40901.extracted={}
+

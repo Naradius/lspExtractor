@@ -1,0 +1,8 @@
+of cluster leader and shortest route selection
+(PP (IN )(NP (NN ){1,2}(CC )(NN ){1,2}))
+Phase: generated11798
+Input: Token
+Rule: generated11798
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+))):pttrn11798 --> :pttrn11798.extracted={}
+

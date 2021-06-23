@@ -1,0 +1,8 @@
+was proposed in  toimit and balance the number of acceptable child nodes by each ofhe parents
+(VP (VBD )(VP (CC )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))(PP (IN )(NP (DT )(JJ )(NNS ))))))
+Phase: generated26272
+Input: Token
+Rule: generated26272
+(
+(({ Token.category == VBD })(({ Token.category == CC })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn26272 --> :pttrn26272.extracted={}
+

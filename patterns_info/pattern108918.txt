@@ -1,0 +1,8 @@
+real-time scenario and the effort for simulating in the OMNeT++
+(NP (NP (JJ )(NN ))(CC )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(NNP )))))))
+Phase: generated108918
+Input: Token
+Rule: generated108918
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))):pttrn108918 --> :pttrn108918.extracted={}
+

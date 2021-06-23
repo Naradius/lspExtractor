@@ -1,0 +1,8 @@
+have proposed Energy-Aware Coverage-Preserving Hierarchical Routing Protocol
+(VP (VBP )(VP (VBN )(NP (JJ )(NNP ){1,2})))
+Phase: generated56940
+Input: Token
+Rule: generated56940
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNP })+)))):pttrn56940 --> :pttrn56940.extracted={}
+

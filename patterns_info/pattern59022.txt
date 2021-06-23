@@ -1,0 +1,8 @@
+four factors for the cluster formation
+(NP (NP (CD )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated59022
+Input: Token
+Rule: generated59022
+(
+((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn59022 --> :pttrn59022.extracted={}
+

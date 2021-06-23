@@ -1,0 +1,8 @@
+detects the environmental data
+(VP (VBZ )(NP (DT )(JJ )(NNS )))
+Phase: generated48280
+Input: Token
+Rule: generated48280
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn48280 --> :pttrn48280.extracted={}
+

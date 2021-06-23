@@ -1,0 +1,8 @@
+To provide a better multicast routing scheme
+(VP (TO )(VP (VB )(NP (DT )(JJR )(NN ){1,2})))
+Phase: generated107637
+Input: Token
+Rule: generated107637
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })+)))):pttrn107637 --> :pttrn107637.extracted={}
+

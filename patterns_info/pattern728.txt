@@ -1,0 +1,8 @@
+a cluster head
+(NP (DT )(NN ){1,2})
+Phase: generated728
+Input: Token
+Rule: generated728
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn728 --> :pttrn728.extracted={}
+

@@ -1,0 +1,8 @@
+Let us assume that it has  MSTs.
+(VP (VB )(VP (VB )(IN )))
+Phase: generated23156
+Input: Token
+Rule: generated23156
+(
+(({ Token.category == VB })(({ Token.category == VB })({ Token.category == IN })))):pttrn23156 --> :pttrn23156.extracted={}
+

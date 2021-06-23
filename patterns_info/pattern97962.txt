@@ -1,0 +1,8 @@
+to the initially tagged data
+(PP (TO )(NP (DT )(ADJP (RB )(VBN ))(NNS )))
+Phase: generated97962
+Input: Token
+Rule: generated97962
+(
+(({ Token.category == TO })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNS })))):pttrn97962 --> :pttrn97962.extracted={}
+

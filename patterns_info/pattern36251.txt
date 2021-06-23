@@ -1,0 +1,8 @@
+the transaction blockchain
+(NP (DT )(NN ){1,2})
+Phase: generated36251
+Input: Token
+Rule: generated36251
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn36251 --> :pttrn36251.extracted={}
+

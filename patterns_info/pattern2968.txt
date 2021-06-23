@@ -1,0 +1,8 @@
+ants.Pheromone
+(NP (NNS )(NN ))
+Phase: generated2968
+Input: Token
+Rule: generated2968
+(
+(({ Token.category == NNS })({ Token.category == NN }))):pttrn2968 --> :pttrn2968.extracted={}
+

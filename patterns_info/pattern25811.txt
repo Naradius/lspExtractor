@@ -1,0 +1,8 @@
+be theight choice for IoT infrastructures
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NNS )))))
+Phase: generated25811
+Input: Token
+Rule: generated25811
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))):pttrn25811 --> :pttrn25811.extracted={}
+

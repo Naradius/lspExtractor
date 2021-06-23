@@ -1,0 +1,8 @@
+ofthe proposed MR-LEACH was found better than LEACH with respectto the metrics such as energy consumption and network lifetime.Abdulsalam and Kamel
+(VP (RB )(VBN )(VP (VBD )(VP (VBN )(PP (IN )(VP (VBG )(NP (NP (DT )(NNS ))(PP (JJ )(IN ))))))))
+Phase: generated54749
+Input: Token
+Rule: generated54749
+(
+(({ Token.category == RB })({ Token.category == VBN })(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))))))):pttrn54749 --> :pttrn54749.extracted={}
+

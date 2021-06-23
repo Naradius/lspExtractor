@@ -1,0 +1,8 @@
+book data
+(NP (NN )(NNS ))
+Phase: generated36636
+Input: Token
+Rule: generated36636
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn36636 --> :pttrn36636.extracted={}
+

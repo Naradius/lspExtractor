@@ -1,0 +1,8 @@
+query and sentences in search hits
+(NP (NP (NN )(CC )(NNS ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated70632
+Input: Token
+Rule: generated70632
+(
+((({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn70632 --> :pttrn70632.extracted={}
+

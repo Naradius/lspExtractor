@@ -1,0 +1,8 @@
+a greedy algorithm
+(NP (DT )(JJ )(NN ))
+Phase: generated20513
+Input: Token
+Rule: generated20513
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn20513 --> :pttrn20513.extracted={}
+

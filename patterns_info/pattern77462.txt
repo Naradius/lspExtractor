@@ -1,0 +1,8 @@
+resource consists
+(NP (NN )(NNS ))
+Phase: generated77462
+Input: Token
+Rule: generated77462
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn77462 --> :pttrn77462.extracted={}
+

@@ -1,0 +1,8 @@
+multiple trees where the root of each treeis an one hop neighbor from the sink
+(NP (NP (JJ )(NNS ))(WHADVP (WRB )))
+Phase: generated44058
+Input: Token
+Rule: generated44058
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == WRB })))):pttrn44058 --> :pttrn44058.extracted={}
+

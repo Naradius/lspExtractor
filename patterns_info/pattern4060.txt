@@ -1,0 +1,8 @@
+in  for con-vergecast transmissions
+(PP (IN )(PP (IN )(NP (NN )(NNS ))))
+Phase: generated4060
+Input: Token
+Rule: generated4060
+(
+(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn4060 --> :pttrn4060.extracted={}
+

@@ -1,0 +1,8 @@
+has to add anevent in SHA application with the option of reminding or not.If not, application will not remind for event, but the user canhave look of event going to occur
+(VP (VBZ )(VP (TO )(VP (VB )(PP (IN )(NP (NP (NNP )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(CC )(NN ))))))))))
+Phase: generated19498
+Input: Token
+Rule: generated19498
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))))))))):pttrn19498 --> :pttrn19498.extracted={}
+

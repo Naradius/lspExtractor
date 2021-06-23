@@ -1,0 +1,8 @@
+Batteries affect weight
+(NP (NNP )(JJ )(NN ))
+Phase: generated1897
+Input: Token
+Rule: generated1897
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))):pttrn1897 --> :pttrn1897.extracted={}
+

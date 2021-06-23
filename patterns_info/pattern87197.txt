@@ -1,0 +1,8 @@
+speech tagger assigns
+(NP (NN ){1,2}(NNS ))
+Phase: generated87197
+Input: Token
+Rule: generated87197
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn87197 --> :pttrn87197.extracted={}
+

@@ -1,0 +1,8 @@
+for by any current text mining tools
+(PP (IN )(PP (IN )(NP (DT )(JJ )(NN ){1,2}(NNS ))))
+Phase: generated77352
+Input: Token
+Rule: generated77352
+(
+(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn77352 --> :pttrn77352.extracted={}
+

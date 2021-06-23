@@ -1,0 +1,8 @@
+the addressee
+(NP (DT )(NN ))
+Phase: generated1976
+Input: Token
+Rule: generated1976
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn1976 --> :pttrn1976.extracted={}
+

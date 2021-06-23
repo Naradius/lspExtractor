@@ -1,0 +1,8 @@
+atgraph element level.2
+(PP (IN )(NP (NN ){1,2}(CD )))
+Phase: generated103622
+Input: Token
+Rule: generated103622
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CD })))):pttrn103622 --> :pttrn103622.extracted={}
+

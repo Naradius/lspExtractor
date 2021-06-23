@@ -1,0 +1,8 @@
+with the lowest routing operating cost
+(PP (IN )(NP (DT )(JJS )(NN ){1,2}))
+Phase: generated107159
+Input: Token
+Rule: generated107159
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+))):pttrn107159 --> :pttrn107159.extracted={}
+

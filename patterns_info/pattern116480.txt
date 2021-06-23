@@ -1,0 +1,8 @@
+The Part-Of-Speech and dependency tree
+(NP (DT )(NNP )(CC )(NN ){1,2})
+Phase: generated116480
+Input: Token
+Rule: generated116480
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })+)):pttrn116480 --> :pttrn116480.extracted={}
+

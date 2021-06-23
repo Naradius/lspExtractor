@@ -1,0 +1,8 @@
+have considered the security perspectives of this subject
+(VP (VBP )(VP (VBN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated112542
+Input: Token
+Rule: generated112542
+(
+(({ Token.category == VBP })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn112542 --> :pttrn112542.extracted={}
+

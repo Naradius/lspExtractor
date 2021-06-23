@@ -1,0 +1,8 @@
+to the functional characteristics and servicescope of the subsystems in the security zone to realize logicalisolation between the internal network of the energy enterpriseand the external network and the internal network
+(PP (TO )(NP (NP (DT )(JJ )(NNS )(CC )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated34781
+Input: Token
+Rule: generated34781
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn34781 --> :pttrn34781.extracted={}
+

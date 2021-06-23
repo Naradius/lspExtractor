@@ -1,0 +1,8 @@
+the performance of IoT based networks due to the pres-nce of heterogeneous devices including tiny devices and largerouse hold devices
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP )(JJ )(NNS ))(ADJP (JJ )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (VBG )(NP (NP (JJ )(NNS ))(CC )(NP (JJR )(NN )(NNS ))))))))))))
+Phase: generated60483
+Input: Token
+Rule: generated60483
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))))))))))))):pttrn60483 --> :pttrn60483.extracted={}
+

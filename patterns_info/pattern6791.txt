@@ -1,0 +1,8 @@
+many current cluster-ing proposals
+(NP (JJ ){1,2}(NNS ))
+Phase: generated6791
+Input: Token
+Rule: generated6791
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn6791 --> :pttrn6791.extracted={}
+

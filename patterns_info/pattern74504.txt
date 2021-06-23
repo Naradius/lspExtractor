@@ -1,0 +1,8 @@
+the baselines on two forumsAsthmaand
+(NP (NP (DT )(NNS ))(PP (IN )(NP (CD )(NN ))))
+Phase: generated74504
+Input: Token
+Rule: generated74504
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn74504 --> :pttrn74504.extracted={}
+

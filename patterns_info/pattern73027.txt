@@ -1,0 +1,8 @@
+Step 2.Step 2: For the case of the ARG1 a ball, the following two ficti-tious substitution sentences are composed, includingGeorge Bush can get a ball and Bill Clinton can find aball
+(VP (VB )(NP (JJ )(CD )))
+Phase: generated73027
+Input: Token
+Rule: generated73027
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == CD })))):pttrn73027 --> :pttrn73027.extracted={}
+

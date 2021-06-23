@@ -1,0 +1,8 @@
+a relative clause
+(NP (DT )(JJ )(NN ))
+Phase: generated82607
+Input: Token
+Rule: generated82607
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn82607 --> :pttrn82607.extracted={}
+

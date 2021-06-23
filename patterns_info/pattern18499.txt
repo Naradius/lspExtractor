@@ -1,0 +1,8 @@
+around the hole
+(PP (IN )(NP (DT )(NN )))
+Phase: generated18499
+Input: Token
+Rule: generated18499
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn18499 --> :pttrn18499.extracted={}
+

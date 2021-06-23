@@ -1,0 +1,8 @@
+a transceiver
+(NP (DT )(NN ))
+Phase: generated22152
+Input: Token
+Rule: generated22152
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn22152 --> :pttrn22152.extracted={}
+

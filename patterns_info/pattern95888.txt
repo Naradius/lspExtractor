@@ -1,0 +1,8 @@
+the automati-cally extracted rule sets
+(NP (NP (DT )(NN ))(VP (VBN )(NP (NN )(NNS ))))
+Phase: generated95888
+Input: Token
+Rule: generated95888
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn95888 --> :pttrn95888.extracted={}
+

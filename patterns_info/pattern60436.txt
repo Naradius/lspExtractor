@@ -1,0 +1,8 @@
+better network performance
+(NP (JJR )(NN ){1,2})
+Phase: generated60436
+Input: Token
+Rule: generated60436
+(
+(({ Token.category == JJR })({ Token.category == NN })+)):pttrn60436 --> :pttrn60436.extracted={}
+

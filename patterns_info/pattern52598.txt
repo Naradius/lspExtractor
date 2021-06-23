@@ -1,0 +1,8 @@
+.References J. Yick, B. Mukherjee, D. Ghosal, Wireless sensor network survey,Comput
+(NP (NP (NNPS )(NNP ){1,2})(NP (JJ )(NN ){1,2}))
+Phase: generated52598
+Input: Token
+Rule: generated52598
+(
+((({ Token.category == NNPS })({ Token.category == NNP })+)(({ Token.category == JJ })({ Token.category == NN })+))):pttrn52598 --> :pttrn52598.extracted={}
+

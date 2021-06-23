@@ -1,0 +1,8 @@
+the fuzzy parameters
+(NP (DT )(JJ )(NNS ))
+Phase: generated26430
+Input: Token
+Rule: generated26430
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn26430 --> :pttrn26430.extracted={}
+

@@ -1,0 +1,8 @@
+the bandwidth of channel n and signalto noise ratio RSSnij/nj
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(CC )(NN ){1,2})))
+Phase: generated22418
+Input: Token
+Rule: generated22418
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)))):pttrn22418 --> :pttrn22418.extracted={}
+

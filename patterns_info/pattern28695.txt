@@ -1,0 +1,8 @@
+morerequent alterations in the characteristics of the DODAG, which ne-essitates the dissemination of control packets in the network
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NNP ))(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (DT )(NN ))))))))))))
+Phase: generated28695
+Input: Token
+Rule: generated28695
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))))):pttrn28695 --> :pttrn28695.extracted={}
+

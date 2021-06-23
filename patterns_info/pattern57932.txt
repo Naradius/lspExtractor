@@ -1,0 +1,8 @@
+Abraham O. Acentralized energy-efficient routing protocol
+(NP (NNP ){1,2}(NN ){1,2})
+Phase: generated57932
+Input: Token
+Rule: generated57932
+(
+(({ Token.category == NNP })+({ Token.category == NN })+)):pttrn57932 --> :pttrn57932.extracted={}
+

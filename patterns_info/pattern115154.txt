@@ -1,0 +1,8 @@
+can observe that the higher the query complexity, the higher the impact of generalization for question and answer for re-ranking
+(VP (MD )(VP (VB )(IN )))
+Phase: generated115154
+Input: Token
+Rule: generated115154
+(
+(({ Token.category == MD })(({ Token.category == VB })({ Token.category == IN })))):pttrn115154 --> :pttrn115154.extracted={}
+

@@ -1,0 +1,8 @@
+the 500th s of simulation.The average energy consumption of the proposed approach
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(VBN )(NN ))))))
+Phase: generated11841
+Input: Token
+Rule: generated11841
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))))):pttrn11841 --> :pttrn11841.extracted={}
+

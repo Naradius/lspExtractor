@@ -1,0 +1,8 @@
+Bing, Yahoo, and other web knowledge sources
+(NP (CC )(NP (JJ )(NN ){1,2}(NNS )))
+Phase: generated115819
+Input: Token
+Rule: generated115819
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn115819 --> :pttrn115819.extracted={}
+

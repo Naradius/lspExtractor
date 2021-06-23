@@ -1,0 +1,8 @@
+reliable and efficient results
+(NP (ADJP (JJ )(CC )(JJ ))(NNS ))
+Phase: generated116098
+Input: Token
+Rule: generated116098
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn116098 --> :pttrn116098.extracted={}
+

@@ -1,0 +1,8 @@
+real traffic replay  PFC attack
+(NP (JJ )(NN ){1,2}(NNP )(NN ))
+Phase: generated111175
+Input: Token
+Rule: generated111175
+(
+(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NN }))):pttrn111175 --> :pttrn111175.extracted={}
+

@@ -1,0 +1,8 @@
+IoT net-work algorithms
+(NP (NNP )(NN )(NNS ))
+Phase: generated30358
+Input: Token
+Rule: generated30358
+(
+(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))):pttrn30358 --> :pttrn30358.extracted={}
+

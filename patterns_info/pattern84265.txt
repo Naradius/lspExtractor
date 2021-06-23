@@ -1,0 +1,8 @@
+expected error is above 0.10.The ten-fold cross validation experiments did not use WHISK's mechanism forinterleaving training and tagging
+(VP (VBD )(VP (VBZ )(IN )))
+Phase: generated84265
+Input: Token
+Rule: generated84265
+(
+(({ Token.category == VBD })(({ Token.category == VBZ })({ Token.category == IN })))):pttrn84265 --> :pttrn84265.extracted={}
+

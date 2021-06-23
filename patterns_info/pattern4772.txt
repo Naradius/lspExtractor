@@ -1,0 +1,8 @@
+is a stochastic clustering scheme andmakes a clever use of dynamic thresholding
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2}(NNS ))(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated4772
+Input: Token
+Rule: generated4772
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn4772 --> :pttrn4772.extracted={}
+

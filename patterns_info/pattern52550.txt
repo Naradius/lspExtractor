@@ -1,0 +1,8 @@
+ConclusionIn the last decade
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated52550
+Input: Token
+Rule: generated52550
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn52550 --> :pttrn52550.extracted={}
+

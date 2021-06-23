@@ -1,0 +1,8 @@
+Part-of-Speech categories
+(NP (NNP )(NNS ))
+Phase: generated93493
+Input: Token
+Rule: generated93493
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn93493 --> :pttrn93493.extracted={}
+

@@ -1,0 +1,8 @@
+generate efficient clusters at the end
+(VP (VB )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated53511
+Input: Token
+Rule: generated53511
+(
+(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn53511 --> :pttrn53511.extracted={}
+

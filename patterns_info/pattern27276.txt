@@ -1,0 +1,8 @@
+on a class of IoT hardwares
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NNS )))))
+Phase: generated27276
+Input: Token
+Rule: generated27276
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))):pttrn27276 --> :pttrn27276.extracted={}
+

@@ -1,0 +1,8 @@
+a transmission range of 350 m
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (CD )(NN ))))
+Phase: generated16045
+Input: Token
+Rule: generated16045
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn16045 --> :pttrn16045.extracted={}
+

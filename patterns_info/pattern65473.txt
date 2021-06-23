@@ -1,0 +1,8 @@
+IoT architecture
+(NP (NNP )(NN ))
+Phase: generated65473
+Input: Token
+Rule: generated65473
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn65473 --> :pttrn65473.extracted={}
+

@@ -1,0 +1,8 @@
+the three zones
+(NP (DT )(CD )(NNS ))
+Phase: generated32083
+Input: Token
+Rule: generated32083
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))):pttrn32083 --> :pttrn32083.extracted={}
+

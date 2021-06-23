@@ -1,0 +1,8 @@
+apply syntactic generalization to each pair of sentences, and sum up the resultant commonalities
+(VP (VP (VB )(NP (JJ )(NN )))(CC )(VP (VB )(PRT (RP ))(NP (DT )(NN )(NNS ))))
+Phase: generated113340
+Input: Token
+Rule: generated113340
+(
+((({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == RP }))(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn113340 --> :pttrn113340.extracted={}
+

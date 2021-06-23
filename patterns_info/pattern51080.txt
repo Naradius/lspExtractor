@@ -1,0 +1,8 @@
+be switchedon to obtain finer grained information
+(VP (VB )(VP (TO )(VP (VB )(NP (NN )(VBN )(NN )))))
+Phase: generated51080
+Input: Token
+Rule: generated51080
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == VBN })({ Token.category == NN })))))):pttrn51080 --> :pttrn51080.extracted={}
+

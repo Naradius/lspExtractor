@@ -1,0 +1,8 @@
+a Fog comput-ng
+(NP (DT )(NN ){1,2})
+Phase: generated18669
+Input: Token
+Rule: generated18669
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn18669 --> :pttrn18669.extracted={}
+

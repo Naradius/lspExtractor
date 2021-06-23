@@ -1,0 +1,8 @@
+the second thicket
+(NP (DT )(JJ )(NN ))
+Phase: generated116762
+Input: Token
+Rule: generated116762
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn116762 --> :pttrn116762.extracted={}
+

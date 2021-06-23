@@ -1,0 +1,8 @@
+might beupdated with new facts, so that the knowledge baseremains up-to-date .The current knowledge base of Hermes is main-tained by a manual approach
+(VP (MD )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated92600
+Input: Token
+Rule: generated92600
+(
+(({ Token.category == MD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn92600 --> :pttrn92600.extracted={}
+

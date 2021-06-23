@@ -1,0 +1,8 @@
+in the control system
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated31641
+Input: Token
+Rule: generated31641
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn31641 --> :pttrn31641.extracted={}
+

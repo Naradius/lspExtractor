@@ -1,0 +1,8 @@
+Compute Fitness Function  23. if Fitness Value   Fitness Value  then 24
+(NP (NP (NNP ){1,2}(CD ))(IN ))
+Phase: generated18790
+Input: Token
+Rule: generated18790
+(
+((({ Token.category == NNP })+({ Token.category == CD }))({ Token.category == IN }))):pttrn18790 --> :pttrn18790.extracted={}
+

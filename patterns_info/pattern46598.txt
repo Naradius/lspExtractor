@@ -1,0 +1,8 @@
+on controltheory models as described in
+(PP (IN )(NP (NP (NN )(NNS ))(IN )))
+Phase: generated46598
+Input: Token
+Rule: generated46598
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == IN })))):pttrn46598 --> :pttrn46598.extracted={}
+

@@ -1,0 +1,8 @@
+sent to all source node neighborhoods
+(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2}(NNS ))))
+Phase: generated2158
+Input: Token
+Rule: generated2158
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn2158 --> :pttrn2158.extracted={}
+

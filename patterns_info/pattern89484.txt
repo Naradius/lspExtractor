@@ -1,0 +1,8 @@
+on prior lookup of text units
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated89484
+Input: Token
+Rule: generated89484
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn89484 --> :pttrn89484.extracted={}
+

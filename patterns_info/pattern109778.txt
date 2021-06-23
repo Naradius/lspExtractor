@@ -1,0 +1,8 @@
+the safety of UAV fleets
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated109778
+Input: Token
+Rule: generated109778
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn109778 --> :pttrn109778.extracted={}
+

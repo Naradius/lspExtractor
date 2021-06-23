@@ -1,0 +1,8 @@
+question/answer seeds
+(NP (NN )(NNS ))
+Phase: generated101569
+Input: Token
+Rule: generated101569
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn101569 --> :pttrn101569.extracted={}
+

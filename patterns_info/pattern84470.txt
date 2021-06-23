@@ -1,0 +1,8 @@
+end bold tags.ID:: 4Pattern
+(VP (VB )(NP (JJ )(NNS )))
+Phase: generated84470
+Input: Token
+Rule: generated84470
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn84470 --> :pttrn84470.extracted={}
+

@@ -1,0 +1,8 @@
+to re-annotate the text
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated93269
+Input: Token
+Rule: generated93269
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn93269 --> :pttrn93269.extracted={}
+

@@ -1,0 +1,8 @@
+candidate terms of general medical rele-vance
+(NP (NP (NN )(NNS ))(PP (IN )(NP (JJ ){1,2}(NN ))))
+Phase: generated74038
+Input: Token
+Rule: generated74038
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))):pttrn74038 --> :pttrn74038.extracted={}
+

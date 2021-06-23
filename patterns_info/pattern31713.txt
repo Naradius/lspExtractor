@@ -1,0 +1,8 @@
+meet the needs of high-level applica-tions
+(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated31713
+Input: Token
+Rule: generated31713
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn31713 --> :pttrn31713.extracted={}
+

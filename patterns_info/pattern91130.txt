@@ -1,0 +1,8 @@
+. learning the most likely tag for a word
+(VP (VBD )(VP (VBG )(NP (DT )(ADJP (RBS )(JJ ))(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated91130
+Input: Token
+Rule: generated91130
+(
+(({ Token.category == VBD })(({ Token.category == VBG })(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn91130 --> :pttrn91130.extracted={}
+

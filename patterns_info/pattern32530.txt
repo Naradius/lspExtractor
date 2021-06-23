@@ -1,0 +1,8 @@
+choosing suitable paths to meetvarious QoS requirements from different kinds of traffic, thus it couldmaximized network utilization
+(VP (VBG )(NP (JJ )(NNS )(VP (TO )(VP (VB )(NP (NNP )(NNS )))))(NP (JJ )(NN ){1,2}))
+Phase: generated32530
+Input: Token
+Rule: generated32530
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NNS })))))(({ Token.category == JJ })({ Token.category == NN })+))):pttrn32530 --> :pttrn32530.extracted={}
+

@@ -1,0 +1,8 @@
+on the World Wide Websuch
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated81615
+Input: Token
+Rule: generated81615
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn81615 --> :pttrn81615.extracted={}
+

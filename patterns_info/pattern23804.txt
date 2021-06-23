@@ -1,0 +1,8 @@
+for primary re-ceivers
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated23804
+Input: Token
+Rule: generated23804
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn23804 --> :pttrn23804.extracted={}
+

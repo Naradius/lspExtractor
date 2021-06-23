@@ -1,0 +1,8 @@
+security.2.3
+(NP (NN )(CD ))
+Phase: generated36994
+Input: Token
+Rule: generated36994
+(
+(({ Token.category == NN })({ Token.category == CD }))):pttrn36994 --> :pttrn36994.extracted={}
+

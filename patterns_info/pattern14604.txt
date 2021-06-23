@@ -1,0 +1,8 @@
+start their T_RequestWait timers
+(VP (VB )(NP (PRP$ )(NN )(NNS )))
+Phase: generated14604
+Input: Token
+Rule: generated14604
+(
+(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS })))):pttrn14604 --> :pttrn14604.extracted={}
+

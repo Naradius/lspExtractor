@@ -1,0 +1,8 @@
+by using multipath routingprotocols that provide alternative paths in case of a nodefailure.Furthermore, in Table 5
+(PP (IN )(VP (VBG )(NP (NP (JJ )(NNS ))(VP (VBP )(NP (NN )(NNS ))(PP (IN )(NP (NN )(CD )))))))
+Phase: generated51871
+Input: Token
+Rule: generated51871
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))):pttrn51871 --> :pttrn51871.extracted={}
+

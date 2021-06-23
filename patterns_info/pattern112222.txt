@@ -1,0 +1,8 @@
+nor-al traffic congestions
+(NP (JJ )(NN )(NNS ))
+Phase: generated112222
+Input: Token
+Rule: generated112222
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn112222 --> :pttrn112222.extracted={}
+

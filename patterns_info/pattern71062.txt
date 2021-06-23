@@ -1,0 +1,8 @@
+introduce two classes of individual bank users and corporate bank users
+(VP (VB )(NP (NP (NP (CD )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS ))))(CC )(NP (JJ )(NN )(NNS ))))
+Phase: generated71062
+Input: Token
+Rule: generated71062
+(
+(({ Token.category == VB })(((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn71062 --> :pttrn71062.extracted={}
+

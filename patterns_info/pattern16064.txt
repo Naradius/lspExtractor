@@ -1,0 +1,8 @@
+to last throughout the simulation time
+(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated16064
+Input: Token
+Rule: generated16064
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn16064 --> :pttrn16064.extracted={}
+

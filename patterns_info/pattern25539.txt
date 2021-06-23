@@ -1,0 +1,8 @@
+staticoT infrastructures
+(NP (NN )(NNS ))
+Phase: generated25539
+Input: Token
+Rule: generated25539
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn25539 --> :pttrn25539.extracted={}
+

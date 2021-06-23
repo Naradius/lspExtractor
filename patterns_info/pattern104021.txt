@@ -1,0 +1,8 @@
+process these forthcoming edges
+(VP (VB )(NP (DT )(JJ )(NNS )))
+Phase: generated104021
+Input: Token
+Rule: generated104021
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn104021 --> :pttrn104021.extracted={}
+

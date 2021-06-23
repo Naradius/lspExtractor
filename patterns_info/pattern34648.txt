@@ -1,0 +1,8 @@
+the one-time public key address
+(NP (DT )(JJ ){1,2}(NN ){1,2})
+Phase: generated34648
+Input: Token
+Rule: generated34648
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn34648 --> :pttrn34648.extracted={}
+

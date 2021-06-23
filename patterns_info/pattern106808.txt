@@ -1,0 +1,8 @@
+followed by a CRF-based decoder
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated106808
+Input: Token
+Rule: generated106808
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn106808 --> :pttrn106808.extracted={}
+

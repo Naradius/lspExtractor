@@ -1,0 +1,8 @@
+many NLP tasks
+(NP (JJ ){1,2}(NNS ))
+Phase: generated97895
+Input: Token
+Rule: generated97895
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn97895 --> :pttrn97895.extracted={}
+

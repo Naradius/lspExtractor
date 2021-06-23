@@ -1,0 +1,8 @@
+would be possible for other rules that onlycared whether the phrase designates a city, or even a location in general to succeed if thecomparison is with a sub-path
+(VP (MD )(VP (VB )(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBD )(IN ))))))
+Phase: generated90246
+Input: Token
+Rule: generated90246
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBD })({ Token.category == IN }))))))):pttrn90246 --> :pttrn90246.extracted={}
+

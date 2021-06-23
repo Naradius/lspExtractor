@@ -1,0 +1,8 @@
+attached objects
+(NP (VBN )(NNS ))
+Phase: generated46151
+Input: Token
+Rule: generated46151
+(
+(({ Token.category == VBN })({ Token.category == NNS }))):pttrn46151 --> :pttrn46151.extracted={}
+

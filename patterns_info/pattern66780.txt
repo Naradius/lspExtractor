@@ -1,0 +1,8 @@
+generate multiple network-nodes in order to utilize the identities of compromised node andits related cryptographic keys
+(VP (VB )(NP (JJ )(NNS )))
+Phase: generated66780
+Input: Token
+Rule: generated66780
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn66780 --> :pttrn66780.extracted={}
+

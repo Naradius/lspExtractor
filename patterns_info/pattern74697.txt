@@ -1,0 +1,8 @@
+the seman-tic types
+(NP (DT )(JJ )(NNS ))
+Phase: generated74697
+Input: Token
+Rule: generated74697
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn74697 --> :pttrn74697.extracted={}
+

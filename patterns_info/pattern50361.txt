@@ -1,0 +1,8 @@
+implement such a graph rout-ing so some research work already proposes multipathrouting protocols for industrial processes
+(VP (VB )(NP (JJ )(DT )(NN ){1,2}))
+Phase: generated50361
+Input: Token
+Rule: generated50361
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN })+))):pttrn50361 --> :pttrn50361.extracted={}
+

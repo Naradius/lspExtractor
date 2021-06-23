@@ -1,0 +1,8 @@
+communicate through a virtual wirelessmedium
+(VP (VB )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated110647
+Input: Token
+Rule: generated110647
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn110647 --> :pttrn110647.extracted={}
+

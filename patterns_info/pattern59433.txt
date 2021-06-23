@@ -1,0 +1,8 @@
+medium,medium distant and distant Dist. between CH and Node  Closer, medium closer, medium,medium distant and distant CH Degree  Low, low average, average, more average and moreSo, 4 4 = 256 possible member choice values are worked out us-ng fuzzy IF-THEN rules
+(NP (NP (ADJP (JJ )(CC )(JJ ))(NN ))(PP (IN )(NP (NP (NP (NNP )(CC )(NNP ){1,2})(NP (JJ )(NN ))(NP (ADJP (JJ )(CC )(JJ ))(NNP ){1,2})(NP (JJ )(NN ))(ADJP (RBR )(JJ )))(CC ))))
+Phase: generated59433
+Input: Token
+Rule: generated59433
+(
+(((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)(({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNP })+)(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RBR })({ Token.category == JJ })))({ Token.category == CC }))))):pttrn59433 --> :pttrn59433.extracted={}
+

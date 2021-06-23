@@ -1,0 +1,8 @@
+reduce the size of stop word list or eliminate the use of it
+(VP (VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}))))(CC ))
+Phase: generated96235
+Input: Token
+Rule: generated96235
+(
+((({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))({ Token.category == CC }))):pttrn96235 --> :pttrn96235.extracted={}
+

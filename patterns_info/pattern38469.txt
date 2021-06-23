@@ -1,0 +1,8 @@
+the correlation task
+(NP (DT )(NN ){1,2})
+Phase: generated38469
+Input: Token
+Rule: generated38469
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn38469 --> :pttrn38469.extracted={}
+

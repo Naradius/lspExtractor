@@ -1,0 +1,8 @@
+a device equipped and endowed with communication capabilitiesand eventually of detection, actuation, capture, storage, and data pro-cessing capabilities
+(NP (NP (DT )(NN ))(VP (VBN )(CC )(VP (VBN )(PP (RB )(IN )(NP (CC )(NP (NNS )(JJ )(NNS )))))))
+Phase: generated41107
+Input: Token
+Rule: generated41107
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == RB })({ Token.category == IN })(({ Token.category == CC })(({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn41107 --> :pttrn41107.extracted={}
+

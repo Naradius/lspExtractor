@@ -1,0 +1,8 @@
+For each class perform:2.1.
+(PP (IN )(NP (DT )(NN ){1,2}(NNS )))
+Phase: generated86901
+Input: Token
+Rule: generated86901
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))):pttrn86901 --> :pttrn86901.extracted={}
+

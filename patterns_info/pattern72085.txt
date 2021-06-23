@@ -1,0 +1,8 @@
+the semantic relationships be-tween the extracted terms
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated72085
+Input: Token
+Rule: generated72085
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn72085 --> :pttrn72085.extracted={}
+

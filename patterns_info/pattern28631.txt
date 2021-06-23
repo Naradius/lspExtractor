@@ -1,0 +1,8 @@
+improved the PDR.
+(VP (VBN )(NP (DT )(NNP )))
+Phase: generated28631
+Input: Token
+Rule: generated28631
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn28631 --> :pttrn28631.extracted={}
+

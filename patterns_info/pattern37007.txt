@@ -1,0 +1,8 @@
+Blockchain IoT information securityThe typical feature of blockchain IoT
+(NP (NP (NNP ){1,2}(NN ){1,2}(JJ )(NN ))(PP (IN )(NP (NN )(NNP ))))
+Phase: generated37007
+Input: Token
+Rule: generated37007
+(
+((({ Token.category == NNP })+({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP }))))):pttrn37007 --> :pttrn37007.extracted={}
+

@@ -1,0 +1,8 @@
+can avoid fast fading, short connectivity time and 978-1-4673-9026-2116/$31.00 20 16 IEEE 2068 RezaRafeh Centre for Business, Information Technology and Enterprise Waikato Institute of Technology Hamilton, New Zealand e-mail: Reza.Rafeh@wintec.ac.nz high frequent hand-offs caused by high relative-speed difference between fast-moving vehicles and road-side stations
+(VP (MD )(VP (VB )(NP (NP (NP (JJ )(NN )){1,2}(CC ))(CC ))))
+Phase: generated300
+Input: Token
+Rule: generated300
+(
+(({ Token.category == MD })(({ Token.category == VB })(((({ Token.category == JJ })({ Token.category == NN }))+({ Token.category == CC }))({ Token.category == CC }))))):pttrn300 --> :pttrn300.extracted={}
+

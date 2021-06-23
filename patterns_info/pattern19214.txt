@@ -1,0 +1,8 @@
+during the simulation period fromthe Fog devices
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(NNS )))))
+Phase: generated19214
+Input: Token
+Rule: generated19214
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn19214 --> :pttrn19214.extracted={}
+

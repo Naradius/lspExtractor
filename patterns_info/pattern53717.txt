@@ -1,0 +1,8 @@
+bewritten as follows:Pnormal popt1m am0 ab Padvaced popt1m am0 ab  1a PSuper_Advnaced popt1m am0 ab  1b Using the above equations
+(VP (VB )(IN ))
+Phase: generated53717
+Input: Token
+Rule: generated53717
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn53717 --> :pttrn53717.extracted={}
+

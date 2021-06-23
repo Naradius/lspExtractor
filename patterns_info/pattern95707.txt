@@ -1,0 +1,8 @@
+tokens ineach sentence
+(VP (VBZ )(NP (JJ )(NN )))
+Phase: generated95707
+Input: Token
+Rule: generated95707
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })))):pttrn95707 --> :pttrn95707.extracted={}
+

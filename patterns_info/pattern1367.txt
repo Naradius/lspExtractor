@@ -1,0 +1,8 @@
+the basic sites
+(NP (DT )(JJ )(NNS ))
+Phase: generated1367
+Input: Token
+Rule: generated1367
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn1367 --> :pttrn1367.extracted={}
+

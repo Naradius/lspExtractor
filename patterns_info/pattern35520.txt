@@ -1,0 +1,8 @@
+the blockchain IoT low-speedscenario
+(NP (DT )(NN )(NNP )(NN ))
+Phase: generated35520
+Input: Token
+Rule: generated35520
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))):pttrn35520 --> :pttrn35520.extracted={}
+

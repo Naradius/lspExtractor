@@ -1,0 +1,8 @@
+transmitter nodes
+(NP (NN )(NNS ))
+Phase: generated27300
+Input: Token
+Rule: generated27300
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn27300 --> :pttrn27300.extracted={}
+

@@ -1,0 +1,8 @@
+energy consumption and delay withina Cloud-Fog computing system
+(NP (NP (NN ){1,2}(CC )(NN ))(PP (IN )(NP (NNP )(VBG )(NN ))))
+Phase: generated20484
+Input: Token
+Rule: generated20484
+(
+((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == VBG })({ Token.category == NN }))))):pttrn20484 --> :pttrn20484.extracted={}
+

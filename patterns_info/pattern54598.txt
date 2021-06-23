@@ -1,0 +1,8 @@
+is the disbelief and U isthe uncertainty
+(VP (VBZ )(NP (NP (DT )(NN ))(CC )))
+Phase: generated54598
+Input: Token
+Rule: generated54598
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))):pttrn54598 --> :pttrn54598.extracted={}
+

@@ -1,0 +1,8 @@
+ad hoc nat-ure
+(NP (NN )(JJ )(NN ))
+Phase: generated39064
+Input: Token
+Rule: generated39064
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))):pttrn39064 --> :pttrn39064.extracted={}
+

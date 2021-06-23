@@ -1,0 +1,8 @@
+on Advanced Computing ,2017
+(PP (IN )(NP (NNP ){1,2}(CD )))
+Phase: generated60266
+Input: Token
+Rule: generated60266
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })))):pttrn60266 --> :pttrn60266.extracted={}
+

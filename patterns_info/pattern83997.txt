@@ -1,0 +1,8 @@
+by two domains: CNN weather forecastweb pages, and the BigBook searchable telephone directory
+(PP (IN )(NP (NP (CD )(NNS ))(NP (NP (NNP )(NN ){1,2}(NNS ))(CC )(NP (DT )(NNP )(JJ )(NN ){1,2}))))
+Phase: generated83997
+Input: Token
+Rule: generated83997
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))((({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn83997 --> :pttrn83997.extracted={}
+

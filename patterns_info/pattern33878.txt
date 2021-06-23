@@ -1,0 +1,8 @@
+/ Journal
+(NP (DT )(NNP ))
+Phase: generated33878
+Input: Token
+Rule: generated33878
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn33878 --> :pttrn33878.extracted={}
+

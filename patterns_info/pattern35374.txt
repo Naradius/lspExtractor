@@ -1,0 +1,8 @@
+the accumulationof initialization, message initiation and confirmation time, andthe network communication status of the IoT
+(NP (NP (NP (DT )(NN ){1,2})(CC ))(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP )))))
+Phase: generated35374
+Input: Token
+Rule: generated35374
+(
+(((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC }))((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn35374 --> :pttrn35374.extracted={}
+

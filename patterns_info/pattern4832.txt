@@ -1,0 +1,8 @@
+the fitness
+(NP (DT )(NN ))
+Phase: generated4832
+Input: Token
+Rule: generated4832
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn4832 --> :pttrn4832.extracted={}
+

@@ -1,0 +1,8 @@
+the extra power consumptions
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated37738
+Input: Token
+Rule: generated37738
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn37738 --> :pttrn37738.extracted={}
+

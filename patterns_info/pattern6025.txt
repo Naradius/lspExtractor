@@ -1,0 +1,8 @@
+To quantifythe clustering properties
+(PP (TO )(NP (DT )(NN )(NNS )))
+Phase: generated6025
+Input: Token
+Rule: generated6025
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn6025 --> :pttrn6025.extracted={}
+

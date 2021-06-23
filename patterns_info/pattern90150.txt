@@ -1,0 +1,8 @@
+to express the constraint that that countrys governmentis Gov, so that we can say in the left hand side of a revised rule eid=
+(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )(NN )(NNP )))))
+Phase: generated90150
+Input: Token
+Rule: generated90150
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNP })))))):pttrn90150 --> :pttrn90150.extracted={}
+

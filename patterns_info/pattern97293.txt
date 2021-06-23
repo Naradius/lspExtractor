@@ -1,0 +1,8 @@
+allocating the part of speech tag or other philological class sign to each and every word in a sentence
+(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (CC )(NP (NP (JJ ){1,2}(NN ){1,2})(PP (TO )(NP (NP (DT )(CC )(DT )(NN ))(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated97293
+Input: Token
+Rule: generated97293
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == TO })((({ Token.category == DT })({ Token.category == CC })({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn97293 --> :pttrn97293.extracted={}
+

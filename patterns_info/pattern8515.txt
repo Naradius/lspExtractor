@@ -1,0 +1,8 @@
+A rather consistent behavioras above
+(NP (DT )(ADJP (RB )(JJ )))
+Phase: generated8515
+Input: Token
+Rule: generated8515
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ })))):pttrn8515 --> :pttrn8515.extracted={}
+

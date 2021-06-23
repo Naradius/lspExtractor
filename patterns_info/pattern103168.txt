@@ -1,0 +1,8 @@
+divided into two phases.The first phase
+(VP (VBN )(PP (IN )(NP (CD )(JJ ){1,2}(NN ))))
+Phase: generated103168
+Input: Token
+Rule: generated103168
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn103168 --> :pttrn103168.extracted={}
+

@@ -1,0 +1,8 @@
+were carried out to evaluate the filtering process described in Section 4.3
+(VP (VBD )(VP (VBN )(PRT (RP ))(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NN )(CD )))))))))
+Phase: generated100410
+Input: Token
+Rule: generated100410
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == RP }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))))):pttrn100410 --> :pttrn100410.extracted={}
+

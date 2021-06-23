@@ -1,0 +1,8 @@
+semi-structured text
+(NP (JJ )(NN ))
+Phase: generated84640
+Input: Token
+Rule: generated84640
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn84640 --> :pttrn84640.extracted={}
+

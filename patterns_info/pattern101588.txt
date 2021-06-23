@@ -1,0 +1,8 @@
+discard low quality items
+(VP (VB )(NP (JJ )(NN )(NNS )))
+Phase: generated101588
+Input: Token
+Rule: generated101588
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn101588 --> :pttrn101588.extracted={}
+

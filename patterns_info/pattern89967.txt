@@ -1,0 +1,8 @@
+as h class
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated89967
+Input: Token
+Rule: generated89967
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn89967 --> :pttrn89967.extracted={}
+

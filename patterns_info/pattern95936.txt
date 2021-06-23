@@ -1,0 +1,8 @@
+112.H. Kilicoglu and S. Bergler
+(NP (NNP ){1,2}(CC )(NNP ){1,2})
+Phase: generated95936
+Input: Token
+Rule: generated95936
+(
+(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)):pttrn95936 --> :pttrn95936.extracted={}
+

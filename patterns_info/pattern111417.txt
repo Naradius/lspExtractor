@@ -1,0 +1,8 @@
+a deviation
+(NP (DT )(NN ))
+Phase: generated111417
+Input: Token
+Rule: generated111417
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn111417 --> :pttrn111417.extracted={}
+

@@ -1,0 +1,8 @@
+A parsing algorithm for context-sensitive graph grammars .
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated105084
+Input: Token
+Rule: generated105084
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn105084 --> :pttrn105084.extracted={}
+

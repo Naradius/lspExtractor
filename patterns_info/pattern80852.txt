@@ -1,0 +1,8 @@
+the IE problem that WHISK addresses
+(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated80852
+Input: Token
+Rule: generated80852
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn80852 --> :pttrn80852.extracted={}
+

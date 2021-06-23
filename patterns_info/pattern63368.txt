@@ -1,0 +1,8 @@
+based onhe hop count to the sink node
+(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated63368
+Input: Token
+Rule: generated63368
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn63368 --> :pttrn63368.extracted={}
+

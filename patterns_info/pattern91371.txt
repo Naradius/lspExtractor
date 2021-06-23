@@ -1,0 +1,8 @@
+be thought ofsuccessive improvements closer and closer to the goal corpus
+(VP (VB )(VP (VP (VBN )(NP (JJ )(NNS )))(CC )(ADVP (RBR )(PP (TO )(NP (DT )(NN ){1,2})))))
+Phase: generated91371
+Input: Token
+Rule: generated91371
+(
+(({ Token.category == VB })((({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == RBR })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn91371 --> :pttrn91371.extracted={}
+

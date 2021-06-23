@@ -1,0 +1,8 @@
+satisfies the requirements of IoT sys-tems
+(VP (VBZ )(NP (NP (DT )(NNS ))(PP (IN )(NP (NNP )(NNS )))))
+Phase: generated25261
+Input: Token
+Rule: generated25261
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))):pttrn25261 --> :pttrn25261.extracted={}
+

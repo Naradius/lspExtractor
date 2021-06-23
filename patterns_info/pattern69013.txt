@@ -1,0 +1,8 @@
+nowwith larger
+(ADJP (RB )(JJR ))
+Phase: generated69013
+Input: Token
+Rule: generated69013
+(
+(({ Token.category == RB })({ Token.category == JJR }))):pttrn69013 --> :pttrn69013.extracted={}
+

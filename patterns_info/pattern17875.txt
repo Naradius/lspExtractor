@@ -1,0 +1,8 @@
+the algorithm according
+(NP (DT )(NN ){1,2})
+Phase: generated17875
+Input: Token
+Rule: generated17875
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn17875 --> :pttrn17875.extracted={}
+

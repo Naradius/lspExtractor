@@ -1,0 +1,8 @@
+to the net-ork
+(PP (TO )(NP (DT )(NN )))
+Phase: generated28008
+Input: Token
+Rule: generated28008
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))):pttrn28008 --> :pttrn28008.extracted={}
+

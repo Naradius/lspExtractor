@@ -1,0 +1,8 @@
+203.5 Rules to create entity instances
+(NP (NP (CD )(NNS ))(VP (TO )(VP (VB )(NP (NN )(NNS )))))
+Phase: generated87102
+Input: Token
+Rule: generated87102
+(
+((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn87102 --> :pttrn87102.extracted={}
+

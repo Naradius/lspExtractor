@@ -1,0 +1,8 @@
+are established in non-hotspot areas to balance the en-ergy consumption
+(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))))))
+Phase: generated61771
+Input: Token
+Rule: generated61771
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn61771 --> :pttrn61771.extracted={}
+

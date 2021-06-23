@@ -1,0 +1,8 @@
+in wireless ad
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated5516
+Input: Token
+Rule: generated5516
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn5516 --> :pttrn5516.extracted={}
+

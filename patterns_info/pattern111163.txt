@@ -1,0 +1,8 @@
+the references to color in this figure
+(NP (NP (DT )(NNS ))(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated111163
+Input: Token
+Rule: generated111163
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn111163 --> :pttrn111163.extracted={}
+

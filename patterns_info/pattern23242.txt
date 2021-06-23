@@ -1,0 +1,8 @@
+a set of R = end-to-end routes where each route has a utilityrepresented by the set U =  derived from theeffective end-to-end data rate of the routes described earlier
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(SYM )(JJ )(NNS )))(WHADVP (WRB )))
+Phase: generated23242
+Input: Token
+Rule: generated23242
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == SYM })({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == WRB })))):pttrn23242 --> :pttrn23242.extracted={}
+

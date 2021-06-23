@@ -1,0 +1,8 @@
+a forward agent
+(NP (DT )(JJ )(NN ))
+Phase: generated33087
+Input: Token
+Rule: generated33087
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn33087 --> :pttrn33087.extracted={}
+

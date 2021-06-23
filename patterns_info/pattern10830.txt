@@ -1,0 +1,8 @@
+from the environment, locally process
+(PP (IN )(NP (NP (DT )(NN ))(NP (RB )(NN ))))
+Phase: generated10830
+Input: Token
+Rule: generated10830
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == RB })({ Token.category == NN }))))):pttrn10830 --> :pttrn10830.extracted={}
+

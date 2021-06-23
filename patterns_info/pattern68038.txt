@@ -1,0 +1,8 @@
+well reputed publishers
+(NP (ADJP (RB )(VBN ))(NNS ))
+Phase: generated68038
+Input: Token
+Rule: generated68038
+(
+((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNS }))):pttrn68038 --> :pttrn68038.extracted={}
+

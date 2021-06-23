@@ -1,0 +1,8 @@
+40 sensing locations
+(NP (CD )(JJ )(NNS ))
+Phase: generated22112
+Input: Token
+Rule: generated22112
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn22112 --> :pttrn22112.extracted={}
+

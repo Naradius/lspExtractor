@@ -1,0 +1,8 @@
+In a dense network
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated546
+Input: Token
+Rule: generated546
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn546 --> :pttrn546.extracted={}
+

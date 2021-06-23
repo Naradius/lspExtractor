@@ -1,0 +1,8 @@
+active connected sensors
+(NP (JJ ){1,2}(NNS ))
+Phase: generated51334
+Input: Token
+Rule: generated51334
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn51334 --> :pttrn51334.extracted={}
+

@@ -1,0 +1,8 @@
+most likely
+(ADJP (RBS )(JJ ))
+Phase: generated91897
+Input: Token
+Rule: generated91897
+(
+(({ Token.category == RBS })({ Token.category == JJ }))):pttrn91897 --> :pttrn91897.extracted={}
+

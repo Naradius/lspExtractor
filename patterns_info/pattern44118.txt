@@ -1,0 +1,8 @@
+the nec-essary signaling and data transfer tasks
+(NP (DT )(JJ )(NN )(CC )(NNS )(NN )(NNS ))
+Phase: generated44118
+Input: Token
+Rule: generated44118
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS }))):pttrn44118 --> :pttrn44118.extracted={}
+

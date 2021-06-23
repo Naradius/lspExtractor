@@ -1,0 +1,8 @@
+based unequal clustering for wirelesssensor networks, Wirel
+(VP (VBN )(NP (JJ )(NN )))
+Phase: generated60199
+Input: Token
+Rule: generated60199
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn60199 --> :pttrn60199.extracted={}
+

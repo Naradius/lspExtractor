@@ -1,0 +1,8 @@
+the transmission ca-acity of the router
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated110418
+Input: Token
+Rule: generated110418
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn110418 --> :pttrn110418.extracted={}
+

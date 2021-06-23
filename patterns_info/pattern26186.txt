@@ -1,0 +1,8 @@
+to provide an energy efficient and congestion-awareF for Advanced Metering Infrastructures
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}(CC )(NN ))))
+Phase: generated26186
+Input: Token
+Rule: generated26186
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))):pttrn26186 --> :pttrn26186.extracted={}
+

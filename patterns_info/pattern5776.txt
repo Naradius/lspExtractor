@@ -1,0 +1,8 @@
+achieve the highestenergy efficiency
+(VP (VB )(NP (DT )(JJ )(NN )))
+Phase: generated5776
+Input: Token
+Rule: generated5776
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn5776 --> :pttrn5776.extracted={}
+

@@ -1,0 +1,8 @@
+information retrieval,pages 345359
+(NP (NN )(JJ )(NNS )(CD ))
+Phase: generated86081
+Input: Token
+Rule: generated86081
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CD }))):pttrn86081 --> :pttrn86081.extracted={}
+

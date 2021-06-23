@@ -1,0 +1,8 @@
+A. Srivastava
+(NP (NN )(NNP ))
+Phase: generated9043
+Input: Token
+Rule: generated9043
+(
+(({ Token.category == NN })({ Token.category == NNP }))):pttrn9043 --> :pttrn9043.extracted={}
+

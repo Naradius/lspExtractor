@@ -1,0 +1,8 @@
+found fairly useful in solving text classification and text relevance problems, including search
+(VP (VBN )(ADJP (RB )(JJ )))
+Phase: generated117271
+Input: Token
+Rule: generated117271
+(
+(({ Token.category == VBN })(({ Token.category == RB })({ Token.category == JJ })))):pttrn117271 --> :pttrn117271.extracted={}
+

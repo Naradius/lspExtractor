@@ -1,0 +1,8 @@
+able toconsider different node/link metrics to compute the nodes rank.These OFs could not fulfill every aspect of different IoT applica-tions
+(NP (JJ )(NN ))
+Phase: generated25395
+Input: Token
+Rule: generated25395
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn25395 --> :pttrn25395.extracted={}
+

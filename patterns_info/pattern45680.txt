@@ -1,0 +1,8 @@
+is costly, WorldWatch 14   910
+(VP (VBZ )(NP (NNP )(CD ){1,2}))
+Phase: generated45680
+Input: Token
+Rule: generated45680
+(
+(({ Token.category == VBZ })(({ Token.category == NNP })({ Token.category == CD })+))):pttrn45680 --> :pttrn45680.extracted={}
+

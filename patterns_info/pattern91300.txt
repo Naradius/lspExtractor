@@ -1,0 +1,8 @@
+to the tag YorUnannotatedcorpusInitial stateannotatorTemporarycorpusGoalcorpusLexical/contextual LearnerRules3If Trigger
+(PP (TO )(NP (DT )(NN )(JJ ){1,2}(NNP ){1,2}))
+Phase: generated91300
+Input: Token
+Rule: generated91300
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NNP })+))):pttrn91300 --> :pttrn91300.extracted={}
+

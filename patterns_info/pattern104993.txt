@@ -1,0 +1,8 @@
+to thank the referees of the JVLC for their extensive and helpful comments onthe first version of this paper.References1
+(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (NP (PRP$ )(JJ )(CC )(JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))))))))
+Phase: generated104993
+Input: Token
+Rule: generated104993
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))))):pttrn104993 --> :pttrn104993.extracted={}
+

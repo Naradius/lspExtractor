@@ -1,0 +1,8 @@
+Reactive Void Handling Algorithm
+(NP (JJ )(NNP ){1,2})
+Phase: generated18265
+Input: Token
+Rule: generated18265
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn18265 --> :pttrn18265.extracted={}
+

@@ -1,0 +1,8 @@
+from Reuters Politics News and Yahoo!Politics News.The ontologies employed in our experiments con-tain major domain concepts and their most com-mon representations
+(PP (IN )(NP (NP (NNP )(NNPS )(NNP ))(CC )(NP (NP (NNP ){1,2}(NNS ))(VP (VBN )(PP (IN )(NP (PRP$ )(NNS )))(NP (NP (JJ ){1,2}(NN )(NNS ))(CC )(NP (PRP$ )(ADJP (RBS )(JJ ))(NNS )))))))
+Phase: generated93826
+Input: Token
+Rule: generated93826
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == NNP }))({ Token.category == CC })((({ Token.category == NNP })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS })))((({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == PRP$ })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NNS })))))))):pttrn93826 --> :pttrn93826.extracted={}
+

@@ -1,0 +1,8 @@
+balancing the energy consumption inthe network
+(VP (VBG )(NP (DT )(NN ){1,2}))
+Phase: generated58814
+Input: Token
+Rule: generated58814
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))):pttrn58814 --> :pttrn58814.extracted={}
+

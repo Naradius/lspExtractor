@@ -1,0 +1,8 @@
+proposed could not be suitable for a high dynamicnetwork
+(VP (VBN )(VP (MD )(RB )(VP (VB )(ADJP (JJ )(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated67392
+Input: Token
+Rule: generated67392
+(
+(({ Token.category == VBN })(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn67392 --> :pttrn67392.extracted={}
+

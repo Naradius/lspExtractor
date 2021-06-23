@@ -1,0 +1,8 @@
+thecircuitry.Wang et al
+(NP (DT )(NNP ){1,2}(NN ))
+Phase: generated54128
+Input: Token
+Rule: generated54128
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))):pttrn54128 --> :pttrn54128.extracted={}
+

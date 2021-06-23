@@ -1,0 +1,8 @@
+as:Female Lion0  Female Lion 2D rand 0
+(PP (IN )(NP (JJ )(NNP ){1,2}(CD )))
+Phase: generated64290
+Input: Token
+Rule: generated64290
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == CD })))):pttrn64290 --> :pttrn64290.extracted={}
+

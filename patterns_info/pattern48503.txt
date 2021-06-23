@@ -1,0 +1,8 @@
+data aggrega-tion, attribute-based naming
+(NP (NP (NNS )(NN ))(NP (JJ )(NN )))
+Phase: generated48503
+Input: Token
+Rule: generated48503
+(
+((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == NN })))):pttrn48503 --> :pttrn48503.extracted={}
+

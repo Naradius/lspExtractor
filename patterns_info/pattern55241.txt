@@ -1,0 +1,8 @@
+between i and C
+(PP (IN )(NP (NN )(CC )(NNP )))
+Phase: generated55241
+Input: Token
+Rule: generated55241
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNP })))):pttrn55241 --> :pttrn55241.extracted={}
+

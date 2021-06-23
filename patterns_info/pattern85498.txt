@@ -1,0 +1,8 @@
+the normalization of the TF-IDF scores for each document
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated85498
+Input: Token
+Rule: generated85498
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn85498 --> :pttrn85498.extracted={}
+

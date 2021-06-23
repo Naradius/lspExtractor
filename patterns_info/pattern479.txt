@@ -1,0 +1,8 @@
+is another positionbased routing algorithm which uses a Reactive Location Service  to get the destination node position
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBZ )(NP (DT )(JJ )(NN )(NNP ))(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}))))))
+Phase: generated479
+Input: Token
+Rule: generated479
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn479 --> :pttrn479.extracted={}
+

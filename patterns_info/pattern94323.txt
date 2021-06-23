@@ -1,0 +1,8 @@
+up until the time it took for creatingthe equally performing lexico-syntactic rules
+(PP (IN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBD )(PP (IN )(NP (DT )(ADJP (RB )(VBG ))(JJ )(NNS )))))))
+Phase: generated94323
+Input: Token
+Rule: generated94323
+(
+(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBG }))({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn94323 --> :pttrn94323.extracted={}
+

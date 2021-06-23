@@ -1,0 +1,8 @@
+can be increasedby load balancing technique
+(VP (MD )(VP (VB )(NP (JJ )(NN ){1,2})))
+Phase: generated58584
+Input: Token
+Rule: generated58584
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn58584 --> :pttrn58584.extracted={}
+

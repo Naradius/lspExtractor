@@ -1,0 +1,8 @@
+collide with one another
+(VP (VB )(PP (IN )(NP (CD )(DT ))))
+Phase: generated6639
+Input: Token
+Rule: generated6639
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == DT }))))):pttrn6639 --> :pttrn6639.extracted={}
+

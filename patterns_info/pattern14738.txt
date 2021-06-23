@@ -1,0 +1,8 @@
+themcan trigger incorrect data packet drops and unnecessary routediscoveries
+(VP (MD )(VP (VB )(NP (NP (JJ )(NNS )(NN )(NNS ))(CC )(NP (JJ )(NNS )))))
+Phase: generated14738
+Input: Token
+Rule: generated14738
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn14738 --> :pttrn14738.extracted={}
+

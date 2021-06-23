@@ -1,0 +1,8 @@
+To increase the backtracking time of the adversary
+(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated61640
+Input: Token
+Rule: generated61640
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn61640 --> :pttrn61640.extracted={}
+

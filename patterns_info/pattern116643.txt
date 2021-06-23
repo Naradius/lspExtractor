@@ -1,0 +1,8 @@
+have contributed the PT-based functionality to OpenNLP so that search engineers can easily plug it in their search infrastructure
+(VP (VBP )(VP (VBN )(NP (DT )(JJ )(NN ))(VP (TO )(VP (VB )(IN )))))
+Phase: generated116643
+Input: Token
+Rule: generated116643
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))))):pttrn116643 --> :pttrn116643.extracted={}
+

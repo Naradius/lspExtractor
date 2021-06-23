@@ -1,0 +1,8 @@
+exploits ETX
+(NP (NNS )(NNP ))
+Phase: generated28588
+Input: Token
+Rule: generated28588
+(
+(({ Token.category == NNS })({ Token.category == NNP }))):pttrn28588 --> :pttrn28588.extracted={}
+

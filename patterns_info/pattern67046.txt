@@ -1,0 +1,8 @@
+the feasible sensorodes
+(NP (DT )(JJ )(NNS ))
+Phase: generated67046
+Input: Token
+Rule: generated67046
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn67046 --> :pttrn67046.extracted={}
+

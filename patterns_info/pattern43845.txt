@@ -1,0 +1,8 @@
+in sensor networks
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated43845
+Input: Token
+Rule: generated43845
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn43845 --> :pttrn43845.extracted={}
+

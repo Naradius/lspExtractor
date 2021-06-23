@@ -1,0 +1,8 @@
+detect the different intrusionsapidly and with an accurate threshold
+(VP (VB )(NP (DT )(JJ )(NN ))(NAC (CC )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated111223
+Input: Token
+Rule: generated111223
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn111223 --> :pttrn111223.extracted={}
+

@@ -1,0 +1,8 @@
+anomaly ids
+(NP (DT )(NNS ))
+Phase: generated38567
+Input: Token
+Rule: generated38567
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn38567 --> :pttrn38567.extracted={}
+

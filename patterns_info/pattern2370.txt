@@ -1,0 +1,8 @@
+a routing table.XII
+(NP (DT )(NN ){1,2})
+Phase: generated2370
+Input: Token
+Rule: generated2370
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn2370 --> :pttrn2370.extracted={}
+

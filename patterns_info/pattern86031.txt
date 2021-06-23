@@ -1,0 +1,8 @@
+for real-time systems
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated86031
+Input: Token
+Rule: generated86031
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn86031 --> :pttrn86031.extracted={}
+

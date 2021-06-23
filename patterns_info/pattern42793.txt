@@ -1,0 +1,8 @@
+other routing protocols studied espe-cially with a higher density.8.1.6
+(NP (NP (JJ )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJR )(NN )(CD )))))
+Phase: generated42793
+Input: Token
+Rule: generated42793
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })({ Token.category == CD })))))):pttrn42793 --> :pttrn42793.extracted={}
+

@@ -1,0 +1,8 @@
+is determined by the sink node
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated62336
+Input: Token
+Rule: generated62336
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn62336 --> :pttrn62336.extracted={}
+

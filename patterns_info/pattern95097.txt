@@ -1,0 +1,8 @@
+the Pattern-based Annotation throughKnowledge on the Web  framework
+(NP (NP (DT )(JJ )(NNP )(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated95097
+Input: Token
+Rule: generated95097
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn95097 --> :pttrn95097.extracted={}
+

@@ -1,0 +1,8 @@
+the performances
+(NP (DT )(NNS ))
+Phase: generated50698
+Input: Token
+Rule: generated50698
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn50698 --> :pttrn50698.extracted={}
+

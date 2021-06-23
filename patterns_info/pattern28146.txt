@@ -1,0 +1,8 @@
+random waypoint  , random walk  , Self-similareast Action Walk   , and Reference Point Group MobilityRPGM
+(NP (NP (JJ )(NN )){1,2}(CC ))
+Phase: generated28146
+Input: Token
+Rule: generated28146
+(
+((({ Token.category == JJ })({ Token.category == NN }))+({ Token.category == CC }))):pttrn28146 --> :pttrn28146.extracted={}
+

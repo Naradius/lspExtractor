@@ -1,0 +1,8 @@
+any specific subset oflink layer services
+(NP (DT )(JJ )(NN ){1,2}(NNS ))
+Phase: generated15156
+Input: Token
+Rule: generated15156
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))):pttrn15156 --> :pttrn15156.extracted={}
+

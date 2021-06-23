@@ -1,0 +1,8 @@
+benchmarking our protocol againstothers in the literature
+(VP (VBG )(NP (NP (PRP$ )(NN )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated4741
+Input: Token
+Rule: generated4741
+(
+(({ Token.category == VBG })((({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn4741 --> :pttrn4741.extracted={}
+

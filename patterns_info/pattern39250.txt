@@ -1,0 +1,8 @@
+organized the selected efforts into cat-egories based on the approach
+(VP (VBN )(NP (DT )(VBN )(NNS )))
+Phase: generated39250
+Input: Token
+Rule: generated39250
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS })))):pttrn39250 --> :pttrn39250.extracted={}
+

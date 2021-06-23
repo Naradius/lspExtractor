@@ -1,0 +1,8 @@
+CH and Node  Closer
+(NP (NNP )(CC )(NNP ){1,2})
+Phase: generated59421
+Input: Token
+Rule: generated59421
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)):pttrn59421 --> :pttrn59421.extracted={}
+

@@ -1,0 +1,8 @@
+the energy effi-ciency
+(NP (DT )(NN ){1,2})
+Phase: generated30148
+Input: Token
+Rule: generated30148
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn30148 --> :pttrn30148.extracted={}
+

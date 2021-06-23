@@ -1,0 +1,8 @@
+of the consecutive  results
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated115807
+Input: Token
+Rule: generated115807
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn115807 --> :pttrn115807.extracted={}
+

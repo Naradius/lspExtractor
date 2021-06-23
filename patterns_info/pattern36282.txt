@@ -1,0 +1,8 @@
+the nodes institutional reputation value
+(NP (DT )(NNS )(JJ )(NN ){1,2})
+Phase: generated36282
+Input: Token
+Rule: generated36282
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NN })+)):pttrn36282 --> :pttrn36282.extracted={}
+

@@ -1,0 +1,8 @@
+presented a new part-of-speech tagger in-cluding multiword unit identification
+(VP (VBD )(NP (DT )(JJ )(NN ){1,2}(JJ )(NN ){1,2}))
+Phase: generated106076
+Input: Token
+Rule: generated106076
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })+))):pttrn106076 --> :pttrn106076.extracted={}
+

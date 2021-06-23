@@ -1,0 +1,8 @@
+lowEECFP  Single-hop Homogeneous ClusterbasedVerylowRandom Good     Nodes
+(NP (JJ )(NNP ){1,2})
+Phase: generated57244
+Input: Token
+Rule: generated57244
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn57244 --> :pttrn57244.extracted={}
+

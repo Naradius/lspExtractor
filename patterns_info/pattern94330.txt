@@ -1,0 +1,8 @@
+an F1 score
+(NP (DT )(JJ )(NN ))
+Phase: generated94330
+Input: Token
+Rule: generated94330
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn94330 --> :pttrn94330.extracted={}
+

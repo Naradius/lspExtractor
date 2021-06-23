@@ -1,0 +1,8 @@
+In each iterationWHISK
+(PP (IN )(NP (DT )(NN )))
+Phase: generated82769
+Input: Token
+Rule: generated82769
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn82769 --> :pttrn82769.extracted={}
+

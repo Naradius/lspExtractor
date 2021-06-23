@@ -1,0 +1,8 @@
+used limits the numberof blocks that can be generated in a time interval,which limits the number of malicious blocks thatcan be increased, thus preventing the attackerfrom generating the longest ledger and using it asa real ledger.9
+(VP (VBD )(NP (NP (DT )(NN )(NNS ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))))))))
+Phase: generated35200
+Input: Token
+Rule: generated35200
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))))))):pttrn35200 --> :pttrn35200.extracted={}
+

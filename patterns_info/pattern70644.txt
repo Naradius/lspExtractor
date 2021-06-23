@@ -1,0 +1,8 @@
+a phrase, domain-specific expression
+(NP (NP (DT )(NN ))(NP (JJ )(NN )))
+Phase: generated70644
+Input: Token
+Rule: generated70644
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == NN })))):pttrn70644 --> :pttrn70644.extracted={}
+

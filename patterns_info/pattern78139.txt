@@ -1,0 +1,8 @@
+of differ-ent relation types
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated78139
+Input: Token
+Rule: generated78139
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn78139 --> :pttrn78139.extracted={}
+

@@ -1,0 +1,8 @@
+foreign chemical agents
+(NP (JJ )(NN )(NNS ))
+Phase: generated45998
+Input: Token
+Rule: generated45998
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn45998 --> :pttrn45998.extracted={}
+

@@ -1,0 +1,8 @@
+are not allowedto transmit packages to their neighborhood nodeslocated in the same layer
+(VP (VBP )(RB )(VP (VBN )(NP (NN )(NNS ))(PP (TO )(NP (NP (PRP$ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))))))
+Phase: generated69495
+Input: Token
+Rule: generated69495
+(
+(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn69495 --> :pttrn69495.extracted={}
+

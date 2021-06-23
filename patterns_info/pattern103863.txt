@@ -1,0 +1,8 @@
+expected number of vertices and edges
+(NP (NP (VBN )(NN ))(PP (IN )(NP (NNS )(CC )(NNS ))))
+Phase: generated103863
+Input: Token
+Rule: generated103863
+(
+((({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))):pttrn103863 --> :pttrn103863.extracted={}
+

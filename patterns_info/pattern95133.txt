@@ -1,0 +1,8 @@
+for the usage of semantic infor-mation such as concepts that are defined in ontolo-gies
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (JJ )(IN ))))))
+Phase: generated95133
+Input: Token
+Rule: generated95133
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN }))))))):pttrn95133 --> :pttrn95133.extracted={}
+

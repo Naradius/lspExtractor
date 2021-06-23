@@ -1,0 +1,8 @@
+into civil airspace
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated109766
+Input: Token
+Rule: generated109766
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn109766 --> :pttrn109766.extracted={}
+

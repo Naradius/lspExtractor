@@ -1,0 +1,8 @@
+the engineer
+(NP (DT )(NN ))
+Phase: generated89616
+Input: Token
+Rule: generated89616
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn89616 --> :pttrn89616.extracted={}
+

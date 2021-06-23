@@ -1,0 +1,8 @@
+for the orthographic pattern of a token
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated88039
+Input: Token
+Rule: generated88039
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn88039 --> :pttrn88039.extracted={}
+

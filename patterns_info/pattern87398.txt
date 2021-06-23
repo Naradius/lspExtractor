@@ -1,0 +1,8 @@
+competing analyses
+(NP (VBG )(NNS ))
+Phase: generated87398
+Input: Token
+Rule: generated87398
+(
+(({ Token.category == VBG })({ Token.category == NNS }))):pttrn87398 --> :pttrn87398.extracted={}
+

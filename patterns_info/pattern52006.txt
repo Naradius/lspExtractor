@@ -1,0 +1,8 @@
+The trust evalua-tion of a neighbour
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated52006
+Input: Token
+Rule: generated52006
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn52006 --> :pttrn52006.extracted={}
+

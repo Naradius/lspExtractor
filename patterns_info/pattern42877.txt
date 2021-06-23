@@ -1,0 +1,8 @@
+of the DRHT.
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated42877
+Input: Token
+Rule: generated42877
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn42877 --> :pttrn42877.extracted={}
+

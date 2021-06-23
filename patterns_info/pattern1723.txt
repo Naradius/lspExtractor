@@ -1,0 +1,8 @@
+the better  sites neighborhoods
+(NP (DT )(JJR )(NNS ){1,2})
+Phase: generated1723
+Input: Token
+Rule: generated1723
+(
+(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NNS })+)):pttrn1723 --> :pttrn1723.extracted={}
+

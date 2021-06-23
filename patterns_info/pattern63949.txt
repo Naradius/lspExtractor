@@ -1,0 +1,8 @@
+Hunters move
+(NP (NNP )(NN ))
+Phase: generated63949
+Input: Token
+Rule: generated63949
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn63949 --> :pttrn63949.extracted={}
+

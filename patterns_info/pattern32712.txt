@@ -1,0 +1,8 @@
+jitter.Packet Delivery Ratio
+(NP (JJ )(NNP ){1,2})
+Phase: generated32712
+Input: Token
+Rule: generated32712
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn32712 --> :pttrn32712.extracted={}
+

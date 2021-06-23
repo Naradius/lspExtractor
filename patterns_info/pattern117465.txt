@@ -1,0 +1,8 @@
+cannot assume that a particular single sentence contains expected information
+(VP (MD )(VP (VB )(IN )))
+Phase: generated117465
+Input: Token
+Rule: generated117465
+(
+(({ Token.category == MD })(({ Token.category == VB })({ Token.category == IN })))):pttrn117465 --> :pttrn117465.extracted={}
+

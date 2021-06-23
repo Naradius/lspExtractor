@@ -1,0 +1,8 @@
+at the semantic level
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated70094
+Input: Token
+Rule: generated70094
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn70094 --> :pttrn70094.extracted={}
+

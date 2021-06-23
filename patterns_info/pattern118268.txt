@@ -1,0 +1,8 @@
+the motivation or explanation
+(NP (DT )(NN )(CC )(NN ))
+Phase: generated118268
+Input: Token
+Rule: generated118268
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn118268 --> :pttrn118268.extracted={}
+

@@ -1,0 +1,8 @@
+tackled by taking intoconsideration application requirements in a more system-atic manner.In , Yick et al. provide a general survey of wirelesssensor networks
+(VP (VBN )(PP (IN )(VP (VBG )(NP (NN ){1,2}(NNS ))(PP (IN )(NP (NP (DT )(ADJP (JJR )(JJ ))(NN ))(PP (IN )(NP (NP (JJ )(NNP ){1,2}(NN ))(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))))))))))
+Phase: generated49344
+Input: Token
+Rule: generated49344
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })(({ Token.category == JJR })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))))))))):pttrn49344 --> :pttrn49344.extracted={}
+

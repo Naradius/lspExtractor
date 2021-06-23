@@ -1,0 +1,8 @@
+considered source location privacy protection inerms of a statistical method and anonymity
+(VP (VBN )(NP (NP (NN ){1,2}(NNS ))(PP (IN )(NP (DT )(JJ )(NN )(CC )(NN )))))
+Phase: generated62009
+Input: Token
+Rule: generated62009
+(
+(({ Token.category == VBN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn62009 --> :pttrn62009.extracted={}
+

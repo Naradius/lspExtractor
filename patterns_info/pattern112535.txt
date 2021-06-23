@@ -1,0 +1,8 @@
+achieve a FANET
+(VP (VB )(NP (DT )(NNP )))
+Phase: generated112535
+Input: Token
+Rule: generated112535
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP })))):pttrn112535 --> :pttrn112535.extracted={}
+

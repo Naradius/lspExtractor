@@ -1,0 +1,8 @@
+a stationaryscenario
+(NP (DT )(NN ))
+Phase: generated4608
+Input: Token
+Rule: generated4608
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn4608 --> :pttrn4608.extracted={}
+

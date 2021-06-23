@@ -1,0 +1,8 @@
+creating equally performing lexico-syntactic rules, as lexico-semantic rule group cre-ation times were in general one degree of magni-tude smaller than lexico-syntactic rule group cre-ation times
+(VP (VBG )(VP (VBG )(NP (JJ )(NNS ))))
+Phase: generated94643
+Input: Token
+Rule: generated94643
+(
+(({ Token.category == VBG })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn94643 --> :pttrn94643.extracted={}
+

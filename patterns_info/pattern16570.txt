@@ -1,0 +1,8 @@
+the new soft handoffprocedure, which add up to the ability of the VaNetLayerto preserve its state information
+(NP (NP (DT )(JJ ){1,2}(NN ))(VP (VBP )(PRT (RP ))(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )))(VP (VB )(NP (PRP$ )(NN ){1,2}))))))
+Phase: generated16570
+Input: Token
+Rule: generated16570
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == RP }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN })+))))))):pttrn16570 --> :pttrn16570.extracted={}
+

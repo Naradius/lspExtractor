@@ -1,0 +1,8 @@
+using the CHs and nodes
+(VP (VBG )(NP (DT )(NNP )(CC )(NNS )))
+Phase: generated61356
+Input: Token
+Rule: generated61356
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNS })))):pttrn61356 --> :pttrn61356.extracted={}
+

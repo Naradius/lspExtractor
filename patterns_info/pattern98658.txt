@@ -1,0 +1,8 @@
+marked in the  corpus to a sequence of dialogue acts
+(VP (VBD )(PP (IN )(NP (DT )(NN )))(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated98658
+Input: Token
+Rule: generated98658
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn98658 --> :pttrn98658.extracted={}
+

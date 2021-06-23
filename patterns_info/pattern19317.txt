@@ -1,0 +1,8 @@
+of application modules
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated19317
+Input: Token
+Rule: generated19317
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn19317 --> :pttrn19317.extracted={}
+

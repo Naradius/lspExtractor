@@ -1,0 +1,8 @@
+a thorough list
+(NP (DT )(JJ )(NN ))
+Phase: generated72236
+Input: Token
+Rule: generated72236
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn72236 --> :pttrn72236.extracted={}
+

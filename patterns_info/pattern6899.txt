@@ -1,0 +1,8 @@
+single-hopsat the start of each round .Algorithm 1
+(NP (NP (JJ )(DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(CD ))))
+Phase: generated6899
+Input: Token
+Rule: generated6899
+(
+((({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))))):pttrn6899 --> :pttrn6899.extracted={}
+

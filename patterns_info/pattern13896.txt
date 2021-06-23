@@ -1,0 +1,8 @@
+spent in the UNKNOWNand REQUEST states
+(VP (VBN )(PP (IN )(NP (DT )(NNP ){1,2}(NNS ))))
+Phase: generated13896
+Input: Token
+Rule: generated13896
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NNS }))))):pttrn13896 --> :pttrn13896.extracted={}
+

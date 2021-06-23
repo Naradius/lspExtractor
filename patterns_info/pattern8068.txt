@@ -1,0 +1,8 @@
+of a regularnode
+(PP (IN )(NP (DT )(NN )))
+Phase: generated8068
+Input: Token
+Rule: generated8068
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn8068 --> :pttrn8068.extracted={}
+

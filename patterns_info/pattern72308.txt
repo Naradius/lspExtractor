@@ -1,0 +1,8 @@
+with a semantic role labeling technique
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated72308
+Input: Token
+Rule: generated72308
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn72308 --> :pttrn72308.extracted={}
+

@@ -1,0 +1,8 @@
+to the sink
+(PP (TO )(NP (DT )(NN )))
+Phase: generated8794
+Input: Token
+Rule: generated8794
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))):pttrn8794 --> :pttrn8794.extracted={}
+

@@ -1,0 +1,8 @@
+is formed by the LO769P.
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(NNP )))))
+Phase: generated11984
+Input: Token
+Rule: generated11984
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn11984 --> :pttrn11984.extracted={}
+

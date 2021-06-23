@@ -1,0 +1,8 @@
+reliable and energy efficient communications
+(NP (ADJP (JJ )(CC )(NN ))(JJ )(NNS ))
+Phase: generated26325
+Input: Token
+Rule: generated26325
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN }))({ Token.category == JJ })({ Token.category == NNS }))):pttrn26325 --> :pttrn26325.extracted={}
+

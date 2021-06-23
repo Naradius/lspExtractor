@@ -1,0 +1,8 @@
+the interaction of Fog Data Server  withIoT devices and Cloud Data Server  in terms of the designmodel
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP ){1,2}(NN )(NNS ))(CC ))))
+Phase: generated20792
+Input: Token
+Rule: generated20792
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn20792 --> :pttrn20792.extracted={}
+

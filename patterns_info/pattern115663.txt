@@ -1,0 +1,8 @@
+for various search domains and for various implementations of PT generalization	Query type	Query complexity	Relevance of baseline Bing search, %
+(PP (PP (IN )(NP (JJ )(NN )(NNS )))(CC ))
+Phase: generated115663
+Input: Token
+Rule: generated115663
+(
+((({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))({ Token.category == CC }))):pttrn115663 --> :pttrn115663.extracted={}
+

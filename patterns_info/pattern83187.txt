@@ -1,0 +1,8 @@
+sentence and the space and hyphen thatfollow the neighborhood
+(NP (CC )(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated83187
+Input: Token
+Rule: generated83187
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn83187 --> :pttrn83187.extracted={}
+

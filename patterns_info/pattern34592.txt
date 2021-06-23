@@ -1,0 +1,8 @@
+generates a signature
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated34592
+Input: Token
+Rule: generated34592
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn34592 --> :pttrn34592.extracted={}
+

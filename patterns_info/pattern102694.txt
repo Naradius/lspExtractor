@@ -1,0 +1,8 @@
+by two terminal vertices and one nonterminal vertex, which areconnected by means of two n edges
+(PP (IN )(NP (NP (CD )(JJ )(NNS ))(CC )(NP (CD )(JJ )(NN ))))
+Phase: generated102694
+Input: Token
+Rule: generated102694
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))))):pttrn102694 --> :pttrn102694.extracted={}
+

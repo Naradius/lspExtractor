@@ -1,0 +1,8 @@
+an inter-annotator agreement of at least 66%
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (QP (IN )(JJS )(CD ))(NN ))))
+Phase: generated93917
+Input: Token
+Rule: generated93917
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == IN })({ Token.category == JJS })({ Token.category == CD }))({ Token.category == NN }))))):pttrn93917 --> :pttrn93917.extracted={}
+

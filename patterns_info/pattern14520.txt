@@ -1,0 +1,8 @@
+modifiedthe backup designation process to ensure that the number ofbackup nodes in a region remains within certain minimum andmaximum values
+(VP (VB )(NP (JJ )(NN ){1,2})(VP (TO )(VP (VB )(IN ))))
+Phase: generated14520
+Input: Token
+Rule: generated14520
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN }))))):pttrn14520 --> :pttrn14520.extracted={}
+

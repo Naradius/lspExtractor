@@ -1,0 +1,8 @@
+For a logic form
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated70161
+Input: Token
+Rule: generated70161
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn70161 --> :pttrn70161.extracted={}
+

@@ -1,0 +1,8 @@
+explain this topological exposure problem
+(VP (VB )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated107763
+Input: Token
+Rule: generated107763
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn107763 --> :pttrn107763.extracted={}
+

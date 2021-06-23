@@ -1,0 +1,8 @@
+by reducing them to their root using the stemming process
+(PP (IN )(VP (VBG )(PP (TO )(NP (PRP$ )(NN )))(VP (VBG )(NP (DT )(JJ )(NN )))))
+Phase: generated85178
+Input: Token
+Rule: generated85178
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN })))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn85178 --> :pttrn85178.extracted={}
+

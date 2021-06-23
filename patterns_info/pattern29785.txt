@@ -1,0 +1,8 @@
+use the model described inthis paper
+(VP (VB )(NP (DT )(NN )))
+Phase: generated29785
+Input: Token
+Rule: generated29785
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn29785 --> :pttrn29785.extracted={}
+

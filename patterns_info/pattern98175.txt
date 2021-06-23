@@ -1,0 +1,8 @@
+the plurals form
+(NP (DT )(NNS )(NN ))
+Phase: generated98175
+Input: Token
+Rule: generated98175
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))):pttrn98175 --> :pttrn98175.extracted={}
+

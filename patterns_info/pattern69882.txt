@@ -1,0 +1,8 @@
+Cat swarm optimization
+(NP (NNP )(JJ )(NN ))
+Phase: generated69882
+Input: Token
+Rule: generated69882
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))):pttrn69882 --> :pttrn69882.extracted={}
+

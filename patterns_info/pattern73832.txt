@@ -1,0 +1,8 @@
+two entitytypes
+(NP (CD )(NNS ))
+Phase: generated73832
+Input: Token
+Rule: generated73832
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn73832 --> :pttrn73832.extracted={}
+

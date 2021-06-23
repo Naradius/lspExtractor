@@ -1,0 +1,8 @@
+a few documents,which included the routing requirements for four specific IoT ap-plications, i.e., Urban  , Industrial  , Home automation  , andBuilding automation
+(NP (NP (DT )(JJ )(NNS ))(VP (VBD )(NP (NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (CD )(JJ )(NNP )(NNS ))))(PP (IN )(NP (NP (NNP )(NN ))(NP (DT )(NN )))))))
+Phase: generated25280
+Input: Token
+Rule: generated25280
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBD })(((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })))))))):pttrn25280 --> :pttrn25280.extracted={}
+

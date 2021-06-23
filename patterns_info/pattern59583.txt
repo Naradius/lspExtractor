@@ -1,0 +1,8 @@
+per-orming energy efficient routing
+(NP (JJ )(NN )(JJ )(NN ))
+Phase: generated59583
+Input: Token
+Rule: generated59583
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))):pttrn59583 --> :pttrn59583.extracted={}
+

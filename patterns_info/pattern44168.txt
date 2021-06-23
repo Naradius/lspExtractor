@@ -1,0 +1,8 @@
+random number between 0 and 1
+(NP (NP (JJ )(NN ))(PP (IN )(NP (CD )(CC )(CD ))))
+Phase: generated44168
+Input: Token
+Rule: generated44168
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == CC })({ Token.category == CD }))))):pttrn44168 --> :pttrn44168.extracted={}
+

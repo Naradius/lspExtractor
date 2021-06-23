@@ -1,0 +1,8 @@
+a closer look at MAC schemes in otherwireless networks
+(NP (NP (DT )(JJR )(NN ))(PP (IN )(NP (NP (NNP )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated44361
+Input: Token
+Rule: generated44361
+(
+((({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn44361 --> :pttrn44361.extracted={}
+

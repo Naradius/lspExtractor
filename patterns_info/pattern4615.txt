@@ -1,0 +1,8 @@
+occasionalbeaconing to avoid significant overhead
+(VP (VBG )(VP (TO )(VP (VB )(NP (JJ )(NN )))))
+Phase: generated4615
+Input: Token
+Rule: generated4615
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn4615 --> :pttrn4615.extracted={}
+

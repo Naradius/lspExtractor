@@ -1,0 +1,8 @@
+t andeach class c two functions
+(PP (IN )(NP (DT )(NN )(JJ )(CD )(NNS )))
+Phase: generated86545
+Input: Token
+Rule: generated86545
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS })))):pttrn86545 --> :pttrn86545.extracted={}
+

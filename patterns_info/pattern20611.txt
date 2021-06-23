@@ -1,0 +1,8 @@
+the proposed resource management tech-ique  for Fog-assisted Cloud resource management formart homes
+(NP (NP (DT )(VBN )(NN ){1,2})(PP (IN )(NP (JJ )(NNP )(NN ){1,2}(NNS ))))
+Phase: generated20611
+Input: Token
+Rule: generated20611
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn20611 --> :pttrn20611.extracted={}
+

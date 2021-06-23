@@ -1,0 +1,8 @@
+in British English
+(PP (IN )(NP (JJ )(NNP )))
+Phase: generated89303
+Input: Token
+Rule: generated89303
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })))):pttrn89303 --> :pttrn89303.extracted={}
+

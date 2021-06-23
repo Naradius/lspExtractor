@@ -1,0 +1,8 @@
+is currently pursuing herPh.D. degree at the CNRS Heudiasyc Labora-tory, University of Technology of Compiegne,France
+(VP (VBZ )(VP (VBG )(NP (PRP$ )(NN ))))
+Phase: generated49122
+Input: Token
+Rule: generated49122
+(
+(({ Token.category == VBZ })(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn49122 --> :pttrn49122.extracted={}
+

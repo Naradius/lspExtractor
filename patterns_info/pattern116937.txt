@@ -1,0 +1,8 @@
+Semantic analysis and classification method
+(NP (JJ )(NN )(CC )(NN ){1,2})
+Phase: generated116937
+Input: Token
+Rule: generated116937
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)):pttrn116937 --> :pttrn116937.extracted={}
+

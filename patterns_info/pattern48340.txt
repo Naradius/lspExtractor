@@ -1,0 +1,8 @@
+for optical communicationand sensing
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated48340
+Input: Token
+Rule: generated48340
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn48340 --> :pttrn48340.extracted={}
+

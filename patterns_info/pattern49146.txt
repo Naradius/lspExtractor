@@ -1,0 +1,8 @@
+security,unicast/multicast communications
+(NP (NN ){1,2}(NNS ))
+Phase: generated49146
+Input: Token
+Rule: generated49146
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn49146 --> :pttrn49146.extracted={}
+

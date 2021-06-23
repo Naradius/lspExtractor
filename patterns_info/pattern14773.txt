@@ -1,0 +1,8 @@
+this sourceof problems
+(NP (DT )(JJ )(NNS ))
+Phase: generated14773
+Input: Token
+Rule: generated14773
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn14773 --> :pttrn14773.extracted={}
+

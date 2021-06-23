@@ -1,0 +1,8 @@
+used to store domain-specific knowledge in the form of concepts , together with associated inter-concept relations
+(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NN ))(ADVP (RB )(PP (IN )(NP (JJ ){1,2}(NNS )))))))
+Phase: generated95007
+Input: Token
+Rule: generated95007
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))))):pttrn95007 --> :pttrn95007.extracted={}
+

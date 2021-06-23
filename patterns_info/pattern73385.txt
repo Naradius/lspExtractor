@@ -1,0 +1,8 @@
+the knowledge distilling process
+(NP (DT )(NN ){1,2})
+Phase: generated73385
+Input: Token
+Rule: generated73385
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn73385 --> :pttrn73385.extracted={}
+

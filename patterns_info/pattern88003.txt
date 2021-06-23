@@ -1,0 +1,8 @@
+summarises the semantics of the operators by stating the result when the operatoris applied between arguments of each type, including variables
+(VP (VBZ )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS ))))(PP (IN )(VP (VBG )(NP (DT )(NN )))))
+Phase: generated88003
+Input: Token
+Rule: generated88003
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))))):pttrn88003 --> :pttrn88003.extracted={}
+

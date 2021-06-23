@@ -1,0 +1,8 @@
+constructed automatically from syntactic parse trees and support semantic classification task
+(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NNS )(CC )(NN )(JJ )(NN ){1,2})))
+Phase: generated70348
+Input: Token
+Rule: generated70348
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn70348 --> :pttrn70348.extracted={}
+

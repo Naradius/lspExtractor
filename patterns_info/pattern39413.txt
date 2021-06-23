@@ -1,0 +1,8 @@
+of recent IoT Botnet threats such as Mirai
+(PP (IN )(NP (NP (JJ )(NNP ){1,2}(NNS ))(PP (JJ )(IN ))))
+Phase: generated39413
+Input: Token
+Rule: generated39413
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn39413 --> :pttrn39413.extracted={}
+

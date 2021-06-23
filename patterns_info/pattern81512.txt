@@ -1,0 +1,8 @@
+a growing need forsystems that extract information automatically from text data
+(NP (NP (DT )(VBG )(NN )(NNS ))(VP (VB )(PP (IN )(NP (NN )(NNS )))))
+Phase: generated81512
+Input: Token
+Rule: generated81512
+(
+((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn81512 --> :pttrn81512.extracted={}
+

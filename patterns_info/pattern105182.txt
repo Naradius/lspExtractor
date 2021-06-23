@@ -1,0 +1,8 @@
+motivated us to develop the no-tion of layered context-sensitive graph grammars, together with a bottom-up/top-down parsingalgorithm.1
+(VP (VBD )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NN )(NNS ))))(ADVP (RB )(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated105182
+Input: Token
+Rule: generated105182
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn105182 --> :pttrn105182.extracted={}
+

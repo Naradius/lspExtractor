@@ -1,0 +1,8 @@
+to merge  the phrase  its nuclear development  with evidence against it to obtain evidence against its nuclear development
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated114320
+Input: Token
+Rule: generated114320
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn114320 --> :pttrn114320.extracted={}
+

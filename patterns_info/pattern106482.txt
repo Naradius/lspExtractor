@@ -1,0 +1,8 @@
+itspossible tags in an external lexicon
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated106482
+Input: Token
+Rule: generated106482
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn106482 --> :pttrn106482.extracted={}
+

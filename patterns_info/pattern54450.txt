@@ -1,0 +1,8 @@
+the transmitter or receiver circuitry
+(NP (DT )(NN )(CC )(NN ){1,2})
+Phase: generated54450
+Input: Token
+Rule: generated54450
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)):pttrn54450 --> :pttrn54450.extracted={}
+

@@ -1,0 +1,8 @@
+will work in two phases
+(VP (MD )(VP (VB )(PP (IN )(NP (CD )(NNS )))))
+Phase: generated90547
+Input: Token
+Rule: generated90547
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn90547 --> :pttrn90547.extracted={}
+

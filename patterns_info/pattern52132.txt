@@ -1,0 +1,8 @@
+to tackle energyconsumption at all layers, especially at the network, MACand physical layers
+(VP (TO )(VP (VB )(NP (NP (ADVP (IN )(DT ))(NNS ))(PP (IN )(NP (NP (DT )(NN ))(NP (NNP )(JJ )(NNS )))))))
+Phase: generated52132
+Input: Token
+Rule: generated52132
+(
+(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == IN })({ Token.category == DT }))({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn52132 --> :pttrn52132.extracted={}
+

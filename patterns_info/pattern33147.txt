@@ -1,0 +1,8 @@
+therouting counter
+(NP (DT )(NN ))
+Phase: generated33147
+Input: Token
+Rule: generated33147
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn33147 --> :pttrn33147.extracted={}
+

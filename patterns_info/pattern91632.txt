@@ -1,0 +1,8 @@
+are called bigwordlist and bigbigramlist and are constructed from thelarge unannotated corpus
+(VP (VP (VBP )(VP (VBN )(ADJP (JJ )(CC )(JJ ))))(CC )(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NN ))))))
+Phase: generated91632
+Input: Token
+Rule: generated91632
+(
+((({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))))({ Token.category == CC })(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))))):pttrn91632 --> :pttrn91632.extracted={}
+

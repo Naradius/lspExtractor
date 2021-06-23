@@ -1,0 +1,8 @@
+these WSNs
+(NP (DT )(NNP ))
+Phase: generated66876
+Input: Token
+Rule: generated66876
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn66876 --> :pttrn66876.extracted={}
+

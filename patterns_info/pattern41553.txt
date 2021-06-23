@@ -1,0 +1,8 @@
+such as the IoT , drones  , smart grids , etc.To set up a protocol that meets the needs of new technologies as justdescribed above
+(PP (JJ )(IN )(NP (NP (NP (DT )(NNP ))(NP (JJ )(NNS ))(FW ))(VP (TO )(VP (VB )(PRT (RP ))(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS ))))(PP (IN )(NP (JJ )(NN )))))))))
+Phase: generated41553
+Input: Token
+Rule: generated41553
+(
+(({ Token.category == JJ })({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == FW }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RP }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn41553 --> :pttrn41553.extracted={}
+

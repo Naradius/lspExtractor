@@ -1,0 +1,8 @@
+consults the most recent spectrummap
+(VP (VBZ )(NP (DT )(ADJP (RBS )(JJ ))(NN )))
+Phase: generated22327
+Input: Token
+Rule: generated22327
+(
+(({ Token.category == VBZ })(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN })))):pttrn22327 --> :pttrn22327.extracted={}
+

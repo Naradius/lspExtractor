@@ -1,0 +1,8 @@
+isextremely important in some sensor networkapplications
+(ADJP (RB )(JJ )(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated45262
+Input: Token
+Rule: generated45262
+(
+(({ Token.category == RB })({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn45262 --> :pttrn45262.extracted={}
+

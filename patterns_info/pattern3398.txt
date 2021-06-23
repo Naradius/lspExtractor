@@ -1,0 +1,8 @@
+to one-hop delay  anda random offset to ensure its subsequent transmission doesnot self-interfere
+(PP (TO )(NP (NP (JJ )(NN ))(NP (DT )(JJ )(NN ))))
+Phase: generated3398
+Input: Token
+Rule: generated3398
+(
+(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn3398 --> :pttrn3398.extracted={}
+

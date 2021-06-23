@@ -1,0 +1,8 @@
+of label wildcards
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated102840
+Input: Token
+Rule: generated102840
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn102840 --> :pttrn102840.extracted={}
+

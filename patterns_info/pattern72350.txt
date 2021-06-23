@@ -1,0 +1,8 @@
+web documents
+(NP (NN )(NNS ))
+Phase: generated72350
+Input: Token
+Rule: generated72350
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn72350 --> :pttrn72350.extracted={}
+

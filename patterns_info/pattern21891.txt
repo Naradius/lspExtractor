@@ -1,0 +1,8 @@
+the overallsystem throughput
+(NP (DT )(NN ){1,2})
+Phase: generated21891
+Input: Token
+Rule: generated21891
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn21891 --> :pttrn21891.extracted={}
+

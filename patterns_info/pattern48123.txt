@@ -1,0 +1,8 @@
+the wireless medium, andpromotes cooperative efforts of sensor nodes
+(NP (NP (DT )(JJ )(NN )(NNS )(JJ )(NNS ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated48123
+Input: Token
+Rule: generated48123
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn48123 --> :pttrn48123.extracted={}
+

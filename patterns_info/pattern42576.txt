@@ -1,0 +1,8 @@
+especially after the expiration of the TTL of the bundles
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NNS )))))))
+Phase: generated42576
+Input: Token
+Rule: generated42576
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn42576 --> :pttrn42576.extracted={}
+

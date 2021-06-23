@@ -1,0 +1,8 @@
+a major bottleneck to this potential
+(NP (NP (DT )(JJ )(NN ))(PP (TO )(NP (DT )(NN ))))
+Phase: generated77546
+Input: Token
+Rule: generated77546
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn77546 --> :pttrn77546.extracted={}
+

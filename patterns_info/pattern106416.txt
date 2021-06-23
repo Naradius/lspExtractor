@@ -1,0 +1,8 @@
+the train-ing process
+(NP (DT )(NN ){1,2})
+Phase: generated106416
+Input: Token
+Rule: generated106416
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn106416 --> :pttrn106416.extracted={}
+

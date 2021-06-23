@@ -1,0 +1,8 @@
+a near uniform battery
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated5112
+Input: Token
+Rule: generated5112
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn5112 --> :pttrn5112.extracted={}
+

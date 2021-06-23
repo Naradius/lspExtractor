@@ -1,0 +1,8 @@
+of the context.The lexico-semantic pattern language
+(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2}))
+Phase: generated92356
+Input: Token
+Rule: generated92356
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))):pttrn92356 --> :pttrn92356.extracted={}
+

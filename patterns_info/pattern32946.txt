@@ -1,0 +1,8 @@
+contains arouting table
+(VP (VBZ )(NP (VBG )(NN )))
+Phase: generated32946
+Input: Token
+Rule: generated32946
+(
+(({ Token.category == VBZ })(({ Token.category == VBG })({ Token.category == NN })))):pttrn32946 --> :pttrn32946.extracted={}
+

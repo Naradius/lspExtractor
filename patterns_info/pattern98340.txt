@@ -1,0 +1,8 @@
+is an essential part of any NLP system, since the characters, words, and sentences identified at this stage are the fundamental units passed to all further processing stages, from analysis and tagging components, such as morphological analyzers and part-of-speech taggers, through applications, such as information retrieval and machine translation systems
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NNP )(NN )))))
+Phase: generated98340
+Input: Token
+Rule: generated98340
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn98340 --> :pttrn98340.extracted={}
+

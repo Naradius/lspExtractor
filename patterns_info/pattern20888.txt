@@ -1,0 +1,8 @@
+closest CDS for further processing
+(VP (VB )(PP (IN )(NP (JJ )(NN ))))
+Phase: generated20888
+Input: Token
+Rule: generated20888
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn20888 --> :pttrn20888.extracted={}
+

@@ -1,0 +1,8 @@
+upon LEACH protocol
+(PP (IN )(NP (NNP )(NN )))
+Phase: generated58126
+Input: Token
+Rule: generated58126
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn58126 --> :pttrn58126.extracted={}
+

@@ -1,0 +1,8 @@
+in the SLPRR
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated61717
+Input: Token
+Rule: generated61717
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn61717 --> :pttrn61717.extracted={}
+

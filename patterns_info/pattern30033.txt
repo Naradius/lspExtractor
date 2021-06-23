@@ -1,0 +1,8 @@
+the multiplex usingthe data
+(NP (DT )(JJ )(NNP )(NNS ))
+Phase: generated30033
+Input: Token
+Rule: generated30033
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))):pttrn30033 --> :pttrn30033.extracted={}
+

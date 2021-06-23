@@ -1,0 +1,8 @@
+2 Related work	2.1 Signature
+(NP (CD )(JJ )(NN )(CD )(NN ))
+Phase: generated38686
+Input: Token
+Rule: generated38686
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD })({ Token.category == NN }))):pttrn38686 --> :pttrn38686.extracted={}
+

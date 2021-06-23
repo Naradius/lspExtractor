@@ -1,0 +1,8 @@
+channel-dependent variable key shares
+(NP (NN )(JJ )(NN )(NNS ))
+Phase: generated67228
+Input: Token
+Rule: generated67228
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn67228 --> :pttrn67228.extracted={}
+

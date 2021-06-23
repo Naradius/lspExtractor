@@ -1,0 +1,8 @@
+other evidence such as part of speech or semantic classes when available
+(NP (NP (JJ )(NN ))(PP (JJ )(IN )(NP (NP (CC )(NP (JJ )(NNS )))(WHADVP (WRB )))))
+Phase: generated79747
+Input: Token
+Rule: generated79747
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == WRB })))))):pttrn79747 --> :pttrn79747.extracted={}
+

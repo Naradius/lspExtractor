@@ -1,0 +1,8 @@
+to the process of extracting interesting and non-trivial patterns or knowledgefrom unstructured text documents
+(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (NP (ADJP (JJ )(CC )(JJ ))(NNS ))(CC )(NP (NN )(JJ )(NN )(NNS )))))))
+Phase: generated76879
+Input: Token
+Rule: generated76879
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn76879 --> :pttrn76879.extracted={}
+

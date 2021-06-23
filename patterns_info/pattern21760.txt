@@ -1,0 +1,8 @@
+primary receiverprotection and optimize desired routing performance metric atthe same time
+(NP (NP (JJ )(NN ))(CC ))
+Phase: generated21760
+Input: Token
+Rule: generated21760
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))):pttrn21760 --> :pttrn21760.extracted={}
+

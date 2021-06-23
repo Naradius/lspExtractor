@@ -1,0 +1,8 @@
+by an additional signal  mixed with the regular traffic passing through the router andlling the buffer
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ){1,2}))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN )))))))
+Phase: generated110449
+Input: Token
+Rule: generated110449
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn110449 --> :pttrn110449.extracted={}
+

@@ -1,0 +1,8 @@
+fixed-node and mobile-node scenarios
+(NP (ADJP (JJ )(CC )(JJ ))(NNS ))
+Phase: generated26991
+Input: Token
+Rule: generated26991
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn26991 --> :pttrn26991.extracted={}
+

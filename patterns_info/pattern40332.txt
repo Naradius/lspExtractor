@@ -1,0 +1,8 @@
+can use differ-ent DTN routing protocols, which greatly affects network connectivity.Thus, setting up a new reliable and scalable DTN protocol
+(VP (MD )(VP (VB )(NP (NP (JJ )(NNP )(NN )(NNS ))(VP (VBZ )(VP (VBG )(PRT (RP ))(NP (DT )(JJ ){1,2}(CC )(JJ )(NNP )(NN )))))))
+Phase: generated40332
+Input: Token
+Rule: generated40332
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == VBG })(({ Token.category == RP }))(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })))))))):pttrn40332 --> :pttrn40332.extracted={}
+

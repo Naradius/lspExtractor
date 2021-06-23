@@ -1,0 +1,8 @@
+o  i  l  t  t
+(PP (IN )(NP (PRP$ )(JJ )(NN ){1,2}))
+Phase: generated61803
+Input: Token
+Rule: generated61803
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+))):pttrn61803 --> :pttrn61803.extracted={}
+

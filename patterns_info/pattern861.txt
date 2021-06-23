@@ -1,0 +1,8 @@
+by the maximum distance between the cluster 2070 head and its members
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN )(CD )(NN ))(CC )(NP (PRP$ )(NNS ))))))
+Phase: generated861
+Input: Token
+Rule: generated861
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NNS }))))))):pttrn861 --> :pttrn861.extracted={}
+

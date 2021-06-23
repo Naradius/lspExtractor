@@ -1,0 +1,8 @@
+between query and a relevant document
+(PP (IN )(NP (CC )(NP (DT )(JJ )(NN ))))
+Phase: generated96342
+Input: Token
+Rule: generated96342
+(
+(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn96342 --> :pttrn96342.extracted={}
+

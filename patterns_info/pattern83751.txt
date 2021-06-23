@@ -1,0 +1,8 @@
+comprising over 10,000 instances
+(VP (VBG )(PP (IN )(NP (CD )(NNS ))))
+Phase: generated83751
+Input: Token
+Rule: generated83751
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))):pttrn83751 --> :pttrn83751.extracted={}
+

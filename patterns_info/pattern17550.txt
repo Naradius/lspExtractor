@@ -1,0 +1,8 @@
+at one hop scope
+(PP (IN )(NP (CD )(NN ){1,2}))
+Phase: generated17550
+Input: Token
+Rule: generated17550
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })+))):pttrn17550 --> :pttrn17550.extracted={}
+

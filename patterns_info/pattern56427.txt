@@ -1,0 +1,8 @@
+as for as lifetime concern as the energy level doublesthe number of rounds are also doubled for almost all cases like5050, 100100 and 200200 network area.Lindsey et al.  have proposed PEGASIS protocol which is,chain based, that minimizes the energy consumption in the net-work
+(PP (RB )(IN ))
+Phase: generated56427
+Input: Token
+Rule: generated56427
+(
+(({ Token.category == RB })({ Token.category == IN }))):pttrn56427 --> :pttrn56427.extracted={}
+

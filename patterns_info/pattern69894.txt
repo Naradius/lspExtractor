@@ -1,0 +1,8 @@
+random-ized scheduling
+(NP (JJ )(NN ))
+Phase: generated69894
+Input: Token
+Rule: generated69894
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn69894 --> :pttrn69894.extracted={}
+

@@ -1,0 +1,8 @@
+in the clusters
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated32012
+Input: Token
+Rule: generated32012
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn32012 --> :pttrn32012.extracted={}
+

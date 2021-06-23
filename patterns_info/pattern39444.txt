@@ -1,0 +1,8 @@
+employing deep packet inspection techniques.2.3
+(VP (VBG )(NP (JJ )(NN ){1,2}(NNS )))
+Phase: generated39444
+Input: Token
+Rule: generated39444
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn39444 --> :pttrn39444.extracted={}
+

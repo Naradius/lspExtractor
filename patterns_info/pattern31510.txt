@@ -1,0 +1,8 @@
+have been suggested to classify the differentkinds of family clustering algorithms
+(VP (VBP )(VP (VBN )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (NN ){1,2}(NNS )))))))))
+Phase: generated31510
+Input: Token
+Rule: generated31510
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))))))))):pttrn31510 --> :pttrn31510.extracted={}
+

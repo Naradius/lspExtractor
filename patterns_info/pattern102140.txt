@@ -1,0 +1,8 @@
+the surrounding of a replaced nonterminal andits replacing terminals.In the previous section we have extended the left- and right-hand sides of productions withcontext elements, in order to be able to create edges between new vertices and preserved ver-tices in the rewritten host graph
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(VBN )(JJ )(NNS ))(VP (VBG )(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated102140
+Input: Token
+Rule: generated102140
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn102140 --> :pttrn102140.extracted={}
+

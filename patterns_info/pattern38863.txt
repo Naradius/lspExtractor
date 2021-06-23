@@ -1,0 +1,8 @@
+across the world
+(PP (IN )(NP (DT )(NN )))
+Phase: generated38863
+Input: Token
+Rule: generated38863
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn38863 --> :pttrn38863.extracted={}
+

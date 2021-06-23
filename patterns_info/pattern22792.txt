@@ -1,0 +1,8 @@
+corresponding payoffs
+(NP (JJ )(NNS ))
+Phase: generated22792
+Input: Token
+Rule: generated22792
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn22792 --> :pttrn22792.extracted={}
+

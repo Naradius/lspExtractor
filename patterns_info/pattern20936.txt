@@ -1,0 +1,8 @@
+b  c  w  t
+(VP (VB )(NP (JJ )(NN ){1,2}))
+Phase: generated20936
+Input: Token
+Rule: generated20936
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn20936 --> :pttrn20936.extracted={}
+

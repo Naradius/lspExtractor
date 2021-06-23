@@ -1,0 +1,8 @@
+are also the part of this category.Xiaoping et al
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(VBG )(FW )(NN )))))
+Phase: generated55984
+Input: Token
+Rule: generated55984
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == VBG })({ Token.category == FW })({ Token.category == NN })))))):pttrn55984 --> :pttrn55984.extracted={}
+

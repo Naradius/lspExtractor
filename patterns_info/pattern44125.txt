@@ -1,0 +1,8 @@
+is a clustering-based protocolthat minimizes energy dissipation in sensor net-works
+(VP (VBZ )(NP (NP (DT )(JJ )(NN )(NNS )(NN ){1,2})(PP (IN )(NP (NN )(NNS )))))
+Phase: generated44125
+Input: Token
+Rule: generated44125
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn44125 --> :pttrn44125.extracted={}
+

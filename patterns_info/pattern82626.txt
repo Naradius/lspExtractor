@@ -1,0 +1,8 @@
+are added to the text
+(VP (VBP )(VP (VBN )(PP (TO )(NP (DT )(NN )))))
+Phase: generated82626
+Input: Token
+Rule: generated82626
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn82626 --> :pttrn82626.extracted={}
+

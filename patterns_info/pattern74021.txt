@@ -1,0 +1,8 @@
+between patient language and the UnifiedMedical Language System  Metathesaurus
+(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (DT )(NNP ){1,2})))
+Phase: generated74021
+Input: Token
+Rule: generated74021
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })+)))):pttrn74021 --> :pttrn74021.extracted={}
+

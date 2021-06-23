@@ -1,0 +1,8 @@
+Various clusteringr B.V.
+(NP (JJ )(NN )(NNP ))
+Phase: generated5903
+Input: Token
+Rule: generated5903
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))):pttrn5903 --> :pttrn5903.extracted={}
+

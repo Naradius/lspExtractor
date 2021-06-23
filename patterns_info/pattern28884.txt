@@ -1,0 +1,8 @@
+nearly 15%
+(NP (QP (RB )(CD ))(NN ))
+Phase: generated28884
+Input: Token
+Rule: generated28884
+(
+((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NN }))):pttrn28884 --> :pttrn28884.extracted={}
+

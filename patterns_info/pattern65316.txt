@@ -1,0 +1,8 @@
+the enemypresence or border violations
+(NP (DT )(NN )(CC )(NN )(NNS ))
+Phase: generated65316
+Input: Token
+Rule: generated65316
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn65316 --> :pttrn65316.extracted={}
+

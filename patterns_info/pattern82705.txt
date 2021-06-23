@@ -1,0 +1,8 @@
+be inthe same eld as the passive tag
+(VP (VB )(NP (DT )(JJ ){1,2})(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated82705
+Input: Token
+Rule: generated82705
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn82705 --> :pttrn82705.extracted={}
+

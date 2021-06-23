@@ -1,0 +1,8 @@
+be seen that the attackers tamperingsuccess rate decreases exponentially with the increase of theblock gap
+(VP (VB )(VP (VBN )(IN )))
+Phase: generated37140
+Input: Token
+Rule: generated37140
+(
+(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN })))):pttrn37140 --> :pttrn37140.extracted={}
+

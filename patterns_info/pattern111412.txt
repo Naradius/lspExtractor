@@ -1,0 +1,8 @@
+to the ground station
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated111412
+Input: Token
+Rule: generated111412
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn111412 --> :pttrn111412.extracted={}
+

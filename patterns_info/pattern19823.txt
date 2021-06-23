@@ -1,0 +1,8 @@
+both GFC and VRP
+(NP (DT )(NNP )(CC )(NNP ))
+Phase: generated19823
+Input: Token
+Rule: generated19823
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn19823 --> :pttrn19823.extracted={}
+

@@ -1,0 +1,8 @@
+to general domain
+(PP (TO )(NP (JJ )(NN )))
+Phase: generated96904
+Input: Token
+Rule: generated96904
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })))):pttrn96904 --> :pttrn96904.extracted={}
+

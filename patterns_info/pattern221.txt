@@ -1,0 +1,8 @@
+have received more attention by researchers because such algorithms try to keep the network performance in an acceptable level even though the network may consist of many mobile nodes
+(VP (VBP )(VP (VBN )(NP (JJR )(NN ))(IN )))
+Phase: generated221
+Input: Token
+Rule: generated221
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJR })({ Token.category == NN }))({ Token.category == IN })))):pttrn221 --> :pttrn221.extracted={}
+

@@ -1,0 +1,8 @@
+this disproportion
+(NP (DT )(NN ))
+Phase: generated26989
+Input: Token
+Rule: generated26989
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn26989 --> :pttrn26989.extracted={}
+

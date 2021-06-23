@@ -1,0 +1,8 @@
+a region
+(NP (DT )(NN ))
+Phase: generated16002
+Input: Token
+Rule: generated16002
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn16002 --> :pttrn16002.extracted={}
+

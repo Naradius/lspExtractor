@@ -1,0 +1,8 @@
+To demonstrate the efficiency of the IoTslicing technique
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated29568
+Input: Token
+Rule: generated29568
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn29568 --> :pttrn29568.extracted={}
+

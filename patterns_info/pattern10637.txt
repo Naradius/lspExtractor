@@ -1,0 +1,8 @@
+residual energy.algorithm
+(NP (JJ )(NN ){1,2})
+Phase: generated10637
+Input: Token
+Rule: generated10637
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn10637 --> :pttrn10637.extracted={}
+

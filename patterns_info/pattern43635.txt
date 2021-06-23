@@ -1,0 +1,8 @@
+over delay tolerant networks
+(PP (IN )(NP (NN )(JJ )(NNS )))
+Phase: generated43635
+Input: Token
+Rule: generated43635
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))):pttrn43635 --> :pttrn43635.extracted={}
+

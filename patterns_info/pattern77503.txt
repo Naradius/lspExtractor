@@ -1,0 +1,8 @@
+web scale text collections
+(NP (NN ){1,2}(NNS ))
+Phase: generated77503
+Input: Token
+Rule: generated77503
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn77503 --> :pttrn77503.extracted={}
+

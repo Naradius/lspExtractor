@@ -1,0 +1,8 @@
+numerous distributed wirelesssensors
+(NP (JJ ){1,2}(NNS ))
+Phase: generated12161
+Input: Token
+Rule: generated12161
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn12161 --> :pttrn12161.extracted={}
+

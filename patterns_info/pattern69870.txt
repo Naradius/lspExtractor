@@ -1,0 +1,8 @@
+this paper.References M. Prauzek, P.Musilek, A. G.Watts, andM.Michalikova, Pow-ering environmental monitoring systems in arctic regions: asimulation study, Elektronika ir Elektrotechnika, vol
+(NP (NP (DT )(NNS )(NNP ){1,2})(NP (NNP )(NN )(NNP ))(CC ))
+Phase: generated69870
+Input: Token
+Rule: generated69870
+(
+((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NNP })+)(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP }))({ Token.category == CC }))):pttrn69870 --> :pttrn69870.extracted={}
+

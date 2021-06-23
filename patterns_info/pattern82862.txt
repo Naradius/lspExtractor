@@ -1,0 +1,8 @@
+has determined that theinstance contains no relevant information.Instances that have been tagged by the user are referred to in this paper astraining instances and collectively as the training set
+(VP (VBZ )(VP (VBN )(IN )))
+Phase: generated82862
+Input: Token
+Rule: generated82862
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == IN })))):pttrn82862 --> :pttrn82862.extracted={}
+

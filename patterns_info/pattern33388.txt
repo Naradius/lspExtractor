@@ -1,0 +1,8 @@
+the next node accord-ing
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated33388
+Input: Token
+Rule: generated33388
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn33388 --> :pttrn33388.extracted={}
+

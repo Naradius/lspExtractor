@@ -1,0 +1,8 @@
+in logarithmic scale
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated76372
+Input: Token
+Rule: generated76372
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn76372 --> :pttrn76372.extracted={}
+

@@ -1,0 +1,8 @@
+used to discard useless sub-derivations as soon as possible.Over here we will sketch the main ideas of such a parsing algorithm
+(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NNS )))))
+Phase: generated103610
+Input: Token
+Rule: generated103610
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn103610 --> :pttrn103610.extracted={}
+

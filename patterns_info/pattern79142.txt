@@ -1,0 +1,8 @@
+breaking recall of 50% in others?Rules in the form of regular expressions
+(VP (VBG )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated79142
+Input: Token
+Rule: generated79142
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn79142 --> :pttrn79142.extracted={}
+

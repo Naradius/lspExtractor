@@ -1,0 +1,8 @@
+the matchertries
+(NP (DT )(NNS ))
+Phase: generated93506
+Input: Token
+Rule: generated93506
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn93506 --> :pttrn93506.extracted={}
+

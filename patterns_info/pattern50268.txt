@@ -1,0 +1,8 @@
+follows we give a brief description oflow-power standards including IEEE 802.15.4
+(VP (VBZ )(VP (VBP )(NP (NP (DT )(JJ )(NN ){1,2}(NNS ))(PP (VBG )(NP (NN )(CD ))))))
+Phase: generated50268
+Input: Token
+Rule: generated50268
+(
+(({ Token.category == VBZ })(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == CD }))))))):pttrn50268 --> :pttrn50268.extracted={}
+

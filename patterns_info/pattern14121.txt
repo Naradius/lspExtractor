@@ -1,0 +1,8 @@
+thecontrol packets transmitted by the local leader to updatetheir tables as far as possible, asking the VNLayer toperform an inconsistency sync if a significant mismatchis detected.3
+(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(VP (TO )(VP (VB )(VP (VBG )(NP (DT )(NNP )(NN ))(NP (DT )(NN ){1,2}))))))
+Phase: generated14121
+Input: Token
+Rule: generated14121
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn14121 --> :pttrn14121.extracted={}
+

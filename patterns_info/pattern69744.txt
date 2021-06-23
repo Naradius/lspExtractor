@@ -1,0 +1,8 @@
+of the total powerconsumption produced by our proposedmethod
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (PRP$ )(NN ))))))
+Phase: generated69744
+Input: Token
+Rule: generated69744
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))))):pttrn69744 --> :pttrn69744.extracted={}
+

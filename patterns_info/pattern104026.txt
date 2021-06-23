@@ -1,0 +1,8 @@
+a suspended
+(NP (DT )(VBN ))
+Phase: generated104026
+Input: Token
+Rule: generated104026
+(
+(({ Token.category == DT })({ Token.category == VBN }))):pttrn104026 --> :pttrn104026.extracted={}
+

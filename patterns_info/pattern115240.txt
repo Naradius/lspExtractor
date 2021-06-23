@@ -1,0 +1,8 @@
+is not meaningful.Table 5
+(VP (VBZ )(RB )(VP (VBN )(NP (NN )(CD ))))
+Phase: generated115240
+Input: Token
+Rule: generated115240
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == NN })({ Token.category == CD }))))):pttrn115240 --> :pttrn115240.extracted={}
+

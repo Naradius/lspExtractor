@@ -1,0 +1,8 @@
+connected to a general-purpose knowledge-base,there
+(VP (VBN )(PP (TO )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated88765
+Input: Token
+Rule: generated88765
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn88765 --> :pttrn88765.extracted={}
+

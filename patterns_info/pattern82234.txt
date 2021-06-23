@@ -1,0 +1,8 @@
+reaches the rst digit
+(VP (VBZ )(NP (DT )(JJ ){1,2}))
+Phase: generated82234
+Input: Token
+Rule: generated82234
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })+))):pttrn82234 --> :pttrn82234.extracted={}
+

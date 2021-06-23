@@ -1,0 +1,8 @@
+additional transmit power
+(NP (JJ )(NN ){1,2})
+Phase: generated45117
+Input: Token
+Rule: generated45117
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn45117 --> :pttrn45117.extracted={}
+

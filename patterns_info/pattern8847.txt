@@ -1,0 +1,8 @@
+of HEED and LEACH
+(PP (IN )(NP (NNP )(CC )(NNP )))
+Phase: generated8847
+Input: Token
+Rule: generated8847
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn8847 --> :pttrn8847.extracted={}
+

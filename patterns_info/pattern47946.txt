@@ -1,0 +1,8 @@
+transmit-ting 1
+(NP (NN )(CD ))
+Phase: generated47946
+Input: Token
+Rule: generated47946
+(
+(({ Token.category == NN })({ Token.category == CD }))):pttrn47946 --> :pttrn47946.extracted={}
+

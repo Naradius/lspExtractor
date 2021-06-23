@@ -1,0 +1,8 @@
+intrusion detection systemsin wireless sensor networks, IEEE Communications Surveys & Tutorials 15  Third Quarter
+(NP (NP (NN ){1,2}(JJ )(NN )(NNS ))(NP (NNP ){1,2}(CC )(NNP )(CD )(NNP ){1,2}))
+Phase: generated67796
+Input: Token
+Rule: generated67796
+(
+((({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+))):pttrn67796 --> :pttrn67796.extracted={}
+

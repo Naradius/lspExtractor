@@ -1,0 +1,8 @@
+the privacy-preserving effectiveness of check-n applications
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated61984
+Input: Token
+Rule: generated61984
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn61984 --> :pttrn61984.extracted={}
+

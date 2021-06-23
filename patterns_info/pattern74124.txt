@@ -1,0 +1,8 @@
+using dictionariesAs the first step
+(VP (VBG )(NP (DT )(JJ )(NN )))
+Phase: generated74124
+Input: Token
+Rule: generated74124
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn74124 --> :pttrn74124.extracted={}
+

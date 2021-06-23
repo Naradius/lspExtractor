@@ -1,0 +1,8 @@
+by most IoT application scenarios
+(PP (IN )(NP (JJS )(NNP )(NN )(NNS )))
+Phase: generated35348
+Input: Token
+Rule: generated35348
+(
+(({ Token.category == IN })(({ Token.category == JJS })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))):pttrn35348 --> :pttrn35348.extracted={}
+

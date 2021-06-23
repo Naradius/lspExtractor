@@ -1,0 +1,8 @@
+do not account for this as the entropy is already a goodindicator for the entailed relation.This
+(VP (VBP )(RB )(VP (VB )(IN )))
+Phase: generated76482
+Input: Token
+Rule: generated76482
+(
+(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VB })({ Token.category == IN })))):pttrn76482 --> :pttrn76482.extracted={}
+

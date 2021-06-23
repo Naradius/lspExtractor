@@ -1,0 +1,8 @@
+compared with conventional devicesdue to the increased complexity involved for new andsophisticated functionalities
+(PP (VBN )(PP (IN )(NP (NP (JJ )(NN ))(PP (TO )(NP (NP (DT )(VBN )(NN ))(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NNS )))))))))
+Phase: generated50994
+Input: Token
+Rule: generated50994
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))))))):pttrn50994 --> :pttrn50994.extracted={}
+

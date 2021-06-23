@@ -1,0 +1,8 @@
+nodes findhe shortest path by applying a route discovery process and main-ain the route for performing effective routing of the data packets
+(VP (VBZ )(NP (DT )(NN ){1,2})(PP (IN )(VP (VP (VBG )(NP (DT )(NN ){1,2}))(CC )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NNS ){1,2}))))))))))
+Phase: generated59529
+Input: Token
+Rule: generated59529
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))({ Token.category == CC })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })+))))))))))):pttrn59529 --> :pttrn59529.extracted={}
+

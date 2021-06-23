@@ -1,0 +1,8 @@
+been initially applied to many fields such as theIoT, digital asset trading
+(VP (VBN )(VP (VBN )(PP (TO )(NP (NP (JJ )(NNS ))(PP (JJ )(IN ))))))
+Phase: generated36027
+Input: Token
+Rule: generated36027
+(
+(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))))):pttrn36027 --> :pttrn36027.extracted={}
+

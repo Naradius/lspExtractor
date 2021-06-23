@@ -1,0 +1,8 @@
+language model-based sentence retrieval inquestion answering systems
+(NP (NN )(JJ )(NN ){1,2}(VBG )(NNS ))
+Phase: generated86110
+Input: Token
+Rule: generated86110
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == VBG })({ Token.category == NNS }))):pttrn86110 --> :pttrn86110.extracted={}
+

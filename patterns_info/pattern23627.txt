@@ -1,0 +1,8 @@
+as uk = u0 +|R|j=1pku
+(PP (IN )(NP (NNP )(SYM )(CD )(NNP )))
+Phase: generated23627
+Input: Token
+Rule: generated23627
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == SYM })({ Token.category == CD })({ Token.category == NNP })))):pttrn23627 --> :pttrn23627.extracted={}
+

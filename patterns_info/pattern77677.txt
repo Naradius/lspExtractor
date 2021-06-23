@@ -1,0 +1,8 @@
+to determine weightedpattern-relation assignments.2.1
+(VP (TO )(VP (VB )(NP (NN )(NNS ))))
+Phase: generated77677
+Input: Token
+Rule: generated77677
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn77677 --> :pttrn77677.extracted={}
+

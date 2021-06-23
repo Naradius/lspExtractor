@@ -1,0 +1,8 @@
+reduce the energy
+(VP (VB )(NP (DT )(NN )))
+Phase: generated56450
+Input: Token
+Rule: generated56450
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn56450 --> :pttrn56450.extracted={}
+

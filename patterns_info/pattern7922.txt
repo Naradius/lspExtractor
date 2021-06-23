@@ -1,0 +1,8 @@
+varianceamong the clusters
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated7922
+Input: Token
+Rule: generated7922
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn7922 --> :pttrn7922.extracted={}
+

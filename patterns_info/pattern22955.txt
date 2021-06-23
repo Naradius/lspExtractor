@@ -1,0 +1,8 @@
+discoveryFor a successful route discovery from any source to destinationusing our proposed SpEED-IoT scheme
+(PP (IN )(NP (NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))(PP (TO )(VP (VBG )(NP (PRP$ )(VBN )(JJ )(NN ))))))
+Phase: generated22955
+Input: Token
+Rule: generated22955
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn22955 --> :pttrn22955.extracted={}
+

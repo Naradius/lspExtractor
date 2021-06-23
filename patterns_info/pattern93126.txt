@@ -1,0 +1,8 @@
+illustrates the plug-in for the HermesNews Portal.4.1
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP ){1,2}(CD )))))
+Phase: generated93126
+Input: Token
+Rule: generated93126
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == CD })))))):pttrn93126 --> :pttrn93126.extracted={}
+

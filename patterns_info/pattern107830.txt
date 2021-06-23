@@ -1,0 +1,8 @@
+is calculated between the two nodes ni and nj
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(CD )(NNS ){1,2})(CC )))))
+Phase: generated107830
+Input: Token
+Rule: generated107830
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS })+)({ Token.category == CC })))))):pttrn107830 --> :pttrn107830.extracted={}
+

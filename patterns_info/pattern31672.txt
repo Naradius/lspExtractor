@@ -1,0 +1,8 @@
+of greater research
+(PP (IN )(NP (JJR )(NN )))
+Phase: generated31672
+Input: Token
+Rule: generated31672
+(
+(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })))):pttrn31672 --> :pttrn31672.extracted={}
+

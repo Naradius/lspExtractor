@@ -1,0 +1,8 @@
+the increasing routing overhead thanther routing approaches
+(NP (NP (DT )(VBG )(NN ){1,2})(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated67615
+Input: Token
+Rule: generated67615
+(
+((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn67615 --> :pttrn67615.extracted={}
+

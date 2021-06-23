@@ -1,0 +1,8 @@
+used during the QG.
+(VP (VBN )(PP (IN )(NP (DT )(NNP ))))
+Phase: generated101813
+Input: Token
+Rule: generated101813
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn101813 --> :pttrn101813.extracted={}
+

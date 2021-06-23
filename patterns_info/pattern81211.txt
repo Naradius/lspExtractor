@@ -1,0 +1,8 @@
+identify the syntactic eld, such as subjector direct object
+(VP (VBP )(NP (NP (DT )(NN ){1,2})(PP (JJ )(IN )(NP (NN )(JJ )(NN )))))
+Phase: generated81211
+Input: Token
+Rule: generated81211
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })))))):pttrn81211 --> :pttrn81211.extracted={}
+

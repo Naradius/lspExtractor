@@ -1,0 +1,8 @@
+the machinelearning research
+(NP (DT )(NN ){1,2})
+Phase: generated80757
+Input: Token
+Rule: generated80757
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn80757 --> :pttrn80757.extracted={}
+

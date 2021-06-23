@@ -1,0 +1,8 @@
+be created by automatic analysis canalso be created manually
+(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated89780
+Input: Token
+Rule: generated89780
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn89780 --> :pttrn89780.extracted={}
+

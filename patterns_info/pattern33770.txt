@@ -1,0 +1,8 @@
+the packet loss of QoS-PSO algorithm
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NNP )(NN ))))
+Phase: generated33770
+Input: Token
+Rule: generated33770
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn33770 --> :pttrn33770.extracted={}
+

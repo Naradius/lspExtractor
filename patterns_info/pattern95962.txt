@@ -1,0 +1,8 @@
+the Thirteenth Conference
+(NP (DT )(NNP ){1,2})
+Phase: generated95962
+Input: Token
+Rule: generated95962
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn95962 --> :pttrn95962.extracted={}
+

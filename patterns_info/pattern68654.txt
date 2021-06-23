@@ -1,0 +1,8 @@
+taking the cats coordinates into fitness functionto evaluate the fitness values, respectively, record the bestcoordinate and the fitness value of the cat which has the betterfitness value calculated so far.Step 3. Move the cats by the seeking mode process or thetracingmode process
+(VP (VBG )(NP (DT )(NNS ))(VP (VBZ )(VP (VBD )(NP (NP (DT )(JJ ))(CC )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NN ){1,2})(VP (VBN )(VP (VBD )(VP (VB )(NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(VBG )(NN ){1,2})(CC )(NP (DT )(NN ))))))))))))))))
+Phase: generated68654
+Input: Token
+Rule: generated68654
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == JJ }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == VBD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN }))))))))))))))))):pttrn68654 --> :pttrn68654.extracted={}
+

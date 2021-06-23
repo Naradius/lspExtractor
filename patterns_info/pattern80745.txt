@@ -1,0 +1,8 @@
+akinto the active learning paradigm
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated80745
+Input: Token
+Rule: generated80745
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn80745 --> :pttrn80745.extracted={}
+

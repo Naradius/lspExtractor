@@ -1,0 +1,8 @@
+Roadside and Vehicle Systems -5GHZ Band Dedicated Short Range Communication  Medium Access Control
+(NP (NNP )(CC )(NNP )(NNPS )(NNP ){1,2})
+Phase: generated40
+Input: Token
+Rule: generated40
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == NNP })+)):pttrn40 --> :pttrn40.extracted={}
+

@@ -1,0 +1,8 @@
+allowing at most two stop wordsbetween the context and the term to be extracted
+(VP (VBG )(PP (IN )(NP (NP (RBS )(CD )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC ))))))
+Phase: generated74293
+Input: Token
+Rule: generated74293
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == RBS })({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))))))):pttrn74293 --> :pttrn74293.extracted={}
+

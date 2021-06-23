@@ -1,0 +1,8 @@
+to the cloudservice/fog calculation
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated36492
+Input: Token
+Rule: generated36492
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn36492 --> :pttrn36492.extracted={}
+

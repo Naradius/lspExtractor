@@ -1,0 +1,8 @@
+hasbeen done to adapt the active period of nodes online inorder to optimise power consumption in function of thetraffic load, buffer overflows, delay requirements or har-vested energy
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN ))))))))
+Phase: generated51243
+Input: Token
+Rule: generated51243
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn51243 --> :pttrn51243.extracted={}
+

@@ -1,0 +1,8 @@
+the tokens David
+(NP (DT )(NNS )(NNP ))
+Phase: generated99203
+Input: Token
+Rule: generated99203
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NNP }))):pttrn99203 --> :pttrn99203.extracted={}
+

@@ -1,0 +1,8 @@
+Report and order and second further notice
+(NP (NNP )(CC )(NN )(CC )(JJ ){1,2}(NN ))
+Phase: generated24487
+Input: Token
+Rule: generated24487
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })({ Token.category == CC })({ Token.category == JJ })+({ Token.category == NN }))):pttrn24487 --> :pttrn24487.extracted={}
+

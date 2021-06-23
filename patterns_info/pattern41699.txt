@@ -1,0 +1,8 @@
+replicated in L optimal copiesfor our HDRP protocol
+(VP (VBN )(PP (IN )(NP (PRP$ )(NNP )(NN ))))
+Phase: generated41699
+Input: Token
+Rule: generated41699
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNP })({ Token.category == NN }))))):pttrn41699 --> :pttrn41699.extracted={}
+

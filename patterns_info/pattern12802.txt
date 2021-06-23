@@ -1,0 +1,8 @@
+Unchanged  /DoThumbnails
+(NP (JJ )(NNS ))
+Phase: generated12802
+Input: Token
+Rule: generated12802
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn12802 --> :pttrn12802.extracted={}
+

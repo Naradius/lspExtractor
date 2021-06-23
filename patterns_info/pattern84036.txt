@@ -1,0 +1,8 @@
+from the Seattle Times on-line classiedads
+(PP (IN )(NP (DT )(NNP ){1,2}(NNS )))
+Phase: generated84036
+Input: Token
+Rule: generated84036
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NNS })))):pttrn84036 --> :pttrn84036.extracted={}
+

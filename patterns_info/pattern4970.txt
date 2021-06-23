@@ -1,0 +1,8 @@
+the alignment property
+(NP (DT )(NN ){1,2})
+Phase: generated4970
+Input: Token
+Rule: generated4970
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn4970 --> :pttrn4970.extracted={}
+

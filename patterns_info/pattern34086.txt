@@ -1,0 +1,8 @@
+2009.Dorigo M
+(NP (CD )(NNP ))
+Phase: generated34086
+Input: Token
+Rule: generated34086
+(
+(({ Token.category == CD })({ Token.category == NNP }))):pttrn34086 --> :pttrn34086.extracted={}
+

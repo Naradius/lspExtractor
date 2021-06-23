@@ -1,0 +1,8 @@
+Cluster formation protocol
+(NP (NNP )(NN ){1,2})
+Phase: generated45563
+Input: Token
+Rule: generated45563
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn45563 --> :pttrn45563.extracted={}
+

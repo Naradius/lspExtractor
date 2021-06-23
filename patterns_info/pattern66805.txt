@@ -1,0 +1,8 @@
+may prolong the period ofrouting execution time as long as possible
+(VP (MD )(VP (VB )(NP (DT )(NN )(JJ )(NN ){1,2})))
+Phase: generated66805
+Input: Token
+Rule: generated66805
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn66805 --> :pttrn66805.extracted={}
+

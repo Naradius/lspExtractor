@@ -1,0 +1,8 @@
+logic formulas
+(NP (NN )(NNS ))
+Phase: generated70759
+Input: Token
+Rule: generated70759
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn70759 --> :pttrn70759.extracted={}
+

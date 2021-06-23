@@ -1,0 +1,8 @@
+a paragraph Sprev
+(NP (DT )(NN )(NNP ))
+Phase: generated114043
+Input: Token
+Rule: generated114043
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))):pttrn114043 --> :pttrn114043.extracted={}
+

@@ -1,0 +1,8 @@
+schedulingmultiple job classes on a single machine
+(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated64971
+Input: Token
+Rule: generated64971
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn64971 --> :pttrn64971.extracted={}
+

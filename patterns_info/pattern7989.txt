@@ -1,0 +1,8 @@
+many collisions and retransmissions
+(NP (JJ )(NNS )(CC )(NNS ))
+Phase: generated7989
+Input: Token
+Rule: generated7989
+(
+(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn7989 --> :pttrn7989.extracted={}
+

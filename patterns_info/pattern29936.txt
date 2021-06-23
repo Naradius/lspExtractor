@@ -1,0 +1,8 @@
+allows us for greater flexibility  when collecting data andadaptability to the case study, since the DHT22 sensor is designedfor indoor spaces according to its datasheet
+(VP (VBZ )(PP (IN )(NP (JJR )(NN ))))
+Phase: generated29936
+Input: Token
+Rule: generated29936
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN }))))):pttrn29936 --> :pttrn29936.extracted={}
+

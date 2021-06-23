@@ -1,0 +1,8 @@
+propose a novel geographic routing scheme IPF , in which we focus mainly on handling the detour path problem
+(VP (VBP )(NP (NP (DT )(JJ )(NNP )(NN ){1,2})(VP (VBP )(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2}))))))
+Phase: generated18416
+Input: Token
+Rule: generated18416
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn18416 --> :pttrn18416.extracted={}
+

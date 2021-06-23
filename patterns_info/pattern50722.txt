@@ -1,0 +1,8 @@
+.Name Wi-Fi WiMAX WiMedia Bluetooth ZigBee Bluetooth low energyStandard IEEE 802.11b
+(NP (JJ )(NNP ){1,2}(JJ )(NN ){1,2})
+Phase: generated50722
+Input: Token
+Rule: generated50722
+(
+(({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NN })+)):pttrn50722 --> :pttrn50722.extracted={}
+

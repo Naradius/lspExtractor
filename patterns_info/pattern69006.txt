@@ -1,0 +1,8 @@
+This result in the coverageintensity
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated69006
+Input: Token
+Rule: generated69006
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn69006 --> :pttrn69006.extracted={}
+

@@ -1,0 +1,8 @@
+the main properties
+(NP (DT )(JJ )(NNS ))
+Phase: generated102532
+Input: Token
+Rule: generated102532
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn102532 --> :pttrn102532.extracted={}
+

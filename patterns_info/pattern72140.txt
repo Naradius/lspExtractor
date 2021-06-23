@@ -1,0 +1,8 @@
+the verb
+(NP (DT )(NN ))
+Phase: generated72140
+Input: Token
+Rule: generated72140
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn72140 --> :pttrn72140.extracted={}
+

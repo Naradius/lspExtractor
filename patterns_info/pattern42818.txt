@@ -1,0 +1,8 @@
+of the HDRP with an increaseddelivery rate
+(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated42818
+Input: Token
+Rule: generated42818
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn42818 --> :pttrn42818.extracted={}
+

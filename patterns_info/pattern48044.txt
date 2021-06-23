@@ -1,0 +1,8 @@
+is the total switching capacitance
+(VP (VBZ )(NP (DT )(NN ){1,2}))
+Phase: generated48044
+Input: Token
+Rule: generated48044
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))):pttrn48044 --> :pttrn48044.extracted={}
+

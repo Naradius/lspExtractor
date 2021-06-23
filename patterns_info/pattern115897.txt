@@ -1,0 +1,8 @@
+obtained a lower relevance compared to APF-based approach
+(VP (VBD )(NP (DT )(JJR )(NN ))(PP (VBN )(PP (TO )(NP (JJ )(NN )))))
+Phase: generated115897
+Input: Token
+Rule: generated115897
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn115897 --> :pttrn115897.extracted={}
+

@@ -1,0 +1,8 @@
+Set the maximal number of clusters N2.2.
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNS )(NNP )))))
+Phase: generated86906
+Input: Token
+Rule: generated86906
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NNP })))))):pttrn86906 --> :pttrn86906.extracted={}
+

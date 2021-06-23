@@ -1,0 +1,8 @@
+such as the parts of speech, or morphologicalfeatures.QuotedstringsStrings
+(PP (JJ )(IN )(NP (CC )(NP (NNS )(NNPS ))))
+Phase: generated88311
+Input: Token
+Rule: generated88311
+(
+(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == CC })(({ Token.category == NNS })({ Token.category == NNPS }))))):pttrn88311 --> :pttrn88311.extracted={}
+

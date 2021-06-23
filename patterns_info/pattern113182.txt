@@ -1,0 +1,8 @@
+reducing it into a canonical form
+(VP (VBG )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated113182
+Input: Token
+Rule: generated113182
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn113182 --> :pttrn113182.extracted={}
+

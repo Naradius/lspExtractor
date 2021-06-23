@@ -1,0 +1,8 @@
+equalinitial energy
+(NP (JJ )(NN ))
+Phase: generated53621
+Input: Token
+Rule: generated53621
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn53621 --> :pttrn53621.extracted={}
+

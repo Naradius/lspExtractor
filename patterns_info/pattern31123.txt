@@ -1,0 +1,8 @@
+tested with a data qualityalgorithm, which increases data confidence and detects wrongdata
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBZ )(NP (NNS )(NN )(CC )(NNS )(NN ))))))
+Phase: generated31123
+Input: Token
+Rule: generated31123
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == NNS })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN }))))))):pttrn31123 --> :pttrn31123.extracted={}
+

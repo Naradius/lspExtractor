@@ -1,0 +1,8 @@
+a resolution condemning Iran
+(NP (DT )(NN )(VBG )(NNP ))
+Phase: generated113436
+Input: Token
+Rule: generated113436
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == VBG })({ Token.category == NNP }))):pttrn113436 --> :pttrn113436.extracted={}
+

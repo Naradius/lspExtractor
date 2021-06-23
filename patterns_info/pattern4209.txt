@@ -1,0 +1,8 @@
+introduced into the pheromone function :Dp  1n2cpi pi11=n2c11=n2c 1n2cAt the next cluster setup phase
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (CD )(NN )))))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated4209
+Input: Token
+Rule: generated4209
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn4209 --> :pttrn4209.extracted={}
+

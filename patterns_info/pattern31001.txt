@@ -1,0 +1,8 @@
+changing the inhabi-tants behavior
+(VP (VBG )(NP (DT )(NNS )(NN )))
+Phase: generated31001
+Input: Token
+Rule: generated31001
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))):pttrn31001 --> :pttrn31001.extracted={}
+

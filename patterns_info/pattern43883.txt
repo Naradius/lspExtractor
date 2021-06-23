@@ -1,0 +1,8 @@
+sensornode B
+(NP (NN )(NNP ))
+Phase: generated43883
+Input: Token
+Rule: generated43883
+(
+(({ Token.category == NN })({ Token.category == NNP }))):pttrn43883 --> :pttrn43883.extracted={}
+

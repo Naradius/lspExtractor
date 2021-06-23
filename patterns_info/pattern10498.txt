@@ -1,0 +1,8 @@
+the above presented Fig. 6
+(NP (DT )(JJ ){1,2}(NNP ){1,2}(CD ))
+Phase: generated10498
+Input: Token
+Rule: generated10498
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNP })+({ Token.category == CD }))):pttrn10498 --> :pttrn10498.extracted={}
+

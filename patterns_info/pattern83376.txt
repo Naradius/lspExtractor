@@ -1,0 +1,8 @@
+In a web page
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated83376
+Input: Token
+Rule: generated83376
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn83376 --> :pttrn83376.extracted={}
+

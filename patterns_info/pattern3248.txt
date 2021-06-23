@@ -1,0 +1,8 @@
+the simplest way to imple-ment anti-pheromone where the evaporation of pheromoneis simulated by a significant reduction in existing phero-mone levels
+(NP (NP (DT )(JJS )(NN ))(PP (TO )(NP (NP (JJ )(NN ))(WHADVP (WRB )))))
+Phase: generated3248
+Input: Token
+Rule: generated3248
+(
+((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == WRB })))))):pttrn3248 --> :pttrn3248.extracted={}
+

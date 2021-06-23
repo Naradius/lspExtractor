@@ -1,0 +1,8 @@
+took queries from this list
+(VP (VBD )(PP (IN )(NP (DT )(NN ))))
+Phase: generated115735
+Input: Token
+Rule: generated115735
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn115735 --> :pttrn115735.extracted={}
+

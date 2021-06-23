@@ -1,0 +1,8 @@
+callededge devices
+(NP (NN )(NNS ))
+Phase: generated22188
+Input: Token
+Rule: generated22188
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn22188 --> :pttrn22188.extracted={}
+

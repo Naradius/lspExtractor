@@ -1,0 +1,8 @@
+control packets such asRREP
+(NP (NP (NN )(NNS ))(NP (JJ )(NNS )))
+Phase: generated15543
+Input: Token
+Rule: generated15543
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNS })))):pttrn15543 --> :pttrn15543.extracted={}
+

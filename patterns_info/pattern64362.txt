@@ -1,0 +1,8 @@
+had an improvement in theirfitness in the last iteration
+(VP (VBN )(NP (DT )(NN )))
+Phase: generated64362
+Input: Token
+Rule: generated64362
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })))):pttrn64362 --> :pttrn64362.extracted={}
+

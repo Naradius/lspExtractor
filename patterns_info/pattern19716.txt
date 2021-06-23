@@ -1,0 +1,8 @@
+The Journal
+(NP (DT )(NNP ))
+Phase: generated19716
+Input: Token
+Rule: generated19716
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn19716 --> :pttrn19716.extracted={}
+

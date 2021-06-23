@@ -1,0 +1,8 @@
+of programming systems
+(PP (IN )(NP (VBG )(NNS )))
+Phase: generated41269
+Input: Token
+Rule: generated41269
+(
+(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS })))):pttrn41269 --> :pttrn41269.extracted={}
+

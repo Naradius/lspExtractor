@@ -1,0 +1,8 @@
+of O peration
+(PP (IN )(NP (NNP )(NN )))
+Phase: generated25194
+Input: Token
+Rule: generated25194
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn25194 --> :pttrn25194.extracted={}
+

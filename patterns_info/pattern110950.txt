@@ -1,0 +1,8 @@
+will be able to select auto-atically a specific controller / observer for the IDS tool
+(VP (MD )(VP (VB )(ADJP (JJ )(VP (TO )(VP (VB )(NP (NP (RB )(DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NNP )(NN )))))))))
+Phase: generated110950
+Input: Token
+Rule: generated110950
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == RB })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))))))):pttrn110950 --> :pttrn110950.extracted={}
+

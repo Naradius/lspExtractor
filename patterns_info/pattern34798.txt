@@ -1,0 +1,8 @@
+used to protect hosts andnetwork devices in the blockchain IoT system
+(VP (VBN )(VP (TO )(VP (VB )(NP (NNS )(CC )(NNS ))(PP (IN )(NP (DT )(NN )(NNP )(NN ))))))
+Phase: generated34798
+Input: Token
+Rule: generated34798
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))))))):pttrn34798 --> :pttrn34798.extracted={}
+

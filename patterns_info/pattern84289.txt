@@ -1,0 +1,8 @@
+are merged if theslots in B are contained in the slots of A. Each merged case frame in WHISK'soutput
+(VP (VBP )(VP (VBN )(IN )))
+Phase: generated84289
+Input: Token
+Rule: generated84289
+(
+(({ Token.category == VBP })(({ Token.category == VBN })({ Token.category == IN })))):pttrn84289 --> :pttrn84289.extracted={}
+

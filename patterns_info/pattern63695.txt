@@ -1,0 +1,8 @@
+.jcde.2015.06.003http://dx.doi
+(NP (NNP )(CD )(NNP ){1,2})
+Phase: generated63695
+Input: Token
+Rule: generated63695
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+)):pttrn63695 --> :pttrn63695.extracted={}
+

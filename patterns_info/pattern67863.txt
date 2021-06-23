@@ -1,0 +1,8 @@
+,in: 10th Intl
+(VP (VBZ )(NP (JJ )(NNP )))
+Phase: generated67863
+Input: Token
+Rule: generated67863
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NNP })))):pttrn67863 --> :pttrn67863.extracted={}
+

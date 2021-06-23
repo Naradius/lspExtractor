@@ -1,0 +1,8 @@
+://doi.org/1
+(NP (NNP )(CD ))
+Phase: generated111132
+Input: Token
+Rule: generated111132
+(
+(({ Token.category == NNP })({ Token.category == CD }))):pttrn111132 --> :pttrn111132.extracted={}
+

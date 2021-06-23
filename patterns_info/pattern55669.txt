@@ -1,0 +1,8 @@
+ofthe SHRP protocol
+(PP (IN )(NP (NNP )(NN )))
+Phase: generated55669
+Input: Token
+Rule: generated55669
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn55669 --> :pttrn55669.extracted={}
+

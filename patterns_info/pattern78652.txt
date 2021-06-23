@@ -1,0 +1,8 @@
+WHISK attainshigh performance from low training levels in the Rental Ad domain
+(NP (NP (NP (NNP )(NN ){1,2})(PP (IN )(NP (JJ )(NN )(NNS ))))(PP (IN )(NP (DT )(NNP ){1,2}(NN ))))
+Phase: generated78652
+Input: Token
+Rule: generated78652
+(
+(((({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))))):pttrn78652 --> :pttrn78652.extracted={}
+

@@ -1,0 +1,8 @@
+havexploited Cooja simulator
+(VP (VBD )(NP (NNP )(NN )))
+Phase: generated25508
+Input: Token
+Rule: generated25508
+(
+(({ Token.category == VBD })(({ Token.category == NNP })({ Token.category == NN })))):pttrn25508 --> :pttrn25508.extracted={}
+

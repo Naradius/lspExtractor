@@ -1,0 +1,8 @@
+the de-ection reports between the monitor nodes or other cluster headso deliver to a base station
+(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(CC )(NP (NP (JJ )(NN ){1,2})(PP (TO )(NP (DT )(NN ){1,2}))))))
+Phase: generated65552
+Input: Token
+Rule: generated65552
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn65552 --> :pttrn65552.extracted={}
+

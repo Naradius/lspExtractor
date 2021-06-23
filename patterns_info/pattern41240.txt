@@ -1,0 +1,8 @@
+be able to interact in all circumstances, regardless of theconstraints imposed by their characteristics and their environment.In addition to being functionally heterogeneous
+(VP (VB )(ADJP (JJ )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NNS )))(VP (VBN )(PP (IN )(NP (NP (PRP$ )(NNS ))(CC )(NP (NP (PRP$ )(JJ )(NN ))(PP (TO )(VP (VBG )(ADJP (RB )(JJ ))))))))))))
+Phase: generated41240
+Input: Token
+Rule: generated41240
+(
+(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VBG })(({ Token.category == RB })({ Token.category == JJ }))))))))))))):pttrn41240 --> :pttrn41240.extracted={}
+

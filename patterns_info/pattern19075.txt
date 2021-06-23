@@ -1,0 +1,8 @@
+used as an edge device
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated19075
+Input: Token
+Rule: generated19075
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn19075 --> :pttrn19075.extracted={}
+

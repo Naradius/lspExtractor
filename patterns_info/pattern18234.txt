@@ -1,0 +1,8 @@
+in sensornetworks and IoT emergency management, Computer Communications
+(PP (IN )(NP (NP (CC )(NP (NNP )(NN ){1,2}))(NP (NNP )(NNPS ))))
+Phase: generated18234
+Input: Token
+Rule: generated18234
+(
+(({ Token.category == IN })((({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })+))(({ Token.category == NNP })({ Token.category == NNPS }))))):pttrn18234 --> :pttrn18234.extracted={}
+

@@ -1,0 +1,8 @@
+the identifierof the concentric circle
+(NP (NP (DT )(NN ))(NP (DT )(JJ )(NN )))
+Phase: generated69278
+Input: Token
+Rule: generated69278
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn69278 --> :pttrn69278.extracted={}
+

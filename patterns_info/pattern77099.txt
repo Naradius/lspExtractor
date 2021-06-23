@@ -1,0 +1,8 @@
+of text mining products and applications
+(PP (IN )(NP (JJ )(NN )(NNS )(CC )(NNS )))
+Phase: generated77099
+Input: Token
+Rule: generated77099
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn77099 --> :pttrn77099.extracted={}
+

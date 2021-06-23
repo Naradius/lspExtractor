@@ -1,0 +1,8 @@
+plugged into Lucene library to improve search relevance
+(VP (VBN )(PP (IN )(NP (NNP )(NN ))))
+Phase: generated114815
+Input: Token
+Rule: generated114815
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn114815 --> :pttrn114815.extracted={}
+

@@ -1,0 +1,8 @@
+different parameters, such as delay, energy, and distance, which are then used by the fractional lion algorithm to find the optimal multipath for reliable data transmission in MANETs
+(NP (NP (NP (JJ )(NNS ))(PP (JJ )(IN )(NP (NN ){1,2}(CC )(NN ))))(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ){1,2})))))
+Phase: generated107390
+Input: Token
+Rule: generated107390
+(
+(((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn107390 --> :pttrn107390.extracted={}
+

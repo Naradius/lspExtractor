@@ -1,0 +1,8 @@
+findingthe minimum number of relay nodes
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated51587
+Input: Token
+Rule: generated51587
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn51587 --> :pttrn51587.extracted={}
+

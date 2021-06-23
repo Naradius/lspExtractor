@@ -1,0 +1,8 @@
+capture the metonymy
+(VP (VB )(NP (DT )(NN )))
+Phase: generated90005
+Input: Token
+Rule: generated90005
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn90005 --> :pttrn90005.extracted={}
+

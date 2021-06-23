@@ -1,0 +1,8 @@
+a set of require-ments that differs from one application to another
+(NP (NP (DT )(NN ))(VP (VBZ )(PP (IN )(NP (CD )(NN )))))
+Phase: generated49241
+Input: Token
+Rule: generated49241
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))))):pttrn49241 --> :pttrn49241.extracted={}
+

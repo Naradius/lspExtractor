@@ -1,0 +1,8 @@
+originated each pattern and the linksbetween them.159CURTO
+(VP (VBP )(NP (NP (DT )(NN ))(CC )))
+Phase: generated99808
+Input: Token
+Rule: generated99808
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))):pttrn99808 --> :pttrn99808.extracted={}
+

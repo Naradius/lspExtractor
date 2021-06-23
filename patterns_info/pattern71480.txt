@@ -1,0 +1,8 @@
+knowledge items that have a high probability of errone-ously parsed semantic roles
+(NP (NP (NN )(NNS ))(VP (VBP )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (ADJP (RB )(VBN ))(JJ )(NNS ))))))
+Phase: generated71480
+Input: Token
+Rule: generated71480
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn71480 --> :pttrn71480.extracted={}
+

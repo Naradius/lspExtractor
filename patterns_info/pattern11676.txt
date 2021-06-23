@@ -1,0 +1,8 @@
+has 72%, 79% and CSO 82%respectively
+(VP (VBZ )(NP (NP (CD )(NN )){1,2}(CC )(NP (NNP )(CD )(NN ))))
+Phase: generated11676
+Input: Token
+Rule: generated11676
+(
+(({ Token.category == VBZ })((({ Token.category == CD })({ Token.category == NN }))+({ Token.category == CC })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN }))))):pttrn11676 --> :pttrn11676.extracted={}
+

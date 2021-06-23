@@ -1,0 +1,8 @@
+with higher remainingenergy
+(PP (IN )(NP (JJR )(NN )))
+Phase: generated51504
+Input: Token
+Rule: generated51504
+(
+(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })))):pttrn51504 --> :pttrn51504.extracted={}
+

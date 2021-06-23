@@ -1,0 +1,8 @@
+one-hop of the previously selected CHs
+(ADJP (JJ )(PP (IN )(NP (DT )(ADJP (RB )(VBN ))(NNP ))))
+Phase: generated9695
+Input: Token
+Rule: generated9695
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNP }))))):pttrn9695 --> :pttrn9695.extracted={}
+

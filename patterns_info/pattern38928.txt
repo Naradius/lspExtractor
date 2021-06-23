@@ -1,0 +1,8 @@
+processing power, energy resources, and communication range
+(NP (NP (VBG )(NN ))(NP (NN )(NNS ))(CC ))
+Phase: generated38928
+Input: Token
+Rule: generated38928
+(
+((({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn38928 --> :pttrn38928.extracted={}
+

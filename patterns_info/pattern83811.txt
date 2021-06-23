@@ -1,0 +1,8 @@
+to be tagged that are near the decision boundary
+(VP (TO )(VP (VB )(VP (VBN )(VP (VBP )(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated83811
+Input: Token
+Rule: generated83811
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn83811 --> :pttrn83811.extracted={}
+

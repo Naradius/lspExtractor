@@ -1,0 +1,8 @@
+VNs.vehicles
+(NP (NNP )(NNS ))
+Phase: generated16195
+Input: Token
+Rule: generated16195
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn16195 --> :pttrn16195.extracted={}
+

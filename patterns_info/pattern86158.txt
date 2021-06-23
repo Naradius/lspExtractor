@@ -1,0 +1,8 @@
+for domain detection ofuser utterances
+(PP (IN )(NP (NN ){1,2}(NNS )))
+Phase: generated86158
+Input: Token
+Rule: generated86158
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn86158 --> :pttrn86158.extracted={}
+

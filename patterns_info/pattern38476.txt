@@ -1,0 +1,8 @@
+to enhance the accuracy of the correlation task which directly affects the effectiveness of theoverall intrusion detection process
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))))))
+Phase: generated38476
+Input: Token
+Rule: generated38476
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))))):pttrn38476 --> :pttrn38476.extracted={}
+

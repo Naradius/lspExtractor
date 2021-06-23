@@ -1,0 +1,8 @@
+WHISKkeeps the rule with coverage 20 instead
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(CD )))))
+Phase: generated83641
+Input: Token
+Rule: generated83641
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))):pttrn83641 --> :pttrn83641.extracted={}
+

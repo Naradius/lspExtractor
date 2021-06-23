@@ -1,0 +1,8 @@
+channel-ased key shares
+(NP (JJ ){1,2}(NNS ))
+Phase: generated66694
+Input: Token
+Rule: generated66694
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn66694 --> :pttrn66694.extracted={}
+

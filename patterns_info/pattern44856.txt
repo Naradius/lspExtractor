@@ -1,0 +1,8 @@
+be made up of energy constrained sensornodes that communicate to a single, nearby, high-powered base station
+(VP (VB )(VP (VBN )(PP (IN )(PP (IN )(NP (NP (NN )(VBN )(NNS ))(VP (VBP )(PP (TO )(NP (DT )(JJ ){1,2}(NN ){1,2}))))))))
+Phase: generated44856
+Input: Token
+Rule: generated44856
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))))))))):pttrn44856 --> :pttrn44856.extracted={}
+

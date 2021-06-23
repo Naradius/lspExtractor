@@ -1,0 +1,8 @@
+as Energy-LEACH and Multihop-LEACH.
+(PP (IN )(NP (NNP )(CC )(NNP )))
+Phase: generated55731
+Input: Token
+Rule: generated55731
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn55731 --> :pttrn55731.extracted={}
+

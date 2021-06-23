@@ -1,0 +1,8 @@
+compared against the stochastic orweight-based clustering algorithms proposed in theliterature.Observation 2. T-ANT is completely distributed
+(PP (VBN )(PP (IN )(NP (NP (NP (DT )(JJ ){1,2}(NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))(NP (DT )(NN )))))
+Phase: generated7463
+Input: Token
+Rule: generated7463
+(
+(({ Token.category == VBN })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))(({ Token.category == DT })({ Token.category == NN })))))):pttrn7463 --> :pttrn7463.extracted={}
+

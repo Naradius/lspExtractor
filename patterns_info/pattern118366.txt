@@ -1,0 +1,8 @@
+multiagent interactions
+(NP (JJ )(NNS ))
+Phase: generated118366
+Input: Token
+Rule: generated118366
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn118366 --> :pttrn118366.extracted={}
+

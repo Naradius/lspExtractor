@@ -1,0 +1,8 @@
+consider the nodes in PT identical
+(VP (VB )(NP (DT )(NNS ))(PP (IN )(NP (NNP )(JJ ))))
+Phase: generated114284
+Input: Token
+Rule: generated114284
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ }))))):pttrn114284 --> :pttrn114284.extracted={}
+

@@ -1,0 +1,8 @@
+alsoremain largely unexplored
+(VP (RB )(ADJP (RB )(JJ )))
+Phase: generated45255
+Input: Token
+Rule: generated45255
+(
+(({ Token.category == RB })(({ Token.category == RB })({ Token.category == JJ })))):pttrn45255 --> :pttrn45255.extracted={}
+

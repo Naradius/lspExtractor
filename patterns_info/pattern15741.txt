@@ -1,0 +1,8 @@
+of Wu et al
+(PP (IN )(NP (NNP ){1,2}(NN )))
+Phase: generated15741
+Input: Token
+Rule: generated15741
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })))):pttrn15741 --> :pttrn15741.extracted={}
+

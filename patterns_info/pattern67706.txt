@@ -1,0 +1,8 @@
+the sen-or monitor node
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated67706
+Input: Token
+Rule: generated67706
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn67706 --> :pttrn67706.extracted={}
+

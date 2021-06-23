@@ -1,0 +1,8 @@
+The highlight
+(NP (DT )(NN ))
+Phase: generated61181
+Input: Token
+Rule: generated61181
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn61181 --> :pttrn61181.extracted={}
+

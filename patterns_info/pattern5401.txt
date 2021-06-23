@@ -1,0 +1,8 @@
+guide the election of clusterheads in a totallydistributed manner
+(VP (VB )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated5401
+Input: Token
+Rule: generated5401
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn5401 --> :pttrn5401.extracted={}
+

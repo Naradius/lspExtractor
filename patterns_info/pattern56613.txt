@@ -1,0 +1,8 @@
+different from theclassical LEACH protocol
+(ADJP (JJ )(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated56613
+Input: Token
+Rule: generated56613
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn56613 --> :pttrn56613.extracted={}
+

@@ -1,0 +1,8 @@
+then construct the unification and anti-unification of these formulas
+(VP (VB )(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated118674
+Input: Token
+Rule: generated118674
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn118674 --> :pttrn118674.extracted={}
+

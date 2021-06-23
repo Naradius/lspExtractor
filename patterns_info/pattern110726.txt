@@ -1,0 +1,8 @@
+such an evaluationis
+(NP (JJ )(DT )(NN ))
+Phase: generated110726
+Input: Token
+Rule: generated110726
+(
+(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN }))):pttrn110726 --> :pttrn110726.extracted={}
+

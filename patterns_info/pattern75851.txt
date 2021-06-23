@@ -1,0 +1,8 @@
+for more than 5,000 relations defined in the FREEBASE knowledge base .The resource consists of over 10 million distinct lexico-syntactic patterns extracted from dependency trees, each of which is assignedto one or more FREEBASE relations with different confidence strengths
+(PP (IN )(NP (NP (QP (JJR )(IN )(CD ))(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (QP (IN )(CD ){1,2})(JJ )(NP (JJ )(NNS ))(VP (VBN )(PP (IN )(NP (NP (NN )(NNS ))(VP (VBZ )(VP (VBN )(NP (CD )(CC )(JJR )(JJ )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS )))))))))))))))))
+Phase: generated75851
+Input: Token
+Rule: generated75851
+(
+(({ Token.category == IN })(((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == IN })({ Token.category == CD })+)({ Token.category == JJ })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == CD })({ Token.category == CC })({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))))))))))))):pttrn75851 --> :pttrn75851.extracted={}
+

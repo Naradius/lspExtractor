@@ -1,0 +1,8 @@
+the power industry
+(NP (DT )(NN ){1,2})
+Phase: generated34762
+Input: Token
+Rule: generated34762
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn34762 --> :pttrn34762.extracted={}
+

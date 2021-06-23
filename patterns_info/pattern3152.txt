@@ -1,0 +1,8 @@
+the classicswarm control theory
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated3152
+Input: Token
+Rule: generated3152
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn3152 --> :pttrn3152.extracted={}
+

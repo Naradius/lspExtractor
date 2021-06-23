@@ -1,0 +1,8 @@
+the first token ina scope sequence, the last one, or neither
+(NP (NP (DT )(JJ ){1,2}(NN ){1,2})(NP (DT )(JJ )(CD )(CC )(RB )))
+Phase: generated95797
+Input: Token
+Rule: generated95797
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == CC })({ Token.category == RB })))):pttrn95797 --> :pttrn95797.extracted={}
+

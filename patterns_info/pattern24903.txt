@@ -1,0 +1,8 @@
+mobile and static IoT infrastructuresMicroprocessors
+(NP (ADJP (JJ )(CC )(JJ ))(NNP )(NNS ))
+Phase: generated24903
+Input: Token
+Rule: generated24903
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNP })({ Token.category == NNS }))):pttrn24903 --> :pttrn24903.extracted={}
+

@@ -1,0 +1,8 @@
+= |  ||Found|
+(NP (SYM )(NN ){1,2})
+Phase: generated93983
+Input: Token
+Rule: generated93983
+(
+(({ Token.category == SYM })({ Token.category == NN })+)):pttrn93983 --> :pttrn93983.extracted={}
+

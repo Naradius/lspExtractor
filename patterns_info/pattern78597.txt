@@ -1,0 +1,8 @@
+a Language
+(NP (DT )(NN ))
+Phase: generated78597
+Input: Token
+Rule: generated78597
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn78597 --> :pttrn78597.extracted={}
+

@@ -1,0 +1,8 @@
+two new offspring.According
+(NP (CD )(JJ )(NN ))
+Phase: generated64537
+Input: Token
+Rule: generated64537
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))):pttrn64537 --> :pttrn64537.extracted={}
+

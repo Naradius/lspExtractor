@@ -1,0 +1,8 @@
+proposed for traditional wirelessad hoc networks
+(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NNS ))))
+Phase: generated46013
+Input: Token
+Rule: generated46013
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn46013 --> :pttrn46013.extracted={}
+

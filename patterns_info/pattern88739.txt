@@ -1,0 +1,8 @@
+identified as the semantic category of the whole phrase
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated88739
+Input: Token
+Rule: generated88739
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn88739 --> :pttrn88739.extracted={}
+

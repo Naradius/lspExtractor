@@ -1,0 +1,8 @@
+.2. Fog server manager This section describes the Fog server manager for schedulingesources to execute job requests.
+(NP (NP (CD )(NNP )(NN ){1,2})(NP (DT )(NN )))
+Phase: generated20931
+Input: Token
+Rule: generated20931
+(
+((({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })))):pttrn20931 --> :pttrn20931.extracted={}
+

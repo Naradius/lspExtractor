@@ -1,0 +1,8 @@
+packetsthan the original LEACH protocol.Younis and Fahmy
+(PP (IN )(NP (NP (DT )(JJ )(NNP )(NNS ))(CC )))
+Phase: generated53222
+Input: Token
+Rule: generated53222
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC })))):pttrn53222 --> :pttrn53222.extracted={}
+

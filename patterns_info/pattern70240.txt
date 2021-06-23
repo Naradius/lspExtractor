@@ -1,0 +1,8 @@
+be relevant by a selected expert
+(VP (VB )(PP (IN )(NP (DT )(VBN )(NN ))))
+Phase: generated70240
+Input: Token
+Rule: generated70240
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))):pttrn70240 --> :pttrn70240.extracted={}
+

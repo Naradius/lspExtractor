@@ -1,0 +1,8 @@
+are always placed one hop away from the edge
+(VP (VBP )(VP (VBN )(NP (CD )(NN ))(ADVP (RB )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated37544
+Input: Token
+Rule: generated37544
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == CD })({ Token.category == NN }))(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn37544 --> :pttrn37544.extracted={}
+

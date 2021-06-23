@@ -1,0 +1,8 @@
+thathad low overlap
+(NP (DT )(JJ )(NN ))
+Phase: generated75242
+Input: Token
+Rule: generated75242
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn75242 --> :pttrn75242.extracted={}
+

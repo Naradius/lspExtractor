@@ -1,0 +1,8 @@
+from the strategy and outcomes of the playersplaying in the previous stage
+(PP (IN )(NP (NP (DT )(NN )(CC )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated23476
+Input: Token
+Rule: generated23476
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn23476 --> :pttrn23476.extracted={}
+

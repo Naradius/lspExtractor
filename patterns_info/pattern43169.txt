@@ -1,0 +1,8 @@
+both the DRHT and TSPapproaches
+(NP (DT )(NP (DT )(NN )(CC )(NNS )))
+Phase: generated43169
+Input: Token
+Rule: generated43169
+(
+(({ Token.category == DT })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })))):pttrn43169 --> :pttrn43169.extracted={}
+

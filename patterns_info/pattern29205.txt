@@ -1,0 +1,8 @@
+describe systemsthat are interconnected with different categories of connection:each channel is represented by a sub-network or layer and the970 R. Casado-Vara
+(VP (VBP )(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(NN )(CC )(NN ))(CC )(NP (DT )(NNP ){1,2}))))))
+Phase: generated29205
+Input: Token
+Rule: generated29205
+(
+(({ Token.category == VBP })(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })+))))))):pttrn29205 --> :pttrn29205.extracted={}
+

@@ -1,0 +1,8 @@
+a multiplication of two parts
+(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NNS ))))
+Phase: generated86447
+Input: Token
+Rule: generated86447
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))):pttrn86447 --> :pttrn86447.extracted={}
+

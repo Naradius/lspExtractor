@@ -1,0 +1,8 @@
+to capture co-reference relations between phrasal elements
+(VP (TO )(VP (VB )(NP (NP (NN )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated87379
+Input: Token
+Rule: generated87379
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn87379 --> :pttrn87379.extracted={}
+

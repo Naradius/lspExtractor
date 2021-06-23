@@ -1,0 +1,8 @@
+a common meaning shared by two sentences
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (CD )(NNS )))))
+Phase: generated70747
+Input: Token
+Rule: generated70747
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn70747 --> :pttrn70747.extracted={}
+

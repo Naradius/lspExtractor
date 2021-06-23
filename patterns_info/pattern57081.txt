@@ -1,0 +1,8 @@
+25% less energy
+(NP (ADJP (NP (CD )(NN ))(JJR ))(NN ))
+Phase: generated57081
+Input: Token
+Rule: generated57081
+(
+(((({ Token.category == CD })({ Token.category == NN }))({ Token.category == JJR }))({ Token.category == NN }))):pttrn57081 --> :pttrn57081.extracted={}
+

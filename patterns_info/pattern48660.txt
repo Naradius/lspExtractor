@@ -1,0 +1,8 @@
+such as TCPsplitting
+(PP (JJ )(IN ))
+Phase: generated48660
+Input: Token
+Rule: generated48660
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn48660 --> :pttrn48660.extracted={}
+

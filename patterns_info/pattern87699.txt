@@ -1,0 +1,8 @@
+with the analyser.2.4.1 Limitations of current lookup
+(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated87699
+Input: Token
+Rule: generated87699
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn87699 --> :pttrn87699.extracted={}
+

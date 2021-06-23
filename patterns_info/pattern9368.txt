@@ -1,0 +1,8 @@
+efficiency and data resolution
+(NP (NN )(CC )(NNS )(NN ))
+Phase: generated9368
+Input: Token
+Rule: generated9368
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN }))):pttrn9368 --> :pttrn9368.extracted={}
+

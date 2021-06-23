@@ -1,0 +1,8 @@
+our design, the artificial agent iscomposed by a set of sensor nodes
+(NP (NP (PRP$ )(NN ))(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))))
+Phase: generated69259
+Input: Token
+Rule: generated69259
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn69259 --> :pttrn69259.extracted={}
+

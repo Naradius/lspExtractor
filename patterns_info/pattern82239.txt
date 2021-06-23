@@ -1,0 +1,8 @@
+is \1" in our example
+(VP (VBZ )(NP (CD )(NN ))(PP (IN )(NP (PRP$ )(NN ))))
+Phase: generated82239
+Input: Token
+Rule: generated82239
+(
+(({ Token.category == VBZ })(({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn82239 --> :pttrn82239.extracted={}
+

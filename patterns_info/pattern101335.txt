@@ -1,0 +1,8 @@
+simplified statements for factual question
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated101335
+Input: Token
+Rule: generated101335
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn101335 --> :pttrn101335.extracted={}
+

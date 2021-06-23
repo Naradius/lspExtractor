@@ -1,0 +1,8 @@
+economic event detection, whichmakes use of lexico-semantic patterns
+(NP (NP (JJ )(NN ){1,2})(VP (VBP )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated95188
+Input: Token
+Rule: generated95188
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn95188 --> :pttrn95188.extracted={}
+

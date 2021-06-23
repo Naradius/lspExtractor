@@ -1,0 +1,8 @@
+algorithm	The clustering properties	The simulation framework	Results and discussions	T-ANT characteristics	Clustering properties	Load distribution	Dynamics of clustered topology	Network lifetime	Conclusions	Acknowledgements	References
+(PP (IN )(NP (NP (DT )(NN )(NNS )){1,2}(CC )))
+Phase: generated5697
+Input: Token
+Rule: generated5697
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))+({ Token.category == CC })))):pttrn5697 --> :pttrn5697.extracted={}
+

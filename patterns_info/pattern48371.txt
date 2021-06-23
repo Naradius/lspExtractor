@@ -1,0 +1,8 @@
+to design protocols and al-gorithms for sensor networks
+(VP (TO )(VP (VB )(NP (NP (NNS )(CC )(NNS ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated48371
+Input: Token
+Rule: generated48371
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn48371 --> :pttrn48371.extracted={}
+

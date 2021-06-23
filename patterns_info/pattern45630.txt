@@ -1,0 +1,8 @@
+the analysis ofUWB communication channels, IEEE MILCOM99, 1999,pp
+(NP (NP (DT )(NN ){1,2}(NNS ))(NP (NNP ){1,2}(CD )(NN )))
+Phase: generated45630
+Input: Token
+Rule: generated45630
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NN })))):pttrn45630 --> :pttrn45630.extracted={}
+

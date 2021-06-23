@@ -1,0 +1,8 @@
+The parsed ARG1s of these two sentences
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(CD )(NNS ))))
+Phase: generated73039
+Input: Token
+Rule: generated73039
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))))):pttrn73039 --> :pttrn73039.extracted={}
+

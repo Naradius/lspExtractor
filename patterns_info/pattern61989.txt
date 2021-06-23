@@ -1,0 +1,8 @@
+proposed a predictiveodel for evaluating the privacy-preserving effectiveness of check-n applications
+(VP (VBN )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))))))
+Phase: generated61989
+Input: Token
+Rule: generated61989
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn61989 --> :pttrn61989.extracted={}
+

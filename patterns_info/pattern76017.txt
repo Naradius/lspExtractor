@@ -1,0 +1,8 @@
+our large-scale distant supervi-sion approach
+(NP (PRP$ )(JJ ){1,2}(NN ){1,2})
+Phase: generated76017
+Input: Token
+Rule: generated76017
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn76017 --> :pttrn76017.extracted={}
+

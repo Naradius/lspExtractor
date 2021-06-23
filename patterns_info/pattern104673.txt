@@ -1,0 +1,8 @@
+:= push(Apply(pi
+(VP (VBD )(VP (VBN )(NP (NNP )(NN ))))
+Phase: generated104673
+Input: Token
+Rule: generated104673
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn104673 --> :pttrn104673.extracted={}
+

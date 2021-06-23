@@ -1,0 +1,8 @@
+are all accurately de-tected by the intrusion detection process
+(VP (VBP )(ADVP (DT )(RB ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated109584
+Input: Token
+Rule: generated109584
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == RB }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn109584 --> :pttrn109584.extracted={}
+

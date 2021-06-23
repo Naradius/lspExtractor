@@ -1,0 +1,8 @@
+into a correlated set of singular values and two orthogonal bases of singularvectors
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(CC )))))
+Phase: generated85589
+Input: Token
+Rule: generated85589
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })))))):pttrn85589 --> :pttrn85589.extracted={}
+

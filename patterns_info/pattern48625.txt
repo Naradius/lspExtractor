@@ -1,0 +1,8 @@
+other external networks
+(NP (JJ ){1,2}(NNS ))
+Phase: generated48625
+Input: Token
+Rule: generated48625
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn48625 --> :pttrn48625.extracted={}
+

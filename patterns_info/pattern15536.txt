@@ -1,0 +1,8 @@
+with regardto the VNLayer
+(PP (IN )(VP (VBG )(NP (DT )(NN ))))
+Phase: generated15536
+Input: Token
+Rule: generated15536
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))):pttrn15536 --> :pttrn15536.extracted={}
+

@@ -1,0 +1,8 @@
+2017 IoT Network Devices Peer
+(NP (CD )(NNP ){1,2}(NNPS )(NNP ))
+Phase: generated20702
+Input: Token
+Rule: generated20702
+(
+(({ Token.category == CD })({ Token.category == NNP })+({ Token.category == NNPS })({ Token.category == NNP }))):pttrn20702 --> :pttrn20702.extracted={}
+

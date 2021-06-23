@@ -1,0 +1,8 @@
+Thereasonable energy consumption results in attaining better lifetime ofthe network.
+(NP (NP (JJ )(NN ){1,2}(NNS ))(PP (IN )(VP (VBG )(NP (JJR )(NN )(RB )(NN )))))
+Phase: generated12004
+Input: Token
+Rule: generated12004
+(
+((({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == RB })({ Token.category == NN })))))):pttrn12004 --> :pttrn12004.extracted={}
+

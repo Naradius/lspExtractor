@@ -1,0 +1,8 @@
+made through a graphical user interface
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated87687
+Input: Token
+Rule: generated87687
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn87687 --> :pttrn87687.extracted={}
+

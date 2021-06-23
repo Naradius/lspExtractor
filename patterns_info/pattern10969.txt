@@ -1,0 +1,8 @@
+the pheromone level of the ants, based on which theCluster Head  nodes
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS )))(PP (VBN )(PP (IN )(NP (DT )(NN ){1,2}(NNS )))))
+Phase: generated10969
+Input: Token
+Rule: generated10969
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))))):pttrn10969 --> :pttrn10969.extracted={}
+

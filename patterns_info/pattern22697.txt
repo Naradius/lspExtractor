@@ -1,0 +1,8 @@
+multiple interfering SD pairsWhen more than one SD pair
+(NP (NP (JJ )(NN )(NNP ))(NP (QP (RBR )(IN )(CD ))(NNP )(NN )))
+Phase: generated22697
+Input: Token
+Rule: generated22697
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))((({ Token.category == RBR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNP })({ Token.category == NN })))):pttrn22697 --> :pttrn22697.extracted={}
+

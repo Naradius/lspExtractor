@@ -1,0 +1,8 @@
+the set of generalizations with the highest score .8
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJS )(NN )(CD ))))
+Phase: generated112910
+Input: Token
+Rule: generated112910
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })({ Token.category == CD }))))):pttrn112910 --> :pttrn112910.extracted={}
+

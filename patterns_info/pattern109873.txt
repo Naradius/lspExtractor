@@ -1,0 +1,8 @@
+methodology 0.1016/j.adhoc.2018.09.004 https
+(NP (NN )(CD )(NNS ))
+Phase: generated109873
+Input: Token
+Rule: generated109873
+(
+(({ Token.category == NN })({ Token.category == CD })({ Token.category == NNS }))):pttrn109873 --> :pttrn109873.extracted={}
+

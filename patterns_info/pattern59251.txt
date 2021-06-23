@@ -1,0 +1,8 @@
+the dataollection
+(NP (DT )(NN ))
+Phase: generated59251
+Input: Token
+Rule: generated59251
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn59251 --> :pttrn59251.extracted={}
+

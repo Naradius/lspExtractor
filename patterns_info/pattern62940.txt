@@ -1,0 +1,8 @@
+S = N  i =2 N c i  q j  Due to the confounding time-domain transmission, a ring nodeeceives and
+(NP (NP (NNP )(SYM )(NNP )(NN ))(CC ))
+Phase: generated62940
+Input: Token
+Rule: generated62940
+(
+((({ Token.category == NNP })({ Token.category == SYM })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC }))):pttrn62940 --> :pttrn62940.extracted={}
+

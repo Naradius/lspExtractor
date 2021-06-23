@@ -1,0 +1,8 @@
+t  p  c  mWwa  m  a  o  h  fl  s  aOT  s  t  t  w  t  t  c  r44 d  t  a  m  a  w  c  tep 1s signatures to select, in Step 2, different kinds of modelnd to, finally, tune the controller / observer
+(NP (NP (NN ){1,2}(JJ )(NN ){1,2})(NP (DT )(NN ){1,2}))
+Phase: generated110250
+Input: Token
+Rule: generated110250
+(
+((({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })+))):pttrn110250 --> :pttrn110250.extracted={}
+

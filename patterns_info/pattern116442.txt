@@ -1,0 +1,8 @@
+the patent claim
+(NP (DT )(NN ){1,2})
+Phase: generated116442
+Input: Token
+Rule: generated116442
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn116442 --> :pttrn116442.extracted={}
+

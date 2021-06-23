@@ -1,0 +1,8 @@
+of the coalition Sj
+(PP (IN )(NP (DT )(NN )(NNP )))
+Phase: generated29754
+Input: Token
+Rule: generated29754
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })))):pttrn29754 --> :pttrn29754.extracted={}
+

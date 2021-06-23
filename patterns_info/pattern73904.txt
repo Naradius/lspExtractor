@@ -1,0 +1,8 @@
+:902 Gupta S, et al
+(NP (NP (CD )(NNP ){1,2})(NP (NNP )(NN )))
+Phase: generated73904
+Input: Token
+Rule: generated73904
+(
+((({ Token.category == CD })({ Token.category == NNP })+)(({ Token.category == NNP })({ Token.category == NN })))):pttrn73904 --> :pttrn73904.extracted={}
+

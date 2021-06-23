@@ -1,0 +1,8 @@
+Variables and their usesRule
+(NP (CC )(NP (PRP$ )(NN )))
+Phase: generated88727
+Input: Token
+Rule: generated88727
+(
+(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn88727 --> :pttrn88727.extracted={}
+

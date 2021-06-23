@@ -1,0 +1,8 @@
+a k-nearest neighbor approach
+(NP (DT )(NN ){1,2})
+Phase: generated80437
+Input: Token
+Rule: generated80437
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn80437 --> :pttrn80437.extracted={}
+

@@ -1,0 +1,8 @@
+the coordinate
+(NP (DT )(NN ))
+Phase: generated68740
+Input: Token
+Rule: generated68740
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn68740 --> :pttrn68740.extracted={}
+

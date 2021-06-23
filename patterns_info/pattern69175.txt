@@ -1,0 +1,8 @@
+build routingpath for every sensor node
+(VP (VB )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated69175
+Input: Token
+Rule: generated69175
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn69175 --> :pttrn69175.extracted={}
+

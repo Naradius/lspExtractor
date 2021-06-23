@@ -1,0 +1,8 @@
+to specify that zero ormore words may be skipped  or exactly oneword may be skipped
+(VP (TO )(VP (VB )(IN )))
+Phase: generated92913
+Input: Token
+Rule: generated92913
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))):pttrn92913 --> :pttrn92913.extracted={}
+

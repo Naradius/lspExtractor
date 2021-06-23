@@ -1,0 +1,8 @@
+in such a waythat productions which generate graph elements of lower layers are given priority
+(PP (IN )(NP (NP (JJ )(DT )(NN )(NNS ))(VP (VBP )(NP (NP (NN )(NNS ))(PP (IN )(NP (JJR )(NNS )))))))
+Phase: generated104215
+Input: Token
+Rule: generated104215
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NNS })))))))):pttrn104215 --> :pttrn104215.extracted={}
+

@@ -1,0 +1,8 @@
+the presence
+(NP (DT )(NN ))
+Phase: generated65999
+Input: Token
+Rule: generated65999
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn65999 --> :pttrn65999.extracted={}
+

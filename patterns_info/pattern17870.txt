@@ -1,0 +1,8 @@
+average packet delay
+(NP (JJ )(NN ){1,2})
+Phase: generated17870
+Input: Token
+Rule: generated17870
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn17870 --> :pttrn17870.extracted={}
+

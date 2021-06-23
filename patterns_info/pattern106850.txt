@@ -1,0 +1,8 @@
+map in-put sequences into output sequences associated withweights following a probability semiring  or a log semiring  for numerical stability6
+(VP (VBP )(NP (JJ )(NNS ))(PP (IN )(NP (NP (NN )(NNS ))(VP (VBN )(PP (IN )(VP (VBG )(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN ))))))))))
+Phase: generated106850
+Input: Token
+Rule: generated106850
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))))))):pttrn106850 --> :pttrn106850.extracted={}
+

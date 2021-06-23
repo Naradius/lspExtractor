@@ -1,0 +1,8 @@
+to an ambiguous instance of that word
+(PP (TO )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated97661
+Input: Token
+Rule: generated97661
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn97661 --> :pttrn97661.extracted={}
+

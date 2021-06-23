@@ -1,0 +1,8 @@
+leaders and nonleaders
+(NP (NNS )(CC )(NNS ))
+Phase: generated13473
+Input: Token
+Rule: generated13473
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn13473 --> :pttrn13473.extracted={}
+

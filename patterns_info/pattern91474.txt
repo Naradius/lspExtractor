@@ -1,0 +1,8 @@
+the ordered contextual rules
+(NP (DT )(VBN )(JJ )(NNS ))
+Phase: generated91474
+Input: Token
+Rule: generated91474
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn91474 --> :pttrn91474.extracted={}
+

@@ -1,0 +1,8 @@
+the set of allpermissable rules PR from all possible instantiations of all the predefined lexical templates andcomputes
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )(NN )))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT ){1,2}(VBN )(JJ )(NNS ){1,2})))))
+Phase: generated91709
+Input: Token
+Rule: generated91709
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })+({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NNS })+)))))):pttrn91709 --> :pttrn91709.extracted={}
+

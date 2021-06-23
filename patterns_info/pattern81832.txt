@@ -1,0 +1,8 @@
+with a 1 bedroom unit and a priceof $995 associated with a 3 bedroom unit
+(PP (IN )(NP (NP (DT )(ADJP (CD )(NN ))(NN ))(CC )(NP (NP (DT )(VBN )($ )(CD ))(VP (VBN )(PP (IN )(NP (DT )(ADJP (CD )(NN ))(NN )))))))
+Phase: generated81832
+Input: Token
+Rule: generated81832
+(
+(({ Token.category == IN })((({ Token.category == DT })(({ Token.category == CD })({ Token.category == NN }))({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == $ })({ Token.category == CD }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == CD })({ Token.category == NN }))({ Token.category == NN })))))))):pttrn81832 --> :pttrn81832.extracted={}
+

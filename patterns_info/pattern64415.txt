@@ -1,0 +1,8 @@
+his bestvisited solution
+(NP (PRP$ )(JJ )(NN ))
+Phase: generated64415
+Input: Token
+Rule: generated64415
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))):pttrn64415 --> :pttrn64415.extracted={}
+

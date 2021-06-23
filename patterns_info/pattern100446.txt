@@ -1,0 +1,8 @@
+Table 4.13All Filters strong patterns inflected patterns weak patternsPL IMPL CTXPL Total PL IMPL CTXPL Total PL IMPL CTXPL
+(NP (NP (NN )(JJ )(NNP )(JJ )(NNS ))(VP (VBN )(NP (JJ )(NN )(NNP ){1,2})))
+Phase: generated100446
+Input: Token
+Rule: generated100446
+(
+((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+)))):pttrn100446 --> :pttrn100446.extracted={}
+

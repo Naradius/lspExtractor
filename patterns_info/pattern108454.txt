@@ -1,0 +1,8 @@
+the proposed FL-TOHIP routing protocolR1ni  ny  nf  nc  njni  nx  nx  nx  nj ni  nx  nx  nx  nj ni  nx  nx  nx  njni
+(NP (DT )(VBN )(NNP )(NN )(NNS )(NN ){1,2}(NNS )(NN ){1,2}(NNS )(NN ){1,2}(NNS )(NN ){1,2}(NNS ))
+Phase: generated108454
+Input: Token
+Rule: generated108454
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS }))):pttrn108454 --> :pttrn108454.extracted={}
+

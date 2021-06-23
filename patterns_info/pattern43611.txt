@@ -1,0 +1,8 @@
+dtn and vdtn routing protocols
+(NP (NN )(CC )(NN ){1,2}(NNS ))
+Phase: generated43611
+Input: Token
+Rule: generated43611
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))):pttrn43611 --> :pttrn43611.extracted={}
+

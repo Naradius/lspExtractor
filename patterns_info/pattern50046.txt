@@ -1,0 +1,8 @@
+to keep watch on cattle health sta-tus, to detect disease breakouts, to localise them
+(VP (TO )(VP (VB )(PP (IN )(NP (NNS )(NN ){1,2}))(VP (TO )(VP (VB )(NP (NN )(NNS ))))))
+Phase: generated50046
+Input: Token
+Rule: generated50046
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn50046 --> :pttrn50046.extracted={}
+

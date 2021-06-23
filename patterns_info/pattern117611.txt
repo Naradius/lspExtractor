@@ -1,0 +1,8 @@
+be expressed in paragraphs rather than in single phrases or single sentences, as expressed, for example, in Yahoo!
+(VP (VB )(VP (VBN )(PP (CONJP (RB )(IN ))(PP (IN )(NP (NP (JJ )(NNS ))(CC )(NP (JJ )(NNS )))))(IN )))
+Phase: generated117611
+Input: Token
+Rule: generated117611
+(
+(({ Token.category == VB })(({ Token.category == VBN })((({ Token.category == RB })({ Token.category == IN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))))({ Token.category == IN })))):pttrn117611 --> :pttrn117611.extracted={}
+

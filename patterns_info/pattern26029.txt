@@ -1,0 +1,8 @@
+Any ofthe neighbour nodes
+(NP (DT )(NNP )(NN )(NNS ))
+Phase: generated26029
+Input: Token
+Rule: generated26029
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))):pttrn26029 --> :pttrn26029.extracted={}
+

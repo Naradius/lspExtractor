@@ -1,0 +1,8 @@
+agraph sentenceFigure 3
+(PP (IN )(NP (NN )(CD )))
+Phase: generated101994
+Input: Token
+Rule: generated101994
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))):pttrn101994 --> :pttrn101994.extracted={}
+

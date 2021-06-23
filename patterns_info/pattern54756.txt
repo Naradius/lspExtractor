@@ -1,0 +1,8 @@
+W-LEACH protocol
+(NP (NNP )(NN ))
+Phase: generated54756
+Input: Token
+Rule: generated54756
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn54756 --> :pttrn54756.extracted={}
+

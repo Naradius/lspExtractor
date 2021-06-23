@@ -1,0 +1,8 @@
+increasing the output transmitpower Pout or the use of suitable FEC
+(VP (VBG )(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNP ))))))
+Phase: generated45129
+Input: Token
+Rule: generated45129
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP }))))))):pttrn45129 --> :pttrn45129.extracted={}
+

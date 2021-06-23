@@ -1,0 +1,8 @@
+become optimal by applying rules learnt from trainingf the system using machine learning algorithm and by applyinghe rules for making effective routing decisions
+(VP (VB )(PP (PP (IN )(VP (VBG )(NP (NNS )(NN ))(NP (DT )(NN ))))(CC )(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(VP (VBG )(NP (JJ )(NN )(NNS ))))))))
+Phase: generated60973
+Input: Token
+Rule: generated60973
+(
+(({ Token.category == VB })((({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn60973 --> :pttrn60973.extracted={}
+

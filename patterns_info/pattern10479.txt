@@ -1,0 +1,8 @@
+time progresses, the average energy con-sumption increases
+(NP (NP (NN )(NNS ))(NP (DT )(JJ )(NN ){1,2}(NNS )))
+Phase: generated10479
+Input: Token
+Rule: generated10479
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn10479 --> :pttrn10479.extracted={}
+

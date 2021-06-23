@@ -1,0 +1,8 @@
+Proceedings 11th IEEE symposium on Visual Languages  VL95, pages 242249, 1995.5. S. Chok
+(NP (NP (NNP )(JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NNP )(CD )(NNS )(CD ){1,2}(NNP ){1,2})))
+Phase: generated105032
+Input: Token
+Rule: generated105032
+(
+((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNS })({ Token.category == CD })+({ Token.category == NNP })+)))):pttrn105032 --> :pttrn105032.extracted={}
+

@@ -1,0 +1,8 @@
+considered swarm intelli-gence in the wireless sensor context is
+(VP (VBN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated3073
+Input: Token
+Rule: generated3073
+(
+(({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn3073 --> :pttrn3073.extracted={}
+

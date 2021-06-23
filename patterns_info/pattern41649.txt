@@ -1,0 +1,8 @@
+indicates the time necessaryfor a bundle to be delivered successfully when a contact is establishedbetween two nodes
+(VP (VBZ )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(VP (TO )(VP (VB )(VP (VBN )(WHADVP (WRB )))))))
+Phase: generated41649
+Input: Token
+Rule: generated41649
+(
+(({ Token.category == VBZ })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == WRB })))))))):pttrn41649 --> :pttrn41649.extracted={}
+

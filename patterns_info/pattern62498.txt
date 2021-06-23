@@ -1,0 +1,8 @@
+the basic ring
+(NP (DT )(JJ )(NN ))
+Phase: generated62498
+Input: Token
+Rule: generated62498
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn62498 --> :pttrn62498.extracted={}
+

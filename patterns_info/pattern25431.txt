@@ -1,0 +1,8 @@
+a highly inefficient and potentially an impractical routingprotocol for mobile IoT infrastructures
+(NP (DT )(ADJP (RB )(JJ ))(CC )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NNP )(NNS )))))
+Phase: generated25431
+Input: Token
+Rule: generated25431
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS })))))):pttrn25431 --> :pttrn25431.extracted={}
+

@@ -1,0 +1,8 @@
+to determine an-other node
+(VP (TO )(VP (VB )(NP (JJ )(NN ))))
+Phase: generated66169
+Input: Token
+Rule: generated66169
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn66169 --> :pttrn66169.extracted={}
+

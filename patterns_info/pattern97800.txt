@@ -1,0 +1,8 @@
+are not correct as per the grammar rules of a language
+(VP (VBP )(RB )(ADJP (JJ )(PP (IN )(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated97800
+Input: Token
+Rule: generated97800
+(
+(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn97800 --> :pttrn97800.extracted={}
+

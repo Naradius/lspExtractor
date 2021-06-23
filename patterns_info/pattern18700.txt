@@ -1,0 +1,8 @@
+built into iFogSim in ordero validate the proposed technique through real-time applicationin other words
+(VP (VBN )(NP (DT )(VBN )(NN )))
+Phase: generated18700
+Input: Token
+Rule: generated18700
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))):pttrn18700 --> :pttrn18700.extracted={}
+

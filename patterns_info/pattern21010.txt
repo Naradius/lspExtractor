@@ -1,0 +1,8 @@
+best fitness
+(ADJP (RB )(NN ))
+Phase: generated21010
+Input: Token
+Rule: generated21010
+(
+(({ Token.category == RB })({ Token.category == NN }))):pttrn21010 --> :pttrn21010.extracted={}
+

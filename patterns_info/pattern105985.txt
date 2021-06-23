@@ -1,0 +1,8 @@
+each MWU-aware tagger
+(NP (DT )(JJ )(NN ))
+Phase: generated105985
+Input: Token
+Rule: generated105985
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn105985 --> :pttrn105985.extracted={}
+

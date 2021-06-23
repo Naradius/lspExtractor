@@ -1,0 +1,8 @@
+various unsolved research challenges
+(NP (JJ ){1,2}(NN )(NNS ))
+Phase: generated20477
+Input: Token
+Rule: generated20477
+(
+(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))):pttrn20477 --> :pttrn20477.extracted={}
+

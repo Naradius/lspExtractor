@@ -1,0 +1,8 @@
+the remainder of the instances.Multiple rules from the rule set
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated84284
+Input: Token
+Rule: generated84284
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn84284 --> :pttrn84284.extracted={}
+

@@ -1,0 +1,8 @@
+the proactive protocols
+(NP (DT )(JJ )(NNS ))
+Phase: generated25684
+Input: Token
+Rule: generated25684
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn25684 --> :pttrn25684.extracted={}
+

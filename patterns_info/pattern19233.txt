@@ -1,0 +1,8 @@
+is set following de-erministic distribution while creating the sensors
+(VP (VBZ )(VP (VBN )(PP (VBG )(NP (JJ )(NN )))))
+Phase: generated19233
+Input: Token
+Rule: generated19233
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn19233 --> :pttrn19233.extracted={}
+

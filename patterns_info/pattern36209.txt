@@ -1,0 +1,8 @@
+on multiple devices
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated36209
+Input: Token
+Rule: generated36209
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn36209 --> :pttrn36209.extracted={}
+

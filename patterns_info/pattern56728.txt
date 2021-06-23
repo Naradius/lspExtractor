@@ -1,0 +1,8 @@
+to get the data from environment
+(VP (TO )(VP (VB )(NP (DT )(NNS ))))
+Phase: generated56728
+Input: Token
+Rule: generated56728
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn56728 --> :pttrn56728.extracted={}
+

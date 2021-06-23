@@ -1,0 +1,8 @@
+The creation probability
+(NP (DT )(NN ){1,2})
+Phase: generated63103
+Input: Token
+Rule: generated63103
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn63103 --> :pttrn63103.extracted={}
+

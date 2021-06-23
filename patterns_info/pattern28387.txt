@@ -1,0 +1,8 @@
+impactn the average power consumption by up to 70%
+(VP (VB )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated28387
+Input: Token
+Rule: generated28387
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn28387 --> :pttrn28387.extracted={}
+

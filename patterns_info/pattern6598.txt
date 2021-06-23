@@ -1,0 +1,8 @@
+our proposed protocol.3
+(NP (PRP$ )(VBN )(NN ))
+Phase: generated6598
+Input: Token
+Rule: generated6598
+(
+(({ Token.category == PRP$ })({ Token.category == VBN })({ Token.category == NN }))):pttrn6598 --> :pttrn6598.extracted={}
+

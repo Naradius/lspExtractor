@@ -1,0 +1,8 @@
+very frequent lexi-cal units with strong syntactic and semantic particu-larities  andtheir identification
+(NP (NP (ADJP (RB )(JJ ))(JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (JJ )(NNS )(CC )(NN )))))
+Phase: generated106318
+Input: Token
+Rule: generated106318
+(
+(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })))))):pttrn106318 --> :pttrn106318.extracted={}
+

@@ -1,0 +1,8 @@
+Genetic and Evolutionary Computation
+(NP (NNP )(CC )(NNP ){1,2})
+Phase: generated5619
+Input: Token
+Rule: generated5619
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)):pttrn5619 --> :pttrn5619.extracted={}
+

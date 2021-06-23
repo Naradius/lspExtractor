@@ -1,0 +1,8 @@
+the blockchain IoT system
+(NP (DT )(NN )(NNP )(NN ))
+Phase: generated34793
+Input: Token
+Rule: generated34793
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))):pttrn34793 --> :pttrn34793.extracted={}
+

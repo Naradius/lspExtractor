@@ -1,0 +1,8 @@
+is not performed at this time by our intru-ion detection system algorithm
+(VP (VBZ )(RB )(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (PRP$ )(JJ )(NN ){1,2}))))
+Phase: generated110962
+Input: Token
+Rule: generated110962
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn110962 --> :pttrn110962.extracted={}
+

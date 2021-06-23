@@ -1,0 +1,8 @@
+information extraction and knowledge integration problems
+(NP (NN ){1,2}(CC )(NN ){1,2}(NNS ))
+Phase: generated70584
+Input: Token
+Rule: generated70584
+(
+(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))):pttrn70584 --> :pttrn70584.extracted={}
+

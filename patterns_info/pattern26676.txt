@@ -1,0 +1,8 @@
+should consider the other one as their preferred parent15]
+(VP (MD )(VP (VB )(NP (DT )(JJ )(CD ))(PP (IN )(NP (PRP$ )(JJ )(NN ){1,2}))))
+Phase: generated26676
+Input: Token
+Rule: generated26676
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn26676 --> :pttrn26676.extracted={}
+

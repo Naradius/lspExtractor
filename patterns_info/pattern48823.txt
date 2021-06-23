@@ -1,0 +1,8 @@
+has attribute-based ad-dressing and location awareness.One of the following approaches
+(VP (VBZ )(NP (NP (JJ )(NN )(CC )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NNS )))))
+Phase: generated48823
+Input: Token
+Rule: generated48823
+(
+(({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn48823 --> :pttrn48823.extracted={}
+

@@ -1,0 +1,8 @@
+the networktopology
+(NP (DT )(NN ))
+Phase: generated51310
+Input: Token
+Rule: generated51310
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn51310 --> :pttrn51310.extracted={}
+

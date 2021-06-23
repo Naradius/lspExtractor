@@ -1,0 +1,8 @@
+efficient intrusiondetection
+(NP (JJ )(NN ))
+Phase: generated38500
+Input: Token
+Rule: generated38500
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn38500 --> :pttrn38500.extracted={}
+

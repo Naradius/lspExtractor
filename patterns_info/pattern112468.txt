@@ -1,0 +1,8 @@
+received in 2017 his Master degree inaerospace engineering from the ISAE-SUPAERO
+(VP (VBD )(PP (TO )(NP (NNP )(NN ){1,2}))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated112468
+Input: Token
+Rule: generated112468
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == NNP })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn112468 --> :pttrn112468.extracted={}
+

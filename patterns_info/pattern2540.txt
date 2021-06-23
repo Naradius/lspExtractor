@@ -1,0 +1,8 @@
+compared to the other algorithms
+(PP (VBN )(PP (TO )(NP (DT )(JJ )(NNS ))))
+Phase: generated2540
+Input: Token
+Rule: generated2540
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn2540 --> :pttrn2540.extracted={}
+

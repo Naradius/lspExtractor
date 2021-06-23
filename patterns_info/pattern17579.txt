@@ -1,0 +1,8 @@
+is consecutive boundary node that in the perimeter forwarding Journal Pre-proofJournal Pre-proofscheme
+(VP (VBZ )(NP (JJ ){1,2}(NN )))
+Phase: generated17579
+Input: Token
+Rule: generated17579
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })+({ Token.category == NN })))):pttrn17579 --> :pttrn17579.extracted={}
+

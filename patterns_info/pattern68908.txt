@@ -1,0 +1,8 @@
+the sake
+(NP (DT )(NN ))
+Phase: generated68908
+Input: Token
+Rule: generated68908
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn68908 --> :pttrn68908.extracted={}
+

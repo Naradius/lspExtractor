@@ -1,0 +1,8 @@
+presents WHISK's rule representation and the implementationof its regular expression matching
+(VP (VBZ )(NP (NP (NP (NNP )(POS ))(NN ){1,2})(CC )(NP (DT )(VBN )(PRP$ )(JJ )(NN ){1,2})))
+Phase: generated82179
+Input: Token
+Rule: generated82179
+(
+(({ Token.category == VBZ })(((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn82179 --> :pttrn82179.extracted={}
+

@@ -1,0 +1,8 @@
+maintained by thecomputing power of different nodes
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated36165
+Input: Token
+Rule: generated36165
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn36165 --> :pttrn36165.extracted={}
+

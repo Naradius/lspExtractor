@@ -1,0 +1,8 @@
+high probability;10
+(NP (JJ )(NN )(CD ))
+Phase: generated42220
+Input: Token
+Rule: generated42220
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))):pttrn42220 --> :pttrn42220.extracted={}
+

@@ -1,0 +1,8 @@
+the other re-lated protocols
+(NP (DT )(JJ ){1,2}(NNS ))
+Phase: generated58983
+Input: Token
+Rule: generated58983
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn58983 --> :pttrn58983.extracted={}
+

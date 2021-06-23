@@ -1,0 +1,8 @@
+is not a generalization because buy occurs in different sequence with the other generalization nodes
+(VP (VBZ )(RB )(NP (DT )(NN )))
+Phase: generated70940
+Input: Token
+Rule: generated70940
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == DT })({ Token.category == NN })))):pttrn70940 --> :pttrn70940.extracted={}
+

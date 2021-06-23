@@ -1,0 +1,8 @@
+such as,DSR
+(NP (JJ )(NN ))
+Phase: generated21359
+Input: Token
+Rule: generated21359
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn21359 --> :pttrn21359.extracted={}
+

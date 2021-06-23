@@ -1,0 +1,8 @@
+level and flow sensors
+(NP (NN )(CC )(NN )(NNS ))
+Phase: generated65304
+Input: Token
+Rule: generated65304
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn65304 --> :pttrn65304.extracted={}
+

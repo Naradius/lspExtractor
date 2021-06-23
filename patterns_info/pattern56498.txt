@@ -1,0 +1,8 @@
+form a data chain butthe problem of using greedy algorithm can result in communicationdistance between two sensors that are being too long
+(VP (VB )(NP (DT )(NN ){1,2})(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (JJ )(NN ))))))
+Phase: generated56498
+Input: Token
+Rule: generated56498
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn56498 --> :pttrn56498.extracted={}
+

@@ -1,0 +1,8 @@
+this optimization
+(NP (DT )(NN ))
+Phase: generated113075
+Input: Token
+Rule: generated113075
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn113075 --> :pttrn113075.extracted={}
+

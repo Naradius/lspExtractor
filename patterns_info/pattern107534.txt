@@ -1,0 +1,8 @@
+power conservation and network lifetime
+(NP (NN ){1,2}(CC )(NN ){1,2})
+Phase: generated107534
+Input: Token
+Rule: generated107534
+(
+(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)):pttrn107534 --> :pttrn107534.extracted={}
+

@@ -1,0 +1,8 @@
+its member nodes
+(NP (PRP$ )(NN )(NNS ))
+Phase: generated11284
+Input: Token
+Rule: generated11284
+(
+(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))):pttrn11284 --> :pttrn11284.extracted={}
+

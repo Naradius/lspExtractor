@@ -1,0 +1,8 @@
+the lexical resources.We
+(NP (DT )(JJ )(NNS )(NN ))
+Phase: generated105961
+Input: Token
+Rule: generated105961
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))):pttrn105961 --> :pttrn105961.extracted={}
+

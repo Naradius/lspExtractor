@@ -1,0 +1,8 @@
+limited in some network scenario
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated18523
+Input: Token
+Rule: generated18523
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn18523 --> :pttrn18523.extracted={}
+

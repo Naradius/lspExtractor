@@ -1,0 +1,8 @@
+social computing
+(NP (JJ )(NN ))
+Phase: generated30745
+Input: Token
+Rule: generated30745
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn30745 --> :pttrn30745.extracted={}
+

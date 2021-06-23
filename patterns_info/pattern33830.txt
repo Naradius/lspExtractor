@@ -1,0 +1,8 @@
+service quality metrics
+(NP (NN ){1,2}(NNS ))
+Phase: generated33830
+Input: Token
+Rule: generated33830
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn33830 --> :pttrn33830.extracted={}
+

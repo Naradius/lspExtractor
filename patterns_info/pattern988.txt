@@ -1,0 +1,8 @@
+excluding the redundant nodes from the route
+(VP (VBG )(NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated988
+Input: Token
+Rule: generated988
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn988 --> :pttrn988.extracted={}
+

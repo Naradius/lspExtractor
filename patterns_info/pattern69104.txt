@@ -1,0 +1,8 @@
+48 sensor nodes
+(NP (CD )(NN )(NNS ))
+Phase: generated69104
+Input: Token
+Rule: generated69104
+(
+(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn69104 --> :pttrn69104.extracted={}
+

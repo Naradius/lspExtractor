@@ -1,0 +1,8 @@
+can add/remove or configure newsmart devices to the Smart Home environment
+(VP (MD )(VP (VB )(CC )(VB )(NP (NN )(NNS ))(PP (TO )(NP (DT )(NNP ){1,2}(NN )))))
+Phase: generated19448
+Input: Token
+Rule: generated19448
+(
+(({ Token.category == MD })(({ Token.category == VB })({ Token.category == CC })({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))))):pttrn19448 --> :pttrn19448.extracted={}
+

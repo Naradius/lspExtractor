@@ -1,0 +1,8 @@
+a number ofmethods for modeling and organizing data
+(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (JJ )(CC )(VBG )(NNS ))))
+Phase: generated31388
+Input: Token
+Rule: generated31388
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == VBG })({ Token.category == NNS }))))):pttrn31388 --> :pttrn31388.extracted={}
+

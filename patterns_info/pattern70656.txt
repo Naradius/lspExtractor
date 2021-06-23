@@ -1,0 +1,8 @@
+formed from query in a conventional manner
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated70656
+Input: Token
+Rule: generated70656
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn70656 --> :pttrn70656.extracted={}
+

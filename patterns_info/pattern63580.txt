@@ -1,0 +1,8 @@
+their cooperation characteristics
+(NP (PRP$ )(NN )(NNS ))
+Phase: generated63580
+Input: Token
+Rule: generated63580
+(
+(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))):pttrn63580 --> :pttrn63580.extracted={}
+

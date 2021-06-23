@@ -1,0 +1,8 @@
+to simulate differ-ent phenomena
+(VP (TO )(VP (VB )(NP (JJ )(NNS ))))
+Phase: generated30594
+Input: Token
+Rule: generated30594
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn30594 --> :pttrn30594.extracted={}
+

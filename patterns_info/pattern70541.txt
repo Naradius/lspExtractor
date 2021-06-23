@@ -1,0 +1,8 @@
+applied to natural language problems
+(VP (VBN )(PP (TO )(NP (JJ )(NN )(NNS ))))
+Phase: generated70541
+Input: Token
+Rule: generated70541
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn70541 --> :pttrn70541.extracted={}
+

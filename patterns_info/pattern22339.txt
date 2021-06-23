@@ -1,0 +1,8 @@
+are interfered on thatchannel.Graph creation
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated22339
+Input: Token
+Rule: generated22339
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn22339 --> :pttrn22339.extracted={}
+

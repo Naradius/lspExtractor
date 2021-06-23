@@ -1,0 +1,8 @@
+relations.The entropy H
+(NP (DT )(NN )(NNP ))
+Phase: generated76389
+Input: Token
+Rule: generated76389
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))):pttrn76389 --> :pttrn76389.extracted={}
+

@@ -1,0 +1,8 @@
+Figure 3 showsthe change of the agent data structure
+(NP (NP (NN )(CD )(NN ){1,2})(PP (IN )(NP (DT )(NN )(NNS )(NN ))))
+Phase: generated33257
+Input: Token
+Rule: generated33257
+(
+((({ Token.category == NN })({ Token.category == CD })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN }))))):pttrn33257 --> :pttrn33257.extracted={}
+

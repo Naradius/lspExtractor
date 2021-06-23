@@ -1,0 +1,8 @@
+were tolook up both object id and category at the same time from a flat file or database table
+(VP (VBD )(VP (VB )(PP (IN )(NP (DT )(NN )(JJ )(CC )(NN )))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(CC )(NN ){1,2}))))))
+Phase: generated90585
+Input: Token
+Rule: generated90585
+(
+(({ Token.category == VBD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))))))):pttrn90585 --> :pttrn90585.extracted={}
+

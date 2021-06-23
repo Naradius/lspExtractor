@@ -1,0 +1,8 @@
+building a personalized news service
+(VP (VBG )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated92557
+Input: Token
+Rule: generated92557
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn92557 --> :pttrn92557.extracted={}
+

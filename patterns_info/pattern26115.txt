@@ -1,0 +1,8 @@
+sup-ported node/link constraints
+(NP (JJ )(NN )(NNS ))
+Phase: generated26115
+Input: Token
+Rule: generated26115
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn26115 --> :pttrn26115.extracted={}
+

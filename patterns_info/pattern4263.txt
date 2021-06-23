@@ -1,0 +1,8 @@
+associate to itsnearest CH
+(VP (VB )(PP (TO )(NP (PRP$ )(NNP ))))
+Phase: generated4263
+Input: Token
+Rule: generated4263
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NNP }))))):pttrn4263 --> :pttrn4263.extracted={}
+

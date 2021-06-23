@@ -1,0 +1,8 @@
+in lessconstruction time
+(PP (IN )(NP (JJR )(NN )))
+Phase: generated94667
+Input: Token
+Rule: generated94667
+(
+(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })))):pttrn94667 --> :pttrn94667.extracted={}
+

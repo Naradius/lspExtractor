@@ -1,0 +1,8 @@
+transmit the data to other sensors
+(VP (VB )(NP (DT )(NNS ))(PP (TO )(NP (JJ )(NNS ))))
+Phase: generated10835
+Input: Token
+Rule: generated10835
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn10835 --> :pttrn10835.extracted={}
+

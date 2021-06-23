@@ -1,0 +1,8 @@
+will be connected.Table 2Final temperature in the case study in both experiments.Final temperature without slicing Final temperature with slicing22.98
+(VP (MD )(VP (VB )(VP (VBN )(NP (NP (JJ ){1,2}(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NNS ))(NP (JJ )(NN )))))))(PP (IN )(VP (VBG )(NP (JJ )(NN )))))))
+Phase: generated30129
+Input: Token
+Rule: generated30129
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN })))))))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn30129 --> :pttrn30129.extracted={}
+

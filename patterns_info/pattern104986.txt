@@ -1,0 +1,8 @@
+the JVLC
+(NP (DT )(NNP ))
+Phase: generated104986
+Input: Token
+Rule: generated104986
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn104986 --> :pttrn104986.extracted={}
+

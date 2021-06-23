@@ -1,0 +1,8 @@
+A home maycontain around two dozens of home appliancescontaining sensor nodes
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (CD )(NNS ))(PP (IN )(NP (NN ){1,2}(NNS ))))))
+Phase: generated46959
+Input: Token
+Rule: generated46959
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn46959 --> :pttrn46959.extracted={}
+

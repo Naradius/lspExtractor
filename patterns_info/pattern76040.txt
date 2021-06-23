@@ -1,0 +1,8 @@
+follow a three step distant supervision approach: First,we leverage FREEBASE to automatically annotate sen-tences with entity mentions and their relations to be usedas training data
+(VP (VBP )(NP (NP (DT )(CD )(NN )(JJ )(NN ){1,2})(VP (VBP )(VP (TO )(VP (VB )(PP (IN )(NP (NP (NN )(NNS ))(CC )(NP (NP (PRP$ )(NNS ))(VP (TO )(VP (VB )(NP (JJ )(NN )(NNS ))))))))))))
+Phase: generated76040
+Input: Token
+Rule: generated76040
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == CD })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))))))):pttrn76040 --> :pttrn76040.extracted={}
+

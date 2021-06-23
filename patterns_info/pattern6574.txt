@@ -1,0 +1,8 @@
+typ-ical mote-class devices
+(NP (JJ )(NN )(NNS ))
+Phase: generated6574
+Input: Token
+Rule: generated6574
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn6574 --> :pttrn6574.extracted={}
+

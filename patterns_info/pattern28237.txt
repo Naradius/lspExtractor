@@ -1,0 +1,8 @@
+been depicted in Fig. 8 ,ntervals
+(VP (VBN )(VP (VBN )(PP (IN )(NP (NNP )(CD )(NNS )))))
+Phase: generated28237
+Input: Token
+Rule: generated28237
+(
+(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNS })))))):pttrn28237 --> :pttrn28237.extracted={}
+

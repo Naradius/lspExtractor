@@ -1,0 +1,8 @@
+is a Java-based envi-ronment supporting the research and developmentof language processing software, in order to extractinformation from text
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(VP (VBG )(NP (DT )(NN )(CC )(NN ){1,2}))))
+Phase: generated92291
+Input: Token
+Rule: generated92291
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))))):pttrn92291 --> :pttrn92291.extracted={}
+

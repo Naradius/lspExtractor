@@ -1,0 +1,8 @@
+of Network and Computer Applications 148  102456ii
+(PP (IN )(NP (CC )(NP (NNP ){1,2}(CD ){1,2})))
+Phase: generated40640
+Input: Token
+Rule: generated40640
+(
+(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == CD })+)))):pttrn40640 --> :pttrn40640.extracted={}
+

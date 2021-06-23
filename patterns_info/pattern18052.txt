@@ -1,0 +1,8 @@
+sent network-wide during the entire simulation
+(VP (VBD )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated18052
+Input: Token
+Rule: generated18052
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn18052 --> :pttrn18052.extracted={}
+

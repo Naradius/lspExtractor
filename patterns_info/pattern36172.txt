@@ -1,0 +1,8 @@
+sufficient resources
+(NP (JJ )(NNS ))
+Phase: generated36172
+Input: Token
+Rule: generated36172
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn36172 --> :pttrn36172.extracted={}
+

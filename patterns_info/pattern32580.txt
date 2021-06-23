@@ -1,0 +1,8 @@
+A synthetic QoS based routing model for WSNs3.1.
+(NP (NP (DT )(JJ )(NNS ))(VP (VBN )(NP (JJ )(NN ))))
+Phase: generated32580
+Input: Token
+Rule: generated32580
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn32580 --> :pttrn32580.extracted={}
+

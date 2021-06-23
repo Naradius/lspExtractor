@@ -1,0 +1,8 @@
+is best fitness value of a particu-ar particle
+(VP (VBZ )(NP (NP (ADJP (RB )(NN ))(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated21015
+Input: Token
+Rule: generated21015
+(
+(({ Token.category == VBZ })(((({ Token.category == RB })({ Token.category == NN }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn21015 --> :pttrn21015.extracted={}
+

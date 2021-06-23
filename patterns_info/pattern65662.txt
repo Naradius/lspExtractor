@@ -1,0 +1,8 @@
+2. Adhoc On-demand Multipath Distance Vector Routing
+(NP (DT )(NNP ){1,2})
+Phase: generated65662
+Input: Token
+Rule: generated65662
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn65662 --> :pttrn65662.extracted={}
+

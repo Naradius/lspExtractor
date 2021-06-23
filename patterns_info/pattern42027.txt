@@ -1,0 +1,8 @@
+the ability toencounter of a node
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated42027
+Input: Token
+Rule: generated42027
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn42027 --> :pttrn42027.extracted={}
+

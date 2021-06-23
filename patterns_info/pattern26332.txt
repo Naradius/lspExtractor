@@ -1,0 +1,8 @@
+the residual energy of theodes to establish reliable and energy efficient communications inhe network
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(VP (VBG )(VP (TO )(VP (VB )(NP (NP (ADJP (JJ )(CC )(NN ))(JJ )(NNS ))(JJ )(NN )))))))
+Phase: generated26332
+Input: Token
+Rule: generated26332
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN }))({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NN })))))))):pttrn26332 --> :pttrn26332.extracted={}
+

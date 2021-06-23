@@ -1,0 +1,8 @@
+is presented in the following section
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(VBG )(NN )))))
+Phase: generated11103
+Input: Token
+Rule: generated11103
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })))))):pttrn11103 --> :pttrn11103.extracted={}
+

@@ -1,0 +1,8 @@
+the WSN,  = 1
+(NP (NP (DT )(NNP ))(NP (SYM )(CD )))
+Phase: generated69091
+Input: Token
+Rule: generated69091
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == SYM })({ Token.category == CD })))):pttrn69091 --> :pttrn69091.extracted={}
+

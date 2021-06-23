@@ -1,0 +1,8 @@
+support real life applications
+(VP (VB )(NP (JJ )(NN )(NNS )))
+Phase: generated71786
+Input: Token
+Rule: generated71786
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn71786 --> :pttrn71786.extracted={}
+

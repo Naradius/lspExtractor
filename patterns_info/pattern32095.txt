@@ -1,0 +1,8 @@
+the smart building
+(NP (DT )(JJ )(NN ))
+Phase: generated32095
+Input: Token
+Rule: generated32095
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn32095 --> :pttrn32095.extracted={}
+

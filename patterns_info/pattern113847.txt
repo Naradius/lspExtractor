@@ -1,0 +1,8 @@
+the nodes of the syntactic dependency parse trees towards more general text discourse relations
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN ){1,2})(NP (NP (JJ )(NNS ))(PP (IN )(NP (ADJP (RBR )(JJ ))(NN ){1,2}(NNS )))))))
+Phase: generated113847
+Input: Token
+Rule: generated113847
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NN })+({ Token.category == NNS })))))))):pttrn113847 --> :pttrn113847.extracted={}
+

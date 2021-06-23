@@ -1,0 +1,8 @@
+based on the invitationmessages and on the registration of stationarynodes by the mobile nodes
+(VP (VBN )(PP (PP (IN )(NP (DT )(NNS )))(CC )))
+Phase: generated44046
+Input: Token
+Rule: generated44046
+(
+(({ Token.category == VBN })((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))({ Token.category == CC })))):pttrn44046 --> :pttrn44046.extracted={}
+

@@ -1,0 +1,8 @@
+the energy backup
+(NP (DT )(NN ){1,2})
+Phase: generated9984
+Input: Token
+Rule: generated9984
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn9984 --> :pttrn9984.extracted={}
+

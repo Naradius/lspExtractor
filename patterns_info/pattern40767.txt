@@ -1,0 +1,8 @@
+Wait protocol offers better performancecompared to the Epidemic protocol
+(VP (VB )(NP (NN )(NNS ))(VP (VBD )(PP (TO )(NP (DT )(NNP )(NN )))))
+Phase: generated40767
+Input: Token
+Rule: generated40767
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn40767 --> :pttrn40767.extracted={}
+

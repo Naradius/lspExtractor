@@ -1,0 +1,8 @@
+two algorithms implemented in a distributed CIDS
+(NP (NP (CD )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNP )))))
+Phase: generated39523
+Input: Token
+Rule: generated39523
+(
+((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })))))):pttrn39523 --> :pttrn39523.extracted={}
+

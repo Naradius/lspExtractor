@@ -1,0 +1,8 @@
+information security consensus mechanism.Evaluation dimension PoW PoS DPoS PBFTCompliance supervision Weak Weak Weak StrongPerformance efficiency Low Lower Higher HighLF High Higher Higher LowFault
+(NP (NN ){1,2}(NNP ){1,2}(NN )(NNP ){1,2}(NN )(NNP ){1,2})
+Phase: generated36982
+Input: Token
+Rule: generated36982
+(
+(({ Token.category == NN })+({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })+)):pttrn36982 --> :pttrn36982.extracted={}
+

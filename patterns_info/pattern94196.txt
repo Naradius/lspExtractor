@@ -1,0 +1,8 @@
+finding the right combinationof nouns and conditions in order to match countriesand not persons, companies, etc.
+(VP (VBG )(NP (NP (DT )(JJ )(NN )(NNS ))(CC )))
+Phase: generated94196
+Input: Token
+Rule: generated94196
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })))):pttrn94196 --> :pttrn94196.extracted={}
+

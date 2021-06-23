@@ -1,0 +1,8 @@
+the possible security threats and cop-ing mechanisms of the proposed framework through simulationexperiments
+(NP (NP (DT )(JJ )(NN )(NNS ))(CC ))
+Phase: generated35030
+Input: Token
+Rule: generated35030
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn35030 --> :pttrn35030.extracted={}
+

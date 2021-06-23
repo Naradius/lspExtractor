@@ -1,0 +1,8 @@
+Ad Hoc Netw. 3   325349
+(NP (NNP ){1,2}(CD ){1,2})
+Phase: generated52615
+Input: Token
+Rule: generated52615
+(
+(({ Token.category == NNP })+({ Token.category == CD })+)):pttrn52615 --> :pttrn52615.extracted={}
+

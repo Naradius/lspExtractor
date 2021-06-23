@@ -1,0 +1,8 @@
+more sophisticated alert correlation experiments anavenue for future work.Please
+(NP (NP (ADJP (RBR )(JJ ))(JJ )(NN )(NNS )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))
+Phase: generated37460
+Input: Token
+Rule: generated37460
+(
+(((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn37460 --> :pttrn37460.extracted={}
+

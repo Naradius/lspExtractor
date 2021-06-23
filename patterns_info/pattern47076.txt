@@ -1,0 +1,8 @@
+a sensing unit, a pro-cessing unit, a transceiver unit and a power unit.They
+(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(JJ )(NN ))(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(NN ){1,2}))))
+Phase: generated47076
+Input: Token
+Rule: generated47076
+(
+((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn47076 --> :pttrn47076.extracted={}
+

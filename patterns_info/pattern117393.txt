@@ -1,0 +1,8 @@
+user clicks
+(NP (NN )(NNS ))
+Phase: generated117393
+Input: Token
+Rule: generated117393
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn117393 --> :pttrn117393.extracted={}
+

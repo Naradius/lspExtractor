@@ -1,0 +1,8 @@
+into dead ends
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated15452
+Input: Token
+Rule: generated15452
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn15452 --> :pttrn15452.extracted={}
+

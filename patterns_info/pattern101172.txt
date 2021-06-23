@@ -1,0 +1,8 @@
+the queriessubmitted
+(NP (DT )(VBN ))
+Phase: generated101172
+Input: Token
+Rule: generated101172
+(
+(({ Token.category == DT })({ Token.category == VBN }))):pttrn101172 --> :pttrn101172.extracted={}
+

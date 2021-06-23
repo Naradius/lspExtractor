@@ -1,0 +1,8 @@
+of 1.5 dB
+(PP (IN )(NP (CD )(NN )))
+Phase: generated45136
+Input: Token
+Rule: generated45136
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))):pttrn45136 --> :pttrn45136.extracted={}
+

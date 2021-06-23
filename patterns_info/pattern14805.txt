@@ -1,0 +1,8 @@
+only the best leader persists
+(NP (RB )(DT )(JJS )(NN )(NNS ))
+Phase: generated14805
+Input: Token
+Rule: generated14805
+(
+(({ Token.category == RB })({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })({ Token.category == NNS }))):pttrn14805 --> :pttrn14805.extracted={}
+

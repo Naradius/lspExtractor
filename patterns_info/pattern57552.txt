@@ -1,0 +1,8 @@
+from very low, low, medium and high.Table
+(PP (IN )(NP (ADJP (RB )(JJ ))(ADJP (JJ )(CC )(JJR ))(NN )))
+Phase: generated57552
+Input: Token
+Rule: generated57552
+(
+(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJR }))({ Token.category == NN })))):pttrn57552 --> :pttrn57552.extracted={}
+

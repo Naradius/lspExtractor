@@ -1,0 +1,8 @@
+the power consumption
+(NP (DT )(NN ){1,2})
+Phase: generated26017
+Input: Token
+Rule: generated26017
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn26017 --> :pttrn26017.extracted={}
+

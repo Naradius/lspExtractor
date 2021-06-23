@@ -1,0 +1,8 @@
+TTL = 1.2
+(NP (NN )(SYM )(CD ))
+Phase: generated15777
+Input: Token
+Rule: generated15777
+(
+(({ Token.category == NN })({ Token.category == SYM })({ Token.category == CD }))):pttrn15777 --> :pttrn15777.extracted={}
+

@@ -1,0 +1,8 @@
+of working with diverse devices and a range of issues including different types of attacks, inherent flexibilityof the IoT networks, and the lack of trust among the participating devices
+(PP (IN )(VP (VBG )(PP (IN )(NP (NP (JJ )(NNS ))(CC )))))
+Phase: generated39281
+Input: Token
+Rule: generated39281
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })))))):pttrn39281 --> :pttrn39281.extracted={}
+

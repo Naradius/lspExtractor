@@ -1,0 +1,8 @@
+to balancethe load between nodes using a mobile base station whichmoves around the network to collect node information.Sink mobility also improves connectivity in sparse archi-tectures and enhances reliability because communicationoccurs in a single-hop fashion
+(VP (TO )(VP (VB )(VP (VBG )(NP (DT )(JJ )(NN ){1,2}(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated51635
+Input: Token
+Rule: generated51635
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn51635 --> :pttrn51635.extracted={}
+

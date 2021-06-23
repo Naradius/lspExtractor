@@ -1,0 +1,8 @@
+considering 3 factors
+(VP (VBG )(NP (CD )(NNS )))
+Phase: generated60816
+Input: Token
+Rule: generated60816
+(
+(({ Token.category == VBG })(({ Token.category == CD })({ Token.category == NNS })))):pttrn60816 --> :pttrn60816.extracted={}
+

@@ -1,0 +1,8 @@
+<, >, <= and >=
+(NP (NP (NNP )(SYM ))(CC )(NP (JJ )(SYM )))
+Phase: generated87983
+Input: Token
+Rule: generated87983
+(
+((({ Token.category == NNP })({ Token.category == SYM }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == SYM })))):pttrn87983 --> :pttrn87983.extracted={}
+

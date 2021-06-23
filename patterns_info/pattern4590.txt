@@ -1,0 +1,8 @@
+tunable transmit power
+(NP (JJ )(NN ){1,2})
+Phase: generated4590
+Input: Token
+Rule: generated4590
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn4590 --> :pttrn4590.extracted={}
+

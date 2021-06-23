@@ -1,0 +1,8 @@
+its pheromonelevel based on the number of CHs  in its neighborhoodand its normalized residual energy
+(NP (NP (PRP$ )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (PP (IN )(NP (PRP$ )(NN )))(NP (PRP$ )(JJ ){1,2}(NN ))))))))
+Phase: generated3912
+Input: Token
+Rule: generated3912
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NN }))))))))):pttrn3912 --> :pttrn3912.extracted={}
+

@@ -1,0 +1,8 @@
+Economics & Information Systems
+(NP (NNP )(CC )(NNP ){1,2})
+Phase: generated9193
+Input: Token
+Rule: generated9193
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)):pttrn9193 --> :pttrn9193.extracted={}
+

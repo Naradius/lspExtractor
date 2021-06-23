@@ -1,0 +1,8 @@
+give particular attention to thedesign of energy-efficient sensor networks that satisfyapplication requirements
+(VP (VBP )(NP (JJ )(NN ))(PP (TO )(NP (PP (IN )(NP (JJ )(NN )(NNS )))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated49423
+Input: Token
+Rule: generated49423
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn49423 --> :pttrn49423.extracted={}
+

@@ -1,0 +1,8 @@
+the impact of replication on the perfor-mances of the HDRP protocol according to the metrics in section 7.2.8.3.1
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NNP )(NN ))(PP (VBG )(PP (TO )(NP (NP (DT )(NNS ))(PP (IN )(NP (NN )(CD )))))))))))
+Phase: generated43229
+Input: Token
+Rule: generated43229
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))))))):pttrn43229 --> :pttrn43229.extracted={}
+

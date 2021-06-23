@@ -1,0 +1,8 @@
+usingacoustic and multimodal
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated45661
+Input: Token
+Rule: generated45661
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn45661 --> :pttrn45661.extracted={}
+

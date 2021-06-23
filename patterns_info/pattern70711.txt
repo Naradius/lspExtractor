@@ -1,0 +1,8 @@
+abstract entities expressed by logic formulas
+(NP (NP (JJ )(NNS ))(VP (VBN )(PP (IN )(NP (NN )(NNS )))))
+Phase: generated70711
+Input: Token
+Rule: generated70711
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn70711 --> :pttrn70711.extracted={}
+

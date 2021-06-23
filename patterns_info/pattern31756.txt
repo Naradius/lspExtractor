@@ -1,0 +1,8 @@
+the revised bibliography addressdifferent topics, such as the distributive IoT platform, privacy,data authentication, and security issues, among others
+(NP (NP (DT )(VBN )(NN ){1,2}(NNS ))(PP (JJ )(IN )))
+Phase: generated31756
+Input: Token
+Rule: generated31756
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn31756 --> :pttrn31756.extracted={}
+

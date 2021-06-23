@@ -1,0 +1,8 @@
+by hop and givesthe sensor network self-organizing ability
+(PP (IN )(NP (CC )(NP (NP (DT )(NN ){1,2})(JJ )(NN ))))
+Phase: generated44319
+Input: Token
+Rule: generated44319
+(
+(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == JJ })({ Token.category == NN }))))):pttrn44319 --> :pttrn44319.extracted={}
+

@@ -1,0 +1,8 @@
+in many exiting literatures
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated68425
+Input: Token
+Rule: generated68425
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn68425 --> :pttrn68425.extracted={}
+

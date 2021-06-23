@@ -1,0 +1,8 @@
+be used to initialize a knowledge structure and make the discoveredknowledge more interpretable.4.4
+(VP (VB )(VP (VBN )(VP (TO )(VP (VP (VB )(NP (DT )(NN ){1,2}))(CC )))))
+Phase: generated77395
+Input: Token
+Rule: generated77395
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))({ Token.category == CC })))))):pttrn77395 --> :pttrn77395.extracted={}
+

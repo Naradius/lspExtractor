@@ -1,0 +1,8 @@
+of already known answers
+(PP (IN )(NP (RB )(VBN )(NNS )))
+Phase: generated98882
+Input: Token
+Rule: generated98882
+(
+(({ Token.category == IN })(({ Token.category == RB })({ Token.category == VBN })({ Token.category == NNS })))):pttrn98882 --> :pttrn98882.extracted={}
+

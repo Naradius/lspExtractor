@@ -1,0 +1,8 @@
+classication rules by top-down induction
+(NP (NP (NN )(NNS ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated80707
+Input: Token
+Rule: generated80707
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn80707 --> :pttrn80707.extracted={}
+

@@ -1,0 +1,8 @@
+by GATE and the underlying OWL ontologies
+(PP (IN )(NP (CC )(NP (DT )(VBG )(NNP )(NNS ))))
+Phase: generated92382
+Input: Token
+Rule: generated92382
+(
+(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNP })({ Token.category == NNS }))))):pttrn92382 --> :pttrn92382.extracted={}
+

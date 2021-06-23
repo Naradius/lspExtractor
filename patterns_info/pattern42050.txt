@@ -1,0 +1,8 @@
+these nodesare characterized by high availability compared to the bundles
+(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (NP (JJ )(NN ))(VP (VBN )(PP (TO )(NP (DT )(NNS ))))))))
+Phase: generated42050
+Input: Token
+Rule: generated42050
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn42050 --> :pttrn42050.extracted={}
+

@@ -1,0 +1,8 @@
+the city topology
+(NP (DT )(NN ){1,2})
+Phase: generated481
+Input: Token
+Rule: generated481
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn481 --> :pttrn481.extracted={}
+

@@ -1,0 +1,8 @@
+thenetwork reliability and fault-tolerance
+(NP (DT )(NN )(CC )(NN ))
+Phase: generated2949
+Input: Token
+Rule: generated2949
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn2949 --> :pttrn2949.extracted={}
+

@@ -1,0 +1,8 @@
+of the original collection of potential production instances
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated104582
+Input: Token
+Rule: generated104582
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn104582 --> :pttrn104582.extracted={}
+

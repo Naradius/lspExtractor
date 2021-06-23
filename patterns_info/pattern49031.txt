@@ -1,0 +1,8 @@
+reach thesame routing node on the way back to the sink
+(VP (VBP )(NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ))(ADVP (RB )(PP (TO )(NP (DT )(NN )))))))
+Phase: generated49031
+Input: Token
+Rule: generated49031
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == RB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn49031 --> :pttrn49031.extracted={}
+

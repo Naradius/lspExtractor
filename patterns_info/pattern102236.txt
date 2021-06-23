@@ -1,0 +1,8 @@
+a production restricted to a single nonterminal, which will be re-placed by its right-hand side
+(NP (NP (DT )(NN ))(VP (VBN )(PP (TO )(NP (NP (DT )(JJ ){1,2})(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (PRP$ )(JJ )(NN ))))))))))
+Phase: generated102236
+Input: Token
+Rule: generated102236
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })+)(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))))))))):pttrn102236 --> :pttrn102236.extracted={}
+

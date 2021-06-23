@@ -1,0 +1,8 @@
+leveraging the redundancy and linguistic variability of the Web,THE-MENTOR learns lexico-syntactic patterns using a set of question/answer seeds
+(VP (VBG )(NP (NP (DT )(NN ))(CC )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )))))(NP (JJ )(NNS ))(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated101576
+Input: Token
+Rule: generated101576
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn101576 --> :pttrn101576.extracted={}
+

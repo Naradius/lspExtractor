@@ -1,0 +1,8 @@
+for the deployment of application mod-ules close to the edge of the network and customizedresource scheduling policy by overriding the method up-dateAllocatedMips inside the class FogDevice
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(ADJP (RB )(PP (TO )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(CC ))))))))
+Phase: generated19388
+Input: Token
+Rule: generated19388
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == RB })(({ Token.category == TO })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC }))))))))):pttrn19388 --> :pttrn19388.extracted={}
+

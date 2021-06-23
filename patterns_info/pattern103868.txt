@@ -1,0 +1,8 @@
+expected number of vertices and edges with a certain label in the considered language ofgraphs
+(NP (NP (NP (NP (VBN )(NN ))(PP (IN )(NP (NNS )(CC )(NNS ))))(PP (IN )(NP (DT )(JJ )(NN ))))(PP (IN )(NP (DT )(VBN )(NN )(NNS ))))
+Phase: generated103868
+Input: Token
+Rule: generated103868
+(
+((((({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))))):pttrn103868 --> :pttrn103868.extracted={}
+

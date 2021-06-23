@@ -1,0 +1,8 @@
+of multiword unit resources
+(PP (IN )(NP (NN ){1,2}(NNS )))
+Phase: generated106071
+Input: Token
+Rule: generated106071
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn106071 --> :pttrn106071.extracted={}
+

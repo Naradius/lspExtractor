@@ -1,0 +1,8 @@
+expressive power
+(NP (JJ )(NN ))
+Phase: generated116086
+Input: Token
+Rule: generated116086
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn116086 --> :pttrn116086.extracted={}
+

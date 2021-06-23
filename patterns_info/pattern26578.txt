@@ -1,0 +1,8 @@
+more stability
+(NP (JJR )(NN ))
+Phase: generated26578
+Input: Token
+Rule: generated26578
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn26578 --> :pttrn26578.extracted={}
+

@@ -1,0 +1,8 @@
+extracted from the sentencefrom Figure 1
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}(CD ))))
+Phase: generated95489
+Input: Token
+Rule: generated95489
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CD }))))):pttrn95489 --> :pttrn95489.extracted={}
+

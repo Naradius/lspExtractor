@@ -1,0 +1,8 @@
+the notion of regions, the role playedby the corresponding PN at the moment and a set of functionsto send/receive messages
+(NP (NP (DT )(NN ))(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNP ))))(PP (IN )(NP (DT )(NN ))))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(JJ )(NNS )))))
+Phase: generated13010
+Input: Token
+Rule: generated13010
+(
+((({ Token.category == DT })({ Token.category == NN }))(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn13010 --> :pttrn13010.extracted={}
+

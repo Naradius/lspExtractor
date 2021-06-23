@@ -1,0 +1,8 @@
+receive one packet, leaving broadcast only forpackets that may be processed by any node
+(VP (VB )(NP (CD )(NN ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated15524
+Input: Token
+Rule: generated15524
+(
+(({ Token.category == VB })(({ Token.category == CD })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn15524 --> :pttrn15524.extracted={}
+

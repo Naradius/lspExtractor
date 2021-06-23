@@ -1,0 +1,8 @@
+Itis possible to minimize the number of suspended dotted rules by taking cardinality constraintsof edges into account  and by usingavailable layering information .4.1.2.
+(NP (NP (DT )(JJ ))(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (VBN ){1,2}(NNS ))(PP (IN )(VP (VBG )(PP (CC )(PP (IN )(NP (JJ )(NN ){1,2})))))))))))
+Phase: generated104045
+Input: Token
+Rule: generated104045
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))))))))):pttrn104045 --> :pttrn104045.extracted={}
+

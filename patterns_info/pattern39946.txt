@@ -1,0 +1,8 @@
+as malicious  by device level agents
+(PP (IN )(ADJP (JJ )(PP (IN )(NP (NN ){1,2}(NNS )))))
+Phase: generated39946
+Input: Token
+Rule: generated39946
+(
+(({ Token.category == IN })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))))):pttrn39946 --> :pttrn39946.extracted={}
+

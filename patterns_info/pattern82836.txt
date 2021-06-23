@@ -1,0 +1,8 @@
+areselected from the reservoir and presented to the user to annotate
+(VP (VP (VBD )(PP (IN )(NP (DT )(NN ))))(CC )(VP (VBD )(PP (TO )(NP (DT )(NN )))))
+Phase: generated82836
+Input: Token
+Rule: generated82836
+(
+((({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn82836 --> :pttrn82836.extracted={}
+

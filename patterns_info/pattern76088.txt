@@ -1,0 +1,8 @@
+the recently released FACC1  resource
+(NP (DT )(ADJP (RB )(VBN ))(NNP )(NN ))
+Phase: generated76088
+Input: Token
+Rule: generated76088
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNP })({ Token.category == NN }))):pttrn76088 --> :pttrn76088.extracted={}
+

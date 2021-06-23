@@ -1,0 +1,8 @@
+linkscan be formed by radio, infrared or optical media.To enable global operation of these networks
+(VP (CC )(NP (NP (JJ ){1,2}(NN ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated47547
+Input: Token
+Rule: generated47547
+(
+(({ Token.category == CC })((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn47547 --> :pttrn47547.extracted={}
+

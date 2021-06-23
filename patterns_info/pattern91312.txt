@@ -1,0 +1,8 @@
+current tag X
+(NP (JJ )(NN )(NNP ))
+Phase: generated91312
+Input: Token
+Rule: generated91312
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))):pttrn91312 --> :pttrn91312.extracted={}
+

@@ -1,0 +1,8 @@
+than somepredetermined threshold value
+(PP (IN )(NP (VBN )(NN ){1,2}))
+Phase: generated90795
+Input: Token
+Rule: generated90795
+(
+(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN })+))):pttrn90795 --> :pttrn90795.extracted={}
+

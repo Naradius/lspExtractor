@@ -1,0 +1,8 @@
+may not be best option touse as
+(VP (MD )(RB )(VP (VB )(NP (JJS )(NN ){1,2})))
+Phase: generated38058
+Input: Token
+Rule: generated38058
+(
+(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == JJS })({ Token.category == NN })+)))):pttrn38058 --> :pttrn38058.extracted={}
+

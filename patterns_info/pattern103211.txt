@@ -1,0 +1,8 @@
+cre-ates a subset of production instances which together generate the given input graph .Definition 3.5 A production instance of a production p :=  is a tuple pi := such that h
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(VP (VBP )(NP (DT )(VBN )(NN ){1,2}))))))
+Phase: generated103211
+Input: Token
+Rule: generated103211
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+))))))):pttrn103211 --> :pttrn103211.extracted={}
+

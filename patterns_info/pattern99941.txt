@@ -1,0 +1,8 @@
+to the search engine
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated99941
+Input: Token
+Rule: generated99941
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn99941 --> :pttrn99941.extracted={}
+

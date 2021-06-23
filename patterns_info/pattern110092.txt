@@ -1,0 +1,8 @@
+study hy-drodynamic turbulence data which is also regarded as a good ex-ample of a signal containing scale invariance properties
+(VP (VB )(NP (NP (JJ )(NN )(NNS ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBG )(NP (JJ )(NN )(NNS )))))))))))
+Phase: generated110092
+Input: Token
+Rule: generated110092
+(
+(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))))))):pttrn110092 --> :pttrn110092.extracted={}
+

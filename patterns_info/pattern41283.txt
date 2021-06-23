@@ -1,0 +1,8 @@
+communication inter-faces
+(NP (NN )(NNS ))
+Phase: generated41283
+Input: Token
+Rule: generated41283
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn41283 --> :pttrn41283.extracted={}
+

@@ -1,0 +1,8 @@
+the above two equation
+(NP (DT )(JJ )(CD )(NN ))
+Phase: generated11612
+Input: Token
+Rule: generated11612
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NN }))):pttrn11612 --> :pttrn11612.extracted={}
+

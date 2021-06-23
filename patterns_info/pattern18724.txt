@@ -1,0 +1,8 @@
+from IoT/edge devices
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated18724
+Input: Token
+Rule: generated18724
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn18724 --> :pttrn18724.extracted={}
+

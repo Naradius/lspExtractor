@@ -1,0 +1,8 @@
+propagated to the sensor nodes
+(VP (VBN )(PP (TO )(NP (DT )(NN )(NNS ))))
+Phase: generated59106
+Input: Token
+Rule: generated59106
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn59106 --> :pttrn59106.extracted={}
+

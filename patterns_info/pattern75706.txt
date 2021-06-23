@@ -1,0 +1,8 @@
+with type 2 diabetes
+(PP (IN )(NP (NN )(CD )(NN )))
+Phase: generated75706
+Input: Token
+Rule: generated75706
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })({ Token.category == NN })))):pttrn75706 --> :pttrn75706.extracted={}
+

@@ -1,0 +1,8 @@
+to cluster topics
+(PP (TO )(NP (NN )(NNS )))
+Phase: generated85885
+Input: Token
+Rule: generated85885
+(
+(({ Token.category == TO })(({ Token.category == NN })({ Token.category == NNS })))):pttrn85885 --> :pttrn85885.extracted={}
+

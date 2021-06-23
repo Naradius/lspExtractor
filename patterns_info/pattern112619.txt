@@ -1,0 +1,8 @@
+has been successfully applied to some relevant practical problems such as ad hoc networks for aerial vehicles
+(VP (VBZ )(VP (VBN )(VP (VBN )(PP (TO )(NP (NP (DT )(JJ ){1,2}(NNS ))(PP (JJ )(IN )(NP (NP (NN )(JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))))))
+Phase: generated112619
+Input: Token
+Rule: generated112619
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))))):pttrn112619 --> :pttrn112619.extracted={}
+

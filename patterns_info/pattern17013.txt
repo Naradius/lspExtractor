@@ -1,0 +1,8 @@
+Ph.D. dissertation
+(NP (NNP )(NN ))
+Phase: generated17013
+Input: Token
+Rule: generated17013
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn17013 --> :pttrn17013.extracted={}
+

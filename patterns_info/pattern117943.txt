@@ -1,0 +1,8 @@
+find their subjects
+(VP (VB )(NP (PRP$ )(NNS )))
+Phase: generated117943
+Input: Token
+Rule: generated117943
+(
+(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NNS })))):pttrn117943 --> :pttrn117943.extracted={}
+

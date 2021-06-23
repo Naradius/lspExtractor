@@ -1,0 +1,8 @@
+have common stems  a lot of stems are not words1631Dictionary based approaches  Using dictionaries to ensure that the generated stem is a valid word
+(VP (VBP )(NP (JJ )(NNS ))(VP (VBP )(RB )(NP (NP (ADJP (JJ )(VBN ))(NNS ))(VP (VBG )(VP (TO )(VP (VB )(IN )))))))
+Phase: generated96457
+Input: Token
+Rule: generated96457
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB })(((({ Token.category == JJ })({ Token.category == VBN }))({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))))))):pttrn96457 --> :pttrn96457.extracted={}
+

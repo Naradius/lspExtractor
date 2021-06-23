@@ -1,0 +1,8 @@
+provide flexible security
+(VP (VB )(NP (JJ )(NN )))
+Phase: generated65106
+Input: Token
+Rule: generated65106
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))):pttrn65106 --> :pttrn65106.extracted={}
+

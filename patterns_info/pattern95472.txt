@@ -1,0 +1,8 @@
+its scope.Next
+(NP (PRP$ )(NN ){1,2})
+Phase: generated95472
+Input: Token
+Rule: generated95472
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn95472 --> :pttrn95472.extracted={}
+

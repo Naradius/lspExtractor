@@ -1,0 +1,8 @@
+provide bettersolution for some particular problems compared with others.Therefore, pursuing for new optimization techniques
+(VP (VBP )(PP (IN )(NP (DT )(JJ )(NNS )))(VP (VBG )(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated63779
+Input: Token
+Rule: generated63779
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn63779 --> :pttrn63779.extracted={}
+

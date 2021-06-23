@@ -1,0 +1,8 @@
+be bufferedin the routing table
+(VP (VB )(VP (VBG )(NP (DT )(NN ){1,2})))
+Phase: generated35604
+Input: Token
+Rule: generated35604
+(
+(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn35604 --> :pttrn35604.extracted={}
+

@@ -1,0 +1,8 @@
+the setup phase
+(NP (DT )(NN ){1,2})
+Phase: generated57141
+Input: Token
+Rule: generated57141
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn57141 --> :pttrn57141.extracted={}
+

@@ -1,0 +1,8 @@
+an example labelfor ease of explanation.Creating patternsWe
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (VBG )(NN ))))
+Phase: generated74243
+Input: Token
+Rule: generated74243
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN }))))):pttrn74243 --> :pttrn74243.extracted={}
+

@@ -1,0 +1,8 @@
+in the graph of Fig. 9, which createsproduction instance pi6
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP ){1,2}(CD ))(VP (VBZ )(NP (NN )(NNS )))))))
+Phase: generated104346
+Input: Token
+Rule: generated104346
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == CD }))(({ Token.category == VBZ })(({ Token.category == NN })({ Token.category == NNS })))))))):pttrn104346 --> :pttrn104346.extracted={}
+

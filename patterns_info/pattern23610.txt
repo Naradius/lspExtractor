@@ -1,0 +1,8 @@
+the MSNE isESS
+(NP (DT )(NNP )(NNS ))
+Phase: generated23610
+Input: Token
+Rule: generated23610
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn23610 --> :pttrn23610.extracted={}
+

@@ -1,0 +1,8 @@
+the lions in the initialpopulation
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated63925
+Input: Token
+Rule: generated63925
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn63925 --> :pttrn63925.extracted={}
+

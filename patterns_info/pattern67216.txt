@@ -1,0 +1,8 @@
+for two fish
+(PP (IN )(NP (CD )(NN )))
+Phase: generated67216
+Input: Token
+Rule: generated67216
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))):pttrn67216 --> :pttrn67216.extracted={}
+

@@ -1,0 +1,8 @@
+MENDES AND COHEURRoger Levy and Galen Andrew.
+(NP (NP (NNP )(CC )(NNP ){1,2})(CC ))
+Phase: generated101402
+Input: Token
+Rule: generated101402
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)({ Token.category == CC }))):pttrn101402 --> :pttrn101402.extracted={}
+

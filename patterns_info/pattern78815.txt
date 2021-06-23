@@ -1,0 +1,8 @@
+were grown with error tolerance of 0.10 and are shownwith no post-pruning
+(VP (CC )(VP (VBP )(PP (IN )(NP (DT )(NN )))))
+Phase: generated78815
+Input: Token
+Rule: generated78815
+(
+(({ Token.category == CC })(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn78815 --> :pttrn78815.extracted={}
+

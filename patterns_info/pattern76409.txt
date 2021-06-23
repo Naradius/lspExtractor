@@ -1,0 +1,8 @@
+non-descriptive from descriptive patterns, whichwere observed with too many different relations
+(ADJP (JJ )(PP (IN )(NP (NP (NN )(NNS ))(VP (VBD )(PP (IN )(NP (ADJP (RB )(JJ ))(JJ )(NNS )))))))
+Phase: generated76409
+Input: Token
+Rule: generated76409
+(
+(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn76409 --> :pttrn76409.extracted={}
+

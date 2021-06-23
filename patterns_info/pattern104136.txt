@@ -1,0 +1,8 @@
+be added to the graph
+(VP (VB )(VP (VBN )(PP (TO )(NP (DT )(NN )))))
+Phase: generated104136
+Input: Token
+Rule: generated104136
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn104136 --> :pttrn104136.extracted={}
+

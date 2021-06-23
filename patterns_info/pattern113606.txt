@@ -1,0 +1,8 @@
+not just by their occurrence in individual sentences, but additionally on the basis of coreferences
+(PP (RB )(PP (IN )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (JJ )(NNS )))))(CC ))
+Phase: generated113606
+Input: Token
+Rule: generated113606
+(
+(({ Token.category == RB })(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))({ Token.category == CC }))):pttrn113606 --> :pttrn113606.extracted={}
+

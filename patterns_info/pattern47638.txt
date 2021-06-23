@@ -1,0 +1,8 @@
+described in , uses a single chan-nel RF transceiver operating at 916 MHz
+(VP (VBD )(VP (VBZ )(NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (CD )(NNP )))))
+Phase: generated47638
+Input: Token
+Rule: generated47638
+(
+(({ Token.category == VBD })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNP })))))):pttrn47638 --> :pttrn47638.extracted={}
+

@@ -1,0 +1,8 @@
+tokens and typed dependencies
+(NP (CC )(NP (JJ )(NNS )))
+Phase: generated76203
+Input: Token
+Rule: generated76203
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn76203 --> :pttrn76203.extracted={}
+

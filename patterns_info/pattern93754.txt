@@ -1,0 +1,8 @@
+of the extraction lan-guage
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated93754
+Input: Token
+Rule: generated93754
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn93754 --> :pttrn93754.extracted={}
+

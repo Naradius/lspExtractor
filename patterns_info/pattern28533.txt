@@ -1,0 +1,8 @@
+more complicated com-ared with fixed node topologies
+(ADJP (RBR )(JJ ){1,2}(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated28533
+Input: Token
+Rule: generated28533
+(
+(({ Token.category == RBR })({ Token.category == JJ })+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn28533 --> :pttrn28533.extracted={}
+

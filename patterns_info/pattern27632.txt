@@ -1,0 +1,8 @@
+would increase their activity due to their commu-nication effort s
+(VP (MD )(VP (VB )(NP (NP (PRP$ )(NN ))(ADJP (JJ )(PP (TO )(NP (PRP$ )(NN ){1,2}(NNS )))))))
+Phase: generated27632
+Input: Token
+Rule: generated27632
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN })+({ Token.category == NNS })))))))):pttrn27632 --> :pttrn27632.extracted={}
+

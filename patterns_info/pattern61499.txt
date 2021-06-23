@@ -1,0 +1,8 @@
+on the Editorial Boards of up to6 international journals, including the IEEE Network, IEEE Systems, IEEE ACCESS,EEE/CCA JAS, Telecommunication Systems, etc
+(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NP (QP (IN )(CD ))(JJ )(NNS ))(PP (VBG )(NP (NP (DT )(NNP ){1,2})(NP (NNP )(NNPS ))))))))
+Phase: generated61499
+Input: Token
+Rule: generated61499
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(((({ Token.category == IN })({ Token.category == CD }))({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == NNP })({ Token.category == NNPS }))))))))):pttrn61499 --> :pttrn61499.extracted={}
+

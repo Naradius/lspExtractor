@@ -1,0 +1,8 @@
+of duty cycling mechanisms in wireless sensor networks
+(PP (IN )(NP (NP (NN ){1,2}(NNS ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated52899
+Input: Token
+Rule: generated52899
+(
+(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn52899 --> :pttrn52899.extracted={}
+

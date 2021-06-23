@@ -1,0 +1,8 @@
+usually from anunderlying relational database or as a response to a search query.This class of texts will be represented by two domains: CNN weather forecastweb pages, and the BigBook searchable telephone directory
+(PP (PP (IN )(NP (DT )(JJ )(NN )))(CC )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (TO )(NP (DT )(NN ){1,2})))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (CD )(NNS ))(NP (NP (NNP )(NN ){1,2}(NNS ))(CC )(NP (DT )(NNP )(JJ )(NN ){1,2}))))))))))
+Phase: generated84005
+Input: Token
+Rule: generated84005
+(
+((({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))((({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })+))))))))))):pttrn84005 --> :pttrn84005.extracted={}
+

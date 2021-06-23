@@ -1,0 +1,8 @@
+may be composed of other attributes7
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated105436
+Input: Token
+Rule: generated105436
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn105436 --> :pttrn105436.extracted={}
+

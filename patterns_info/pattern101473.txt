@@ -1,0 +1,8 @@
+the first question generation
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated101473
+Input: Token
+Rule: generated101473
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn101473 --> :pttrn101473.extracted={}
+

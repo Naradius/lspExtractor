@@ -1,0 +1,8 @@
+discourse structures
+(NP (NN )(NNS ))
+Phase: generated114277
+Input: Token
+Rule: generated114277
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn114277 --> :pttrn114277.extracted={}
+

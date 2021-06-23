@@ -1,0 +1,8 @@
+PN 9
+(NP (NNP )(CD ))
+Phase: generated13287
+Input: Token
+Rule: generated13287
+(
+(({ Token.category == NNP })({ Token.category == CD }))):pttrn13287 --> :pttrn13287.extracted={}
+

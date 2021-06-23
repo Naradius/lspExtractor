@@ -1,0 +1,8 @@
+scheduling lgorithm Particle Swarm Optimization
+(VP (VBG )(NP (NN )(NNP ){1,2}))
+Phase: generated20990
+Input: Token
+Rule: generated20990
+(
+(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNP })+))):pttrn20990 --> :pttrn20990.extracted={}
+

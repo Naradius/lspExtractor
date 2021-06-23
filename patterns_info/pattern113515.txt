@@ -1,0 +1,8 @@
+to generalize at the level of textual discourse.Fig
+(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}))))))
+Phase: generated113515
+Input: Token
+Rule: generated113515
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn113515 --> :pttrn113515.extracted={}
+

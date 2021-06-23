@@ -1,0 +1,8 @@
+to identify the relationship between isolated6 Table 1
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(CD ))))))
+Phase: generated82069
+Input: Token
+Rule: generated82069
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CD }))))))):pttrn82069 --> :pttrn82069.extracted={}
+

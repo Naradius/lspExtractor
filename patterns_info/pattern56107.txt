@@ -1,0 +1,8 @@
+shows the length ofpath
+(VP (VBZ )(NP (DT )(NN ){1,2}))
+Phase: generated56107
+Input: Token
+Rule: generated56107
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))):pttrn56107 --> :pttrn56107.extracted={}
+

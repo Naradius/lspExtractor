@@ -1,0 +1,8 @@
+expressive enough to beable to cover the required information extractionneeds
+(ADJP (JJ )(RB )(VP (TO )(VP (VB )(VP (TO )(VP (VB )(NP (DT )(VBN )(NN )(NNS )))))))
+Phase: generated95248
+Input: Token
+Rule: generated95248
+(
+(({ Token.category == JJ })({ Token.category == RB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn95248 --> :pttrn95248.extracted={}
+

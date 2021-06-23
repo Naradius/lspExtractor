@@ -1,0 +1,8 @@
+fewer than nine
+(QP (JJR )(IN )(CD ))
+Phase: generated78858
+Input: Token
+Rule: generated78858
+(
+(({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))):pttrn78858 --> :pttrn78858.extracted={}
+

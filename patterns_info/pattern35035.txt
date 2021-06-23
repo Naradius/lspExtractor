@@ -1,0 +1,8 @@
+Experimental results and analysisThis chapter
+(NP (NP (JJ )(NNS ))(CC )(NP (DT )(NN )))
+Phase: generated35035
+Input: Token
+Rule: generated35035
+(
+((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))):pttrn35035 --> :pttrn35035.extracted={}
+

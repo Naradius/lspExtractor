@@ -1,0 +1,8 @@
+WHISK's task
+(NP (NP (NNP )(POS ))(NN ))
+Phase: generated84368
+Input: Token
+Rule: generated84368
+(
+((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN }))):pttrn84368 --> :pttrn84368.extracted={}
+

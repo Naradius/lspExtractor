@@ -1,0 +1,8 @@
+of training set examples of either class
+(PP (IN )(NP (NP (NN ){1,2}(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated71165
+Input: Token
+Rule: generated71165
+(
+(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn71165 --> :pttrn71165.extracted={}
+

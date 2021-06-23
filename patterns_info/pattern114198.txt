@@ -1,0 +1,8 @@
+the verb frames
+(NP (DT )(NN )(NNS ))
+Phase: generated114198
+Input: Token
+Rule: generated114198
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn114198 --> :pttrn114198.extracted={}
+

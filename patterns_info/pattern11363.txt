@@ -1,0 +1,8 @@
+The elected cluster leader node forwards a JOIN requestto the sensor nodes in its communication range.
+(NP (NP (DT )(VBN )(NN ){1,2}(NNS ))(NP (DT )(NNP ))(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (PRP$ )(NN ){1,2}))))
+Phase: generated11363
+Input: Token
+Rule: generated11363
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNP }))((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+))))):pttrn11363 --> :pttrn11363.extracted={}
+

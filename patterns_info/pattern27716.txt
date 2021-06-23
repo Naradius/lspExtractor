@@ -1,0 +1,8 @@
+of packet transmissions between sen-sor nodes and the sink in different network configurations
+(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (NP (NN )(NNS ))(CC )(NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS )))))))
+Phase: generated27716
+Input: Token
+Rule: generated27716
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn27716 --> :pttrn27716.extracted={}
+

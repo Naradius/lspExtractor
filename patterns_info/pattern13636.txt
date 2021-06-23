@@ -1,0 +1,8 @@
+Neighbor/Region State Maintenance andTransmission ModesThe emulation of a VN
+(NP (NP (NNP ){1,2}(NN )(NNP )(NN ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated13636
+Input: Token
+Rule: generated13636
+(
+((({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn13636 --> :pttrn13636.extracted={}
+

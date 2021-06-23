@@ -1,0 +1,8 @@
+implemented it in a finite-stateframework composed of a finite-state lexical ana-lyzer and a CRF-decoder using weighted transducercomposition.In section 2, we will first describe statistical tag-ging based on CRF.
+(VP (VBD )(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN )(JJ )(NN ))(CC )(NP (NP (DT )(JJ )(VBG )(JJ )(NN ))(PP (IN )(NP (NN )(CD ))))))))))
+Phase: generated106349
+Input: Token
+Rule: generated106349
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == VBG })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))))))))):pttrn106349 --> :pttrn106349.extracted={}
+

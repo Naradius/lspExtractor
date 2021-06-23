@@ -1,0 +1,8 @@
+would be to modify the annotations ofthe working corpus in order to cover all MWU typesand to make it more homogeneous with our defini-tion of MWU.
+(VP (MD )(VP (VB )(VP (TO )(VP (VB )(NP (DT )(NNS ))(PP (IN )(NP (VBG )(FW )))))))
+Phase: generated106150
+Input: Token
+Rule: generated106150
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == FW })))))))):pttrn106150 --> :pttrn106150.extracted={}
+

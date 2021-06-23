@@ -1,0 +1,8 @@
+differ from the most traditional routing algorithms
+(VP (VBP )(PP (IN )(NP (DT )(ADJP (RBS )(JJ ))(NN )(NNS ))))
+Phase: generated2244
+Input: Token
+Rule: generated2244
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN })({ Token.category == NNS }))))):pttrn2244 --> :pttrn2244.extracted={}
+

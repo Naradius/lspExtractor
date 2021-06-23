@@ -1,0 +1,8 @@
+most popular and widely used lexical resources
+(NP (ADJP (ADJP (RBS )(JJ ))(CC )(ADJP (RB )(VBN )))(JJ )(NNS ))
+Phase: generated71557
+Input: Token
+Rule: generated71557
+(
+(((({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == CC })(({ Token.category == RB })({ Token.category == VBN })))({ Token.category == JJ })({ Token.category == NNS }))):pttrn71557 --> :pttrn71557.extracted={}
+

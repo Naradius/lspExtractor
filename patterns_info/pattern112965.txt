@@ -1,0 +1,8 @@
+of the monthThe generalization
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated112965
+Input: Token
+Rule: generated112965
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn112965 --> :pttrn112965.extracted={}
+

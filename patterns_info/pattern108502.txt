@@ -1,0 +1,8 @@
+this drawback
+(NP (DT )(NN ))
+Phase: generated108502
+Input: Token
+Rule: generated108502
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn108502 --> :pttrn108502.extracted={}
+

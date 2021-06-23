@@ -1,0 +1,8 @@
+of neigh-borhood names for the city from which the training data was taken
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(NP (DT )(NN )(NNS ))))))
+Phase: generated82432
+Input: Token
+Rule: generated82432
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn82432 --> :pttrn82432.extracted={}
+

@@ -1,0 +1,8 @@
+an appositive
+(NP (DT )(NN ))
+Phase: generated89322
+Input: Token
+Rule: generated89322
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn89322 --> :pttrn89322.extracted={}
+

@@ -1,0 +1,8 @@
+by thentrusion detection process proposed in Sections 3 and 4
+(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NP (NNP )(CD ))(CC ))))))
+Phase: generated112088
+Input: Token
+Rule: generated112088
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))({ Token.category == CC }))))))):pttrn112088 --> :pttrn112088.extracted={}
+

@@ -1,0 +1,8 @@
+of different sites s
+(PP (IN )(NP (JJ )(NNS ){1,2}))
+Phase: generated1439
+Input: Token
+Rule: generated1439
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })+))):pttrn1439 --> :pttrn1439.extracted={}
+

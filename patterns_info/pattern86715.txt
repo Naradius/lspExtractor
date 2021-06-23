@@ -1,0 +1,8 @@
+Stop-word filtering and stemmingWe consider stop-word filtering with stemming as alanguage-based dimensionality reduction method.
+(NP (NP (NNP )(NN ))(CC )(NP (NP (JJ )(NN ){1,2})(VP (VBG )(PP (IN )(VP (VBG )(PP (IN )(NP (JJ )(NN ){1,2})))))))
+Phase: generated86715
+Input: Token
+Rule: generated86715
+(
+((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))))):pttrn86715 --> :pttrn86715.extracted={}
+

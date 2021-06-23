@@ -1,0 +1,8 @@
+consumed by the proposedapproach
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated11834
+Input: Token
+Rule: generated11834
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn11834 --> :pttrn11834.extracted={}
+

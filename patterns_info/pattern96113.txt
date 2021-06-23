@@ -1,0 +1,8 @@
+was developed and tested us-ing a biomedical corpus
+(VP (VBD )(VP (VBN )(CC )(VP (VBN )(NP (JJ )(DT )(JJ )(NN )))))
+Phase: generated96113
+Input: Token
+Rule: generated96113
+(
+(({ Token.category == VBD })(({ Token.category == VBN })({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn96113 --> :pttrn96113.extracted={}
+

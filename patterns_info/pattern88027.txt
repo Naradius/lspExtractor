@@ -1,0 +1,8 @@
+established by earlier analysis phasestoken The string representation of the text span.orth
+(VP (VBN )(PP (IN )(NP (NP (JJR )(NN ))(VP (VBN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated88027
+Input: Token
+Rule: generated88027
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn88027 --> :pttrn88027.extracted={}
+

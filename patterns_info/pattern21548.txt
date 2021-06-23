@@ -1,0 +1,8 @@
+for each channel whichsimultaneously protects primary incumbents and other ongoingsecondary IoT communications in the vicinity
+(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (JJ )(NNS ))(CC )(NP (NP (JJ ){1,2}(NNP )(NNS ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated21548
+Input: Token
+Rule: generated21548
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn21548 --> :pttrn21548.extracted={}
+

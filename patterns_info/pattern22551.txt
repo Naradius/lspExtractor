@@ -1,0 +1,8 @@
+eachof the edge devices within its domain
+(VP (VB )(NP (DT )(NN )(NNS ))(PP (IN )(NP (PRP$ )(NN ))))
+Phase: generated22551
+Input: Token
+Rule: generated22551
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn22551 --> :pttrn22551.extracted={}
+

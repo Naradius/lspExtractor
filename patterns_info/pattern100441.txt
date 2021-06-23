@@ -1,0 +1,8 @@
+evaluation purposes
+(NP (NN )(NNS ))
+Phase: generated100441
+Input: Token
+Rule: generated100441
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn100441 --> :pttrn100441.extracted={}
+

@@ -1,0 +1,8 @@
+the factors affecting the ad-hoc network topology
+(NP (NP (DT )(NNS ))(VP (VBG )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated35465
+Input: Token
+Rule: generated35465
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn35465 --> :pttrn35465.extracted={}
+

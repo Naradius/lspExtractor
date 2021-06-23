@@ -1,0 +1,8 @@
+a confidence measure
+(NP (DT )(NN ){1,2})
+Phase: generated76360
+Input: Token
+Rule: generated76360
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn76360 --> :pttrn76360.extracted={}
+

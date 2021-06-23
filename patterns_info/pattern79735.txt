@@ -1,0 +1,8 @@
+of no more than four words
+(PP (IN )(NP (QP (DT )(JJR )(IN )(CD ))(NNS )))
+Phase: generated79735
+Input: Token
+Rule: generated79735
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS })))):pttrn79735 --> :pttrn79735.extracted={}
+

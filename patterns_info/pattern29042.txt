@@ -1,0 +1,8 @@
+adaptingrpl objective function
+(NP (JJ ){1,2}(NN ))
+Phase: generated29042
+Input: Token
+Rule: generated29042
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn29042 --> :pttrn29042.extracted={}
+

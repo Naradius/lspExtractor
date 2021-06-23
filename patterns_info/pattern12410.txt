@@ -1,0 +1,8 @@
+different routes for routing data to the Base Station
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (TO )(NP (DT )(NNP ){1,2})))))
+Phase: generated12410
+Input: Token
+Rule: generated12410
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })+)))))):pttrn12410 --> :pttrn12410.extracted={}
+

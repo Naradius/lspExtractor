@@ -1,0 +1,8 @@
+ran-dom Ad hoc sensor networks
+(NP (NN ){1,2}(JJ )(NN )(NNS ))
+Phase: generated65480
+Input: Token
+Rule: generated65480
+(
+(({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn65480 --> :pttrn65480.extracted={}
+

@@ -1,0 +1,8 @@
+a reviewer's opinion of the lm or a customer's description of a problem.These
+(NP (NP (NP (DT )(NN )(POS ))(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (NP (NP (DT )(NN )(POS ))(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated81072
+Input: Token
+Rule: generated81072
+(
+(((({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(((({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn81072 --> :pttrn81072.extracted={}
+

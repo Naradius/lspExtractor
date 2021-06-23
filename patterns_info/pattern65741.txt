@@ -1,0 +1,8 @@
+twosh symmetric cryptosystem
+(NP (JJ ){1,2}(NN ))
+Phase: generated65741
+Input: Token
+Rule: generated65741
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn65741 --> :pttrn65741.extracted={}
+

@@ -1,0 +1,8 @@
+to read properties, like the country of a capital city, in addition tothe class and identifier
+(VP (TO )(VP (VB )(NP (NN )(CC )(NN ))))
+Phase: generated90095
+Input: Token
+Rule: generated90095
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn90095 --> :pttrn90095.extracted={}
+

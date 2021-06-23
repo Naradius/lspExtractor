@@ -1,0 +1,8 @@
+many different application areas
+(NP (JJ ){1,2}(NN )(NNS ))
+Phase: generated48479
+Input: Token
+Rule: generated48479
+(
+(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))):pttrn48479 --> :pttrn48479.extracted={}
+

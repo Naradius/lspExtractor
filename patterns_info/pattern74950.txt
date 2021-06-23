@@ -1,0 +1,8 @@
+to learn thatlarge is not a relevant word by itself even though it occurs fre-quently in the SC dictionary
+(VP (TO )(VP (VB )(VP (VBZ )(RB ))))
+Phase: generated74950
+Input: Token
+Rule: generated74950
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBZ })({ Token.category == RB }))))):pttrn74950 --> :pttrn74950.extracted={}
+

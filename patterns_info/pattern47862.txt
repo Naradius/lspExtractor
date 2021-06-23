@@ -1,0 +1,8 @@
+shown that for short-range communicationwith low radiation power , transmissionand reception energy costs are nearly the same.Mixers, frequency synthesizers, voltage controloscillators
+(VP (VBN )(IN ))
+Phase: generated47862
+Input: Token
+Rule: generated47862
+(
+(({ Token.category == VBN })({ Token.category == IN }))):pttrn47862 --> :pttrn47862.extracted={}
+

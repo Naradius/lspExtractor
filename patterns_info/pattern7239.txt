@@ -1,0 +1,8 @@
+represent the total energyspent in the system, then:ECjN  n  npEC3jN  n nl 21 pEelec  EDAffiffiffiffiffiffiffiffi1=6pMpr2Eelec  efsr2 efs1 p4pk#9Removing the conditioning on N yields:EC  EECjN  n EN l 21 pEelec  EDA ffiffiffiffiffiffiffiffi1=6pMpr2Eelec  efsr2 efs1 p4pk" # kM2l 21 pEelec  EDA ffiffiffiffiffiffiffiffi1=6pMpr2Eelec  efsr2 efs1 p4pk" #10E is minimized by a value of p that is a solution of:efs4p2k 2Eelec ffiffiffiffiffiffiffiffi1=6pMr2Eelec  efsr2  0 11Eq
+(VP (VP (VBP )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))(VP (VBD )(NP (ADJP (RB )(JJ ))(NN ))(RB )))
+Phase: generated7239
+Input: Token
+Rule: generated7239
+(
+((({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))(({ Token.category == VBD })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))({ Token.category == RB })))):pttrn7239 --> :pttrn7239.extracted={}
+

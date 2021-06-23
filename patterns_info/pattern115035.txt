@@ -1,0 +1,8 @@
+of desired complexity
+(PP (IN )(NP (VBN )(NN )))
+Phase: generated115035
+Input: Token
+Rule: generated115035
+(
+(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN })))):pttrn115035 --> :pttrn115035.extracted={}
+

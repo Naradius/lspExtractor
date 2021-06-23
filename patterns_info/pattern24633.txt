@@ -1,0 +1,8 @@
+,dynamic spectrum access
+(NP (JJ )(NN ){1,2})
+Phase: generated24633
+Input: Token
+Rule: generated24633
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn24633 --> :pttrn24633.extracted={}
+

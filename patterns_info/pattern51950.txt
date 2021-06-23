@@ -1,0 +1,8 @@
+on a weight function of various metricsand the weight adjustments are often made following atrial-and-error methodology
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (JJ )(NN ))(NP (DT )(NN )(NNS ))))))
+Phase: generated51950
+Input: Token
+Rule: generated51950
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn51950 --> :pttrn51950.extracted={}
+

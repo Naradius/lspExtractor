@@ -1,0 +1,8 @@
+to original paragraph
+(PP (TO )(NP (JJ )(NN )))
+Phase: generated115620
+Input: Token
+Rule: generated115620
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })))):pttrn115620 --> :pttrn115620.extracted={}
+

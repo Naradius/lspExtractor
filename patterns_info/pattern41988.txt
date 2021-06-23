@@ -1,0 +1,8 @@
+will bethe node encountered in the future
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated41988
+Input: Token
+Rule: generated41988
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn41988 --> :pttrn41988.extracted={}
+

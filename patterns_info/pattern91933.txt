@@ -1,0 +1,8 @@
+used to initially tag theunknown words in the contextual training corpus
+(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )(JJ ))))))
+Phase: generated91933
+Input: Token
+Rule: generated91933
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ }))))))):pttrn91933 --> :pttrn91933.extracted={}
+

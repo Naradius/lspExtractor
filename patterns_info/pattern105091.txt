@@ -1,0 +1,8 @@
+the implementation of visual environments
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated105091
+Input: Token
+Rule: generated105091
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn105091 --> :pttrn105091.extracted={}
+

@@ -1,0 +1,8 @@
+slightly better than using snippets, by about 0.5% except the case of the simple queries
+(ADJP (ADJP (RB )(JJR ))(PP (IN )(VP (VBG )(PP (IN )(NP (QP (RB )(CD ))(NN )))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNS ))))))))
+Phase: generated115192
+Input: Token
+Rule: generated115192
+(
+((({ Token.category == RB })({ Token.category == JJR }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn115192 --> :pttrn115192.extracted={}
+

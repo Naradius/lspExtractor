@@ -1,0 +1,8 @@
+to solve nonlinear estimation/control problems for dynamicalystems
+(VP (TO )(VP (VB )(NP (JJ )(NN )(NNS ))))
+Phase: generated112456
+Input: Token
+Rule: generated112456
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn112456 --> :pttrn112456.extracted={}
+

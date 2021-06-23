@@ -1,0 +1,8 @@
+used as a useful elementsfor size of a tournament
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))))
+Phase: generated64350
+Input: Token
+Rule: generated64350
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn64350 --> :pttrn64350.extracted={}
+

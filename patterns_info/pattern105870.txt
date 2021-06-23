@@ -1,0 +1,8 @@
+our system  outperformsthe other existing taggers, especially MElt whoseauthors
+(NP (NP (PRP$ )(NN ))(PP (IN )(NP (JJ )(VBG )(NNS )))(ADJP (RB )(JJ ))(NNS ))
+Phase: generated105870
+Input: Token
+Rule: generated105870
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == VBG })({ Token.category == NNS })))(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn105870 --> :pttrn105870.extracted={}
+

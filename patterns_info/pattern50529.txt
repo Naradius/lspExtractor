@@ -1,0 +1,8 @@
+the design of theObjective Function
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNP ))))
+Phase: generated50529
+Input: Token
+Rule: generated50529
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP }))))):pttrn50529 --> :pttrn50529.extracted={}
+

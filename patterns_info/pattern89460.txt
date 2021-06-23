@@ -1,0 +1,8 @@
+is now a single text unit and furthermore
+(VP (VP (VBZ )(NP (DT )(JJ )(NN ){1,2}))(CC ))
+Phase: generated89460
+Input: Token
+Rule: generated89460
+(
+((({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))({ Token.category == CC }))):pttrn89460 --> :pttrn89460.extracted={}
+

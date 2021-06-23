@@ -1,0 +1,8 @@
+by turning off radios depending on the status ofthe net allocation vector
+(PP (IN )(VP (VBG )(PRT (RP ))))
+Phase: generated44595
+Input: Token
+Rule: generated44595
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == RP }))))):pttrn44595 --> :pttrn44595.extracted={}
+

@@ -1,0 +1,8 @@
+strictly adhere to the standard POS tags
+(VP (VBD )(PP (TO )(NP (DT )(JJ )(NNP )(NNS ))))
+Phase: generated92411
+Input: Token
+Rule: generated92411
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))):pttrn92411 --> :pttrn92411.extracted={}
+

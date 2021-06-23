@@ -1,0 +1,8 @@
+the Data Junction's Cambio, which extracts data in the form of relational attributes fromtext
+(NP (NP (DT )(NNP ){1,2}(POS ))(NNP ))
+Phase: generated77261
+Input: Token
+Rule: generated77261
+(
+((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == POS }))({ Token.category == NNP }))):pttrn77261 --> :pttrn77261.extracted={}
+

@@ -1,0 +1,8 @@
+clus-ter-based wireless sensor networks
+(NP (JJ ){1,2}(NN )(NNS ))
+Phase: generated67856
+Input: Token
+Rule: generated67856
+(
+(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))):pttrn67856 --> :pttrn67856.extracted={}
+

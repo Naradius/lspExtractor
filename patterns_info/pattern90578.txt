@@ -1,0 +1,8 @@
+a flat file or database table
+(NP (DT )(JJ )(NN )(CC )(NN ){1,2})
+Phase: generated90578
+Input: Token
+Rule: generated90578
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)):pttrn90578 --> :pttrn90578.extracted={}
+

@@ -1,0 +1,8 @@
+the individual occurrences of communicative actions
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated114193
+Input: Token
+Rule: generated114193
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn114193 --> :pttrn114193.extracted={}
+

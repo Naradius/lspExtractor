@@ -1,0 +1,8 @@
+may be a chanceto create a single-adversarial mode to generate multiple network-nodes in order to utilize the identities of compromised node andits related cryptographic keys
+(VP (MD )(VP (VB )(NP (DT )(NN ){1,2})(NP (DT )(JJ )(NN ))(VP (TO )(VP (VB )(NP (JJ )(NNS ))))))
+Phase: generated66785
+Input: Token
+Rule: generated66785
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn66785 --> :pttrn66785.extracted={}
+

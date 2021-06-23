@@ -1,0 +1,8 @@
+in wire-less sensor network, Wireless Netw
+(PP (IN )(NP (NP (JJ )(NN ){1,2})(NP (JJ )(NNP ))))
+Phase: generated109422
+Input: Token
+Rule: generated109422
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == NNP }))))):pttrn109422 --> :pttrn109422.extracted={}
+

@@ -1,0 +1,8 @@
+the latency
+(NP (DT )(NN ))
+Phase: generated26349
+Input: Token
+Rule: generated26349
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn26349 --> :pttrn26349.extracted={}
+

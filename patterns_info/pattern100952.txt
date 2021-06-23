@@ -1,0 +1,8 @@
+the different perceptionsabout the quality of the generated questions by the different annotators
+(NP (NP (DT )(JJ ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NNS ))))))))
+Phase: generated100952
+Input: Token
+Rule: generated100952
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn100952 --> :pttrn100952.extracted={}
+

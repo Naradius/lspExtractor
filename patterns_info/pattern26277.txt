@@ -1,0 +1,8 @@
+to reduce the control packet overheads in the network
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated26277
+Input: Token
+Rule: generated26277
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn26277 --> :pttrn26277.extracted={}
+

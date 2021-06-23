@@ -1,0 +1,8 @@
+slightly higher relevance
+(NP (ADJP (RB )(JJR ))(NN ))
+Phase: generated115885
+Input: Token
+Rule: generated115885
+(
+((({ Token.category == RB })({ Token.category == JJR }))({ Token.category == NN }))):pttrn115885 --> :pttrn115885.extracted={}
+

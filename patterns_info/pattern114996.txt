@@ -1,0 +1,8 @@
+compare the relevance values between search settings
+(VP (VB )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated114996
+Input: Token
+Rule: generated114996
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn114996 --> :pttrn114996.extracted={}
+

@@ -1,0 +1,8 @@
+at every election round
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated54431
+Input: Token
+Rule: generated54431
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn54431 --> :pttrn54431.extracted={}
+

@@ -1,0 +1,8 @@
+a carrier frequency
+(NP (DT )(NN ){1,2})
+Phase: generated47573
+Input: Token
+Rule: generated47573
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn47573 --> :pttrn47573.extracted={}
+

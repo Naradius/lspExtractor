@@ -1,0 +1,8 @@
+the domain of network-attached UAV fleet
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNP )(NN ))))
+Phase: generated112705
+Input: Token
+Rule: generated112705
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))))):pttrn112705 --> :pttrn112705.extracted={}
+

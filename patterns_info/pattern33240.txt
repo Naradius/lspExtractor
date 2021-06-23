@@ -1,0 +1,8 @@
+between the source node vs and thedestination node vd.Adopting the routing-choose method to select the next nodeof the forward agent, the routing table of the node vk will determinethe next node, to which the forward agent will go
+(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (DT )(NN ))(VP (VBG )(NP (DT )(JJ )(NN ))))))
+Phase: generated33240
+Input: Token
+Rule: generated33240
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn33240 --> :pttrn33240.extracted={}
+

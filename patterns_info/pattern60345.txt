@@ -1,0 +1,8 @@
+using neuro fuzzy rules
+(VP (VBG )(NP (JJ ){1,2}(NNS )))
+Phase: generated60345
+Input: Token
+Rule: generated60345
+(
+(({ Token.category == VBG })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn60345 --> :pttrn60345.extracted={}
+

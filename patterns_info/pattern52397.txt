@@ -1,0 +1,8 @@
+mutual ser-vice provisioning
+(NP (JJ )(NN ){1,2})
+Phase: generated52397
+Input: Token
+Rule: generated52397
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn52397 --> :pttrn52397.extracted={}
+

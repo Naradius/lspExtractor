@@ -1,0 +1,8 @@
+handling algorithm in sensor networks
+(VP (VBG )(PP (IN )(NP (NN )(NNS ))))
+Phase: generated18227
+Input: Token
+Rule: generated18227
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn18227 --> :pttrn18227.extracted={}
+

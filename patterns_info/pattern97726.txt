@@ -1,0 +1,8 @@
+Based Approaches The oldest part-of-speech tagging system was the one which used rule based approach
+(VP (VBN )(NP (DT )(JJS )(NN )(VP (VBG )(VP (VBD )(NP (NP (DT )(NN ))(VP (VBD )(NP (NN )(VBN )(NN ))))))))
+Phase: generated97726
+Input: Token
+Rule: generated97726
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })(({ Token.category == VBG })(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBD })(({ Token.category == NN })({ Token.category == VBN })({ Token.category == NN }))))))))):pttrn97726 --> :pttrn97726.extracted={}
+

@@ -1,0 +1,8 @@
+the event ring,hich attracts the attention of the adversary, other fake rings with creation probability of p j help to protect the event ring
+(NP (NP (DT )(NN ){1,2})(VP (VBZ )(VP (VBP )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}))))))
+Phase: generated62716
+Input: Token
+Rule: generated62716
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn62716 --> :pttrn62716.extracted={}
+

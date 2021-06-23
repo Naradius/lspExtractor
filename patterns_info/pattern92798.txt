@@ -1,0 +1,8 @@
+described in theLHS need to be identified in the RHS in order toprovide a link between text and a new extractedfact
+(VP (VBD )(PP (IN )(NP (DT )(NN )(VP (TO )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NNP )))))))))
+Phase: generated92798
+Input: Token
+Rule: generated92798
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))))):pttrn92798 --> :pttrn92798.extracted={}
+

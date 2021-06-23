@@ -1,0 +1,8 @@
+be in use in 2017, up 31 percent from 2016.. Tmote Sky.http://www.snm.ethz.ch/Projects/TmoteSky.. Gartner says the internet of things installed base will grow to 26 billion units by 2020, 2017.. A. Abduvaliyev, S. Lee, Y.K. Lee, Energy efficient hybrid intrusion detection system for wireless sensor networks, 2010 International Conference onElectronics and Information Engineering, vol
+(VP (VB )(IN ))
+Phase: generated38550
+Input: Token
+Rule: generated38550
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn38550 --> :pttrn38550.extracted={}
+

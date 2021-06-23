@@ -1,0 +1,8 @@
+9. Book delay and block constructing path.Fig.
+(NP (NP (CD )(NNP ){1,2}(NN ))(CC )(NP (NN ){1,2}(NNP )))
+Phase: generated35441
+Input: Token
+Rule: generated35441
+(
+((({ Token.category == CD })({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == CC })(({ Token.category == NN })+({ Token.category == NNP })))):pttrn35441 --> :pttrn35441.extracted={}
+

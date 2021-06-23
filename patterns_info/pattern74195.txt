@@ -1,0 +1,8 @@
+the words disease, disorder,chronic
+(NP (NP (DT )(NNS )(NN ))(NP (NN )(NNP )))
+Phase: generated74195
+Input: Token
+Rule: generated74195
+(
+((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == NN })({ Token.category == NNP })))):pttrn74195 --> :pttrn74195.extracted={}
+

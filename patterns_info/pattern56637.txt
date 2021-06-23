@@ -1,0 +1,8 @@
+the network.Assumptions made for MBC protocol
+(NP (NP (DT )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (NNP )(NN )))))
+Phase: generated56637
+Input: Token
+Rule: generated56637
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn56637 --> :pttrn56637.extracted={}
+

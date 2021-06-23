@@ -1,0 +1,8 @@
+to thank the anonymousreviewers and the area editor Stavros Toumpis for theirvaluable comments that helped to improve the quality ofthis paper
+(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(CC )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NNS ))(VP (VBD )(VP (TO )(VP (VB )(NP (DT )(NN )))))))))))
+Phase: generated52586
+Input: Token
+Rule: generated52586
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn52586 --> :pttrn52586.extracted={}
+

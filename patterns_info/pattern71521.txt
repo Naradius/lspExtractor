@@ -1,0 +1,8 @@
+certain inference algorithms
+(NP (JJ )(NN )(NNS ))
+Phase: generated71521
+Input: Token
+Rule: generated71521
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn71521 --> :pttrn71521.extracted={}
+

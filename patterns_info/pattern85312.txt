@@ -1,0 +1,8 @@
+a single feature
+(NP (DT )(JJ )(NN ))
+Phase: generated85312
+Input: Token
+Rule: generated85312
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn85312 --> :pttrn85312.extracted={}
+

@@ -1,0 +1,8 @@
+Correct POS tags
+(NP (NNP ){1,2}(NNS ))
+Phase: generated96959
+Input: Token
+Rule: generated96959
+(
+(({ Token.category == NNP })+({ Token.category == NNS }))):pttrn96959 --> :pttrn96959.extracted={}
+

@@ -1,0 +1,8 @@
+such as tanks, turbine engines or pipelines.The aim of Smart Grids
+(PP (JJ )(IN )(NP (NP (NN )(NNS ))(CC )))
+Phase: generated49652
+Input: Token
+Rule: generated49652
+(
+(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })))):pttrn49652 --> :pttrn49652.extracted={}
+

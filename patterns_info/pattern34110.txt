@@ -1,0 +1,8 @@
+on neural networks
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated34110
+Input: Token
+Rule: generated34110
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn34110 --> :pttrn34110.extracted={}
+

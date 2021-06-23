@@ -1,0 +1,8 @@
+are applied in the hybrid approach
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated97619
+Input: Token
+Rule: generated97619
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn97619 --> :pttrn97619.extracted={}
+

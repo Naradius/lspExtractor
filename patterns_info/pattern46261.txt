@@ -1,0 +1,8 @@
+sent to the troopleaders
+(VP (VBD )(PP (TO )(NP (DT )(NNS ))))
+Phase: generated46261
+Input: Token
+Rule: generated46261
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn46261 --> :pttrn46261.extracted={}
+

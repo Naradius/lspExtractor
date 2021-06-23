@@ -1,0 +1,8 @@
+employing the expressivityof one-dimensional SPARQL queries
+(VP (VBG )(NP (DT )(JJ ){1,2}(NNS )))
+Phase: generated94710
+Input: Token
+Rule: generated94710
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))):pttrn94710 --> :pttrn94710.extracted={}
+

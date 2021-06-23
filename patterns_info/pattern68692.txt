@@ -1,0 +1,8 @@
+the self-position considering
+(NP (DT )(NN ){1,2})
+Phase: generated68692
+Input: Token
+Rule: generated68692
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn68692 --> :pttrn68692.extracted={}
+

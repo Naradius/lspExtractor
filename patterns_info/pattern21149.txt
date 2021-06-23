@@ -1,0 +1,8 @@
+effective D2D communication without disrupting the licensed incumbents,and  sustained operation in a multi-hop mesh environment due to the inherent energy constraint ofIoT devices.In this paper, we propose SpEED-IoT: Spectrum aware Energy- Efficient multi-hop multi-channelrouting scheme for D2D communication in IoT mesh network
+(NP (NP (JJ ){1,2}(NN ))(PP (IN )(VP (VP (VBG )(NP (DT )(VBN )(NNS )))(CC ))))
+Phase: generated21149
+Input: Token
+Rule: generated21149
+(
+((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS })))({ Token.category == CC }))))):pttrn21149 --> :pttrn21149.extracted={}
+

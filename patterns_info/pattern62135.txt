@@ -1,0 +1,8 @@
+The Panda-Hunter model
+(NP (DT )(NN ){1,2})
+Phase: generated62135
+Input: Token
+Rule: generated62135
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn62135 --> :pttrn62135.extracted={}
+

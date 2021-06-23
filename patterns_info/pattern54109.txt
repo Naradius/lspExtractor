@@ -1,0 +1,8 @@
+are in the workingstage
+(VP (VBP )(PP (IN )(NP (DT )(NN ))))
+Phase: generated54109
+Input: Token
+Rule: generated54109
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn54109 --> :pttrn54109.extracted={}
+

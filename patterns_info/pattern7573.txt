@@ -1,0 +1,8 @@
+in the network data isbeyond the scope of this paper
+(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated7573
+Input: Token
+Rule: generated7573
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn7573 --> :pttrn7573.extracted={}
+

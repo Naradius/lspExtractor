@@ -1,0 +1,8 @@
+by the produc-tions left-hand side and, therefore, not explicitly removed
+(PP (IN )(NP (NP (DT )(NNS ))(JJ )(NN )(CC )(RB )))
+Phase: generated103046
+Input: Token
+Rule: generated103046
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == RB })))):pttrn103046 --> :pttrn103046.extracted={}
+

@@ -1,0 +1,8 @@
+the relay node and the destination node
+(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(NN ){1,2}))
+Phase: generated41747
+Input: Token
+Rule: generated41747
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))):pttrn41747 --> :pttrn41747.extracted={}
+

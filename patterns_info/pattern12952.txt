@@ -1,0 +1,8 @@
+Telematics Engineering, Universidade de Vigo,36310 Vigo, Spain .Digital Object Identifier 10.1109/TVT.2015.2426683Fig
+(NP (NP (NNP )(IN )(NNP )(CD )(NNP ))(NP (NNP ){1,2}(CD )))
+Phase: generated12952
+Input: Token
+Rule: generated12952
+(
+((({ Token.category == NNP })({ Token.category == IN })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP }))(({ Token.category == NNP })+({ Token.category == CD })))):pttrn12952 --> :pttrn12952.extracted={}
+

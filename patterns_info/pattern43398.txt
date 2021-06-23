@@ -1,0 +1,8 @@
+under DRHT,this delay
+(PP (IN )(NP (DT )(NN )))
+Phase: generated43398
+Input: Token
+Rule: generated43398
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn43398 --> :pttrn43398.extracted={}
+

@@ -1,0 +1,8 @@
+send theirinterest to a sensor node, a subset of the nodes orwhole network
+(VP (VBP )(PP (TO )(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )(NN ){1,2}))))))
+Phase: generated48541
+Input: Token
+Rule: generated48541
+(
+(({ Token.category == VBP })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+))))))):pttrn48541 --> :pttrn48541.extracted={}
+

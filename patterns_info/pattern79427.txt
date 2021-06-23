@@ -1,0 +1,8 @@
+only one case frame, such asseminar announcement postings.WHISK shares SRV and RAPIER's ability to handle either structured or semi-structured text
+(NP (NP (QP (RB )(CD ))(NN ){1,2})(NP (NP (JJ ){1,2}(NN )(NNS ))(NP (NP (NNP )(NNS ))(CC )(NP (NP (NNP )(POS ))(NN )))(CC )(NP (JJ )(NN ))))
+Phase: generated79427
+Input: Token
+Rule: generated79427
+(
+(((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NN })+)((({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN })))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn79427 --> :pttrn79427.extracted={}
+

@@ -1,0 +1,8 @@
+encoded by the tags of the parsed text fragment
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(VBN )(NN ){1,2})))))
+Phase: generated99320
+Input: Token
+Rule: generated99320
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))))):pttrn99320 --> :pttrn99320.extracted={}
+

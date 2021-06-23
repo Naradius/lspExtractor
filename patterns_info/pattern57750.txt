@@ -1,0 +1,8 @@
+Design and analysis of hybridindirect transmissions  for data gathering in wireless micro sensornetworks.
+(NP (NP (NP (NP (NNP )(CC )(NN ))(PP (IN )(NP (JJ )(NNS ))))(PP (IN )(NP (NNS )(NN ))))(PP (IN )(NP (JJ ){1,2}(NNS ))))
+Phase: generated57750
+Input: Token
+Rule: generated57750
+(
+((((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn57750 --> :pttrn57750.extracted={}
+

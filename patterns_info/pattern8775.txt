@@ -1,0 +1,8 @@
+as five times the lifetime of the flat routing approach.
+(PP (IN )(NP (NP (QP (CD )(NNS ))(DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated8775
+Input: Token
+Rule: generated8775
+(
+(({ Token.category == IN })(((({ Token.category == CD })({ Token.category == NNS }))({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn8775 --> :pttrn8775.extracted={}
+

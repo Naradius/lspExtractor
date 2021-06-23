@@ -1,0 +1,8 @@
+of both protocols
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated8854
+Input: Token
+Rule: generated8854
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn8854 --> :pttrn8854.extracted={}
+

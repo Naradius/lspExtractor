@@ -1,0 +1,8 @@
+to reduce its search space
+(VP (TO )(VP (VB )(NP (PRP$ )(NN ){1,2})))
+Phase: generated104805
+Input: Token
+Rule: generated104805
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN })+)))):pttrn104805 --> :pttrn104805.extracted={}
+

@@ -1,0 +1,8 @@
+following:TF ij = log
+(VP (VBG )(NP (NN ){1,2}(SYM )))
+Phase: generated86454
+Input: Token
+Rule: generated86454
+(
+(({ Token.category == VBG })(({ Token.category == NN })+({ Token.category == SYM })))):pttrn86454 --> :pttrn86454.extracted={}
+

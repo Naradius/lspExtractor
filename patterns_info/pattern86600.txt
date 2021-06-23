@@ -1,0 +1,8 @@
+contains the termt
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated86600
+Input: Token
+Rule: generated86600
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn86600 --> :pttrn86600.extracted={}
+

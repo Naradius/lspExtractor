@@ -1,0 +1,8 @@
+The communication from each node
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated3489
+Input: Token
+Rule: generated3489
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn3489 --> :pttrn3489.extracted={}
+

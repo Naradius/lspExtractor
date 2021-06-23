@@ -1,0 +1,8 @@
+only construct their own blockchain and cannotachieve consistency in the system
+(VP (VB )(NP (PRP$ )(JJ )(NN )(CC )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated36746
+Input: Token
+Rule: generated36746
+(
+(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn36746 --> :pttrn36746.extracted={}
+

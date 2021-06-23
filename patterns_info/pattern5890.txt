@@ -1,0 +1,8 @@
+makes the tradeoff betweenenergy efficiency and data resolution
+(VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (NN )(CC )(NNS )(NN ))))
+Phase: generated5890
+Input: Token
+Rule: generated5890
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN }))))):pttrn5890 --> :pttrn5890.extracted={}
+

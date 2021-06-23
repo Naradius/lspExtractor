@@ -1,0 +1,8 @@
+the Web.
+(NP (DT )(NNP ))
+Phase: generated94975
+Input: Token
+Rule: generated94975
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn94975 --> :pttrn94975.extracted={}
+

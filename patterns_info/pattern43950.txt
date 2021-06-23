@@ -1,0 +1,8 @@
+to address the deficienciesof classic flooding by negotiation and resourceadaptation
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (NN )(CC )(NN )))))
+Phase: generated43950
+Input: Token
+Rule: generated43950
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn43950 --> :pttrn43950.extracted={}
+

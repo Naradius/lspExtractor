@@ -1,0 +1,8 @@
+the K-means framework  which roughly corresponds to our improvement of single sentence generalization-based search over the baseline
+(NP (NP (DT )(NNP )(NN ))(VP (VBZ )(PP (TO )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (NP (JJ )(NN )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated115995
+Input: Token
+Rule: generated115995
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn115995 --> :pttrn115995.extracted={}
+

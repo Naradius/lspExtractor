@@ -1,0 +1,8 @@
+explained by the increase of the averagedegree of the nodes and consequently, the end-to-end time becomesminimal
+(VP (VBN )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))))(CC )(NP (DT )(JJ )(NN )(JJ )))))
+Phase: generated42679
+Input: Token
+Rule: generated42679
+(
+(({ Token.category == VBN })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })))))):pttrn42679 --> :pttrn42679.extracted={}
+

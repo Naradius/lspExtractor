@@ -1,0 +1,8 @@
+the routing path
+(NP (DT )(JJ )(NN ))
+Phase: generated35434
+Input: Token
+Rule: generated35434
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn35434 --> :pttrn35434.extracted={}
+

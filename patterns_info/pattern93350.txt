@@ -1,0 +1,8 @@
+utilizes lists in orderto perform its tasks
+(VP (VBZ )(VP (VBP )(NP (PRP$ )(NNS ))))
+Phase: generated93350
+Input: Token
+Rule: generated93350
+(
+(({ Token.category == VBZ })(({ Token.category == VBP })(({ Token.category == PRP$ })({ Token.category == NNS }))))):pttrn93350 --> :pttrn93350.extracted={}
+

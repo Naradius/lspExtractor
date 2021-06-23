@@ -1,0 +1,8 @@
+Abstracts 73.12 64.50 68.54 38.21Table 3
+(NP (NNP )(CD ){1,2}(JJ )(CD ))
+Phase: generated95630
+Input: Token
+Rule: generated95630
+(
+(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == JJ })({ Token.category == CD }))):pttrn95630 --> :pttrn95630.extracted={}
+

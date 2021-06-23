@@ -1,0 +1,8 @@
+23.000distinct pattern
+(NP (JJ )(NN ))
+Phase: generated78253
+Input: Token
+Rule: generated78253
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn78253 --> :pttrn78253.extracted={}
+

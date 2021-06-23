@@ -1,0 +1,8 @@
+depend on the following/preceding word
+(VP (VBP )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated91498
+Input: Token
+Rule: generated91498
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn91498 --> :pttrn91498.extracted={}
+

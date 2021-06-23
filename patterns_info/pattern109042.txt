@@ -1,0 +1,8 @@
+of successful packet delivery
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated109042
+Input: Token
+Rule: generated109042
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn109042 --> :pttrn109042.extracted={}
+

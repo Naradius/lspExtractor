@@ -1,0 +1,8 @@
+are releasedOther nodes:If an ant wanders to node iDecrement its TTLIf TTL > 0Choose a random neighbor, jSend the ant to node jElseIf TTL == 0 and node i already has an antPick a random neighborSend the ant to itElseStore the antEndEndDeciding on the appropriate swarm size is crucial for T-ANTs optimal performance
+(VP (VBP )(NP (NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NNS ))))(VP (TO )(VP (VB )(PP (IN )(NP (NP (PRP$ )(NNP ){1,2})(PP (IN )(NP (NP (DT )(JJ )(NN ))(CC )(NP (NP (DT )(JJ ))(VP (TO )(VP (VP (VB )(PP (IN )(NP (NNP )(SYM ){1,2}(CD ))))(CC )(VP (VBD )(VP (VBZ )(NP (DT )(NN ))(VP (VBZ )(PP (IN )(NP (JJ ){1,2}(NN )))))))))))))))))
+Phase: generated3458
+Input: Token
+Rule: generated3458
+(
+(({ Token.category == VBP })(((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NNP })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == SYM })+({ Token.category == CD }))))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })))))))))))))))))):pttrn3458 --> :pttrn3458.extracted={}
+

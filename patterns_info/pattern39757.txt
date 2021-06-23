@@ -1,0 +1,8 @@
+a system event
+(NP (DT )(NN ){1,2})
+Phase: generated39757
+Input: Token
+Rule: generated39757
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn39757 --> :pttrn39757.extracted={}
+

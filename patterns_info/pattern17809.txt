@@ -1,0 +1,8 @@
+has 250 m transmission range
+(VP (VBZ )(NP (CD )(JJ )(NN ){1,2}))
+Phase: generated17809
+Input: Token
+Rule: generated17809
+(
+(({ Token.category == VBZ })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })+))):pttrn17809 --> :pttrn17809.extracted={}
+

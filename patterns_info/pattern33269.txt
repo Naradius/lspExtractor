@@ -1,0 +1,8 @@
+produces a forward agent
+(VP (VBZ )(NP (DT )(JJ )(NN )))
+Phase: generated33269
+Input: Token
+Rule: generated33269
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn33269 --> :pttrn33269.extracted={}
+

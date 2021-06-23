@@ -1,0 +1,8 @@
+perform pattern recognition on the different signa-ures
+(VP (VB )(NP (JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated112179
+Input: Token
+Rule: generated112179
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn112179 --> :pttrn112179.extracted={}
+

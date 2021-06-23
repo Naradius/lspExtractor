@@ -1,0 +1,8 @@
+sending a linear combination ofseveral packets instead of a copy of each packet
+(VP (VBG )(NP (DT )(NN ){1,2})(NP (NP (JJ )(NNS ))(PP (RB )(IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated51092
+Input: Token
+Rule: generated51092
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == RB })({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn51092 --> :pttrn51092.extracted={}
+

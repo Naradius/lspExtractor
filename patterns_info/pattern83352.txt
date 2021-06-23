@@ -1,0 +1,8 @@
+itssemantic class to the rule
+(NP (NP (JJR )(NN ))(PP (TO )(NP (DT )(NN ))))
+Phase: generated83352
+Input: Token
+Rule: generated83352
+(
+((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn83352 --> :pttrn83352.extracted={}
+

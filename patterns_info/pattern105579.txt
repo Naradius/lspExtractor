@@ -1,0 +1,8 @@
+horlogerie, family names
+(NP (NN ){1,2}(NNS ))
+Phase: generated105579
+Input: Token
+Rule: generated105579
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn105579 --> :pttrn105579.extracted={}
+

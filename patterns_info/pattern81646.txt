@@ -1,0 +1,8 @@
+among the telegraphic abbreviations
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated81646
+Input: Token
+Rule: generated81646
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn81646 --> :pttrn81646.extracted={}
+

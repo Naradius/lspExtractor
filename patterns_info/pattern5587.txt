@@ -1,0 +1,8 @@
+Ad-Hoc Networks, 2003
+(NP (NNP ){1,2}(CD ))
+Phase: generated5587
+Input: Token
+Rule: generated5587
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn5587 --> :pttrn5587.extracted={}
+

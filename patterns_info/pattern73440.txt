@@ -1,0 +1,8 @@
+matching techniquesfor the automatic retrieval of event-based commonsense knowl-edge from the web.
+(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))(PP (IN )(NP (DT )(NN ))))
+Phase: generated73440
+Input: Token
+Rule: generated73440
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn73440 --> :pttrn73440.extracted={}
+

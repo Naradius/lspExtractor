@@ -1,0 +1,8 @@
+to the syntheticQoS metrics
+(PP (TO )(NP (DT )(NNS ){1,2}))
+Phase: generated33807
+Input: Token
+Rule: generated33807
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS })+))):pttrn33807 --> :pttrn33807.extracted={}
+

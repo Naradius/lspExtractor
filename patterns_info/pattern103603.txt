@@ -1,0 +1,8 @@
+of such a parsing algorithm
+(PP (IN )(NP (JJ )(DT )(NN ){1,2}))
+Phase: generated103603
+Input: Token
+Rule: generated103603
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN })+))):pttrn103603 --> :pttrn103603.extracted={}
+

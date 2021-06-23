@@ -1,0 +1,8 @@
+not using the classes Nghbr
+(VP (RB )(VBG )(NP (DT )(NNS )(NNP )))
+Phase: generated78700
+Input: Token
+Rule: generated78700
+(
+(({ Token.category == RB })({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NNP })))):pttrn78700 --> :pttrn78700.extracted={}
+

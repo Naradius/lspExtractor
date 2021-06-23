@@ -1,0 +1,8 @@
+inthe same cluster
+(NP (DT )(JJ )(NN ))
+Phase: generated54515
+Input: Token
+Rule: generated54515
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn54515 --> :pttrn54515.extracted={}
+

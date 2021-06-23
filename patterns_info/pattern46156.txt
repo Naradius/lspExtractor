@@ -1,0 +1,8 @@
+such as speed, direc-tion, and size of an object.Sensor
+(PP (JJ )(IN ))
+Phase: generated46156
+Input: Token
+Rule: generated46156
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn46156 --> :pttrn46156.extracted={}
+

@@ -1,0 +1,8 @@
+achieved good results compared to other con-ventional protocols as shown in the figure.8.1.3
+(VP (VBN )(NP (JJ )(NNS ))(PP (VBN )(PP (TO )(NP (JJ ){1,2}(NNS ))))(IN ))
+Phase: generated42636
+Input: Token
+Rule: generated42636
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })+({ Token.category == NNS }))))({ Token.category == IN }))):pttrn42636 --> :pttrn42636.extracted={}
+

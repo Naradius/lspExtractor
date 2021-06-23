@@ -1,0 +1,8 @@
+can be modeled us-ng parameters associated to the network configuration C, T p as= q/C + T p
+(VP (MD )(VP (VB )(VP (VBN )(NP (NP (JJ )(NNS ))(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2})))))))
+Phase: generated110406
+Input: Token
+Rule: generated110406
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn110406 --> :pttrn110406.extracted={}
+

@@ -1,0 +1,8 @@
+will arrive at the destination node.That is to say
+(VP (MD )(VP (VB )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated33541
+Input: Token
+Rule: generated33541
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn33541 --> :pttrn33541.extracted={}
+

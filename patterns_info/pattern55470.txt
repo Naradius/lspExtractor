@@ -1,0 +1,8 @@
+thedata transmission
+(NP (DT )(NN ))
+Phase: generated55470
+Input: Token
+Rule: generated55470
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn55470 --> :pttrn55470.extracted={}
+

@@ -1,0 +1,8 @@
+Semantic understanding and commonsense reasoning in an adaptivephoto agent.
+(NP (NP (JJ )(NN ))(CC ))
+Phase: generated73583
+Input: Token
+Rule: generated73583
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))):pttrn73583 --> :pttrn73583.extracted={}
+

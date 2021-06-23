@@ -1,0 +1,8 @@
+full system performance.The closest comparison possible is with CRYSTAL, which uses machine learningand operates at the sentence level
+(NP (NP (JJ )(NN ){1,2})(NP (DT )(JJS )(NN )(JJ )))
+Phase: generated79028
+Input: Token
+Rule: generated79028
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })({ Token.category == JJ })))):pttrn79028 --> :pttrn79028.extracted={}
+

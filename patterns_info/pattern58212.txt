@@ -1,0 +1,8 @@
+network . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+(NP (NN )(NNP ){1,2})
+Phase: generated58212
+Input: Token
+Rule: generated58212
+(
+(({ Token.category == NN })({ Token.category == NNP })+)):pttrn58212 --> :pttrn58212.extracted={}
+

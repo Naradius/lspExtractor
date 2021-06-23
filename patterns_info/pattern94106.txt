@@ -1,0 +1,8 @@
+fasterthan their lexico-syntactic counterparts
+(PP (IN )(NP (PRP$ )(JJ )(NNS )))
+Phase: generated94106
+Input: Token
+Rule: generated94106
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS })))):pttrn94106 --> :pttrn94106.extracted={}
+

@@ -1,0 +1,8 @@
+reliability, bandwidth, security, scal-ability, interoperability and criticality of data delivery :5.1
+(NP (NP (NN ){1,2}(CC )(NN ))(PP (IN )(NP (NNS )(NN ){1,2})))
+Phase: generated41355
+Input: Token
+Rule: generated41355
+(
+((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })+)))):pttrn41355 --> :pttrn41355.extracted={}
+

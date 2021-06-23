@@ -1,0 +1,8 @@
+the capital ofRussia
+(NP (DT )(NN )(NNP ))
+Phase: generated100102
+Input: Token
+Rule: generated100102
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))):pttrn100102 --> :pttrn100102.extracted={}
+

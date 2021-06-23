@@ -1,0 +1,8 @@
+thatthe changes we have made to the VNLayer and the VNAODValgorithm
+(NP (NP (DT )(NNS ))(VP (VBP )(VP (VBN )(PP (TO )(NP (NP (DT )(NN ))(CC )(NP (DT )(NNP )))))))
+Phase: generated16764
+Input: Token
+Rule: generated16764
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })))))))):pttrn16764 --> :pttrn16764.extracted={}
+

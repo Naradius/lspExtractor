@@ -1,0 +1,8 @@
+a conditional random field-basedclassifier
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated73734
+Input: Token
+Rule: generated73734
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn73734 --> :pttrn73734.extracted={}
+

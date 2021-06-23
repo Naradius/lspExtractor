@@ -1,0 +1,8 @@
+is able toadapt and organize itself to possible upcoming changes in itssurroundings
+(VP (VP (VBZ )(NP (JJ )(NN )))(CC ))
+Phase: generated31297
+Input: Token
+Rule: generated31297
+(
+((({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC }))):pttrn31297 --> :pttrn31297.extracted={}
+

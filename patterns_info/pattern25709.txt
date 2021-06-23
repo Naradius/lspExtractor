@@ -1,0 +1,8 @@
+exchanged between distributed nodes in the sys-em
+(VP (VBN )(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated25709
+Input: Token
+Rule: generated25709
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn25709 --> :pttrn25709.extracted={}
+

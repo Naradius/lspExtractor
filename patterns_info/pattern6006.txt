@@ -1,0 +1,8 @@
+thisoptimal number and our approach of clustering
+(NP (NP (JJ )(NN ))(CC ))
+Phase: generated6006
+Input: Token
+Rule: generated6006
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))):pttrn6006 --> :pttrn6006.extracted={}
+

@@ -1,0 +1,8 @@
+its met-ic based on the path cost and send it via DIO metric container.n
+(NP (NP (PRP$ )(JJ ))(VP (VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))(CC )(VP (VB )(PP (IN )(NP (NNP )(JJ )(NN ))))))
+Phase: generated26748
+Input: Token
+Rule: generated26748
+(
+((({ Token.category == PRP$ })({ Token.category == JJ }))((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn26748 --> :pttrn26748.extracted={}
+

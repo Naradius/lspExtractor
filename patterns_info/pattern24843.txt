@@ -1,0 +1,8 @@
+re-iability challenges in multi-core systems
+(NP (NP (NN )(NNS ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated24843
+Input: Token
+Rule: generated24843
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn24843 --> :pttrn24843.extracted={}
+

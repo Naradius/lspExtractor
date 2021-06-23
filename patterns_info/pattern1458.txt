@@ -1,0 +1,8 @@
+the set X
+(NP (DT )(NN )(NNP ))
+Phase: generated1458
+Input: Token
+Rule: generated1458
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))):pttrn1458 --> :pttrn1458.extracted={}
+

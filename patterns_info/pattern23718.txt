@@ -1,0 +1,8 @@
+shows one suchGENI deployment derived from a simulation scenario
+(VP (VBZ )(NP (NP (CD )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated23718
+Input: Token
+Rule: generated23718
+(
+(({ Token.category == VBZ })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn23718 --> :pttrn23718.extracted={}
+

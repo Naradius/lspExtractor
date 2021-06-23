@@ -1,0 +1,8 @@
+experimentationThe implementation for the COLIDE framework
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated37310
+Input: Token
+Rule: generated37310
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn37310 --> :pttrn37310.extracted={}
+

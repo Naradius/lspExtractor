@@ -1,0 +1,8 @@
+the broadcastdomain
+(NP (DT )(NN ))
+Phase: generated16582
+Input: Token
+Rule: generated16582
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn16582 --> :pttrn16582.extracted={}
+

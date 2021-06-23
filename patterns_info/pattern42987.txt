@@ -1,0 +1,8 @@
+DRHT and TSP.8.2.3
+(NP (NNP )(CC )(NNP ))
+Phase: generated42987
+Input: Token
+Rule: generated42987
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn42987 --> :pttrn42987.extracted={}
+

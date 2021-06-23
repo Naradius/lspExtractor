@@ -1,0 +1,8 @@
+had 2-J battery energy
+(VP (VBD )(NP (JJ )(NN ){1,2}))
+Phase: generated8581
+Input: Token
+Rule: generated8581
+(
+(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn8581 --> :pttrn8581.extracted={}
+

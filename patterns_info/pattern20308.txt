@@ -1,0 +1,8 @@
+Fog computing environments
+(NP (NN ){1,2}(NNS ))
+Phase: generated20308
+Input: Token
+Rule: generated20308
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn20308 --> :pttrn20308.extracted={}
+

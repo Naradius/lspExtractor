@@ -1,0 +1,8 @@
+forms a data book.In the IoT
+(VP (VBZ )(NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP ))))
+Phase: generated36590
+Input: Token
+Rule: generated36590
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn36590 --> :pttrn36590.extracted={}
+

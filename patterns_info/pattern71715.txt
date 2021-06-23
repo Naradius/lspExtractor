@@ -1,0 +1,8 @@
+to develop the knowledgebase
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated71715
+Input: Token
+Rule: generated71715
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn71715 --> :pttrn71715.extracted={}
+

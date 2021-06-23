@@ -1,0 +1,8 @@
+for low-powerwireless sensor networks
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated49447
+Input: Token
+Rule: generated49447
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn49447 --> :pttrn49447.extracted={}
+

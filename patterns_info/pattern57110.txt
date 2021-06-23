@@ -1,0 +1,8 @@
+normal WSN nodes
+(NP (JJ )(NNP )(NNS ))
+Phase: generated57110
+Input: Token
+Rule: generated57110
+(
+(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))):pttrn57110 --> :pttrn57110.extracted={}
+

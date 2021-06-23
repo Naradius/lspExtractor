@@ -1,0 +1,8 @@
+reduce the dimension of a vector that is used in linear transformation approach.Clustering
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (JJ )(NN ){1,2}))))))))
+Phase: generated85004
+Input: Token
+Rule: generated85004
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))))):pttrn85004 --> :pttrn85004.extracted={}
+

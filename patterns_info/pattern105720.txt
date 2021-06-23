@@ -1,0 +1,8 @@
+practicallyvery hard to achieve because the definition of MWUcan never be the same between different people asthere exist a continuum between compositional andnon-compositional sequences
+(ADJP (RB )(JJ ))
+Phase: generated105720
+Input: Token
+Rule: generated105720
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn105720 --> :pttrn105720.extracted={}
+

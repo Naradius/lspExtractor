@@ -1,0 +1,8 @@
+defined as the rate of successful data transmission with respective particular time
+(VP (VBN )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )(NN ))))(PP (IN )(NP (JJ ){1,2}(NN ))))))
+Phase: generated108996
+Input: Token
+Rule: generated108996
+(
+(({ Token.category == VBN })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))))):pttrn108996 --> :pttrn108996.extracted={}
+

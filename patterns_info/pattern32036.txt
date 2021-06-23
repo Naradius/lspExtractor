@@ -1,0 +1,8 @@
+formed by IoTdevices with similar smart building topology  and the same smart buildinguniformity
+(VP (VBN )(PP (IN )(NP (NP (JJ ){1,2}(NN ){1,2})(CC )(NP (DT )(JJ ){1,2}(NN )))))
+Phase: generated32036
+Input: Token
+Rule: generated32036
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))):pttrn32036 --> :pttrn32036.extracted={}
+

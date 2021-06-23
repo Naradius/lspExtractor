@@ -1,0 +1,8 @@
+of the derivation and the production instances in APIcmightexclude certain production instances, which are kept in EPIc
+(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NNP )(JJ )(NN )(NNS ))))))
+Phase: generated104575
+Input: Token
+Rule: generated104575
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn104575 --> :pttrn104575.extracted={}
+

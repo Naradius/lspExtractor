@@ -1,0 +1,8 @@
+higher probability or lesser preferred route with lower probability
+(NP (NP (JJR )(NN ))(CC )(NP (NP (JJR )(VBN )(NN ))(PP (IN )(NP (JJR )(NN )))))
+Phase: generated23579
+Input: Token
+Rule: generated23579
+(
+((({ Token.category == JJR })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJR })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })))))):pttrn23579 --> :pttrn23579.extracted={}
+

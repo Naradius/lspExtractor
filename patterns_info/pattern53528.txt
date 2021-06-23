@@ -1,0 +1,8 @@
+continues till all the nodes in the network
+(VP (VBZ )(PP (IN )(NP (NP (PDT )(DT )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated53528
+Input: Token
+Rule: generated53528
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == PDT })({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn53528 --> :pttrn53528.extracted={}
+

@@ -1,0 +1,8 @@
+syntactic analyzer
+(NP (JJ )(NN ))
+Phase: generated80563
+Input: Token
+Rule: generated80563
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn80563 --> :pttrn80563.extracted={}
+

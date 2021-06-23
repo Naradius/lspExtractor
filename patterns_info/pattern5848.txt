@@ -1,0 +1,8 @@
+to improve wireless sensor nodescapabilities
+(VP (TO )(VP (VB )(NP (JJ )(NN )(NNS ))))
+Phase: generated5848
+Input: Token
+Rule: generated5848
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn5848 --> :pttrn5848.extracted={}
+

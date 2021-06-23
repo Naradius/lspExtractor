@@ -1,0 +1,8 @@
+In pattern 3
+(PP (IN )(NP (NN )(CD )))
+Phase: generated72551
+Input: Token
+Rule: generated72551
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))):pttrn72551 --> :pttrn72551.extracted={}
+

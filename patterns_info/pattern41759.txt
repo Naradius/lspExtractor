@@ -1,0 +1,8 @@
+the performance of the delivery probabil-ity of the bundles
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS ))))))
+Phase: generated41759
+Input: Token
+Rule: generated41759
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn41759 --> :pttrn41759.extracted={}
+

@@ -1,0 +1,8 @@
+Theshortest path between these entities
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated77866
+Input: Token
+Rule: generated77866
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn77866 --> :pttrn77866.extracted={}
+

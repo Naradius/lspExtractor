@@ -1,0 +1,8 @@
+have considered in this re-search
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated110733
+Input: Token
+Rule: generated110733
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn110733 --> :pttrn110733.extracted={}
+

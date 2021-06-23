@@ -1,0 +1,8 @@
+does not use syntac-tic information
+(VP (VBZ )(RB )(VP (VB )(NP (JJ )(NN ))))
+Phase: generated95895
+Input: Token
+Rule: generated95895
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn95895 --> :pttrn95895.extracted={}
+

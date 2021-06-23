@@ -1,0 +1,8 @@
+relevant phrases such as person names.This leaves WHISK with the task of determining the context in which a personplays a relevant slot-lling role
+(NP (NP (JJ )(NNS ))(PP (JJ )(IN )(NP (NP (NN )(NNS ))(VP (VBG )(NP (NNS )(NNP ))))))
+Phase: generated79288
+Input: Token
+Rule: generated79288
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == NNP }))))))):pttrn79288 --> :pttrn79288.extracted={}
+

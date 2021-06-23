@@ -1,0 +1,8 @@
+tWith its strong coverage, low energy consumption, low cost and great connectivity
+(PP (IN )(NP (NP (PRP$ )(JJ )(NN ))(NP (JJ )(NN ){1,2}){1,2}(CC )(NP (JJ )(NN ))))
+Phase: generated30862
+Input: Token
+Rule: generated30862
+(
+(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == NN })+)+({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn30862 --> :pttrn30862.extracted={}
+

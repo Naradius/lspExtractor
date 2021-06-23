@@ -1,0 +1,8 @@
+distribute the secret share at the same timeas the secret distribution, without any processing in advance
+(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )))(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated37224
+Input: Token
+Rule: generated37224
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn37224 --> :pttrn37224.extracted={}
+

@@ -1,0 +1,8 @@
+before the systemachieves convergence
+(PP (IN )(NP (DT )(NNS )(NN )))
+Phase: generated5040
+Input: Token
+Rule: generated5040
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))):pttrn5040 --> :pttrn5040.extracted={}
+

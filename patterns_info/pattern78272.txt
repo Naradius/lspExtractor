@@ -1,0 +1,8 @@
+interactively queried
+(ADJP (RB )(VBN ))
+Phase: generated78272
+Input: Token
+Rule: generated78272
+(
+(({ Token.category == RB })({ Token.category == VBN }))):pttrn78272 --> :pttrn78272.extracted={}
+

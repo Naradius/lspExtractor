@@ -1,0 +1,8 @@
+L = 1.0 whenn=0
+(NP (NNP )(SYM )(CD ){1,2})
+Phase: generated81373
+Input: Token
+Rule: generated81373
+(
+(({ Token.category == NNP })({ Token.category == SYM })({ Token.category == CD })+)):pttrn81373 --> :pttrn81373.extracted={}
+

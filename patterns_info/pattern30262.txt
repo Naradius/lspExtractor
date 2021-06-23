@@ -1,0 +1,8 @@
+the technique.Fig
+(NP (DT )(NN ){1,2})
+Phase: generated30262
+Input: Token
+Rule: generated30262
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn30262 --> :pttrn30262.extracted={}
+

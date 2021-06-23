@@ -1,0 +1,8 @@
+to expand this classification with morecategories such as space exploration, chemicalprocessing and disaster relief.2.1
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated46182
+Input: Token
+Rule: generated46182
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn46182 --> :pttrn46182.extracted={}
+

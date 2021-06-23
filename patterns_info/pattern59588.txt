@@ -1,0 +1,8 @@
+a cluster based routing algorithm that uses fuzzyules and convolutional neural network
+(NP (CC )(NP (JJ ){1,2}(NN )))
+Phase: generated59588
+Input: Token
+Rule: generated59588
+(
+(({ Token.category == CC })(({ Token.category == JJ })+({ Token.category == NN })))):pttrn59588 --> :pttrn59588.extracted={}
+

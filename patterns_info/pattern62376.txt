@@ -1,0 +1,8 @@
+This node con-trols and manages
+(NP (DT )(NN )(NNS )(CC )(NNS ))
+Phase: generated62376
+Input: Token
+Rule: generated62376
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn62376 --> :pttrn62376.extracted={}
+

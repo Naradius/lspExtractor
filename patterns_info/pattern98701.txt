@@ -1,0 +1,8 @@
+described in   presents an extensive list of surface patterns
+(VP (VBD )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated98701
+Input: Token
+Rule: generated98701
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn98701 --> :pttrn98701.extracted={}
+

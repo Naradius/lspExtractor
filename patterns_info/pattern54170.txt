@@ -1,0 +1,8 @@
+is the number of CHs.thrEinEtotalwhere Ei is the residual energy of the nodes and thr is thethreshold used for the nodes to act as a CH and Etotal is the totalenergy of the nodes
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNP )))))
+Phase: generated54170
+Input: Token
+Rule: generated54170
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })))))):pttrn54170 --> :pttrn54170.extracted={}
+

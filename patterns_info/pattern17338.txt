@@ -1,0 +1,8 @@
+the minimal convex set containing all boundary nodes around the same hole
+(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBG )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated17338
+Input: Token
+Rule: generated17338
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn17338 --> :pttrn17338.extracted={}
+

@@ -1,0 +1,8 @@
+given asbelow:Defense against new mature resident males
+(VP (VBN )(PP (IN )(NP (JJ )(NN ){1,2}(NNS ))))
+Phase: generated64604
+Input: Token
+Rule: generated64604
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn64604 --> :pttrn64604.extracted={}
+

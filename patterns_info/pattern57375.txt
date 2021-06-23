@@ -1,0 +1,8 @@
+of transferring the data fromSNs to CHs to BS
+(PP (IN )(VP (VBG )(NP (DT )(NNS ))))
+Phase: generated57375
+Input: Token
+Rule: generated57375
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn57375 --> :pttrn57375.extracted={}
+

@@ -1,0 +1,8 @@
+250 publicationsin journals
+(NP (CD )(NN )(NNS ))
+Phase: generated68057
+Input: Token
+Rule: generated68057
+(
+(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn68057 --> :pttrn68057.extracted={}
+

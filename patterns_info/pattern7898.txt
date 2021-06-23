@@ -1,0 +1,8 @@
+have a small value for a net-work with well distributed CHs
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (ADJP (RB )(VBN ))(NNP )))))))
+Phase: generated7898
+Input: Token
+Rule: generated7898
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNP })))))))):pttrn7898 --> :pttrn7898.extracted={}
+

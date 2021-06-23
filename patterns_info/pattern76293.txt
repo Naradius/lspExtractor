@@ -1,0 +1,8 @@
+observed atleast three times in the corpus.2.4
+(VP (VBN )(PP (IN )(NP (NP (CD )(NNS ))(PP (IN )(NP (DT )(JJ )(CD ))))))
+Phase: generated76293
+Input: Token
+Rule: generated76293
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD }))))))):pttrn76293 --> :pttrn76293.extracted={}
+

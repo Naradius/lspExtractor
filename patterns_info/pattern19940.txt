@@ -1,0 +1,8 @@
+supported by the Engineering andhysical Sciences Research Council  - ,elbourne-Chindia Cloud Computing  Research Network nd Australian Research Council
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNP )(NNPS ){1,2}(NNP ){1,2})(NP (NNP ){1,2}(CC )(NNP ){1,2}))))
+Phase: generated19940
+Input: Token
+Rule: generated19940
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNPS })+({ Token.category == NNP })+)(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+))))):pttrn19940 --> :pttrn19940.extracted={}
+

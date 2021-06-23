@@ -1,0 +1,8 @@
+information exchange amongmembers
+(NP (NN ){1,2}(NNS ))
+Phase: generated64518
+Input: Token
+Rule: generated64518
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn64518 --> :pttrn64518.extracted={}
+

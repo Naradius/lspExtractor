@@ -1,0 +1,8 @@
+the CH
+(NP (DT )(NNP ))
+Phase: generated60109
+Input: Token
+Rule: generated60109
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn60109 --> :pttrn60109.extracted={}
+

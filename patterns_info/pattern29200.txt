@@ -1,0 +1,8 @@
+the970 R. Casado-Vara
+(NP (DT )(NNP ){1,2})
+Phase: generated29200
+Input: Token
+Rule: generated29200
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn29200 --> :pttrn29200.extracted={}
+

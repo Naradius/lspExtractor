@@ -1,0 +1,8 @@
+to implement passive acknowledgments for routemaintenance , which implies that links canbe flagged as broken only after a certain period of idleness
+(VP (TO )(VP (VB )(NP (JJ )(NNS ))))
+Phase: generated15505
+Input: Token
+Rule: generated15505
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn15505 --> :pttrn15505.extracted={}
+

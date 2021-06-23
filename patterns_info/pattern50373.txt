@@ -1,0 +1,8 @@
+reliable wireless commu-nications
+(NP (JJ ){1,2}(NNS ))
+Phase: generated50373
+Input: Token
+Rule: generated50373
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn50373 --> :pttrn50373.extracted={}
+

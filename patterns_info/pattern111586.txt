@@ -1,0 +1,8 @@
+analysisnd time scales
+(NP (DT )(NN )(NNS ))
+Phase: generated111586
+Input: Token
+Rule: generated111586
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn111586 --> :pttrn111586.extracted={}
+

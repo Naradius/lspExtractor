@@ -1,0 +1,8 @@
+to overcome the overhead explosion
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))))
+Phase: generated3054
+Input: Token
+Rule: generated3054
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn3054 --> :pttrn3054.extracted={}
+

@@ -1,0 +1,8 @@
+AMI applications
+(NP (NNP )(NNS ))
+Phase: generated26193
+Input: Token
+Rule: generated26193
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn26193 --> :pttrn26193.extracted={}
+

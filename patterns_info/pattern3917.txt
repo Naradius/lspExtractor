@@ -1,0 +1,8 @@
+formulaused in the uniform ant routing algorithm
+(VP (VBN )(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2})))
+Phase: generated3917
+Input: Token
+Rule: generated3917
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)))):pttrn3917 --> :pttrn3917.extracted={}
+

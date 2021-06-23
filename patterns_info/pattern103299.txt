@@ -1,0 +1,8 @@
+final results, i.e. elements of the generated language
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (NNP ){1,2}(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated103299
+Input: Token
+Rule: generated103299
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn103299 --> :pttrn103299.extracted={}
+

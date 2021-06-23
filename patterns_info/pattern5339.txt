@@ -1,0 +1,8 @@
+thatT-ANT promotes good load balancing across the entire net-work to sustain the network for its longest possible use.Fig
+(NP (NP (NP (DT )(NNS )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ))))(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (PRP$ )(JJS )(JJ )(NN ){1,2})))))
+Phase: generated5339
+Input: Token
+Rule: generated5339
+(
+(((({ Token.category == DT })({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJS })({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn5339 --> :pttrn5339.extracted={}
+

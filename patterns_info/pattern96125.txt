@@ -1,0 +1,8 @@
+is typically brokendown into two sub-tasks
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (CD )(NNS )))))
+Phase: generated96125
+Input: Token
+Rule: generated96125
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn96125 --> :pttrn96125.extracted={}
+

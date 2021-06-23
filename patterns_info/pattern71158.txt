@@ -1,0 +1,8 @@
+for three paragraphs
+(PP (IN )(NP (CD )(NNS )))
+Phase: generated71158
+Input: Token
+Rule: generated71158
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))):pttrn71158 --> :pttrn71158.extracted={}
+

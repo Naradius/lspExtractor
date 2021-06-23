@@ -1,0 +1,8 @@
+the CHs  Distance
+(NP (DT )(NNP ){1,2})
+Phase: generated11545
+Input: Token
+Rule: generated11545
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn11545 --> :pttrn11545.extracted={}
+

@@ -1,0 +1,8 @@
+provid-ing the balanced routing paths
+(VP (VBG )(NP (DT )(JJ )(NN )(NNS )))
+Phase: generated68341
+Input: Token
+Rule: generated68341
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn68341 --> :pttrn68341.extracted={}
+

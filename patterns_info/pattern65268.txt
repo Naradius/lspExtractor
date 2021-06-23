@@ -1,0 +1,8 @@
+is considered as a setf resources that impels sensor nodes to gather data from the en-ironment
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(NN )(NNS ))(VP (VBZ )(NP (NN )(NNS ))(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated65268
+Input: Token
+Rule: generated65268
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn65268 --> :pttrn65268.extracted={}
+

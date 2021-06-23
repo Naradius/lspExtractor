@@ -1,0 +1,8 @@
+for informative tokens further removed from the target phrase
+(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated80073
+Input: Token
+Rule: generated80073
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn80073 --> :pttrn80073.extracted={}
+

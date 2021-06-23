@@ -1,0 +1,8 @@
+PriorityBackup =
+(NP (NNP )(SYM ))
+Phase: generated14955
+Input: Token
+Rule: generated14955
+(
+(({ Token.category == NNP })({ Token.category == SYM }))):pttrn14955 --> :pttrn14955.extracted={}
+

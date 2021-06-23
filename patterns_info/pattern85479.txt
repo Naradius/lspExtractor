@@ -1,0 +1,8 @@
+our evaluation datasets
+(NP (PRP$ )(NN )(NNS ))
+Phase: generated85479
+Input: Token
+Rule: generated85479
+(
+(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))):pttrn85479 --> :pttrn85479.extracted={}
+

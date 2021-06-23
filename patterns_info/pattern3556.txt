@@ -1,0 +1,8 @@
+per independenthomogeneous spatial Poisson processes P1 and P0 of inten-sity k1 = pk
+(PP (IN )(NP (NP (JJ ){1,2}(NNP )(NNS )(NNP ))(CC )))
+Phase: generated3556
+Input: Token
+Rule: generated3556
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NNP }))({ Token.category == CC })))):pttrn3556 --> :pttrn3556.extracted={}
+

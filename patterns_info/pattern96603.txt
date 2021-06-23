@@ -1,0 +1,8 @@
+capture the context of the sentence
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated96603
+Input: Token
+Rule: generated96603
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn96603 --> :pttrn96603.extracted={}
+

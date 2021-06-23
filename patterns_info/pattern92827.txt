@@ -1,0 +1,8 @@
+has been speci-fied.3.2.6
+(VP (VBZ )(VP (VBN )(NP (JJ )(CD ))))
+Phase: generated92827
+Input: Token
+Rule: generated92827
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == CD }))))):pttrn92827 --> :pttrn92827.extracted={}
+

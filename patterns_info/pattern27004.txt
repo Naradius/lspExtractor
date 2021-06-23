@@ -1,0 +1,8 @@
+develop mobility support-ing OFs
+(VP (VB )(NP (NN ){1,2}(NNS )))
+Phase: generated27004
+Input: Token
+Rule: generated27004
+(
+(({ Token.category == VB })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn27004 --> :pttrn27004.extracted={}
+

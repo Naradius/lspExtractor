@@ -1,0 +1,8 @@
+another ant
+(NP (DT )(NN ))
+Phase: generated7717
+Input: Token
+Rule: generated7717
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn7717 --> :pttrn7717.extracted={}
+

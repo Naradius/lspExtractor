@@ -1,0 +1,8 @@
+The clustering properties
+(NP (DT )(NN )(NNS ))
+Phase: generated8297
+Input: Token
+Rule: generated8297
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn8297 --> :pttrn8297.extracted={}
+

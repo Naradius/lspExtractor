@@ -1,0 +1,8 @@
+with context elements
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated102869
+Input: Token
+Rule: generated102869
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn102869 --> :pttrn102869.extracted={}
+

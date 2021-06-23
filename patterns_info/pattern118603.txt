@@ -1,0 +1,8 @@
+most specific
+(ADJP (RBS )(JJ ))
+Phase: generated118603
+Input: Token
+Rule: generated118603
+(
+(({ Token.category == RBS })({ Token.category == JJ }))):pttrn118603 --> :pttrn118603.extracted={}
+

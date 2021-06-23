@@ -1,0 +1,8 @@
+transmitted by unicast or by4On the opposite extreme, the fact that each nonleader would autonomouslydecide about becoming a backup also entailed a risk of having too manybackup nodes in a region, increasing the overhead due to state synchronizations.Admittedly, however
+(VP (VBN )(PP (CC )(PP (IN )(NP (NP (DT )(JJ )(NN ))(NP (DT )(NN ))))))
+Phase: generated14551
+Input: Token
+Rule: generated14551
+(
+(({ Token.category == VBN })(({ Token.category == CC })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN }))))))):pttrn14551 --> :pttrn14551.extracted={}
+

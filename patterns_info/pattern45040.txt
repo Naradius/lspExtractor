@@ -1,0 +1,8 @@
+with low-complexity encoding and decodingmight present the best solutions for sensor net-works
+(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (JJ )(NN ))(NP (NP (DT )(JJS )(NNS ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated45040
+Input: Token
+Rule: generated45040
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn45040 --> :pttrn45040.extracted={}
+

@@ -1,0 +1,8 @@
+lossy networks
+(NP (JJ )(NNS ))
+Phase: generated28949
+Input: Token
+Rule: generated28949
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn28949 --> :pttrn28949.extracted={}
+

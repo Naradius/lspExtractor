@@ -1,0 +1,8 @@
+consists of drop-ping (or marking when the ECN  option is enabled) some packets before the buffer saturates.Consequently, the estimator must be associated with a robust AQMin order to perform its diagnosis
+(VP (VBZ )(PP (IN )(NP (NP (-LRB- )(CC )(-RRB- ))(NP (NP (DT )(NNS ))(IN )))))
+Phase: generated110021
+Input: Token
+Rule: generated110021
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == -LRB- })({ Token.category == CC })({ Token.category == -RRB- }))((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == IN })))))):pttrn110021 --> :pttrn110021.extracted={}
+

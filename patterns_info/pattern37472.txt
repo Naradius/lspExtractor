@@ -1,0 +1,8 @@
+a computer
+(NP (DT )(NN ))
+Phase: generated37472
+Input: Token
+Rule: generated37472
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn37472 --> :pttrn37472.extracted={}
+

@@ -1,0 +1,8 @@
+Support Vector Machines
+(NP (NNP ){1,2}(NNPS ))
+Phase: generated116841
+Input: Token
+Rule: generated116841
+(
+(({ Token.category == NNP })+({ Token.category == NNPS }))):pttrn116841 --> :pttrn116841.extracted={}
+

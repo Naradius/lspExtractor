@@ -1,0 +1,8 @@
+as right participants of a relation.2.3
+(NP (NP (ADJP (RB )(JJ ))(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated77799
+Input: Token
+Rule: generated77799
+(
+(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn77799 --> :pttrn77799.extracted={}
+

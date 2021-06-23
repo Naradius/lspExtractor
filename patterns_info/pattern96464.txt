@@ -1,0 +1,8 @@
+ble sensibility --> sensible ...1427Step 3 With what is left, replace any suffix on the left with suffix on the right...icate ic fabricate --> fabric ative -- combativ --> comb alize al nationalize --> nationaliciti icical ic tropical --> tropicful -- faithful --> faithiveness ive inventiveness --> inventiveness -- harness --> har 28Step 4 Remove remaining standard suffixesal, ance, ence, er, ic, able, ible, ant, ement, ment, ent, sion, tion, ou, ism, ate, iti, ous, ive, ize, ise1529Step 5 Remove trailing e if word does not end in a vowel hinge --> hing free --> free30Porter Summary Con many words with different meanings have common stems  a lot of stems are not words1631Dictionary based approaches  Using dictionaries to ensure that the generated stem is a valid word
+(NP (NP (JJ )(NN ))(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated96464
+Input: Token
+Rule: generated96464
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn96464 --> :pttrn96464.extracted={}
+

@@ -1,0 +1,8 @@
+abbreviated with PI. 2Definition 3.7 Let gg :=  be a graph grammar
+(VP (VBN )(PP (IN )(NP (NNP )(CD ){1,2}(JJ )(FW ){1,2}))(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated103270
+Input: Token
+Rule: generated103270
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == JJ })({ Token.category == FW })+))(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn103270 --> :pttrn103270.extracted={}
+

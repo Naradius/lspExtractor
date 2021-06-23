@@ -1,0 +1,8 @@
+store the routing information in transit nodes
+(VP (VB )(NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(NNS ))))
+Phase: generated2062
+Input: Token
+Rule: generated2062
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn2062 --> :pttrn2062.extracted={}
+

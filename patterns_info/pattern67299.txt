@@ -1,0 +1,8 @@
+s  a  1  c  s  a  a  wCommand Language
+(VP (VBZ )(NP (NP (DT )(ADJP (CD )(JJ ))(NNS ))(CC )(NP (DT )(NN ){1,2})))
+Phase: generated67299
+Input: Token
+Rule: generated67299
+(
+(({ Token.category == VBZ })((({ Token.category == DT })(({ Token.category == CD })({ Token.category == JJ }))({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn67299 --> :pttrn67299.extracted={}
+

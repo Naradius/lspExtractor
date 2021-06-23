@@ -1,0 +1,8 @@
+particular,homogeneous data collected by IoT networks
+(NP (NP (JJ ){1,2}(NNS ))(VP (VBN )(PP (IN )(NP (NNP )(NNS )))))
+Phase: generated31056
+Input: Token
+Rule: generated31056
+(
+((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))):pttrn31056 --> :pttrn31056.extracted={}
+

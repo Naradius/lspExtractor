@@ -1,0 +1,8 @@
+The protocol stack of a WINS networkconsists of the application layer, network layer,MAC layer, and physical layer.
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NP (NNP )(NNS ))(PP (IN )(NP (NP (DT )(NN ){1,2})(NP (NN ){1,2}(NNP )(NN ))(CC )(NP (JJ )(NN )))))))
+Phase: generated48317
+Input: Token
+Rule: generated48317
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn48317 --> :pttrn48317.extracted={}
+

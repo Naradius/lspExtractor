@@ -1,0 +1,8 @@
+the whole paragraphs of questions and answers
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NNS )(CC )(NNS ))))
+Phase: generated113828
+Input: Token
+Rule: generated113828
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))):pttrn113828 --> :pttrn113828.extracted={}
+

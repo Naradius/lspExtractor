@@ -1,0 +1,8 @@
+2 or more text spans
+(NP (CD )(CC )(JJR )(NN )(NNS ))
+Phase: generated118118
+Input: Token
+Rule: generated118118
+(
+(({ Token.category == CD })({ Token.category == CC })({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))):pttrn118118 --> :pttrn118118.extracted={}
+

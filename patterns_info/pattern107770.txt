@@ -1,0 +1,8 @@
+the MANET topological structure, which have been denoted as ni and nj
+(NP (NP (DT )(NNP )(JJ )(NN ))(VP (VBP )(VP (VBN )(VP (VBN )(PP (IN )(NP (NNS )(CC )(NN )))))))
+Phase: generated107770
+Input: Token
+Rule: generated107770
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })))))))):pttrn107770 --> :pttrn107770.extracted={}
+

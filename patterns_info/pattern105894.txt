@@ -1,0 +1,8 @@
+on the corpus.10CRF++
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated105894
+Input: Token
+Rule: generated105894
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn105894 --> :pttrn105894.extracted={}
+

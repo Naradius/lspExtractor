@@ -1,0 +1,8 @@
+isgenerated and based upon some predefined threshold each nodebroadcast its own id and its residual energy
+(VP (CC )(VP (VBN )(PP (IN )(NP (DT )(VBN )(NN ))))(NP (DT )(NN ))(NP (NP (PRP$ )(JJ )(NN ))(CC )(NP (PRP$ )(JJ )(NN ))))
+Phase: generated53083
+Input: Token
+Rule: generated53083
+(
+(({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))(({ Token.category == DT })({ Token.category == NN }))((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))):pttrn53083 --> :pttrn53083.extracted={}
+

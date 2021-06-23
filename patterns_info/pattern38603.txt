@@ -1,0 +1,8 @@
+M. Habib ur Rehman, A. Batool, K. Salah, The rise of proximal mobile edge servers, IT Professional 21   2632.
+(NP (NP (NN )(NNP ))(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NN )(NNS )))))
+Phase: generated38603
+Input: Token
+Rule: generated38603
+(
+((({ Token.category == NN })({ Token.category == NNP }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })))))):pttrn38603 --> :pttrn38603.extracted={}
+

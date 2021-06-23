@@ -1,0 +1,8 @@
+19th international conference onComputational linguistics, pages 17.
+(NP (NP (JJ ){1,2}(NN )(JJ )(NNS ))(NP (NNS )(CD )))
+Phase: generated101414
+Input: Token
+Rule: generated101414
+(
+((({ Token.category == JJ })+({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == NNS })({ Token.category == CD })))):pttrn101414 --> :pttrn101414.extracted={}
+

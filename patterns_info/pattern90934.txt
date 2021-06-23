@@ -1,0 +1,8 @@
+completes the lexical part of the tagging
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated90934
+Input: Token
+Rule: generated90934
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn90934 --> :pttrn90934.extracted={}
+

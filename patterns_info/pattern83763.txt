@@ -1,0 +1,8 @@
+to learn a four-slot rule for this domain if instances areselected at random.4.0.1
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))(IN )))
+Phase: generated83763
+Input: Token
+Rule: generated83763
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == IN })))):pttrn83763 --> :pttrn83763.extracted={}
+

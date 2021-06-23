@@ -1,0 +1,8 @@
+sculpted the Statue of DavidTable 1: Syntactic constituents identified by the parser for two input questions.2
+(VP (VBD )(NP (NP (NP (DT )(NNP ))(PP (IN )(NP (NNP )(CD ))))(NP (NP (JJ )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (CD )(NN )(NNS )))))))
+Phase: generated98997
+Input: Token
+Rule: generated98997
+(
+(({ Token.category == VBD })(((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn98997 --> :pttrn98997.extracted={}
+

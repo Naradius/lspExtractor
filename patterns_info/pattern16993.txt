@@ -1,0 +1,8 @@
+DISC, Amsterdam, The Netherlands, Oct. 2004,pp.
+(NP (NP (DT )(NNP ))(NP (NNP )(CD )(NN )))
+Phase: generated16993
+Input: Token
+Rule: generated16993
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN })))):pttrn16993 --> :pttrn16993.extracted={}
+

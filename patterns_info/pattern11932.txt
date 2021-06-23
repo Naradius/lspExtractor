@@ -1,0 +1,8 @@
+better lifetime
+(NP (JJR )(NN ))
+Phase: generated11932
+Input: Token
+Rule: generated11932
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn11932 --> :pttrn11932.extracted={}
+

@@ -1,0 +1,8 @@
+considering the route table
+(VP (VBG )(NP (DT )(NN ){1,2}))
+Phase: generated11459
+Input: Token
+Rule: generated11459
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))):pttrn11459 --> :pttrn11459.extracted={}
+

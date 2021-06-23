@@ -1,0 +1,8 @@
+each round.It guarantees
+(NP (DT )(JJ )(NNS ))
+Phase: generated2853
+Input: Token
+Rule: generated2853
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn2853 --> :pttrn2853.extracted={}
+

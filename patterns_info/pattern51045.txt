@@ -1,0 +1,8 @@
+reducethe latency since it reduces traffic, thus improving delays.However
+(VP (VB )(IN ))
+Phase: generated51045
+Input: Token
+Rule: generated51045
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn51045 --> :pttrn51045.extracted={}
+

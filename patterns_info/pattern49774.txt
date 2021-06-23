@@ -1,0 +1,8 @@
+toll boothsand lanes
+(NP (NN ){1,2}(NNS ))
+Phase: generated49774
+Input: Token
+Rule: generated49774
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn49774 --> :pttrn49774.extracted={}
+

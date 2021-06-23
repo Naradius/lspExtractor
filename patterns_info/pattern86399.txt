@@ -1,0 +1,8 @@
+providing emotional support, and offering per-sonalized information
+(VP (VP (VBG )(NP (JJ )(NN )))(CC )(VP (VBG )(NP (JJ )(NN ))))
+Phase: generated86399
+Input: Token
+Rule: generated86399
+(
+((({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn86399 --> :pttrn86399.extracted={}
+

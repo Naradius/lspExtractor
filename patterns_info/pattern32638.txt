@@ -1,0 +1,8 @@
+their own QoSdemands
+(NP (PRP$ )(JJ )(NNS ))
+Phase: generated32638
+Input: Token
+Rule: generated32638
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))):pttrn32638 --> :pttrn32638.extracted={}
+

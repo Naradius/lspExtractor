@@ -1,0 +1,8 @@
+bythe entity placeholders
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated77830
+Input: Token
+Rule: generated77830
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn77830 --> :pttrn77830.extracted={}
+

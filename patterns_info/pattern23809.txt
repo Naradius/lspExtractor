@@ -1,0 +1,8 @@
+caused due to IoT communication
+(VP (VBD )(ADJP (JJ )(PP (TO )(NP (NNP )(NN )))))
+Phase: generated23809
+Input: Token
+Rule: generated23809
+(
+(({ Token.category == VBD })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn23809 --> :pttrn23809.extracted={}
+

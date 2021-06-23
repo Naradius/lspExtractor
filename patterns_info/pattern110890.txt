@@ -1,0 +1,8 @@
+0 37.5 packets/s p
+(NP (CD ){1,2}(NN ){1,2})
+Phase: generated110890
+Input: Token
+Rule: generated110890
+(
+(({ Token.category == CD })+({ Token.category == NN })+)):pttrn110890 --> :pttrn110890.extracted={}
+

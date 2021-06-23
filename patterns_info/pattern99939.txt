@@ -1,0 +1,8 @@
+is then used to fill the missingelements of the weak pattern
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))))
+Phase: generated99939
+Input: Token
+Rule: generated99939
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn99939 --> :pttrn99939.extracted={}
+

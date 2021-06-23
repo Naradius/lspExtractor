@@ -1,0 +1,8 @@
+the network lifeime
+(NP (DT )(NN ){1,2})
+Phase: generated58833
+Input: Token
+Rule: generated58833
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn58833 --> :pttrn58833.extracted={}
+

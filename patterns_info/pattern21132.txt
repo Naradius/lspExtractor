@@ -1,0 +1,8 @@
+D2D communication
+(NP (NNP )(NN ))
+Phase: generated21132
+Input: Token
+Rule: generated21132
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn21132 --> :pttrn21132.extracted={}
+

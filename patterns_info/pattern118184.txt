@@ -1,0 +1,8 @@
+UsedVPOnce rhetoric relation in one text
+(NP (NP (NNP )(NN ){1,2})(PP (IN )(NP (CD )(NN ))))
+Phase: generated118184
+Input: Token
+Rule: generated118184
+(
+((({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn118184 --> :pttrn118184.extracted={}
+

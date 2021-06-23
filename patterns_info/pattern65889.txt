@@ -1,0 +1,8 @@
+prevent the high-mobility noden order to discover the routes
+(VP (VB )(NP (DT )(NN )(JJ )(NN ))(VP (TO )(VP (VB )(NP (DT )(NNS )))))
+Phase: generated65889
+Input: Token
+Rule: generated65889
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn65889 --> :pttrn65889.extracted={}
+

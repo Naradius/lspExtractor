@@ -1,0 +1,8 @@
+the IoT nodes in the LLNe.g., power, memory, and bandwidth
+(NP (NP (DT )(NNP )(NNS ))(PP (IN )(NP (NP (DT )(NNP ))(CC ))))
+Phase: generated25672
+Input: Token
+Rule: generated25672
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC }))))):pttrn25672 --> :pttrn25672.extracted={}
+

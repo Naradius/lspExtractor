@@ -1,0 +1,8 @@
+require the definition of comprehensive metricsand their maintenance in each node which induces supple-mentary control message exchange
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))(NP (PRP$ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (JJ )(NN ){1,2})))))
+Phase: generated51962
+Input: Token
+Rule: generated51962
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn51962 --> :pttrn51962.extracted={}
+

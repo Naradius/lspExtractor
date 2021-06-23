@@ -1,0 +1,8 @@
+tutorial dialogue
+(NP (JJ )(NN ))
+Phase: generated101299
+Input: Token
+Rule: generated101299
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn101299 --> :pttrn101299.extracted={}
+

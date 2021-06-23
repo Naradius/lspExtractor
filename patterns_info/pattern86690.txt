@@ -1,0 +1,8 @@
+Rj = maxi Tij ; Sj = arg maxi Tijis the class which we assign to the jth word
+(NP (NP (NNP )(SYM )(NN )(NNP ))(NP (NP (NNP )(SYM )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ))(VP (VBP )(PP (TO )(NP (DT )(JJ )(NN ))))))))
+Phase: generated86690
+Input: Token
+Rule: generated86690
+(
+((({ Token.category == NNP })({ Token.category == SYM })({ Token.category == NN })({ Token.category == NNP }))((({ Token.category == NNP })({ Token.category == SYM })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn86690 --> :pttrn86690.extracted={}
+

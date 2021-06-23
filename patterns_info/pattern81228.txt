@@ -1,0 +1,8 @@
+learns the exact delimiters of the target phrase
+(VP (VBZ )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated81228
+Input: Token
+Rule: generated81228
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn81228 --> :pttrn81228.extracted={}
+

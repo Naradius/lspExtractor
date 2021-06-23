@@ -1,0 +1,8 @@
+*  BR * $Output:: RentalWhenever the pattern of the extraction rulematches a sentence, the syntactical elements thatare enclosed by round brackets
+(NP (NP (NP (JJ )(NN ))(PP (IN )(NP ($ )(NN ))))(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(NNS ))))(NP (DT )(NN )))))
+Phase: generated92272
+Input: Token
+Rule: generated92272
+(
+(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == $ })({ Token.category == NN }))))(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == DT })({ Token.category == NN })))))):pttrn92272 --> :pttrn92272.extracted={}
+

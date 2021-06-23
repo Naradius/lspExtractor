@@ -1,0 +1,8 @@
+learn personal names from orthographic features, where WHISK must rely onprior semantic tagging of person names and RAPIER relies on part-of-speech tagsthat distinguish common nouns from proper nouns.WHISK's regular expression rules require it to specify a relative ordering of terms,with wildcards that allows zero or more intervening terms
+(VP (VB )(NP (JJ )(NNS )))
+Phase: generated80007
+Input: Token
+Rule: generated80007
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn80007 --> :pttrn80007.extracted={}
+

@@ -1,0 +1,8 @@
+the cloud computing systems to realize the issues data storage                                           Fig. 1
+(NP (NP (DT )(NN ))(VP (VBG )(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(NP (NNS )(NN )(NNP ){1,2}(CD )))))))
+Phase: generated66097
+Input: Token
+Rule: generated66097
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CD })))))))):pttrn66097 --> :pttrn66097.extracted={}
+

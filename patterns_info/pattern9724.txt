@@ -1,0 +1,8 @@
+keep-ing minimal distance between nodes and their CH.
+(VP (VBG )(NP (NP (JJ )(NN ))(PP (IN )(NP (CC )(NP (PRP$ )(NNP ))))))
+Phase: generated9724
+Input: Token
+Rule: generated9724
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NNP }))))))):pttrn9724 --> :pttrn9724.extracted={}
+

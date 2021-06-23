@@ -1,0 +1,8 @@
+could not obtain this similarity expression by using sentence-level generalization .Green clouds at indicate the sub-PTs of  T1 and T2 which are matched
+(VP (MD )(RB )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated114349
+Input: Token
+Rule: generated114349
+(
+(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn114349 --> :pttrn114349.extracted={}
+

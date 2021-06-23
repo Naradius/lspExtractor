@@ -1,0 +1,8 @@
+the longest lifetime with all nodes remainingfully functional
+(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(ADJP (RB )(JJ )))))
+Phase: generated5279
+Input: Token
+Rule: generated5279
+(
+((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == RB })({ Token.category == JJ })))))):pttrn5279 --> :pttrn5279.extracted={}
+

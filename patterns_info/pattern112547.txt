@@ -1,0 +1,8 @@
+strengthen its defense against ever-changing security threats
+(VP (VB )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated112547
+Input: Token
+Rule: generated112547
+(
+(({ Token.category == VB })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn112547 --> :pttrn112547.extracted={}
+

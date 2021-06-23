@@ -1,0 +1,8 @@
+an onboardlaser diode
+(NP (DT )(NN ){1,2})
+Phase: generated47692
+Input: Token
+Rule: generated47692
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn47692 --> :pttrn47692.extracted={}
+

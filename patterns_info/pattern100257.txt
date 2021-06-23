@@ -1,0 +1,8 @@
+occurrencesof certain information in the information sources, which depends on several factors, like the char-acteristics of the used information sources and the actuality/notoriety of the entities and/or eventsin the question
+(VP (VBG )(NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(VP (VBZ )(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(VBN )(NN )(NNS ))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(CC )(RB )(NP (DT )(NN )))))))))))))))
+Phase: generated100257
+Input: Token
+Rule: generated100257
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })({ Token.category == RB })(({ Token.category == DT })({ Token.category == NN })))))))))))))))):pttrn100257 --> :pttrn100257.extracted={}
+

@@ -1,0 +1,8 @@
+the many ambiguities
+(NP (DT )(JJ )(NNS ))
+Phase: generated72054
+Input: Token
+Rule: generated72054
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn72054 --> :pttrn72054.extracted={}
+

@@ -1,0 +1,8 @@
+a reality
+(NP (DT )(NN ))
+Phase: generated101595
+Input: Token
+Rule: generated101595
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn101595 --> :pttrn101595.extracted={}
+

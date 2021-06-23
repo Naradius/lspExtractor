@@ -1,0 +1,8 @@
+electedand clusters
+(NP (JJ )(NNS ))
+Phase: generated3303
+Input: Token
+Rule: generated3303
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn3303 --> :pttrn3303.extracted={}
+

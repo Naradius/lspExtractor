@@ -1,0 +1,6 @@
+Phase: generated1407
+Input: Token
+Rule: generated1407
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))))))):pttrn1407 --> :pttrn1407.extracted={}
+

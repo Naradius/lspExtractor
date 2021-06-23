@@ -1,0 +1,8 @@
+from caller interactions withcommercial automated agents
+(PP (IN )(NP (NP (NN )(NNS ))(NP (VBN )(NNS ))))
+Phase: generated86309
+Input: Token
+Rule: generated86309
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })({ Token.category == NNS }))))):pttrn86309 --> :pttrn86309.extracted={}
+

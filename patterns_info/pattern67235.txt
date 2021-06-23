@@ -1,0 +1,8 @@
+a different set of complex key shares forulti-path channel communication through sensor nodes
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ ){1,2}(NNS )(NN ){1,2}))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated67235
+Input: Token
+Rule: generated67235
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn67235 --> :pttrn67235.extracted={}
+

@@ -1,0 +1,8 @@
+is a major concern in IoT infrastructures due to its di-ect impact on the communications of the existing embedded de-ices
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NNP )(NNS ))(ADJP (JJ )(PP (TO )(NP (NP (PRP$ )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(VBG )(VBN )(NNS ))))))))))))
+Phase: generated28806
+Input: Token
+Rule: generated28806
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == VBN })({ Token.category == NNS }))))))))))))):pttrn28806 --> :pttrn28806.extracted={}
+

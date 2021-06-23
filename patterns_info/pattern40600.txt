@@ -1,0 +1,8 @@
+routing protocols.2.2
+(VP (VBG )(NP (NNS )(CD )))
+Phase: generated40600
+Input: Token
+Rule: generated40600
+(
+(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == CD })))):pttrn40600 --> :pttrn40600.extracted={}
+

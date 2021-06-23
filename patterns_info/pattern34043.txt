@@ -1,0 +1,8 @@
+the PhysicalSciences 2010;5:211826
+(NP (DT )(NNP )(CD ){1,2})
+Phase: generated34043
+Input: Token
+Rule: generated34043
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CD })+)):pttrn34043 --> :pttrn34043.extracted={}
+

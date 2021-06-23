@@ -1,0 +1,8 @@
+packet types
+(NP (NN )(NNS ))
+Phase: generated14080
+Input: Token
+Rule: generated14080
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn14080 --> :pttrn14080.extracted={}
+

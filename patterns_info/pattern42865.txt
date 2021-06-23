@@ -1,0 +1,8 @@
+to the per-Fig
+(PP (TO )(NP (DT )(JJ )))
+Phase: generated42865
+Input: Token
+Rule: generated42865
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })))):pttrn42865 --> :pttrn42865.extracted={}
+

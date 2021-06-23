@@ -1,0 +1,8 @@
+give theformal specifications of our language
+(VP (VBP )(NP (NP (JJ )(NNS ))(PP (IN )(NP (PRP$ )(NN )))))
+Phase: generated95217
+Input: Token
+Rule: generated95217
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))))):pttrn95217 --> :pttrn95217.extracted={}
+

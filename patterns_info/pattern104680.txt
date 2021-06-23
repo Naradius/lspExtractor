@@ -1,0 +1,8 @@
+pi002 PPI
+(NP (NN )(NNP ))
+Phase: generated104680
+Input: Token
+Rule: generated104680
+(
+(({ Token.category == NN })({ Token.category == NNP }))):pttrn104680 --> :pttrn104680.extracted={}
+

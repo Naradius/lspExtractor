@@ -1,0 +1,8 @@
+monitor andcontrol the temperature in the smart building
+(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated29869
+Input: Token
+Rule: generated29869
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn29869 --> :pttrn29869.extracted={}
+

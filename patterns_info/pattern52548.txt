@@ -1,0 +1,8 @@
+are not limited to, life-crit-ical healthcare surveillance, large-scale precision agricul-ture, security-oriented industrial process monitoring andnation-wide smart grid systems
+(VP (VBP )(RB )(ADJP (VBN )(VP (TO )(NP (NP (JJ )(NN ){1,2}){1,2}(NP (NP (JJ ){1,2}(NN ))(VP (VBG )(NP (JJ ){1,2}(NN )(NNS ))))))))
+Phase: generated52548
+Input: Token
+Rule: generated52548
+(
+(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NN })+)+((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn52548 --> :pttrn52548.extracted={}
+

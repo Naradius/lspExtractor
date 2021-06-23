@@ -1,0 +1,8 @@
+to compare the results with the focus of the current paper, paragraph-sized question against a paragraph-sized answer .In this section we demonstrate that pair-wise sentence generalization approach lacking discourse features can be outperformed by PT approach
+(VP (TO )(VP (VB )(NP (DT )(NNS ))))
+Phase: generated114906
+Input: Token
+Rule: generated114906
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn114906 --> :pttrn114906.extracted={}
+

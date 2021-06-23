@@ -1,0 +1,8 @@
+start time 99%
+(VP (VB )(NP (CD )(NN )))
+Phase: generated84898
+Input: Token
+Rule: generated84898
+(
+(({ Token.category == VB })(({ Token.category == CD })({ Token.category == NN })))):pttrn84898 --> :pttrn84898.extracted={}
+

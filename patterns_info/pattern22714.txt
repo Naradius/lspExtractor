@@ -1,0 +1,8 @@
+individual SD pairs
+(NP (JJ )(NNP )(NNS ))
+Phase: generated22714
+Input: Token
+Rule: generated22714
+(
+(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))):pttrn22714 --> :pttrn22714.extracted={}
+

@@ -1,0 +1,8 @@
+update the routes
+(VP (VB )(NP (DT )(NNS )))
+Phase: generated66912
+Input: Token
+Rule: generated66912
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))):pttrn66912 --> :pttrn66912.extracted={}
+

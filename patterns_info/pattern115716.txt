@@ -1,0 +1,8 @@
+question answering systems
+(NP (NN )(VBG )(NNS ))
+Phase: generated115716
+Input: Token
+Rule: generated115716
+(
+(({ Token.category == NN })({ Token.category == VBG })({ Token.category == NNS }))):pttrn115716 --> :pttrn115716.extracted={}
+

@@ -1,0 +1,8 @@
+a precision of ap-proximately 80% and a recall of 70%
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (QP (RB )(CD ))(NN ))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NN )))))))
+Phase: generated94631
+Input: Token
+Rule: generated94631
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))))))):pttrn94631 --> :pttrn94631.extracted={}
+

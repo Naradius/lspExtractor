@@ -1,0 +1,8 @@
+a user's need for information
+(NP (NP (DT )(NN )(POS ))(NN ))
+Phase: generated98266
+Input: Token
+Rule: generated98266
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))({ Token.category == NN }))):pttrn98266 --> :pttrn98266.extracted={}
+

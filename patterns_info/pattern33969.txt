@@ -1,0 +1,8 @@
+the traditionalAODV algorithm
+(NP (DT )(NN ){1,2})
+Phase: generated33969
+Input: Token
+Rule: generated33969
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn33969 --> :pttrn33969.extracted={}
+

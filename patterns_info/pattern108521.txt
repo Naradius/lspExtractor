@@ -1,0 +1,8 @@
+reduce the transmission time of the routing protocol
+(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated108521
+Input: Token
+Rule: generated108521
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn108521 --> :pttrn108521.extracted={}
+

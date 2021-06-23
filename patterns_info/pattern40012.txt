@@ -1,0 +1,8 @@
+is its ability to protect against multi-stage attacks
+(VP (VBZ )(NP (PRP$ )(NN )(VP (TO )(VP (VB )(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated40012
+Input: Token
+Rule: generated40012
+(
+(({ Token.category == VBZ })(({ Token.category == PRP$ })({ Token.category == NN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn40012 --> :pttrn40012.extracted={}
+

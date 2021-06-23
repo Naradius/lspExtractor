@@ -1,0 +1,8 @@
+collect the data objects
+(VP (VB )(NP (DT )(NNS ){1,2}))
+Phase: generated85147
+Input: Token
+Rule: generated85147
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })+))):pttrn85147 --> :pttrn85147.extracted={}
+

@@ -1,0 +1,8 @@
+using the mathematical model of fractional calcula-tion with lion algorithm
+(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated107462
+Input: Token
+Rule: generated107462
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn107462 --> :pttrn107462.extracted={}
+

@@ -1,0 +1,8 @@
+The chart for how generalization of parse thickets supports search relevance
+(NP (NP (DT )(NN ))(PP (IN )(WHADVP (WRB ))))
+Phase: generated117845
+Input: Token
+Rule: generated117845
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == WRB }))))):pttrn117845 --> :pttrn117845.extracted={}
+

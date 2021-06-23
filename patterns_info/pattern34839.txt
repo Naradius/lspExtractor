@@ -1,0 +1,8 @@
+the approval systemfor privacy data
+(NP (DT )(NN ){1,2}(NNS ))
+Phase: generated34839
+Input: Token
+Rule: generated34839
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))):pttrn34839 --> :pttrn34839.extracted={}
+

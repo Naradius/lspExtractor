@@ -1,0 +1,8 @@
+of the sites
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated1644
+Input: Token
+Rule: generated1644
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn1644 --> :pttrn1644.extracted={}
+

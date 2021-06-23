@@ -1,0 +1,8 @@
+in computer science and software engineering worldwide
+(PP (IN )(NP (NN ){1,2}(CC )(NN ){1,2}))
+Phase: generated20073
+Input: Token
+Rule: generated20073
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+))):pttrn20073 --> :pttrn20073.extracted={}
+

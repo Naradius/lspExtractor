@@ -1,0 +1,8 @@
+tagged.This instance
+(NP (DT )(NN ))
+Phase: generated82908
+Input: Token
+Rule: generated82908
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn82908 --> :pttrn82908.extracted={}
+

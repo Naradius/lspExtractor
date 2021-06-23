@@ -1,0 +1,8 @@
+the overhead of managing these clusterswill outweighs their benefit
+(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (DT )(NN )(NNS ))(NP (PRP$ )(NN )))))
+Phase: generated8395
+Input: Token
+Rule: generated8395
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == PRP$ })({ Token.category == NN })))))):pttrn8395 --> :pttrn8395.extracted={}
+

@@ -1,0 +1,8 @@
+cer-tain critical nodes
+(NP (JJ ){1,2}(NNS ))
+Phase: generated8787
+Input: Token
+Rule: generated8787
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn8787 --> :pttrn8787.extracted={}
+

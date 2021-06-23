@@ -1,0 +1,8 @@
+replacing a semantic classwith some of its children
+(VP (VBG )(NP (DT )(JJ )))
+Phase: generated80509
+Input: Token
+Rule: generated80509
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })))):pttrn80509 --> :pttrn80509.extracted={}
+

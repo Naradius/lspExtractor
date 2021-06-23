@@ -1,0 +1,8 @@
+The architectural organization
+(NP (DT )(JJ )(NN ))
+Phase: generated5509
+Input: Token
+Rule: generated5509
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn5509 --> :pttrn5509.extracted={}
+

@@ -1,0 +1,8 @@
+the VaNetLayerimplemented
+(NP (DT )(NNP ))
+Phase: generated16812
+Input: Token
+Rule: generated16812
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn16812 --> :pttrn16812.extracted={}
+

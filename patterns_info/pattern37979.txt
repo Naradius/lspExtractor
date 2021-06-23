@@ -1,0 +1,8 @@
+the confidence value produced by the corre-lation agent
+(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated37979
+Input: Token
+Rule: generated37979
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn37979 --> :pttrn37979.extracted={}
+

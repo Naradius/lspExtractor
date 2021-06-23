@@ -1,0 +1,8 @@
+signal jamming,9] but only until recent years
+(VP (VBP )(VP (VBG )(PP (RP )(CC )(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated109833
+Input: Token
+Rule: generated109833
+(
+(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == RP })({ Token.category == CC })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn109833 --> :pttrn109833.extracted={}
+

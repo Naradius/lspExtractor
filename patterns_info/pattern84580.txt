@@ -1,0 +1,8 @@
+the BigBook directoryThe delimiters around the rst slot
+(NP (NP (DT )(NNP )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated84580
+Input: Token
+Rule: generated84580
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn84580 --> :pttrn84580.extracted={}
+

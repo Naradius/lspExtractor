@@ -1,0 +1,8 @@
+has been a building block for number of emerging domains such as smart cities, smart industries andsmart homes
+(VP (VBZ )(VP (VBN )(NP (DT )(NN ){1,2})))
+Phase: generated38856
+Input: Token
+Rule: generated38856
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn38856 --> :pttrn38856.extracted={}
+

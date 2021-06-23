@@ -1,0 +1,8 @@
+be re-placed by its right-hand side
+(VP (VB )(VP (VBN )(PP (IN )(NP (PRP$ )(JJ )(NN )))))
+Phase: generated102229
+Input: Token
+Rule: generated102229
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))))):pttrn102229 --> :pttrn102229.extracted={}
+

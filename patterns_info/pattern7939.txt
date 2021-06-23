@@ -1,0 +1,8 @@
+enable a comprehen-sive study, the effects of both routing and MAC
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN )(CC )(NNP ))))))
+Phase: generated7939
+Input: Token
+Rule: generated7939
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNP }))))))):pttrn7939 --> :pttrn7939.extracted={}
+

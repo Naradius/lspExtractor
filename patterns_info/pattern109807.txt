@@ -1,0 +1,8 @@
+to ensure the safety of the systemy also taking into account the mobility of the network, variousossible attacks and the risk of attacks from within the network
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(NP (JJ )(NNS ))(CC )))))))
+Phase: generated109807
+Input: Token
+Rule: generated109807
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })))))))):pttrn109807 --> :pttrn109807.extracted={}
+

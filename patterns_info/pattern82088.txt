@@ -1,0 +1,8 @@
+requireprior syntactic analysis
+(VP (VB )(NP (JJ )(NN )))
+Phase: generated82088
+Input: Token
+Rule: generated82088
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))):pttrn82088 --> :pttrn82088.extracted={}
+

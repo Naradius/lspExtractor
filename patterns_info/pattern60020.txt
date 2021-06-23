@@ -1,0 +1,8 @@
+high variation
+(NP (JJ )(NN ))
+Phase: generated60020
+Input: Token
+Rule: generated60020
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn60020 --> :pttrn60020.extracted={}
+

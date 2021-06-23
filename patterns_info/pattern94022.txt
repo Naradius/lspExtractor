@@ -1,0 +1,8 @@
+evaluate the average time it takes forthe F1 measures to become equal to or higher than0.5
+(VP (VBP )(NP (NP (NP (DT )(JJ )(NN ))(VP (VBZ )(NP (DT )(JJ )(NNS ))))(CC )(NP (JJR )(CD ))))
+Phase: generated94022
+Input: Token
+Rule: generated94022
+(
+(({ Token.category == VBP })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == JJR })({ Token.category == CD }))))):pttrn94022 --> :pttrn94022.extracted={}
+

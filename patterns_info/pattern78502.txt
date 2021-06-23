@@ -1,0 +1,8 @@
+one source text corresponds to a single case frame, soextracting isolated slots
+(NP (NP (NP (CD )(NN ){1,2}(NNS ))(PP (TO )(NP (DT )(JJ )(NN ){1,2})))(VP (VBG )(NP (VBN )(NNS ))))
+Phase: generated78502
+Input: Token
+Rule: generated78502
+(
+(((({ Token.category == CD })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))(({ Token.category == VBG })(({ Token.category == VBN })({ Token.category == NNS }))))):pttrn78502 --> :pttrn78502.extracted={}
+

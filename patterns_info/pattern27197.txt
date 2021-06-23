@@ -1,0 +1,8 @@
+to frequent control packet emis-ions
+(PP (TO )(NP (JJ )(NN ){1,2}(NNS )))
+Phase: generated27197
+Input: Token
+Rule: generated27197
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn27197 --> :pttrn27197.extracted={}
+

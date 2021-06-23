@@ -1,0 +1,8 @@
+using the concept of Trust designs in which CH estab-lishes multi-path with the other CHs which are acting as routers.LEACH-TM has active trust transmission mechanism
+(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP )(NNS ))(NP (WDT )(NNS ))))))
+Phase: generated55554
+Input: Token
+Rule: generated55554
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == WDT })({ Token.category == NNS }))))))):pttrn55554 --> :pttrn55554.extracted={}
+

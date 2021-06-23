@@ -1,0 +1,8 @@
+is 100 andhe number of nodes in cluster 1 is 10 then the cluster head degreef node 1 is 0.1
+(VP (VBZ )(VP (VBZ )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(CD ))))))
+Phase: generated59294
+Input: Token
+Rule: generated59294
+(
+(({ Token.category == VBZ })(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))))):pttrn59294 --> :pttrn59294.extracted={}
+

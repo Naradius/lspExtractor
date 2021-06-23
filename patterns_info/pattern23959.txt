@@ -1,0 +1,8 @@
+is applied onthe IoT devices
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NNP )(NNS )))))
+Phase: generated23959
+Input: Token
+Rule: generated23959
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))):pttrn23959 --> :pttrn23959.extracted={}
+

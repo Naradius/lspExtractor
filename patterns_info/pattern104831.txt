@@ -1,0 +1,8 @@
+in the large class of grammarsit accepts
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated104831
+Input: Token
+Rule: generated104831
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn104831 --> :pttrn104831.extracted={}
+

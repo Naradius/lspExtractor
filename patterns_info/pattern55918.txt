@@ -1,0 +1,8 @@
+was developed to cover the specified circular shaped areawith N SNs and then provide the guarantee of network connectiv-ity based on the lower bound network connectivity probability.Authors assume that the SNs are distributed in a circle-shapedregion uniformly
+(VP (VBD )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(JJ ){1,2})(VP (CC )(VP (VBP )(VP (VBP )(IN )))))))))
+Phase: generated55918
+Input: Token
+Rule: generated55918
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })+)(({ Token.category == CC })(({ Token.category == VBP })(({ Token.category == VBP })({ Token.category == IN })))))))))):pttrn55918 --> :pttrn55918.extracted={}
+

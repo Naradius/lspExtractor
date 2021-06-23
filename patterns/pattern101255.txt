@@ -1,0 +1,6 @@
+Phase: generated101255
+Input: Token
+Rule: generated101255
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn101255 --> :pttrn101255.extracted={}
+

@@ -1,0 +1,8 @@
+5respect to consumption of computational resources as compared with anomaly based detection
+(VP (VBP )(PP (IN )(PP (VBN )(PP (IN )(NP (DT )(VBN )(NN ))))))
+Phase: generated39697
+Input: Token
+Rule: generated39697
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))))):pttrn39697 --> :pttrn39697.extracted={}
+

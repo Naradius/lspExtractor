@@ -1,0 +1,8 @@
+V = "", W = "",  AreConcordant    V  W  ,   ,   true,   V = ""   false
+(NP (NP (NNP )(SYM )(JJ )(NN ))(NP (NP (NNP )(SYM )(VBN ))(ADJP (RB )(JJ ))))
+Phase: generated75749
+Input: Token
+Rule: generated75749
+(
+((({ Token.category == NNP })({ Token.category == SYM })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == NNP })({ Token.category == SYM })({ Token.category == VBN }))(({ Token.category == RB })({ Token.category == JJ }))))):pttrn75749 --> :pttrn75749.extracted={}
+

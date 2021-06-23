@@ -1,0 +1,8 @@
+from the root  .Machine learning
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated61972
+Input: Token
+Rule: generated61972
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn61972 --> :pttrn61972.extracted={}
+

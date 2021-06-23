@@ -1,0 +1,8 @@
+have an arbitrary number of incident edges
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated104915
+Input: Token
+Rule: generated104915
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn104915 --> :pttrn104915.extracted={}
+

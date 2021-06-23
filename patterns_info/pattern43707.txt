@@ -1,0 +1,8 @@
+licensed and unlicensed spectrum
+(NP (ADJP (JJ )(CC )(JJ ))(NN ))
+Phase: generated43707
+Input: Token
+Rule: generated43707
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN }))):pttrn43707 --> :pttrn43707.extracted={}
+

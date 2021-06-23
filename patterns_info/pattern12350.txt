@@ -1,0 +1,8 @@
+optimal for smaller networks
+(ADJP (JJ )(PP (IN )(NP (JJR )(NNS ))))
+Phase: generated12350
+Input: Token
+Rule: generated12350
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NNS }))))):pttrn12350 --> :pttrn12350.extracted={}
+

@@ -1,0 +1,8 @@
+\anchored" with non-wildcard terms.WHISK
+(VP (VBN )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated83111
+Input: Token
+Rule: generated83111
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn83111 --> :pttrn83111.extracted={}
+

@@ -1,0 +1,8 @@
+wecan take  as a pessimistic estimation of VN unavailability forthe VaNetLayerp = p1
+(VP (MD )(VP (VB )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NNP )(NN ))(PP (IN )(NP (NNP )(SYM )(FW )))))))))
+Phase: generated15342
+Input: Token
+Rule: generated15342
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == SYM })({ Token.category == FW })))))))))):pttrn15342 --> :pttrn15342.extracted={}
+

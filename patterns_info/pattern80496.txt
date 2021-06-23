@@ -1,0 +1,8 @@
+orspecialized to avoid a negative instance.38PALKA's
+(VP (VBD )(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ){1,2}(POS )))))
+Phase: generated80496
+Input: Token
+Rule: generated80496
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == POS })))))):pttrn80496 --> :pttrn80496.extracted={}
+

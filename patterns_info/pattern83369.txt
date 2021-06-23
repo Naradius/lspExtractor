@@ -1,0 +1,8 @@
+as a singleterm or as multiple terms
+(PP (PP (IN )(NP (DT )(NN )))(CC )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated83369
+Input: Token
+Rule: generated83369
+(
+((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn83369 --> :pttrn83369.extracted={}
+

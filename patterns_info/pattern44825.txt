@@ -1,0 +1,8 @@
+performing phase changes
+(VP (VBG )(NP (NN )(NNS )))
+Phase: generated44825
+Input: Token
+Rule: generated44825
+(
+(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS })))):pttrn44825 --> :pttrn44825.extracted={}
+

@@ -1,0 +1,8 @@
+may be an accident alert
+(VP (MD )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated572
+Input: Token
+Rule: generated572
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn572 --> :pttrn572.extracted={}
+

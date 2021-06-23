@@ -1,0 +1,8 @@
+each domain and query/answer complexity
+(NP (DT )(NN )(CC )(NN ){1,2})
+Phase: generated115493
+Input: Token
+Rule: generated115493
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)):pttrn115493 --> :pttrn115493.extracted={}
+

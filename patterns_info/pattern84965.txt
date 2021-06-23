@@ -1,0 +1,8 @@
+enhances the performance of English text document clustering
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN ){1,2}))))
+Phase: generated84965
+Input: Token
+Rule: generated84965
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+))))):pttrn84965 --> :pttrn84965.extracted={}
+

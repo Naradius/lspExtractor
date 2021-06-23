@@ -1,0 +1,8 @@
+selecting the subject, predicate, andobject in the text and annotate them with the cor-responding ontology concepts.5
+(VP (CC )(VP (VB )(PP (IN )(NP (DT )(JJ )(NN )(NNS )))))
+Phase: generated93735
+Input: Token
+Rule: generated93735
+(
+(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn93735 --> :pttrn93735.extracted={}
+

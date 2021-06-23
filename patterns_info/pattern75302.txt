@@ -1,0 +1,8 @@
+thethree MedHelp forums
+(NP (DT )(NNP )(NNS ))
+Phase: generated75302
+Input: Token
+Rule: generated75302
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn75302 --> :pttrn75302.extracted={}
+

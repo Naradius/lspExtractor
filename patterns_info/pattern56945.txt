@@ -1,0 +1,8 @@
+losing any sensing data
+(VP (VBG )(NP (DT )(NN )(NNS )))
+Phase: generated56945
+Input: Token
+Rule: generated56945
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn56945 --> :pttrn56945.extracted={}
+

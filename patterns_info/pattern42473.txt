@@ -1,0 +1,8 @@
+neededto make a successful delivery
+(VP (MD )(VP (VB )(NP (DT )(JJ )(NN ))))
+Phase: generated42473
+Input: Token
+Rule: generated42473
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn42473 --> :pttrn42473.extracted={}
+

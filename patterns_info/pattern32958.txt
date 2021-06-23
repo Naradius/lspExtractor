@@ -1,0 +1,8 @@
+the first row corre-sponds
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated32958
+Input: Token
+Rule: generated32958
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn32958 --> :pttrn32958.extracted={}
+

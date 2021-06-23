@@ -1,0 +1,8 @@
+the geographic routing
+(NP (DT )(JJ )(NN ))
+Phase: generated493
+Input: Token
+Rule: generated493
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn493 --> :pttrn493.extracted={}
+

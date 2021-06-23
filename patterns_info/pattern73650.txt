@@ -1,0 +1,8 @@
+the humanlanguage technology conference/North American chapter of the association forcomputational linguistics .Propbank
+(NP (NP (DT )(NN ){1,2}(JJ ){1,2}(NN ))(PP (IN )(NP (DT )(NN )(JJ )(NNS )(NN ))))
+Phase: generated73650
+Input: Token
+Rule: generated73650
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))))):pttrn73650 --> :pttrn73650.extracted={}
+

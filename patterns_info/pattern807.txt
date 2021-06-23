@@ -1,0 +1,8 @@
+highly mobile Ad Hoc networks
+(NP (ADJP (RB )(JJ ))(NNP ){1,2}(NNS ))
+Phase: generated807
+Input: Token
+Rule: generated807
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNP })+({ Token.category == NNS }))):pttrn807 --> :pttrn807.extracted={}
+

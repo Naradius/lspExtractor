@@ -1,0 +1,8 @@
+a flat routing approach
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated5341
+Input: Token
+Rule: generated5341
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn5341 --> :pttrn5341.extracted={}
+

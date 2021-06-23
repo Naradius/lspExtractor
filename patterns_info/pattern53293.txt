@@ -1,0 +1,8 @@
+selected as a CH and after 1= p1  rounds the samenode will become CH again if Rop= 1p rmod 1=p , where R isthe randomly generated number.2.1.2
+(VP (VBN )(PP (PP (IN )(NP (DT )(NNP )))(CC )(IN )(NP (NP (JJ )(NN )(NNS ))(NP (DT )(NN )))))
+Phase: generated53293
+Input: Token
+Rule: generated53293
+(
+(({ Token.category == VBN })((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))({ Token.category == CC })({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })))))):pttrn53293 --> :pttrn53293.extracted={}
+

@@ -1,0 +1,8 @@
+with a background on DTN routing protocols
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN )(NNS )))))
+Phase: generated40538
+Input: Token
+Rule: generated40538
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))))):pttrn40538 --> :pttrn40538.extracted={}
+

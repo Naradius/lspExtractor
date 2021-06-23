@@ -1,0 +1,8 @@
+received considerable attention amongpractitioners and researchers
+(VP (VBN )(NP (NP (JJ )(NN )(NNS ))(CC )))
+Phase: generated63569
+Input: Token
+Rule: generated63569
+(
+(({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })))):pttrn63569 --> :pttrn63569.extracted={}
+

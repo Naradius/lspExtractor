@@ -1,0 +1,8 @@
+introduced parse thicket representation
+(VP (VBD )(NP (JJ )(NN ){1,2}))
+Phase: generated116526
+Input: Token
+Rule: generated116526
+(
+(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn116526 --> :pttrn116526.extracted={}
+

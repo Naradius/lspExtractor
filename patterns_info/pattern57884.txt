@@ -1,0 +1,8 @@
+A power-saving data storage scheme
+(NP (DT )(JJ )(NNS )(NN ){1,2})
+Phase: generated57884
+Input: Token
+Rule: generated57884
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })+)):pttrn57884 --> :pttrn57884.extracted={}
+

@@ -1,0 +1,8 @@
+of the data	4.3
+(PP (IN )(NP (DT )(NNS )(CD )))
+Phase: generated61578
+Input: Token
+Rule: generated61578
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CD })))):pttrn61578 --> :pttrn61578.extracted={}
+

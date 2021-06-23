@@ -1,0 +1,8 @@
+is a need to identify separately each of a set of homonyms.Parmenides Technical Report TR-U4.3.1 33  =>\  / ;With the knowledge-base
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated90064
+Input: Token
+Rule: generated90064
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn90064 --> :pttrn90064.extracted={}
+

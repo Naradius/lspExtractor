@@ -1,0 +1,8 @@
+based on both position and clusters
+(VP (VBN )(PP (IN )(NP (DT )(NN )(CC )(NNS ))))
+Phase: generated770
+Input: Token
+Rule: generated770
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))))):pttrn770 --> :pttrn770.extracted={}
+

@@ -1,0 +1,8 @@
+within a specified ZOR
+(PP (IN )(NP (DT )(VBN )(NN )))
+Phase: generated584
+Input: Token
+Rule: generated584
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))):pttrn584 --> :pttrn584.extracted={}
+

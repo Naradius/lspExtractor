@@ -1,0 +1,8 @@
+are generally known as context frame rules
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NN ){1,2}(NNS )))))
+Phase: generated97740
+Input: Token
+Rule: generated97740
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))))):pttrn97740 --> :pttrn97740.extracted={}
+

@@ -1,0 +1,8 @@
+one side
+(NP (CD )(NN ))
+Phase: generated13877
+Input: Token
+Rule: generated13877
+(
+(({ Token.category == CD })({ Token.category == NN }))):pttrn13877 --> :pttrn13877.extracted={}
+

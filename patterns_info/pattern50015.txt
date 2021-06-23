@@ -1,0 +1,8 @@
+supervise a building or a tunnel.2.5
+(VP (VB )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN )(CD ))))
+Phase: generated50015
+Input: Token
+Rule: generated50015
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CD }))))):pttrn50015 --> :pttrn50015.extracted={}
+

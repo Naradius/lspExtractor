@@ -1,0 +1,8 @@
+to be one and only one correct slot ller pertext
+(VP (TO )(VP (VB )(NP (CC )(NP (RB )(CD )(JJ )(NN ){1,2}))))
+Phase: generated79759
+Input: Token
+Rule: generated79759
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == CC })(({ Token.category == RB })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn79759 --> :pttrn79759.extracted={}
+

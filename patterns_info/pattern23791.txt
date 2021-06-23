@@ -1,0 +1,8 @@
+Multiple links between the devices
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated23791
+Input: Token
+Rule: generated23791
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn23791 --> :pttrn23791.extracted={}
+

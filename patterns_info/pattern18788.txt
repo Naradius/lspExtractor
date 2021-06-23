@@ -1,0 +1,8 @@
+Compute Fitness Function  23
+(NP (NNP ){1,2}(CD ))
+Phase: generated18788
+Input: Token
+Rule: generated18788
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn18788 --> :pttrn18788.extracted={}
+

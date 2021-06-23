@@ -1,0 +1,8 @@
+manyapplication areas for sensor networks
+(NP (NP (NN )(NNS ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated48448
+Input: Token
+Rule: generated48448
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn48448 --> :pttrn48448.extracted={}
+

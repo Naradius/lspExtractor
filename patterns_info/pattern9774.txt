@@ -1,0 +1,8 @@
+the recognition of the wholenetwork topology, which may not be feasible in manycases
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))(VP (MD )(RB )))
+Phase: generated9774
+Input: Token
+Rule: generated9774
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == MD })({ Token.category == RB })))):pttrn9774 --> :pttrn9774.extracted={}
+

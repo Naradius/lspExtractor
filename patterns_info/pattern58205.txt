@@ -1,0 +1,8 @@
+select a particular proposal based upon its meritsover the others
+(VP (VB )(NP (NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (PRP$ )(NN )))))(NP (DT )(NNS ))))
+Phase: generated58205
+Input: Token
+Rule: generated58205
+(
+(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))))(({ Token.category == DT })({ Token.category == NNS }))))):pttrn58205 --> :pttrn58205.extracted={}
+

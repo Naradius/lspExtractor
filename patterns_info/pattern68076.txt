@@ -1,0 +1,8 @@
+a numberf international symposia and workshops
+(NP (DT )(NN )(JJ )(NN )(CC )(NNS ))
+Phase: generated68076
+Input: Token
+Rule: generated68076
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))):pttrn68076 --> :pttrn68076.extracted={}
+

@@ -1,0 +1,8 @@
+serve well, owing to the bettermanageability and control
+(VP (VBP )(VP (VBG )(PP (TO )(NP (DT )(NN )(CC )(NN )))))
+Phase: generated10873
+Input: Token
+Rule: generated10873
+(
+(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn10873 --> :pttrn10873.extracted={}
+

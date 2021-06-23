@@ -1,0 +1,8 @@
+the passive clusteringtechnique
+(NP (DT )(JJ )(NN ))
+Phase: generated16673
+Input: Token
+Rule: generated16673
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn16673 --> :pttrn16673.extracted={}
+

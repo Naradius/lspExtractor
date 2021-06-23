@@ -1,0 +1,8 @@
+three phases
+(NP (CD )(NNS ))
+Phase: generated109362
+Input: Token
+Rule: generated109362
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn109362 --> :pttrn109362.extracted={}
+

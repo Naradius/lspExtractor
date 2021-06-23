@@ -1,0 +1,8 @@
+the communications
+(NP (DT )(NNS ))
+Phase: generated15765
+Input: Token
+Rule: generated15765
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn15765 --> :pttrn15765.extracted={}
+

@@ -1,0 +1,8 @@
+Step 2, different kinds of modelnd to, finally, tune the controller / observer
+(NP (NP (NNP )(CD ))(NP (NP (JJ )(NNS ))(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))))
+Phase: generated110243
+Input: Token
+Rule: generated110243
+(
+((({ Token.category == NNP })({ Token.category == CD }))((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn110243 --> :pttrn110243.extracted={}
+

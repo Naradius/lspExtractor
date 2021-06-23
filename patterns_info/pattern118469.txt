@@ -1,0 +1,8 @@
+the speech act theory
+(NP (DT )(NN ){1,2})
+Phase: generated118469
+Input: Token
+Rule: generated118469
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn118469 --> :pttrn118469.extracted={}
+

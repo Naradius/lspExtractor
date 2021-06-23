@@ -1,0 +1,8 @@
+is difficult to achieve 100% consistency andcorrectness for all nodes
+(VP (VBZ )(VP (TO )(VP (VB )(NP (CD )(NN ){1,2})(PP (IN )(NP (DT )(NNS ))))))
+Phase: generated36970
+Input: Token
+Rule: generated36970
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == CD })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn36970 --> :pttrn36970.extracted={}
+

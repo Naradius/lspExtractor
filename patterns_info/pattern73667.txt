@@ -1,0 +1,8 @@
+lexico-syntactic pattern matching
+(NP (JJ )(NN ){1,2})
+Phase: generated73667
+Input: Token
+Rule: generated73667
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn73667 --> :pttrn73667.extracted={}
+

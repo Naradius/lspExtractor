@@ -1,0 +1,8 @@
+Section 3.8.1,the
+(NP (NN )(CD ))
+Phase: generated44935
+Input: Token
+Rule: generated44935
+(
+(({ Token.category == NN })({ Token.category == CD }))):pttrn44935 --> :pttrn44935.extracted={}
+

@@ -1,0 +1,8 @@
+formobile wireless networks, Wireless Netw., vol. 1, no. 1, pp
+(PP (IN )(NP (NP (JJ )(NNS ))(NP (JJ )(NNP ))(NP (DT )(NNP )(CD ))))
+Phase: generated12513
+Input: Token
+Rule: generated12513
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CD }))))):pttrn12513 --> :pttrn12513.extracted={}
+

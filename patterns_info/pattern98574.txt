@@ -1,0 +1,8 @@
+is when two words with different stems are stemmed to the same root
+(VP (VBZ )(WHADVP (WRB )))
+Phase: generated98574
+Input: Token
+Rule: generated98574
+(
+(({ Token.category == VBZ })(({ Token.category == WRB })))):pttrn98574 --> :pttrn98574.extracted={}
+

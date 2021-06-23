@@ -1,0 +1,8 @@
+an effective expansion
+(NP (DT )(JJ )(NN ))
+Phase: generated1833
+Input: Token
+Rule: generated1833
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn1833 --> :pttrn1833.extracted={}
+

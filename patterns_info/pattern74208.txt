@@ -1,0 +1,8 @@
+Create patterns
+(NP (JJ )(NNS ))
+Phase: generated74208
+Input: Token
+Rule: generated74208
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn74208 --> :pttrn74208.extracted={}
+

@@ -1,0 +1,8 @@
+a worst-case processing
+(NP (DT )(NN ){1,2})
+Phase: generated7468
+Input: Token
+Rule: generated7468
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn7468 --> :pttrn7468.extracted={}
+

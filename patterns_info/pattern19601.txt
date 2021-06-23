@@ -1,0 +1,8 @@
+Login User performs
+(NP (NN ){1,2}(NNS ))
+Phase: generated19601
+Input: Token
+Rule: generated19601
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn19601 --> :pttrn19601.extracted={}
+

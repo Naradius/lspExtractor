@@ -1,0 +1,8 @@
+add a link to the PT.
+(VP (VB )(NP (DT )(NN ))(PP (TO )(NP (DT )(NNP ))))
+Phase: generated117936
+Input: Token
+Rule: generated117936
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn117936 --> :pttrn117936.extracted={}
+

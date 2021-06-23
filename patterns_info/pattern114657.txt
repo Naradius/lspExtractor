@@ -1,0 +1,8 @@
+a subject of our future work
+(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NN ))))
+Phase: generated114657
+Input: Token
+Rule: generated114657
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))):pttrn114657 --> :pttrn114657.extracted={}
+

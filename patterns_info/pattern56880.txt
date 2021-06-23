@@ -1,0 +1,8 @@
+in switched off mode.Important issue of this protocol
+(PP (IN )(VP (VBN )(PRT (RP ))(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated56880
+Input: Token
+Rule: generated56880
+(
+(({ Token.category == IN })(({ Token.category == VBN })(({ Token.category == RP }))((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn56880 --> :pttrn56880.extracted={}
+

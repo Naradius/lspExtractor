@@ -1,0 +1,8 @@
+the performance of the classifierapplied
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated72766
+Input: Token
+Rule: generated72766
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn72766 --> :pttrn72766.extracted={}
+

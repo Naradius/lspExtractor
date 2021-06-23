@@ -1,0 +1,8 @@
+may provide dif-ferent ETX values
+(VP (MD )(VP (VB )(NP (JJ )(NNP )(NNS ))))
+Phase: generated27802
+Input: Token
+Rule: generated27802
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))):pttrn27802 --> :pttrn27802.extracted={}
+

@@ -1,0 +1,8 @@
+real protocol stack
+(NP (JJ )(NN ){1,2})
+Phase: generated110599
+Input: Token
+Rule: generated110599
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn110599 --> :pttrn110599.extracted={}
+

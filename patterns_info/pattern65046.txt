@@ -1,0 +1,8 @@
+for object groupingproblems
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated65046
+Input: Token
+Rule: generated65046
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn65046 --> :pttrn65046.extracted={}
+

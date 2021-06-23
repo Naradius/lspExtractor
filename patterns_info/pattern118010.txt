@@ -1,0 +1,8 @@
+a case for my iPhone  Sentence 2  Sentence
+(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(NN )(NNP )(CD )(NN ))))
+Phase: generated118010
+Input: Token
+Rule: generated118010
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN }))))):pttrn118010 --> :pttrn118010.extracted={}
+

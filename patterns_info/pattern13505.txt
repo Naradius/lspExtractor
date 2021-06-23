@@ -1,0 +1,8 @@
+the T_LeaderRequest timer
+(NP (DT )(NN ){1,2})
+Phase: generated13505
+Input: Token
+Rule: generated13505
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn13505 --> :pttrn13505.extracted={}
+

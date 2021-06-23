@@ -1,0 +1,8 @@
+features an RDC protocol that keeps the radio on all the time whether there is active communication ornot
+(VP (VBZ )(NP (NP (DT )(NNP )(NN ))(VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (PDT )(DT )(NN ))))))
+Phase: generated37678
+Input: Token
+Rule: generated37678
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PDT })({ Token.category == DT })({ Token.category == NN }))))))):pttrn37678 --> :pttrn37678.extracted={}
+

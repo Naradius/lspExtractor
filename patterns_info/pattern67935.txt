@@ -1,0 +1,8 @@
+for wireless sensor networks, International Conference onCommunications and Mobile Computing, 2010
+(PP (IN )(NP (NP (JJ )(NN )(NNS ))(NP (NNP ){1,2}(NNS ))(CC )(NP (NNP ){1,2}(CD ))))
+Phase: generated67935
+Input: Token
+Rule: generated67935
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == CD }))))):pttrn67935 --> :pttrn67935.extracted={}
+

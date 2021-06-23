@@ -1,0 +1,8 @@
+Its left-hand side lhs := L and its right-hand side rhs := R
+(NP (NP (PRP$ )(JJ )(NN )(NNS ))(PP (IN )(NP (CC )(NP (PRP$ )(JJ )(NN ){1,2}(CC )(NN )))))
+Phase: generated102895
+Input: Token
+Rule: generated102895
+(
+((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })))))):pttrn102895 --> :pttrn102895.extracted={}
+

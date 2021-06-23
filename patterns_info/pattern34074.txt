@@ -1,0 +1,8 @@
+local computer networks
+(NP (JJ )(NN )(NNS ))
+Phase: generated34074
+Input: Token
+Rule: generated34074
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn34074 --> :pttrn34074.extracted={}
+

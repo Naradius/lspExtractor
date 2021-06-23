@@ -1,0 +1,8 @@
+.Regarding the optimisation of competing metrics, address joint routing, MAC and physical layer protocols forpower allocation in cooperative communication sensornetworks under a specified packet-error-rate
+(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (VBG )(NNS ))))(VP (VBG )(NP (NP (JJ )(NN ))(CC )(NP (JJ )(NN )(NNS )))))
+Phase: generated52223
+Input: Token
+Rule: generated52223
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS }))))(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn52223 --> :pttrn52223.extracted={}
+

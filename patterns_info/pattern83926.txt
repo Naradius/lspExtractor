@@ -1,0 +1,8 @@
+involving natural language
+(VP (VBG )(NP (JJ )(NN )))
+Phase: generated83926
+Input: Token
+Rule: generated83926
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })))):pttrn83926 --> :pttrn83926.extracted={}
+

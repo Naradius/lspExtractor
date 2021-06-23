@@ -1,0 +1,8 @@
+a number ofstudies proposing different methodologies for this purpose, forexample .However
+(NP (NP (DT )(NN )(NNS ))(VP (VBG )(NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(NP (JJ )(NNP ))))))
+Phase: generated72670
+Input: Token
+Rule: generated72670
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == NNP }))))))):pttrn72670 --> :pttrn72670.extracted={}
+

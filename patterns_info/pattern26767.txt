@@ -1,0 +1,8 @@
+could bexploited to distinguish paths with the same path cost values
+(VP (MD )(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(JJ )(NN ){1,2}(NNS )))))))
+Phase: generated26767
+Input: Token
+Rule: generated26767
+(
+(({ Token.category == MD })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))))))):pttrn26767 --> :pttrn26767.extracted={}
+

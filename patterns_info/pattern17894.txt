@@ -1,0 +1,8 @@
+a routing algorithm
+(NP (DT )(NN ){1,2})
+Phase: generated17894
+Input: Token
+Rule: generated17894
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn17894 --> :pttrn17894.extracted={}
+

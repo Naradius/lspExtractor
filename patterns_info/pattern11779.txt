@@ -1,0 +1,8 @@
+175 and the averagetime consumption of the packets for the existing approaches
+(NP (CC )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )(NNS )))))))
+Phase: generated11779
+Input: Token
+Rule: generated11779
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn11779 --> :pttrn11779.extracted={}
+

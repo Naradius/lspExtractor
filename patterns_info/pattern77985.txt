@@ -1,0 +1,8 @@
+on the confi-dence measure
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated77985
+Input: Token
+Rule: generated77985
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn77985 --> :pttrn77985.extracted={}
+

@@ -1,0 +1,8 @@
+fixed anchor nodes to receive packets from mo-ile nodes and forward them to their next hop
+(NP (NP (VBN )(NN )(NNS ))(VP (TO )(VP (VP (VB )(PP (IN )(NP (JJ )(NNS ))))(CC )(VP (JJ )(PP (TO )(NP (PRP$ )(JJ )(NN )))))))
+Phase: generated27395
+Input: Token
+Rule: generated27395
+(
+((({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn27395 --> :pttrn27395.extracted={}
+

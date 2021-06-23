@@ -1,0 +1,8 @@
+shows the comparison results of the both TOHIP and FL-TOHIP using the losing rate of the transmis-sion packets
+(VP (VBZ )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NP (DT )(NN ){1,2}(CC )(NN ))(VP (VBG )(NP (NP (DT )(VBG )(NN ))(PP (IN )(NP (DT )(NN )(NNS )))))))))
+Phase: generated109252
+Input: Token
+Rule: generated109252
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))))))):pttrn109252 --> :pttrn109252.extracted={}
+

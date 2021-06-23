@@ -1,0 +1,8 @@
+would be a very convenient tool for the definition of visual languages
+(VP (MD )(VP (VB )(NP (NP (DT )(ADJP (RB )(JJ ))(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated102525
+Input: Token
+Rule: generated102525
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn102525 --> :pttrn102525.extracted={}
+

@@ -1,0 +1,8 @@
+in ourlexical resources
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated105677
+Input: Token
+Rule: generated105677
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn105677 --> :pttrn105677.extracted={}
+

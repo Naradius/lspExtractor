@@ -1,0 +1,8 @@
+Increase = ( + R s )  R m here R f  is used to differentiate the type of the links inhe same DAG  by multiplying the influence of linkpecifications in computation of Rank Increase  .
+(NP (NP (NP (NNP )(SYM ))(PRN (-LRB- )(NP (CD )(NN )(NNS ))(-RRB- ))(NN ){1,2})(NP (RB )(NNP )(NN )))
+Phase: generated26507
+Input: Token
+Rule: generated26507
+(
+(((({ Token.category == NNP })({ Token.category == SYM }))(({ Token.category == -LRB- })(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == -RRB- }))({ Token.category == NN })+)(({ Token.category == RB })({ Token.category == NNP })({ Token.category == NN })))):pttrn26507 --> :pttrn26507.extracted={}
+

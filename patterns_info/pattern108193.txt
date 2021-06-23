@@ -1,0 +1,8 @@
+routing paths
+(NP (NN )(NNS ))
+Phase: generated108193
+Input: Token
+Rule: generated108193
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn108193 --> :pttrn108193.extracted={}
+

@@ -1,0 +1,8 @@
+The SemanticWeb
+(NP (DT )(NNP ))
+Phase: generated94734
+Input: Token
+Rule: generated94734
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn94734 --> :pttrn94734.extracted={}
+

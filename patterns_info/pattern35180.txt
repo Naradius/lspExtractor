@@ -1,0 +1,8 @@
+malicious blocks
+(NP (JJ )(NNS ))
+Phase: generated35180
+Input: Token
+Rule: generated35180
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn35180 --> :pttrn35180.extracted={}
+

@@ -1,0 +1,8 @@
+is delimited by \@S@S".These tags
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(NNS )))))
+Phase: generated82934
+Input: Token
+Rule: generated82934
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn82934 --> :pttrn82934.extracted={}
+

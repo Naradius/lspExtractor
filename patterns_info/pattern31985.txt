@@ -1,0 +1,8 @@
+:A ={ 1 if   Eti if node j = i 0 otherwisewhere E is the set of edge in the graph
+(NP (NP (NNP )(SYM ))(PRN (-LRB- )))
+Phase: generated31985
+Input: Token
+Rule: generated31985
+(
+((({ Token.category == NNP })({ Token.category == SYM }))(({ Token.category == -LRB- })))):pttrn31985 --> :pttrn31985.extracted={}
+

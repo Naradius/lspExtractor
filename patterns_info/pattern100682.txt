@@ -1,0 +1,8 @@
+better.167CURTO
+(NP (JJR )(NN ))
+Phase: generated100682
+Input: Token
+Rule: generated100682
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn100682 --> :pttrn100682.extracted={}
+

@@ -1,0 +1,8 @@
+the Rental Ad domain
+(NP (DT )(NNP ){1,2}(NN ))
+Phase: generated78645
+Input: Token
+Rule: generated78645
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))):pttrn78645 --> :pttrn78645.extracted={}
+

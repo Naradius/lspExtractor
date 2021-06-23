@@ -1,0 +1,8 @@
+have confirmed that the main assumptions of our studies are not difficult to satisfy
+(VP (VBP )(VP (VBN )(IN )))
+Phase: generated16836
+Input: Token
+Rule: generated16836
+(
+(({ Token.category == VBP })(({ Token.category == VBN })({ Token.category == IN })))):pttrn16836 --> :pttrn16836.extracted={}
+

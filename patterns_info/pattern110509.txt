@@ -1,0 +1,8 @@
+the perturbed variables  x
+(NP (DT )(JJ )(NNS )(NN ))
+Phase: generated110509
+Input: Token
+Rule: generated110509
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))):pttrn110509 --> :pttrn110509.extracted={}
+

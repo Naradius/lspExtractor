@@ -1,0 +1,8 @@
+5977.M. Constant
+(NP (DT )(NNP ))
+Phase: generated106155
+Input: Token
+Rule: generated106155
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn106155 --> :pttrn106155.extracted={}
+

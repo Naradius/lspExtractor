@@ -1,0 +1,8 @@
+exe-cuting a large-scale distant supervision approach  on CLUEWEB09, a corpus of over 500 millionweb pages, using the FREEBASE knowledge base.Contribution
+(VP (VBG )(VP (VBG )(NP (DT )(NNP )(NN ){1,2})))
+Phase: generated77618
+Input: Token
+Rule: generated77618
+(
+(({ Token.category == VBG })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))):pttrn77618 --> :pttrn77618.extracted={}
+

@@ -1,0 +1,8 @@
+IoT devices,nical Systems and Signal Processing
+(NP (NP (NNP )(NNS ))(NP (NP (JJ )(NNP ))(CC )))
+Phase: generated37924
+Input: Token
+Rule: generated37924
+(
+((({ Token.category == NNP })({ Token.category == NNS }))((({ Token.category == JJ })({ Token.category == NNP }))({ Token.category == CC })))):pttrn37924 --> :pttrn37924.extracted={}
+

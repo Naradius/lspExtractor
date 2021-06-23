@@ -1,0 +1,8 @@
+the need for location information protection
+(NP (DT )(NN ))
+Phase: generated36232
+Input: Token
+Rule: generated36232
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn36232 --> :pttrn36232.extracted={}
+

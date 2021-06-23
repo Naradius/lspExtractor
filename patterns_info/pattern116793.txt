@@ -1,0 +1,8 @@
+up to 12 string comparisons
+(NP (QP (IN )(TO )(CD ))(NN )(NNS ))
+Phase: generated116793
+Input: Token
+Rule: generated116793
+(
+((({ Token.category == IN })({ Token.category == TO })({ Token.category == CD }))({ Token.category == NN })({ Token.category == NNS }))):pttrn116793 --> :pttrn116793.extracted={}
+

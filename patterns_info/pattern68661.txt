@@ -1,0 +1,8 @@
+Reset the motion flag for all cats
+(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS )))))
+Phase: generated68661
+Input: Token
+Rule: generated68661
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn68661 --> :pttrn68661.extracted={}
+

@@ -1,0 +1,8 @@
+received significant attention overthe recent years
+(VP (VBN )(NP (JJ )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated38849
+Input: Token
+Rule: generated38849
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn38849 --> :pttrn38849.extracted={}
+

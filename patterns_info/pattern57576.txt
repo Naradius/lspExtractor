@@ -1,0 +1,8 @@
+can be applied but still there
+(VP (MD )(VP (VB )(CC )))
+Phase: generated57576
+Input: Token
+Rule: generated57576
+(
+(({ Token.category == MD })(({ Token.category == VB })({ Token.category == CC })))):pttrn57576 --> :pttrn57576.extracted={}
+

@@ -1,0 +1,8 @@
+existing ontologies
+(NP (VBG )(NNS ))
+Phase: generated92428
+Input: Token
+Rule: generated92428
+(
+(({ Token.category == VBG })({ Token.category == NNS }))):pttrn92428 --> :pttrn92428.extracted={}
+

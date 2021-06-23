@@ -1,0 +1,8 @@
+instanceswithout those semantic classes
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated78676
+Input: Token
+Rule: generated78676
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn78676 --> :pttrn78676.extracted={}
+

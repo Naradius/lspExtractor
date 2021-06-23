@@ -1,0 +1,8 @@
+received his M.E.
+(VP (VBD )(NP (PRP$ )(NNP )))
+Phase: generated60297
+Input: Token
+Rule: generated60297
+(
+(({ Token.category == VBD })(({ Token.category == PRP$ })({ Token.category == NNP })))):pttrn60297 --> :pttrn60297.extracted={}
+

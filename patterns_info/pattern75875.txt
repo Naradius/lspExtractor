@@ -1,0 +1,8 @@
+accessible fromfree-pal.appspot.com.Keywords
+(NP (JJ ){1,2}(NNS ))
+Phase: generated75875
+Input: Token
+Rule: generated75875
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn75875 --> :pttrn75875.extracted={}
+

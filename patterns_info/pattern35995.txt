@@ -1,0 +1,8 @@
+the anti-attack capability
+(NP (DT )(JJ )(NN ))
+Phase: generated35995
+Input: Token
+Rule: generated35995
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn35995 --> :pttrn35995.extracted={}
+

@@ -1,0 +1,8 @@
+daunted by building an expert system
+(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2}))))
+Phase: generated80998
+Input: Token
+Rule: generated80998
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn80998 --> :pttrn80998.extracted={}
+

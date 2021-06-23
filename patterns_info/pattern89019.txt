@@ -1,0 +1,8 @@
+considered partof the name
+(VP (VBN )(VP (VBG )(NP (DT )(NN ))))
+Phase: generated89019
+Input: Token
+Rule: generated89019
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))):pttrn89019 --> :pttrn89019.extracted={}
+

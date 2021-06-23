@@ -1,0 +1,8 @@
+determined by it for a word by finding out the probability that it occurs with the n previous tags, where the value of n is set to 1, 2 or 3 for practical purposes
+(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(VP (VBG )(PRT (RP ))(NP (DT )(NN ))(IN ))))
+Phase: generated97831
+Input: Token
+Rule: generated97831
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == RP }))(({ Token.category == DT })({ Token.category == NN }))({ Token.category == IN }))))):pttrn97831 --> :pttrn97831.extracted={}
+

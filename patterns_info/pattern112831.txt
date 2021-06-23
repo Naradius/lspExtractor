@@ -1,0 +1,8 @@
+of head-initial and head-final structures
+(PP (IN )(NP (ADJP (JJ )(CC )(JJ ))(NNS )))
+Phase: generated112831
+Input: Token
+Rule: generated112831
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS })))):pttrn112831 --> :pttrn112831.extracted={}
+

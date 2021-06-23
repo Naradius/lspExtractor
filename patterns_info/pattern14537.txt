@@ -1,0 +1,8 @@
+too manybackup
+(ADJP (RB )(JJ ))
+Phase: generated14537
+Input: Token
+Rule: generated14537
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn14537 --> :pttrn14537.extracted={}
+

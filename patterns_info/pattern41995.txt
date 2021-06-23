@@ -1,0 +1,8 @@
+by:i =iNk=1 k= iNNow
+(PP (IN )(NP (NNP ){1,2}(NN ){1,2}))
+Phase: generated41995
+Input: Token
+Rule: generated41995
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })+))):pttrn41995 --> :pttrn41995.extracted={}
+

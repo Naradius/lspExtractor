@@ -1,0 +1,8 @@
+% 3-4 word phrases
+(NP (NN )(CD )(NN )(NNS ))
+Phase: generated70331
+Input: Token
+Rule: generated70331
+(
+(({ Token.category == NN })({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn70331 --> :pttrn70331.extracted={}
+

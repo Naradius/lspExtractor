@@ -1,0 +1,8 @@
+applied: for a sampling window of 10 thou-and samples
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (CD )(NN )(NNS ))))))
+Phase: generated111899
+Input: Token
+Rule: generated111899
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn111899 --> :pttrn111899.extracted={}
+

@@ -1,0 +1,8 @@
+improve the communication amongthe CH and sink
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(CC )(NN )))))
+Phase: generated58730
+Input: Token
+Rule: generated58730
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })))))):pttrn58730 --> :pttrn58730.extracted={}
+

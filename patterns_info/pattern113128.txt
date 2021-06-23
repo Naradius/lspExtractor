@@ -1,0 +1,8 @@
+by the subsumption relation and the generalization score
+(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(NN ){1,2})))
+Phase: generated113128
+Input: Token
+Rule: generated113128
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn113128 --> :pttrn113128.extracted={}
+

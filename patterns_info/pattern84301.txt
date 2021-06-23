@@ -1,0 +1,8 @@
+match anextraction for the test instance
+(VP (VB )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated84301
+Input: Token
+Rule: generated84301
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn84301 --> :pttrn84301.extracted={}
+

@@ -1,0 +1,8 @@
+is aware of both the switch-ing delay between frequency bands and back-off delay within agiven frequency band
+(VP (VBZ )(ADJP (JJ )(PP (IN )(NP (DT )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(CC )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}))))))))))
+Phase: generated21837
+Input: Token
+Rule: generated21837
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))))))):pttrn21837 --> :pttrn21837.extracted={}
+

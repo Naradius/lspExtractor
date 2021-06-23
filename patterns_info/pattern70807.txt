@@ -1,0 +1,8 @@
+exist less general expressions are eliminated
+(VP (VBP )(NP (JJR )(JJ )(NNS )))
+Phase: generated70807
+Input: Token
+Rule: generated70807
+(
+(({ Token.category == VBP })(({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NNS })))):pttrn70807 --> :pttrn70807.extracted={}
+

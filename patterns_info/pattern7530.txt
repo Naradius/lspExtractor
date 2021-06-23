@@ -1,0 +1,8 @@
+the steady state phase
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated7530
+Input: Token
+Rule: generated7530
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn7530 --> :pttrn7530.extracted={}
+

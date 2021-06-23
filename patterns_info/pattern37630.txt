@@ -1,0 +1,8 @@
+the basic RPL rootfunctionalities.Another issue that usually rises when dealing with IoT
+(NP (NP (DT )(JJ )(NNP )(NN ){1,2})(VP (VBZ )(WHADVP (WRB ))))
+Phase: generated37630
+Input: Token
+Rule: generated37630
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == WRB }))))):pttrn37630 --> :pttrn37630.extracted={}
+

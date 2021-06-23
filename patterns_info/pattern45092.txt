@@ -1,0 +1,8 @@
+the BERwithout coding
+(NP (DT )(NN ){1,2})
+Phase: generated45092
+Input: Token
+Rule: generated45092
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn45092 --> :pttrn45092.extracted={}
+

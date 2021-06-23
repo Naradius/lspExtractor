@@ -1,0 +1,8 @@
+been a significant number ofstudies attempting to automatically retrieve knowledge using textmining approaches
+(VP (VBN )(NP (NP (DT )(JJ )(NN )(NNS ))(VP (VBG )(VP (TO )(VP (VB )(VP (VBG )(NP (NN )(NNS ))))))))
+Phase: generated71884
+Input: Token
+Rule: generated71884
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn71884 --> :pttrn71884.extracted={}
+

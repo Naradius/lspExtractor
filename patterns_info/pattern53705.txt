@@ -1,0 +1,8 @@
+treated asnormal nodes
+(VP (VBN )(NP (JJ )(NNS )))
+Phase: generated53705
+Input: Token
+Rule: generated53705
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn53705 --> :pttrn53705.extracted={}
+

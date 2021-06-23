@@ -1,0 +1,8 @@
+of the net users
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated1917
+Input: Token
+Rule: generated1917
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn1917 --> :pttrn1917.extracted={}
+

@@ -1,0 +1,8 @@
+yes noWHISK struct
+(NP (RB )(JJ )(NN ))
+Phase: generated82076
+Input: Token
+Rule: generated82076
+(
+(({ Token.category == RB })({ Token.category == JJ })({ Token.category == NN }))):pttrn82076 --> :pttrn82076.extracted={}
+

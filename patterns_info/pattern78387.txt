@@ -1,0 +1,8 @@
+the TREC 2007 Spam Track
+(NP (DT )(NNP )(CD )(NNP ){1,2})
+Phase: generated78387
+Input: Token
+Rule: generated78387
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })+)):pttrn78387 --> :pttrn78387.extracted={}
+

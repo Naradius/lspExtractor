@@ -1,0 +1,8 @@
+of temporary corpora
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated91364
+Input: Token
+Rule: generated91364
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn91364 --> :pttrn91364.extracted={}
+

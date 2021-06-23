@@ -1,0 +1,8 @@
+a gateway-based fog computing ar-chitecture
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated19672
+Input: Token
+Rule: generated19672
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn19672 --> :pttrn19672.extracted={}
+

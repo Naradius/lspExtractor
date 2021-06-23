@@ -1,0 +1,8 @@
+constrained optimization problems
+(NP (JJ )(NN )(NNS ))
+Phase: generated2612
+Input: Token
+Rule: generated2612
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn2612 --> :pttrn2612.extracted={}
+

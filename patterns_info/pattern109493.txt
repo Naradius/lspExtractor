@@ -1,0 +1,8 @@
+of the anomaly in theUAV network
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated109493
+Input: Token
+Rule: generated109493
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn109493 --> :pttrn109493.extracted={}
+

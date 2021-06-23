@@ -1,0 +1,8 @@
+with fuzzy rules for weight adjustment and hencehe network lifetime
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (CC )(NP (JJ )(NN ){1,2})))))
+Phase: generated60104
+Input: Token
+Rule: generated60104
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn60104 --> :pttrn60104.extracted={}
+

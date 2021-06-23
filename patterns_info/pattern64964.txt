@@ -1,0 +1,8 @@
+minimizing the total weightedcompletion time on a single machine under linear deterioration
+(VP (VBG )(NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN )))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated64964
+Input: Token
+Rule: generated64964
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn64964 --> :pttrn64964.extracted={}
+

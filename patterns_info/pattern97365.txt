@@ -1,0 +1,8 @@
+having suitable POS labels of Hindi text
+(VP (VBG )(NP (NP (JJ )(NNP )(NNS ))(PP (IN )(NP (NNP )(NN )))))
+Phase: generated97365
+Input: Token
+Rule: generated97365
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn97365 --> :pttrn97365.extracted={}
+

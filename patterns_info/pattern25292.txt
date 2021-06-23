@@ -1,0 +1,8 @@
+was standardized anddelivered to the public on march 2012 as an RFC6550
+(VP (VBD )(VP (VBN )(VP (VBN )(PP (TO )(NP (DT )(JJ )))(PP (IN )(NP (NP (NN )(CD ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated25292
+Input: Token
+Rule: generated25292
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn25292 --> :pttrn25292.extracted={}
+

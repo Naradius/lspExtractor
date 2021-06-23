@@ -1,0 +1,8 @@
+A phasechange
+(NP (DT )(NN ))
+Phase: generated44741
+Input: Token
+Rule: generated44741
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn44741 --> :pttrn44741.extracted={}
+

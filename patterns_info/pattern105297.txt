@@ -1,0 +1,8 @@
+The internal representations
+(NP (DT )(JJ )(NNS ))
+Phase: generated105297
+Input: Token
+Rule: generated105297
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn105297 --> :pttrn105297.extracted={}
+

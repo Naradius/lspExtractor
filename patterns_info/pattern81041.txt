@@ -1,0 +1,8 @@
+entries returned by a searchableweb page; or on-line postings about rentals, seminars, or jobs.IE systems
+(NP (CC )(NP (NP (JJ )(NNS ))(PP (IN )(NP (CC )(NP (NN )(NNS ))))))
+Phase: generated81041
+Input: Token
+Rule: generated81041
+(
+(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn81041 --> :pttrn81041.extracted={}
+

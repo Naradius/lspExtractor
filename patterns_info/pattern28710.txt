@@ -1,0 +1,8 @@
+Fig. 12 , similar to what we have had in the fixed-nodecenarios, in a topology with a constant number of nodes, reduc-ng the TI  would decrease the amountf control packet overhead
+(VP (VB )(NP (NP (DT )(CD ))(ADJP (JJ )(PP (TO )(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NNS )))))))))
+Phase: generated28710
+Input: Token
+Rule: generated28710
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == CD }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))))):pttrn28710 --> :pttrn28710.extracted={}
+

@@ -1,0 +1,8 @@
+a backoff factor consideringge factor
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated61222
+Input: Token
+Rule: generated61222
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn61222 --> :pttrn61222.extracted={}
+

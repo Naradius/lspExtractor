@@ -1,0 +1,8 @@
+transformation-based learning
+(NP (JJ )(NN ))
+Phase: generated106215
+Input: Token
+Rule: generated106215
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn106215 --> :pttrn106215.extracted={}
+

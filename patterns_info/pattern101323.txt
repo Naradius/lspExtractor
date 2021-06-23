@@ -1,0 +1,8 @@
+data-driven web questionanswering
+(NP (JJ )(NN ){1,2})
+Phase: generated101323
+Input: Token
+Rule: generated101323
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn101323 --> :pttrn101323.extracted={}
+

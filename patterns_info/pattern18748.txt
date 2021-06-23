@@ -1,0 +1,8 @@
+processed on that ss
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated18748
+Input: Token
+Rule: generated18748
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn18748 --> :pttrn18748.extracted={}
+

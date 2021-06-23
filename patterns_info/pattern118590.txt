@@ -1,0 +1,8 @@
+Given two logical terms
+(PP (VBN )(NP (CD )(JJ )(NNS )))
+Phase: generated118590
+Input: Token
+Rule: generated118590
+(
+(({ Token.category == VBN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))):pttrn118590 --> :pttrn118590.extracted={}
+

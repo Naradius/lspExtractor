@@ -1,0 +1,8 @@
+detect the presence of a leader of the re-gion
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated13564
+Input: Token
+Rule: generated13564
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn13564 --> :pttrn13564.extracted={}
+

@@ -1,0 +1,8 @@
+counter the usual problems of such meta-heuristics
+(VP (VB )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated5769
+Input: Token
+Rule: generated5769
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn5769 --> :pttrn5769.extracted={}
+

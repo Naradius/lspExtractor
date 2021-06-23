@@ -1,0 +1,8 @@
+of collaborative intrusion detection system
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated39685
+Input: Token
+Rule: generated39685
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn39685 --> :pttrn39685.extracted={}
+

@@ -1,0 +1,8 @@
+can improve precision for some domains andspeed up the algorithm, which takes time proportional to the number of featuresper instance.3.3
+(VP (MD )(VP (VB )(VP (VBD )(PRT (RP )))))
+Phase: generated83522
+Input: Token
+Rule: generated83522
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBD })(({ Token.category == RP })))))):pttrn83522 --> :pttrn83522.extracted={}
+

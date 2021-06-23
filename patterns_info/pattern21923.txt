@@ -1,0 +1,8 @@
+the ESC
+(NP (DT )(NNP ))
+Phase: generated21923
+Input: Token
+Rule: generated21923
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn21923 --> :pttrn21923.extracted={}
+

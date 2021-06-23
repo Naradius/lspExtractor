@@ -1,0 +1,8 @@
+gave an IoT approach that is used for timestimation in a round-trip, done with a backoff factor consideringge factor for retransmission timeouts
+(VP (VBD )(NP (NP (DT )(NNP )(NN ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (PP (IN )(NP (DT )(NN )))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ){1,2}))(PP (IN )(NP (NN )(NNS ))))))))))
+Phase: generated61234
+Input: Token
+Rule: generated61234
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))))):pttrn61234 --> :pttrn61234.extracted={}
+

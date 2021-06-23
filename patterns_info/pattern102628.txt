@@ -1,0 +1,8 @@
+well-known and therefore adequate
+(ADJP (CC )(ADJP (RB )(JJ )))
+Phase: generated102628
+Input: Token
+Rule: generated102628
+(
+(({ Token.category == CC })(({ Token.category == RB })({ Token.category == JJ })))):pttrn102628 --> :pttrn102628.extracted={}
+

@@ -1,0 +1,8 @@
+to classify thesurveyed protocols
+(VP (TO )(VP (VB )(NP (DT )(NNS ))))
+Phase: generated32475
+Input: Token
+Rule: generated32475
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn32475 --> :pttrn32475.extracted={}
+

@@ -1,0 +1,8 @@
+encrypted using Two fish algorithm using thehannel-dependent key shares, discussed in Section 4.8
+(VP (VBN )(VP (VBG )(NP (CD )(NN ){1,2})(VP (VBG )(NP (NP (JJ ){1,2}(NNS ))(VP (VBN )(PP (IN )(NP (NNP )(CD ))))))))
+Phase: generated67125
+Input: Token
+Rule: generated67125
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == CD })({ Token.category == NN })+)(({ Token.category == VBG })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))))))):pttrn67125 --> :pttrn67125.extracted={}
+

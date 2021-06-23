@@ -1,0 +1,8 @@
+a FANET
+(NP (DT )(NNP ))
+Phase: generated109754
+Input: Token
+Rule: generated109754
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn109754 --> :pttrn109754.extracted={}
+

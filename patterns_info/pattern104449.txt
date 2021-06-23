@@ -1,0 +1,8 @@
+excludes*:pi1excludes* pi2:,9 pi012 consequence*
+(NP (JJ )(NN ){1,2})
+Phase: generated104449
+Input: Token
+Rule: generated104449
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn104449 --> :pttrn104449.extracted={}
+

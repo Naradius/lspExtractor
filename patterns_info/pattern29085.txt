@@ -1,0 +1,8 @@
+amultivariate normal distribution
+(NP (JJ ){1,2}(NN ))
+Phase: generated29085
+Input: Token
+Rule: generated29085
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn29085 --> :pttrn29085.extracted={}
+

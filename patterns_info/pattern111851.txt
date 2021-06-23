@@ -1,0 +1,8 @@
+of the UAVs vital information
+(PP (IN )(NP (DT )(NNP )(JJ )(NN )))
+Phase: generated111851
+Input: Token
+Rule: generated111851
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })))):pttrn111851 --> :pttrn111851.extracted={}
+

@@ -1,0 +1,8 @@
+134 S.S. Gill, P. Garraghan and R. Buyya
+(NP (NP (CD )(NNP ){1,2})(CC ))
+Phase: generated19515
+Input: Token
+Rule: generated19515
+(
+((({ Token.category == CD })({ Token.category == NNP })+)({ Token.category == CC }))):pttrn19515 --> :pttrn19515.extracted={}
+

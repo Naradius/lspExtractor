@@ -1,0 +1,8 @@
+the upper bound
+(NP (DT )(JJ )(NN ))
+Phase: generated22334
+Input: Token
+Rule: generated22334
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn22334 --> :pttrn22334.extracted={}
+

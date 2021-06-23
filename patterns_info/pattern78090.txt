@@ -1,0 +1,8 @@
+the entailed relation.This
+(NP (DT )(JJ )(NNP ))
+Phase: generated78090
+Input: Token
+Rule: generated78090
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))):pttrn78090 --> :pttrn78090.extracted={}
+

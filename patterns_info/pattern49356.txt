@@ -1,0 +1,8 @@
+energy-conservation schemes
+(NP (NN )(NNS ))
+Phase: generated49356
+Input: Token
+Rule: generated49356
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn49356 --> :pttrn49356.extracted={}
+

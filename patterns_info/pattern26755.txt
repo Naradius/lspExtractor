@@ -1,0 +1,8 @@
+in the DIO
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated26755
+Input: Token
+Rule: generated26755
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn26755 --> :pttrn26755.extracted={}
+

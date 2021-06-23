@@ -1,0 +1,8 @@
+an exact JAPEcopy
+(NP (DT )(JJ )(NN ))
+Phase: generated94275
+Input: Token
+Rule: generated94275
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn94275 --> :pttrn94275.extracted={}
+

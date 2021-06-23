@@ -1,0 +1,8 @@
+the parsed ARG1s of the two fictitious substitutionsentences
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(CD )(JJ )(NNS ))))
+Phase: generated72948
+Input: Token
+Rule: generated72948
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn72948 --> :pttrn72948.extracted={}
+

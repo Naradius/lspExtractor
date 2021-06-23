@@ -1,0 +1,8 @@
+the depleted regionsare
+(NP (DT )(VBN )(NN ))
+Phase: generated15053
+Input: Token
+Rule: generated15053
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn15053 --> :pttrn15053.extracted={}
+

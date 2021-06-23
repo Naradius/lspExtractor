@@ -1,0 +1,8 @@
+ofthese basic text units
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated87458
+Input: Token
+Rule: generated87458
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn87458 --> :pttrn87458.extracted={}
+

@@ -1,0 +1,8 @@
+nodeAODVEEABRQoS- PSOAverage Residual Energy00.10.20.30.40.510.60.70.80.9Fig
+(NP (DT )(NNP ){1,2})
+Phase: generated33866
+Input: Token
+Rule: generated33866
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn33866 --> :pttrn33866.extracted={}
+

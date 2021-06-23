@@ -1,0 +1,8 @@
+ending positions in the shortest path
+(VP (VBG )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated76210
+Input: Token
+Rule: generated76210
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn76210 --> :pttrn76210.extracted={}
+

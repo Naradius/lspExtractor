@@ -1,0 +1,8 @@
+compare SpEED-IoTs end-to-enddata rate performance against SAMER and LinGO D2D routingschemes for scenarioswhenmultiple SDpairs require route assign-ment
+(VP (VBP )(NP (NP (NP (JJ ){1,2}(NN ){1,2})(PP (IN )(NP (NNP )(CC )(NNP ){1,2}(NNS ))))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated24088
+Input: Token
+Rule: generated24088
+(
+(({ Token.category == VBP })(((({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn24088 --> :pttrn24088.extracted={}
+

@@ -1,0 +1,8 @@
+to cover all MWU typesand to make it more homogeneous with our defini-tion of MWU.
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))(VP (TO )(VP (VB )(ADJP (RBR )(JJ ))))))
+Phase: generated106143
+Input: Token
+Rule: generated106143
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RBR })({ Token.category == JJ }))))))):pttrn106143 --> :pttrn106143.extracted={}
+

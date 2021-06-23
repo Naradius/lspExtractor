@@ -1,0 +1,8 @@
+compare linguistic structures beyond parse trees for individual sentences
+(VP (VB )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated117367
+Input: Token
+Rule: generated117367
+(
+(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn117367 --> :pttrn117367.extracted={}
+

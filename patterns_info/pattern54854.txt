@@ -1,0 +1,8 @@
+the sensors which have moredensity in the network otherwise they will wait till the beginningof the next round for data transmission to respective CHs
+(NP (NP (DT )(NNS ))(VP (VBP )(PP (IN )(NP (DT )(NN )))(VP (MD )(VP (VB )(PP (IN )(NP (DT )(NN )))(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NNS )(NN ))(PP (TO )(NP (JJ )(NNP ))))))))))
+Phase: generated54854
+Input: Token
+Rule: generated54854
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNP }))))))))))):pttrn54854 --> :pttrn54854.extracted={}
+

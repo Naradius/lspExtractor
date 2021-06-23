@@ -1,0 +1,8 @@
+a function for the energy
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated6997
+Input: Token
+Rule: generated6997
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn6997 --> :pttrn6997.extracted={}
+

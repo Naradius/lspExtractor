@@ -1,0 +1,8 @@
+for lower layer operations, such as routingas
+(PP (IN )(NP (NP (JJR )(NN )(NNS ))(PP (JJ )(IN ))))
+Phase: generated48558
+Input: Token
+Rule: generated48558
+(
+(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn48558 --> :pttrn48558.extracted={}
+

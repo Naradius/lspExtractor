@@ -1,0 +1,8 @@
+need tocorporate with a location finding system
+(VP (VBP )(PP (IN )(NP (DT )(NN )(VBG )(NN ))))
+Phase: generated47325
+Input: Token
+Rule: generated47325
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == VBG })({ Token.category == NN }))))):pttrn47325 --> :pttrn47325.extracted={}
+

@@ -1,0 +1,8 @@
+average.1
+(NP (JJ )(CD ))
+Phase: generated70028
+Input: Token
+Rule: generated70028
+(
+(({ Token.category == JJ })({ Token.category == CD }))):pttrn70028 --> :pttrn70028.extracted={}
+

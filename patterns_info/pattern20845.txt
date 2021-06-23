@@ -1,0 +1,8 @@
+the demand
+(NP (DT )(NN ))
+Phase: generated20845
+Input: Token
+Rule: generated20845
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn20845 --> :pttrn20845.extracted={}
+

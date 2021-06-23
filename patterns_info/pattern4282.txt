@@ -1,0 +1,8 @@
+suboptimally.Due
+(NP (RB )(JJ ))
+Phase: generated4282
+Input: Token
+Rule: generated4282
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn4282 --> :pttrn4282.extracted={}
+

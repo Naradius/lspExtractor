@@ -1,0 +1,8 @@
+graph G0 with G :=  and G0 :=  iff
+(VP (VB )(PP (IN )(NP (CC )(NP (NNP ){1,2}(NN )))))
+Phase: generated102948
+Input: Token
+Rule: generated102948
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == NN })))))):pttrn102948 --> :pttrn102948.extracted={}
+

@@ -1,0 +1,8 @@
+For two sets of thicket phrases
+(PP (IN )(NP (NP (CD )(NNS ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated117138
+Input: Token
+Rule: generated117138
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn117138 --> :pttrn117138.extracted={}
+

@@ -1,0 +1,8 @@
+using the shortest path
+(VP (VBG )(NP (DT )(NN ){1,2}))
+Phase: generated61700
+Input: Token
+Rule: generated61700
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))):pttrn61700 --> :pttrn61700.extracted={}
+

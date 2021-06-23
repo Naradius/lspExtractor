@@ -1,0 +1,8 @@
+a temper-ature similar
+(NP (DT )(JJ ){1,2})
+Phase: generated29295
+Input: Token
+Rule: generated29295
+(
+(({ Token.category == DT })({ Token.category == JJ })+)):pttrn29295 --> :pttrn29295.extracted={}
+

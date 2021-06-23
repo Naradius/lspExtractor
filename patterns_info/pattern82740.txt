@@ -1,0 +1,8 @@
+thiswould not have changed the discrimination power of the rule, since \@Passive" isonly found in verb elds.3
+(VP (MD )(RB )(VP (VB )(VP (VBN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))(IN ))))
+Phase: generated82740
+Input: Token
+Rule: generated82740
+(
+(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == IN }))))):pttrn82740 --> :pttrn82740.extracted={}
+

@@ -1,0 +1,8 @@
+secure monitors selectionor multiple channels, on-demand route maintenance
+(NP (NP (NN )(NNS ))(NP (JJ ){1,2}(NNS ))(CC ))
+Phase: generated66948
+Input: Token
+Rule: generated66948
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })+({ Token.category == NNS }))({ Token.category == CC }))):pttrn66948 --> :pttrn66948.extracted={}
+

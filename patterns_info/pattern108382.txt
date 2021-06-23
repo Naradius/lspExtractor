@@ -1,0 +1,8 @@
+is defined as an objective function that is used to summarize the performance of the given design solution according to the target
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(NN ){1,2})))(PP (VBG )(PP (TO )(NP (DT )(NN ))))))))))))
+Phase: generated108382
+Input: Token
+Rule: generated108382
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))))))))))):pttrn108382 --> :pttrn108382.extracted={}
+

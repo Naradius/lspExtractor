@@ -1,0 +1,8 @@
+about 3
+(QP (IN )(CD ))
+Phase: generated115276
+Input: Token
+Rule: generated115276
+(
+(({ Token.category == IN })({ Token.category == CD }))):pttrn115276 --> :pttrn115276.extracted={}
+

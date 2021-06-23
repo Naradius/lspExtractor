@@ -1,0 +1,8 @@
+avoiding nodeswith very low QoS  and energy reserves
+(VP (VBG )(NP (NP (DT )(ADJP (RB )(JJ ))(NNS ))(CC )(NP (NN )(NNS ))))
+Phase: generated44065
+Input: Token
+Rule: generated44065
+(
+(({ Token.category == VBG })((({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn44065 --> :pttrn44065.extracted={}
+

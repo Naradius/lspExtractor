@@ -1,0 +1,8 @@
+only 63
+(QP (RB )(CD ))
+Phase: generated73307
+Input: Token
+Rule: generated73307
+(
+(({ Token.category == RB })({ Token.category == CD }))):pttrn73307 --> :pttrn73307.extracted={}
+

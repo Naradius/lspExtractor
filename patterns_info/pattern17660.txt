@@ -1,0 +1,8 @@
+drop off
+(VP (VB )(PRT (RP )))
+Phase: generated17660
+Input: Token
+Rule: generated17660
+(
+(({ Token.category == VB })(({ Token.category == RP })))):pttrn17660 --> :pttrn17660.extracted={}
+

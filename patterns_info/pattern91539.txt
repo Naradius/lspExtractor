@@ -1,0 +1,8 @@
+the most frequent tag for the word in question considering alltexts
+(NP (NP (DT )(ADJP (RBS )(JJ ))(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(VBG )(NNS ))))))
+Phase: generated91539
+Input: Token
+Rule: generated91539
+(
+((({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == VBG })({ Token.category == NNS }))))))):pttrn91539 --> :pttrn91539.extracted={}
+

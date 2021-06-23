@@ -1,0 +1,8 @@
+satisfies the resource demandf request
+(VP (VBZ )(NP (DT )(NN ){1,2}))
+Phase: generated20838
+Input: Token
+Rule: generated20838
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))):pttrn20838 --> :pttrn20838.extracted={}
+

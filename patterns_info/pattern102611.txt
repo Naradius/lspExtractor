@@ -1,0 +1,8 @@
+for a process flow diagram3.1
+(PP (IN )(NP (DT )(NN ){1,2}(NNS )))
+Phase: generated102611
+Input: Token
+Rule: generated102611
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))):pttrn102611 --> :pttrn102611.extracted={}
+

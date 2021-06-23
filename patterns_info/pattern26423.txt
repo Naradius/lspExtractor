@@ -1,0 +1,8 @@
+are being frequently used in con-emporary IoT applications
+(VP (VBP )(VP (VBG )(VP (VBN )(PP (IN )(NP (JJ )(NNP )(NNS ))))))
+Phase: generated26423
+Input: Token
+Rule: generated26423
+(
+(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))))):pttrn26423 --> :pttrn26423.extracted={}
+

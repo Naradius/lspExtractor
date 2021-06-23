@@ -1,0 +1,8 @@
+use this strategy
+(VP (VB )(NP (DT )(NN )))
+Phase: generated40991
+Input: Token
+Rule: generated40991
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn40991 --> :pttrn40991.extracted={}
+

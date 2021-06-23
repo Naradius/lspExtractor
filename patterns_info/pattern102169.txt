@@ -1,0 +1,8 @@
+Themain drawbacks
+(NP (DT )(NNS ))
+Phase: generated102169
+Input: Token
+Rule: generated102169
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn102169 --> :pttrn102169.extracted={}
+

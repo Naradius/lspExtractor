@@ -1,0 +1,8 @@
+be an intermediate relay candidate
+(VP (VB )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated17593
+Input: Token
+Rule: generated17593
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn17593 --> :pttrn17593.extracted={}
+

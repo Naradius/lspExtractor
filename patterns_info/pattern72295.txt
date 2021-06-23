@@ -1,0 +1,8 @@
+event-based commonsense extrac-tion
+(NP (JJ )(NN ){1,2})
+Phase: generated72295
+Input: Token
+Rule: generated72295
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn72295 --> :pttrn72295.extracted={}
+

@@ -1,0 +1,8 @@
+generating, in this way, questions
+(VP (VBG )(PP (IN )(NP (DT )(NN ))))
+Phase: generated98720
+Input: Token
+Rule: generated98720
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn98720 --> :pttrn98720.extracted={}
+

@@ -1,0 +1,8 @@
+in this tree are of two main types
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (CD )(JJ )(NNS )))))
+Phase: generated93481
+Input: Token
+Rule: generated93481
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn93481 --> :pttrn93481.extracted={}
+

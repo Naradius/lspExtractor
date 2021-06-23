@@ -1,0 +1,8 @@
+The Netherlands.Learning Information Extraction Rulesfor Semi-structured
+(NP (DT )(NNP ){1,2})
+Phase: generated81452
+Input: Token
+Rule: generated81452
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn81452 --> :pttrn81452.extracted={}
+

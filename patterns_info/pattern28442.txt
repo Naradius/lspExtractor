@@ -1,0 +1,8 @@
+evaluate the behaviour of OF0 and OFFL
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(CC )(NNP )))))
+Phase: generated28442
+Input: Token
+Rule: generated28442
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == CC })({ Token.category == NNP })))))):pttrn28442 --> :pttrn28442.extracted={}
+

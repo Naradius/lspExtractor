@@ -1,0 +1,8 @@
+the cached route
+(NP (DT )(VBN )(NN ))
+Phase: generated22895
+Input: Token
+Rule: generated22895
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn22895 --> :pttrn22895.extracted={}
+

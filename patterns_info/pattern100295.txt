@@ -1,0 +1,8 @@
+of a question and the used informationsources to our pattern learning approach
+(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (NP (DT )(VBN )(NNS ))(PP (TO )(NP (PRP$ )(NN )(VBG )(NN ))))))
+Phase: generated100295
+Input: Token
+Rule: generated100295
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == VBG })({ Token.category == NN }))))))):pttrn100295 --> :pttrn100295.extracted={}
+

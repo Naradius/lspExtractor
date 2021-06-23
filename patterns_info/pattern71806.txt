@@ -1,0 +1,8 @@
+of the web document repositories
+(PP (IN )(NP (DT )(NN ){1,2}(NNS )))
+Phase: generated71806
+Input: Token
+Rule: generated71806
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))):pttrn71806 --> :pttrn71806.extracted={}
+

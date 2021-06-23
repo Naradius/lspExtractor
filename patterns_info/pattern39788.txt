@@ -1,0 +1,8 @@
+contributestowards this decision
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated39788
+Input: Token
+Rule: generated39788
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn39788 --> :pttrn39788.extracted={}
+

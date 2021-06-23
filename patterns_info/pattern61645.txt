@@ -1,0 +1,8 @@
+the source location privacy
+(NP (DT )(NN ){1,2})
+Phase: generated61645
+Input: Token
+Rule: generated61645
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn61645 --> :pttrn61645.extracted={}
+

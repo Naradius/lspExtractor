@@ -1,0 +1,8 @@
+on the distribution of the 29 questions generated with all filters re-garding their categories
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(CD )(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(VP (VBG )(NP (PRP$ )(NNS ))))))))))
+Phase: generated100506
+Input: Token
+Rule: generated100506
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NNS }))))))))))):pttrn100506 --> :pttrn100506.extracted={}
+

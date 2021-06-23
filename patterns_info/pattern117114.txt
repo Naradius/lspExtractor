@@ -1,0 +1,8 @@
+a grammar-driven convolution tree kernel
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated117114
+Input: Token
+Rule: generated117114
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn117114 --> :pttrn117114.extracted={}
+

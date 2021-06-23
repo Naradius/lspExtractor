@@ -1,0 +1,8 @@
+on the number of CHs  in its neighborhoodand its normalized residual energy
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (PP (IN )(NP (PRP$ )(NN )))(NP (PRP$ )(JJ ){1,2}(NN ))))))
+Phase: generated7391
+Input: Token
+Rule: generated7391
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NN }))))))):pttrn7391 --> :pttrn7391.extracted={}
+

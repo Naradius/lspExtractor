@@ -1,0 +1,8 @@
+determine the most likely tags for  unknown words,given the most likely tag for each word in a comparatively small set of words.The lexical learner module
+(VP (VB )(NP (DT )(ADJP (RBS )(JJ ))(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBN )(NP (NP (DT )(ADJP (RBS )(JJ ))(NN ))(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (NP (DT )(ADJP (RB )(JJ ))(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))))))
+Phase: generated91558
+Input: Token
+Rule: generated91558
+(
+(({ Token.category == VB })(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })((({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })((({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))))))):pttrn91558 --> :pttrn91558.extracted={}
+

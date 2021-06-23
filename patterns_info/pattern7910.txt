@@ -1,0 +1,8 @@
+:A ffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffiffi1ncXnci1mi  l2s16where mi
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated7910
+Input: Token
+Rule: generated7910
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn7910 --> :pttrn7910.extracted={}
+

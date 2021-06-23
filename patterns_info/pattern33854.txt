@@ -1,0 +1,8 @@
+be a constant
+(VP (VB )(NP (DT )(JJ )))
+Phase: generated33854
+Input: Token
+Rule: generated33854
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })))):pttrn33854 --> :pttrn33854.extracted={}
+

@@ -1,0 +1,8 @@
+a CH message isforced to become a CH.
+(NP (NP (DT )(NNP )(NN ))(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(NNP ))))))
+Phase: generated8704
+Input: Token
+Rule: generated8704
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP }))))))):pttrn8704 --> :pttrn8704.extracted={}
+

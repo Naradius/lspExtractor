@@ -1,0 +1,8 @@
+the involved questions/answers and multiple-choice tests
+(NP (NP (DT )(JJ )(NNS ))(CC )(NP (JJ )(NNS )))
+Phase: generated101667
+Input: Token
+Rule: generated101667
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn101667 --> :pttrn101667.extracted={}
+

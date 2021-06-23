@@ -1,0 +1,8 @@
+extracting common keywords
+(NP (JJ ){1,2}(NNS ))
+Phase: generated70742
+Input: Token
+Rule: generated70742
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn70742 --> :pttrn70742.extracted={}
+

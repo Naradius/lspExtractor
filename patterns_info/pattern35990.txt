@@ -1,0 +1,8 @@
+to correct the weight of the malicious node inthe overall report and node merging
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(CC ))))))))
+Phase: generated35990
+Input: Token
+Rule: generated35990
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))))))))):pttrn35990 --> :pttrn35990.extracted={}
+

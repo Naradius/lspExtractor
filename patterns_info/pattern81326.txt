@@ -1,0 +1,8 @@
+for anew domain
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated81326
+Input: Token
+Rule: generated81326
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn81326 --> :pttrn81326.extracted={}
+

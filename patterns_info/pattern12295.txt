@@ -1,0 +1,8 @@
+proposed for WSN.This clustering algorithm
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated12295
+Input: Token
+Rule: generated12295
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn12295 --> :pttrn12295.extracted={}
+

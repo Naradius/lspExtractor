@@ -1,0 +1,8 @@
+includes section titles and image captions
+(VP (VBZ )(NP (NN )(NNS )(CC )(NN )(NNS )))
+Phase: generated100766
+Input: Token
+Rule: generated100766
+(
+(({ Token.category == VBZ })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))):pttrn100766 --> :pttrn100766.extracted={}
+

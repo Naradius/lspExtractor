@@ -1,0 +1,8 @@
+the nodes physical movements
+(NP (DT )(NNS )(JJ )(NNS ))
+Phase: generated3080
+Input: Token
+Rule: generated3080
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NNS }))):pttrn3080 --> :pttrn3080.extracted={}
+

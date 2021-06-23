@@ -1,0 +1,8 @@
+the expressiv-ity of our lexico-semantic patterns
+(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NNS ))))
+Phase: generated94715
+Input: Token
+Rule: generated94715
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn94715 --> :pttrn94715.extracted={}
+

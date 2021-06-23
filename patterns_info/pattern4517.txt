@@ -1,0 +1,8 @@
+its dis-tance to the hop destination  and the node density
+(NP (NP (PRP$ )(NN ))(PP (TO )(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(NN ){1,2}))))
+Phase: generated4517
+Input: Token
+Rule: generated4517
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn4517 --> :pttrn4517.extracted={}
+

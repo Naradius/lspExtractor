@@ -1,0 +1,8 @@
+control the temperature ofits interior throughout the year
+(VP (VB )(PP (IN )(NP (DT )(NN ))))
+Phase: generated29845
+Input: Token
+Rule: generated29845
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn29845 --> :pttrn29845.extracted={}
+

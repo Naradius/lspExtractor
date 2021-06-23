@@ -1,0 +1,8 @@
+a resultof random communication time
+(NP (DT )(NN )(JJ )(NN ){1,2})
+Phase: generated31574
+Input: Token
+Rule: generated31574
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)):pttrn31574 --> :pttrn31574.extracted={}
+

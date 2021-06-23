@@ -1,0 +1,8 @@
+a particular context.The collected words
+(NP (DT )(JJ )(NN )(VBN )(NNS ))
+Phase: generated71564
+Input: Token
+Rule: generated71564
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == VBN })({ Token.category == NNS }))):pttrn71564 --> :pttrn71564.extracted={}
+

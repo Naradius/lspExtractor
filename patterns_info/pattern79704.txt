@@ -1,0 +1,8 @@
+is numeric or capitalized
+(VP (VBZ )(ADJP (JJ )(CC )(JJ )))
+Phase: generated79704
+Input: Token
+Rule: generated79704
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })))):pttrn79704 --> :pttrn79704.extracted={}
+

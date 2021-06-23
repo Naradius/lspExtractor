@@ -1,0 +1,8 @@
+tonalyze the security level of cryptographic applications
+(PP (TO )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated67247
+Input: Token
+Rule: generated67247
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn67247 --> :pttrn67247.extracted={}
+

@@ -1,0 +1,8 @@
+have an arc to the other node
+(VP (VBP )(NP (NP (DT )(NN ))(PP (TO )(NP (DT )(JJ )(NN )))))
+Phase: generated112879
+Input: Token
+Rule: generated112879
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn112879 --> :pttrn112879.extracted={}
+

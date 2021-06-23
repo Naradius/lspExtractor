@@ -1,0 +1,8 @@
+reconstruct the attack traffic
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated109501
+Input: Token
+Rule: generated109501
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn109501 --> :pttrn109501.extracted={}
+

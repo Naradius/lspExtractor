@@ -1,0 +1,8 @@
+measuring the distance based uponthe received signal strength as follows:L mffiffiffiffiffiffiffiffiffi1pjNswhere m is an adjustment factor, N is the length of the side of thesquare area and j is the number of CHs.Then the number of CHs which are close to the node can becomputed as follows:NCH w1EremainingEinitw2TnodePTnodeCchwhere w1,w2A 0,1 are weight factors and Einit is the initialenergy of the nodes, Cch is the count that how many times anode is elected as CH,PTnode is the sum of the trust of all thenodes in the network
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated55633
+Input: Token
+Rule: generated55633
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn55633 --> :pttrn55633.extracted={}
+

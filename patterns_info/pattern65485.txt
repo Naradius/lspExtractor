@@ -1,0 +1,8 @@
+a Distributed Intrusion Detection System
+(NP (DT )(NNP ){1,2})
+Phase: generated65485
+Input: Token
+Rule: generated65485
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn65485 --> :pttrn65485.extracted={}
+

@@ -1,0 +1,8 @@
+in its communication range
+(PP (IN )(NP (PRP$ )(NN ){1,2}))
+Phase: generated10009
+Input: Token
+Rule: generated10009
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+))):pttrn10009 --> :pttrn10009.extracted={}
+

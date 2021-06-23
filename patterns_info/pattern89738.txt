@@ -1,0 +1,8 @@
+to behighlighted in the text and the features of those instances displayed in the tabular view below.Annotations of all classes
+(VP (TO )(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS )))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(PP (IN ){1,2}(NP (DT )(NNS ))))))))
+Phase: generated89738
+Input: Token
+Rule: generated89738
+(
+(({ Token.category == TO })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })+(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn89738 --> :pttrn89738.extracted={}
+

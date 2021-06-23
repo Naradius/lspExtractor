@@ -1,0 +1,8 @@
+physical and spectral
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated21426
+Input: Token
+Rule: generated21426
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn21426 --> :pttrn21426.extracted={}
+

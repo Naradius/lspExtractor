@@ -1,0 +1,8 @@
+a special M_SyncData message
+(NP (DT )(JJ )(NNP )(NN ))
+Phase: generated15089
+Input: Token
+Rule: generated15089
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))):pttrn15089 --> :pttrn15089.extracted={}
+

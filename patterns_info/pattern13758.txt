@@ -1,0 +1,8 @@
+no packet losses
+(NP (DT )(NN )(NNS ))
+Phase: generated13758
+Input: Token
+Rule: generated13758
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn13758 --> :pttrn13758.extracted={}
+

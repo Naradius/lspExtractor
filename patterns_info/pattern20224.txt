@@ -1,0 +1,8 @@
+a reduc- tion of 12% network bandwidth, 10% response time, 14% latency and 12.35% in energy consumption
+(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (ADJP (CD )(NN ))(NN ){1,2})))(NP (CD )(NN ){1,2}){1,2}(CC ))
+Phase: generated20224
+Input: Token
+Rule: generated20224
+(
+(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN }))({ Token.category == NN })+)))(({ Token.category == CD })({ Token.category == NN })+)+({ Token.category == CC }))):pttrn20224 --> :pttrn20224.extracted={}
+

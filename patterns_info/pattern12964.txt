@@ -1,0 +1,8 @@
+the leaderin
+(NP (DT )(NN ))
+Phase: generated12964
+Input: Token
+Rule: generated12964
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn12964 --> :pttrn12964.extracted={}
+

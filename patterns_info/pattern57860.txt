@@ -1,0 +1,8 @@
+wireless sensor networks with intelligent redeployment
+(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated57860
+Input: Token
+Rule: generated57860
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn57860 --> :pttrn57860.extracted={}
+

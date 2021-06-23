@@ -1,0 +1,8 @@
+most common
+(ADJP (RBS )(JJ ))
+Phase: generated77878
+Input: Token
+Rule: generated77878
+(
+(({ Token.category == RBS })({ Token.category == JJ }))):pttrn77878 --> :pttrn77878.extracted={}
+

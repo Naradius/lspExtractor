@@ -1,0 +1,8 @@
+the change of smartand intelligent sensors
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NNS ))))
+Phase: generated60677
+Input: Token
+Rule: generated60677
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn60677 --> :pttrn60677.extracted={}
+

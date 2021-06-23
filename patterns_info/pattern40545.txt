@@ -1,0 +1,8 @@
+start Section 2 with a background on DTN routing protocols.In Section 2 some basic notions about DTN networks and topologiesused in this paper
+(VP (VP (VBP )(NP (NN )(CD ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN )(NNS )))))(PP (IN )(NP (NN )(CD )))(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NNP )(NNS )))))(CC )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated40545
+Input: Token
+Rule: generated40545
+(
+((({ Token.category == VBP })(({ Token.category == NN })({ Token.category == CD }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn40545 --> :pttrn40545.extracted={}
+

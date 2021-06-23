@@ -1,0 +1,8 @@
+routing time increase
+(NP (JJ )(NN ){1,2})
+Phase: generated35506
+Input: Token
+Rule: generated35506
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn35506 --> :pttrn35506.extracted={}
+

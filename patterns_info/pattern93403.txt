@@ -1,0 +1,8 @@
+A sentence like The conferencewill
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated93403
+Input: Token
+Rule: generated93403
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn93403 --> :pttrn93403.extracted={}
+

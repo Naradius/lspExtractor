@@ -1,0 +1,8 @@
+the NCSs
+(NP (DT )(NNP ))
+Phase: generated31660
+Input: Token
+Rule: generated31660
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn31660 --> :pttrn31660.extracted={}
+

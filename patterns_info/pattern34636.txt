@@ -1,0 +1,8 @@
+a paymentaddress
+(NP (DT )(NN ))
+Phase: generated34636
+Input: Token
+Rule: generated34636
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn34636 --> :pttrn34636.extracted={}
+

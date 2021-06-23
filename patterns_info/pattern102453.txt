@@ -1,0 +1,8 @@
+with its parsing algorithm
+(PP (IN )(NP (PRP$ )(NN ){1,2}))
+Phase: generated102453
+Input: Token
+Rule: generated102453
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+))):pttrn102453 --> :pttrn102453.extracted={}
+

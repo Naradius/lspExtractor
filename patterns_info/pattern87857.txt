@@ -1,0 +1,8 @@
+followedby regular expression operators or ranges.In rule schema , E represents a text element already recognized anywhere in the leftcontext of C, and is usually a co-referent  antecedent.9Parmenides
+(NP (NP (NP (JJ ){1,2}(NN )(NNS ))(CC ))(NP (DT )(JJ )(NNS )))
+Phase: generated87857
+Input: Token
+Rule: generated87857
+(
+(((({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn87857 --> :pttrn87857.extracted={}
+

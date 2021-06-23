@@ -1,0 +1,8 @@
+reduce the delay and extend the network life-time
+(VP (VP (VB )(NP (DT )(NN )))(CC )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated52254
+Input: Token
+Rule: generated52254
+(
+((({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn52254 --> :pttrn52254.extracted={}
+

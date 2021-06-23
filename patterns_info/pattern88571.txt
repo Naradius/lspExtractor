@@ -1,0 +1,8 @@
+is a list, where word sequencesare separated by commas, as in  or , which are intended to cover the same type ofphrase
+(VP (VBZ )(NP (NP (DT )(NN ))(WHADVP (WRB ))))
+Phase: generated88571
+Input: Token
+Rule: generated88571
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == WRB }))))):pttrn88571 --> :pttrn88571.extracted={}
+

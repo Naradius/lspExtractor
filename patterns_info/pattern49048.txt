@@ -1,0 +1,8 @@
+as a set of automated methods of combiningthe data that comes from many sensor nodes into aset of meaningful information
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (VBN )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(VP (VBZ )(PP (IN )(NP (JJ )(NN )(NNS ))))))))))
+Phase: generated49048
+Input: Token
+Rule: generated49048
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))))):pttrn49048 --> :pttrn49048.extracted={}
+

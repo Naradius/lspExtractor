@@ -1,0 +1,8 @@
+The ETX Objective Function
+(NP (DT )(NNP ){1,2})
+Phase: generated52789
+Input: Token
+Rule: generated52789
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn52789 --> :pttrn52789.extracted={}
+

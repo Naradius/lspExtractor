@@ -1,0 +1,8 @@
+with well distributed CHs
+(PP (IN )(NP (ADJP (RB )(VBN ))(NNP )))
+Phase: generated7893
+Input: Token
+Rule: generated7893
+(
+(({ Token.category == IN })((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNP })))):pttrn7893 --> :pttrn7893.extracted={}
+

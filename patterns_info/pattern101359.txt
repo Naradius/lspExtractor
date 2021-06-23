@@ -1,0 +1,8 @@
+for Computational Linguistics , pages 497504
+(PP (IN )(NP (NNP ){1,2}(NNS )(CD )))
+Phase: generated101359
+Input: Token
+Rule: generated101359
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NNS })({ Token.category == CD })))):pttrn101359 --> :pttrn101359.extracted={}
+

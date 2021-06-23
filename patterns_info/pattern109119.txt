@@ -1,0 +1,8 @@
+the successful transmission
+(NP (DT )(JJ )(NN ))
+Phase: generated109119
+Input: Token
+Rule: generated109119
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn109119 --> :pttrn109119.extracted={}
+

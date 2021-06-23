@@ -1,0 +1,8 @@
+Canis's
+(NP (NNP )(POS ))
+Phase: generated77159
+Input: Token
+Rule: generated77159
+(
+(({ Token.category == NNP })({ Token.category == POS }))):pttrn77159 --> :pttrn77159.extracted={}
+

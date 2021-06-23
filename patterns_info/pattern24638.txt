@@ -1,0 +1,8 @@
+journal papers
+(NP (NN )(NNS ))
+Phase: generated24638
+Input: Token
+Rule: generated24638
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn24638 --> :pttrn24638.extracted={}
+

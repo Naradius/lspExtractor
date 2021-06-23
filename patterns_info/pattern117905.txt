@@ -1,0 +1,8 @@
+to treat computationally, with a unified framework
+(VP (TO )(VP (VB )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated117905
+Input: Token
+Rule: generated117905
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn117905 --> :pttrn117905.extracted={}
+

@@ -1,0 +1,8 @@
+the sensor,nj
+(NP (DT )(NN ){1,2})
+Phase: generated22365
+Input: Token
+Rule: generated22365
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn22365 --> :pttrn22365.extracted={}
+

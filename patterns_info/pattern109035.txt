@@ -1,0 +1,8 @@
+present in the network
+(ADJP (JJ )(PP (IN )(NP (DT )(NN ))))
+Phase: generated109035
+Input: Token
+Rule: generated109035
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn109035 --> :pttrn109035.extracted={}
+

@@ -1,0 +1,8 @@
+is the string that names the location which becomes the value of the locfeature, through the shared LOC variable.This rule illustrates several other points of note: The symbolic value LOC should not be confused with the variable LOC, nor with thefeature named
+(VP (VBZ )(NP (DT )(NN ))(IN ))
+Phase: generated88928
+Input: Token
+Rule: generated88928
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))({ Token.category == IN }))):pttrn88928 --> :pttrn88928.extracted={}
+

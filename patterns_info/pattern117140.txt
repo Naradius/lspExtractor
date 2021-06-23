@@ -1,0 +1,8 @@
+occurring in one sentenceGroup phrases by type Generalize Speech Act & Rhetoric relation For two sets of thicket phrases, select a pair of phrases
+(VP (VBG )(PP (IN )(NP (CD )(NN )(NNP )(NNS )))(PP (IN )(NP (NN )(NNP ){1,2}(CC )(NNP )))(X (NN ))(PP (IN )(NP (NP (CD )(NNS ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated117140
+Input: Token
+Rule: generated117140
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })))(({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn117140 --> :pttrn117140.extracted={}
+

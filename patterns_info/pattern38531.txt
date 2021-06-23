@@ -1,0 +1,8 @@
+minimizes the overall overhead in terms of energy consumption and memory,and
+(VP (VBZ )(NP (DT )(JJ )(NN )))
+Phase: generated38531
+Input: Token
+Rule: generated38531
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn38531 --> :pttrn38531.extracted={}
+

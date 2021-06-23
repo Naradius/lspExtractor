@@ -1,0 +1,8 @@
+IoT devices
+(NP (NNP )(NNS ))
+Phase: generated24071
+Input: Token
+Rule: generated24071
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn24071 --> :pttrn24071.extracted={}
+

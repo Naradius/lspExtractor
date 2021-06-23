@@ -1,0 +1,8 @@
+bear more overhead due to the send back mechanism
+(VP (VBP )(ADVP (RBR )(RB ))(ADJP (JJ )(PP (TO )(NP (DT )(NN ){1,2}))))
+Phase: generated18064
+Input: Token
+Rule: generated18064
+(
+(({ Token.category == VBP })(({ Token.category == RBR })({ Token.category == RB }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn18064 --> :pttrn18064.extracted={}
+

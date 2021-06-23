@@ -1,0 +1,8 @@
+The clusternode
+(NP (DT )(NN ))
+Phase: generated62094
+Input: Token
+Rule: generated62094
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn62094 --> :pttrn62094.extracted={}
+

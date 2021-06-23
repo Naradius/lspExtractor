@@ -1,0 +1,8 @@
+inside the routing table
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated108110
+Input: Token
+Rule: generated108110
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn108110 --> :pttrn108110.extracted={}
+

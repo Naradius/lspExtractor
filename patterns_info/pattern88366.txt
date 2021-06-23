@@ -1,0 +1,8 @@
+being appliedto the same text span
+(VP (VBG )(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated88366
+Input: Token
+Rule: generated88366
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn88366 --> :pttrn88366.extracted={}
+

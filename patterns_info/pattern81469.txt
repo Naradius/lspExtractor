@@ -1,0 +1,8 @@
+composed of grammatical sentences
+(VP (VBN )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated81469
+Input: Token
+Rule: generated81469
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn81469 --> :pttrn81469.extracted={}
+

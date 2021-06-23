@@ -1,0 +1,8 @@
+by the tagger, bigbigramlist, lexical rule file and contextual rule file
+(PP (IN )(NP (NP (DT )(NN ))(NP (JJ ){1,2}(NN ){1,2})(CC )(NP (JJ )(NN ){1,2})))
+Phase: generated90881
+Input: Token
+Rule: generated90881
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJ })+({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn90881 --> :pttrn90881.extracted={}
+

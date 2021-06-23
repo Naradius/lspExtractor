@@ -1,0 +1,8 @@
+18 object properties
+(NP (CD )(NN )(NNS ))
+Phase: generated93897
+Input: Token
+Rule: generated93897
+(
+(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn93897 --> :pttrn93897.extracted={}
+

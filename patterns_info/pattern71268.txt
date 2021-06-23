@@ -1,0 +1,8 @@
+,         ,     : 1)       ,           ; 2)
+(NP (NP (NNP )(CD ))(-RRB- )(NP (NNP )(CD ))(-RRB- ))
+Phase: generated71268
+Input: Token
+Rule: generated71268
+(
+((({ Token.category == NNP })({ Token.category == CD }))({ Token.category == -RRB- })(({ Token.category == NNP })({ Token.category == CD }))({ Token.category == -RRB- }))):pttrn71268 --> :pttrn71268.extracted={}
+

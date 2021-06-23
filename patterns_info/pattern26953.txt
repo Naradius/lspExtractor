@@ -1,0 +1,8 @@
+the systems efficiency
+(NP (DT )(NNS )(NN ))
+Phase: generated26953
+Input: Token
+Rule: generated26953
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))):pttrn26953 --> :pttrn26953.extracted={}
+

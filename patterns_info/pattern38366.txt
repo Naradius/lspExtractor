@@ -1,0 +1,8 @@
+to other networks
+(PP (TO )(NP (JJ )(NNS )))
+Phase: generated38366
+Input: Token
+Rule: generated38366
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn38366 --> :pttrn38366.extracted={}
+

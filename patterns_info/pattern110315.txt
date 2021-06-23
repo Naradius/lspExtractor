@@ -1,0 +1,8 @@
+linear or non-linear,ends to be more fruitful than other types of model , since it gives us access to a direct formula-ion of the underlying physics of the process
+(NP (CC )(NP (NP (JJ )(NNS ))(VP (TO )(VP (VB )(IN )))))
+Phase: generated110315
+Input: Token
+Rule: generated110315
+(
+(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))))):pttrn110315 --> :pttrn110315.extracted={}
+

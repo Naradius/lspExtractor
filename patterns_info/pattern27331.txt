@@ -1,0 +1,8 @@
+1 Communication range 30 m Interference range 40 m Transmission power 0 dBm Mobile nodes velocity 0.5 m/s Mobility interval 30 s Transmission interval  60 s, 24 s, 12 s UDP payload size 52 Bytes Simulation duration 3600 s Z  t  c  l  t  w  p5 h  a  n  t  t  b  p  o  a  w  h  b  p  r  n  w  I c  t  a  w  c  4  i  e5 c  h  t  5 i  n  o  t  p  m  i  p  t  t  (Ew  i  p  m  r  o  r  p  a  n  lP O  d  w  w  c  c  a  w  b I  Fig. 3. Average power consumption of a node in different fixed-node IoT network scenarios
+(NP (NP (CD )(NNP )(NN ))(NP (NP (CD )(NN ){1,2})(NP (NP (CD )(NN ){1,2})(NP (NP (CD )(NN ))(VP (VBZ )(NP (NP (NN )(CD )(NN ){1,2})(NP (NP (CD )(NNS ))(NP (NP (NNP )(NN ))(NP (CD )(NNS )){1,2}))))))))
+Phase: generated27331
+Input: Token
+Rule: generated27331
+(
+((({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN }))((({ Token.category == CD })({ Token.category == NN })+)((({ Token.category == CD })({ Token.category == NN })+)((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == NN })({ Token.category == CD })({ Token.category == NN })+)((({ Token.category == CD })({ Token.category == NNS }))((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == CD })({ Token.category == NNS }))+))))))))):pttrn27331 --> :pttrn27331.extracted={}
+

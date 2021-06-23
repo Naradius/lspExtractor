@@ -1,0 +1,8 @@
+to selected sensor monitor nodes
+(PP (TO )(NP (VBN )(NN ){1,2}(NNS )))
+Phase: generated67065
+Input: Token
+Rule: generated67065
+(
+(({ Token.category == TO })(({ Token.category == VBN })({ Token.category == NN })+({ Token.category == NNS })))):pttrn67065 --> :pttrn67065.extracted={}
+

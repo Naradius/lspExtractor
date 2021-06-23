@@ -1,0 +1,8 @@
+can map a small change in remainingnodal energy to a large change in the cost function value.By giving preference to sensors with higher remainingenergy during route selection, the function enforces energybalance
+(VP (MD )(VP (VB )(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN ))))(PP (TO )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))(PP (IN )(VP (VBG )(PP (IN )(NP (JJR )(NN )))))))
+Phase: generated51509
+Input: Token
+Rule: generated51509
+(
+(({ Token.category == MD })(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })))))))):pttrn51509 --> :pttrn51509.extracted={}
+

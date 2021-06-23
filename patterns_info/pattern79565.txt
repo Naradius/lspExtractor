@@ -1,0 +1,8 @@
+are not immediately contiguous to a target slot and allow semanticclasses, while Wrapper Induction uses only literals.If an HLRT rule
+(VP (VP (VBP )(RB )(ADJP (JJ )(PP (TO )(NP (DT )(NN ){1,2}))))(CC ))
+Phase: generated79565
+Input: Token
+Rule: generated79565
+(
+((({ Token.category == VBP })({ Token.category == RB })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))({ Token.category == CC }))):pttrn79565 --> :pttrn79565.extracted={}
+

@@ -1,0 +1,8 @@
+to rewrite previously uncon-nected Entity vertices by means of new Relationships vertices as we do in production 4 ofFig
+(VP (TO )(VP (VB )(NP (ADJP (RB )(JJ ))(NNP )(NNS ))))
+Phase: generated102374
+Input: Token
+Rule: generated102374
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNP })({ Token.category == NNS }))))):pttrn102374 --> :pttrn102374.extracted={}
+

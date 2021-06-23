@@ -1,0 +1,8 @@
+all consecutive wordswith
+(NP (DT )(JJ )(NN )){1,2}
+Phase: generated75476
+Input: Token
+Rule: generated75476
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))+):pttrn75476 --> :pttrn75476.extracted={}
+

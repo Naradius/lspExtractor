@@ -1,0 +1,8 @@
+a new leader election procedure that involves fewer mes-sage exchanges
+(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBZ )(NP (JJR )(NN )(NNS ))))
+Phase: generated13118
+Input: Token
+Rule: generated13118
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))))):pttrn13118 --> :pttrn13118.extracted={}
+

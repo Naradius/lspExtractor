@@ -1,0 +1,8 @@
+to escape from unsuitable region with high probability.2.2.5
+(VP (TO )(VP (VB )(PP (IN )(NP (JJ )(NN )))(PP (IN )(NP (JJ )(NN )(CD )))))
+Phase: generated64513
+Input: Token
+Rule: generated64513
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD })))))):pttrn64513 --> :pttrn64513.extracted={}
+

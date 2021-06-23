@@ -1,0 +1,8 @@
+with 200 nodes showed in Figure 12
+(PP (IN )(NP (NP (CD )(NNS ))(VP (VBN )(PP (IN )(NP (NN )(CD ))))))
+Phase: generated18071
+Input: Token
+Rule: generated18071
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))))):pttrn18071 --> :pttrn18071.extracted={}
+

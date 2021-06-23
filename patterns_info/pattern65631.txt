@@ -1,0 +1,8 @@
+the original data by sensing the un-ecured channel
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN )))))
+Phase: generated65631
+Input: Token
+Rule: generated65631
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn65631 --> :pttrn65631.extracted={}
+

@@ -1,0 +1,8 @@
+indicateswhether the VaNetLayer
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated15118
+Input: Token
+Rule: generated15118
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn15118 --> :pttrn15118.extracted={}
+

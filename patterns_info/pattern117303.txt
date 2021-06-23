@@ -1,0 +1,8 @@
+on parse trees for each sentence of this paragraph
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated117303
+Input: Token
+Rule: generated117303
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn117303 --> :pttrn117303.extracted={}
+

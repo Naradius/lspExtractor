@@ -1,0 +1,8 @@
+take up their place
+(VP (VB )(PRT (RP ))(NP (PRP$ )(NN )))
+Phase: generated14453
+Input: Token
+Rule: generated14453
+(
+(({ Token.category == VB })(({ Token.category == RP }))(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn14453 --> :pttrn14453.extracted={}
+

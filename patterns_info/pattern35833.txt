@@ -1,0 +1,8 @@
+include agricultural informatization,data processing, and modulation classification
+(VP (VBP )(NP (NP (JJ )(NN ){1,2})(CC )))
+Phase: generated35833
+Input: Token
+Rule: generated35833
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })))):pttrn35833 --> :pttrn35833.extracted={}
+

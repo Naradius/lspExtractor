@@ -1,0 +1,8 @@
+available for running both within the GATE environment and with its ownuser interface that supports the viewing and editing of annotations
+(ADJP (JJ )(PP (IN )(VP (VBG )(PP (DT )(PP (IN )(NP (DT )(NNP )(NN )))(CC )))))
+Phase: generated89599
+Input: Token
+Rule: generated89599
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))({ Token.category == CC })))))):pttrn89599 --> :pttrn89599.extracted={}
+

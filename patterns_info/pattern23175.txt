@@ -1,0 +1,8 @@
+the secondary IoTnetwork
+(NP (DT )(JJ )(NN ))
+Phase: generated23175
+Input: Token
+Rule: generated23175
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn23175 --> :pttrn23175.extracted={}
+

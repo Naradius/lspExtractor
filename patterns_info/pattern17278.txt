@@ -1,0 +1,8 @@
+are all in the situation where holes between source and destination
+(VP (VBP )(DT )(PP (IN )(NP (NP (DT )(NN ))(WHADVP (WRB )))))
+Phase: generated17278
+Input: Token
+Rule: generated17278
+(
+(({ Token.category == VBP })({ Token.category == DT })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == WRB })))))):pttrn17278 --> :pttrn17278.extracted={}
+

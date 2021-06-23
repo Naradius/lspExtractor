@@ -1,0 +1,8 @@
+about their occurrence in the full tree
+(PP (IN )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated112886
+Input: Token
+Rule: generated112886
+(
+(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn112886 --> :pttrn112886.extracted={}
+

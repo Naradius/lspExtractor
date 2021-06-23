@@ -1,0 +1,8 @@
+of the intrusion detection process.Please
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated39903
+Input: Token
+Rule: generated39903
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn39903 --> :pttrn39903.extracted={}
+

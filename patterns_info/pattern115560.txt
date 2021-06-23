@@ -1,0 +1,8 @@
+a Bing Web and Bing Blogs APIs search request
+(NP (NP (DT )(NNP ){1,2})(CC )(NP (NNP ){1,2}(NN ){1,2}))
+Phase: generated115560
+Input: Token
+Rule: generated115560
+(
+((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == NN })+))):pttrn115560 --> :pttrn115560.extracted={}
+

@@ -1,0 +1,8 @@
+depending uponapplications where these can be applied
+(PP (VBG )(PP (IN )(WHADVP (WRB ))))
+Phase: generated57213
+Input: Token
+Rule: generated57213
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == WRB }))))):pttrn57213 --> :pttrn57213.extracted={}
+

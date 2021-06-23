@@ -1,0 +1,8 @@
+containing more than 5,60,000knowledge items
+(VP (VBG )(NP (QP (JJR )(IN )(CD ))(NNS )))
+Phase: generated72905
+Input: Token
+Rule: generated72905
+(
+(({ Token.category == VBG })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS })))):pttrn72905 --> :pttrn72905.extracted={}
+

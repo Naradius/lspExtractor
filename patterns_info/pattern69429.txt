@@ -1,0 +1,8 @@
+for the WSN
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated69429
+Input: Token
+Rule: generated69429
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn69429 --> :pttrn69429.extracted={}
+

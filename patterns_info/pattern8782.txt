@@ -1,0 +1,8 @@
+caused by the chosen routing protocol
+(VP (VBN )(PP (IN )(NP (DT )(VBN )(NN ){1,2})))
+Phase: generated8782
+Input: Token
+Rule: generated8782
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))):pttrn8782 --> :pttrn8782.extracted={}
+

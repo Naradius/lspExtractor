@@ -1,0 +1,8 @@
+with high estimated travel time and low speed deviation a high chance to become a cluster head
+(PP (IN )(NP (NP (JJ ){1,2}(NN ){1,2})(CC )))
+Phase: generated33
+Input: Token
+Rule: generated33
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NN })+)({ Token.category == CC })))):pttrn33 --> :pttrn33.extracted={}
+

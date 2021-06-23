@@ -1,0 +1,8 @@
+play the same strate-gies or choose their same route preferences, i.e., either their first,or their second
+(VP (VP (VBP )(NP (DT )(JJ )(NNS )))(CC )(VP (VB )(NP (PRP$ )(JJ )(NN )(NNS )))(PP (IN )(NP (CC )(NP (NP (PRP$ )(JJ ))(PP (IN )(NP (PRP$ )(JJ )))))))
+Phase: generated23338
+Input: Token
+Rule: generated23338
+(
+((({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == PRP$ })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })))))))):pttrn23338 --> :pttrn23338.extracted={}
+

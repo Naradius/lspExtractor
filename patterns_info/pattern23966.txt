@@ -1,0 +1,8 @@
+to use much less power thus the reachabil-ity decreases considerably
+(VP (TO )(VP (VB )(NP (ADJP (RB )(JJR ))(NN ))))
+Phase: generated23966
+Input: Token
+Rule: generated23966
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == RB })({ Token.category == JJR }))({ Token.category == NN }))))):pttrn23966 --> :pttrn23966.extracted={}
+

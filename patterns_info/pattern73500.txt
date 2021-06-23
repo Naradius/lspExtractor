@@ -1,0 +1,8 @@
+very large corpora
+(NP (ADJP (RB )(JJ ))(NN ))
+Phase: generated73500
+Input: Token
+Rule: generated73500
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))):pttrn73500 --> :pttrn73500.extracted={}
+

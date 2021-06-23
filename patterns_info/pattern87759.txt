@@ -1,0 +1,8 @@
+pair up each entity id with its own category
+(VP (VB )(PRT (RP ))(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (PRP$ )(JJ )(NN ))))))
+Phase: generated87759
+Input: Token
+Rule: generated87759
+(
+(({ Token.category == VB })(({ Token.category == RP }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn87759 --> :pttrn87759.extracted={}
+

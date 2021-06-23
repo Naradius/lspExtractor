@@ -1,0 +1,8 @@
+for the click problem of JGraphT library
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNP )(NN )))))
+Phase: generated114683
+Input: Token
+Rule: generated114683
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn114683 --> :pttrn114683.extracted={}
+

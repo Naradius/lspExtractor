@@ -1,0 +1,8 @@
+be observed that the CPU power consumption of the edge router does not change muchbetween the two different IDS modes regardless of the transmission rate
+(VP (VB )(VP (VBN )(IN )))
+Phase: generated38113
+Input: Token
+Rule: generated38113
+(
+(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN })))):pttrn38113 --> :pttrn38113.extracted={}
+

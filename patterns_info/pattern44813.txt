@@ -1,0 +1,8 @@
+of hidden nodesin
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated44813
+Input: Token
+Rule: generated44813
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn44813 --> :pttrn44813.extracted={}
+

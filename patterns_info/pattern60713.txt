@@ -1,0 +1,8 @@
+considered in the design ofsuch nodes
+(VP (VBN )(PP (IN )(NP (DT )(NN )(JJ )(NNS ))))
+Phase: generated60713
+Input: Token
+Rule: generated60713
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn60713 --> :pttrn60713.extracted={}
+

@@ -1,0 +1,8 @@
+from pridesand become nomad, new nomad females and old nomadfemales
+(PP (IN )(NP (NP (JJ ){1,2}(NNS ))(CC )(NP (JJ )(NNS ))))
+Phase: generated64656
+Input: Token
+Rule: generated64656
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn64656 --> :pttrn64656.extracted={}
+

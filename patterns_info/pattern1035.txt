@@ -1,0 +1,8 @@
+A node which is a member of at least two clusters
+(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (QP (IN )(JJS )(CD ))(NNS ))))))
+Phase: generated1035
+Input: Token
+Rule: generated1035
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == IN })({ Token.category == JJS })({ Token.category == CD }))({ Token.category == NNS }))))))):pttrn1035 --> :pttrn1035.extracted={}
+

@@ -1,0 +1,8 @@
+bearound  15% to test the attacks namely wormhole and IP spoof-ing
+(VP (VB )(NP (CD )(NN ))(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(NP (NN )(CC )(NN ){1,2})))))
+Phase: generated67445
+Input: Token
+Rule: generated67445
+(
+(({ Token.category == VB })(({ Token.category == CD })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)))))):pttrn67445 --> :pttrn67445.extracted={}
+

@@ -1,0 +1,8 @@
+some otherstringent constraints
+(NP (DT )(JJ )(NNS ))
+Phase: generated47162
+Input: Token
+Rule: generated47162
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn47162 --> :pttrn47162.extracted={}
+

@@ -1,0 +1,8 @@
+provide the details of a total number ofensor monitor nodes and the rate of selection of monitor sensorodes against total available nodes in networks
+(VP (VBP )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS )))(CC )))))
+Phase: generated67500
+Input: Token
+Rule: generated67500
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))({ Token.category == CC })))))):pttrn67500 --> :pttrn67500.extracted={}
+

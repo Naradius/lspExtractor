@@ -1,0 +1,8 @@
+into homogeneous data with clustering tech-niques and complex networks, the energy efficiency of the IoTnetwork
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (NN )(NNS ))(CC )(NP (NP (JJ )(NNS ))(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP )))))))))
+Phase: generated30167
+Input: Token
+Rule: generated30167
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))))):pttrn30167 --> :pttrn30167.extracted={}
+

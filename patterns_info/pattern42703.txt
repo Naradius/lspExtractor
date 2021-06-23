@@ -1,0 +1,8 @@
+density.10E.A. Abdellaoui Alaoui et al
+(PP (IN )(NP (NNP ){1,2}(NN )))
+Phase: generated42703
+Input: Token
+Rule: generated42703
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })))):pttrn42703 --> :pttrn42703.extracted={}
+

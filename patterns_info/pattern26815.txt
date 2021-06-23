@@ -1,0 +1,8 @@
+the default OFs
+(NP (DT )(NN )(NNS ))
+Phase: generated26815
+Input: Token
+Rule: generated26815
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn26815 --> :pttrn26815.extracted={}
+

@@ -1,0 +1,8 @@
+the use of both a hierarchical structure andthe biological inspiration to realize a scalable and robustdata routing strategy
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NP (DT )(JJ )(NN )){1,2}(VP (TO )(VP (VB )(NP (DT )(JJ )(CC )(JJ )(NN ){1,2}))))))
+Phase: generated6586
+Input: Token
+Rule: generated6586
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn6586 --> :pttrn6586.extracted={}
+

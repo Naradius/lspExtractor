@@ -1,0 +1,8 @@
+fromthe application of temperature control algorithms
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(NNS ))))
+Phase: generated31809
+Input: Token
+Rule: generated31809
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))):pttrn31809 --> :pttrn31809.extracted={}
+

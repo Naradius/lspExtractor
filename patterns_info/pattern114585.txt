@@ -1,0 +1,8 @@
+not adjacent in 1G and in 2G, respectively
+(ADJP (RB )(JJ ))
+Phase: generated114585
+Input: Token
+Rule: generated114585
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn114585 --> :pttrn114585.extracted={}
+

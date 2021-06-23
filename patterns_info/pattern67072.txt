@@ -1,0 +1,8 @@
+different Monitorelection requests and responses with final commitment messagehich will be given to selected sensor monitor nodes
+(NP (NP (JJ )(NN )(NNS ))(CC ))
+Phase: generated67072
+Input: Token
+Rule: generated67072
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn67072 --> :pttrn67072.extracted={}
+

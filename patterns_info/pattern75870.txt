@@ -1,0 +1,8 @@
+generate the resource by executing a large-scale distantsupervision approach on the CLUEWEB09 corpus to extract and parse over 260 million sentences labeled with FREEBASE entities andrelations
+(VP (VBP )(NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2}))(VP (TO )(VP (VB )(CC )(VB )(NP (NP (QP (IN )(CD ){1,2})(NNS ))(VP (VBN )(PP (IN )(NP (JJ )(NNS ){1,2})))))))))
+Phase: generated75870
+Input: Token
+Rule: generated75870
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC })({ Token.category == VB })(((({ Token.category == IN })({ Token.category == CD })+)({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })+)))))))))):pttrn75870 --> :pttrn75870.extracted={}
+

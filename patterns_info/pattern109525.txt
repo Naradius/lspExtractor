@@ -1,0 +1,8 @@
+the characteristics of this method
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated109525
+Input: Token
+Rule: generated109525
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn109525 --> :pttrn109525.extracted={}
+

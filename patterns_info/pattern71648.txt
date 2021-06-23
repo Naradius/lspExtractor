@@ -1,0 +1,8 @@
+is the knowledgebase created in the OMCS project
+(VP (VBZ )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN ))))))
+Phase: generated71648
+Input: Token
+Rule: generated71648
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))))):pttrn71648 --> :pttrn71648.extracted={}
+

@@ -1,0 +1,8 @@
+have seen in fixed node scenarios
+(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated28323
+Input: Token
+Rule: generated28323
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn28323 --> :pttrn28323.extracted={}
+

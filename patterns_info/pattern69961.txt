@@ -1,0 +1,8 @@
+predetermining the optimized routing path
+(VP (VBG )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated69961
+Input: Token
+Rule: generated69961
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn69961 --> :pttrn69961.extracted={}
+

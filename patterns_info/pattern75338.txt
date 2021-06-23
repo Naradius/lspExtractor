@@ -1,0 +1,8 @@
+broad, encompassing anysymptom, condition, treatment, or intervention
+(NP (NP (JJ ){1,2}(NN ))(CC ))
+Phase: generated75338
+Input: Token
+Rule: generated75338
+(
+((({ Token.category == JJ })+({ Token.category == NN }))({ Token.category == CC }))):pttrn75338 --> :pttrn75338.extracted={}
+

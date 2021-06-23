@@ -1,0 +1,8 @@
+Starting with TSP topology,the average duration
+(VP (VBG )(PP (IN )(NP (NNP )(NN )))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated43381
+Input: Token
+Rule: generated43381
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn43381 --> :pttrn43381.extracted={}
+

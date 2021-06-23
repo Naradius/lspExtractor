@@ -1,0 +1,8 @@
+of resource management techniques in the Internet ofThings, Edge and Fog computing environments
+(PP (IN )(NP (NP (NN ){1,2}(NNS ))(PP (IN )(NP (NP (DT )(NNP )(NNS ))(NP (NNP )(CC )(NNP )(NN )(NNS ))))))
+Phase: generated19992
+Input: Token
+Rule: generated19992
+(
+(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn19992 --> :pttrn19992.extracted={}
+

@@ -1,0 +1,8 @@
+are elected and created ashe random sets of allocated weights with respect to their local-ty, energy level, velocity, mode of work
+(VP (VBP )(VP (CC )(VP (VBN )(NP (NP (JJ ){1,2}(NNS ))(PP (IN )(NP (VBN )(NNS )))))))
+Phase: generated66472
+Input: Token
+Rule: generated66472
+(
+(({ Token.category == VBP })(({ Token.category == CC })(({ Token.category == VBN })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NNS })))))))):pttrn66472 --> :pttrn66472.extracted={}
+

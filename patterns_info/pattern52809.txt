@@ -1,0 +1,8 @@
+Aerospace and Electronic SystemsTechnology
+(NP (NNP )(CC )(NNP ){1,2})
+Phase: generated52809
+Input: Token
+Rule: generated52809
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)):pttrn52809 --> :pttrn52809.extracted={}
+

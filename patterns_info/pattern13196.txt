@@ -1,0 +1,8 @@
+mobility models
+(NP (NN )(NNS ))
+Phase: generated13196
+Input: Token
+Rule: generated13196
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn13196 --> :pttrn13196.extracted={}
+

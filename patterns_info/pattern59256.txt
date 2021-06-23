@@ -1,0 +1,8 @@
+making more efficiently to achievenergy efficiency
+(VP (VBG )(ADVP (RBR )(RB )))
+Phase: generated59256
+Input: Token
+Rule: generated59256
+(
+(({ Token.category == VBG })(({ Token.category == RBR })({ Token.category == RB })))):pttrn59256 --> :pttrn59256.extracted={}
+

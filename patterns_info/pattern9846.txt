@@ -1,0 +1,8 @@
+as the energy of the sensors isequally balanced by a leader node
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated9846
+Input: Token
+Rule: generated9846
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn9846 --> :pttrn9846.extracted={}
+

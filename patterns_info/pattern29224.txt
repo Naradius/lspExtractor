@@ -1,0 +1,8 @@
+the application of the GMMs cluster technique to the graph
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )(NN ){1,2})))(PP (TO )(NP (DT )(NN ))))
+Phase: generated29224
+Input: Token
+Rule: generated29224
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn29224 --> :pttrn29224.extracted={}
+

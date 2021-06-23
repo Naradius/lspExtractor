@@ -1,0 +1,8 @@
+based protocols
+(NP (VBN )(NNS ))
+Phase: generated21120
+Input: Token
+Rule: generated21120
+(
+(({ Token.category == VBN })({ Token.category == NNS }))):pttrn21120 --> :pttrn21120.extracted={}
+

@@ -1,0 +1,8 @@
+intoone-hop or two-hops star topologies
+(NP (NN )(CC )(NNS )(NN )(NNS ))
+Phase: generated50445
+Input: Token
+Rule: generated50445
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS }))):pttrn50445 --> :pttrn50445.extracted={}
+

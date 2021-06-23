@@ -1,0 +1,8 @@
+communication Control Networks al.
+(NP (NN )(NNP ){1,2}(JJ )(NNP ))
+Phase: generated112391
+Input: Token
+Rule: generated112391
+(
+(({ Token.category == NN })({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNP }))):pttrn112391 --> :pttrn112391.extracted={}
+

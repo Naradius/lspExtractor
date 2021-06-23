@@ -1,0 +1,8 @@
+Indian language, which is very essential computational verbal tool needed for many   natural language processing  presentation
+(NP (NP (NNP )(NN ))(VP (VBZ )(NP (NP (ADJP (RB )(JJ ))(JJ ){1,2}(NN ))(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NN ){1,2}))))))
+Phase: generated97346
+Input: Token
+Rule: generated97346
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBZ })(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })+))))))):pttrn97346 --> :pttrn97346.extracted={}
+

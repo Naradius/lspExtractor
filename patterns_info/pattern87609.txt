@@ -1,0 +1,8 @@
+to make the processing application-specificby using lists of the semantic categories of only relevant words and phrases
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated87609
+Input: Token
+Rule: generated87609
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn87609 --> :pttrn87609.extracted={}
+

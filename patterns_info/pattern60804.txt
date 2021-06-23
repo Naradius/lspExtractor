@@ -1,0 +1,8 @@
+the lowest distance from themember nodes
+(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated60804
+Input: Token
+Rule: generated60804
+(
+((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn60804 --> :pttrn60804.extracted={}
+

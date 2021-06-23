@@ -1,0 +1,8 @@
+The lack
+(NP (DT )(NN ))
+Phase: generated25424
+Input: Token
+Rule: generated25424
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn25424 --> :pttrn25424.extracted={}
+

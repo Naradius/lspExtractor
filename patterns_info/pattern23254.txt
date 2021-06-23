@@ -1,0 +1,8 @@
+to maximize their own payoffs
+(VP (TO )(VP (VB )(NP (PRP$ )(JJ )(NNS ))))
+Phase: generated23254
+Input: Token
+Rule: generated23254
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn23254 --> :pttrn23254.extracted={}
+

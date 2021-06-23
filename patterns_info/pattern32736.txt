@@ -1,0 +1,8 @@
+whichrestrict the lifetime of the nodes
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated32736
+Input: Token
+Rule: generated32736
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn32736 --> :pttrn32736.extracted={}
+

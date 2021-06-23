@@ -1,0 +1,8 @@
+Control and Conservation
+(NP (NNP )(CC )(NNP ))
+Phase: generated32717
+Input: Token
+Rule: generated32717
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn32717 --> :pttrn32717.extracted={}
+

@@ -1,0 +1,8 @@
+at the MAC layer
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated52242
+Input: Token
+Rule: generated52242
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn52242 --> :pttrn52242.extracted={}
+

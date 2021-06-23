@@ -1,0 +1,8 @@
+optimal power control
+(NP (JJ )(NN ){1,2})
+Phase: generated22281
+Input: Token
+Rule: generated22281
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn22281 --> :pttrn22281.extracted={}
+

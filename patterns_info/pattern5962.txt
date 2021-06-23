@@ -1,0 +1,8 @@
+the shortest
+(NP (DT )(NN ))
+Phase: generated5962
+Input: Token
+Rule: generated5962
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn5962 --> :pttrn5962.extracted={}
+

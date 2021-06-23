@@ -1,0 +1,8 @@
+the classes of the documents
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated86244
+Input: Token
+Rule: generated86244
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn86244 --> :pttrn86244.extracted={}
+

@@ -1,0 +1,8 @@
+for unknown words, contextual                                                5 These templates are costly to compute since for each word W we get a template of the simpler type
+(PP (IN )(NP (NP (JJ )(NNS ))(NP (NP (JJ )(CD ))(NP (DT )(NNS )))))
+Phase: generated91952
+Input: Token
+Rule: generated91952
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))((({ Token.category == JJ })({ Token.category == CD }))(({ Token.category == DT })({ Token.category == NNS })))))):pttrn91952 --> :pttrn91952.extracted={}
+

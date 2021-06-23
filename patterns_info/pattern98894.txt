@@ -1,0 +1,8 @@
+the need to produce less precise rewrites, since the correctones did not match any document
+(NP (DT )(NN )(VP (TO )(VP (VB )(NP (ADJP (RBR )(JJ ))(NNS ))(IN ))))
+Phase: generated98894
+Input: Token
+Rule: generated98894
+(
+(({ Token.category == DT })({ Token.category == NN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NNS }))({ Token.category == IN }))))):pttrn98894 --> :pttrn98894.extracted={}
+

@@ -1,0 +1,8 @@
+Karung Berkunci 36
+(NP (NNP ){1,2}(CD ))
+Phase: generated30836
+Input: Token
+Rule: generated30836
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn30836 --> :pttrn30836.extracted={}
+

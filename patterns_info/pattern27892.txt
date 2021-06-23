@@ -1,0 +1,8 @@
+Assuming high LSR values in our simulations
+(VP (VBG )(NP (JJ )(NN )(NNS ))(PP (IN )(NP (PRP$ )(NNS ))))
+Phase: generated27892
+Input: Token
+Rule: generated27892
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))):pttrn27892 --> :pttrn27892.extracted={}
+

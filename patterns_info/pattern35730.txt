@@ -1,0 +1,8 @@
+blockchain and its integration withIoT, challenges and opportunities, Future Gener
+(NP (NP (CC )(NP (PRP$ )(NN )))(IN )(NP (NP (NNS )(CC )(NNS ))(NP (JJ )(NNP ))))
+Phase: generated35730
+Input: Token
+Rule: generated35730
+(
+((({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })))({ Token.category == IN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNP }))))):pttrn35730 --> :pttrn35730.extracted={}
+

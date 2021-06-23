@@ -1,0 +1,8 @@
+are various rules andconstraints, like power limitations and harmfulinterference from existing applications
+(VP (VBP )(NP (JJ )(NNS ){1,2})(PP (IN )(NP (NP (NN )(NNS ))(CC ))))
+Phase: generated47626
+Input: Token
+Rule: generated47626
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NNS })+)(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn47626 --> :pttrn47626.extracted={}
+

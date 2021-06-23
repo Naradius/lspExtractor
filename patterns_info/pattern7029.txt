@@ -1,0 +1,8 @@
+to the number ofnodes
+(PP (TO )(NP (DT )(NN )(NNS )))
+Phase: generated7029
+Input: Token
+Rule: generated7029
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn7029 --> :pttrn7029.extracted={}
+

@@ -1,0 +1,8 @@
+better energy efficiency
+(NP (JJR )(NN ){1,2})
+Phase: generated10861
+Input: Token
+Rule: generated10861
+(
+(({ Token.category == JJR })({ Token.category == NN })+)):pttrn10861 --> :pttrn10861.extracted={}
+

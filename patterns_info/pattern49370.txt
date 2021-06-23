@@ -1,0 +1,8 @@
+.bouabdallah@utc.frmailto:abdelmadjid.bouabdallah@utc.frmailto:yacine
+(NP (NN )(CC )(NN ){1,2})
+Phase: generated49370
+Input: Token
+Rule: generated49370
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)):pttrn49370 --> :pttrn49370.extracted={}
+

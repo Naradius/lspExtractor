@@ -1,0 +1,8 @@
+leads to a lack of flexibility, or theycan be set up dynamically for improved adaptation to traf-fic conditions
+(VP (VBZ )(VP (VB )(VP (VBN )(PRT (RP ))(PP (IN )(NP (NP (JJ )(NN ))(PP (TO )(NP (JJ )(NNS ))))))))
+Phase: generated51231
+Input: Token
+Rule: generated51231
+(
+(({ Token.category == VBZ })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == RP }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn51231 --> :pttrn51231.extracted={}
+

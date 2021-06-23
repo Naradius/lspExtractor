@@ -1,0 +1,8 @@
+with a grammar for the allowed spatial relations
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(JJ )(NNS )))))
+Phase: generated105405
+Input: Token
+Rule: generated105405
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn105405 --> :pttrn105405.extracted={}
+

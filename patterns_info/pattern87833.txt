@@ -1,0 +1,8 @@
+1 ormore text elements
+(NP (CD )(NN )(NNS ))
+Phase: generated87833
+Input: Token
+Rule: generated87833
+(
+(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn87833 --> :pttrn87833.extracted={}
+

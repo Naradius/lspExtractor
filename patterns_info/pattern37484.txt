@@ -1,0 +1,8 @@
+the devices
+(NP (DT )(NNS ))
+Phase: generated37484
+Input: Token
+Rule: generated37484
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn37484 --> :pttrn37484.extracted={}
+

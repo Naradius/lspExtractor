@@ -1,0 +1,8 @@
+E 2 be two terms
+(NP (NP (NNP )(CD ))(NP (CD )(NNS )))
+Phase: generated118595
+Input: Token
+Rule: generated118595
+(
+((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == CD })({ Token.category == NNS })))):pttrn118595 --> :pttrn118595.extracted={}
+

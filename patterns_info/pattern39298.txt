@@ -1,0 +1,8 @@
+an advantage of a host basedintrusion
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated39298
+Input: Token
+Rule: generated39298
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn39298 --> :pttrn39298.extracted={}
+

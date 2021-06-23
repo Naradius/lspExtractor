@@ -1,0 +1,8 @@
+then change the tag X to the tag YorUnannotatedcorpusInitial stateannotatorTemporarycorpusGoalcorpusLexical/contextual LearnerRules3If Trigger
+(VP (VB )(NP (DT )(NN )(NNP ))(PP (TO )(NP (DT )(NN )(JJ ){1,2}(NNP ){1,2})))
+Phase: generated91305
+Input: Token
+Rule: generated91305
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NNP })+)))):pttrn91305 --> :pttrn91305.extracted={}
+

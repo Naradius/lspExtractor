@@ -1,0 +1,8 @@
+clus-tered all the strings from both the systems that were one editdistance away and normalized them to their most frequent spel-ling variation
+(VP (VBD )(NP (PDT )(DT )(NNS ))(PP (IN )(NP (DT )(NP (NP (DT )(NNS ))(VP (VP (VBD )(NP (CD )(NN )))(CC )(VP (VBD )(PP (TO )(NP (PRP$ )(ADJP (RBS )(JJ ))(NN ){1,2}))))))))
+Phase: generated74981
+Input: Token
+Rule: generated74981
+(
+(({ Token.category == VBD })(({ Token.category == PDT })({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })((({ Token.category == DT })({ Token.category == NNS }))((({ Token.category == VBD })(({ Token.category == CD })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == PRP$ })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN })+))))))))):pttrn74981 --> :pttrn74981.extracted={}
+

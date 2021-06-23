@@ -1,0 +1,8 @@
+of the common anno-tation scheme
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated87439
+Input: Token
+Rule: generated87439
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn87439 --> :pttrn87439.extracted={}
+

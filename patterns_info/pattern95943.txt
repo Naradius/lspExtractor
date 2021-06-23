@@ -1,0 +1,8 @@
+a lin-guistically motivated perspective
+(NP (DT )(ADJP (RB )(JJ ))(NN ))
+Phase: generated95943
+Input: Token
+Rule: generated95943
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))):pttrn95943 --> :pttrn95943.extracted={}
+

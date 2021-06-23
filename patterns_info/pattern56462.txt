@@ -1,0 +1,8 @@
+chain-based binary schemefor sensor networks with CDMA nodes and chain-based 3-levelscheme for sensor networks with non-CDMA nodes
+(NP (NP (JJ ){1,2}(NN ){1,2}(NNS ))(PP (IN )(NP (NP (NNP )(NNS ))(CC ))))
+Phase: generated56462
+Input: Token
+Rule: generated56462
+(
+((({ Token.category == JJ })+({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn56462 --> :pttrn56462.extracted={}
+

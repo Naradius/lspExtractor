@@ -1,0 +1,8 @@
+in the VNLayer/VaNetLayer comparison
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated16298
+Input: Token
+Rule: generated16298
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn16298 --> :pttrn16298.extracted={}
+

@@ -1,0 +1,8 @@
+road segments
+(NP (NN )(NNS ))
+Phase: generated16910
+Input: Token
+Rule: generated16910
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn16910 --> :pttrn16910.extracted={}
+

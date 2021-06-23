@@ -1,0 +1,8 @@
+in IoT infrastructures
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated25775
+Input: Token
+Rule: generated25775
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn25775 --> :pttrn25775.extracted={}
+

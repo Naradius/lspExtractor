@@ -1,0 +1,8 @@
+the entire information extraction task
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated80678
+Input: Token
+Rule: generated80678
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn80678 --> :pttrn80678.extracted={}
+

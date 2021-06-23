@@ -1,0 +1,8 @@
+fine-grainedMWU resources
+(NP (JJ )(NNS ))
+Phase: generated106325
+Input: Token
+Rule: generated106325
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn106325 --> :pttrn106325.extracted={}
+

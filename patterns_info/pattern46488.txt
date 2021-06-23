@@ -1,0 +1,8 @@
+facilitate a higher quality of life for the sub-jects compared to the treatment centers
+(VP (VBP )(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (TO )(NP (DT )(NN )(NNS )))))))
+Phase: generated46488
+Input: Token
+Rule: generated46488
+(
+(({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn46488 --> :pttrn46488.extracted={}
+

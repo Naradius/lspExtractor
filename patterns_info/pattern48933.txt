@@ -1,0 +1,8 @@
+broadcastwith same power level without any power con-trol
+(VP (VBP )(NP (JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated48933
+Input: Token
+Rule: generated48933
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn48933 --> :pttrn48933.extracted={}
+

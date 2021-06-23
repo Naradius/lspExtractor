@@ -1,0 +1,8 @@
+are used with the purpose to lessen down this list to just a single part-of-speech for each word
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN )))(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN )))(PP (TO )(NP (RB )(DT )(JJ )(NN )))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated97764
+Input: Token
+Rule: generated97764
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == RB })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn97764 --> :pttrn97764.extracted={}
+

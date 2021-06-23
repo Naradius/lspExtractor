@@ -1,0 +1,8 @@
+of relational tuples
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated79474
+Input: Token
+Rule: generated79474
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn79474 --> :pttrn79474.extracted={}
+

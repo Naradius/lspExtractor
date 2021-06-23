@@ -1,0 +1,8 @@
+traditional sensors
+(NP (JJ )(NNS ))
+Phase: generated45908
+Input: Token
+Rule: generated45908
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn45908 --> :pttrn45908.extracted={}
+

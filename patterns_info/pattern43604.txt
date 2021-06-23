@@ -1,0 +1,8 @@
+Cooperative caching
+(NP (JJ )(NN ))
+Phase: generated43604
+Input: Token
+Rule: generated43604
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn43604 --> :pttrn43604.extracted={}
+

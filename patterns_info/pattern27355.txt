@@ -1,0 +1,8 @@
+According to Table 3
+(VP (VBG )(PP (TO )(NP (NN )(CD ))))
+Phase: generated27355
+Input: Token
+Rule: generated27355
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == NN })({ Token.category == CD }))))):pttrn27355 --> :pttrn27355.extracted={}
+

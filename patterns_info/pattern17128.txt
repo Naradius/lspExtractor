@@ -1,0 +1,8 @@
+in hop count and distance
+(PP (IN )(NP (NN ){1,2}(CC )(NN )))
+Phase: generated17128
+Input: Token
+Rule: generated17128
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })))):pttrn17128 --> :pttrn17128.extracted={}
+

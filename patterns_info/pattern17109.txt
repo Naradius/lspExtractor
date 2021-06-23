@@ -1,0 +1,8 @@
+the solid line
+(NP (DT )(JJ )(NN ))
+Phase: generated17109
+Input: Token
+Rule: generated17109
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn17109 --> :pttrn17109.extracted={}
+

@@ -1,0 +1,8 @@
+a formal operation
+(NP (DT )(JJ )(NN ))
+Phase: generated70826
+Input: Token
+Rule: generated70826
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn70826 --> :pttrn70826.extracted={}
+

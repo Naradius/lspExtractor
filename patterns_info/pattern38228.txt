@@ -1,0 +1,8 @@
+a standalone system oras a collaborative system
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated38228
+Input: Token
+Rule: generated38228
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn38228 --> :pttrn38228.extracted={}
+

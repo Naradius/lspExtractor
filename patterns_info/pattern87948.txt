@@ -1,0 +1,8 @@
+to identify the participants in the event.3.1.2
+(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated87948
+Input: Token
+Rule: generated87948
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn87948 --> :pttrn87948.extracted={}
+

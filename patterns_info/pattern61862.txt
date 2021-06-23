@@ -1,0 +1,8 @@
+is comprised of source locationrivacy and sink location privacy
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NN ){1,2}(CC )(NN ){1,2}))))
+Phase: generated61862
+Input: Token
+Rule: generated61862
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+))))):pttrn61862 --> :pttrn61862.extracted={}
+

@@ -1,0 +1,8 @@
+to a new mechanism that we callsoft handoff , borrowing terminology from the area of cellularnetworks.The soft handoff mechanism is actually an extension of thenew route correction procedure of the VaNetLayer: The goal isto maintain stable and valid routes proactively but consideringthe movements of intermediate PNs in the routes  instead of the movements of the destinations
+(PP (TO )(NP (NP (DT )(JJ )(NN ))(VP (VBD )(VP (VBG )(IN )))))
+Phase: generated15935
+Input: Token
+Rule: generated15935
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBD })(({ Token.category == VBG })({ Token.category == IN })))))):pttrn15935 --> :pttrn15935.extracted={}
+

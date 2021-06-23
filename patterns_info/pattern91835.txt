@@ -1,0 +1,8 @@
+for each template
+(PP (IN )(NP (DT )(NN )))
+Phase: generated91835
+Input: Token
+Rule: generated91835
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn91835 --> :pttrn91835.extracted={}
+

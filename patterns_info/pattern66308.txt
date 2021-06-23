@@ -1,0 +1,8 @@
+routing and monitoring, algorithms and channel-ependent key shares
+(NP (NN )(CC )(NN )(NNS )(CC )(JJ ){1,2}(NNS ))
+Phase: generated66308
+Input: Token
+Rule: generated66308
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn66308 --> :pttrn66308.extracted={}
+

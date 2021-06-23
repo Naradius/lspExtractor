@@ -1,0 +1,8 @@
+the 24th annual meeting of the associationfor computational linguistics
+(NP (NP (DT )(JJ ){1,2}(NN ))(PP (IN )(NP (DT )(NN )(JJ )(NNS ))))
+Phase: generated73603
+Input: Token
+Rule: generated73603
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn73603 --> :pttrn73603.extracted={}
+

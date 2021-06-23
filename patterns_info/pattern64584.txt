@@ -1,0 +1,8 @@
+a pride byfighting its males
+(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(NNS ))))
+Phase: generated64584
+Input: Token
+Rule: generated64584
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))):pttrn64584 --> :pttrn64584.extracted={}
+

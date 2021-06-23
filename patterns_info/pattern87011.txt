@@ -1,0 +1,8 @@
+on the validation sample
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated87011
+Input: Token
+Rule: generated87011
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn87011 --> :pttrn87011.extracted={}
+

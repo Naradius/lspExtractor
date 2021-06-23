@@ -1,0 +1,8 @@
+a reactive technique
+(NP (DT )(NN ){1,2})
+Phase: generated43864
+Input: Token
+Rule: generated43864
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn43864 --> :pttrn43864.extracted={}
+

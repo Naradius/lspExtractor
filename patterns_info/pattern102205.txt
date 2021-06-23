@@ -1,0 +1,8 @@
+establishes new relations betweenpreviously unconnected vertex objects.2.2
+(VP (VBZ )(NP (JJ )(NNS ))(RB ))
+Phase: generated102205
+Input: Token
+Rule: generated102205
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == RB }))):pttrn102205 --> :pttrn102205.extracted={}
+

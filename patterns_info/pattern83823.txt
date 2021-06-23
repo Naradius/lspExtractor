@@ -1,0 +1,8 @@
+use a voting scheme
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated83823
+Input: Token
+Rule: generated83823
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn83823 --> :pttrn83823.extracted={}
+

@@ -1,0 +1,8 @@
+:= tfor every dr :=  attached to v doM = if mdiis of the form < z : xk! > ^ k = l ^ l = l thenproceed(G; )else if mdiis of the form < z : xk!y > ^ v0= h ^ k = l thenproceed(G; )fiodfor every dr :=  attached to v0 doM = if mdiis of the form < z : xk  > ^ k = l ^ l = l thenproceed(G; )fiodIn the main loop of the bottom-up phase the next to be processed dotted rule is selected atrandom
+(VP (VB )(PP (IN )(NP (NP (DT )(VBG )(NN ))(VP (VBN )(VP (TO )(VP (VB )(IN )))))))
+Phase: generated104203
+Input: Token
+Rule: generated104203
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))))))):pttrn104203 --> :pttrn104203.extracted={}
+

@@ -1,0 +1,8 @@
+a complete syntaxdefinition for the visual language of ER diagrams.PARSING VISUAL LANGUAGES WITH LAYERED GRAPH GRAMMARS 31 Entity
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNP )(NN )(NNP ){1,2})))(PP (IN )(NP (NNP ){1,2}(CD )(NNP ))))))
+Phase: generated105448
+Input: Token
+Rule: generated105448
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP })+)))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNP }))))))):pttrn105448 --> :pttrn105448.extracted={}
+

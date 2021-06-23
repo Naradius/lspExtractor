@@ -1,0 +1,8 @@
+2. Illustrative example of the construction of a graph based on the position of the IoT nodes on a map.road network and the metro network.
+(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NP (DT )(NNP )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))(CC )(NP (DT )(NN ){1,2})))))))
+Phase: generated29157
+Input: Token
+Rule: generated29157
+(
+(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn29157 --> :pttrn29157.extracted={}
+

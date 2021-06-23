@@ -1,0 +1,8 @@
+at ScienceDirect Computer Networks journal homepage
+(PP (IN )(NP (NNP ){1,2}(NN ){1,2}))
+Phase: generated60364
+Input: Token
+Rule: generated60364
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })+))):pttrn60364 --> :pttrn60364.extracted={}
+

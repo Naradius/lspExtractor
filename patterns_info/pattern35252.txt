@@ -1,0 +1,8 @@
+a new block
+(NP (DT )(JJ )(NN ))
+Phase: generated35252
+Input: Token
+Rule: generated35252
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn35252 --> :pttrn35252.extracted={}
+

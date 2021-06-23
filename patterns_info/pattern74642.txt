@@ -1,0 +1,8 @@
+achieves very high accuracy and zero recall.Precision  is the percentage ofcorrect tokens among all the tokens that are extracted
+(VP (VBZ )(NP (NP (ADJP (RB )(JJ ))(NN ))(CC )(NP (CD )(NN ))))
+Phase: generated74642
+Input: Token
+Rule: generated74642
+(
+(({ Token.category == VBZ })(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN }))))):pttrn74642 --> :pttrn74642.extracted={}
+

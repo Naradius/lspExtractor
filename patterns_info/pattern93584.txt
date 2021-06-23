@@ -1,0 +1,8 @@
+assigned to the left-handside  entity sub.Regarding speed
+(VP (VBN )(PP (TO )(NP (DT )(JJ )(NN )(JJ )(NN ))))
+Phase: generated93584
+Input: Token
+Rule: generated93584
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))):pttrn93584 --> :pttrn93584.extracted={}
+

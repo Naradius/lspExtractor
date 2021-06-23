@@ -1,0 +1,8 @@
+to providesnapshot and long-running queries.Precision Agriculture: Some of the benefits is theability to monitor the pesticides level in the drink-ing water, the level of soil erosion, and the level ofair pollution in realtime.2.3
+(PP (TO )(NP (CC )(NP (NP (JJ )(NN )(NNP ))(VP (VBZ )(NP (CC )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(CD )))))))))
+Phase: generated46424
+Input: Token
+Rule: generated46424
+(
+(({ Token.category == TO })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == VBZ })(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))))):pttrn46424 --> :pttrn46424.extracted={}
+

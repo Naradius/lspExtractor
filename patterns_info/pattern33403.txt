@@ -1,0 +1,8 @@
+based algorithm for the QoS routing
+(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated33403
+Input: Token
+Rule: generated33403
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn33403 --> :pttrn33403.extracted={}
+

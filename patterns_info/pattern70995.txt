@@ -1,0 +1,8 @@
+a step-by-step learning procedure
+(NP (DT )(NN ){1,2})
+Phase: generated70995
+Input: Token
+Rule: generated70995
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn70995 --> :pttrn70995.extracted={}
+

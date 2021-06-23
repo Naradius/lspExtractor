@@ -1,0 +1,8 @@
+species some frequencybands that may be made available for ISM appli-cations
+(VP (VBZ )(NP (NP (DT )(NNS ))(VP (MD )(VP (VB )(VP (VBN )(ADJP (JJ )(PP (IN )(NP (NNP )(NNS )))))))))
+Phase: generated47559
+Input: Token
+Rule: generated47559
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))))))):pttrn47559 --> :pttrn47559.extracted={}
+

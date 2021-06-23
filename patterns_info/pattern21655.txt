@@ -1,0 +1,8 @@
+IoT transmission powerwhile
+(NP (NNP )(NN ){1,2})
+Phase: generated21655
+Input: Token
+Rule: generated21655
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn21655 --> :pttrn21655.extracted={}
+

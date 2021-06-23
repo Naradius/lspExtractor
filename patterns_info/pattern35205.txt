@@ -1,0 +1,8 @@
+causing othernodes to use the attackers ledger as a real ledger.The consensus algorithm used limits the numberof blocks that can be generated in a time interval,which limits the number of malicious blocks thatcan be increased, thus preventing the attackerfrom generating the longest ledger and using it asa real ledger.9
+(VP (VBG )(VP (TO )(VP (VB )(NP (DT )(NNS )(NN ))(IN ))))
+Phase: generated35205
+Input: Token
+Rule: generated35205
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))({ Token.category == IN }))))):pttrn35205 --> :pttrn35205.extracted={}
+

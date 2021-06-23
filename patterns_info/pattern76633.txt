@@ -1,0 +1,8 @@
+can be selected to understand the source of the patternas well as example participating entities.
+(VP (MD )(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))(PP (RB )(IN )(NP (NN )(VBG )(NNS )))))))))
+Phase: generated76633
+Input: Token
+Rule: generated76633
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == RB })({ Token.category == IN })(({ Token.category == NN })({ Token.category == VBG })({ Token.category == NNS })))))))))):pttrn76633 --> :pttrn76633.extracted={}
+

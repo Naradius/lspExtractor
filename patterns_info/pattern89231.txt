@@ -1,0 +1,8 @@
+be possible to track literature citations andto associate sentences containing them with specific bibliographic entries, for example.Parmenides Technical Report TR-U4.3.1
+(VP (VB )(VP (TO )(VP (VB )(NP (NN )(NNS ))(PP (IN )(NP (NP (NN )(NNS ))(VP (VBG )(PP (IN )(NP (JJ ){1,2}(NNS )))))))))
+Phase: generated89231
+Input: Token
+Rule: generated89231
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))))))):pttrn89231 --> :pttrn89231.extracted={}
+

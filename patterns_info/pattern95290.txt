@@ -1,0 +1,8 @@
+the Hermes Information Extraction Engine
+(NP (DT )(NNP ){1,2})
+Phase: generated95290
+Input: Token
+Rule: generated95290
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn95290 --> :pttrn95290.extracted={}
+

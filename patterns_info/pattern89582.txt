@@ -1,0 +1,8 @@
+assembled in the order: phrase and entity, relation and event
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated89582
+Input: Token
+Rule: generated89582
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn89582 --> :pttrn89582.extracted={}
+

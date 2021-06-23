@@ -1,0 +1,8 @@
+to the next node in the network
+(PP (TO )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated53886
+Input: Token
+Rule: generated53886
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn53886 --> :pttrn53886.extracted={}
+

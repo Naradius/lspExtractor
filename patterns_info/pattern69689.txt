@@ -1,0 +1,8 @@
+of theorthogonal array
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated69689
+Input: Token
+Rule: generated69689
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn69689 --> :pttrn69689.extracted={}
+

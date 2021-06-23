@@ -1,0 +1,8 @@
+decomposed in a sequence of simple to-kens and relabeled in the IOB representation
+(VP (VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))(CC )(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN )))))
+Phase: generated105887
+Input: Token
+Rule: generated105887
+(
+((({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn105887 --> :pttrn105887.extracted={}
+

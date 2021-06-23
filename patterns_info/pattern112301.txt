@@ -1,0 +1,8 @@
+The Journal of DefenseModeling and Simulation 13  331342
+(NP (NP (DT )(NNP ))(PP (IN )(NP (NNP )(CC )(NNP )(CD ){1,2})))
+Phase: generated112301
+Input: Token
+Rule: generated112301
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == CD })+)))):pttrn112301 --> :pttrn112301.extracted={}
+

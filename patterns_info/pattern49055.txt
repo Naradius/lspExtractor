@@ -1,0 +1,8 @@
+aggregates the datafrom sensor nodes A and B while sensor node Faggregates the data from sensor nodes C and Das shown in Fig. 5. Data aggregation can be per-ceived as a set of automated methods of combiningthe data that comes from many sensor nodes into aset of meaningful information
+(VP (VBZ )(NP (DT )(NN ){1,2}(NNS ))(NP (DT )(CC )(NNP )))
+Phase: generated49055
+Input: Token
+Rule: generated49055
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == CC })({ Token.category == NNP })))):pttrn49055 --> :pttrn49055.extracted={}
+

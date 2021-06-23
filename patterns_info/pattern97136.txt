@@ -1,0 +1,8 @@
+in processing natural languages
+(PP (IN )(VP (VBG )(NP (JJ )(NNS ))))
+Phase: generated97136
+Input: Token
+Rule: generated97136
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn97136 --> :pttrn97136.extracted={}
+

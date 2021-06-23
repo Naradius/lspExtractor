@@ -1,0 +1,8 @@
+the serial number received by the current node
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated33178
+Input: Token
+Rule: generated33178
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn33178 --> :pttrn33178.extracted={}
+

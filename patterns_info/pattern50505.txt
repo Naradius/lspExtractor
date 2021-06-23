@@ -1,0 +1,8 @@
+one-to-many and one-to-one communications
+(NP (ADJP (JJ )(CC )(JJ ))(NNS ))
+Phase: generated50505
+Input: Token
+Rule: generated50505
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn50505 --> :pttrn50505.extracted={}
+

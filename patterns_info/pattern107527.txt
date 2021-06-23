@@ -1,0 +1,8 @@
+transmit the packets from the source to the destination
+(VP (VB )(NP (DT )(NNS ))(PP (IN )(NP (DT )(NN )))(PP (TO )(NP (DT )(NN ))))
+Phase: generated107527
+Input: Token
+Rule: generated107527
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn107527 --> :pttrn107527.extracted={}
+

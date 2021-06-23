@@ -1,0 +1,8 @@
+uses twosteps namely as initialization and partitioning
+(VP (VBZ )(PP (IN )(NP (NN )(CC )(NN ))))
+Phase: generated54333
+Input: Token
+Rule: generated54333
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn54333 --> :pttrn54333.extracted={}
+

@@ -1,0 +1,8 @@
+between the nodes, and 2
+(PP (IN )(NP (NP (DT )(NNS ))(CC )))
+Phase: generated27885
+Input: Token
+Rule: generated27885
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })))):pttrn27885 --> :pttrn27885.extracted={}
+

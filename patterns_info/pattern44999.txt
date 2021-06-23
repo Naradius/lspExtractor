@@ -1,0 +1,8 @@
+the data linklayer
+(NP (DT )(NNS )(NN ))
+Phase: generated44999
+Input: Token
+Rule: generated44999
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))):pttrn44999 --> :pttrn44999.extracted={}
+

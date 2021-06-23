@@ -1,0 +1,8 @@
+the algo-rithmic details
+(NP (DT )(JJ )(NNS ))
+Phase: generated16981
+Input: Token
+Rule: generated16981
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn16981 --> :pttrn16981.extracted={}
+

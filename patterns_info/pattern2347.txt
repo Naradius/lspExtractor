@@ -1,0 +1,8 @@
+for the simulation modeling of all protocols
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS )))))
+Phase: generated2347
+Input: Token
+Rule: generated2347
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn2347 --> :pttrn2347.extracted={}
+

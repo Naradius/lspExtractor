@@ -1,0 +1,8 @@
+in  to adopt real-valued weight-based clustering
+(PP (IN )(VP (TO )(VP (VB )(NP (JJ ){1,2}(NN )))))
+Phase: generated6392
+Input: Token
+Rule: generated6392
+(
+(({ Token.category == IN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == NN })))))):pttrn6392 --> :pttrn6392.extracted={}
+

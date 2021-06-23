@@ -1,0 +1,8 @@
+shown in Figure 16 for instances to betagged
+(VP (VBN )(PP (IN )(NP (NN )(CD ))))
+Phase: generated83830
+Input: Token
+Rule: generated83830
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))):pttrn83830 --> :pttrn83830.extracted={}
+

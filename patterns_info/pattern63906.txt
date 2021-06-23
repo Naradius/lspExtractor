@@ -1,0 +1,8 @@
+mark their territory
+(VP (VBP )(NP (PRP$ )(NN )))
+Phase: generated63906
+Input: Token
+Rule: generated63906
+(
+(({ Token.category == VBP })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn63906 --> :pttrn63906.extracted={}
+

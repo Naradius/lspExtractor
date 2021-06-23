@@ -1,0 +1,8 @@
+become the CMs.
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated54345
+Input: Token
+Rule: generated54345
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn54345 --> :pttrn54345.extracted={}
+

@@ -1,0 +1,8 @@
+of input characters
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated81385
+Input: Token
+Rule: generated81385
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn81385 --> :pttrn81385.extracted={}
+

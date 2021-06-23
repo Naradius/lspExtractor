@@ -1,0 +1,8 @@
+a message between two nodes in thenetwork.2.1.3
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (CD )(NNS ))(PP (IN )(NP (DT )(CD ))))))
+Phase: generated53463
+Input: Token
+Rule: generated53463
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD }))))))):pttrn53463 --> :pttrn53463.extracted={}
+

@@ -1,0 +1,8 @@
+the previous two tags
+(NP (DT )(JJ )(CD )(NNS ))
+Phase: generated96590
+Input: Token
+Rule: generated96590
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS }))):pttrn96590 --> :pttrn96590.extracted={}
+

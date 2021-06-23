@@ -1,0 +1,8 @@
+select strategies ak and aj withprobabilities  and  , respectively, then their opponents, i.e., restof the interfering SD pairs will be indifferent about the outcomesof their choices
+(VP (VP (VBP )(NP (ADJP (JJ )(CC )(JJ ))(NNS )))(CC ))
+Phase: generated23417
+Input: Token
+Rule: generated23417
+(
+((({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS })))({ Token.category == CC }))):pttrn23417 --> :pttrn23417.extracted={}
+

@@ -1,0 +1,8 @@
+for this group of routing protocols
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated25744
+Input: Token
+Rule: generated25744
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn25744 --> :pttrn25744.extracted={}
+

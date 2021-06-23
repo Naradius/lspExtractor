@@ -1,0 +1,8 @@
+Parsing and Generation
+(NP (NNP )(CC )(NNP ))
+Phase: generated106253
+Input: Token
+Rule: generated106253
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn106253 --> :pttrn106253.extracted={}
+

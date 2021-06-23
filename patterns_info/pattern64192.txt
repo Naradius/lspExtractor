@@ -1,0 +1,8 @@
+obtained as follows:PREY 0  PREYrand 0
+(VP (VBN )(PP (IN )(VP (VBZ )(NP (NNP )(CD )(JJ )(CD )))))
+Phase: generated64192
+Input: Token
+Rule: generated64192
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBZ })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == JJ })({ Token.category == CD })))))):pttrn64192 --> :pttrn64192.extracted={}
+

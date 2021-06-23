@@ -1,0 +1,8 @@
+to do this atleast semi-automatically
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated92629
+Input: Token
+Rule: generated92629
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn92629 --> :pttrn92629.extracted={}
+

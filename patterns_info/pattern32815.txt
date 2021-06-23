@@ -1,0 +1,8 @@
+HELLO informationexchange
+(NP (NNP )(NN ))
+Phase: generated32815
+Input: Token
+Rule: generated32815
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn32815 --> :pttrn32815.extracted={}
+

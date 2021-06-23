@@ -1,0 +1,8 @@
+3.2 Edge router detection
+(NP (CD )(NNP )(NN ){1,2})
+Phase: generated38701
+Input: Token
+Rule: generated38701
+(
+(({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })+)):pttrn38701 --> :pttrn38701.extracted={}
+

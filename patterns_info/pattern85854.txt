@@ -1,0 +1,8 @@
+show the document size  for each dataset as mentioned earlier
+(VP (VBP )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ))(IN )))))
+Phase: generated85854
+Input: Token
+Rule: generated85854
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == IN })))))):pttrn85854 --> :pttrn85854.extracted={}
+

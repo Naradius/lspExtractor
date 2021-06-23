@@ -1,0 +1,8 @@
+the distance between the two nodes, which is present inside the particular disjoint routing path
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(CD )(NNS ))(VP (VBZ )(ADJP (JJ )(PP (IN )(NP (DT )(JJ )(NN ){1,2})))))))
+Phase: generated108447
+Input: Token
+Rule: generated108447
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))))):pttrn108447 --> :pttrn108447.extracted={}
+

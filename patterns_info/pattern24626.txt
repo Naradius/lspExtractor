@@ -1,0 +1,8 @@
+the University of Calcutta,the ME degree
+(NP (NP (DT )(NNP ))(PP (IN )(NP (NNP ){1,2}(NN ))))
+Phase: generated24626
+Input: Token
+Rule: generated24626
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))):pttrn24626 --> :pttrn24626.extracted={}
+

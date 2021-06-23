@@ -1,0 +1,8 @@
+of a current tag given the previous two tags
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(NP (DT )(JJ )(CD )(NNS )))))
+Phase: generated96595
+Input: Token
+Rule: generated96595
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS })))))):pttrn96595 --> :pttrn96595.extracted={}
+

@@ -1,0 +1,8 @@
+passive RFID wake-up radios called WISP-Motes and RFID readers
+(NP (NP (JJ )(NNP )(NN )(NNS ))(VP (VBD )(NP (NNP )(CC )(NNP )(NNS ))))
+Phase: generated51262
+Input: Token
+Rule: generated51262
+(
+((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNS }))))):pttrn51262 --> :pttrn51262.extracted={}
+

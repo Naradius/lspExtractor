@@ -1,0 +1,8 @@
+are no hole between source and intermediate relay
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (CC )(NP (JJ )(NN ))))))
+Phase: generated17720
+Input: Token
+Rule: generated17720
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn17720 --> :pttrn17720.extracted={}
+

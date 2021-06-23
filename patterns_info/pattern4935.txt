@@ -1,0 +1,8 @@
+identifythe optimal number of ants to achieve T-ANTs best per-formance based on the deployment parameters.In order to observe the generality of the above finding,we used Eq.  to determine the optimal number of clus-ters for different terrain areas as well as number of nodes.In Fig. 4, a wireframe 3D plot is given to depict how theoptimal number varies with the two factors
+(VP (VB )(NP (NP (JJ )(NN ))(VP (TO )(VP (VB )(NP (NP (DT )(JJS )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated4935
+Input: Token
+Rule: generated4935
+(
+(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn4935 --> :pttrn4935.extracted={}
+

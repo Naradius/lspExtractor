@@ -1,0 +1,8 @@
+freespectrum and relay IoT devices or hops
+(NP (NN )(CC )(NN ){1,2}(NNS )(CC )(NNS ))
+Phase: generated22243
+Input: Token
+Rule: generated22243
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn22243 --> :pttrn22243.extracted={}
+

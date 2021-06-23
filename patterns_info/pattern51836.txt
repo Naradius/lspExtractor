@@ -1,0 +1,8 @@
+for the design of wireless charging protocols andenergy cooperative systems
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(VBG )(NNS ))(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated51836
+Input: Token
+Rule: generated51836
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn51836 --> :pttrn51836.extracted={}
+

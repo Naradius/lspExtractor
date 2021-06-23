@@ -1,0 +1,8 @@
+of the TOHIP
+(PP (IN )(NP (DT )(NN )))
+Phase: generated109197
+Input: Token
+Rule: generated109197
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn109197 --> :pttrn109197.extracted={}
+

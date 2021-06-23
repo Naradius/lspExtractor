@@ -1,0 +1,8 @@
+a scalable and robustdata routing strategy
+(NP (DT )(JJ )(CC )(JJ )(NN ){1,2})
+Phase: generated6579
+Input: Token
+Rule: generated6579
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })+)):pttrn6579 --> :pttrn6579.extracted={}
+

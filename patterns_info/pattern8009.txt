@@ -1,0 +1,8 @@
+be many nodes at each hop
+(VP (VB )(NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated8009
+Input: Token
+Rule: generated8009
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn8009 --> :pttrn8009.extracted={}
+

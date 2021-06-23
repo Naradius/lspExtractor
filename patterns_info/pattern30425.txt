@@ -1,0 +1,8 @@
+the Talent AttractionProgramme .References B. Lapillonne
+(NP (DT )(NNP ){1,2})
+Phase: generated30425
+Input: Token
+Rule: generated30425
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn30425 --> :pttrn30425.extracted={}
+

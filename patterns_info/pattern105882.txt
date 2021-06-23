@@ -1,0 +1,8 @@
+in a sequence of simple to-kens
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated105882
+Input: Token
+Rule: generated105882
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn105882 --> :pttrn105882.extracted={}
+

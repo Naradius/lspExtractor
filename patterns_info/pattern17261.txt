@@ -1,0 +1,8 @@
+happens only when holes amid in path
+(VP (VBZ )(WHADVP (WRB )))
+Phase: generated17261
+Input: Token
+Rule: generated17261
+(
+(({ Token.category == VBZ })(({ Token.category == WRB })))):pttrn17261 --> :pttrn17261.extracted={}
+

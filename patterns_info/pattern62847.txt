@@ -1,0 +1,8 @@
+N h- re selected as next-hop candidates
+(NP (NP (NNP )(NN ){1,2})(VP (VBN )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated62847
+Input: Token
+Rule: generated62847
+(
+((({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn62847 --> :pttrn62847.extracted={}
+

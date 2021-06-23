@@ -1,0 +1,8 @@
+an OMNeT ++ simulation
+(NP (DT )(NNP ){1,2}(NN ))
+Phase: generated110685
+Input: Token
+Rule: generated110685
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))):pttrn110685 --> :pttrn110685.extracted={}
+

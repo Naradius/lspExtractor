@@ -1,0 +1,8 @@
+of the knowledgeitems
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated72864
+Input: Token
+Rule: generated72864
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn72864 --> :pttrn72864.extracted={}
+

@@ -1,0 +1,8 @@
+are regarded as distinct knowledge items
+(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated72623
+Input: Token
+Rule: generated72623
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn72623 --> :pttrn72623.extracted={}
+

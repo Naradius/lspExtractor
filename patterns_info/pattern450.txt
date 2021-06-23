@@ -1,0 +1,8 @@
+the destination's
+(NP (DT )(NN )(POS ))
+Phase: generated450
+Input: Token
+Rule: generated450
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))):pttrn450 --> :pttrn450.extracted={}
+

@@ -1,0 +1,8 @@
+as part-of-speech and its form
+(PP (IN )(NP (CC )(NP (PRP$ )(NN ))))
+Phase: generated113527
+Input: Token
+Rule: generated113527
+(
+(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn113527 --> :pttrn113527.extracted={}
+

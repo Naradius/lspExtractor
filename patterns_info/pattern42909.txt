@@ -1,0 +1,8 @@
+the HDRP protocol.8.2.2
+(NP (DT )(NNP )(NN ))
+Phase: generated42909
+Input: Token
+Rule: generated42909
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn42909 --> :pttrn42909.extracted={}
+

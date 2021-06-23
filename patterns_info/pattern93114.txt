@@ -1,0 +1,8 @@
+general framework that lies underneath theHNP and the HIEE plug-in
+(NP (NP (JJ )(NN ))(VP (VBZ )(PP (IN )(NP (CC )(NP (DT )(NN ){1,2})))))
+Phase: generated93114
+Input: Token
+Rule: generated93114
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn93114 --> :pttrn93114.extracted={}
+

@@ -1,0 +1,8 @@
+a Redmond Barry Distinguished Pro-fessor and Director of the Cloud Computing and Dis-tributed Systems  Laboratory at the Universityof Melbourne, Australia
+(NP (NP (DT )(NNP ){1,2})(CC ))
+Phase: generated20059
+Input: Token
+Rule: generated20059
+(
+((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC }))):pttrn20059 --> :pttrn20059.extracted={}
+

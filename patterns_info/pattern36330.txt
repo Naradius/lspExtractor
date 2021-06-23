@@ -1,0 +1,8 @@
+The security issue
+(NP (DT )(NN ){1,2})
+Phase: generated36330
+Input: Token
+Rule: generated36330
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn36330 --> :pttrn36330.extracted={}
+

@@ -1,0 +1,8 @@
+a backup
+(NP (DT )(NN ))
+Phase: generated13818
+Input: Token
+Rule: generated13818
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn13818 --> :pttrn13818.extracted={}
+

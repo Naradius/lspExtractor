@@ -1,0 +1,8 @@
+of each slot
+(PP (IN )(NP (DT )(NN )))
+Phase: generated79493
+Input: Token
+Rule: generated79493
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn79493 --> :pttrn79493.extracted={}
+

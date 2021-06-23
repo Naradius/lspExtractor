@@ -1,0 +1,8 @@
+choosing the question taxonomythat will be used during the QG.
+(VP (VBG )(NP (NP (DT )(NN ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NNP ))))))))
+Phase: generated101818
+Input: Token
+Rule: generated101818
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))))))):pttrn101818 --> :pttrn101818.extracted={}
+

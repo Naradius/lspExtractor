@@ -1,0 +1,8 @@
+are slightly modified.An example
+(VP (VBP )(NP (ADJP (RB )(JJ ))(NN )))
+Phase: generated69622
+Input: Token
+Rule: generated69622
+(
+(({ Token.category == VBP })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })))):pttrn69622 --> :pttrn69622.extracted={}
+

@@ -1,0 +1,8 @@
+dummy prey
+(NP (JJ )(NN ))
+Phase: generated64180
+Input: Token
+Rule: generated64180
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn64180 --> :pttrn64180.extracted={}
+

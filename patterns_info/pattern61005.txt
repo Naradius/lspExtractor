@@ -1,0 +1,8 @@
+theuzzy based routing protocol developed in this work
+(NP (NP (JJ )(VBN )(VBG )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated61005
+Input: Token
+Rule: generated61005
+(
+((({ Token.category == JJ })({ Token.category == VBN })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn61005 --> :pttrn61005.extracted={}
+

@@ -1,0 +1,8 @@
+indentation.Figure 15 shows
+(NP (NN )(CD )(NNS ))
+Phase: generated83405
+Input: Token
+Rule: generated83405
+(
+(({ Token.category == NN })({ Token.category == CD })({ Token.category == NNS }))):pttrn83405 --> :pttrn83405.extracted={}
+

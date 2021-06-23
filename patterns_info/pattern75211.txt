@@ -1,0 +1,8 @@
+labeling data
+(NP (NN )(NNS ))
+Phase: generated75211
+Input: Token
+Rule: generated75211
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn75211 --> :pttrn75211.extracted={}
+

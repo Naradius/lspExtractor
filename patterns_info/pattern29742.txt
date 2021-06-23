@@ -1,0 +1,8 @@
+to the voting coalition
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated29742
+Input: Token
+Rule: generated29742
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn29742 --> :pttrn29742.extracted={}
+

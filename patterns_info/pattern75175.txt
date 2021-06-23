@@ -1,0 +1,8 @@
+milk free diets and smelly nasal discharge.One
+(NP (NN )(JJ )(NNS )(CC )(NN )(JJ )(NN ){1,2})
+Phase: generated75175
+Input: Token
+Rule: generated75175
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)):pttrn75175 --> :pttrn75175.extracted={}
+

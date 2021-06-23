@@ -1,0 +1,8 @@
+optimize QoS routing
+(VP (VB )(NP (NNP )(NN )))
+Phase: generated32554
+Input: Token
+Rule: generated32554
+(
+(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NN })))):pttrn32554 --> :pttrn32554.extracted={}
+

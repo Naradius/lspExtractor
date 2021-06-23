@@ -1,0 +1,8 @@
+operate within an environ-ent including highly mobile edge devices ,atency-sensitive applications, nor wide geographical areas intrinsico Fog computing environments
+(VP (VB )(PP (IN )(NP (DT )(JJ ){1,2}(NN )(NNS )))(NP (NP (JJ )(NNS ))(CC )(NP (NP (JJ ){1,2}(NNS ))(PP (IN )(NP (NN ){1,2}(NNS ))))))
+Phase: generated20315
+Input: Token
+Rule: generated20315
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })))((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn20315 --> :pttrn20315.extracted={}
+

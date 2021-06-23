@@ -1,0 +1,8 @@
+a proactive algo-rithm  and even DynamicHost Configuration Protocol  for dynamic configuration ofIP addresses
+(NP (NP (DT )(JJ )(NN ))(CC )(NP (NP (RB )(NNP ){1,2})(PP (IN )(NP (JJ )(NN ){1,2}(NNS )))))
+Phase: generated13932
+Input: Token
+Rule: generated13932
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == RB })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))))):pttrn13932 --> :pttrn13932.extracted={}
+

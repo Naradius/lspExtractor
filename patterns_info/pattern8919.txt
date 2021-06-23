@@ -1,0 +1,8 @@
+demonstrated here that T-ANTis able to achieve two desirables swarm behaviors, namelyseparation and alignment, in a fully distributed way
+(VP (VBN )(IN ))
+Phase: generated8919
+Input: Token
+Rule: generated8919
+(
+(({ Token.category == VBN })({ Token.category == IN }))):pttrn8919 --> :pttrn8919.extracted={}
+

@@ -1,0 +1,8 @@
+the whole input se-quence x
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated106396
+Input: Token
+Rule: generated106396
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn106396 --> :pttrn106396.extracted={}
+

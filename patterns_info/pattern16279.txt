@@ -1,0 +1,8 @@
+can be heard by all the PNs in neighboring regions
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT ){1,2}(NNP )))(PP (IN )(NP (VBG )(NNS ))))))
+Phase: generated16279
+Input: Token
+Rule: generated16279
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })+({ Token.category == NNP })))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS }))))))):pttrn16279 --> :pttrn16279.extracted={}
+

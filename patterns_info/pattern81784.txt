@@ -1,0 +1,8 @@
+generic references to actual person or company names
+(NP (NP (JJ )(NNS ))(PP (TO )(NP (JJ )(NN )(CC )(NN )(NNS ))))
+Phase: generated81784
+Input: Token
+Rule: generated81784
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))))):pttrn81784 --> :pttrn81784.extracted={}
+

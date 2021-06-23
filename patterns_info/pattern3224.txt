@@ -1,0 +1,8 @@
+to achieve a stableand near uniform distribution of the CH nodes
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NNP )(NNS ))))))))
+Phase: generated3224
+Input: Token
+Rule: generated3224
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))))))))):pttrn3224 --> :pttrn3224.extracted={}
+

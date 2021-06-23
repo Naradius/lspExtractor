@@ -1,0 +1,8 @@
+suffers from the drawback that similar rules would need to be written foreach event type of interest, although essentially duplicate work has gone into knowledge-baseconstruction, describing the conceptual structure of each event class
+(VP (VBZ )(PP (IN )(NP (DT )(NN )))(IN ))
+Phase: generated90318
+Input: Token
+Rule: generated90318
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == IN }))):pttrn90318 --> :pttrn90318.extracted={}
+

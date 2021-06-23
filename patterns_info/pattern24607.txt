@@ -1,0 +1,8 @@
+IEEE EWSN
+(NP (NN )(NNP ))
+Phase: generated24607
+Input: Token
+Rule: generated24607
+(
+(({ Token.category == NN })({ Token.category == NNP }))):pttrn24607 --> :pttrn24607.extracted={}
+

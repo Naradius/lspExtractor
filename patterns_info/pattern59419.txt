@@ -1,0 +1,8 @@
+distant and distant
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated59419
+Input: Token
+Rule: generated59419
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn59419 --> :pttrn59419.extracted={}
+

@@ -1,0 +1,8 @@
+POS tagging
+(NP (NNP )(NN ))
+Phase: generated97456
+Input: Token
+Rule: generated97456
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn97456 --> :pttrn97456.extracted={}
+

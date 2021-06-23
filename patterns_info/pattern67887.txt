@@ -1,0 +1,8 @@
+of node motion
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated67887
+Input: Token
+Rule: generated67887
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn67887 --> :pttrn67887.extracted={}
+

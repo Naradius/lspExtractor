@@ -1,0 +1,8 @@
+between consecutive sentences and even between first and third sentence in a paragraph
+(PP (IN )(NP (NP (JJ )(NNS ))(CC )(PP (IN )(NP (ADJP (JJ )(CC )(JJ ))(NN )))(PP (IN )(NP (DT )(NN )))))
+Phase: generated113799
+Input: Token
+Rule: generated113799
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn113799 --> :pttrn113799.extracted={}
+

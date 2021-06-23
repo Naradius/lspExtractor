@@ -1,0 +1,8 @@
+occurrencesof the jth word in all documents from the ith class
+(VP (VBG )(NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated86671
+Input: Token
+Rule: generated86671
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn86671 --> :pttrn86671.extracted={}
+

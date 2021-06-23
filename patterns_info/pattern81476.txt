@@ -1,0 +1,8 @@
+to free text, includ-ing text that is neither rigidly formatted nor composed of grammatical sentences
+(PP (TO )(NP (NP (JJ )(NN ))(NP (NP (JJ )(NN ))(VP (VBZ )(NP (DT )(ADJP (RB )(VBN ))(CC )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))))))))
+Phase: generated81476
+Input: Token
+Rule: generated81476
+(
+(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn81476 --> :pttrn81476.extracted={}
+

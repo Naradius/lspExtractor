@@ -1,0 +1,8 @@
+multihop, to the sink
+(VP (VB )(PP (TO )(NP (DT )(NN ))))
+Phase: generated8613
+Input: Token
+Rule: generated8613
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn8613 --> :pttrn8613.extracted={}
+

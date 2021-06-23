@@ -1,0 +1,8 @@
+lower priority levels
+(NP (JJR )(NN )(NNS ))
+Phase: generated14931
+Input: Token
+Rule: generated14931
+(
+(({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))):pttrn14931 --> :pttrn14931.extracted={}
+

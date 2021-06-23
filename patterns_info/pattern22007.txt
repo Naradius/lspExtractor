@@ -1,0 +1,8 @@
+either at strate-gic locations or randomly depending on the technique used for theconstruction of the spectrum map
+(PP (CC )(PP (IN )(NP (JJ )(NNS )))(CC ))
+Phase: generated22007
+Input: Token
+Rule: generated22007
+(
+(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC }))):pttrn22007 --> :pttrn22007.extracted={}
+

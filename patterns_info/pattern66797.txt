@@ -1,0 +1,8 @@
+the cryptography primitives
+(NP (DT )(NN )(NNS ))
+Phase: generated66797
+Input: Token
+Rule: generated66797
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn66797 --> :pttrn66797.extracted={}
+

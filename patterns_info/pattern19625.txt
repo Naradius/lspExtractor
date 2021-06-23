@@ -1,0 +1,8 @@
+attributes for Set Value Function 3500 55 Assign Value to Variables Set Value Enable user to adjust values according to the appliances and device capacities using open adjustment panel
+(VP (VBZ )(PP (IN )(NP (NP (NNP ){1,2}(CD ){1,2}(NNP ){1,2})(PP (TO )(NP (NNP ){1,2}(NN )))))(VP (TO )(VP (VB )(PP (VBG )(PP (TO )(NP (NP (DT )(NNS )(CC )(NN )(NNS ))(VP (VBG )(NP (JJ )(NN ){1,2}))))))))
+Phase: generated19625
+Input: Token
+Rule: generated19625
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == CD })+({ Token.category == NNP })+)(({ Token.category == TO })(({ Token.category == NNP })+({ Token.category == NN })))))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+))))))))):pttrn19625 --> :pttrn19625.extracted={}
+

@@ -1,0 +1,8 @@
+arrives at a node
+(VP (VBZ )(PP (IN )(NP (DT )(NN ))))
+Phase: generated3406
+Input: Token
+Rule: generated3406
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn3406 --> :pttrn3406.extracted={}
+

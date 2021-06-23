@@ -1,0 +1,8 @@
+one editdistance
+(NP (CD )(NN ))
+Phase: generated74188
+Input: Token
+Rule: generated74188
+(
+(({ Token.category == CD })({ Token.category == NN }))):pttrn74188 --> :pttrn74188.extracted={}
+

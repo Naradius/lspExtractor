@@ -1,0 +1,8 @@
+the best survival
+(NP (DT )(JJS )(NN ))
+Phase: generated3169
+Input: Token
+Rule: generated3169
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))):pttrn3169 --> :pttrn3169.extracted={}
+

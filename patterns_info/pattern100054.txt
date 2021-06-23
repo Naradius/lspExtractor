@@ -1,0 +1,8 @@
+the permutation
+(NP (DT )(NN ))
+Phase: generated100054
+Input: Token
+Rule: generated100054
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn100054 --> :pttrn100054.extracted={}
+

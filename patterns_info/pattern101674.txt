@@ -1,0 +1,8 @@
+have expertshand coding specific rules for this purpose
+(VP (VB )(VP (VBG )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated101674
+Input: Token
+Rule: generated101674
+(
+(({ Token.category == VB })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn101674 --> :pttrn101674.extracted={}
+

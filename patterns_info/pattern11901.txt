@@ -1,0 +1,8 @@
+shows greaternumber of live nodes at the end of 500th s of simulation
+(VP (VBZ )(ADJP (JJ )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated11901
+Input: Token
+Rule: generated11901
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn11901 --> :pttrn11901.extracted={}
+

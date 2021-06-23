@@ -1,0 +1,8 @@
+the wireless sensor network
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated65505
+Input: Token
+Rule: generated65505
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn65505 --> :pttrn65505.extracted={}
+

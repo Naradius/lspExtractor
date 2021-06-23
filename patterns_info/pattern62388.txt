@@ -1,0 +1,8 @@
+at its center
+(PP (IN )(NP (PRP$ )(NN )))
+Phase: generated62388
+Input: Token
+Rule: generated62388
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn62388 --> :pttrn62388.extracted={}
+

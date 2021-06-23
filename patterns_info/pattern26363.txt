@@ -1,0 +1,8 @@
+a novel
+(NP (DT )(NN ))
+Phase: generated26363
+Input: Token
+Rule: generated26363
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn26363 --> :pttrn26363.extracted={}
+

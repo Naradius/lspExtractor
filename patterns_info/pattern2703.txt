@@ -1,0 +1,8 @@
+Unmanned Aerial Vehicles
+(NP (JJ )(NNP )(NNPS ))
+Phase: generated2703
+Input: Token
+Rule: generated2703
+(
+(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNPS }))):pttrn2703 --> :pttrn2703.extracted={}
+

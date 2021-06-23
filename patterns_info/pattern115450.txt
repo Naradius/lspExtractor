@@ -1,0 +1,8 @@
+discourse theories
+(NP (NN )(NNS ))
+Phase: generated115450
+Input: Token
+Rule: generated115450
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn115450 --> :pttrn115450.extracted={}
+

@@ -1,0 +1,8 @@
+the accuracy of the system
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated96935
+Input: Token
+Rule: generated96935
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn96935 --> :pttrn96935.extracted={}
+

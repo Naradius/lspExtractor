@@ -1,0 +1,8 @@
+6th ACMInternational Symposium
+(NP (JJ )(NNP ){1,2})
+Phase: generated5575
+Input: Token
+Rule: generated5575
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn5575 --> :pttrn5575.extracted={}
+

@@ -1,0 +1,8 @@
+finds a relaying node
+(VP (VBZ )(NP (DT )(VBG )(NN )))
+Phase: generated17254
+Input: Token
+Rule: generated17254
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })))):pttrn17254 --> :pttrn17254.extracted={}
+

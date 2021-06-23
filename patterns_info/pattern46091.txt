@@ -1,0 +1,8 @@
+engaged in de-veloping schemes that fulfill these requirements
+(VP (VBN )(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBP )(NP (DT )(NNS ))))))
+Phase: generated46091
+Input: Token
+Rule: generated46091
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn46091 --> :pttrn46091.extracted={}
+

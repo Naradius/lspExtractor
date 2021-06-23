@@ -1,0 +1,8 @@
+does thiswith a prev-token and a next-token operator and RAPIER with an ordered list ofitems for each eld.In cases where the immediate context is sucient to identify a target phrase,selecting terms that are immediately adjacent to the extraction slot
+(VP (VBZ )(PP (IN )(NP (NP (DT )(JJ ))(CC ))))
+Phase: generated80019
+Input: Token
+Rule: generated80019
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ }))({ Token.category == CC }))))):pttrn80019 --> :pttrn80019.extracted={}
+

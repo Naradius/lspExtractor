@@ -1,0 +1,8 @@
+to trim away extraneous words or phrases within that eld.AutoSlog
+(VP (TO )(VP (VB )(NP (JJ )(NNS )(CC )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated80231
+Input: Token
+Rule: generated80231
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn80231 --> :pttrn80231.extracted={}
+

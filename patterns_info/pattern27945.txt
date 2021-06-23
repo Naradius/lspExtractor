@@ -1,0 +1,8 @@
+the PDR in different paths
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated27945
+Input: Token
+Rule: generated27945
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn27945 --> :pttrn27945.extracted={}
+

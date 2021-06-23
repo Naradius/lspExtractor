@@ -1,0 +1,8 @@
+from the ant colony optimization algorithm
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated2232
+Input: Token
+Rule: generated2232
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn2232 --> :pttrn2232.extracted={}
+

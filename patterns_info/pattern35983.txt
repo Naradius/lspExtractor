@@ -1,0 +1,8 @@
+the malicious node
+(NP (DT )(JJ )(NN ))
+Phase: generated35983
+Input: Token
+Rule: generated35983
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn35983 --> :pttrn35983.extracted={}
+

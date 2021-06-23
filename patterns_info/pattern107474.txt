@@ -1,0 +1,8 @@
+used to improve the solution search in the predefined search space based on the user requirement
+(VP (VBN )(VP (TO )(VP (VB )(NP (NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ){1,2})))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated107474
+Input: Token
+Rule: generated107474
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn107474 --> :pttrn107474.extracted={}
+

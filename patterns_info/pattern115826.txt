@@ -1,0 +1,8 @@
+the example search result
+(NP (DT )(NN ){1,2})
+Phase: generated115826
+Input: Token
+Rule: generated115826
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn115826 --> :pttrn115826.extracted={}
+

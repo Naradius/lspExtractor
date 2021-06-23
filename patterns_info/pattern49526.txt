@@ -1,0 +1,8 @@
+to gatherclinically relevant information for rehabilitation supervi-sion , elderly monitoring  or to provide supportto a physically impaired person .WSNs used in healthcare must meet several require-ments
+(VP (CC )(VP (TO )(VP (VB )(VP (VBN )(VP (MD )(VP (VB )(NP (JJ )(NNS ))))))))
+Phase: generated49526
+Input: Token
+Rule: generated49526
+(
+(({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn49526 --> :pttrn49526.extracted={}
+

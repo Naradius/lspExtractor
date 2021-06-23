@@ -1,0 +1,8 @@
+I and its mention
+(NP (CC )(NP (PRP$ )(NN )))
+Phase: generated113775
+Input: Token
+Rule: generated113775
+(
+(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn113775 --> :pttrn113775.extracted={}
+

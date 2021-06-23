@@ -1,0 +1,8 @@
+extracted consecutive words as different phrases
+(VP (VBD )(NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated75483
+Input: Token
+Rule: generated75483
+(
+(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn75483 --> :pttrn75483.extracted={}
+

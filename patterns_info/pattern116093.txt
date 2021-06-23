@@ -1,0 +1,8 @@
+build a conceptual graph representation of a sentence
+(VP (VB )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))
+Phase: generated116093
+Input: Token
+Rule: generated116093
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn116093 --> :pttrn116093.extracted={}
+

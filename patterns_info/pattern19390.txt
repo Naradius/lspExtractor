@@ -1,0 +1,8 @@
+different application mod-ules
+(NP (JJ )(NN )(NNS ))
+Phase: generated19390
+Input: Token
+Rule: generated19390
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn19390 --> :pttrn19390.extracted={}
+

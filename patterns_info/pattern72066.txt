@@ -1,0 +1,8 @@
+with Applications 37  341347 343eyes
+(PP (IN )(NP (NNP )(CD ){1,2}(NNS )))
+Phase: generated72066
+Input: Token
+Rule: generated72066
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NNS })))):pttrn72066 --> :pttrn72066.extracted={}
+

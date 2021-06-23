@@ -1,0 +1,8 @@
+the data as the interest ofBS
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN )(NNP ))))
+Phase: generated56723
+Input: Token
+Rule: generated56723
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))))):pttrn56723 --> :pttrn56723.extracted={}
+

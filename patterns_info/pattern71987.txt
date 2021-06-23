@@ -1,0 +1,8 @@
+of semantic relations that are incorrector worthless
+(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBP )(RB ))))
+Phase: generated71987
+Input: Token
+Rule: generated71987
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB }))))):pttrn71987 --> :pttrn71987.extracted={}
+

@@ -1,0 +1,8 @@
+in the question areused.The verbal information of strong and inflected patterns
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(CC )(JJ )(NNS )))))))
+Phase: generated99910
+Input: Token
+Rule: generated99910
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn99910 --> :pttrn99910.extracted={}
+

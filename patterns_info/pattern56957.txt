@@ -1,0 +1,8 @@
+the energy efficientroute
+(NP (DT )(NN ){1,2})
+Phase: generated56957
+Input: Token
+Rule: generated56957
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn56957 --> :pttrn56957.extracted={}
+

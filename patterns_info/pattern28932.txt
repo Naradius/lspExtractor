@@ -1,0 +1,8 @@
+Mohammad Salehi and A.M. Hosseini Monazzah et al. / Microprocessors and Microsystems 69  7991                                                                      [                                            C. Alcaraz , P. Najera , J. Lopez , R. Roman , Wireless sensor networks and the in-ternet of things: do we need a complete integration?
+(NP (NP (NP (NP (CC )(RB )(NP (NNP ){1,2}(NN ){1,2}(NNS )))(CC ))(NP (NP (CD ){1,2}(NNS ))(NP (JJ )(NN )(NNS ))(CC )))(SQ (VBP )(VP (VB )(NP (DT )(JJ )(NN )))))
+Phase: generated28932
+Input: Token
+Rule: generated28932
+(
+((((({ Token.category == CC })({ Token.category == RB })(({ Token.category == NNP })+({ Token.category == NN })+({ Token.category == NNS })))({ Token.category == CC }))((({ Token.category == CD })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })))(({ Token.category == VBP })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn28932 --> :pttrn28932.extracted={}
+

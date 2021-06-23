@@ -1,0 +1,8 @@
+in unsupervised learning machine
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated85892
+Input: Token
+Rule: generated85892
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn85892 --> :pttrn85892.extracted={}
+

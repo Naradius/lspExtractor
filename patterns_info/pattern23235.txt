@@ -1,0 +1,8 @@
+R = end-to-end routes
+(NP (NNP )(SYM )(JJ )(NNS ))
+Phase: generated23235
+Input: Token
+Rule: generated23235
+(
+(({ Token.category == NNP })({ Token.category == SYM })({ Token.category == JJ })({ Token.category == NNS }))):pttrn23235 --> :pttrn23235.extracted={}
+

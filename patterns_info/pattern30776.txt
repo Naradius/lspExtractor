@@ -1,0 +1,8 @@
+the Advisory group
+(NP (DT )(NNP )(NN ))
+Phase: generated30776
+Input: Token
+Rule: generated30776
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn30776 --> :pttrn30776.extracted={}
+

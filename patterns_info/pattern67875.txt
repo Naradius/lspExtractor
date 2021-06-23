@@ -1,0 +1,8 @@
+et al. , The interactive core of a random wireless sensor networkmodel, International Conference on Computer Distributed Control and Intelli-gent Enviromental Monitoring, 2012
+(VP (VBD )(NP (NP (JJ )(NNP ))(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2})))))
+Phase: generated67875
+Input: Token
+Rule: generated67875
+(
+(({ Token.category == VBD })((({ Token.category == JJ })({ Token.category == NNP }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)))))):pttrn67875 --> :pttrn67875.extracted={}
+

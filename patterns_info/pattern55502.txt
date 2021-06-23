@@ -1,0 +1,8 @@
+to various metrics
+(PP (TO )(NP (JJ )(NNS )))
+Phase: generated55502
+Input: Token
+Rule: generated55502
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn55502 --> :pttrn55502.extracted={}
+

@@ -1,0 +1,8 @@
+is a canine
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated71533
+Input: Token
+Rule: generated71533
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn71533 --> :pttrn71533.extracted={}
+

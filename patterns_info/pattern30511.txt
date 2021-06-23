@@ -1,0 +1,8 @@
+IoT networks in smart buildings, Energies 11  3430
+(NP (NP (NNP )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(NP (NNP )(CD ){1,2}))))
+Phase: generated30511
+Input: Token
+Rule: generated30511
+(
+((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == NNP })({ Token.category == CD })+))))):pttrn30511 --> :pttrn30511.extracted={}
+

@@ -1,0 +1,8 @@
+better or worse questions
+(NP (ADJP (JJR )(CC )(JJR ))(NNS ))
+Phase: generated101909
+Input: Token
+Rule: generated101909
+(
+((({ Token.category == JJR })({ Token.category == CC })({ Token.category == JJR }))({ Token.category == NNS }))):pttrn101909 --> :pttrn101909.extracted={}
+

@@ -1,0 +1,8 @@
+annotatetraining instances.7.1
+(VP (VBG )(NP (NNS )(CD )))
+Phase: generated81001
+Input: Token
+Rule: generated81001
+(
+(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == CD })))):pttrn81001 --> :pttrn81001.extracted={}
+

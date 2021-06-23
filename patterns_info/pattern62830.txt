@@ -1,0 +1,8 @@
+describes the routing from the starting node to theink node
+(VP (VBZ )(NP (DT )(VBG ))(PP (IN )(NP (DT )(VBG )(NN )))(PP (TO )(NP (DT )(NN ))))
+Phase: generated62830
+Input: Token
+Rule: generated62830
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == VBG }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn62830 --> :pttrn62830.extracted={}
+

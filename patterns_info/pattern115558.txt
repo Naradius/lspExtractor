@@ -1,0 +1,8 @@
+a Bing Web
+(NP (DT )(NNP ){1,2})
+Phase: generated115558
+Input: Token
+Rule: generated115558
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn115558 --> :pttrn115558.extracted={}
+

@@ -1,0 +1,8 @@
+is calculated by multiplying the time spent in each state by the current consumed during such a stateand adding for all the four states
+(VP (VBZ )(VP (VBN )(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (NP (DT )(JJ ))(VP (VBN )(PP (IN )(NP (PDT )(DT )(NN )))(VP (VBG )(PP (IN )(NP (DT ){1,2}(CD )(NNS )))))))))))))
+Phase: generated37785
+Input: Token
+Rule: generated37785
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PDT })({ Token.category == DT })({ Token.category == NN })))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })+({ Token.category == CD })({ Token.category == NNS })))))))))))))):pttrn37785 --> :pttrn37785.extracted={}
+

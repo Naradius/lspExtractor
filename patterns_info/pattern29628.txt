@@ -1,0 +1,8 @@
+reliabilityof temperature data collected for smart building monitoring andcontrol
+(NP (NP (NN ){1,2}(NNS ))(VP (VBN )(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated29628
+Input: Token
+Rule: generated29628
+(
+((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn29628 --> :pttrn29628.extracted={}
+

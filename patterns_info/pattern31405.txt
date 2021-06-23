@@ -1,0 +1,8 @@
+due to its central role in the contemporary society
+(ADJP (JJ )(PP (TO )(NP (NP (PRP$ )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated31405
+Input: Token
+Rule: generated31405
+(
+(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn31405 --> :pttrn31405.extracted={}
+

@@ -1,0 +1,8 @@
+the overall performance
+(NP (DT )(JJ )(NN ))
+Phase: generated61349
+Input: Token
+Rule: generated61349
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn61349 --> :pttrn61349.extracted={}
+

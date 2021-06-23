@@ -1,0 +1,8 @@
+T-ANT isfurther
+(NP (JJ )(NN ))
+Phase: generated5262
+Input: Token
+Rule: generated5262
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn5262 --> :pttrn5262.extracted={}
+

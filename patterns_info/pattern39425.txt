@@ -1,0 +1,8 @@
+the IDS,authors
+(NP (DT )(NNP )(NNS ))
+Phase: generated39425
+Input: Token
+Rule: generated39425
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn39425 --> :pttrn39425.extracted={}
+

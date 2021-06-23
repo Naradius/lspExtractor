@@ -1,0 +1,8 @@
+the total numberof nodes
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated54479
+Input: Token
+Rule: generated54479
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn54479 --> :pttrn54479.extracted={}
+

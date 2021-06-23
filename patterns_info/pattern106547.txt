@@ -1,0 +1,8 @@
+&t0 = Tw0
+(PP (IN )(NP (SYM )(CD )))
+Phase: generated106547
+Input: Token
+Rule: generated106547
+(
+(({ Token.category == IN })(({ Token.category == SYM })({ Token.category == CD })))):pttrn106547 --> :pttrn106547.extracted={}
+

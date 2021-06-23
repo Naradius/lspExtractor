@@ -1,0 +1,8 @@
+theDoctoral School of the University
+(NP (NP (JJ )(NNP ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated30769
+Input: Token
+Rule: generated30769
+(
+((({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn30769 --> :pttrn30769.extracted={}
+

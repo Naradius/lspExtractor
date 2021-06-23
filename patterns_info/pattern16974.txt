@@ -1,0 +1,8 @@
+as previously suggestedin , auxiliary tables for the location services that enablegeographical routing .ACKNOWLEDGMENTThe authors would like to thank students J. P. Hurtado
+(PP (IN )(NP (NP (RB )(NN ))(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(VP (VBP )(VP (VBG )(NP (DT )(NNS )))))))))
+Phase: generated16974
+Input: Token
+Rule: generated16974
+(
+(({ Token.category == IN })((({ Token.category == RB })({ Token.category == NN }))((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })))))))))):pttrn16974 --> :pttrn16974.extracted={}
+

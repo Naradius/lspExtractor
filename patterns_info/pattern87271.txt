@@ -1,0 +1,8 @@
+as in a cascade of finite-state transducers
+(PP (IN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated87271
+Input: Token
+Rule: generated87271
+(
+(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn87271 --> :pttrn87271.extracted={}
+

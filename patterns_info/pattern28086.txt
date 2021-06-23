@@ -1,0 +1,8 @@
+reduce the amount of control packet overhead by up to 48%nd 50% compared with MRHOF and OFFL respectively
+(VP (VB )(PP (IN )(NP (QP (RB )(TO )(CD ))(NN )))(NP (CD )(NN )))
+Phase: generated28086
+Input: Token
+Rule: generated28086
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == TO })({ Token.category == CD }))({ Token.category == NN })))(({ Token.category == CD })({ Token.category == NN })))):pttrn28086 --> :pttrn28086.extracted={}
+

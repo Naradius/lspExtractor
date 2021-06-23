@@ -1,0 +1,8 @@
+BeethovenQuestion analysisGenerated patternSentence in the target document
+(NP (NP (NNP )(CC )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated99960
+Input: Token
+Rule: generated99960
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn99960 --> :pttrn99960.extracted={}
+

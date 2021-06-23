@@ -1,0 +1,8 @@
+match countriesand not persons, companies, etc.
+(VP (VB )(CC )(PP (RB )(NP (NNS )(FW ))))
+Phase: generated94189
+Input: Token
+Rule: generated94189
+(
+(({ Token.category == VB })({ Token.category == CC })(({ Token.category == RB })(({ Token.category == NNS })({ Token.category == FW }))))):pttrn94189 --> :pttrn94189.extracted={}
+

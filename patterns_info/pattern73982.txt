@@ -1,0 +1,8 @@
+the sentence Today
+(NP (DT )(NN ){1,2})
+Phase: generated73982
+Input: Token
+Rule: generated73982
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn73982 --> :pttrn73982.extracted={}
+

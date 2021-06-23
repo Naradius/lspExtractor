@@ -1,0 +1,8 @@
+for re-ducing the global ambiguity of the input sentence intwo different ways
+(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated106910
+Input: Token
+Rule: generated106910
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn106910 --> :pttrn106910.extracted={}
+

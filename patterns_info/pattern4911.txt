@@ -1,0 +1,8 @@
+of managing these clusterswill outweighs their benefit
+(PP (IN )(VP (VBG )(NP (DT )(NN )(NNS ))(NP (PRP$ )(NN ))))
+Phase: generated4911
+Input: Token
+Rule: generated4911
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn4911 --> :pttrn4911.extracted={}
+

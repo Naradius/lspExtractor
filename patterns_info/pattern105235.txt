@@ -1,0 +1,8 @@
+a visual language, the two most important aspects of a visual program
+(NP (NP (DT )(JJ )(NN ))(NP (NP (DT )(CD )(RBS )(JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated105235
+Input: Token
+Rule: generated105235
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == CD })({ Token.category == RBS })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn105235 --> :pttrn105235.extracted={}
+

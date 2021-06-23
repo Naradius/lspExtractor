@@ -1,0 +1,8 @@
+on-line rental ads
+(NP (JJ ){1,2}(NNS ))
+Phase: generated82535
+Input: Token
+Rule: generated82535
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn82535 --> :pttrn82535.extracted={}
+

@@ -1,0 +1,8 @@
+Req degree
+(NP (NNP )(NN )){1,2}
+Phase: generated78519
+Input: Token
+Rule: generated78519
+(
+(({ Token.category == NNP })({ Token.category == NN }))+):pttrn78519 --> :pttrn78519.extracted={}
+

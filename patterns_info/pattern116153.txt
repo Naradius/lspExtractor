@@ -1,0 +1,8 @@
+increase reliability and consistency of resultant semantic representation
+(VP (VB )(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (JJ ){1,2}(NN )))))
+Phase: generated116153
+Input: Token
+Rule: generated116153
+(
+(({ Token.category == VB })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })))))):pttrn116153 --> :pttrn116153.extracted={}
+

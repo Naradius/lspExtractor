@@ -1,0 +1,8 @@
+compliance with FANET characteristics; self-organization of network nodes; decentralized operation; rapid convergence and absence of route looping; minimal load of the network by the service information; on-demand route generation ; providing several routes for data delivery to the addressee; productivity, delay, etc.)
+(NP (NP (JJ )(NN ))(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (DT )(NN ){1,2})))(CC )(-RRB- ))
+Phase: generated1983
+Input: Token
+Rule: generated1983
+(
+((({ Token.category == JJ })({ Token.category == NN }))(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC })({ Token.category == -RRB- }))):pttrn1983 --> :pttrn1983.extracted={}
+

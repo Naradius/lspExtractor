@@ -1,0 +1,8 @@
+in Wikipedia arti-cles
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated96089
+Input: Token
+Rule: generated96089
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn96089 --> :pttrn96089.extracted={}
+

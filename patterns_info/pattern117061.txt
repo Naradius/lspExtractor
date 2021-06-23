@@ -1,0 +1,8 @@
+from heterogeneous textual resources
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated117061
+Input: Token
+Rule: generated117061
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn117061 --> :pttrn117061.extracted={}
+

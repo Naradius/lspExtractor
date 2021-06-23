@@ -1,0 +1,8 @@
+assign thesensing tasks to the sensor nodes
+(VP (VB )(NP (DT )(NNS ))(PP (TO )(NP (DT )(NN )(NNS ))))
+Phase: generated48957
+Input: Token
+Rule: generated48957
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn48957 --> :pttrn48957.extracted={}
+

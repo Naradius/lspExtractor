@@ -1,0 +1,8 @@
+follows:GR  =ctM c P   logP
+(VP (VBZ )(NP (NNP ){1,2}(JJ )(NNP )(NNS )))
+Phase: generated86497
+Input: Token
+Rule: generated86497
+(
+(({ Token.category == VBZ })(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS })))):pttrn86497 --> :pttrn86497.extracted={}
+

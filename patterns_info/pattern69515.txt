@@ -1,0 +1,8 @@
+theintegrated routing path from the current node
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated69515
+Input: Token
+Rule: generated69515
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn69515 --> :pttrn69515.extracted={}
+

@@ -1,0 +1,8 @@
+200 newsitems
+(NP (CD )(NNS ))
+Phase: generated93778
+Input: Token
+Rule: generated93778
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn93778 --> :pttrn93778.extracted={}
+

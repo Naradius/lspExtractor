@@ -1,0 +1,8 @@
+be in the middle of its journey from one side ofthe region to the other when the former leader departs and sendsM_LeaderLeft
+(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (CD )(NN )))))))(PP (TO )(NP (DT )(JJ ))))
+Phase: generated13889
+Input: Token
+Rule: generated13889
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))))))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ }))))):pttrn13889 --> :pttrn13889.extracted={}
+

@@ -1,0 +1,8 @@
+for smart home IoT devices
+(PP (IN )(NP (JJ )(NN ){1,2}(NNS )))
+Phase: generated20145
+Input: Token
+Rule: generated20145
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn20145 --> :pttrn20145.extracted={}
+

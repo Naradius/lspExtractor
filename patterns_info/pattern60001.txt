@@ -1,0 +1,8 @@
+b  a  s 1  S  F  t  i  T  p  a  d5 w  p  w  u  t  n  t  c  C  C  t  t  t  N  t  w  b  t  o  c  t  ifetime
+(VP (VB )(NP (CD )(NNP ){1,2}(NN )))
+Phase: generated60001
+Input: Token
+Rule: generated60001
+(
+(({ Token.category == VB })(({ Token.category == CD })({ Token.category == NNP })+({ Token.category == NN })))):pttrn60001 --> :pttrn60001.extracted={}
+

@@ -1,0 +1,8 @@
+record the sourcenode address and the maximum serial number
+(VP (VB )(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(JJ ){1,2}(NN ))))
+Phase: generated33166
+Input: Token
+Rule: generated33166
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn33166 --> :pttrn33166.extracted={}
+

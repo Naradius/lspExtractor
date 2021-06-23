@@ -1,0 +1,8 @@
+the membership function results
+(NP (DT )(NN ){1,2}(NNS ))
+Phase: generated26913
+Input: Token
+Rule: generated26913
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))):pttrn26913 --> :pttrn26913.extracted={}
+

@@ -1,0 +1,8 @@
+in the studio of the renowned Florentine painter, Verrocchio
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN )))))
+Phase: generated100754
+Input: Token
+Rule: generated100754
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))):pttrn100754 --> :pttrn100754.extracted={}
+

@@ -1,0 +1,8 @@
+the generated parser cannotbe
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated104824
+Input: Token
+Rule: generated104824
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn104824 --> :pttrn104824.extracted={}
+

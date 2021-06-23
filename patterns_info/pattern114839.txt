@@ -1,0 +1,8 @@
+this study
+(NP (DT )(NN ))
+Phase: generated114839
+Input: Token
+Rule: generated114839
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn114839 --> :pttrn114839.extracted={}
+

@@ -1,0 +1,8 @@
+get a new routing path
+(VP (VB )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated33620
+Input: Token
+Rule: generated33620
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn33620 --> :pttrn33620.extracted={}
+

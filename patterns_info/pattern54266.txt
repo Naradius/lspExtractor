@@ -1,0 +1,8 @@
+are responsible for starting the chain andhaving the information about the distance between themselvesand other nodes which have not joined the chain
+(VP (VBP )(ADJP (JJ )(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (CD )(JJ )(NNS ))(VP (VBP )(RB )(VP (VBN )(NP (DT )(NN )))))))))))))))
+Phase: generated54266
+Input: Token
+Rule: generated54266
+(
+(({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })))))))))))))))):pttrn54266 --> :pttrn54266.extracted={}
+

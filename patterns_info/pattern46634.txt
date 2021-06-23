@@ -1,0 +1,8 @@
+interactive toys
+(NP (JJ )(NNS ))
+Phase: generated46634
+Input: Token
+Rule: generated46634
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn46634 --> :pttrn46634.extracted={}
+

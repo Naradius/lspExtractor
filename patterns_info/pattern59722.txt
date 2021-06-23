@@ -1,0 +1,8 @@
+an area of  m 2
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(CD ))))
+Phase: generated59722
+Input: Token
+Rule: generated59722
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))):pttrn59722 --> :pttrn59722.extracted={}
+

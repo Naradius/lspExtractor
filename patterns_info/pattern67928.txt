@@ -1,0 +1,8 @@
+Secure data collection
+(NP (NNP )(NNS )(NN ))
+Phase: generated67928
+Input: Token
+Rule: generated67928
+(
+(({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NN }))):pttrn67928 --> :pttrn67928.extracted={}
+

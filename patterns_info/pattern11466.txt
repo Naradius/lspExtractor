@@ -1,0 +1,8 @@
+the complete lifespan
+(NP (DT )(JJ )(NN ))
+Phase: generated11466
+Input: Token
+Rule: generated11466
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn11466 --> :pttrn11466.extracted={}
+

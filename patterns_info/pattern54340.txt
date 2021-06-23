@@ -1,0 +1,8 @@
+the region center
+(NP (DT )(NN ){1,2})
+Phase: generated54340
+Input: Token
+Rule: generated54340
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn54340 --> :pttrn54340.extracted={}
+

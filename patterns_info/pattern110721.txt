@@ -1,0 +1,8 @@
+used under real traffic conditions andnot only theoretical stimulus
+(VP (VBN )(PP (IN )(NP (JJ )(NN )(NNS )))(PP (IN )(NP (JJ ){1,2}(NN ))))
+Phase: generated110721
+Input: Token
+Rule: generated110721
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))):pttrn110721 --> :pttrn110721.extracted={}
+

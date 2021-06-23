@@ -1,0 +1,8 @@
+of Cross-Validation and Bootstrap
+(PP (IN )(NP (NNP )(CC )(NNP )))
+Phase: generated116963
+Input: Token
+Rule: generated116963
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn116963 --> :pttrn116963.extracted={}
+

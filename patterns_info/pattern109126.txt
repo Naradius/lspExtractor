@@ -1,0 +1,8 @@
+nodes reduce the rate of the successful transmission of the packets
+(VP (VBZ )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NNS ))))))))
+Phase: generated109126
+Input: Token
+Rule: generated109126
+(
+(({ Token.category == VBZ })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn109126 --> :pttrn109126.extracted={}
+

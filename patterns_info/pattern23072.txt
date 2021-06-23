@@ -1,0 +1,8 @@
+the conditions thatdictate the connectivity of sensor domains.Definition 2
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(CD ))))))
+Phase: generated23072
+Input: Token
+Rule: generated23072
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CD }))))))):pttrn23072 --> :pttrn23072.extracted={}
+

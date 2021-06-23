@@ -1,0 +1,8 @@
+sensor platformsand operating systems, network services issues and com-munication protocol challenges
+(NP (NP (NP (NN ){1,2}(VBG )(NNS ))(NP (NN )(NNS ){1,2}))(CC )(NP (NN ){1,2}(NNS )))
+Phase: generated49351
+Input: Token
+Rule: generated49351
+(
+(((({ Token.category == NN })+({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == NN })({ Token.category == NNS })+))({ Token.category == CC })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn49351 --> :pttrn49351.extracted={}
+

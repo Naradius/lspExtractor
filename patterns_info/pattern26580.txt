@@ -1,0 +1,8 @@
+more stability in the network
+(NP (NP (JJR )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated26580
+Input: Token
+Rule: generated26580
+(
+((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn26580 --> :pttrn26580.extracted={}
+

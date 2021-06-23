@@ -1,0 +1,8 @@
+for both measures
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated94492
+Input: Token
+Rule: generated94492
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn94492 --> :pttrn94492.extracted={}
+

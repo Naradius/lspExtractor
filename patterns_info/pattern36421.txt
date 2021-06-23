@@ -1,0 +1,8 @@
+needs to be verified byall nodes before being written into the block
+(VP (VBZ )(VP (TO )(VP (VB )(VP (VBN )(NP (DT )(NNS ))(PP (IN )(VP (VBG )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated36421
+Input: Token
+Rule: generated36421
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn36421 --> :pttrn36421.extracted={}
+

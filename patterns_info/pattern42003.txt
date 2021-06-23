@@ -1,0 +1,8 @@
+a bundle j in the network
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated42003
+Input: Token
+Rule: generated42003
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn42003 --> :pttrn42003.extracted={}
+

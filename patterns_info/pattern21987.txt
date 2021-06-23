@@ -1,0 +1,8 @@
+received signal
+(NP (VBN )(NN ))
+Phase: generated21987
+Input: Token
+Rule: generated21987
+(
+(({ Token.category == VBN })({ Token.category == NN }))):pttrn21987 --> :pttrn21987.extracted={}
+

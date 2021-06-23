@@ -1,0 +1,8 @@
+The system of Xu et al22 per-formed worse
+(NP (CC )(NP (NP (DT )(JJ ))(JJR )))
+Phase: generated75235
+Input: Token
+Rule: generated75235
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ }))({ Token.category == JJR })))):pttrn75235 --> :pttrn75235.extracted={}
+

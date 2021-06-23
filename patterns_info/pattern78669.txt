@@ -1,0 +1,8 @@
+the semantic classes
+(NP (DT )(JJ )(NNS ))
+Phase: generated78669
+Input: Token
+Rule: generated78669
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn78669 --> :pttrn78669.extracted={}
+

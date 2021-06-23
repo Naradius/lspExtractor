@@ -1,0 +1,8 @@
+used on this processor, which has 3500 bytesOS code space and 4500 bytes available codespace
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (CD )(NNS )(NN ){1,2})(CC )(NP (NP (CD )(NNS ))(JJ )(NN )))))))
+Phase: generated47306
+Input: Token
+Rule: generated47306
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == CD })({ Token.category == NNS })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == CD })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NN })))))))):pttrn47306 --> :pttrn47306.extracted={}
+

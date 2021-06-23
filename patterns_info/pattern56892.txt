@@ -1,0 +1,8 @@
+is used for the spare selection in spare selection phase
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated56892
+Input: Token
+Rule: generated56892
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn56892 --> :pttrn56892.extracted={}
+

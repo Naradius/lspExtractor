@@ -1,0 +1,8 @@
+observe how well T-ANT promotes load bal-ancing among the nodes, we ran a simulation on periodicdata collection at 2-s interval for 2000 s
+(VP (VB )(WHADVP (WRB )(RB )))
+Phase: generated5092
+Input: Token
+Rule: generated5092
+(
+(({ Token.category == VB })(({ Token.category == WRB })({ Token.category == RB })))):pttrn5092 --> :pttrn5092.extracted={}
+

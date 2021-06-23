@@ -1,0 +1,8 @@
+are connected via a vertex of the label which produces non-empty generalization with the label of the vertex shared by 22,efin
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))(VP (VBZ )(NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (CD )(NN )))))))))))))
+Phase: generated114580
+Input: Token
+Rule: generated114580
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))))))))))))):pttrn114580 --> :pttrn114580.extracted={}
+

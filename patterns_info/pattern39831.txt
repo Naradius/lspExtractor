@@ -1,0 +1,8 @@
+all the devices
+(NP (PDT )(DT )(NNS ))
+Phase: generated39831
+Input: Token
+Rule: generated39831
+(
+(({ Token.category == PDT })({ Token.category == DT })({ Token.category == NNS }))):pttrn39831 --> :pttrn39831.extracted={}
+

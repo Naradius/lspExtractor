@@ -1,0 +1,8 @@
+constitute a breakthrough in the area ofhuman-machine interfaces
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}(NNS )))))
+Phase: generated86218
+Input: Token
+Rule: generated86218
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))))):pttrn86218 --> :pttrn86218.extracted={}
+

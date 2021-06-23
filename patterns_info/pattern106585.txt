@@ -1,0 +1,8 @@
+TLowercase form of w0 = L &t0
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(SYM )(NNP )(CD ))))
+Phase: generated106585
+Input: Token
+Rule: generated106585
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == SYM })({ Token.category == NNP })({ Token.category == CD }))))):pttrn106585 --> :pttrn106585.extracted={}
+

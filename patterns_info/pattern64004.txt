@@ -1,0 +1,8 @@
+some nomadfemale lions
+(NP (DT )(JJ )(NNS ))
+Phase: generated64004
+Input: Token
+Rule: generated64004
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn64004 --> :pttrn64004.extracted={}
+

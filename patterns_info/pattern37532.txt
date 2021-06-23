@@ -1,0 +1,8 @@
+to the edge router
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated37532
+Input: Token
+Rule: generated37532
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn37532 --> :pttrn37532.extracted={}
+

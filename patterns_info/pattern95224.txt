@@ -1,0 +1,8 @@
+em-ploy lexico-syntactic patterns
+(VP (VBP )(NP (JJ )(NNS )))
+Phase: generated95224
+Input: Token
+Rule: generated95224
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn95224 --> :pttrn95224.extracted={}
+

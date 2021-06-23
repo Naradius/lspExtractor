@@ -1,0 +1,8 @@
+begin therule induction
+(VP (VB )(NP (DT )(NN )))
+Phase: generated81199
+Input: Token
+Rule: generated81199
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn81199 --> :pttrn81199.extracted={}
+

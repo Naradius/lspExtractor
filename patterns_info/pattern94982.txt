@@ -1,0 +1,8 @@
+a layer of semantic information
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated94982
+Input: Token
+Rule: generated94982
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn94982 --> :pttrn94982.extracted={}
+

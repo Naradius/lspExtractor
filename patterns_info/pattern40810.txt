@@ -1,0 +1,8 @@
+the Prophet protocol
+(NP (DT )(NNP )(NN ))
+Phase: generated40810
+Input: Token
+Rule: generated40810
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn40810 --> :pttrn40810.extracted={}
+

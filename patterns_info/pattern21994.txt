@@ -1,0 +1,8 @@
+the presence of the primary atany location and analyze network connectivity .Environmental sensing capacity
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}(CC )(NN ){1,2}(JJ )(NN ){1,2})))
+Phase: generated21994
+Input: Token
+Rule: generated21994
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })+)))):pttrn21994 --> :pttrn21994.extracted={}
+

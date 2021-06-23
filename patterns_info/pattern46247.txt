@@ -1,0 +1,8 @@
+monitoringfriendly forces, equipment and ammunition; bat-tlefield surveillance; reconnaissance of opposingforces and terrain; targeting; battle damage as-sessment; and nuclear, biological and chemical attack detection and reconnaissance.Monitoring friendly forces, equipment and am-munition: Leaders and commanders can constantlymonitor the status of friendly troops, the condi-tion and the availability of the equipment andthe ammunition in a battlefield by the use of sen-sor networks
+(NP (NP (JJ )(NNS ))(NP (NN )(CC )(NN ))(CC )(NP (ADJP (JJ ){1,2}(CC )(JJ ))(NN ){1,2})(CC ))
+Phase: generated46247
+Input: Token
+Rule: generated46247
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN })+)({ Token.category == CC }))):pttrn46247 --> :pttrn46247.extracted={}
+

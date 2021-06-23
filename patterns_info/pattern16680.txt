@@ -1,0 +1,8 @@
+established through the VNs wereshorter than the routes computed with the passive clusteringtechnique
+(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN )))(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated16680
+Input: Token
+Rule: generated16680
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn16680 --> :pttrn16680.extracted={}
+

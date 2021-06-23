@@ -1,0 +1,8 @@
+unattended inremote geographic areas
+(NP (JJ ){1,2}(NNS ))
+Phase: generated47456
+Input: Token
+Rule: generated47456
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn47456 --> :pttrn47456.extracted={}
+

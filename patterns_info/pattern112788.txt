@@ -1,0 +1,8 @@
+Network anomalies and security-related problemssuch as Distributed Denial of Service  attacks)
+(NP (NP (NP (NNP )(NNS ))(CC ))(PP (IN )(NP (PP (IN )(NP (NNP )(NNS )))(-RRB- ))))
+Phase: generated112788
+Input: Token
+Rule: generated112788
+(
+(((({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC }))(({ Token.category == IN })((({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))({ Token.category == -RRB- }))))):pttrn112788 --> :pttrn112788.extracted={}
+

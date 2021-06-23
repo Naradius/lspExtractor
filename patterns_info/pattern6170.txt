@@ -1,0 +1,8 @@
+realized that the approach that islikely to succeed to provide a scalable and energy-efficientsolution is of a hierarchical structure
+(VP (VBN )(IN ))
+Phase: generated6170
+Input: Token
+Rule: generated6170
+(
+(({ Token.category == VBN })({ Token.category == IN }))):pttrn6170 --> :pttrn6170.extracted={}
+

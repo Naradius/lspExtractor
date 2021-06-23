@@ -1,0 +1,8 @@
+2danglingedgeFigure 7
+(NP (JJ )(CD ))
+Phase: generated103113
+Input: Token
+Rule: generated103113
+(
+(({ Token.category == JJ })({ Token.category == CD }))):pttrn103113 --> :pttrn103113.extracted={}
+

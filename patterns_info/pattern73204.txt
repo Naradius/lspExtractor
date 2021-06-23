@@ -1,0 +1,8 @@
+A new word10 Dog Talk Homepages on the internet346
+(NP (NP (DT )(JJ )(CD )(NNP )(NN )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated73204
+Input: Token
+Rule: generated73204
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn73204 --> :pttrn73204.extracted={}
+

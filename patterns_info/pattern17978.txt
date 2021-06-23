@@ -1,0 +1,8 @@
+encountering holes
+(NP (VBG )(NNS ))
+Phase: generated17978
+Input: Token
+Rule: generated17978
+(
+(({ Token.category == VBG })({ Token.category == NNS }))):pttrn17978 --> :pttrn17978.extracted={}
+

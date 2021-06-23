@@ -1,0 +1,8 @@
+The premature depletion ofnodes in a given region
+(NP (NP (DT )(NN ){1,2}(NNS ))(PP (IN )(NP (DT )(VBN )(NN ))))
+Phase: generated51568
+Input: Token
+Rule: generated51568
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))):pttrn51568 --> :pttrn51568.extracted={}
+

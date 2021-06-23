@@ -1,0 +1,8 @@
+a near-optimal set
+(NP (DT )(JJ )(NN ))
+Phase: generated54025
+Input: Token
+Rule: generated54025
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn54025 --> :pttrn54025.extracted={}
+

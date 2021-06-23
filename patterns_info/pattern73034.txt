@@ -1,0 +1,8 @@
+The parsed ARG1s
+(NP (DT )(JJ )(NN ))
+Phase: generated73034
+Input: Token
+Rule: generated73034
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn73034 --> :pttrn73034.extracted={}
+

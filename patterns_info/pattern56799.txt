@@ -1,0 +1,8 @@
+algorithmprovides both routing and mobility overhead and also focused ondropping and blocking rates to have better network performance.2.5.2
+(VP (VP (VBZ )(NP (DT )(NN )(CC )(NN ){1,2}))(CC )(VP (VBD )(VP (VBG )(CC )(VP (VBG )(VP (TO )(VP (VB )(NP (JJR )(NN ){1,2})))))))
+Phase: generated56799
+Input: Token
+Rule: generated56799
+(
+((({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == VBG })({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN })+)))))))):pttrn56799 --> :pttrn56799.extracted={}
+

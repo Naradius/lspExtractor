@@ -1,0 +1,8 @@
+require later processingto trim extraneous words from the extracted phrase
+(VP (VBP )(VP (TO )(VP (VB )(NP (JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated82033
+Input: Token
+Rule: generated82033
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn82033 --> :pttrn82033.extracted={}
+

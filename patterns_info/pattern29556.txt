@@ -1,0 +1,8 @@
+studythe proposed method, which is about providing optimal data withthe IoT slicing method
+(NP (NP (DT )(VBN )(NN ))(VP (VBZ )(PP (IN )(VP (VBG )(NP (JJ )(NNS ))(PP (IN )(NP (NNP )(VBG )(NN )))))))
+Phase: generated29556
+Input: Token
+Rule: generated29556
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == VBG })({ Token.category == NN })))))))):pttrn29556 --> :pttrn29556.extracted={}
+

@@ -1,0 +1,8 @@
+refers to the time it takes thedversary to find the source node
+(VP (VBZ )(PP (TO )(NP (NP (DT )(NN ))(VP (VBZ )(ADJP (JJ )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}))))))))
+Phase: generated63031
+Input: Token
+Rule: generated63031
+(
+(({ Token.category == VBZ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))))))))):pttrn63031 --> :pttrn63031.extracted={}
+

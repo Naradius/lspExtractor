@@ -1,0 +1,8 @@
+great interestto deal
+(NP (JJ )(NN ){1,2})
+Phase: generated106468
+Input: Token
+Rule: generated106468
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn106468 --> :pttrn106468.extracted={}
+

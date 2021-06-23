@@ -1,0 +1,8 @@
+uses moreefficient candidate relays
+(VP (VBZ )(NP (JJ )(NN )(NNS )))
+Phase: generated42781
+Input: Token
+Rule: generated42781
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn42781 --> :pttrn42781.extracted={}
+

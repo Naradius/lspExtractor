@@ -1,0 +1,8 @@
+of correctly predicted cues
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated95635
+Input: Token
+Rule: generated95635
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn95635 --> :pttrn95635.extracted={}
+

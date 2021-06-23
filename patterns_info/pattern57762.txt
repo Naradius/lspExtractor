@@ -1,0 +1,8 @@
+An energy efficient regionalpartitioned clustering routing algorithm
+(NP (DT )(NN )(JJ ){1,2}(NN ){1,2})
+Phase: generated57762
+Input: Token
+Rule: generated57762
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn57762 --> :pttrn57762.extracted={}
+

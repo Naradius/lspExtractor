@@ -1,0 +1,8 @@
+the pheromone function :Dp  1n2cpi pi11=n2c11=n2c
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (CD )(NN ))))
+Phase: generated4204
+Input: Token
+Rule: generated4204
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn4204 --> :pttrn4204.extracted={}
+

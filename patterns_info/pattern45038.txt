@@ -1,0 +1,8 @@
+the best solutions for sensor net-works
+(NP (NP (DT )(JJS )(NNS ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated45038
+Input: Token
+Rule: generated45038
+(
+((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn45038 --> :pttrn45038.extracted={}
+

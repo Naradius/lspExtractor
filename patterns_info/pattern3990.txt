@@ -1,0 +1,8 @@
+a homogeneous spatial Poisson process
+(NP (DT )(JJ ){1,2}(NNP )(NN ))
+Phase: generated3990
+Input: Token
+Rule: generated3990
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NN }))):pttrn3990 --> :pttrn3990.extracted={}
+

@@ -1,0 +1,8 @@
+itrepresents a network of minimum number of overlapping regionsconnecting all domains
+(VP (VBD )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN )))(NP (DT )(NNS ))))))
+Phase: generated23170
+Input: Token
+Rule: generated23170
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn23170 --> :pttrn23170.extracted={}
+

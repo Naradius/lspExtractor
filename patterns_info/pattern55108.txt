@@ -1,0 +1,8 @@
+protocol works
+(NP (NN )(NNS ))
+Phase: generated55108
+Input: Token
+Rule: generated55108
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn55108 --> :pttrn55108.extracted={}
+

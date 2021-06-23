@@ -1,0 +1,8 @@
+8.  Change the most likely tag to Y if word W ever appears immediately to the left/right ofthe word5
+(VP (VBD )(NP (NP (DT )(ADJP (RBS )(JJ ))(NN ))(IN )))
+Phase: generated91873
+Input: Token
+Rule: generated91873
+(
+(({ Token.category == VBD })((({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))({ Token.category == IN })))):pttrn91873 --> :pttrn91873.extracted={}
+

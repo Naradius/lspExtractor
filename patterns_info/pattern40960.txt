@@ -1,0 +1,8 @@
+a n-copy protocol closelyinspired from the Binary Spray and Wait
+(NP (NP (DT )(JJ )(NN ))(VP (VP (VBN )(PP (IN )(NP (DT )(NNP ){1,2})))(CC )))
+Phase: generated40960
+Input: Token
+Rule: generated40960
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+)))({ Token.category == CC })))):pttrn40960 --> :pttrn40960.extracted={}
+

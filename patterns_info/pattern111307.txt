@@ -1,0 +1,8 @@
+the flight
+(NP (DT )(NN ))
+Phase: generated111307
+Input: Token
+Rule: generated111307
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn111307 --> :pttrn111307.extracted={}
+

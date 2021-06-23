@@ -1,0 +1,8 @@
+effective detection of IoT botnets
+(NP (NP (JJ )(NN ))(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated39437
+Input: Token
+Rule: generated39437
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn39437 --> :pttrn39437.extracted={}
+

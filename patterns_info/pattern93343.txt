@@ -1,0 +1,8 @@
+an ontology-enabled com-ponent, i.e.
+(NP (DT )(JJ ){1,2}(FW )(NNP ){1,2})
+Phase: generated93343
+Input: Token
+Rule: generated93343
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == FW })({ Token.category == NNP })+)):pttrn93343 --> :pttrn93343.extracted={}
+

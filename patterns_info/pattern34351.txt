@@ -1,0 +1,8 @@
+the effect of legal currency
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated34351
+Input: Token
+Rule: generated34351
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn34351 --> :pttrn34351.extracted={}
+

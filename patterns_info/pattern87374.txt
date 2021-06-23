@@ -1,0 +1,8 @@
+phrasal elements
+(NP (JJ )(NNS ))
+Phase: generated87374
+Input: Token
+Rule: generated87374
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn87374 --> :pttrn87374.extracted={}
+

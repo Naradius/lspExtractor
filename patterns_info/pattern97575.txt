@@ -1,0 +1,8 @@
+the most frequently used tag for a specific word in the annotated training data
+(NP (NP (DT )(ADJP (RBS )(RB )(VBN ))(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(NNS ))))))
+Phase: generated97575
+Input: Token
+Rule: generated97575
+(
+((({ Token.category == DT })(({ Token.category == RBS })({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn97575 --> :pttrn97575.extracted={}
+

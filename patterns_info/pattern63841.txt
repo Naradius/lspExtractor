@@ -1,0 +1,8 @@
+both social behavior and appearance
+(NP (DT )(NP (JJ )(NN ))(CC ))
+Phase: generated63841
+Input: Token
+Rule: generated63841
+(
+(({ Token.category == DT })(({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))):pttrn63841 --> :pttrn63841.extracted={}
+

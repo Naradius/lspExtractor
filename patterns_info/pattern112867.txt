@@ -1,0 +1,8 @@
+the form of the words information
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )(NN ))))
+Phase: generated112867
+Input: Token
+Rule: generated112867
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))))):pttrn112867 --> :pttrn112867.extracted={}
+

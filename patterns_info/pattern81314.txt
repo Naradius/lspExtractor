@@ -1,0 +1,8 @@
+to the helpful feedback
+(PP (TO )(NP (DT )(JJ )(NN )))
+Phase: generated81314
+Input: Token
+Rule: generated81314
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn81314 --> :pttrn81314.extracted={}
+

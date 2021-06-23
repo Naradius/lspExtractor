@@ -1,0 +1,8 @@
+the document-based IF forthe purpose of organizing the articles, according to their content, for visualization and navigationpurposes
+(NP (NP (DT )(JJ ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (DT )(NNS ))(PP (VBG )(PP (TO )(NP (PRP$ )(NN ))))(PP (IN )(NP (NN )(CC )(NNS ))))))))
+Phase: generated77063
+Input: Token
+Rule: generated77063
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))))))))):pttrn77063 --> :pttrn77063.extracted={}
+

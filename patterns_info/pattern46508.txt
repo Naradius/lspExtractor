@@ -1,0 +1,8 @@
+may be detecting the heart rate while anotheris detecting the blood pressure
+(VP (MD )(VP (VB )(VP (VBG )(NP (DT )(NN ){1,2}))))
+Phase: generated46508
+Input: Token
+Rule: generated46508
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn46508 --> :pttrn46508.extracted={}
+

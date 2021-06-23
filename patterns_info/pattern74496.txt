@@ -1,0 +1,8 @@
+of learning patterns
+(PP (IN )(NP (VBG )(NNS )))
+Phase: generated74496
+Input: Token
+Rule: generated74496
+(
+(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS })))):pttrn74496 --> :pttrn74496.extracted={}
+

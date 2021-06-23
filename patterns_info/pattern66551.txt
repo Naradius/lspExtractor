@@ -1,0 +1,8 @@
+are to act as the guard nodes in the later process
+(VP (VBP )(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))))
+Phase: generated66551
+Input: Token
+Rule: generated66551
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn66551 --> :pttrn66551.extracted={}
+

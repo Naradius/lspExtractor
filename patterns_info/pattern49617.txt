@@ -1,0 +1,8 @@
++ + +         +Cattle monitoring + +       + Environment monitoring     + + + + + + Public safety and military systems Active intervention     + + + + + + + + +Passive supervision   + + + + + +   Transportation systems Traffic control    + + + + + + + + Safety system    + + + + + + + +Services      + + + Industry SCADA systems    + + + + +   + +Smart grids +  + + + + +   + +Requirement importance  Very low Low+ High++ Very highFig
+(VP (VBN )(PP (IN )(NP (NNP ){1,2}(NN ))))
+Phase: generated49617
+Input: Token
+Rule: generated49617
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))):pttrn49617 --> :pttrn49617.extracted={}
+

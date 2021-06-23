@@ -1,0 +1,8 @@
+perfectlyaccommodated in VANET nodes knowing that they are not aslimited as MANET nodes in terms of computing capabilities.In addition
+(VP (VBN )(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated14532
+Input: Token
+Rule: generated14532
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn14532 --> :pttrn14532.extracted={}
+

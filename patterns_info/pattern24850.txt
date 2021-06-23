@@ -1,0 +1,8 @@
+of computer engineering and from2011
+(PP (IN )(NP (NN ){1,2}(CC )(CD )))
+Phase: generated24850
+Input: Token
+Rule: generated24850
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == CD })))):pttrn24850 --> :pttrn24850.extracted={}
+

@@ -1,0 +1,8 @@
+both identical toin
+(NP (DT )(JJ )(NN ))
+Phase: generated73065
+Input: Token
+Rule: generated73065
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn73065 --> :pttrn73065.extracted={}
+

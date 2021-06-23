@@ -1,0 +1,8 @@
+all the above protocolswith respect to various parameters
+(NP (NP (DT ){1,2}(JJ )(NN ){1,2})(PP (TO )(NP (JJ )(NNS ))))
+Phase: generated57206
+Input: Token
+Rule: generated57206
+(
+((({ Token.category == DT })+({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn57206 --> :pttrn57206.extracted={}
+

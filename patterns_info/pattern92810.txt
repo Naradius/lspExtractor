@@ -1,0 +1,8 @@
+in the LHS of the rule
+(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated92810
+Input: Token
+Rule: generated92810
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn92810 --> :pttrn92810.extracted={}
+

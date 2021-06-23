@@ -1,0 +1,8 @@
+the otherwise flat MANETs
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated13039
+Input: Token
+Rule: generated13039
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn13039 --> :pttrn13039.extracted={}
+

@@ -1,0 +1,8 @@
+data quality
+(NP (NNS )(NN ))
+Phase: generated30451
+Input: Token
+Rule: generated30451
+(
+(({ Token.category == NNS })({ Token.category == NN }))):pttrn30451 --> :pttrn30451.extracted={}
+

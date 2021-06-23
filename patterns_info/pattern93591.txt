@@ -1,0 +1,8 @@
+OWL operations
+(NP (NNP )(NNS ))
+Phase: generated93591
+Input: Token
+Rule: generated93591
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn93591 --> :pttrn93591.extracted={}
+

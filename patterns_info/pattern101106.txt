@@ -1,0 +1,8 @@
+of research points
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated101106
+Input: Token
+Rule: generated101106
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn101106 --> :pttrn101106.extracted={}
+

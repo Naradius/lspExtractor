@@ -1,0 +1,8 @@
+the 100100m MANET area
+(NP (DT )(JJ )(NNP )(NN ))
+Phase: generated109283
+Input: Token
+Rule: generated109283
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))):pttrn109283 --> :pttrn109283.extracted={}
+

@@ -1,0 +1,8 @@
+is the number of all documents of the cth class.In order to reduce the dictionary size we apply hierarchicalagglomerative clustering  with Euclideanmetric
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated86872
+Input: Token
+Rule: generated86872
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn86872 --> :pttrn86872.extracted={}
+

@@ -1,0 +1,8 @@
+among different CHs whichresults in longer network lifetime
+(PP (IN )(NP (NP (JJ )(NNP )(NNS ))(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated54672
+Input: Token
+Rule: generated54672
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn54672 --> :pttrn54672.extracted={}
+

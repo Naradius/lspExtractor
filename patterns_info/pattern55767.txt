@@ -1,0 +1,8 @@
+formed by the BSusing iterative cluster splitting algorithm
+(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN ){1,2})))
+Phase: generated55767
+Input: Token
+Rule: generated55767
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))):pttrn55767 --> :pttrn55767.extracted={}
+

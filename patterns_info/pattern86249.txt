@@ -1,0 +1,8 @@
+term weighting meth-ods
+(NP (NN ){1,2}(NNS ))
+Phase: generated86249
+Input: Token
+Rule: generated86249
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn86249 --> :pttrn86249.extracted={}
+

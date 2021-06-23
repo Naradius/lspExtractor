@@ -1,0 +1,8 @@
+the number of rings and sta-ilizes
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNS )(CC )(NNS ))))
+Phase: generated63394
+Input: Token
+Rule: generated63394
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))):pttrn63394 --> :pttrn63394.extracted={}
+

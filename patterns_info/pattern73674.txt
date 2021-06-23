@@ -1,0 +1,8 @@
+Plausibility verification strategy	Stage4
+(NP (NNP )(NN ){1,2}(NNP ))
+Phase: generated73674
+Input: Token
+Rule: generated73674
+(
+(({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNP }))):pttrn73674 --> :pttrn73674.extracted={}
+

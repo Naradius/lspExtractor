@@ -1,0 +1,8 @@
+the ith edge
+(NP (DT )(JJS )(NN ))
+Phase: generated23223
+Input: Token
+Rule: generated23223
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))):pttrn23223 --> :pttrn23223.extracted={}
+

@@ -1,0 +1,8 @@
+proposed a grid-based architecture.Their algorithm works on power management system for savingenergy by using the concept of sleep node
+(VP (VBN )(NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated53409
+Input: Token
+Rule: generated53409
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn53409 --> :pttrn53409.extracted={}
+

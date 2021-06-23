@@ -1,0 +1,8 @@
+selected as theCH and other non-CH nodes in the region become the CMs.
+(VP (VBN )(PP (IN )(NP (CC )(NP (NP (JJ ){1,2}(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )))))))))
+Phase: generated54352
+Input: Token
+Rule: generated54352
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))))):pttrn54352 --> :pttrn54352.extracted={}
+

@@ -1,0 +1,8 @@
+of one UAV fleet
+(PP (IN )(NP (CD )(NNP )(NN )))
+Phase: generated112258
+Input: Token
+Rule: generated112258
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })))):pttrn112258 --> :pttrn112258.extracted={}
+

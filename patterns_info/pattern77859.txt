@@ -1,0 +1,8 @@
+between these entities
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated77859
+Input: Token
+Rule: generated77859
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn77859 --> :pttrn77859.extracted={}
+

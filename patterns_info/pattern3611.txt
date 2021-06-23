@@ -1,0 +1,8 @@
+the electronic energy that depends on factorslike digital coding, modulation, filtering and spreading ofthe signal
+(NP (NP (DT )(JJ )(NN ))(VP (CC )(VP (VBG )(NP (DT )(NN )))))
+Phase: generated3611
+Input: Token
+Rule: generated3611
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))))):pttrn3611 --> :pttrn3611.extracted={}
+

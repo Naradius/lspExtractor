@@ -1,0 +1,8 @@
+perform various operations of smart home applica-tion
+(VP (VB )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated19395
+Input: Token
+Rule: generated19395
+(
+(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn19395 --> :pttrn19395.extracted={}
+

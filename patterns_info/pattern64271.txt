@@ -1,0 +1,8 @@
+some femalesgo hunting
+(NP (DT )(NN ){1,2})
+Phase: generated64271
+Input: Token
+Rule: generated64271
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn64271 --> :pttrn64271.extracted={}
+

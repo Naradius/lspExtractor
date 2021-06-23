@@ -1,0 +1,8 @@
+for ad hoc sensor networks, IEEE Transactionson Mobile Computing 3   366379
+(PP (IN )(NP (NP (NN )(JJ )(NN )(NNS ))(NP (NNP ){1,2}(CD ){1,2})))
+Phase: generated8969
+Input: Token
+Rule: generated8969
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == CD })+)))):pttrn8969 --> :pttrn8969.extracted={}
+

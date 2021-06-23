@@ -1,0 +1,8 @@
+approach conceptual graph level  using pure syntactic information such as syntactic parse trees and applying learning to it to increase reliability and consistency of resultant semantic representation
+(VP (VB )(NP (JJ )(NN ){1,2})(VP (VBG )(NP (NP (JJ )(NN ){1,2})(PP (JJ )(IN )(NP (NP (JJ ){1,2}(NNS ))(CC )(VP (VBG )(VP (TO )(VP (VB )(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (JJ ){1,2}(NN ))))))))))))
+Phase: generated70577
+Input: Token
+Rule: generated70577
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))))))))))):pttrn70577 --> :pttrn70577.extracted={}
+

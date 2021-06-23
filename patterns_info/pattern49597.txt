@@ -1,0 +1,8 @@
++ + +Services
+(NP (JJ )(NN )(NNS ))
+Phase: generated49597
+Input: Token
+Rule: generated49597
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn49597 --> :pttrn49597.extracted={}
+

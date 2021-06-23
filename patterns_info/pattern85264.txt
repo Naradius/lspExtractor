@@ -1,0 +1,8 @@
+add a very little or no value on the categorization process
+(VP (VBP )(NP (DT )(ADJP (RB )(JJ )(CC ))(NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated85264
+Input: Token
+Rule: generated85264
+(
+(({ Token.category == VBP })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ })({ Token.category == CC }))(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn85264 --> :pttrn85264.extracted={}
+

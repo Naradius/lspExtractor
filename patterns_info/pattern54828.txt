@@ -1,0 +1,8 @@
+the threshold
+(NP (DT )(NN ))
+Phase: generated54828
+Input: Token
+Rule: generated54828
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn54828 --> :pttrn54828.extracted={}
+

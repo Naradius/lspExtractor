@@ -1,0 +1,8 @@
+are under the purview/domain of a singlesensor
+(VP (VBP )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated22183
+Input: Token
+Rule: generated22183
+(
+(({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn22183 --> :pttrn22183.extracted={}
+

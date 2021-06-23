@@ -1,0 +1,8 @@
+starting their respectiveT_BackupRequest timers with a random value
+(VP (VBG )(NP (NP (PRP$ )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated14948
+Input: Token
+Rule: generated14948
+(
+(({ Token.category == VBG })((({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn14948 --> :pttrn14948.extracted={}
+

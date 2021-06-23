@@ -1,0 +1,8 @@
+necessitates the downward routing capabilities
+(VP (VBZ )(NP (DT )(JJ )(NN )(NNS )))
+Phase: generated26055
+Input: Token
+Rule: generated26055
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn26055 --> :pttrn26055.extracted={}
+

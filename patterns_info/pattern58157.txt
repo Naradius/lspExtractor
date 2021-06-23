@@ -1,0 +1,8 @@
+emerged as a new powerful technology used inmany applications such as military operations, surveillance system, Intelligent Transport Systems etc
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ ){1,2}(NN ))(VP (VBN )(NP (NP (NN )(NNS ))(PP (JJ )(IN )(NP (NP (JJ )(NNS ))(NP (NNP ){1,2}(FW )))))))))
+Phase: generated58157
+Input: Token
+Rule: generated58157
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == FW })))))))))):pttrn58157 --> :pttrn58157.extracted={}
+

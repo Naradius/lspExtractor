@@ -1,0 +1,8 @@
+of a word
+(PP (IN )(NP (DT )(NN )))
+Phase: generated83443
+Input: Token
+Rule: generated83443
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn83443 --> :pttrn83443.extracted={}
+

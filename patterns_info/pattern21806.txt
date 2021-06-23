@@ -1,0 +1,8 @@
+introduces a Mixed Integer Non-LinearProgramming  formulationwhose objective is tomaximizethe spectrum reuse factor throughout the network, or equivalently,to minimize the overall bandwidth usage throughout the network
+(VP (CC )(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))))
+Phase: generated21806
+Input: Token
+Rule: generated21806
+(
+(({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn21806 --> :pttrn21806.extracted={}
+

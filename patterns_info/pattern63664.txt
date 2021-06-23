@@ -1,0 +1,8 @@
+the social behavior of a flock of migrating birdstrying
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated63664
+Input: Token
+Rule: generated63664
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn63664 --> :pttrn63664.extracted={}
+

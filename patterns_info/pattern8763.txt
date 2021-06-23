@@ -1,0 +1,8 @@
+is evident thatT-ANT exhibits the longest lifetime with all nodes remainingfully functional
+(VP (VBZ )(VP (VBZ )(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(ADJP (RB )(JJ )))))))
+Phase: generated8763
+Input: Token
+Rule: generated8763
+(
+(({ Token.category == VBZ })(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == RB })({ Token.category == JJ })))))))):pttrn8763 --> :pttrn8763.extracted={}
+

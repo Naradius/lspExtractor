@@ -1,0 +1,8 @@
+conducted two set of experimentsnd they are named as SCENARIO #1 and SCENARIO #2
+(VP (VBD )(NP (NP (CD )(NN ))(VP (VBP )(VP (VBN )(NP (# )(CD )(CC )(NNP )(# )(CD ))))))
+Phase: generated59746
+Input: Token
+Rule: generated59746
+(
+(({ Token.category == VBD })((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == # })({ Token.category == CD })({ Token.category == CC })({ Token.category == NNP })({ Token.category == # })({ Token.category == CD }))))))):pttrn59746 --> :pttrn59746.extracted={}
+

@@ -1,0 +1,8 @@
+By 200 training instancesrecall
+(PP (IN )(NP (CD )(NN ){1,2}))
+Phase: generated78731
+Input: Token
+Rule: generated78731
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })+))):pttrn78731 --> :pttrn78731.extracted={}
+

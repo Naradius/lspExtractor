@@ -1,0 +1,8 @@
+in semi-structured text
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated83400
+Input: Token
+Rule: generated83400
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn83400 --> :pttrn83400.extracted={}
+

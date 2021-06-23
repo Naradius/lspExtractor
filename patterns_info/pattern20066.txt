@@ -1,0 +1,8 @@
+of the Australian Re-search Council
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated20066
+Input: Token
+Rule: generated20066
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn20066 --> :pttrn20066.extracted={}
+

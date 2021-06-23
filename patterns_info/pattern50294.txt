@@ -1,0 +1,8 @@
+the coordinator
+(NP (DT )(NN ))
+Phase: generated50294
+Input: Token
+Rule: generated50294
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn50294 --> :pttrn50294.extracted={}
+

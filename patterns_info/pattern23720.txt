@@ -1,0 +1,8 @@
+the deployment models
+(NP (DT )(NN )(NNS ))
+Phase: generated23720
+Input: Token
+Rule: generated23720
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn23720 --> :pttrn23720.extracted={}
+

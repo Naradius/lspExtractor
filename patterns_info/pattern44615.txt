@@ -1,0 +1,8 @@
+the neighbor discovery andchannel assignment phases
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(NNS ))))
+Phase: generated44615
+Input: Token
+Rule: generated44615
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn44615 --> :pttrn44615.extracted={}
+

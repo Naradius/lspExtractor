@@ -1,0 +1,8 @@
+a featurenamed A in the newly createdphrasal text unit
+(NP (NP (DT )(JJ )(NNP ))(PP (IN )(NP (DT )(ADJP (RB )(JJ ))(NN ){1,2})))
+Phase: generated88517
+Input: Token
+Rule: generated88517
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })+)))):pttrn88517 --> :pttrn88517.extracted={}
+

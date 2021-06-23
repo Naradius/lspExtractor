@@ -1,0 +1,8 @@
+add according to a term selection
+(VP (VB )(PP (VBG )(PP (TO )(NP (DT )(NN ){1,2}))))
+Phase: generated80714
+Input: Token
+Rule: generated80714
+(
+(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn80714 --> :pttrn80714.extracted={}
+

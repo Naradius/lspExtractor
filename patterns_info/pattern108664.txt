@@ -1,0 +1,8 @@
+randomly selected vector
+(NP (RB )(VBN )(NN ))
+Phase: generated108664
+Input: Token
+Rule: generated108664
+(
+(({ Token.category == RB })({ Token.category == VBN })({ Token.category == NN }))):pttrn108664 --> :pttrn108664.extracted={}
+

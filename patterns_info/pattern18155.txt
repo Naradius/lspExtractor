@@ -1,0 +1,8 @@
+geographic routing in wireless sensor networks
+(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated18155
+Input: Token
+Rule: generated18155
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn18155 --> :pttrn18155.extracted={}
+

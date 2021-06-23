@@ -1,0 +1,8 @@
+better packet delivery rate
+(NP (JJR )(NN ){1,2})
+Phase: generated10383
+Input: Token
+Rule: generated10383
+(
+(({ Token.category == JJR })({ Token.category == NN })+)):pttrn10383 --> :pttrn10383.extracted={}
+

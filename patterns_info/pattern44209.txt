@@ -1,0 +1,8 @@
+During the steady phase
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated44209
+Input: Token
+Rule: generated44209
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn44209 --> :pttrn44209.extracted={}
+

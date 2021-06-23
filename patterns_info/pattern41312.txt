@@ -1,0 +1,8 @@
+large and heterogeneous networks
+(NP (ADJP (JJ )(CC )(JJ ))(NNS ))
+Phase: generated41312
+Input: Token
+Rule: generated41312
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn41312 --> :pttrn41312.extracted={}
+

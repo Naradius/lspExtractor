@@ -1,0 +1,8 @@
+a number of POS tag-sets
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated96825
+Input: Token
+Rule: generated96825
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn96825 --> :pttrn96825.extracted={}
+

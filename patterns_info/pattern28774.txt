@@ -1,0 +1,8 @@
+up to 44
+(QP (RB )(TO )(CD ))
+Phase: generated28774
+Input: Token
+Rule: generated28774
+(
+(({ Token.category == RB })({ Token.category == TO })({ Token.category == CD }))):pttrn28774 --> :pttrn28774.extracted={}
+

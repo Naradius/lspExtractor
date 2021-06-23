@@ -1,0 +1,8 @@
+in the battle fieldsor defense-oriented applications to recover out the lights, elec-tromagnetic signals, chemical or biological vapors, and the enemypresence or border violations
+(PP (IN )(NP (NP (NP (DT )(NN ){1,2})(JJ )(NNS ))(VP (TO )(VP (VB )(PRT (RP ))(NP (NP (DT )(NNS ))(NP (NP (JJ )(NNS ))(CC )(NP (JJ )(NNS )))(CC )(NP (DT )(NN )(CC )(NN )(NNS )))))))
+Phase: generated65323
+Input: Token
+Rule: generated65323
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RP }))((({ Token.category == DT })({ Token.category == NNS }))((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn65323 --> :pttrn65323.extracted={}
+

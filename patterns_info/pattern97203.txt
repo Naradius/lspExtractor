@@ -1,0 +1,8 @@
+of the current system
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated97203
+Input: Token
+Rule: generated97203
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn97203 --> :pttrn97203.extracted={}
+

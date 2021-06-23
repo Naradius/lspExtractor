@@ -1,0 +1,8 @@
+vehicular traffic and bigger regions in areas of sparse traf-fic
+(NP (NP (JJ )(NN ))(CC ))
+Phase: generated16915
+Input: Token
+Rule: generated16915
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))):pttrn16915 --> :pttrn16915.extracted={}
+

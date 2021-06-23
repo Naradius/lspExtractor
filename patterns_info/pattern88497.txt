@@ -1,0 +1,8 @@
+newly createdphrasal
+(ADJP (RB )(JJ ))
+Phase: generated88497
+Input: Token
+Rule: generated88497
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn88497 --> :pttrn88497.extracted={}
+

@@ -1,0 +1,8 @@
+the scouts characteristics
+(NP (DT )(NNS ){1,2})
+Phase: generated2184
+Input: Token
+Rule: generated2184
+(
+(({ Token.category == DT })({ Token.category == NNS })+)):pttrn2184 --> :pttrn2184.extracted={}
+

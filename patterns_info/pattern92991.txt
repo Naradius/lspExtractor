@@ -1,0 +1,8 @@
+kb:Googleand kb:Buys
+(NP (DT )(NN )(NNS ))
+Phase: generated92991
+Input: Token
+Rule: generated92991
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn92991 --> :pttrn92991.extracted={}
+

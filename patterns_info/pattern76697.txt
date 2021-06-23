@@ -1,0 +1,8 @@
+to experiment with different ways of defininglexico-syntactic patterns for RE, possibly with the help offeedback by the user community through our demonstrator.Presently
+(VP (TO )(VP (VB )(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS )))))(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated76697
+Input: Token
+Rule: generated76697
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn76697 --> :pttrn76697.extracted={}
+

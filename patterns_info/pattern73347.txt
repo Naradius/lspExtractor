@@ -1,0 +1,8 @@
+of semantic role plausibility verification
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated73347
+Input: Token
+Rule: generated73347
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn73347 --> :pttrn73347.extracted={}
+

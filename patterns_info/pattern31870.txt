@@ -1,0 +1,8 @@
+areseparated into homogeneous clusters
+(VP (VBD )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated31870
+Input: Token
+Rule: generated31870
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn31870 --> :pttrn31870.extracted={}
+

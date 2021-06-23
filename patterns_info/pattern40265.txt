@@ -1,0 +1,8 @@
+the mobility
+(NP (DT )(NN ))
+Phase: generated40265
+Input: Token
+Rule: generated40265
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn40265 --> :pttrn40265.extracted={}
+

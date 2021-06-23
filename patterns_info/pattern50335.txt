@@ -1,0 +1,8 @@
+are used to monitor plant equipment orprocesses
+(VP (VBP )(VP (VBN )(VP (TO )(VP (VB )(NP (NN ){1,2}(NNS ))))))
+Phase: generated50335
+Input: Token
+Rule: generated50335
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn50335 --> :pttrn50335.extracted={}
+

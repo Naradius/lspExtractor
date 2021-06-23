@@ -1,0 +1,8 @@
+detection,revention and isolation of malicious nodes
+(NP (NP (NN ){1,2}(CC )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated66322
+Input: Token
+Rule: generated66322
+(
+((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn66322 --> :pttrn66322.extracted={}
+

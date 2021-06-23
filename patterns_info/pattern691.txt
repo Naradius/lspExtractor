@@ -1,0 +1,8 @@
+considered to create more scalable and stable communication schemes
+(VP (VBN )(VP (TO )(VP (VB )(NP (JJR )(JJ )(CC )(JJ )(NN )(NNS )))))
+Phase: generated691
+Input: Token
+Rule: generated691
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn691 --> :pttrn691.extracted={}
+

@@ -1,0 +1,8 @@
+have compared the security features andesource overheads with hiding techniques based on cryptographicuzzles and AONT based hiding scheme
+(VP (VBP )(VP (VBN )(NP (DT )(NN )(NNS )(NN )(NNS ))))
+Phase: generated65932
+Input: Token
+Rule: generated65932
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS }))))):pttrn65932 --> :pttrn65932.extracted={}
+

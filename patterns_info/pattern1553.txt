@@ -1,0 +1,8 @@
+the set of different lists1,2,s rE l =
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}(SYM ))))
+Phase: generated1553
+Input: Token
+Rule: generated1553
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == SYM }))))):pttrn1553 --> :pttrn1553.extracted={}
+

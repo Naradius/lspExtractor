@@ -1,0 +1,8 @@
+add the same elements to a graph , i.e
+(VP (VBP )(NP (DT )(JJ )(NNS )))
+Phase: generated104444
+Input: Token
+Rule: generated104444
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn104444 --> :pttrn104444.extracted={}
+

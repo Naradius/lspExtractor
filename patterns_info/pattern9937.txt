@@ -1,0 +1,8 @@
+collect data from its member nodes
+(VP (VB )(PP (IN )(NP (PRP$ )(NN )(NNS ))))
+Phase: generated9937
+Input: Token
+Rule: generated9937
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn9937 --> :pttrn9937.extracted={}
+

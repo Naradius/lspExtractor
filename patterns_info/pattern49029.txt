@@ -1,0 +1,8 @@
+thesame routing node
+(NP (DT )(NN ){1,2})
+Phase: generated49029
+Input: Token
+Rule: generated49029
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn49029 --> :pttrn49029.extracted={}
+

@@ -1,0 +1,8 @@
+pursue mobility model
+(VP (VB )(NP (JJ )(NN )))
+Phase: generated66290
+Input: Token
+Rule: generated66290
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))):pttrn66290 --> :pttrn66290.extracted={}
+

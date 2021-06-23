@@ -1,0 +1,8 @@
+candidate solutionsthat correspond
+(NP (NN )(JJ )(NN ))
+Phase: generated52302
+Input: Token
+Rule: generated52302
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))):pttrn52302 --> :pttrn52302.extracted={}
+

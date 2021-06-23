@@ -1,0 +1,8 @@
+many Natural Language Processing presentations
+(NP (JJ ){1,2}(NNS ))
+Phase: generated97298
+Input: Token
+Rule: generated97298
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn97298 --> :pttrn97298.extracted={}
+

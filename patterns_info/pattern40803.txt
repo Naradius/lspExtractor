@@ -1,0 +1,8 @@
+In Grasic et al.
+(PP (IN )(NP (NNP ){1,2}(JJ )(NNP )))
+Phase: generated40803
+Input: Token
+Rule: generated40803
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNP })))):pttrn40803 --> :pttrn40803.extracted={}
+

@@ -1,0 +1,8 @@
+by a single node ofthe corresponding type
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated95537
+Input: Token
+Rule: generated95537
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn95537 --> :pttrn95537.extracted={}
+

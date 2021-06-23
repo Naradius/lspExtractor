@@ -1,0 +1,8 @@
+the advertisement
+(NP (DT )(NN ))
+Phase: generated58446
+Input: Token
+Rule: generated58446
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn58446 --> :pttrn58446.extracted={}
+

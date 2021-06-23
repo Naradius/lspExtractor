@@ -1,0 +1,8 @@
+in the greedyrouting
+(PP (IN )(NP (DT )(NN )))
+Phase: generated63158
+Input: Token
+Rule: generated63158
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn63158 --> :pttrn63158.extracted={}
+

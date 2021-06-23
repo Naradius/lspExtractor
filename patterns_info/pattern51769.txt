@@ -1,0 +1,8 @@
+been applied to power medi-cal sensors
+(VP (VBN )(VP (VBN )(PP (TO )(NP (NN )(JJ )(NNS )))))
+Phase: generated51769
+Input: Token
+Rule: generated51769
+(
+(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn51769 --> :pttrn51769.extracted={}
+

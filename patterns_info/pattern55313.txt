@@ -1,0 +1,8 @@
+is the distance between the nodes and each node commu-nicates with CH using the given TDMA schedule and N
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(CC )))))
+Phase: generated55313
+Input: Token
+Rule: generated55313
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })))))):pttrn55313 --> :pttrn55313.extracted={}
+

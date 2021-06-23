@@ -1,0 +1,8 @@
+sepa-rating the nodes
+(VP (VBG )(NP (DT )(NNS )))
+Phase: generated42650
+Input: Token
+Rule: generated42650
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })))):pttrn42650 --> :pttrn42650.extracted={}
+

@@ -1,0 +1,8 @@
+ending in `1>
+(VP (VBG )(PP (IN )(`` )(NP (CD )(NN ))))
+Phase: generated79197
+Input: Token
+Rule: generated79197
+(
+(({ Token.category == VBG })(({ Token.category == IN })({ Token.category == `` })(({ Token.category == CD })({ Token.category == NN }))))):pttrn79197 --> :pttrn79197.extracted={}
+

@@ -1,0 +1,8 @@
+scheduling ofresources
+(NP (NN )(NNS ))
+Phase: generated19364
+Input: Token
+Rule: generated19364
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn19364 --> :pttrn19364.extracted={}
+

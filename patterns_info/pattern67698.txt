@@ -1,0 +1,8 @@
+select the sensor guard nodesith the help of complex symmetric key approach
+(VP (VB )(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NN ))))))
+Phase: generated67698
+Input: Token
+Rule: generated67698
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))))):pttrn67698 --> :pttrn67698.extracted={}
+

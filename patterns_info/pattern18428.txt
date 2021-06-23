@@ -1,0 +1,8 @@
+have received considerable attention by researchers in  sensor network community
+(VP (VBP )(VP (VBN )(NP (JJ )(NN ))))
+Phase: generated18428
+Input: Token
+Rule: generated18428
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn18428 --> :pttrn18428.extracted={}
+

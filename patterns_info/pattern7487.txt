@@ -1,0 +1,8 @@
+has to process JOIN messages fromthe potential members in the order of n to determine theneighbor with the highest pheromone level
+(VP (VBZ )(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))(VP (TO )(VP (VB )(PP (IN )(NP (DT )(JJS )(NN ){1,2})))))))
+Phase: generated7487
+Input: Token
+Rule: generated7487
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+)))))))):pttrn7487 --> :pttrn7487.extracted={}
+

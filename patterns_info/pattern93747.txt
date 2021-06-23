@@ -1,0 +1,8 @@
+andbuilt a test environment
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated93747
+Input: Token
+Rule: generated93747
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn93747 --> :pttrn93747.extracted={}
+

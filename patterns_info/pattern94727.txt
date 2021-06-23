@@ -1,0 +1,8 @@
+construct new rules  by searching forcertain patterns in the text, trained by using rela-tions and events we have previously identified.AcknowledgementsThe authors are partially sponsored by the DutchOrganization for Scientific Research  Physi-cal Sciences Free Competition project
+(VP (VB )(NP (JJ )(NNS )))
+Phase: generated94727
+Input: Token
+Rule: generated94727
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn94727 --> :pttrn94727.extracted={}
+

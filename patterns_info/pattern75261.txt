@@ -1,0 +1,8 @@
+thathad low overlap with the phrases extracted by the seed patterns,which resulted in lower recall.Our results
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN )(NNS )))))))
+Phase: generated75261
+Input: Token
+Rule: generated75261
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn75261 --> :pttrn75261.extracted={}
+

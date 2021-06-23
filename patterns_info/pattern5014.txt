@@ -1,0 +1,8 @@
+be substantially lesser than necessary toachieve complete network coverage
+(VP (VB )(ADJP (ADJP (RB )(JJR ))(PP (IN )(NP (JJ )(NN )(JJ )(NN ){1,2}))))
+Phase: generated5014
+Input: Token
+Rule: generated5014
+(
+(({ Token.category == VB })((({ Token.category == RB })({ Token.category == JJR }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn5014 --> :pttrn5014.extracted={}
+

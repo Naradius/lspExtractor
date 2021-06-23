@@ -1,0 +1,8 @@
+make them work in applicative settings
+(VP (VB )(VP (VB )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated97890
+Input: Token
+Rule: generated97890
+(
+(({ Token.category == VB })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn97890 --> :pttrn97890.extracted={}
+

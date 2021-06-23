@@ -1,0 +1,8 @@
+the CM with the highest energy
+(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(JJS )(NN ))))
+Phase: generated54364
+Input: Token
+Rule: generated54364
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))))):pttrn54364 --> :pttrn54364.extracted={}
+

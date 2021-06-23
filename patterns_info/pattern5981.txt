@@ -1,0 +1,8 @@
+to become a CH.
+(VP (TO )(VP (VB )(NP (DT )(NNP ))))
+Phase: generated5981
+Input: Token
+Rule: generated5981
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn5981 --> :pttrn5981.extracted={}
+

@@ -1,0 +1,8 @@
+could stillachieve the desired properties of good CH distribution andenergy efficiency.The rest of the paper is organized as follows: Section 2presents the perspective of this area of research
+(VP (MD )(VP (VB )(NP (NP (DT )(VBN )(NNS ))(PP (IN )(NP (JJ )(NNP )(NN ){1,2})))(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated9597
+Input: Token
+Rule: generated9597
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn9597 --> :pttrn9597.extracted={}
+

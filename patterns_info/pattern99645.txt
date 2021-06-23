@@ -1,0 +1,8 @@
+in THE-MENTOR.We start
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated99645
+Input: Token
+Rule: generated99645
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn99645 --> :pttrn99645.extracted={}
+

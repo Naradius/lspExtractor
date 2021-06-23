@@ -1,0 +1,8 @@
+Pattern Structures and Their Projections ICCS '01, 129-142, 2001.
+(NP (NP (CC )(NP (PRP$ )(NNP ){1,2}))('' ))
+Phase: generated116913
+Input: Token
+Rule: generated116913
+(
+((({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NNP })+))({ Token.category == '' }))):pttrn116913 --> :pttrn116913.extracted={}
+

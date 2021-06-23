@@ -1,0 +1,8 @@
+is to avoidgetting duplicated messages
+(VP (VBZ )(PP (TO )(VP (VBG )(NP (VBN )(NNS )))))
+Phase: generated48154
+Input: Token
+Rule: generated48154
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VBG })(({ Token.category == VBN })({ Token.category == NNS })))))):pttrn48154 --> :pttrn48154.extracted={}
+

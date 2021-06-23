@@ -1,0 +1,8 @@
+RREP messages by unicastto PN B indicating whether and how PN A can be reachedthrough them.3
+(VP (VBN )(PP (IN )(NP (NN )(NNP ){1,2})))
+Phase: generated15784
+Input: Token
+Rule: generated15784
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })+)))):pttrn15784 --> :pttrn15784.extracted={}
+

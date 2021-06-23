@@ -1,0 +1,8 @@
+the ID of the neighboring cluster head, the gateway node through which the host cluster head communicates with the neighboring cluster head, and the status of the link between the gateway and the neighboring cluster head
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))(NP (NP (DT )(NN ){1,2})(NP (NP (NP (DT )(NN ){1,2}(NNS ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(JJ )(NN ){1,2})))))))))
+Phase: generated1094
+Input: Token
+Rule: generated1094
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))((({ Token.category == DT })({ Token.category == NN })+)(((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))))))):pttrn1094 --> :pttrn1094.extracted={}
+

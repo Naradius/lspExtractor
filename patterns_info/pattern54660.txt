@@ -1,0 +1,8 @@
+have proposed Multi-hop Routing withLow Energy Adaptive Clustering Hierarchy  protocol.It partitions the network into different layers of clusters
+(VP (VBP )(VP (VBN )(NP (NP (JJ )(NNP ))(PP (IN )(NP (NNP ){1,2}(NN )(NNS ))))(NP (DT )(NN ))))
+Phase: generated54660
+Input: Token
+Rule: generated54660
+(
+(({ Token.category == VBP })(({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == DT })({ Token.category == NN }))))):pttrn54660 --> :pttrn54660.extracted={}
+

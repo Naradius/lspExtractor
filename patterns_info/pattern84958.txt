@@ -1,0 +1,8 @@
+help the document clustering by using k-means algorithm
+(VP (VBP )(NP (DT )(NN ){1,2})(PP (IN )(VP (VBG )(NP (NNS )(NN )))))
+Phase: generated84958
+Input: Token
+Rule: generated84958
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == NN })))))):pttrn84958 --> :pttrn84958.extracted={}
+

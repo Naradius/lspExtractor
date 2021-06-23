@@ -1,0 +1,8 @@
+large lin-ear classification
+(NP (JJ ){1,2}(NN ))
+Phase: generated86062
+Input: Token
+Rule: generated86062
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn86062 --> :pttrn86062.extracted={}
+

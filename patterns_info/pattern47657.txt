@@ -1,0 +1,8 @@
+between sender and receiver
+(PP (IN )(NP (NN )(CC )(NN )))
+Phase: generated47657
+Input: Token
+Rule: generated47657
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn47657 --> :pttrn47657.extracted={}
+

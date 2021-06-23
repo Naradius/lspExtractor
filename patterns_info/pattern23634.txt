@@ -1,0 +1,8 @@
+a pairwisecompetition
+(NP (DT )(NN ))
+Phase: generated23634
+Input: Token
+Rule: generated23634
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn23634 --> :pttrn23634.extracted={}
+

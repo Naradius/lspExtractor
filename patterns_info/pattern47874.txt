@@ -1,0 +1,8 @@
+This high value
+(NP (DT )(JJ )(NN ))
+Phase: generated47874
+Input: Token
+Rule: generated47874
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn47874 --> :pttrn47874.extracted={}
+

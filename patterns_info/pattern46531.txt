@@ -1,0 +1,8 @@
+inside the domestic devices
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated46531
+Input: Token
+Rule: generated46531
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn46531 --> :pttrn46531.extracted={}
+

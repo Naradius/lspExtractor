@@ -1,0 +1,8 @@
+the social behavior
+(NP (DT )(JJ )(NN ))
+Phase: generated63743
+Input: Token
+Rule: generated63743
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn63743 --> :pttrn63743.extracted={}
+

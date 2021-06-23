@@ -1,0 +1,8 @@
+has semantic class Day followed by an endfont tag to ll the Day slot of a Forecast case frame
+(VP (VBZ )(NP (NP (JJ )(NN ){1,2})(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))(VP (TO )(VP (VB )(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (DT )(NNP )(NN ){1,2}))))))))
+Phase: generated84447
+Input: Token
+Rule: generated84447
+(
+(({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+))))))))):pttrn84447 --> :pttrn84447.extracted={}
+

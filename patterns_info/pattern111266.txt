@@ -1,0 +1,8 @@
+the IDS methodology
+(NP (DT )(NNP )(NN ))
+Phase: generated111266
+Input: Token
+Rule: generated111266
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn111266 --> :pttrn111266.extracted={}
+

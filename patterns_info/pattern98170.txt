@@ -1,0 +1,8 @@
+the affix removal stemmer
+(NP (DT )(NN ){1,2})
+Phase: generated98170
+Input: Token
+Rule: generated98170
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn98170 --> :pttrn98170.extracted={}
+

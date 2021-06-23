@@ -1,0 +1,8 @@
+nodes interpret one ormore node/link metrics , into a Rank
+(VP (VBZ )(VP (VB )(PP (IN )(NP (NN )(NNS )))(PP (IN )(NP (DT )(NN )))))
+Phase: generated25352
+Input: Token
+Rule: generated25352
+(
+(({ Token.category == VBZ })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn25352 --> :pttrn25352.extracted={}
+

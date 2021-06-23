@@ -1,0 +1,8 @@
+increase the sustainabilityof WSNs
+(VP (VB )(NP (DT )(JJ )(NNP )))
+Phase: generated51719
+Input: Token
+Rule: generated51719
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })))):pttrn51719 --> :pttrn51719.extracted={}
+

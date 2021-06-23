@@ -1,0 +1,8 @@
+isomputed as the ratio of received packets by the sink to the totalumber of transmitted packets towards the sink in the network
+(VP (VBD )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))(PP (IN )(NP (DT )(NN ))))(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))))))))
+Phase: generated27866
+Input: Token
+Rule: generated27866
+(
+(({ Token.category == VBD })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))))):pttrn27866 --> :pttrn27866.extracted={}
+

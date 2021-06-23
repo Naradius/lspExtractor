@@ -1,0 +1,8 @@
+had in fixed node scenar-os where the OF0 had improved the PDR.
+(VP (VBD )(PP (IN )(NP (NP (VBN )(NN )(NNS ))(WHADVP (WRB )))))
+Phase: generated28636
+Input: Token
+Rule: generated28636
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == WRB })))))):pttrn28636 --> :pttrn28636.extracted={}
+

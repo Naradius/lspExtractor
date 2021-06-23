@@ -1,0 +1,8 @@
+is a path satisfying all the QoS metrics
+(VP (VBZ )(NP (NP (DT )(NN ))(VP (VBG )(NP (DT ){1,2}(NNP )(NNS )))))
+Phase: generated32874
+Input: Token
+Rule: generated32874
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })+({ Token.category == NNP })({ Token.category == NNS })))))):pttrn32874 --> :pttrn32874.extracted={}
+

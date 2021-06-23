@@ -1,0 +1,8 @@
+protocols classification
+(NP (NNS )(NN ))
+Phase: generated25593
+Input: Token
+Rule: generated25593
+(
+(({ Token.category == NNS })({ Token.category == NN }))):pttrn25593 --> :pttrn25593.extracted={}
+

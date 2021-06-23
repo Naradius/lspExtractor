@@ -1,0 +1,8 @@
+considered or adopted such biologically-inspiredapproaches for the WSN design
+(VP (VBN )(CC )(VBN )(NP (JJ )(NNS ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated9428
+Input: Token
+Rule: generated9428
+(
+(({ Token.category == VBN })({ Token.category == CC })({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn9428 --> :pttrn9428.extracted={}
+

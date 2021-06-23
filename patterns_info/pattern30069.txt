@@ -1,0 +1,8 @@
+algorithmon heterogeneous data
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated30069
+Input: Token
+Rule: generated30069
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn30069 --> :pttrn30069.extracted={}
+

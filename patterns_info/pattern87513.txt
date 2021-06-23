@@ -1,0 +1,8 @@
+from a simple lexicon
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated87513
+Input: Token
+Rule: generated87513
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn87513 --> :pttrn87513.extracted={}
+

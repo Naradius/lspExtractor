@@ -1,0 +1,8 @@
+a collection of sensornodes to discover their neighbors and establishtransmission/reception schedules without the needfor a central management system
+(NP (NP (DT )(NN ))(VP (TO )(VP (VB )(NP (PRP$ )(NNS )(CC )(NN )(NNS ))(PP (IN )(NP (DT )(NN )))(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated44034
+Input: Token
+Rule: generated44034
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn44034 --> :pttrn44034.extracted={}
+

@@ -1,0 +1,8 @@
+suchmap construction techniques
+(NP (JJ )(NN )(NNS ))
+Phase: generated22097
+Input: Token
+Rule: generated22097
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn22097 --> :pttrn22097.extracted={}
+

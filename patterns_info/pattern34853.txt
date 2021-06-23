@@ -1,0 +1,8 @@
+is realized.The security of the blockchain IoT itself does not guaranteethe security of its upper-layer applications
+(VP (VBZ )(VP (VBZ )(RB )))
+Phase: generated34853
+Input: Token
+Rule: generated34853
+(
+(({ Token.category == VBZ })(({ Token.category == VBZ })({ Token.category == RB })))):pttrn34853 --> :pttrn34853.extracted={}
+

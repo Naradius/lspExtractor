@@ -1,0 +1,8 @@
+were developed and evaluated againstthe BioScope corpus .Ozgur and Radev  have developed a super-vised classifier for identifying speculation cues anda manually compiled list of lexico-syntactic rules foridentifying their scopes
+(VP (VBD )(VP (CC )(VP (VBN )(IN ))))
+Phase: generated95780
+Input: Token
+Rule: generated95780
+(
+(({ Token.category == VBD })(({ Token.category == CC })(({ Token.category == VBN })({ Token.category == IN }))))):pttrn95780 --> :pttrn95780.extracted={}
+

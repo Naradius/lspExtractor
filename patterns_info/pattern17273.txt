@@ -1,0 +1,8 @@
+design a mechanism to find path using greedy forwarding as long as possible by reduce the possibility of encountering holes in network
+(VP (VBP )(NP (DT )(NN )))
+Phase: generated17273
+Input: Token
+Rule: generated17273
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })))):pttrn17273 --> :pttrn17273.extracted={}
+

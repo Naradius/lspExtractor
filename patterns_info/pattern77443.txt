@@ -1,0 +1,8 @@
+is opening up newpossibilities for Relation Extraction  on large corpora of natural language text
+(VP (VBZ )(VP (VBG )(PRT (RP ))))
+Phase: generated77443
+Input: Token
+Rule: generated77443
+(
+(({ Token.category == VBZ })(({ Token.category == VBG })(({ Token.category == RP }))))):pttrn77443 --> :pttrn77443.extracted={}
+

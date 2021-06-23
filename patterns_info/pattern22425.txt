@@ -1,0 +1,8 @@
+current primary usage scenario
+(NP (JJ ){1,2}(NN ){1,2})
+Phase: generated22425
+Input: Token
+Rule: generated22425
+(
+(({ Token.category == JJ })+({ Token.category == NN })+)):pttrn22425 --> :pttrn22425.extracted={}
+

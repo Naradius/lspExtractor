@@ -1,0 +1,8 @@
+against SAMER and LinGO D2D routingschemes
+(PP (IN )(NP (NNP )(CC )(NNP ){1,2}(NNS )))
+Phase: generated24083
+Input: Token
+Rule: generated24083
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+({ Token.category == NNS })))):pttrn24083 --> :pttrn24083.extracted={}
+

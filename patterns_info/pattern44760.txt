@@ -1,0 +1,8 @@
+the access point
+(NP (DT )(NN ){1,2})
+Phase: generated44760
+Input: Token
+Rule: generated44760
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn44760 --> :pttrn44760.extracted={}
+

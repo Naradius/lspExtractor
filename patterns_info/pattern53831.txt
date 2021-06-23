@@ -1,0 +1,8 @@
+isassigned to each SN with two parameters as distance and degree.Each node
+(VP (VBN )(PP (TO )(NP (DT )(NN )))(PP (IN )(NP (NP (CD )(NNS ))(PP (IN )(NP (NN )(CC )(NN )(JJ )(NN ))))))
+Phase: generated53831
+Input: Token
+Rule: generated53831
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn53831 --> :pttrn53831.extracted={}
+

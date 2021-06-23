@@ -1,0 +1,8 @@
+a starnetwork where a master node can have up toseven slave nodes wirelessly connected to it toform a piconet
+(NP (NP (NP (DT )(NN ))(WHADVP (WRB )))(NP (DT )(NN )))
+Phase: generated44433
+Input: Token
+Rule: generated44433
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == WRB })))(({ Token.category == DT })({ Token.category == NN })))):pttrn44433 --> :pttrn44433.extracted={}
+

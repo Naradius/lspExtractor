@@ -1,0 +1,8 @@
+on the inputs from the simulation model
+(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated23828
+Input: Token
+Rule: generated23828
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn23828 --> :pttrn23828.extracted={}
+

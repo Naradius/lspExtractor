@@ -1,0 +1,8 @@
+is fully considered in thischeme and, therefore, the routing path is varied
+(VP (CC )(NP (DT )(NN ){1,2}))
+Phase: generated62004
+Input: Token
+Rule: generated62004
+(
+(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))):pttrn62004 --> :pttrn62004.extracted={}
+

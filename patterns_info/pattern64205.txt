@@ -1,0 +1,8 @@
+are belong both left and right wing
+(VP (VBP )(PP (IN )(NP (DT )(NN )(CC )(JJ )(NN ))))
+Phase: generated64205
+Input: Token
+Rule: generated64205
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN }))))):pttrn64205 --> :pttrn64205.extracted={}
+

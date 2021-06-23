@@ -1,0 +1,8 @@
+This performance of this work
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated10782
+Input: Token
+Rule: generated10782
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn10782 --> :pttrn10782.extracted={}
+

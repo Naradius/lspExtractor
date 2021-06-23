@@ -1,0 +1,8 @@
+indicate region ids
+(VP (VB )(NP (NN )(NNS )))
+Phase: generated14097
+Input: Token
+Rule: generated14097
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))):pttrn14097 --> :pttrn14097.extracted={}
+

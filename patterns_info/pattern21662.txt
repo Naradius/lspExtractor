@@ -1,0 +1,8 @@
+close to perfect primary incumbentprotection
+(ADVP (RB )(PP (TO )(NP (JJ ){1,2}(NN ))))
+Phase: generated21662
+Input: Token
+Rule: generated21662
+(
+(({ Token.category == RB })(({ Token.category == TO })(({ Token.category == JJ })+({ Token.category == NN }))))):pttrn21662 --> :pttrn21662.extracted={}
+

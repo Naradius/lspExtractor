@@ -1,0 +1,8 @@
+GPSR and IPF
+(NP (NNP )(CC )(NNP ))
+Phase: generated18000
+Input: Token
+Rule: generated18000
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn18000 --> :pttrn18000.extracted={}
+

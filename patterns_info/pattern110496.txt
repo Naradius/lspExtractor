@@ -1,0 +1,8 @@
+such as Randomarly Detection
+(PP (JJ )(IN ))
+Phase: generated110496
+Input: Token
+Rule: generated110496
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn110496 --> :pttrn110496.extracted={}
+

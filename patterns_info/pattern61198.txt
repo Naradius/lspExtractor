@@ -1,0 +1,8 @@
+be ubiquitous, reliable, scalable, andost-efficient is potential challenge to enable IoT becoming uni-ersal
+(VP (VB )(ADJP (JJ ){1,2}(VBZ ))(NP (JJ )(NN )))
+Phase: generated61198
+Input: Token
+Rule: generated61198
+(
+(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == VBZ }))(({ Token.category == JJ })({ Token.category == NN })))):pttrn61198 --> :pttrn61198.extracted={}
+

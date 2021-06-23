@@ -1,0 +1,8 @@
+on Com-puter and Information Technology
+(PP (IN )(NP (NNP )(CC )(NNP ){1,2}))
+Phase: generated29030
+Input: Token
+Rule: generated29030
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+))):pttrn29030 --> :pttrn29030.extracted={}
+

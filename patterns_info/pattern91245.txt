@@ -1,0 +1,8 @@
+A temporary corpus
+(NP (DT )(JJ )(NN ))
+Phase: generated91245
+Input: Token
+Rule: generated91245
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn91245 --> :pttrn91245.extracted={}
+

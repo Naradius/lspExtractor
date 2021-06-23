@@ -1,0 +1,8 @@
+incurred bythe algorithm in the fourth experiments
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated33940
+Input: Token
+Rule: generated33940
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn33940 --> :pttrn33940.extracted={}
+

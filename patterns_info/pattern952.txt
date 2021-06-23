@@ -1,0 +1,8 @@
+a collision-free data exchange
+(NP (DT )(JJ )(NNS )(NN ))
+Phase: generated952
+Input: Token
+Rule: generated952
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))):pttrn952 --> :pttrn952.extracted={}
+

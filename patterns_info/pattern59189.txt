@@ -1,0 +1,8 @@
+routing system
+(NP (JJ )(NN ))
+Phase: generated59189
+Input: Token
+Rule: generated59189
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn59189 --> :pttrn59189.extracted={}
+

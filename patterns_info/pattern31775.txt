@@ -1,0 +1,8 @@
+heterogeneous data.
+(NP (PRP$ )(NN ))
+Phase: generated31775
+Input: Token
+Rule: generated31775
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn31775 --> :pttrn31775.extracted={}
+

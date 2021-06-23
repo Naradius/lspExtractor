@@ -1,0 +1,8 @@
+associated to the network configuration C, T p as= q/C + T p
+(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated110401
+Input: Token
+Rule: generated110401
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn110401 --> :pttrn110401.extracted={}
+

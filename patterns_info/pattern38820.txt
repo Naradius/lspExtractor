@@ -1,0 +1,8 @@
+can minimize energy and communication over-heads whilst achieving an effective collaborative intrusion detection for IIoT systems
+(VP (MD )(VP (VB )(NP (NN )(CC )(NN )(NNS ))(PP (IN )(VP (VBG )(NP (NP (DT )(JJ ){1,2}(NN ){1,2})(PP (IN )(NP (NNP )(NNS ))))))))
+Phase: generated38820
+Input: Token
+Rule: generated38820
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))))))):pttrn38820 --> :pttrn38820.extracted={}
+

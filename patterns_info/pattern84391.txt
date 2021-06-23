@@ -1,0 +1,8 @@
+with an image of a partly cloudy sky beneath the word\Thursday"
+(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(ADJP (RB )(JJ ))(NN ))))(PP (IN )(NP (DT )(NN )))))
+Phase: generated84391
+Input: Token
+Rule: generated84391
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn84391 --> :pttrn84391.extracted={}
+

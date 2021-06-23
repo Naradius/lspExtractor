@@ -1,0 +1,8 @@
+the current study
+(NP (DT )(JJ )(NN ))
+Phase: generated118385
+Input: Token
+Rule: generated118385
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn118385 --> :pttrn118385.extracted={}
+

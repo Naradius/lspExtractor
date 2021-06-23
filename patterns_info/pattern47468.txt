@@ -1,0 +1,8 @@
+of an ocean
+(PP (IN )(NP (DT )(NN )))
+Phase: generated47468
+Input: Token
+Rule: generated47468
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn47468 --> :pttrn47468.extracted={}
+

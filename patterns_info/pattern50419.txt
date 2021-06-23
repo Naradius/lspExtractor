@@ -1,0 +1,8 @@
+The superframe structure of the IEBluetooth Low Energy   addresses low-costdevices with very low battery capacity
+(NP (NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP ){1,2}(NNS ){1,2})))(PP (IN )(NP (ADJP (RB )(JJ ))(NN ){1,2})))
+Phase: generated50419
+Input: Token
+Rule: generated50419
+(
+(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NNS })+)))(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })+)))):pttrn50419 --> :pttrn50419.extracted={}
+

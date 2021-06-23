@@ -1,0 +1,8 @@
+achieve effective intrusion detection
+(VP (VB )(NP (JJ )(NN ){1,2}))
+Phase: generated37393
+Input: Token
+Rule: generated37393
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn37393 --> :pttrn37393.extracted={}
+

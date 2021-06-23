@@ -1,0 +1,8 @@
+mainlyused to solve the problem of who constructs the data block andhow to maintain the consistency of the blockchain at all nodes.The common point of interpretation
+(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(VP (VBZ )(NP (DT )(NNS )(NN ){1,2})(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))))))))
+Phase: generated36679
+Input: Token
+Rule: generated36679
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))))):pttrn36679 --> :pttrn36679.extracted={}
+

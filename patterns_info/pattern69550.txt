@@ -1,0 +1,8 @@
+the idealcase
+(NP (DT )(NN ))
+Phase: generated69550
+Input: Token
+Rule: generated69550
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn69550 --> :pttrn69550.extracted={}
+

@@ -1,0 +1,8 @@
+toneighboring nodes
+(NP (NN )(NNS ))
+Phase: generated5171
+Input: Token
+Rule: generated5171
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn5171 --> :pttrn5171.extracted={}
+

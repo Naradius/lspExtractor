@@ -1,0 +1,8 @@
+in Text mining, Natural Language Processing  and information retrieval
+(PP (IN )(NP (NP (NNP )(NN ))(NP (NNP ){1,2}(CC )(NN ){1,2})))
+Phase: generated98254
+Input: Token
+Rule: generated98254
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NN })+)))):pttrn98254 --> :pttrn98254.extracted={}
+

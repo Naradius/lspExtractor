@@ -1,0 +1,8 @@
+of a eld, WHISK
+(PP (IN )(NP (DT )(JJ )(NNP )))
+Phase: generated80587
+Input: Token
+Rule: generated80587
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })))):pttrn80587 --> :pttrn80587.extracted={}
+

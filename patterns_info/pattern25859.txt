@@ -1,0 +1,8 @@
+path costs
+(NP (NN )(NNS ))
+Phase: generated25859
+Input: Token
+Rule: generated25859
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn25859 --> :pttrn25859.extracted={}
+

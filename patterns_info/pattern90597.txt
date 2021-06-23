@@ -1,0 +1,8 @@
+construction and evalua-tion
+(NP (NN )(CC )(NN ))
+Phase: generated90597
+Input: Token
+Rule: generated90597
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn90597 --> :pttrn90597.extracted={}
+

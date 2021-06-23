@@ -1,0 +1,8 @@
+included in the set of the sites lOs  chosen by the forager-agents.10
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ){1,2})(VP (VBN )(PP (IN )(NP (DT )(NNS )(CD )))))))))
+Phase: generated1518
+Input: Token
+Rule: generated1518
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CD })))))))))):pttrn1518 --> :pttrn1518.extracted={}
+

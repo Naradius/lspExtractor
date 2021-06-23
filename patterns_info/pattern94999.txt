@@ -1,0 +1,8 @@
+theResource Description Framework  and RDFSchema
+(NP (DT )(NNP ){1,2}(CC )(NNP ))
+Phase: generated94999
+Input: Token
+Rule: generated94999
+(
+(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP }))):pttrn94999 --> :pttrn94999.extracted={}
+

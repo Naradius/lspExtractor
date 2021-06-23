@@ -1,0 +1,8 @@
+The chain-based3-level scheme
+(NP (DT )(JJ )(NN ))
+Phase: generated56474
+Input: Token
+Rule: generated56474
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn56474 --> :pttrn56474.extracted={}
+

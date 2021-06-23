@@ -1,0 +1,8 @@
+as an RFC6550
+(PP (IN )(NP (DT )(NN )))
+Phase: generated25285
+Input: Token
+Rule: generated25285
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn25285 --> :pttrn25285.extracted={}
+

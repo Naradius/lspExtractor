@@ -1,0 +1,8 @@
+EEABR.In Fig. 7
+(NP (NNP ){1,2}(CD ))
+Phase: generated33787
+Input: Token
+Rule: generated33787
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn33787 --> :pttrn33787.extracted={}
+

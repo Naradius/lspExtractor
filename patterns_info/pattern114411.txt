@@ -1,0 +1,8 @@
+their subjects
+(NP (PRP$ )(NNS ))
+Phase: generated114411
+Input: Token
+Rule: generated114411
+(
+(({ Token.category == PRP$ })({ Token.category == NNS }))):pttrn114411 --> :pttrn114411.extracted={}
+

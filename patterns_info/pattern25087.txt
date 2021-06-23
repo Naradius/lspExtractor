@@ -1,0 +1,8 @@
+involved associationsave not yet converged to an agreement on its standard definition.ccording to Safaei et al
+(VP (VBN )(PP (IN )(VP (VBN )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NN )))(PP (TO )(NP (NNP ){1,2}(NN ))))))))
+Phase: generated25087
+Input: Token
+Rule: generated25087
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == NNP })+({ Token.category == NN }))))))))):pttrn25087 --> :pttrn25087.extracted={}
+

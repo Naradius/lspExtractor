@@ -1,0 +1,8 @@
+must be processed in the three operations
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(CD )(NNS ))))))
+Phase: generated85238
+Input: Token
+Rule: generated85238
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))))))):pttrn85238 --> :pttrn85238.extracted={}
+

@@ -1,0 +1,8 @@
+both, the power consumption and the E2E delay simultane-usly to reduce the latency while improving the power consump-ion of the nodes
+(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (DT )(JJ )(NN ))(ADJP (RB )(VP (TO )(VP (VB )(NP (DT )(NN )))))))
+Phase: generated26356
+Input: Token
+Rule: generated26356
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn26356 --> :pttrn26356.extracted={}
+

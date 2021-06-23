@@ -1,0 +1,8 @@
+:t =  t + te After the cluster gateway
+(PP (IN )(NP (NP (SYM )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated34521
+Input: Token
+Rule: generated34521
+(
+(({ Token.category == IN })((({ Token.category == SYM })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn34521 --> :pttrn34521.extracted={}
+

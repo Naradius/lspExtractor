@@ -1,0 +1,8 @@
+this site
+(NP (DT )(NN ))
+Phase: generated1802
+Input: Token
+Rule: generated1802
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn1802 --> :pttrn1802.extracted={}
+

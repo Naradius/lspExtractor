@@ -1,0 +1,8 @@
+can:  help find best end-to-end routes in terms of best hops and best channels at eachhop, and  suggest optimized transmission power at each hopthat protects primary incumbents in the vicinity and also achievedenergy efficiency.In this paper, we propose SpEED-IoT: Spectrum aware Energy-Efficient multi-hop multi-channel routing scheme for D2D com-munication in IoT mesh network
+(VP (MD )(VP (VP (VB )(VP (VB )(NP (ADJP (JJS )(JJ ))(NNS ))))(CC )(VP (VBP )(NP (JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))(VP (VP (VBZ )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )))))(CC ))))
+Phase: generated21517
+Input: Token
+Rule: generated21517
+(
+(({ Token.category == MD })((({ Token.category == VB })(({ Token.category == VB })((({ Token.category == JJS })({ Token.category == JJ }))({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))((({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))({ Token.category == CC }))))):pttrn21517 --> :pttrn21517.extracted={}
+

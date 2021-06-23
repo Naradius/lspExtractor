@@ -1,0 +1,8 @@
+at least an order of magnitudeless than the values given above for PT and PRvalues.3.8.2
+(NP (NP (QP (IN )(JJS )(DT ))(NN ))(PP (IN )(NP (JJ )(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(PP (IN )(NP (NNP )(CC )(NNP )(CD ))))))))))
+Phase: generated47941
+Input: Token
+Rule: generated47941
+(
+(((({ Token.category == IN })({ Token.category == JJS })({ Token.category == DT }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == CD }))))))))))):pttrn47941 --> :pttrn47941.extracted={}
+

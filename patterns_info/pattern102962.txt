@@ -1,0 +1,8 @@
+of vertex and edge labels LVand LE.Definition 3.3 A pair of functions h :=  is a graph morphism h : G!G0 fromgraph G to graph G0 with G :=  and G0 :=  iff: hV: V!V0 and hE: E!E0 are total mappings, 8v 2 V : l0V(hV
+(PP (IN )(NP (NP (NN )(CC )(NN )(NNS ))(CC )))
+Phase: generated102962
+Input: Token
+Rule: generated102962
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })))):pttrn102962 --> :pttrn102962.extracted={}
+

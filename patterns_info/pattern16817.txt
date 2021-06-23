@@ -1,0 +1,8 @@
+using Dedicated Short-Range Communications/WirelessAccess In Vehicular Environments standards
+(VP (VBG )(PP (IN )(NP (NNP )(NNPS )(NNS ))))
+Phase: generated16817
+Input: Token
+Rule: generated16817
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == NNS }))))):pttrn16817 --> :pttrn16817.extracted={}
+

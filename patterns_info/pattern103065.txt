@@ -1,0 +1,8 @@
+the identification
+(NP (DT )(NN ))
+Phase: generated103065
+Input: Token
+Rule: generated103065
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn103065 --> :pttrn103065.extracted={}
+

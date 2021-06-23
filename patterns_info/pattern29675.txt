@@ -1,0 +1,8 @@
+on the final temperatureof
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated29675
+Input: Token
+Rule: generated29675
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn29675 --> :pttrn29675.extracted={}
+

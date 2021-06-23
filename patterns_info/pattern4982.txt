@@ -1,0 +1,8 @@
+our proposed modifica-tion
+(NP (PRP$ )(VBN )(NN ))
+Phase: generated4982
+Input: Token
+Rule: generated4982
+(
+(({ Token.category == PRP$ })({ Token.category == VBN })({ Token.category == NN }))):pttrn4982 --> :pttrn4982.extracted={}
+

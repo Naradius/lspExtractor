@@ -1,0 +1,8 @@
+link quality indicator  and RSSI
+(NP (NP (JJ )(NN ){1,2})(CC ))
+Phase: generated55683
+Input: Token
+Rule: generated55683
+(
+((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC }))):pttrn55683 --> :pttrn55683.extracted={}
+

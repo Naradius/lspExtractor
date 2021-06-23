@@ -1,0 +1,8 @@
+considering a predetermined thresholdalue
+(VP (VBG )(NP (DT )(JJ )(NN )))
+Phase: generated26592
+Input: Token
+Rule: generated26592
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn26592 --> :pttrn26592.extracted={}
+

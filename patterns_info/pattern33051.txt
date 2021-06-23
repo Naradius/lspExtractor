@@ -1,0 +1,8 @@
+the structure of the mobilerecords
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated33051
+Input: Token
+Rule: generated33051
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn33051 --> :pttrn33051.extracted={}
+

@@ -1,0 +1,8 @@
+the OFs in mobile scenarios
+(NP (NP (DT )(JJ ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated28134
+Input: Token
+Rule: generated28134
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn28134 --> :pttrn28134.extracted={}
+

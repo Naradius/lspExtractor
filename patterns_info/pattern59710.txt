@@ -1,0 +1,8 @@
+100 nodes
+(NP (CD )(NNS ))
+Phase: generated59710
+Input: Token
+Rule: generated59710
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn59710 --> :pttrn59710.extracted={}
+

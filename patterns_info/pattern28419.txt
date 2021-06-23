@@ -1,0 +1,8 @@
+is not any failuresn the links of the path
+(VP (VBZ )(RB )(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated28419
+Input: Token
+Rule: generated28419
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn28419 --> :pttrn28419.extracted={}
+

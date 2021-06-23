@@ -1,0 +1,8 @@
+the avail-able cluster members
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated60809
+Input: Token
+Rule: generated60809
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn60809 --> :pttrn60809.extracted={}
+

@@ -1,0 +1,8 @@
+should be developed according tothe choice of physical layer components, such asthe type of micro-processors, and the type of re-ceivers
+(VP (MD )(VP (VB )(VP (VBN )(PP (VBG )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))(CC ))))))
+Phase: generated48388
+Input: Token
+Rule: generated48388
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == VBG })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))({ Token.category == CC }))))))):pttrn48388 --> :pttrn48388.extracted={}
+

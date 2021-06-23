@@ -1,0 +1,8 @@
+would have to keep adding new semantic types as we encounter new co-occurrences of words for predicates and instances for their arguments which has been selected
+(VP (MD )(VP (VB )(VP (TO )(VP (VB )(VP (VBG )(NP (JJ ){1,2}(NNS ))(IN ))))))
+Phase: generated71237
+Input: Token
+Rule: generated71237
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == JJ })+({ Token.category == NNS }))({ Token.category == IN }))))))):pttrn71237 --> :pttrn71237.extracted={}
+

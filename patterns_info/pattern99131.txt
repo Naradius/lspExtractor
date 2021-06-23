@@ -1,0 +1,8 @@
+the phrase nodes
+(NP (DT )(NN )(NNS ))
+Phase: generated99131
+Input: Token
+Rule: generated99131
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn99131 --> :pttrn99131.extracted={}
+

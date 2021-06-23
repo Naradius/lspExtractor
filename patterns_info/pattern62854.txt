@@ -1,0 +1,8 @@
+to the sink node
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated62854
+Input: Token
+Rule: generated62854
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn62854 --> :pttrn62854.extracted={}
+

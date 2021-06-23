@@ -1,0 +1,8 @@
+a special type of peer-to-peer ad hoc network
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )(JJ )(NN ))))
+Phase: generated1821
+Input: Token
+Rule: generated1821
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))):pttrn1821 --> :pttrn1821.extracted={}
+

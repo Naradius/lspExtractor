@@ -1,0 +1,8 @@
+inthis direction and various government and private agencies
+(NP (NP (NP (DT )(NN ))(CC )(NP (JJ )(NN )))(CC )(NP (JJ )(NNS )))
+Phase: generated57605
+Input: Token
+Rule: generated57605
+(
+(((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn57605 --> :pttrn57605.extracted={}
+

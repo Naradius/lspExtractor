@@ -1,0 +1,8 @@
+the literature.A. Measurements at the Virtualization LayerTo
+(NP (NP (DT )(NN )(NNP )(NNS ))(PP (IN )(NP (DT )(NNP ){1,2})))
+Phase: generated16117
+Input: Token
+Rule: generated16117
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+)))):pttrn16117 --> :pttrn16117.extracted={}
+

@@ -1,0 +1,8 @@
+maintained  Reduces the index size Problem: some search are not successful: to be or not to be It is a lossy compression
+(VP (VBN )(VP (VBG )(NP (DT )(NN ){1,2})))
+Phase: generated96228
+Input: Token
+Rule: generated96228
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn96228 --> :pttrn96228.extracted={}
+

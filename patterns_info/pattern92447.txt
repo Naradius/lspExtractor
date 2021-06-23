@@ -1,0 +1,8 @@
+on a specific lexico-semantic level,i.e
+(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2}))
+Phase: generated92447
+Input: Token
+Rule: generated92447
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))):pttrn92447 --> :pttrn92447.extracted={}
+

@@ -1,0 +1,8 @@
+are judgedwith only three parameters used in the challenge
+(VP (VBP )(PP (IN )(NP (NP (QP (RB )(CD ))(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated100589
+Input: Token
+Rule: generated100589
+(
+(({ Token.category == VBP })(({ Token.category == IN })(((({ Token.category == RB })({ Token.category == CD }))({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn100589 --> :pttrn100589.extracted={}
+

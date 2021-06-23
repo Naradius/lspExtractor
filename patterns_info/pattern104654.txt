@@ -1,0 +1,8 @@
+two derivations
+(NP (CD )(NNS ))
+Phase: generated104654
+Input: Token
+Rule: generated104654
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn104654 --> :pttrn104654.extracted={}
+

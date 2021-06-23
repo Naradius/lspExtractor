@@ -1,0 +1,8 @@
+position aware by any means.Based upon the above assumptions
+(ADJP (RB )(JJ )(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNS )))))))
+Phase: generated55029
+Input: Token
+Rule: generated55029
+(
+(({ Token.category == RB })({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn55029 --> :pttrn55029.extracted={}
+

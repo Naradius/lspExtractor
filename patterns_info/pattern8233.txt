@@ -1,0 +1,8 @@
+For all simulation results in this paper
+(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated8233
+Input: Token
+Rule: generated8233
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn8233 --> :pttrn8233.extracted={}
+

@@ -1,0 +1,8 @@
+The triggers
+(NP (DT )(NNS ))
+Phase: generated91486
+Input: Token
+Rule: generated91486
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn91486 --> :pttrn91486.extracted={}
+

@@ -1,0 +1,8 @@
+in the network.Peng
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated58609
+Input: Token
+Rule: generated58609
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn58609 --> :pttrn58609.extracted={}
+

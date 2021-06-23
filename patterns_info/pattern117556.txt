@@ -1,0 +1,8 @@
+against a search engine API such as Bing or Yahoo
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (JJ )(IN )(NP (NNP )(CC )(NNP )))))
+Phase: generated117556
+Input: Token
+Rule: generated117556
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))))):pttrn117556 --> :pttrn117556.extracted={}
+

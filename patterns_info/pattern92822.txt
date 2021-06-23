@@ -1,0 +1,8 @@
+a knowledge base  inwhich the predicate hasProduct
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated92822
+Input: Token
+Rule: generated92822
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn92822 --> :pttrn92822.extracted={}
+

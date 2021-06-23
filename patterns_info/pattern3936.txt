@@ -1,0 +1,8 @@
+residual energy, Emax
+(NP (JJ )(NN )(NNP ))
+Phase: generated3936
+Input: Token
+Rule: generated3936
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))):pttrn3936 --> :pttrn3936.extracted={}
+

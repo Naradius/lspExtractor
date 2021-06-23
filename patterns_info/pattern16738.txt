@@ -1,0 +1,8 @@
+due to the new VaNetLayer mechanisms
+(ADJP (JJ )(PP (TO )(NP (DT )(JJ )(NNP )(NNS ))))
+Phase: generated16738
+Input: Token
+Rule: generated16738
+(
+(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))):pttrn16738 --> :pttrn16738.extracted={}
+

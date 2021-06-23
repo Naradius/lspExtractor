@@ -1,0 +1,8 @@
+current energy level of sensor nodes
+(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (NN )(NNS ))))
+Phase: generated59975
+Input: Token
+Rule: generated59975
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn59975 --> :pttrn59975.extracted={}
+

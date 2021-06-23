@@ -1,0 +1,8 @@
+Uponreceiving such message, a regular node records the CH idand the number of ADV messages received thus far.
+(PP (IN )(NP (NP (JJ )(NN ))(NP (NP (DT )(JJ )(NN )(NNS ))(NP (DT )(NNP ))(CC ))))
+Phase: generated7325
+Input: Token
+Rule: generated7325
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC }))))):pttrn7325 --> :pttrn7325.extracted={}
+

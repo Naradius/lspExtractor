@@ -1,0 +1,8 @@
+for vehicle-related applications in which neighboring vehicles exchange messages
+(PP (IN )(NP (NP (JJ )(NNS ))(NP (VBG )(NNS ))))
+Phase: generated305
+Input: Token
+Rule: generated305
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })({ Token.category == NNS }))))):pttrn305 --> :pttrn305.extracted={}
+

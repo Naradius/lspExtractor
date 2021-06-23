@@ -1,0 +1,8 @@
+THE-MENTOR and the other participatingsystems of QGSTEC 2010.Results
+(NP (CC )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NNP )(NNS )))))
+Phase: generated100699
+Input: Token
+Rule: generated100699
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))):pttrn100699 --> :pttrn100699.extracted={}
+

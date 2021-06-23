@@ -1,0 +1,8 @@
+* '">
+(NP (NP (NNS )(POS ))(NN ){1,2})
+Phase: generated84561
+Input: Token
+Rule: generated84561
+(
+((({ Token.category == NNS })({ Token.category == POS }))({ Token.category == NN })+)):pttrn84561 --> :pttrn84561.extracted={}
+

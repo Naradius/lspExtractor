@@ -1,0 +1,8 @@
+the occurrence of query keywords in a single sentence
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated115082
+Input: Token
+Rule: generated115082
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn115082 --> :pttrn115082.extracted={}
+

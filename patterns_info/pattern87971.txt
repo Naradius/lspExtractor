@@ -1,0 +1,8 @@
+to = and !=
+(PP (TO )(NP (SYM )(CC )(NN )))
+Phase: generated87971
+Input: Token
+Rule: generated87971
+(
+(({ Token.category == TO })(({ Token.category == SYM })({ Token.category == CC })({ Token.category == NN })))):pttrn87971 --> :pttrn87971.extracted={}
+

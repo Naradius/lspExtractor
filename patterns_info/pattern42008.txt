@@ -1,0 +1,8 @@
+its requested bundle j of theencountered node
+(NP (NP (PRP$ )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated42008
+Input: Token
+Rule: generated42008
+(
+((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn42008 --> :pttrn42008.extracted={}
+

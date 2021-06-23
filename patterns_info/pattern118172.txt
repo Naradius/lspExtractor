@@ -1,0 +1,8 @@
+enumerate the relations and give example of some templates we use to detect an RST links, and specify respective linking rules.1
+(VP (VP (VBP )(NP (DT )(NNS )))(CC ))
+Phase: generated118172
+Input: Token
+Rule: generated118172
+(
+((({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNS })))({ Token.category == CC }))):pttrn118172 --> :pttrn118172.extracted={}
+

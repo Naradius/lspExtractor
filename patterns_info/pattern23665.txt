@@ -1,0 +1,8 @@
+forthe next stage of the game
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated23665
+Input: Token
+Rule: generated23665
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn23665 --> :pttrn23665.extracted={}
+

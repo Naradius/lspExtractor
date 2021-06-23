@@ -1,0 +1,8 @@
+most frequently observed pattern-dependency pairs in the corpus.Our process
+(VP (ADVP (RBS )(RB ))(VBN )(NP (NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated78110
+Input: Token
+Rule: generated78110
+(
+((({ Token.category == RBS })({ Token.category == RB }))({ Token.category == VBN })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn78110 --> :pttrn78110.extracted={}
+

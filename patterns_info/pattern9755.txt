@@ -1,0 +1,8 @@
+beingnominated as a CH based on the assumption that the loca-tions are known a priori
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNP ))(VP (VBN )(PP (IN )(NP (DT )(NN )(IN )))))))
+Phase: generated9755
+Input: Token
+Rule: generated9755
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == IN })))))))):pttrn9755 --> :pttrn9755.extracted={}
+

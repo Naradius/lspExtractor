@@ -1,0 +1,8 @@
+tagged data
+(NP (VBN )(NNS ))
+Phase: generated96789
+Input: Token
+Rule: generated96789
+(
+(({ Token.category == VBN })({ Token.category == NNS }))):pttrn96789 --> :pttrn96789.extracted={}
+

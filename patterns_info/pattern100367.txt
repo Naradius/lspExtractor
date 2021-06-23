@@ -1,0 +1,8 @@
+in lexical, syntactical and semantical terms
+(PP (IN )(NP (JJ ){1,2}(CC )(JJ )(NNS )))
+Phase: generated100367
+Input: Token
+Rule: generated100367
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS })))):pttrn100367 --> :pttrn100367.extracted={}
+

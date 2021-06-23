@@ -1,0 +1,8 @@
+the goal of gener-ating questions from paragraphs and sentences
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NNS )(CC )(NNS ))))))
+Phase: generated101793
+Input: Token
+Rule: generated101793
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))))):pttrn101793 --> :pttrn101793.extracted={}
+

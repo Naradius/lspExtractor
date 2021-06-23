@@ -1,0 +1,8 @@
+by the size of the maximal common subgraph
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN )))))
+Phase: generated114494
+Input: Token
+Rule: generated114494
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))):pttrn114494 --> :pttrn114494.extracted={}
+

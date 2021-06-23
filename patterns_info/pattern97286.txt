@@ -1,0 +1,8 @@
+other philological class sign
+(NP (JJ ){1,2}(NN ){1,2})
+Phase: generated97286
+Input: Token
+Rule: generated97286
+(
+(({ Token.category == JJ })+({ Token.category == NN })+)):pttrn97286 --> :pttrn97286.extracted={}
+

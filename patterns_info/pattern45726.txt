@@ -1,0 +1,8 @@
+in theindoor wireless impulse radio channel, IEEE Conferenceon Communications, Computers and Signal Processing,Vol
+(PP (IN )(NP (NP (PRP$ )(JJ )(NN ){1,2})(NP (NNP ){1,2}(NNPS ))(CC )))
+Phase: generated45726
+Input: Token
+Rule: generated45726
+(
+(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == NNP })+({ Token.category == NNPS }))({ Token.category == CC })))):pttrn45726 --> :pttrn45726.extracted={}
+

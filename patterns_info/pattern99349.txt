@@ -1,0 +1,8 @@
+SEARCHfor each sentence
+(PP (IN )(NP (DT )(NN )))
+Phase: generated99349
+Input: Token
+Rule: generated99349
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn99349 --> :pttrn99349.extracted={}
+

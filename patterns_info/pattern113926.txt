@@ -1,0 +1,8 @@
+to the tree for another sentence
+(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated113926
+Input: Token
+Rule: generated113926
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn113926 --> :pttrn113926.extracted={}
+

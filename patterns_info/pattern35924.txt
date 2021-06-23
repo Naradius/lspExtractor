@@ -1,0 +1,8 @@
+with its own trust mechanism
+(PP (IN )(NP (PRP$ )(JJ )(NN ){1,2}))
+Phase: generated35924
+Input: Token
+Rule: generated35924
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+))):pttrn35924 --> :pttrn35924.extracted={}
+

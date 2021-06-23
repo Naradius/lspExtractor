@@ -1,0 +1,8 @@
+the statistic moments , which can take positiveor negative values, and also with respect to the time scale of thetraffic
+(NP (NP (DT )(JJ )(NNS ))(VP (MD )(VP (VP (VB )(VP (VBN )(NP (JJ )(NNS ))))(CC ))))
+Phase: generated110757
+Input: Token
+Rule: generated110757
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == MD })((({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC }))))):pttrn110757 --> :pttrn110757.extracted={}
+

@@ -1,0 +1,8 @@
+their slot time
+(NP (PRP$ )(NN ){1,2})
+Phase: generated50342
+Input: Token
+Rule: generated50342
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn50342 --> :pttrn50342.extracted={}
+

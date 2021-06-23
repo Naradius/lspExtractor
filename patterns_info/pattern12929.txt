@@ -1,0 +1,8 @@
+the European RegionalDevelopment Fund and the Galician Regional Government under agreementthrough funding of the Atlantic Research Center for Information and Commu-nication Technologies  and in part by the Ministerio de Educaciony Ciencia  through Research Project TIN2013-42774-R.
+(NP (NP (NP (DT )(JJ )(NNP ){1,2})(CC )(NP (DT )(NNP ){1,2}))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NNP ){1,2})(PP (IN )(NP (NNP )(CC )(NNP ){1,2}))(CC )(PP (IN )(NP (DT )(NNP ){1,2})))))))
+Phase: generated12929
+Input: Token
+Rule: generated12929
+(
+(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })+))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+))({ Token.category == CC })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+)))))))):pttrn12929 --> :pttrn12929.extracted={}
+

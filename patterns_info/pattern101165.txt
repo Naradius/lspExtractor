@@ -1,0 +1,8 @@
+will also add more questions to certain categories and see if this extra set can lead toplausible questions of that category
+(VP (MD )(VP (VP (VB )(NP (NP (JJR )(NNS ))(PP (TO )(NP (JJ )(NNS )))))(CC )(VP (VB )(IN ))))
+Phase: generated101165
+Input: Token
+Rule: generated101165
+(
+(({ Token.category == MD })((({ Token.category == VB })((({ Token.category == JJR })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == VB })({ Token.category == IN }))))):pttrn101165 --> :pttrn101165.extracted={}
+

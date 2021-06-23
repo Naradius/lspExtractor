@@ -1,0 +1,8 @@
+the actual PersonIn.WHISK
+(NP (DT )(JJ )(NNP ){1,2})
+Phase: generated82057
+Input: Token
+Rule: generated82057
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)):pttrn82057 --> :pttrn82057.extracted={}
+

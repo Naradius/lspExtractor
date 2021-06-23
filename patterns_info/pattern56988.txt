@@ -1,0 +1,8 @@
+isbi,p 1d si,sp  !l1qpl2where d si,sp is the Euclidean distance between sp and node si,and l1,l2 are the weighing coefficient for distance factor andresidual energy factor respectively
+(VP (VBZ )(NP (JJ )(FW )(NNP )))
+Phase: generated56988
+Input: Token
+Rule: generated56988
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == FW })({ Token.category == NNP })))):pttrn56988 --> :pttrn56988.extracted={}
+

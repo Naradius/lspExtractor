@@ -1,0 +1,8 @@
+deploy network-wide management protocols andapplications on demand This paper proposes a hierarchical cluster based routing scheme by employing LionOptimization  algorithm
+(VP (VB )(NP (JJ )(NN )(NNS )))
+Phase: generated10775
+Input: Token
+Rule: generated10775
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn10775 --> :pttrn10775.extracted={}
+

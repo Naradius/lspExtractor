@@ -1,0 +1,8 @@
+of intra-domain routing.4.1.1
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated22315
+Input: Token
+Rule: generated22315
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn22315 --> :pttrn22315.extracted={}
+

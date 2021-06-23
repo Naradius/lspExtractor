@@ -1,0 +1,8 @@
+aycle accurate Java-based simulator, which is able to emulate theypical IoT nodes
+(NP (NP (DT )(JJ ){1,2}(NN ))(VP (VBZ )(ADJP (JJ )(VP (TO )(VP (VB )(NP (JJ )(NNP )(NNS )))))))
+Phase: generated27269
+Input: Token
+Rule: generated27269
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS })))))))):pttrn27269 --> :pttrn27269.extracted={}
+

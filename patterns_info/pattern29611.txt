@@ -1,0 +1,8 @@
+Casado et al
+(NP (NNP ){1,2}(NN ))
+Phase: generated29611
+Input: Token
+Rule: generated29611
+(
+(({ Token.category == NNP })+({ Token.category == NN }))):pttrn29611 --> :pttrn29611.extracted={}
+

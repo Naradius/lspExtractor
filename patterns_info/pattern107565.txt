@@ -1,0 +1,8 @@
+on the ant colony algorithm, in which the number of data packets transmitted is increased with low jitter and high throughput as well as maintaining less path length
+(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBZ )(VP (VBN )(PP (IN )(NP (JJ ){1,2}(CC )(JJ )(NN )))))))
+Phase: generated107565
+Input: Token
+Rule: generated107565
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn107565 --> :pttrn107565.extracted={}
+

@@ -1,0 +1,8 @@
+forestall the attacks in random sensornetworks
+(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated65497
+Input: Token
+Rule: generated65497
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn65497 --> :pttrn65497.extracted={}
+

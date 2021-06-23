@@ -1,0 +1,8 @@
+an intermediate form
+(NP (DT )(JJ )(NN ))
+Phase: generated76850
+Input: Token
+Rule: generated76850
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn76850 --> :pttrn76850.extracted={}
+

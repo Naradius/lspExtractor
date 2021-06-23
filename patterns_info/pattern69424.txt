@@ -1,0 +1,8 @@
+the solution space.To
+(NP (DT )(NN ){1,2})
+Phase: generated69424
+Input: Token
+Rule: generated69424
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn69424 --> :pttrn69424.extracted={}
+

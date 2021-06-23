@@ -1,0 +1,8 @@
+The overall flow of this work
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated9827
+Input: Token
+Rule: generated9827
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn9827 --> :pttrn9827.extracted={}
+

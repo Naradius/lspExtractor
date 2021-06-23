@@ -1,0 +1,8 @@
+such a mapped graph
+(NP (JJ )(DT )(JJ )(NN ))
+Phase: generated23211
+Input: Token
+Rule: generated23211
+(
+(({ Token.category == JJ })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn23211 --> :pttrn23211.extracted={}
+

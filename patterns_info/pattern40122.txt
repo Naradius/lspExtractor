@@ -1,0 +1,8 @@
+the hypothesisto
+(NP (DT )(NN ))
+Phase: generated40122
+Input: Token
+Rule: generated40122
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn40122 --> :pttrn40122.extracted={}
+

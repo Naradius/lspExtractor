@@ -1,0 +1,8 @@
+the expressiv-ity
+(NP (DT )(NN ))
+Phase: generated94703
+Input: Token
+Rule: generated94703
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn94703 --> :pttrn94703.extracted={}
+

@@ -1,0 +1,8 @@
+of received alerts.Table 2Memory Overhead caused by the IDS functionality to the IDS node and the Edge router.IDS Mode RAM overhead ROM overheadIDS Node 5 368 27410 728 274Edge Router 5 198 20610 378
+(PP (IN )(NP (NP (VBN )(JJ ){1,2}(NN ))(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN )))(PP (TO )(NP (NP (DT )(NNP )(NN ))(CC )(NP (DT )(NNP ){1,2}(NN )(NNP ){1,2}(CD ){1,2}(JJ )(NNP )(CD ){1,2}))))))
+Phase: generated38137
+Input: Token
+Rule: generated38137
+(
+(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CD })+({ Token.category == JJ })({ Token.category == NNP })({ Token.category == CD })+))))))):pttrn38137 --> :pttrn38137.extracted={}
+

@@ -1,0 +1,8 @@
+R!G0 define the application of p to a graph G with result G0,where: h is a redex of L in G with respect to R, h0 is a redex of R in G0 with respect to L, hjK= h0jK, with K the interface graph of L and R, and G n ( h ) = G0n ( h0 )14 REKERS & SCHURRThe application of a production p to a graph G with result G0 will be denoted as Gp=) G0.A potential production instance is a production instance  for which h and h0 arepotential redexes
+(VP (VB )(VP (VB )(PP (TO )(NP (DT )(NN )(NNP )))))
+Phase: generated103235
+Input: Token
+Rule: generated103235
+(
+(({ Token.category == VB })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })))))):pttrn103235 --> :pttrn103235.extracted={}
+

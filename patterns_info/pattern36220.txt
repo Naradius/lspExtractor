@@ -1,0 +1,8 @@
+meet the security needs of therapid development of the modern IoT
+(VP (VB )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNP )))))))
+Phase: generated36220
+Input: Token
+Rule: generated36220
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })))))))):pttrn36220 --> :pttrn36220.extracted={}
+

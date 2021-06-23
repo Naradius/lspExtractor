@@ -1,0 +1,8 @@
+do not work well in themore specific and demanding realm of vehicular ad hoc networks
+(VP (VBP )(RB )(VP (VB )(PP (IN )(NP (NP (DT )(JJ )(CC )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )(JJ )(NNS )))))))
+Phase: generated12845
+Input: Token
+Rule: generated12845
+(
+(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn12845 --> :pttrn12845.extracted={}
+

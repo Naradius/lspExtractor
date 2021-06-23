@@ -1,0 +1,8 @@
+the RAM requirements increase with the IDS packet size as more information willbe
+(NP (NP (DT )(NNP )(NNS )(NN ))(PP (IN )(NP (NP (DT )(NNP )(NN ){1,2})(PP (IN )(NP (JJR )(NN )(WP ))))))
+Phase: generated38211
+Input: Token
+Rule: generated38211
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == WP }))))))):pttrn38211 --> :pttrn38211.extracted={}
+

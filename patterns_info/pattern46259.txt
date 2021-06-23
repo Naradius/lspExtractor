@@ -1,0 +1,8 @@
+to the troopleaders
+(PP (TO )(NP (DT )(NNS )))
+Phase: generated46259
+Input: Token
+Rule: generated46259
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS })))):pttrn46259 --> :pttrn46259.extracted={}
+

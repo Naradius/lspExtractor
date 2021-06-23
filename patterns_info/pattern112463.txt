@@ -1,0 +1,8 @@
+his Master degree inaerospace engineering
+(PP (TO )(NP (NNP )(NN ){1,2}))
+Phase: generated112463
+Input: Token
+Rule: generated112463
+(
+(({ Token.category == TO })(({ Token.category == NNP })({ Token.category == NN })+))):pttrn112463 --> :pttrn112463.extracted={}
+

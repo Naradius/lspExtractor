@@ -1,0 +1,8 @@
+as the base clustering method in the proposed algorithm
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(VBN )(NN )))))
+Phase: generated976
+Input: Token
+Rule: generated976
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))))):pttrn976 --> :pttrn976.extracted={}
+

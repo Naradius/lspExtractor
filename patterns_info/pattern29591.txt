@@ -1,0 +1,8 @@
+will be usedto treat the data collected by the IoT devices
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NNP )(NNS )))))))))
+Phase: generated29591
+Input: Token
+Rule: generated29591
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))))))))):pttrn29591 --> :pttrn29591.extracted={}
+

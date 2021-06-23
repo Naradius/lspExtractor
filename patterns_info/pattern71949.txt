@@ -1,0 +1,8 @@
+the auto-matic acquisition of the hyponym lexical relation from unrestrictedtext using a small set of hand-crafted lexico-syntactic patterns
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )(JJ )(NN ))))
+Phase: generated71949
+Input: Token
+Rule: generated71949
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))):pttrn71949 --> :pttrn71949.extracted={}
+

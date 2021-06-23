@@ -1,0 +1,8 @@
+Things  infrastructure
+(NP (NNS )(NN ))
+Phase: generated20164
+Input: Token
+Rule: generated20164
+(
+(({ Token.category == NNS })({ Token.category == NN }))):pttrn20164 --> :pttrn20164.extracted={}
+

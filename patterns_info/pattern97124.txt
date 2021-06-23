@@ -1,0 +1,8 @@
+think the results obtained here are very promising, and can be enhanced by many actions like: enlarging the training corpus, and enhancing the lexical analysis program
+(VP (VP (VBP )(VP (VBP )(ADJP (RB )(JJ ))))(CC )(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))(VP (VBP )(VP (VP (VBG )(NP (DT )(NN )(JJ )))(CC )(VP (VBG )(NP (DT )(JJ )(NN ){1,2}))))))))
+Phase: generated97124
+Input: Token
+Rule: generated97124
+(
+((({ Token.category == VBP })(({ Token.category == VBP })(({ Token.category == RB })({ Token.category == JJ }))))({ Token.category == CC })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == VBP })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))))))):pttrn97124 --> :pttrn97124.extracted={}
+

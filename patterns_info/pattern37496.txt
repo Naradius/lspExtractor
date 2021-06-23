@@ -1,0 +1,8 @@
+routers/IDS nodes
+(NP (NNP )(NNS ))
+Phase: generated37496
+Input: Token
+Rule: generated37496
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn37496 --> :pttrn37496.extracted={}
+

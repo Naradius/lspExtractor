@@ -1,0 +1,8 @@
+its richness
+(NP (PRP$ )(NN ))
+Phase: generated113371
+Input: Token
+Rule: generated113371
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn113371 --> :pttrn113371.extracted={}
+

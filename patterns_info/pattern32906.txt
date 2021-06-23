@@ -1,0 +1,8 @@
+1.If Delay(P)4D
+(NP (CD )(NNP ){1,2})
+Phase: generated32906
+Input: Token
+Rule: generated32906
+(
+(({ Token.category == CD })({ Token.category == NNP })+)):pttrn32906 --> :pttrn32906.extracted={}
+

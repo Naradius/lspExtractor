@@ -1,0 +1,8 @@
+Randolph and nephew ofNN
+(NP (NNP )(CC )(NN ){1,2})
+Phase: generated77696
+Input: Token
+Rule: generated77696
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })+)):pttrn77696 --> :pttrn77696.extracted={}
+

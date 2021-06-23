@@ -1,0 +1,8 @@
+to construct the DODAG andonsequently to route data packets from source nodes to the desti-ation nodes
+(VP (TO )(VP (VB )(NP (DT )(NNP ))(PP (TO )(NP (NN )(NNS ){1,2}))(PP (IN )(NP (NN )(NNS )))(PP (TO )(NP (DT )(NN )(NNS )))))
+Phase: generated25919
+Input: Token
+Rule: generated25919
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == TO })(({ Token.category == NN })({ Token.category == NNS })+))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))):pttrn25919 --> :pttrn25919.extracted={}
+

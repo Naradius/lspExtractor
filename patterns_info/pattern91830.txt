@@ -1,0 +1,8 @@
+using bigwordlist and bigbigramlist
+(VP (VBG )(ADJP (JJ )(CC )(JJ )))
+Phase: generated91830
+Input: Token
+Rule: generated91830
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })))):pttrn91830 --> :pttrn91830.extracted={}
+

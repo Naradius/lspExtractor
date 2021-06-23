@@ -1,0 +1,8 @@
+Hes proposal
+(NP (NNP )(NN ))
+Phase: generated8063
+Input: Token
+Rule: generated8063
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn8063 --> :pttrn8063.extracted={}
+

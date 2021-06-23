@@ -1,0 +1,8 @@
+Right after entering the NON-LEADER state
+(PP (IN )(VP (VBG )(NP (DT )(NNP )(NN ))))
+Phase: generated13595
+Input: Token
+Rule: generated13595
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn13595 --> :pttrn13595.extracted={}
+

@@ -1,0 +1,8 @@
+an approach tonetwork management
+(NP (DT )(NN ){1,2})
+Phase: generated9815
+Input: Token
+Rule: generated9815
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn9815 --> :pttrn9815.extracted={}
+

@@ -1,0 +1,8 @@
+in eye glasses
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated46966
+Input: Token
+Rule: generated46966
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn46966 --> :pttrn46966.extracted={}
+

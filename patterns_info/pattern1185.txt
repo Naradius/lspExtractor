@@ -1,0 +1,8 @@
+Delay 15 25 35 45 Number
+(NP (NNP )(CD ){1,2}(NN ))
+Phase: generated1185
+Input: Token
+Rule: generated1185
+(
+(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NN }))):pttrn1185 --> :pttrn1185.extracted={}
+

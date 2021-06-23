@@ -1,0 +1,8 @@
+Multihop data transmissionbetween CHs and BS.
+(NP (NP (NNP )(NNS ))(PP (IN )(NP (NNP )(CC )(NNP ))))
+Phase: generated55712
+Input: Token
+Rule: generated55712
+(
+((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn55712 --> :pttrn55712.extracted={}
+

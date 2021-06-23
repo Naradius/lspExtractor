@@ -1,0 +1,8 @@
+.6.1 Role of the knowledge-base
+(NP (NP (CD )(NNP ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated89888
+Input: Token
+Rule: generated89888
+(
+((({ Token.category == CD })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn89888 --> :pttrn89888.extracted={}
+

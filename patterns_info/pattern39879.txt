@@ -1,0 +1,8 @@
+can beachieved through an established lightweight protocol such as the Message Queuing Telemetry Transport  protocol
+(VP (MD )(VP (VBN )(PP (IN )(NP (NP (DT )(VBN )(JJ )(NN ))(PP (JJ )(IN )(NP (DT )(NN )(NNP ){1,2}(NN )))))))
+Phase: generated39879
+Input: Token
+Rule: generated39879
+(
+(({ Token.category == MD })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN })))))))):pttrn39879 --> :pttrn39879.extracted={}
+

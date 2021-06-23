@@ -1,0 +1,8 @@
+to learning the structure of paragraphs, relying on parse forest)
+(PP (TO )(VP (VP (VBG )(PP (IN )(NP (JJ )(NN ))))(-RRB- )))
+Phase: generated117754
+Input: Token
+Rule: generated117754
+(
+(({ Token.category == TO })((({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == -RRB- })))):pttrn117754 --> :pttrn117754.extracted={}
+

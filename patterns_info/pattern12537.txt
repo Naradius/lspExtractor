@@ -1,0 +1,8 @@
+VANETs urban environments
+(NP (NNP )(JJ )(NNS ))
+Phase: generated12537
+Input: Token
+Rule: generated12537
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))):pttrn12537 --> :pttrn12537.extracted={}
+

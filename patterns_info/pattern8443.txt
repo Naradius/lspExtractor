@@ -1,0 +1,8 @@
+Clustering propertiesIn this study
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated8443
+Input: Token
+Rule: generated8443
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn8443 --> :pttrn8443.extracted={}
+

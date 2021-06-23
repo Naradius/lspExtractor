@@ -1,0 +1,8 @@
+Mobility	Security	Spare management	Application specific	Clusters radius fixation	Comparison and discussion of existing protocols	Open issues	Conclusions	Acknowledgments	References
+(NP (NP (NNP ){1,2}(NN )(NNP )(NN )(NNS ))(NP (NP (JJ )(NN ){1,2}(CC )(NN ))(PP (IN )(NP (VBG )(NNS )))))
+Phase: generated58121
+Input: Token
+Rule: generated58121
+(
+((({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS })))))):pttrn58121 --> :pttrn58121.extracted={}
+

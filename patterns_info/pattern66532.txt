@@ -1,0 +1,8 @@
+of n sensor nodes of the de-igned network
+(PP (IN )(NP (NP (NN ){1,2}(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated66532
+Input: Token
+Rule: generated66532
+(
+(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn66532 --> :pttrn66532.extracted={}
+

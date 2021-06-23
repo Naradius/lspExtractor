@@ -1,0 +1,8 @@
+to achieve rigorous intrusion detec-tion for IoT systems as highlighted in
+(VP (TO )(VP (VB )(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (NP (NNP )(NNS ))(PP (IN )(NP (JJ )(NN ))))))))
+Phase: generated39812
+Input: Token
+Rule: generated39812
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn39812 --> :pttrn39812.extracted={}
+

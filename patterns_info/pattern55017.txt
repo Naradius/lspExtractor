@@ -1,0 +1,8 @@
+were made for LEACH-SC protocol
+(VP (VBD )(VP (VBN )(PP (IN )(NP (NNP )(NN )))))
+Phase: generated55017
+Input: Token
+Rule: generated55017
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn55017 --> :pttrn55017.extracted={}
+

@@ -1,0 +1,8 @@
+have found patterns for as well.Using this method
+(VP (VBP )(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(NN ))))))
+Phase: generated77902
+Input: Token
+Rule: generated77902
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn77902 --> :pttrn77902.extracted={}
+

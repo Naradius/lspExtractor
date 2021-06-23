@@ -1,0 +1,8 @@
+is to exchange the competition formulti-dimensional information such as computing power andreputation for billing rights
+(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(NN ))(NP (NP (JJ )(NN ))(PP (JJ )(IN )(NP (NP (VBG )(NN ){1,2})(PP (IN )(NP (NN )(NNS )))))))))
+Phase: generated34368
+Input: Token
+Rule: generated34368
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == VBG })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))))):pttrn34368 --> :pttrn34368.extracted={}
+

@@ -1,0 +1,8 @@
+a novelagent-assisted QoS-based routing algorithm for wireless sensor net-works
+(NP (NP (DT )(JJ ){1,2}(NN ){1,2})(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated32561
+Input: Token
+Rule: generated32561
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn32561 --> :pttrn32561.extracted={}
+

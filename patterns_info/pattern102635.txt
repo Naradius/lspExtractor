@@ -1,0 +1,8 @@
+of layered graph grammars and graphgrammar parsing
+(PP (IN )(NP (JJ )(NN )(NNS )(CC )(NN ){1,2}))
+Phase: generated102635
+Input: Token
+Rule: generated102635
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+))):pttrn102635 --> :pttrn102635.extracted={}
+

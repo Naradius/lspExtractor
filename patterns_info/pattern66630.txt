@@ -1,0 +1,8 @@
+optimizednd secured link-state routing approach
+(NP (JJ )(VBN )(NN ){1,2})
+Phase: generated66630
+Input: Token
+Rule: generated66630
+(
+(({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN })+)):pttrn66630 --> :pttrn66630.extracted={}
+

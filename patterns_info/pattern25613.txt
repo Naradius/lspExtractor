@@ -1,0 +1,8 @@
+the same contribution in the network
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated25613
+Input: Token
+Rule: generated25613
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn25613 --> :pttrn25613.extracted={}
+

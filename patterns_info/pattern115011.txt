@@ -1,0 +1,8 @@
+is available at https://code.google.com/p/relevance-based-on-parse-trees/downloads/detail?name=Queries900set.xls
+(VP (VBZ )(PP (IN )(NP (PRP$ )(JJ ){1,2}(NN )(NNP ){1,2})))
+Phase: generated115011
+Input: Token
+Rule: generated115011
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNP })+)))):pttrn115011 --> :pttrn115011.extracted={}
+

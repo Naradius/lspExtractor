@@ -1,0 +1,8 @@
+independent of the code rate
+(ADJP (JJ )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated45208
+Input: Token
+Rule: generated45208
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn45208 --> :pttrn45208.extracted={}
+

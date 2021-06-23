@@ -1,0 +1,8 @@
+uses both spatial information for spectrum availability whichends up choosing channels that are suitable for both data rate andprimary protection purposes
+(VP (VBZ )(NP (ADJP (DT )(JJ ))(NN ))(PP (IN )(NP (NN ){1,2}(NNS )))(PP (IN )(NP (NP (NN )(NNS ))(VP (VBP )(ADJP (JJ )(PP (IN )(NP (NP (DT )(NNS )(NN ))(PP (IN )(NP (NN )(NNS ))))))))))
+Phase: generated24313
+Input: Token
+Rule: generated24313
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))))):pttrn24313 --> :pttrn24313.extracted={}
+

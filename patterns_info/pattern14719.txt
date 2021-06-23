@@ -1,0 +1,8 @@
+the vir-tualization layer
+(NP (DT )(NN ){1,2})
+Phase: generated14719
+Input: Token
+Rule: generated14719
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn14719 --> :pttrn14719.extracted={}
+

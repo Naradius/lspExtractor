@@ -1,0 +1,8 @@
+data collection,which leads to the improvisation of the network lifetime
+(NP (NP (NNS )(NN ))(VP (VBZ )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated12343
+Input: Token
+Rule: generated12343
+(
+((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn12343 --> :pttrn12343.extracted={}
+

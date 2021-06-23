@@ -1,0 +1,8 @@
+a central mesh network
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated50347
+Input: Token
+Rule: generated50347
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn50347 --> :pttrn50347.extracted={}
+

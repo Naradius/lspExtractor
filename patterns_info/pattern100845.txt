@@ -1,0 +1,8 @@
+the inter-annotator agreement.Table 11
+(NP (DT )(NN ){1,2}(CD ))
+Phase: generated100845
+Input: Token
+Rule: generated100845
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CD }))):pttrn100845 --> :pttrn100845.extracted={}
+

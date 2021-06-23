@@ -1,0 +1,8 @@
+becomes a CH for the current round
+(VP (VBZ )(NP (DT )(NNP ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated58386
+Input: Token
+Rule: generated58386
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn58386 --> :pttrn58386.extracted={}
+

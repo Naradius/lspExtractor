@@ -1,0 +1,8 @@
+each hop
+(NP (DT )(NN ))
+Phase: generated4524
+Input: Token
+Rule: generated4524
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn4524 --> :pttrn4524.extracted={}
+

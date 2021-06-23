@@ -1,0 +1,8 @@
+referred as tasksn Cloud computing
+(VP (VBN )(PP (IN )(NP (JJ )(NNP )(NN ))))
+Phase: generated19219
+Input: Token
+Rule: generated19219
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))))):pttrn19219 --> :pttrn19219.extracted={}
+

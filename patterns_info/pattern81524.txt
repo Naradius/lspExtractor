@@ -1,0 +1,8 @@
+knowledge discovery systems
+(NP (NN ){1,2}(NNS ))
+Phase: generated81524
+Input: Token
+Rule: generated81524
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn81524 --> :pttrn81524.extracted={}
+

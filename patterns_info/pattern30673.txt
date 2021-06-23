@@ -1,0 +1,8 @@
+the IEEETRANSACTIONS
+(NP (DT )(NNP ))
+Phase: generated30673
+Input: Token
+Rule: generated30673
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn30673 --> :pttrn30673.extracted={}
+

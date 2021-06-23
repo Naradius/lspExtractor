@@ -1,0 +1,8 @@
+a one-time public key address ptmp
+(NP (DT )(JJ ){1,2}(NN ){1,2})
+Phase: generated34600
+Input: Token
+Rule: generated34600
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn34600 --> :pttrn34600.extracted={}
+

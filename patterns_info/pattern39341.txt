@@ -1,0 +1,8 @@
+the IoT that uses the Raspberry Pi equipped with Snortintrusion detection system
+(NP (NP (DT )(NNP ))(VP (VBZ )(NP (DT )(NNP ){1,2})(VP (VBD )(PP (IN )(NP (NNP )(NN ){1,2})))))
+Phase: generated39341
+Input: Token
+Rule: generated39341
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+)))))):pttrn39341 --> :pttrn39341.extracted={}
+

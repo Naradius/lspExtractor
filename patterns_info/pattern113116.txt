@@ -1,0 +1,8 @@
+be further generalized with other parse trees or generalizations
+(VP (VB )(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NNS )(CC )(NNS )))))
+Phase: generated113116
+Input: Token
+Rule: generated113116
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))))):pttrn113116 --> :pttrn113116.extracted={}
+

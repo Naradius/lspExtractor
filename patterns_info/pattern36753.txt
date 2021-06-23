@@ -1,0 +1,8 @@
+instructions or dataEndpoint playback or forgery
+(NP (NNS )(CC )(NN ){1,2}(CC )(NN ))
+Phase: generated36753
+Input: Token
+Rule: generated36753
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn36753 --> :pttrn36753.extracted={}
+

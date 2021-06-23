@@ -1,0 +1,8 @@
+the smart home application
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated19546
+Input: Token
+Rule: generated19546
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn19546 --> :pttrn19546.extracted={}
+

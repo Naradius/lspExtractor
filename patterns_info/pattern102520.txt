@@ -1,0 +1,8 @@
+a very convenient tool
+(NP (DT )(ADJP (RB )(JJ ))(NN ))
+Phase: generated102520
+Input: Token
+Rule: generated102520
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))):pttrn102520 --> :pttrn102520.extracted={}
+

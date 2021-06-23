@@ -1,0 +1,8 @@
+in our previous studies
+(PP (IN )(NP (PRP$ )(JJ )(NNS )))
+Phase: generated114834
+Input: Token
+Rule: generated114834
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS })))):pttrn114834 --> :pttrn114834.extracted={}
+

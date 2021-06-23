@@ -1,0 +1,8 @@
+the operationalefficiency and scalability of the transaction information
+(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated36909
+Input: Token
+Rule: generated36909
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn36909 --> :pttrn36909.extracted={}
+

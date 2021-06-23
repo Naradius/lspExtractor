@@ -1,0 +1,8 @@
+randomlydivided into P prides
+(VP (VBN )(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated64042
+Input: Token
+Rule: generated64042
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn64042 --> :pttrn64042.extracted={}
+

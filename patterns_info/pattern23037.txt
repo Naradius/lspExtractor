@@ -1,0 +1,8 @@
+as:pnonedge = 1 Noverlap  Aoverlapl  l5.1.2
+(PP (IN )(NP (NN )(SYM )(CD )(NNP ){1,2}(NN )))
+Phase: generated23037
+Input: Token
+Rule: generated23037
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == SYM })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == NN })))):pttrn23037 --> :pttrn23037.extracted={}
+

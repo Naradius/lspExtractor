@@ -1,0 +1,8 @@
+the proposed HEED implementation
+(NP (DT )(VBN )(NNP )(NN ))
+Phase: generated8147
+Input: Token
+Rule: generated8147
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })({ Token.category == NN }))):pttrn8147 --> :pttrn8147.extracted={}
+

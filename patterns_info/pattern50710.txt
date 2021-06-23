@@ -1,0 +1,8 @@
+cannotrespond to all application needs
+(VP (VB )(PP (TO )(NP (DT )(NN )(NNS ))))
+Phase: generated50710
+Input: Token
+Rule: generated50710
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn50710 --> :pttrn50710.extracted={}
+

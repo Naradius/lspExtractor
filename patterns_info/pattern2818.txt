@@ -1,0 +1,8 @@
+various graph NP-complete problems, as well as routing problems in Mobile Ad Hoc Networks , Vehicular Ad Hoc Networks
+(NP (NP (JJ )(NN )(JJ )(NNS ))(CONJP (RB ){1,2}(IN )))
+Phase: generated2818
+Input: Token
+Rule: generated2818
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == RB })+({ Token.category == IN })))):pttrn2818 --> :pttrn2818.extracted={}
+

@@ -1,0 +1,8 @@
+Algorithms Stemming algorithms
+(NP (NNP ){1,2}(NNS ))
+Phase: generated96366
+Input: Token
+Rule: generated96366
+(
+(({ Token.category == NNP })+({ Token.category == NNS }))):pttrn96366 --> :pttrn96366.extracted={}
+

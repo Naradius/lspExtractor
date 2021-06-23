@@ -1,0 +1,8 @@
+20 February
+(NP (CD )(NNP ))
+Phase: generated30867
+Input: Token
+Rule: generated30867
+(
+(({ Token.category == CD })({ Token.category == NNP }))):pttrn30867 --> :pttrn30867.extracted={}
+

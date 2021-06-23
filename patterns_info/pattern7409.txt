@@ -1,0 +1,8 @@
+pi1  Dp1 Dp 13where Dp is given by:Dp  k EresiEmax 1n2c14Eresi
+(VP (VBD )(VP (VBD )(VP (VBZ )(VP (VBN )(PP (IN )(NP (JJ )(NN )(NNP ){1,2}))))))
+Phase: generated7409
+Input: Token
+Rule: generated7409
+(
+(({ Token.category == VBD })(({ Token.category == VBD })(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+))))))):pttrn7409 --> :pttrn7409.extracted={}
+

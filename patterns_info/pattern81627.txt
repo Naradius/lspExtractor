@@ -1,0 +1,8 @@
+in Figure 1, which will serve as a runningexample of semi-structured text.Capitol Hill - 1 br twnhme
+(PP (IN )(NP (NP (NN )(CD ))(VP (MD )(VP (VB )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNP ))))(NP (CD )(NN ){1,2})))))))
+Phase: generated81627
+Input: Token
+Rule: generated81627
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))))(({ Token.category == CD })({ Token.category == NN })+)))))))):pttrn81627 --> :pttrn81627.extracted={}
+

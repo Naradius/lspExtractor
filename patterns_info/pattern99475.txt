@@ -1,0 +1,8 @@
+should be learned from the sentence The Statue of David, by Michelangelo, even if itdoes not include the verb
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated99475
+Input: Token
+Rule: generated99475
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn99475 --> :pttrn99475.extracted={}
+

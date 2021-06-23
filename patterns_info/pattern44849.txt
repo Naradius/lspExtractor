@@ -1,0 +1,8 @@
+to a single, nearby, high-powered base station
+(PP (TO )(NP (DT )(JJ ){1,2}(NN ){1,2}))
+Phase: generated44849
+Input: Token
+Rule: generated44849
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))):pttrn44849 --> :pttrn44849.extracted={}
+

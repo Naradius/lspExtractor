@@ -1,0 +1,8 @@
+these four verbs
+(NP (DT )(CD )(NNS ))
+Phase: generated72917
+Input: Token
+Rule: generated72917
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))):pttrn72917 --> :pttrn72917.extracted={}
+

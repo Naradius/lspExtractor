@@ -1,0 +1,8 @@
+training and testing, Neuro-Fuzzy in-erence system, Neuro Fuzzy rule manager, Rule base, Base station,ata Routing Module, Decision Manager and Cluster Distance Man-gement modules
+(NP (NP (NP (NN )(CC )(NN )(JJ )(NN ){1,2})(NP (NNP ){1,2}(NN ){1,2}))(NP (NNP )(NN ))(NP (NNP )(NN )(NNP ){1,2})(CC )(NP (NNP ){1,2}(NNS )))
+Phase: generated59244
+Input: Token
+Rule: generated59244
+(
+(((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == NNP })+({ Token.category == NN })+))(({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP })+)({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == NNS })))):pttrn59244 --> :pttrn59244.extracted={}
+

@@ -1,0 +1,8 @@
+an important pa-ameter that must be considered for enhancing the network lifeime
+(NP (NP (DT )(JJ )(NN ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2})))))))
+Phase: generated58840
+Input: Token
+Rule: generated58840
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn58840 --> :pttrn58840.extracted={}
+

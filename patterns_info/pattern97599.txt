@@ -1,0 +1,8 @@
+according to the grammar rules of a certain language
+(PP (VBG )(PP (TO )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated97599
+Input: Token
+Rule: generated97599
+(
+(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn97599 --> :pttrn97599.extracted={}
+

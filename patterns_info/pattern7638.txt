@@ -1,0 +1,8 @@
+sinkEndEndEnd/* only for CH nodes
+(VP (VB )(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated7638
+Input: Token
+Rule: generated7638
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn7638 --> :pttrn7638.extracted={}
+

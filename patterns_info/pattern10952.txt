@@ -1,0 +1,8 @@
+the cluster head based on the theoryof trust
+(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated10952
+Input: Token
+Rule: generated10952
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn10952 --> :pttrn10952.extracted={}
+

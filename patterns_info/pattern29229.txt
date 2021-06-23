@@ -1,0 +1,8 @@
+3. Illustrative example of the application of the GMMs cluster technique to the graph with the temperatures of the IoT network.same
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )(NN ){1,2})))(PP (TO )(NP (DT )(NN ))))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNP )(NN ))))))))
+Phase: generated29229
+Input: Token
+Rule: generated29229
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))))))):pttrn29229 --> :pttrn29229.extracted={}
+

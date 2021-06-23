@@ -1,0 +1,8 @@
+the relevance and comprehensiveness of summary-length answers to complex questions
+(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(PP (TO )(NP (JJ )(NNS ))))))
+Phase: generated116249
+Input: Token
+Rule: generated116249
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn116249 --> :pttrn116249.extracted={}
+

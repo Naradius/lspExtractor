@@ -1,0 +1,8 @@
+unambiguous logical formulations
+(NP (JJ ){1,2}(NNS ))
+Phase: generated71612
+Input: Token
+Rule: generated71612
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn71612 --> :pttrn71612.extracted={}
+

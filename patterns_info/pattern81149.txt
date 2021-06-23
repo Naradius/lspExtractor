@@ -1,0 +1,8 @@
+achieved useful performance on free text, although nonecomes close to human competence and machine learning fall short of hand-codingfor text extraction rules
+(VP (VBN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated81149
+Input: Token
+Rule: generated81149
+(
+(({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn81149 --> :pttrn81149.extracted={}
+

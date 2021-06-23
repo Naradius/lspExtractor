@@ -1,0 +1,8 @@
+efficient and cost-effective intrusion detection
+(NP (ADJP (JJ )(CC )(JJ ))(NN ){1,2})
+Phase: generated39088
+Input: Token
+Rule: generated39088
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN })+)):pttrn39088 --> :pttrn39088.extracted={}
+

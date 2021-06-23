@@ -1,0 +1,8 @@
+compromising the network lifetime
+(VP (VBG )(NP (DT )(NN ){1,2}))
+Phase: generated61652
+Input: Token
+Rule: generated61652
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))):pttrn61652 --> :pttrn61652.extracted={}
+

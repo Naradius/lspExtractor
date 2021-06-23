@@ -1,0 +1,8 @@
+show 183 and198 nodes at 500th s respectively
+(VP (VBP )(NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated11925
+Input: Token
+Rule: generated11925
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn11925 --> :pttrn11925.extracted={}
+

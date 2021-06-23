@@ -1,0 +1,8 @@
+adopted the CSMA protocol due to its simplic-ity and its promise of scalability
+(VP (VBD )(NP (NP (DT )(NNP )(NN ))(ADJP (JJ )(PP (TO )(NP (NP (PRP$ )(NN ))(CC )(NP (PRP$ )(NN )))))))
+Phase: generated4488
+Input: Token
+Rule: generated4488
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == PRP$ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })))))))):pttrn4488 --> :pttrn4488.extracted={}
+

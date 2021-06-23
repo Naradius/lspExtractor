@@ -1,0 +1,8 @@
+the Spray
+(NP (DT )(NNP ))
+Phase: generated40755
+Input: Token
+Rule: generated40755
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn40755 --> :pttrn40755.extracted={}
+

@@ -1,0 +1,8 @@
+a new direction
+(NP (DT )(JJ )(NN ))
+Phase: generated28256
+Input: Token
+Rule: generated28256
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn28256 --> :pttrn28256.extracted={}
+

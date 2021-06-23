@@ -1,0 +1,8 @@
+overall T-ANT clustering
+(NP (JJ ){1,2}(NN ))
+Phase: generated4106
+Input: Token
+Rule: generated4106
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn4106 --> :pttrn4106.extracted={}
+

@@ -1,0 +1,8 @@
+to CPU processes in the activeode
+(PP (TO )(NP (NP (NNP )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated27493
+Input: Token
+Rule: generated27493
+(
+(({ Token.category == TO })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn27493 --> :pttrn27493.extracted={}
+

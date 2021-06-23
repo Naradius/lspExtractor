@@ -1,0 +1,8 @@
+entail minimum energydissipation.Generally
+(NP (JJ ){1,2}(NN ))
+Phase: generated9669
+Input: Token
+Rule: generated9669
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn9669 --> :pttrn9669.extracted={}
+

@@ -1,0 +1,8 @@
+to the fact that the system does not handle anaphora andcan generate anaphoric questions
+(PP (TO )(NP (DT )(NN )(IN )))
+Phase: generated100331
+Input: Token
+Rule: generated100331
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == IN })))):pttrn100331 --> :pttrn100331.extracted={}
+

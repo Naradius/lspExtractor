@@ -1,0 +1,8 @@
+base formVBZ Verb
+(NP (NN ){1,2}(NNP ))
+Phase: generated92767
+Input: Token
+Rule: generated92767
+(
+(({ Token.category == NN })+({ Token.category == NNP }))):pttrn92767 --> :pttrn92767.extracted={}
+

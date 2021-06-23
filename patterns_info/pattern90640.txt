@@ -1,0 +1,8 @@
+for basic semantic element extraction
+(PP (IN )(NP (JJ ){1,2}(NN ){1,2}))
+Phase: generated90640
+Input: Token
+Rule: generated90640
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })+))):pttrn90640 --> :pttrn90640.extracted={}
+

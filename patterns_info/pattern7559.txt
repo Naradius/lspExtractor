@@ -1,0 +1,8 @@
+of the possible highspatial correlations
+(PP (IN )(NP (DT )(JJ ){1,2}(NNS )))
+Phase: generated7559
+Input: Token
+Rule: generated7559
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))):pttrn7559 --> :pttrn7559.extracted={}
+

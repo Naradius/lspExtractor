@@ -1,0 +1,8 @@
+In Lindgren et al.
+(PP (IN )(NP (NNP ){1,2}(JJ )(NNP )))
+Phase: generated40779
+Input: Token
+Rule: generated40779
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNP })))):pttrn40779 --> :pttrn40779.extracted={}
+

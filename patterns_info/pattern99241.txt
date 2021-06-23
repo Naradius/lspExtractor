@@ -1,0 +1,8 @@
+iscomposed of the lexico-syntactic information present in the matched text fragment
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ){1,2}))(PP (IN )(NP (DT )(VBN )(NN ){1,2})))
+Phase: generated99241
+Input: Token
+Rule: generated99241
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))):pttrn99241 --> :pttrn99241.extracted={}
+

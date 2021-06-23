@@ -1,0 +1,8 @@
+VNs whoseregions
+(NP (NNP )(NNS ))
+Phase: generated13141
+Input: Token
+Rule: generated13141
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn13141 --> :pttrn13141.extracted={}
+

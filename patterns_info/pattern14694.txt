@@ -1,0 +1,8 @@
+hearing M_LeaderLeftfrom the previous leader, the one whose T_RequestWait timerexpires first  will change to LEADER and broadcast5Each node adds a small random value to T_RequestWait to prevent thecollisions and/or duplicate leaderships that would occur, e.g., when equallyinitialized timers of several synchronized backups expire at exactly thesame time
+(VP (VBG )(PP (IN )(NP (NP (DT )(JJ )(NN ))(NP (DT )(CD )(WP$ ))))(VP (VB )(VP (MD )(VP (VB )(PP (TO )(NP (CC )(NP (JJ )(NN ))))(VP (VBZ )(NP (DT )(JJ ){1,2}(NN )))))))
+Phase: generated14694
+Input: Token
+Rule: generated14694
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == CD })({ Token.category == WP$ }))))(({ Token.category == VB })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))))):pttrn14694 --> :pttrn14694.extracted={}
+

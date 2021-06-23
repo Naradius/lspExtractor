@@ -1,0 +1,8 @@
+a standard CRF-based tagging
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated105978
+Input: Token
+Rule: generated105978
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn105978 --> :pttrn105978.extracted={}
+

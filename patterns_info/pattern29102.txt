@@ -1,0 +1,8 @@
+of the distribution p which have to satisfy 0 k  1 andKk=1 k = 1 to form a convex combination of themixture components .3.3
+(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBP )(VP (VP (TO )(VP (VB )(NP (CD )(NN )(CD ))))(CC )(VP (VB )(SYM )(VP (TO )(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(NNS )))))))))))
+Phase: generated29102
+Input: Token
+Rule: generated29102
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBP })((({ Token.category == TO })(({ Token.category == VB })(({ Token.category == CD })({ Token.category == NN })({ Token.category == CD }))))({ Token.category == CC })(({ Token.category == VB })({ Token.category == SYM })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))))))):pttrn29102 --> :pttrn29102.extracted={}
+

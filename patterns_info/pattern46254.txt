@@ -1,0 +1,8 @@
+be attached withsmall sensors that report the status
+(VP (VB )(VP (VBN )(NP (NP (DT )(NNS ))(VP (VBP )(NP (DT )(NN ))))))
+Phase: generated46254
+Input: Token
+Rule: generated46254
+(
+(({ Token.category == VB })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn46254 --> :pttrn46254.extracted={}
+

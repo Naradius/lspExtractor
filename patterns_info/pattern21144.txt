@@ -1,0 +1,8 @@
+a multi-hop mesh environment due to the inherent energy constraint ofIoT devices.In this paper, we propose SpEED-IoT: Spectrum aware Energy- Efficient multi-hop multi-channelrouting scheme for D2D communication in IoT mesh network
+(NP (NP (DT )(JJ )(NN ){1,2})(ADJP (JJ )(PP (TO )(NP (NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))(VP (VBD )(NP (NP (NNP ){1,2}(JJ ){1,2}(NN ))(PP (IN )(NP (NP (NNP )(NN ))(PP (IN )(NP (NNP )(NN ){1,2}))))))))))
+Phase: generated21144
+Input: Token
+Rule: generated21144
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })(({ Token.category == TO })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == VBD })((({ Token.category == NNP })+({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+))))))))))):pttrn21144 --> :pttrn21144.extracted={}
+

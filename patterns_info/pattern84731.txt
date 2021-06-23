@@ -1,0 +1,8 @@
+Without post-pruning the precisionis lower, beginning around 85% and gradually climbing to 91%.*  *  ' ' Bdrm * '$' Figure 21.
+(PP (IN )(VP (VBG )(NP (DT )(NN ))(VP (VP (VBG )(PP (IN )(NP (CD )(NN ))))(CC )(VP (VBG )(PP (TO )(NP (NP (NP (CD )(NN ){1,2}('' )(POS ))(NNP ){1,2}(POS ))($ )('' )(NP (NN )(CD ))))))))
+Phase: generated84731
+Input: Token
+Rule: generated84731
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))((({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == TO })(((({ Token.category == CD })({ Token.category == NN })+({ Token.category == '' })({ Token.category == POS }))({ Token.category == NNP })+({ Token.category == POS }))({ Token.category == $ })({ Token.category == '' })(({ Token.category == NN })({ Token.category == CD }))))))))):pttrn84731 --> :pttrn84731.extracted={}
+

@@ -1,0 +1,8 @@
+is discovered early on
+(VP (VBZ )(VP (VBN )(ADVP (RB )(IN ))))
+Phase: generated84743
+Input: Token
+Rule: generated84743
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == RB })({ Token.category == IN }))))):pttrn84743 --> :pttrn84743.extracted={}
+

@@ -1,0 +1,8 @@
+the meaningful deci-sion , which is then communicated back to the IoT device to block or allow events of specificpatterns
+(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(VP (VBN )(PP (TO )(NP (DT )(NNP )(NN )))(VP (TO )(VP (VB )(CC ))))))
+Phase: generated39129
+Input: Token
+Rule: generated39129
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC }))))))):pttrn39129 --> :pttrn39129.extracted={}
+

@@ -1,0 +1,8 @@
+.Various studies
+(NP (JJ )(NNS ))
+Phase: generated72229
+Input: Token
+Rule: generated72229
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn72229 --> :pttrn72229.extracted={}
+

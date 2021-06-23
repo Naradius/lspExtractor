@@ -1,0 +1,8 @@
+a given Bit Error Rate and delay requirement
+(NP (DT )(VBN )(NN )(NNP ){1,2}(CC )(NN ){1,2})
+Phase: generated50801
+Input: Token
+Rule: generated50801
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NN })+)):pttrn50801 --> :pttrn50801.extracted={}
+

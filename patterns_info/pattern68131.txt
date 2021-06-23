@@ -1,0 +1,8 @@
+in IoT-based wireless sensor networksAd Hoc Networks 97  102022 Contents lists available at ScienceDirect Ad Hoc Networks journal homepage
+(PP (IN )(NP (NP (JJ ){1,2}(NN ){1,2}(NNP ){1,2}(CD ){1,2}(NNS ){1,2})(ADJP (JJ )(PP (IN )(NP (NNP ){1,2}(NN ){1,2})))))
+Phase: generated68131
+Input: Token
+Rule: generated68131
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NN })+({ Token.category == NNP })+({ Token.category == CD })+({ Token.category == NNS })+)(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })+)))))):pttrn68131 --> :pttrn68131.extracted={}
+

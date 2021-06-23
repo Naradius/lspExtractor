@@ -1,0 +1,8 @@
+twowell-known proposals, LEACH and a more recent one,HEED
+(NP (NP (JJ )(NNS ))(CC )(NP (DT )(ADJP (JJR )(JJ ))(CD )(NN )))
+Phase: generated8238
+Input: Token
+Rule: generated8238
+(
+((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })(({ Token.category == JJR })({ Token.category == JJ }))({ Token.category == CD })({ Token.category == NN })))):pttrn8238 --> :pttrn8238.extracted={}
+

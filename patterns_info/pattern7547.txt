@@ -1,0 +1,8 @@
+the MAC protocol
+(NP (DT )(NNP )(NN ))
+Phase: generated7547
+Input: Token
+Rule: generated7547
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn7547 --> :pttrn7547.extracted={}
+

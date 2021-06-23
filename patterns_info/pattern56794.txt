@@ -1,0 +1,8 @@
+to have better network performance.2.5.2
+(VP (TO )(VP (VB )(NP (JJR )(NN ){1,2})))
+Phase: generated56794
+Input: Token
+Rule: generated56794
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN })+)))):pttrn56794 --> :pttrn56794.extracted={}
+

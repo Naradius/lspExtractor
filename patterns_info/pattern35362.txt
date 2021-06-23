@@ -1,0 +1,8 @@
+a trade, sign calculation, and confirm receipt
+(NP (NP (DT )(NN ))(CC ))
+Phase: generated35362
+Input: Token
+Rule: generated35362
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))):pttrn35362 --> :pttrn35362.extracted={}
+

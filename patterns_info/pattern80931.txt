@@ -1,0 +1,8 @@
+to the empty rule
+(PP (TO )(NP (DT )(JJ )(NN )))
+Phase: generated80931
+Input: Token
+Rule: generated80931
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn80931 --> :pttrn80931.extracted={}
+

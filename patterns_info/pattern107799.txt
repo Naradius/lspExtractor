@@ -1,0 +1,8 @@
+find the nodes that are connected to node nj
+(VP (VB )(NP (NP (DT )(NNS ))(VP (VBP )(VP (VBN )(PP (TO )(NP (DT )(NN )))))))
+Phase: generated107799
+Input: Token
+Rule: generated107799
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn107799 --> :pttrn107799.extracted={}
+

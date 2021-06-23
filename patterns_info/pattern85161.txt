@@ -1,0 +1,8 @@
+preprocessing stage, term weighting stage,dimensional reduction and dimension reduction as shown in Figure 1.Figure 1
+(NP (NP (JJ )(NN ))(NP (NP (NN ){1,2}(JJ )(NN )(CC )(NN ){1,2})(IN )))
+Phase: generated85161
+Input: Token
+Rule: generated85161
+(
+((({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)({ Token.category == IN })))):pttrn85161 --> :pttrn85161.extracted={}
+

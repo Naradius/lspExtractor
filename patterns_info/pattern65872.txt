@@ -1,0 +1,8 @@
+high-obility networks
+(NP (NN )(NNS ))
+Phase: generated65872
+Input: Token
+Rule: generated65872
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn65872 --> :pttrn65872.extracted={}
+

@@ -1,0 +1,8 @@
+the robustness
+(NP (DT )(NN ))
+Phase: generated56439
+Input: Token
+Rule: generated56439
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn56439 --> :pttrn56439.extracted={}
+

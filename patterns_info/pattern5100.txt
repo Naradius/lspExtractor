@@ -1,0 +1,8 @@
+7 and  shows
+(NP (CD )(CC )(NNS ))
+Phase: generated5100
+Input: Token
+Rule: generated5100
+(
+(({ Token.category == CD })({ Token.category == CC })({ Token.category == NNS }))):pttrn5100 --> :pttrn5100.extracted={}
+

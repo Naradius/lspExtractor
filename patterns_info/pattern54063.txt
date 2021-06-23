@@ -1,0 +1,8 @@
+of normalized residualenergy of the node which is the ratio of the node residual energyand the sum of residual energy of the neighboring nodes anddefined as follows:pi rejPjANirejwhere rej is the residual energy of the node j and Ni is the set ofneighboring nodes of i and pi is the normalized preference of nodei
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(VBG )(NNS ))))(CC ))))))))))))
+Phase: generated54063
+Input: Token
+Rule: generated54063
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))))({ Token.category == CC }))))))))))))):pttrn54063 --> :pttrn54063.extracted={}
+

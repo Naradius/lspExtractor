@@ -1,0 +1,8 @@
+to unknown context elements
+(PP (TO )(NP (JJ )(NN )(NNS )))
+Phase: generated102157
+Input: Token
+Rule: generated102157
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn102157 --> :pttrn102157.extracted={}
+

@@ -1,0 +1,8 @@
+A post-pruning step
+(NP (DT )(JJ )(NN ))
+Phase: generated83653
+Input: Token
+Rule: generated83653
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn83653 --> :pttrn83653.extracted={}
+

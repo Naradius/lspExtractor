@@ -1,0 +1,8 @@
+a weight.A path in a WFST
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP ))))
+Phase: generated106855
+Input: Token
+Rule: generated106855
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn106855 --> :pttrn106855.extracted={}
+

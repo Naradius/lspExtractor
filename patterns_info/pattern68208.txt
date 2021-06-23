@@ -1,0 +1,8 @@
+on the inner layer
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated68208
+Input: Token
+Rule: generated68208
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn68208 --> :pttrn68208.extracted={}
+

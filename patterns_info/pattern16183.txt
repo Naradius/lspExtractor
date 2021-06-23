@@ -1,0 +1,8 @@
+the likelihood
+(NP (DT )(NN ))
+Phase: generated16183
+Input: Token
+Rule: generated16183
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn16183 --> :pttrn16183.extracted={}
+

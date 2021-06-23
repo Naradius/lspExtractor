@@ -1,0 +1,8 @@
+The main advan-tages of using the ISM bands
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(VP (VBG )(NP (DT )(NNP )(NNS )))))
+Phase: generated47619
+Input: Token
+Rule: generated47619
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))))):pttrn47619 --> :pttrn47619.extracted={}
+

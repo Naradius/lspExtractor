@@ -1,0 +1,8 @@
+the same root
+(NP (DT )(JJ )(NN ))
+Phase: generated98579
+Input: Token
+Rule: generated98579
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn98579 --> :pttrn98579.extracted={}
+

@@ -1,0 +1,8 @@
+for low-power andlossy networks
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated28968
+Input: Token
+Rule: generated28968
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn28968 --> :pttrn28968.extracted={}
+

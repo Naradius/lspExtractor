@@ -1,0 +1,8 @@
+an adjacent path
+(NP (DT )(JJ )(NN ))
+Phase: generated33560
+Input: Token
+Rule: generated33560
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn33560 --> :pttrn33560.extracted={}
+

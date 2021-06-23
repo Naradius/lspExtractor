@@ -1,0 +1,8 @@
+on LEACH protocol in wirelesssensor networks
+(PP (IN )(NP (NP (NNP )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated57690
+Input: Token
+Rule: generated57690
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn57690 --> :pttrn57690.extracted={}
+

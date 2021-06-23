@@ -1,0 +1,8 @@
+the next_region field
+(NP (DT )(JJ )(NN ))
+Phase: generated15662
+Input: Token
+Rule: generated15662
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn15662 --> :pttrn15662.extracted={}
+

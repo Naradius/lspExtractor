@@ -1,0 +1,8 @@
+needed to robustly identify these to increaserecall of the system
+(VP (VBN )(VP (TO )(VP (VB )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated75357
+Input: Token
+Rule: generated75357
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn75357 --> :pttrn75357.extracted={}
+

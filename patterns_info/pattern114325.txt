@@ -1,0 +1,8 @@
+the right-bottom, and evidence-for-what  and what-happens-with-evidence  on the right-top .Notice that in the latter case we need to merge  the phrase  its nuclear development  with evidence against it to obtain evidence against its nuclear development
+(NP (NP (DT )(JJ )(CC )(JJ )(CC )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))(IN ))
+Phase: generated114325
+Input: Token
+Rule: generated114325
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))({ Token.category == IN }))):pttrn114325 --> :pttrn114325.extracted={}
+

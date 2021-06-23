@@ -1,0 +1,8 @@
+16 and 16 show
+(NP (CD )(CC )(CD )(NN ))
+Phase: generated24210
+Input: Token
+Rule: generated24210
+(
+(({ Token.category == CD })({ Token.category == CC })({ Token.category == CD })({ Token.category == NN }))):pttrn24210 --> :pttrn24210.extracted={}
+

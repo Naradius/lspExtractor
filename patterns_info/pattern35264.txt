@@ -1,0 +1,8 @@
+sends data digest requests to consen-sus confirmations and writes to the ledger divided by time
+(VP (VBZ )(VP (VB )(NP (NNS )(PP (TO )(NP (JJ )(NNS )(CC )(NNS ))))))
+Phase: generated35264
+Input: Token
+Rule: generated35264
+(
+(({ Token.category == VBZ })(({ Token.category == VB })(({ Token.category == NNS })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))))):pttrn35264 --> :pttrn35264.extracted={}
+

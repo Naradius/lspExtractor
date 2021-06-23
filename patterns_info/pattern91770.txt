@@ -1,0 +1,8 @@
+change tag X to tag Yand w is a word in WLi with current tag X satisfying the trigger condition
+(VP (VB )(NP (NN )(NNP ))(VP (TO )(VP (VB )(NP (NNP )(NN )))))
+Phase: generated91770
+Input: Token
+Rule: generated91770
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn91770 --> :pttrn91770.extracted={}
+

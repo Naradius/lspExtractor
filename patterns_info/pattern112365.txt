@@ -1,0 +1,8 @@
+InformationSciences 177  40594071 10
+(NP (NNP )(CD ){1,2})
+Phase: generated112365
+Input: Token
+Rule: generated112365
+(
+(({ Token.category == NNP })({ Token.category == CD })+)):pttrn112365 --> :pttrn112365.extracted={}
+

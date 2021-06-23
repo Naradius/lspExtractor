@@ -1,0 +1,8 @@
+natural language pars-ing
+(NP (JJ )(NN ){1,2})
+Phase: generated95948
+Input: Token
+Rule: generated95948
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn95948 --> :pttrn95948.extracted={}
+

@@ -1,0 +1,8 @@
+forhe energy utilization and network life span
+(PP (IN )(NP (NN ){1,2}(CC )(NN ){1,2}))
+Phase: generated60116
+Input: Token
+Rule: generated60116
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+))):pttrn60116 --> :pttrn60116.extracted={}
+

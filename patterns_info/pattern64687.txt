@@ -1,0 +1,8 @@
+migration operatorand Lions'
+(NP (NN ){1,2}(NNP )(POS ))
+Phase: generated64687
+Input: Token
+Rule: generated64687
+(
+(({ Token.category == NN })+({ Token.category == NNP })({ Token.category == POS }))):pttrn64687 --> :pttrn64687.extracted={}
+

@@ -1,0 +1,8 @@
+is at its center
+(VP (VBZ )(PP (IN )(NP (PRP$ )(NN ))))
+Phase: generated62390
+Input: Token
+Rule: generated62390
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn62390 --> :pttrn62390.extracted={}
+

@@ -1,0 +1,8 @@
+with 250 kbs and has48 kb of flash and 10 kb of RAM.
+(PP (IN )(NP (NP (CD )(NNS ))(CC )))
+Phase: generated37587
+Input: Token
+Rule: generated37587
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))({ Token.category == CC })))):pttrn37587 --> :pttrn37587.extracted={}
+

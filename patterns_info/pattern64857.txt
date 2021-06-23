@@ -1,0 +1,8 @@
+due to alarge number of local optima
+(ADJP (JJ )(PP (TO )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated64857
+Input: Token
+Rule: generated64857
+(
+(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn64857 --> :pttrn64857.extracted={}
+

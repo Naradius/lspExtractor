@@ -1,0 +1,8 @@
+the IoTbeing overcome
+(NP (DT )(NNP )(NN ))
+Phase: generated36191
+Input: Token
+Rule: generated36191
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn36191 --> :pttrn36191.extracted={}
+

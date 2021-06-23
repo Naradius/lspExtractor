@@ -1,0 +1,8 @@
+a hybrid approach where by a central unit coordinates with device level encoders
+(NP (NP (DT )(JJ )(NN ))(WHADVP (WRB )))
+Phase: generated39432
+Input: Token
+Rule: generated39432
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == WRB })))):pttrn39432 --> :pttrn39432.extracted={}
+

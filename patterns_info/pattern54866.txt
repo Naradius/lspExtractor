@@ -1,0 +1,8 @@
+calculatedand respective weights are computed with maximum number of p%of n sensors with high weights are selected to be CHs.Sensors whose density is less than the predefined threshold areselected to send the data to CH than the sensors which have moredensity in the network otherwise they will wait till the beginningof the next round for data transmission to respective CHs
+(VP (VBN )(NP (JJ )(NNS )))
+Phase: generated54866
+Input: Token
+Rule: generated54866
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn54866 --> :pttrn54866.extracted={}
+

@@ -1,0 +1,8 @@
+the identified targetrelation for the fifteen most frequently observed pattern-dependency pairs in the corpus.Our process
+(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (NP (DT )(CD ))(VP (ADVP (RBS )(RB ))(VBN )(NP (NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated78115
+Input: Token
+Rule: generated78115
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == CD }))((({ Token.category == RBS })({ Token.category == RB }))({ Token.category == VBN })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn78115 --> :pttrn78115.extracted={}
+

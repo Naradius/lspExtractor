@@ -1,0 +1,8 @@
+becoming a CH in each round.It guarantees that every node becomes a CH only once in 1/p rounds
+(VP (VBG )(NP (DT )(NNP ))(PP (IN )(NP (DT )(JJ )(NNS )))(IN ))
+Phase: generated2860
+Input: Token
+Rule: generated2860
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == IN }))):pttrn2860 --> :pttrn2860.extracted={}
+

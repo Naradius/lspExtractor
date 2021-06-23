@@ -1,0 +1,8 @@
+to establish logical network topology
+(VP (TO )(VP (VB )(NP (JJ )(NN ){1,2})))
+Phase: generated6627
+Input: Token
+Rule: generated6627
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn6627 --> :pttrn6627.extracted={}
+

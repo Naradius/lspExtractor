@@ -1,0 +1,8 @@
+designed for POS tagging and chunking of a large group of the Indian languages
+(VP (VBN )(PP (IN )(NP (NP (NNP )(NN )(CC )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NNP )(NNS ))))))))
+Phase: generated96863
+Input: Token
+Rule: generated96863
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))))))))):pttrn96863 --> :pttrn96863.extracted={}
+

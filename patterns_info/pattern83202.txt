@@ -1,0 +1,8 @@
+the class Nghbr
+(NP (DT )(NN )(NNP ))
+Phase: generated83202
+Input: Token
+Rule: generated83202
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))):pttrn83202 --> :pttrn83202.extracted={}
+

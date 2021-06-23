@@ -1,0 +1,8 @@
+its preferred parent
+(NP (PRP$ )(JJ )(NN ))
+Phase: generated26043
+Input: Token
+Rule: generated26043
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))):pttrn26043 --> :pttrn26043.extracted={}
+

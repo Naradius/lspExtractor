@@ -1,0 +1,8 @@
+temporal text mining
+(NP (JJ )(NN ){1,2})
+Phase: generated87126
+Input: Token
+Rule: generated87126
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn87126 --> :pttrn87126.extracted={}
+

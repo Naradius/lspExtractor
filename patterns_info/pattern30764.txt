@@ -1,0 +1,8 @@
+for Re-search and Technology Transfer
+(PP (IN )(NP (NNP )(CC )(NNP ){1,2}))
+Phase: generated30764
+Input: Token
+Rule: generated30764
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+))):pttrn30764 --> :pttrn30764.extracted={}
+

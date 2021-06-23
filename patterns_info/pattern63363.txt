@@ -1,0 +1,8 @@
+becausehe packets in the cloud
+(NP (NP (RB )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated63363
+Input: Token
+Rule: generated63363
+(
+((({ Token.category == RB })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn63363 --> :pttrn63363.extracted={}
+

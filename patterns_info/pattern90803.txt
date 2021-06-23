@@ -1,0 +1,8 @@
+speeds up the learning process
+(VP (VBZ )(PRT (RP ))(NP (DT )(NN ){1,2}))
+Phase: generated90803
+Input: Token
+Rule: generated90803
+(
+(({ Token.category == VBZ })(({ Token.category == RP }))(({ Token.category == DT })({ Token.category == NN })+))):pttrn90803 --> :pttrn90803.extracted={}
+

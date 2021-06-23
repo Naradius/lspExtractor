@@ -1,0 +1,8 @@
+to overcome the aforementioned issues
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NNS ))))
+Phase: generated553
+Input: Token
+Rule: generated553
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn553 --> :pttrn553.extracted={}
+

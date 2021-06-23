@@ -1,0 +1,8 @@
+have put a Since field in the M_Heartbeatmessages to indicate when exactly the sending node got into theLEADER state
+(VP (VBP )(VP (VBN )(NP (DT )(NNP )(NN ))(PP (IN )(NP (DT )(NNS )))(VP (TO )(VP (VB )(WHADVP (WRB ))))))
+Phase: generated14785
+Input: Token
+Rule: generated14785
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == WRB }))))))):pttrn14785 --> :pttrn14785.extracted={}
+

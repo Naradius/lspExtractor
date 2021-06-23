@@ -1,0 +1,8 @@
+may be used for this purpose
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated87694
+Input: Token
+Rule: generated87694
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn87694 --> :pttrn87694.extracted={}
+

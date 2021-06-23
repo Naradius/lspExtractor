@@ -1,0 +1,8 @@
+cluster-based ad hocnetworks
+(NP (JJ )(NN )(NNS ))
+Phase: generated5528
+Input: Token
+Rule: generated5528
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn5528 --> :pttrn5528.extracted={}
+

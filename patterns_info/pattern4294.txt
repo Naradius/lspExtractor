@@ -1,0 +1,8 @@
+is any uncovered node
+(VP (VBZ )(NP (DT )(JJ )(NN )))
+Phase: generated4294
+Input: Token
+Rule: generated4294
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn4294 --> :pttrn4294.extracted={}
+

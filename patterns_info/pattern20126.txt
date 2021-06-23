@@ -1,0 +1,8 @@
+5.2 Analysis results
+(NP (CD )(NN )(NNS ))
+Phase: generated20126
+Input: Token
+Rule: generated20126
+(
+(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn20126 --> :pttrn20126.extracted={}
+

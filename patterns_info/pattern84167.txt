@@ -1,0 +1,8 @@
+are only rarely specied in the same sentence.The original text was pre-processed by a semantic tagger as well as a syntacticanalyzer before the instances were passed to WHISK.
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(IN )))
+Phase: generated84167
+Input: Token
+Rule: generated84167
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))({ Token.category == IN })))):pttrn84167 --> :pttrn84167.extracted={}
+

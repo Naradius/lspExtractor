@@ -1,0 +1,8 @@
+lasted for 3600 s consid-ring the networks convergence time
+(VP (VBN )(PP (IN )(NP (NP (CD )(NNS ))(VP (VBG )(NP (DT )(NNS )(NN ){1,2})))))
+Phase: generated27450
+Input: Token
+Rule: generated27450
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+)))))):pttrn27450 --> :pttrn27450.extracted={}
+

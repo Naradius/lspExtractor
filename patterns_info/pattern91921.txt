@@ -1,0 +1,8 @@
+by the lexical learning module
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated91921
+Input: Token
+Rule: generated91921
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn91921 --> :pttrn91921.extracted={}
+

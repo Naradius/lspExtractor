@@ -1,0 +1,8 @@
+greater probability ofinconsistencies
+(NP (JJR )(NN )(NNS ))
+Phase: generated13414
+Input: Token
+Rule: generated13414
+(
+(({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))):pttrn13414 --> :pttrn13414.extracted={}
+

@@ -1,0 +1,8 @@
+overhead increases
+(NP (NN )(NNS ))
+Phase: generated42786
+Input: Token
+Rule: generated42786
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn42786 --> :pttrn42786.extracted={}
+

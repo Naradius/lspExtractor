@@ -1,0 +1,8 @@
+benefit from the research thathas been done in the CAFETIERE project, e.g.,by reusing parts of the rule notation
+(VP (VBP )(PP (IN )(NP (DT )(NN )(POS ))))
+Phase: generated92442
+Input: Token
+Rule: generated92442
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))))):pttrn92442 --> :pttrn92442.extracted={}
+

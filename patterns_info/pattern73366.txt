@@ -1,0 +1,8 @@
+semantic role parsing.Original semantic rolesTotal items
+(NP (NP (JJ )(NN ))(NP (JJ ){1,2}(NN )(NNS )))
+Phase: generated73366
+Input: Token
+Rule: generated73366
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })))):pttrn73366 --> :pttrn73366.extracted={}
+

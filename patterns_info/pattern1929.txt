@@ -1,0 +1,8 @@
+quality indicators
+(NP (NN )(NNS ))
+Phase: generated1929
+Input: Token
+Rule: generated1929
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn1929 --> :pttrn1929.extracted={}
+

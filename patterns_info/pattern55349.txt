@@ -1,0 +1,8 @@
+rSingle hope communication between node 1 and CHr r r rFig
+(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (NN )(CD )(CC )(NNP )(NN ){1,2})))
+Phase: generated55349
+Input: Token
+Rule: generated55349
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NN })+)))):pttrn55349 --> :pttrn55349.extracted={}
+

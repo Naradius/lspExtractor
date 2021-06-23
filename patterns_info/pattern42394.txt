@@ -1,0 +1,8 @@
+of the HDRP.7.2
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated42394
+Input: Token
+Rule: generated42394
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn42394 --> :pttrn42394.extracted={}
+

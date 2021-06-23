@@ -1,0 +1,8 @@
+its threshold value
+(NP (PRP$ )(NN ){1,2})
+Phase: generated19044
+Input: Token
+Rule: generated19044
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn19044 --> :pttrn19044.extracted={}
+

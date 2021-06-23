@@ -1,0 +1,8 @@
+the above equation, the nodes which have not becomeCH in the recent rounds and have more residual energy than theother nodes will become CH in the subsequent rounds
+(NP (NP (DT )(JJ )(NN ))(NP (NP (DT )(NNS ))(VP (VP (VBP )(RB )(VP (VB )(PP (IN )(NP (DT )(JJ )(NNS )))))(CC )(VP (VBP )(NP (NP (JJR )(JJ )(NN ))(IN ))))))
+Phase: generated53614
+Input: Token
+Rule: generated53614
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NNS }))((({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == VBP })((({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == IN }))))))):pttrn53614 --> :pttrn53614.extracted={}
+

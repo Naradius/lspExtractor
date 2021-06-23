@@ -1,0 +1,8 @@
+used as valuable andreliable information to improve solutions in LOA
+(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NN ))))
+Phase: generated64283
+Input: Token
+Rule: generated64283
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))):pttrn64283 --> :pttrn64283.extracted={}
+

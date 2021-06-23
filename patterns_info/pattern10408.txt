@@ -1,0 +1,8 @@
+the average latency of theproposed approach
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated10408
+Input: Token
+Rule: generated10408
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn10408 --> :pttrn10408.extracted={}
+

@@ -1,0 +1,8 @@
+IEEE IoT J. 3   13191333
+(NP (NNP ){1,2}(CD ){1,2})
+Phase: generated29061
+Input: Token
+Rule: generated29061
+(
+(({ Token.category == NNP })+({ Token.category == CD })+)):pttrn29061 --> :pttrn29061.extracted={}
+

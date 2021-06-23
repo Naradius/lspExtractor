@@ -1,0 +1,8 @@
+to be interested inthe semantic classification of analyzed fragments, as in rule
+(VP (TO )(VP (VB )(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated88608
+Input: Token
+Rule: generated88608
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn88608 --> :pttrn88608.extracted={}
+

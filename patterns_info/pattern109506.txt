@@ -1,0 +1,8 @@
+analyzed by using a ro-bust control estimation to reconstruct the attack traffic
+(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN ){1,2})(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}))))))
+Phase: generated109506
+Input: Token
+Rule: generated109506
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn109506 --> :pttrn109506.extracted={}
+

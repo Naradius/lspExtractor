@@ -1,0 +1,8 @@
+the LHS of the HIEL patternsis
+(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated93047
+Input: Token
+Rule: generated93047
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn93047 --> :pttrn93047.extracted={}
+

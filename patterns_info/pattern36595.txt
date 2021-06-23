@@ -1,0 +1,8 @@
+such as wearableshave certain capabilities, lightweight
+(PP (JJ )(IN )(NP (DT )(JJ )(NNS )(JJ )))
+Phase: generated36595
+Input: Token
+Rule: generated36595
+(
+(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == JJ })))):pttrn36595 --> :pttrn36595.extracted={}
+

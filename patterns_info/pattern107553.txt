@@ -1,0 +1,8 @@
+to too many nodes that do not need to receive them and potentially lower the reliability of data delivery
+(PP (TO )(NP (NP (ADJP (RB )(JJ ))(NNS ))(VP (VBP )(RB )(VP (VB )(VP (TO )(VP (VB )(NP (CC )(NP (NP (ADJP (RB )(JJR ))(DT )(NN ))(PP (IN )(NP (NNS )(NN )))))))))))
+Phase: generated107553
+Input: Token
+Rule: generated107553
+(
+(({ Token.category == TO })(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == CC })(((({ Token.category == RB })({ Token.category == JJR }))({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })))))))))))):pttrn107553 --> :pttrn107553.extracted={}
+

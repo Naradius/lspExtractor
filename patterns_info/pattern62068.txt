@@ -1,0 +1,8 @@
+are homogeneous and havethe same initial energy, computing ability
+(VP (CC )(VP (VBD )(NP (JJ ){1,2}(NN )(VBG )(NN ))))
+Phase: generated62068
+Input: Token
+Rule: generated62068
+(
+(({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == VBG })({ Token.category == NN }))))):pttrn62068 --> :pttrn62068.extracted={}
+

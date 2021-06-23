@@ -1,0 +1,8 @@
+a mea-sure of minimum number of edge devices required for a networkto be connected
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated23199
+Input: Token
+Rule: generated23199
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn23199 --> :pttrn23199.extracted={}
+

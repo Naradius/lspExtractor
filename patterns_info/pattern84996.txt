@@ -1,0 +1,8 @@
+in linear transformation approach.Clustering
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated84996
+Input: Token
+Rule: generated84996
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn84996 --> :pttrn84996.extracted={}
+

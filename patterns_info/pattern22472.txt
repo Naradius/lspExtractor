@@ -1,0 +1,8 @@
+easily bemeasured by the sensor from the spectrum map
+(VP (VBN )(PP (IN )(NP (DT )(NN ))){1,2})
+Phase: generated22472
+Input: Token
+Rule: generated22472
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))+)):pttrn22472 --> :pttrn22472.extracted={}
+

@@ -1,0 +1,8 @@
+according to therovided information in the DIO message  and the pre-definedF
+(PP (VBG )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNP )(NN ))(CC )(NP (DT )(JJ )))))))
+Phase: generated25973
+Input: Token
+Rule: generated25973
+(
+(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })))))))):pttrn25973 --> :pttrn25973.extracted={}
+

@@ -1,0 +1,8 @@
+was lateradapted to the medical domain
+(VP (VBD )(VP (VBN )(PP (TO )(NP (DT )(JJ )(NN )))))
+Phase: generated98823
+Input: Token
+Rule: generated98823
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn98823 --> :pttrn98823.extracted={}
+

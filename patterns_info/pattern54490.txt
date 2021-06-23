@@ -1,0 +1,8 @@
+the optimal probability
+(NP (DT )(JJ )(NN ))
+Phase: generated54490
+Input: Token
+Rule: generated54490
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn54490 --> :pttrn54490.extracted={}
+

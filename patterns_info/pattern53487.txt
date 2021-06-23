@@ -1,0 +1,8 @@
+Fig. 5 which are discussed as follows.Allirani and Suganthi
+(NP (NP (NNP )(CD ))(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(CC )(NNP ))))))
+Phase: generated53487
+Input: Token
+Rule: generated53487
+(
+((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == NNP }))))))):pttrn53487 --> :pttrn53487.extracted={}
+

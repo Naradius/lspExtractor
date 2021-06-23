@@ -1,0 +1,8 @@
+the NearestCHs
+(NP (DT )(NNP ))
+Phase: generated55031
+Input: Token
+Rule: generated55031
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn55031 --> :pttrn55031.extracted={}
+

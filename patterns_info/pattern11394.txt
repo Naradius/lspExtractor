@@ -1,0 +1,8 @@
+6 4 8 1 3 105 8 1    105 9 7 1 3  10cluster leader node
+(NP (JJ )(NN ){1,2})
+Phase: generated11394
+Input: Token
+Rule: generated11394
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn11394 --> :pttrn11394.extracted={}
+

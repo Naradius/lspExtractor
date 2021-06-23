@@ -1,0 +1,8 @@
+be found in the supportingsentence
+(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated100964
+Input: Token
+Rule: generated100964
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn100964 --> :pttrn100964.extracted={}
+

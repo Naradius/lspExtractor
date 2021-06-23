@@ -1,0 +1,8 @@
+1,681 nega-tion scope rules and 3,043 speculation scope
+(NP (NP (CD )(NN ){1,2}(NNS ))(CC )(NP (CD )(NN ){1,2}))
+Phase: generated95525
+Input: Token
+Rule: generated95525
+(
+((({ Token.category == CD })({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN })+))):pttrn95525 --> :pttrn95525.extracted={}
+

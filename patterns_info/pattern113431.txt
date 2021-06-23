@@ -1,0 +1,8 @@
+the UN proposal
+(NP (DT )(NNP )(NN ))
+Phase: generated113431
+Input: Token
+Rule: generated113431
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn113431 --> :pttrn113431.extracted={}
+

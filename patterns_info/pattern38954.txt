@@ -1,0 +1,8 @@
+a typicalLoWPAN
+(NP (DT )(NN ))
+Phase: generated38954
+Input: Token
+Rule: generated38954
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn38954 --> :pttrn38954.extracted={}
+

@@ -1,0 +1,8 @@
+a group of incorrect answers
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated101624
+Input: Token
+Rule: generated101624
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn101624 --> :pttrn101624.extracted={}
+

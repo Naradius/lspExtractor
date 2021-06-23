@@ -1,0 +1,8 @@
+search results as a baseline and evaluated how relevant are first 10 results in Yahoo! search and the results of re-sorting based on generalization presented in this paper.
+(NP (NP (NP (NN )(NNS ))(PP (IN )(NP (DT )(NN ))))(CC ))
+Phase: generated70233
+Input: Token
+Rule: generated70233
+(
+(((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC }))):pttrn70233 --> :pttrn70233.extracted={}
+

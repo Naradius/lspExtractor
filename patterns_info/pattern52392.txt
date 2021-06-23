@@ -1,0 +1,8 @@
+to cooperate instead of acting self-ishly
+(VP (TO )(VP (VB )(PP (RB )(IN ))))
+Phase: generated52392
+Input: Token
+Rule: generated52392
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RB })({ Token.category == IN }))))):pttrn52392 --> :pttrn52392.extracted={}
+

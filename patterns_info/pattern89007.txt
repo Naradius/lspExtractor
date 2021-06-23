@@ -1,0 +1,8 @@
+the prefix Mac or Mc.Rule
+(NP (NP (DT )(NN )(NNP ))(CC ))
+Phase: generated89007
+Input: Token
+Rule: generated89007
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))({ Token.category == CC }))):pttrn89007 --> :pttrn89007.extracted={}
+

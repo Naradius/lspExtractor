@@ -1,0 +1,8 @@
+with the mouse,until the annotation corresponding to the item in the text whose features you want tocheck appears
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NP (DT )(NN ){1,2})(PP (TO )(NP (DT )(NN ))))(PP (IN )(NP (NP (DT )(NN ))(WHNP (WP$ )(NNS ))))))))
+Phase: generated87506
+Input: Token
+Rule: generated87506
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == WP$ })({ Token.category == NNS }))))))))):pttrn87506 --> :pttrn87506.extracted={}
+

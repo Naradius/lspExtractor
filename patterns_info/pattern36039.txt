@@ -1,0 +1,8 @@
+an ecosystem
+(NP (DT )(NN ))
+Phase: generated36039
+Input: Token
+Rule: generated36039
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn36039 --> :pttrn36039.extracted={}
+

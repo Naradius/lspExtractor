@@ -1,0 +1,8 @@
+the associated sensor on the control channel.SpEED-IoT employed by the sensor seeks to optimize two mainaspects in the route establishment: next hop and channel selectionto minimize interference and end-to-end data rate maximization,and optimal power control for primary receiver protection.4.1
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBZ )(VP (TO )(VP (VB )(NP (NP (NP (CD )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))(NP (NP (JJ )(NN )(CC )(NN ))(PP (IN )(NP (NP (CC )(NP (JJ )(NNS )(NN ){1,2}))(CC )(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NN ){1,2})))))))))))))
+Phase: generated22298
+Input: Token
+Rule: generated22298
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))((({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })+))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))))))))))):pttrn22298 --> :pttrn22298.extracted={}
+

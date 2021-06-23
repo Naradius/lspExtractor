@@ -1,0 +1,8 @@
+more specificthan classes
+(NP (ADJP (RBR )(JJ ))(NNS ))
+Phase: generated92972
+Input: Token
+Rule: generated92972
+(
+((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn92972 --> :pttrn92972.extracted={}
+

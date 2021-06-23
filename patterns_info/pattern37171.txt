@@ -1,0 +1,8 @@
+of new blocks
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated37171
+Input: Token
+Rule: generated37171
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn37171 --> :pttrn37171.extracted={}
+

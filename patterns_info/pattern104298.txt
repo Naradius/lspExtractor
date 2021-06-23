@@ -1,0 +1,8 @@
+a second time in the lower as-sign vertex 107, which leads to pi2of Fig. 10
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJR )(NN ){1,2})))
+Phase: generated104298
+Input: Token
+Rule: generated104298
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })+)))):pttrn104298 --> :pttrn104298.extracted={}
+

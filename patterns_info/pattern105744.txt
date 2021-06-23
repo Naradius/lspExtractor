@@ -1,0 +1,8 @@
+many multiword unitspresent
+(NP (JJ ){1,2}(NN ))
+Phase: generated105744
+Input: Token
+Rule: generated105744
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn105744 --> :pttrn105744.extracted={}
+

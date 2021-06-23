@@ -1,0 +1,8 @@
+WHISK's recall
+(NP (NP (NN )(POS ))(NN ))
+Phase: generated83980
+Input: Token
+Rule: generated83980
+(
+((({ Token.category == NN })({ Token.category == POS }))({ Token.category == NN }))):pttrn83980 --> :pttrn83980.extracted={}
+

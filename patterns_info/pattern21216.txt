@@ -1,0 +1,8 @@
+SpEED-IoTs performance
+(NP (JJ )(NN ))
+Phase: generated21216
+Input: Token
+Rule: generated21216
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn21216 --> :pttrn21216.extracted={}
+

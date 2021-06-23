@@ -1,0 +1,8 @@
+member choiceevels
+(NP (NN )(NNS ))
+Phase: generated59445
+Input: Token
+Rule: generated59445
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn59445 --> :pttrn59445.extracted={}
+

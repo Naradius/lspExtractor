@@ -1,0 +1,8 @@
+included in the stochastic approach
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated97788
+Input: Token
+Rule: generated97788
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn97788 --> :pttrn97788.extracted={}
+

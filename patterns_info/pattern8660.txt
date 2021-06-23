@@ -1,0 +1,8 @@
+is visually evident that when the sinkrandomly releases the ants, they could still be forced toneighboring nodes, which results in some regular nodes leftuncovered as shown in Fig
+(VP (VBZ )(ADJP (RB )(JJ ))(IN ))
+Phase: generated8660
+Input: Token
+Rule: generated8660
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == IN }))):pttrn8660 --> :pttrn8660.extracted={}
+

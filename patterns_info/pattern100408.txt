@@ -1,0 +1,8 @@
+to evaluate the filtering process described in Section 4.3
+(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (NN )(CD )))))))
+Phase: generated100408
+Input: Token
+Rule: generated100408
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))):pttrn100408 --> :pttrn100408.extracted={}
+

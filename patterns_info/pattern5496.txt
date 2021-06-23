@@ -1,0 +1,8 @@
+2006, pp
+(NP (CD )(NN ))
+Phase: generated5496
+Input: Token
+Rule: generated5496
+(
+(({ Token.category == CD })({ Token.category == NN }))):pttrn5496 --> :pttrn5496.extracted={}
+

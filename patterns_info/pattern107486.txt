@@ -1,0 +1,8 @@
+have used the lion algorithm with fractional calculus.The paper
+(VP (VBP )(VP (VBN )(NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated107486
+Input: Token
+Rule: generated107486
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn107486 --> :pttrn107486.extracted={}
+

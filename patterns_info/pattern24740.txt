@@ -1,0 +1,8 @@
+flexible operatingsystem
+(NP (JJ )(NN ))
+Phase: generated24740
+Input: Token
+Rule: generated24740
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn24740 --> :pttrn24740.extracted={}
+

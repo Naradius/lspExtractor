@@ -1,0 +1,8 @@
+4Interdependence between energy-efficient mechanisms and applications requirements
+(PP (IN )(PP (IN )(NP (JJ )(NNS )(CC )(NNS ){1,2})))
+Phase: generated51883
+Input: Token
+Rule: generated51883
+(
+(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })+)))):pttrn51883 --> :pttrn51883.extracted={}
+

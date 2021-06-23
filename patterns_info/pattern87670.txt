@@ -1,0 +1,8 @@
+of more than one word
+(PP (IN )(NP (QP (JJR )(IN )(CD ))(NN )))
+Phase: generated87670
+Input: Token
+Rule: generated87670
+(
+(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN })))):pttrn87670 --> :pttrn87670.extracted={}
+

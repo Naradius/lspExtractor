@@ -1,0 +1,8 @@
+TheTable 1SDN based route table
+(NP (DT )(JJ )(VBN )(NN ){1,2})
+Phase: generated11387
+Input: Token
+Rule: generated11387
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN })+)):pttrn11387 --> :pttrn11387.extracted={}
+

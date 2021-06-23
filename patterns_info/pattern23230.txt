@@ -1,0 +1,8 @@
+a given secondary IoT network deployment.5.2
+(NP (DT )(VBN )(JJ )(NNP )(NN ){1,2})
+Phase: generated23230
+Input: Token
+Rule: generated23230
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)):pttrn23230 --> :pttrn23230.extracted={}
+

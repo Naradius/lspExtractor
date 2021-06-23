@@ -1,0 +1,8 @@
+compare our IDS model to theeal traffic traces
+(VP (VB )(NP (PRP$ )(NNP )(NN ))(PP (TO )(NP (DT )(NN )(NNS ))))
+Phase: generated111060
+Input: Token
+Rule: generated111060
+(
+(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn111060 --> :pttrn111060.extracted={}
+

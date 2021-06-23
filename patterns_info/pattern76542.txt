@@ -1,0 +1,8 @@
+seen more than 50 times
+(VP (VBN )(NP (QP (JJR )(IN )(CD ))(NNS )))
+Phase: generated76542
+Input: Token
+Rule: generated76542
+(
+(({ Token.category == VBN })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS })))):pttrn76542 --> :pttrn76542.extracted={}
+

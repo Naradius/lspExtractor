@@ -1,0 +1,8 @@
+to the task
+(PP (TO )(NP (DT )(NN )))
+Phase: generated81947
+Input: Token
+Rule: generated81947
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))):pttrn81947 --> :pttrn81947.extracted={}
+

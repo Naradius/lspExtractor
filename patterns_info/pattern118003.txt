@@ -1,0 +1,8 @@
+a review
+(NP (DT )(NN ))
+Phase: generated118003
+Input: Token
+Rule: generated118003
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn118003 --> :pttrn118003.extracted={}
+

@@ -1,0 +1,8 @@
+the routing message
+(NP (DT )(JJ )(NN ))
+Phase: generated107787
+Input: Token
+Rule: generated107787
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn107787 --> :pttrn107787.extracted={}
+

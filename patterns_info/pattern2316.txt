@@ -1,0 +1,8 @@
+without real network deployment.Nowadays to solve simulation modeling problems there
+(PP (IN )(NP (NP (JJ )(NN )(NNS ))(VP (TO )(VP (VB )(NP (NN ){1,2}(NNS ))))))
+Phase: generated2316
+Input: Token
+Rule: generated2316
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn2316 --> :pttrn2316.extracted={}
+

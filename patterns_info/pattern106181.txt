@@ -1,0 +1,8 @@
+Multiword Expres-sions
+(NP (NNP )(NNS ))
+Phase: generated106181
+Input: Token
+Rule: generated106181
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn106181 --> :pttrn106181.extracted={}
+

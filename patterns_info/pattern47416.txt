@@ -1,0 +1,8 @@
+a regular or commonevent due to energy depletion or destruction
+(NP (NP (DT )(JJ )(CC )(NN ))(ADJP (JJ )(PP (TO )(NP (NN ){1,2}(CC )(NN )))))
+Phase: generated47416
+Input: Token
+Rule: generated47416
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })))))):pttrn47416 --> :pttrn47416.extracted={}
+

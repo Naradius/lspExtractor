@@ -1,0 +1,8 @@
+received severalecognitions and best papers awards at top international conferences
+(VP (VBN )(NP (CC )(NP (JJS )(NNS )))(PP (IN )(NP (JJ ){1,2}(NNS ))))
+Phase: generated68069
+Input: Token
+Rule: generated68069
+(
+(({ Token.category == VBN })(({ Token.category == CC })(({ Token.category == JJS })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn68069 --> :pttrn68069.extracted={}
+

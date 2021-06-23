@@ -1,0 +1,8 @@
+the useof a swarm of agents and its control aspects
+(NP (NP (DT )(VBN )(DT )(JJ ))(PP (IN )(NP (CC )(NP (PRP$ )(NN )(NNS )))))
+Phase: generated6622
+Input: Token
+Rule: generated6622
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn6622 --> :pttrn6622.extracted={}
+

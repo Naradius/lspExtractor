@@ -1,0 +1,8 @@
+TF-IDF and SVD
+(NP (NNP )(CC )(NNP ))
+Phase: generated85878
+Input: Token
+Rule: generated85878
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn85878 --> :pttrn85878.extracted={}
+

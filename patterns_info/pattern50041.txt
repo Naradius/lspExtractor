@@ -1,0 +1,8 @@
+disease breakouts
+(NP (NN )(NNS ))
+Phase: generated50041
+Input: Token
+Rule: generated50041
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn50041 --> :pttrn50041.extracted={}
+

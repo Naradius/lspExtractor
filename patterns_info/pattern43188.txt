@@ -1,0 +1,8 @@
+is high compared to other protocols for both the DRHTand TSP approaches
+(VP (VBZ )(PP (VBN )(PP (TO )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NP (DT )(NNP ){1,2}(NNS ))))))))
+Phase: generated43188
+Input: Token
+Rule: generated43188
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NNS }))))))))):pttrn43188 --> :pttrn43188.extracted={}
+

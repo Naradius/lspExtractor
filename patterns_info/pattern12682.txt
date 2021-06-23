@@ -1,0 +1,8 @@
+>>  /ColorImageDict <<    /QFactor 0.76    /HSamples  /VSamples   >>  /JPEG2000ColorACSImageDict <<    /TileWidth 256    /TileHeight
+(PP (IN )(NP (NP (NNP ){1,2}(CD )(NNS ){1,2})(PP (IN )(NP (NP (JJ ){1,2}(NN ))(PP (IN )(NP (JJ )(CD )(JJ )(NN )))))))
+Phase: generated12682
+Input: Token
+Rule: generated12682
+(
+(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNS })+)(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn12682 --> :pttrn12682.extracted={}
+

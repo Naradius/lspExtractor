@@ -1,0 +1,8 @@
+a CH node
+(NP (DT )(NNP )(NN ))
+Phase: generated7162
+Input: Token
+Rule: generated7162
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn7162 --> :pttrn7162.extracted={}
+

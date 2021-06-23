@@ -1,0 +1,8 @@
+at best global position of the request
+(PP (IN )(NP (NP (JJS )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated18638
+Input: Token
+Rule: generated18638
+(
+(({ Token.category == IN })((({ Token.category == JJS })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn18638 --> :pttrn18638.extracted={}
+

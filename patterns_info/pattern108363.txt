@@ -1,0 +1,8 @@
+the number of optimal paths
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated108363
+Input: Token
+Rule: generated108363
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn108363 --> :pttrn108363.extracted={}
+

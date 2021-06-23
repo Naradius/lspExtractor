@@ -1,0 +1,8 @@
+the package to the sink node.Each sensor node can be treated as the relay node to itsneighborhoods
+(NP (NP (NP (DT )(NN ))(PP (TO )(NP (DT )(NN ){1,2})))(NP (DT )(NN ){1,2}))
+Phase: generated68279
+Input: Token
+Rule: generated68279
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == DT })({ Token.category == NN })+))):pttrn68279 --> :pttrn68279.extracted={}
+

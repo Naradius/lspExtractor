@@ -1,0 +1,8 @@
+for the fictitious substituted sentences.Presumably
+(PP (IN )(NP (DT )(JJ ){1,2}(NN )))
+Phase: generated72943
+Input: Token
+Rule: generated72943
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))):pttrn72943 --> :pttrn72943.extracted={}
+

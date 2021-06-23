@@ -1,0 +1,8 @@
+have such relations as the same entity, sub-entity, super-entity and anaphora
+(VP (VBP )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(NP (NN )(CC )(NN ))))))
+Phase: generated113866
+Input: Token
+Rule: generated113866
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))))):pttrn113866 --> :pttrn113866.extracted={}
+

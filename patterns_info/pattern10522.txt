@@ -1,0 +1,8 @@
+The maximum energy
+(NP (DT )(JJ )(NN ))
+Phase: generated10522
+Input: Token
+Rule: generated10522
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn10522 --> :pttrn10522.extracted={}
+

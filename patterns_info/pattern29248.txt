@@ -1,0 +1,8 @@
+E =
+(NP (NNP )(SYM ))
+Phase: generated29248
+Input: Token
+Rule: generated29248
+(
+(({ Token.category == NNP })({ Token.category == SYM }))):pttrn29248 --> :pttrn29248.extracted={}
+

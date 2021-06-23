@@ -1,0 +1,8 @@
+Domain knowledge integrationDomain knowledge, not catered for by any current text mining tools
+(NP (NP (NNP )(NN ){1,2})(VP (RB )(VBN )(PP (IN )(PP (IN )(NP (DT )(JJ )(NN ){1,2}(NNS ))))))
+Phase: generated77357
+Input: Token
+Rule: generated77357
+(
+((({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == RB })({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn77357 --> :pttrn77357.extracted={}
+

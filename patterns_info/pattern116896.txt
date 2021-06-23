@@ -1,0 +1,8 @@
+classifying customer complaints through graphs similarities in argumentative dialogue
+(VP (VBG )(NP (NN )(NNS )))
+Phase: generated116896
+Input: Token
+Rule: generated116896
+(
+(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS })))):pttrn116896 --> :pttrn116896.extracted={}
+

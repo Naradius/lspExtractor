@@ -1,0 +1,8 @@
+schedule the re-sources to optimize response time
+(VP (VB )(NP (DT )(NNS )))
+Phase: generated19696
+Input: Token
+Rule: generated19696
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))):pttrn19696 --> :pttrn19696.extracted={}
+

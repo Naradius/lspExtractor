@@ -1,0 +1,8 @@
+achieved by the pro-posed FL-TOHIP compared to the existing
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (TO )(NP (DT )(NN )))))))
+Phase: generated109269
+Input: Token
+Rule: generated109269
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn109269 --> :pttrn109269.extracted={}
+

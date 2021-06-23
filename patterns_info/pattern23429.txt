@@ -1,0 +1,8 @@
+a polymorphic population in which every SD pair mixes itschoice of available routes according to the probability distribution
+(NP (NP (DT )(JJ )(NN ))(NP (DT )(NNP )(NN )))
+Phase: generated23429
+Input: Token
+Rule: generated23429
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn23429 --> :pttrn23429.extracted={}
+

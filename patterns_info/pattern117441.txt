@@ -1,0 +1,8 @@
+made substantial achievements in fact-finding and list questions
+(VP (VBN )(NP (JJ )(NNS ))(PP (IN )(NP (NN )(CC )(NN )(NNS ))))
+Phase: generated117441
+Input: Token
+Rule: generated117441
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))))):pttrn117441 --> :pttrn117441.extracted={}
+

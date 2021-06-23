@@ -1,0 +1,8 @@
+their energy drain rate
+(NP (PRP$ )(NN ){1,2})
+Phase: generated26260
+Input: Token
+Rule: generated26260
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn26260 --> :pttrn26260.extracted={}
+

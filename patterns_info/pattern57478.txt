@@ -1,0 +1,8 @@
+overcome the node failure.BS in WSNs is usually considered to be static
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated57478
+Input: Token
+Rule: generated57478
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn57478 --> :pttrn57478.extracted={}
+

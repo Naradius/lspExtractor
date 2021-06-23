@@ -1,0 +1,8 @@
+bybriefly explaining the characteristics of the Hermesframework as well as the usage of ontologies withinthe framework in Subsect
+(VP (VBG )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NNP ))(CONJP (RB ){1,2}(IN ))))))
+Phase: generated92538
+Input: Token
+Rule: generated92538
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == RB })+({ Token.category == IN }))))))):pttrn92538 --> :pttrn92538.extracted={}
+

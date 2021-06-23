@@ -1,0 +1,8 @@
+virtual node layer
+(NP (JJ )(NN ){1,2})
+Phase: generated16998
+Input: Token
+Rule: generated16998
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn16998 --> :pttrn16998.extracted={}
+

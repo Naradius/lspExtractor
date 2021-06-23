@@ -1,0 +1,8 @@
+SRV's approach
+(NP (NP (NNP )(POS ))(NN ))
+Phase: generated79240
+Input: Token
+Rule: generated79240
+(
+((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN }))):pttrn79240 --> :pttrn79240.extracted={}
+

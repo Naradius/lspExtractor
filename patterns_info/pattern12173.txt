@@ -1,0 +1,8 @@
+to monitor, detect and recognize different objects.The term object varies with respect to the application
+(VP (TO )(VP (VB ){1,2}(CC )(VP (VB )(NP (JJ )(NN ){1,2}(NNS )))))
+Phase: generated12173
+Input: Token
+Rule: generated12173
+(
+(({ Token.category == TO })(({ Token.category == VB })+({ Token.category == CC })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))))):pttrn12173 --> :pttrn12173.extracted={}
+

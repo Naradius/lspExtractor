@@ -1,0 +1,8 @@
+of the proposed intrusion detection scheme
+(PP (IN )(NP (DT )(VBN )(NN ){1,2}))
+Phase: generated40048
+Input: Token
+Rule: generated40048
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+))):pttrn40048 --> :pttrn40048.extracted={}
+

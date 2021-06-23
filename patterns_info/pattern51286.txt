@@ -1,0 +1,8 @@
+single-hop scenar-ios
+(NP (JJ )(NNS ))
+Phase: generated51286
+Input: Token
+Rule: generated51286
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn51286 --> :pttrn51286.extracted={}
+

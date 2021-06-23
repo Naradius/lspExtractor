@@ -1,0 +1,8 @@
+to their children
+(PP (TO )(NP (PRP$ )(NNS )))
+Phase: generated93525
+Input: Token
+Rule: generated93525
+(
+(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NNS })))):pttrn93525 --> :pttrn93525.extracted={}
+

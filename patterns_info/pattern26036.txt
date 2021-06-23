@@ -1,0 +1,8 @@
+Any ofthe neighbour nodes which receive a DIS message
+(NP (NP (DT )(NNP )(NN )(NNS ))(VP (VBP )(NP (DT )(JJ )(NN ))))
+Phase: generated26036
+Input: Token
+Rule: generated26036
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn26036 --> :pttrn26036.extracted={}
+

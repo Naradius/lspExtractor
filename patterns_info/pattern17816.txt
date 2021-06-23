@@ -1,0 +1,8 @@
+dynamic network
+(NP (JJ )(NN ))
+Phase: generated17816
+Input: Token
+Rule: generated17816
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn17816 --> :pttrn17816.extracted={}
+

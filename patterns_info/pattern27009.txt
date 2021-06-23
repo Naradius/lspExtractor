@@ -1,0 +1,8 @@
+compareand evaluate the state of the art OFs in fixed-node and mobile-node scenarios, not only for determination of their influence onthe primitive properties of IoT infrastructures, but also to detecttheir weakness in mobile applications to develop mobility support-ing OFs
+(VP (VB )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (ADJP (JJ )(CC )(JJ ))(NNS ))))))))
+Phase: generated27009
+Input: Token
+Rule: generated27009
+(
+(({ Token.category == VB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))))))))):pttrn27009 --> :pttrn27009.extracted={}
+

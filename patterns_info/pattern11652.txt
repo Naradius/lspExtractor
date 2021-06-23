@@ -1,0 +1,8 @@
+must bepreferably greater, which is the major objective of the routing scheme
+(VP (VP (MD )(ADJP (RB )(JJR )))(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated11652
+Input: Token
+Rule: generated11652
+(
+((({ Token.category == MD })(({ Token.category == RB })({ Token.category == JJR })))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn11652 --> :pttrn11652.extracted={}
+

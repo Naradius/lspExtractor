@@ -1,0 +1,8 @@
+mortgage payment   use (friend, account, pay(friend, mortgage)  transfer (friend,  account, account ) use (customer, account, pay(customer,          mortgage))  transfer (customer,  account, account) use (customer, account), pay(customer,         mortgage) ) transfer (customer,  account, account) transfer (_,  account, account ) transfer
+(NP (NP (NP (NP (NP (NP (NP (PRN (-LRB- )(-RRB- ))(NN ))(PRN (-LRB- )(-RRB- ))(NN ))(PRN (-LRB- )(-RRB- ))(NN ))(PRN (-LRB- )(-RRB- ))(NN ))(PRN (-LRB- )(-RRB- ))(NN ))(PRN (-LRB- )(-RRB- ))(NN ))(PRN (-LRB- )(-RRB- ))(NN ))
+Phase: generated70300
+Input: Token
+Rule: generated70300
+(
+((((((((({ Token.category == -LRB- })({ Token.category == -RRB- }))({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))({ Token.category == NN }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))({ Token.category == NN }))):pttrn70300 --> :pttrn70300.extracted={}
+

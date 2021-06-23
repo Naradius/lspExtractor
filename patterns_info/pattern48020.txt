@@ -1,0 +1,8 @@
+adaptive filtering
+(NP (JJ )(NN ))
+Phase: generated48020
+Input: Token
+Rule: generated48020
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn48020 --> :pttrn48020.extracted={}
+

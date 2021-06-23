@@ -1,0 +1,8 @@
+specifically designed for mo-ile RPL based IoT infrastructures is still an open challenge witho previous effort s
+(VP (VBN )(PP (IN )(NP (NP (JJ )(NN ))(VP (VBN )(VP (VBZ )(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))))))))
+Phase: generated25448
+Input: Token
+Rule: generated25448
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == VBZ })(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))))):pttrn25448 --> :pttrn25448.extracted={}
+

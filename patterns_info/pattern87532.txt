@@ -1,0 +1,8 @@
+rule-based analysis.The ideal way
+(NP (JJ )(DT )(JJ )(NN ))
+Phase: generated87532
+Input: Token
+Rule: generated87532
+(
+(({ Token.category == JJ })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn87532 --> :pttrn87532.extracted={}
+

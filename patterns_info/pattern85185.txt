@@ -1,0 +1,8 @@
+the stemming process, the dimensionality of the feature space
+(NP (NP (DT )(JJ )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated85185
+Input: Token
+Rule: generated85185
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn85185 --> :pttrn85185.extracted={}
+

@@ -1,0 +1,8 @@
+the population
+(NP (DT )(NN ))
+Phase: generated1663
+Input: Token
+Rule: generated1663
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn1663 --> :pttrn1663.extracted={}
+

@@ -1,0 +1,8 @@
+via analysisnd modelling of historical system data and both the parameterave some fixed value for a certain interval
+(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))(CC )(NP (DT )(NP (DT )(NN ))(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated20912
+Input: Token
+Rule: generated20912
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == DT })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn20912 --> :pttrn20912.extracted={}
+

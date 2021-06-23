@@ -1,0 +1,8 @@
+on lin-guistic or lexical knowledge, as well as a priori hu-man knowledge regarding the contents or topic ofthe text that is to be processed
+(PP (IN )(NP (NP (ADJP (JJ )(CC )(JJ ))(NN ))(CONJP (RB ){1,2}(IN ))(NP (NP (DT )(JJ ){1,2}(NN ))(VP (VBG )(NP (NP (DT )(NNS ))(CC ))))))
+Phase: generated95310
+Input: Token
+Rule: generated95310
+(
+(({ Token.category == IN })(((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == RB })+({ Token.category == IN }))((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC }))))))):pttrn95310 --> :pttrn95310.extracted={}
+

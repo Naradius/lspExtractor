@@ -1,0 +1,8 @@
+the growing requirements of new IoT-related tech-nologies
+(NP (NP (DT )(VBG )(NNS ))(PP (IN )(NP (JJ ){1,2}(NNS ))))
+Phase: generated43472
+Input: Token
+Rule: generated43472
+(
+((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn43472 --> :pttrn43472.extracted={}
+

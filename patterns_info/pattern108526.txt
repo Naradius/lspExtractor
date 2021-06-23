@@ -1,0 +1,8 @@
+are considered as the fitness evaluation to reduce the transmission time of the routing protocol
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))(VP (TO )(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated108526
+Input: Token
+Rule: generated108526
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn108526 --> :pttrn108526.extracted={}
+

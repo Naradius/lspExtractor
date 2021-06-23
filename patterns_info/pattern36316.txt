@@ -1,0 +1,8 @@
+in the Internetof Things
+(PP (IN )(NP (DT )(NNP )(NNS )))
+Phase: generated36316
+Input: Token
+Rule: generated36316
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))):pttrn36316 --> :pttrn36316.extracted={}
+

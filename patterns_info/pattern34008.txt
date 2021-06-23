@@ -1,0 +1,8 @@
+Cayirci E. Wireless sensor networks
+(NP (NNP ){1,2}(JJ )(NN )(NNS ))
+Phase: generated34008
+Input: Token
+Rule: generated34008
+(
+(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn34008 --> :pttrn34008.extracted={}
+

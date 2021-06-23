@@ -1,0 +1,8 @@
+uk+1A detailed description of this algorithm
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated29773
+Input: Token
+Rule: generated29773
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn29773 --> :pttrn29773.extracted={}
+

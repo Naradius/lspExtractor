@@ -1,0 +1,8 @@
+internal position
+(NP (JJ )(NN ))
+Phase: generated106640
+Input: Token
+Rule: generated106640
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn106640 --> :pttrn106640.extracted={}
+

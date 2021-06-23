@@ -1,0 +1,8 @@
+to prevent the rebroadcasting of that particular node from unnecessary route messages.Figure 2:Block Diagram Representation of Proposed Routing Protocol.528R.K. Ambekar and U.D. Kolekar: FL-TOHIP in MANET4.1.2
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated108122
+Input: Token
+Rule: generated108122
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn108122 --> :pttrn108122.extracted={}
+

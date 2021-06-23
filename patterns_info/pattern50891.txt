@@ -1,0 +1,8 @@
+can provide better energy savings andsmaller end-to-end delays over certain transmission rangedistances, even with the extra overhead energy requiredfor MIMO training.Transmission Power Control  has been investi-gated to enhance energy efficiency at the physical layerby adjusting the radio transmission power
+(VP (MD )(VP (VB )(NP (JJR )(NN )(NNS ))(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS )))))))
+Phase: generated50891
+Input: Token
+Rule: generated50891
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn50891 --> :pttrn50891.extracted={}
+

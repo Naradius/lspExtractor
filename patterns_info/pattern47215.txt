@@ -1,0 +1,8 @@
+the lifetime of the sensornetworks
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated47215
+Input: Token
+Rule: generated47215
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn47215 --> :pttrn47215.extracted={}
+

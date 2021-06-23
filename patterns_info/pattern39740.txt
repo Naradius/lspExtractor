@@ -1,0 +1,8 @@
+to detect attack attempts.To present device level component in formal notations, let us define an event within a given host H as Ehi
+(VP (TO )(VP (VP (VB )(NP (NN ){1,2}(JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NNS ))))(VP (VB )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(NN )(NNP )))))))
+Phase: generated39740
+Input: Token
+Rule: generated39740
+(
+(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))(({ Token.category == VB })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNP })))))))):pttrn39740 --> :pttrn39740.extracted={}
+

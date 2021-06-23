@@ -1,0 +1,8 @@
+leaving even the most state-of-art drone networkystems vulnerable against various security threats
+(VP (VBG )(NP (NP (RB )(DT )(RBS )(JJ )(NN )(NNS ))(ADJP (JJ )(PP (IN )(NP (JJ )(NN )(NNS ))))))
+Phase: generated112729
+Input: Token
+Rule: generated112729
+(
+(({ Token.category == VBG })((({ Token.category == RB })({ Token.category == DT })({ Token.category == RBS })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn112729 --> :pttrn112729.extracted={}
+

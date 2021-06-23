@@ -1,0 +1,8 @@
+.2 Our system
+(PP (IN )(NP (PRP$ )(NN )))
+Phase: generated75397
+Input: Token
+Rule: generated75397
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn75397 --> :pttrn75397.extracted={}
+

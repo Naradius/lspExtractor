@@ -1,0 +1,8 @@
+their path selection
+(NP (PRP$ )(NN ){1,2})
+Phase: generated28727
+Input: Token
+Rule: generated28727
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn28727 --> :pttrn28727.extracted={}
+

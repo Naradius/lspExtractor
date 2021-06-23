@@ -1,0 +1,8 @@
+this mismatch
+(NP (DT )(NN ))
+Phase: generated15674
+Input: Token
+Rule: generated15674
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn15674 --> :pttrn15674.extracted={}
+

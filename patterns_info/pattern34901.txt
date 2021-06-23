@@ -1,0 +1,8 @@
+existing vulnerabilities
+(NP (VBG )(NNS ))
+Phase: generated34901
+Input: Token
+Rule: generated34901
+(
+(({ Token.category == VBG })({ Token.category == NNS }))):pttrn34901 --> :pttrn34901.extracted={}
+

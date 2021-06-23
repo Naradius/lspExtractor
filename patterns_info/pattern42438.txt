@@ -1,0 +1,8 @@
+represents the delaybetween the transmission of the message and its reception by thedestination
+(VP (VBZ )(NP (DT )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )))))
+Phase: generated42438
+Input: Token
+Rule: generated42438
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))))):pttrn42438 --> :pttrn42438.extracted={}
+

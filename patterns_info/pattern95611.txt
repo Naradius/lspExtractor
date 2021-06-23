@@ -1,0 +1,8 @@
+by the NegEx algorithm
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated95611
+Input: Token
+Rule: generated95611
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn95611 --> :pttrn95611.extracted={}
+

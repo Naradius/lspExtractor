@@ -1,0 +1,8 @@
+Ad Hoc Networks,August 2002
+(NP (NNP ){1,2}(CD ))
+Phase: generated9067
+Input: Token
+Rule: generated9067
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn9067 --> :pttrn9067.extracted={}
+

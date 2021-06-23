@@ -1,0 +1,8 @@
+ascend from sentence-level generalization to paragraph-level generalization
+(VP (VB )(PP (TO )(NP (JJ )(NN ))))
+Phase: generated117792
+Input: Token
+Rule: generated117792
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn117792 --> :pttrn117792.extracted={}
+

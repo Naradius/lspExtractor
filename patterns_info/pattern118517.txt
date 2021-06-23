@@ -1,0 +1,8 @@
+complaint scenarios
+(NP (NN )(NNS ))
+Phase: generated118517
+Input: Token
+Rule: generated118517
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn118517 --> :pttrn118517.extracted={}
+

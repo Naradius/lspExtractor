@@ -1,0 +1,8 @@
+rmod 1=p , where R isthe randomly generated number.2.1.2
+(NP (NP (NNP )(CD ))(WHADVP (WRB )))
+Phase: generated53286
+Input: Token
+Rule: generated53286
+(
+((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == WRB })))):pttrn53286 --> :pttrn53286.extracted={}
+

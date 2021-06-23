@@ -1,0 +1,8 @@
+a more expressive representation
+(NP (DT )(ADJP (RBR )(JJ ))(NN ))
+Phase: generated81187
+Input: Token
+Rule: generated81187
+(
+(({ Token.category == DT })(({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NN }))):pttrn81187 --> :pttrn81187.extracted={}
+

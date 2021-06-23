@@ -1,0 +1,8 @@
+deliver the message to nodes beyond ZOR because the message, which may be an accident alert, is usually unimportant for nodes far from the accident
+(VP (VB )(NP (DT )(NN )))
+Phase: generated577
+Input: Token
+Rule: generated577
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn577 --> :pttrn577.extracted={}
+

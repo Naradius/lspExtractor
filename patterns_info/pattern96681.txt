@@ -1,0 +1,8 @@
+with the highest probability for the whole sentence
+(PP (IN )(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated96681
+Input: Token
+Rule: generated96681
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn96681 --> :pttrn96681.extracted={}
+

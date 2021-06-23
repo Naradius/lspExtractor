@@ -1,0 +1,8 @@
+Average results of all the taggers  Trigram HMM 92.98%
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT ){1,2}(NNS )(NNP ){1,2}(CD )(NN ))))
+Phase: generated97052
+Input: Token
+Rule: generated97052
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })+({ Token.category == NNS })({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NN }))))):pttrn97052 --> :pttrn97052.extracted={}
+

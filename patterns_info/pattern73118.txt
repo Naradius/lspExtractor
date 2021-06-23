@@ -1,0 +1,8 @@
+straightforward filteringrules
+(NP (JJ )(NNS ))
+Phase: generated73118
+Input: Token
+Rule: generated73118
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn73118 --> :pttrn73118.extracted={}
+

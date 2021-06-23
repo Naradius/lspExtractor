@@ -1,0 +1,8 @@
+to have rules specify the zone to which they apply as just another featureconstraint
+(VP (TO )(VP (VB )(VP (VB )(NP (NP (DT )(NN ))(VP (VBP )(PP (IN )(NP (RB )(DT )(NN ))))))))
+Phase: generated88184
+Input: Token
+Rule: generated88184
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == RB })({ Token.category == DT })({ Token.category == NN }))))))))):pttrn88184 --> :pttrn88184.extracted={}
+

@@ -1,0 +1,8 @@
+are sent via broadcast to ensurethat they are heard by all the nodes so that they can keepreplicated tables of backups in the region
+(VP (VBP )(VP (VBN )(VP (TO )(VP (VB )(VP (VBP )(VP (VBN )(PP (IN )(NP (DT ){1,2}(NNS )))))))))
+Phase: generated14912
+Input: Token
+Rule: generated14912
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })+({ Token.category == NNS })))))))))):pttrn14912 --> :pttrn14912.extracted={}
+

@@ -1,0 +1,8 @@
+close to the times ofVNAODV+
+(ADJP (RB )(PP (TO )(NP (DT )(NNS )(NN ))))
+Phase: generated16721
+Input: Token
+Rule: generated16721
+(
+(({ Token.category == RB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))))):pttrn16721 --> :pttrn16721.extracted={}
+

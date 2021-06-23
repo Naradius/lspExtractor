@@ -1,0 +1,8 @@
+take charge once the state snapshothad been transferred in a neighboring
+(VP (VB )(IN ))
+Phase: generated16026
+Input: Token
+Rule: generated16026
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn16026 --> :pttrn16026.extracted={}
+

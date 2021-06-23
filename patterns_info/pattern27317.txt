@@ -1,0 +1,8 @@
+60 s
+(NP (CD )(NNS )){1,2}
+Phase: generated27317
+Input: Token
+Rule: generated27317
+(
+(({ Token.category == CD })({ Token.category == NNS }))+):pttrn27317 --> :pttrn27317.extracted={}
+

@@ -1,0 +1,8 @@
+tampering with instructions or dataEndpoint playback or forgery of instructions or dataTerminal node self information correctnessRouting trustThe relay node
+(VP (VBG )(PP (IN )(NP (NP (NNS )(CC )(NN ){1,2}(CC )(NN ))(PP (IN )(NP (CC )(NP (JJ )(NN ){1,2}(JJ )(NN ){1,2}))))))
+Phase: generated36758
+Input: Token
+Rule: generated36758
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn36758 --> :pttrn36758.extracted={}
+

@@ -1,0 +1,8 @@
+of the OLSR approach
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated66967
+Input: Token
+Rule: generated66967
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn66967 --> :pttrn66967.extracted={}
+

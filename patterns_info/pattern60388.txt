@@ -1,0 +1,8 @@
+the envi- ronment
+(NP (DT )(NNS )(NN ))
+Phase: generated60388
+Input: Token
+Rule: generated60388
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))):pttrn60388 --> :pttrn60388.extracted={}
+

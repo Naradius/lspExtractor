@@ -1,0 +1,8 @@
+on intelligent networks
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated57767
+Input: Token
+Rule: generated57767
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn57767 --> :pttrn57767.extracted={}
+

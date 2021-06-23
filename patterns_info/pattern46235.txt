@@ -1,0 +1,8 @@
+the status of friendly troops, the condi-tion
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(NP (DT )(NN )))))
+Phase: generated46235
+Input: Token
+Rule: generated46235
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })))))):pttrn46235 --> :pttrn46235.extracted={}
+

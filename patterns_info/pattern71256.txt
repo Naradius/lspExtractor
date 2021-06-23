@@ -1,0 +1,8 @@
+All other logical predicates in this domain
+(NP (NP (DT )(JJ ){1,2}(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated71256
+Input: Token
+Rule: generated71256
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn71256 --> :pttrn71256.extracted={}
+

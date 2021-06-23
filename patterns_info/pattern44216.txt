@@ -1,0 +1,8 @@
+their cluster
+(NP (PRP$ )(NN ))
+Phase: generated44216
+Input: Token
+Rule: generated44216
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn44216 --> :pttrn44216.extracted={}
+

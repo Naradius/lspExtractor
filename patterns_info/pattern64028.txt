@@ -1,0 +1,8 @@
+In a Nvar dimensional optimization problem
+(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2}))
+Phase: generated64028
+Input: Token
+Rule: generated64028
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))):pttrn64028 --> :pttrn64028.extracted={}
+

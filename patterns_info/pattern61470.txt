@@ -1,0 +1,8 @@
+more than 3645
+(QP (RBR )(IN )(CD ))
+Phase: generated61470
+Input: Token
+Rule: generated61470
+(
+(({ Token.category == RBR })({ Token.category == IN })({ Token.category == CD }))):pttrn61470 --> :pttrn61470.extracted={}
+

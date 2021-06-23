@@ -1,0 +1,8 @@
+measure the footprint of the code for the baseline setup and for the IDS setup to assess the extraresources required for our proposed system
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(PP (PP (IN )(NP (DT )(NN ){1,2}))(CC )(PP (IN )(NP (NP (DT )(NNP )(NN ))(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (PRP$ )(JJ )(NN )))))))))))
+Phase: generated37840
+Input: Token
+Rule: generated37840
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))({ Token.category == CC })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))))))))))):pttrn37840 --> :pttrn37840.extracted={}
+

@@ -1,0 +1,8 @@
+Phrases and syntactic patterns
+(NP (CC )(NP (JJ )(NNS )))
+Phase: generated117983
+Input: Token
+Rule: generated117983
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn117983 --> :pttrn117983.extracted={}
+

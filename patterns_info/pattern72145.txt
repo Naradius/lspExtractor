@@ -1,0 +1,8 @@
+with different syntactic realizations
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated72145
+Input: Token
+Rule: generated72145
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn72145 --> :pttrn72145.extracted={}
+

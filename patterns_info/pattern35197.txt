@@ -1,0 +1,8 @@
+the numberof blocks
+(NP (DT )(NN )(NNS ))
+Phase: generated35197
+Input: Token
+Rule: generated35197
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn35197 --> :pttrn35197.extracted={}
+

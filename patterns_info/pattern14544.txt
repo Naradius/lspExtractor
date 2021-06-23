@@ -1,0 +1,8 @@
+a risk of having too manybackup nodes in a region
+(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (ADJP (RB )(JJ ))(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated14544
+Input: Token
+Rule: generated14544
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn14544 --> :pttrn14544.extracted={}
+

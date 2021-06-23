@@ -1,0 +1,8 @@
+the standard LEACH protocol
+(NP (DT )(JJ )(NNP )(NN ))
+Phase: generated57671
+Input: Token
+Rule: generated57671
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))):pttrn57671 --> :pttrn57671.extracted={}
+

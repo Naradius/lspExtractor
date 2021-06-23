@@ -1,0 +1,8 @@
+the multihop routes longer
+(NP (DT )(JJ )(NNS )(RB ))
+Phase: generated16685
+Input: Token
+Rule: generated16685
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == RB }))):pttrn16685 --> :pttrn16685.extracted={}
+

@@ -1,0 +1,8 @@
+the Uni-versity
+(NP (DT )(NNP ))
+Phase: generated20061
+Input: Token
+Rule: generated20061
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn20061 --> :pttrn20061.extracted={}
+

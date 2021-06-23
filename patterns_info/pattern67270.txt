@@ -1,0 +1,8 @@
+the simulation of the pro-osed system
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated67270
+Input: Token
+Rule: generated67270
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn67270 --> :pttrn67270.extracted={}
+

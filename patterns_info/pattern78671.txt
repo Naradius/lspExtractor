@@ -1,0 +1,8 @@
+learn separate rules with literals for each neighborhood name andeach abbreviation for bedroom.The results shown earlier in Figure 20 used the semantic classes Nghbr
+(VP (VB )(VP (VBD )(NP (DT )(JJ )(NNS ))))
+Phase: generated78671
+Input: Token
+Rule: generated78671
+(
+(({ Token.category == VB })(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn78671 --> :pttrn78671.extracted={}
+

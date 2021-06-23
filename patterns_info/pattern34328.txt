@@ -1,0 +1,8 @@
+p =  mod n
+(NP (JJ )(SYM )(JJ )(NN ))
+Phase: generated34328
+Input: Token
+Rule: generated34328
+(
+(({ Token.category == JJ })({ Token.category == SYM })({ Token.category == JJ })({ Token.category == NN }))):pttrn34328 --> :pttrn34328.extracted={}
+

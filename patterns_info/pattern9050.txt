@@ -1,0 +1,8 @@
+9th International Conference
+(NP (JJ )(NNP ){1,2})
+Phase: generated9050
+Input: Token
+Rule: generated9050
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn9050 --> :pttrn9050.extracted={}
+

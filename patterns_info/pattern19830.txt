@@ -1,0 +1,8 @@
+ROUTER executes
+(NP (NNP )(NNS ))
+Phase: generated19830
+Input: Token
+Rule: generated19830
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn19830 --> :pttrn19830.extracted={}
+

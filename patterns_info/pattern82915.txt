@@ -1,0 +1,8 @@
+hand-tagged the case framesto be extracted
+(VP (VBN )(NP (DT )(NN ))(RB ))
+Phase: generated82915
+Input: Token
+Rule: generated82915
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN }))({ Token.category == RB }))):pttrn82915 --> :pttrn82915.extracted={}
+

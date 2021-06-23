@@ -1,0 +1,8 @@
+is necessary to balance the load of theluster Head nodes conditions including congestion must be mod-lled with the available information
+(VP (VBZ )(VP (TO )(VP (VB )(VP (MD )(VP (VB )(ADJP (JJ )(PP (IN )(NP (DT )(JJ )(NN )))))))))
+Phase: generated61083
+Input: Token
+Rule: generated61083
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn61083 --> :pttrn61083.extracted={}
+

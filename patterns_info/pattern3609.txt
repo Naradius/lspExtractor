@@ -1,0 +1,8 @@
+the electronic energy
+(NP (DT )(JJ )(NN ))
+Phase: generated3609
+Input: Token
+Rule: generated3609
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn3609 --> :pttrn3609.extracted={}
+

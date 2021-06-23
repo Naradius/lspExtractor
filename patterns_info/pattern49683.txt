@@ -1,0 +1,8 @@
+sensingthe relevant parameters affecting power output ; remote detec-tion of faulty components; control of turbines, motors andunderground cables; and home energy management.The main requirements of industrial applications
+(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NNS ))))(CC )(NP (NP (NN ){1,2}(JJ )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated49683
+Input: Token
+Rule: generated49683
+(
+(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })((({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn49683 --> :pttrn49683.extracted={}
+

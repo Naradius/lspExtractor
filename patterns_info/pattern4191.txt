@@ -1,0 +1,8 @@
+the shaded area
+(NP (DT )(JJ )(NN ))
+Phase: generated4191
+Input: Token
+Rule: generated4191
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn4191 --> :pttrn4191.extracted={}
+

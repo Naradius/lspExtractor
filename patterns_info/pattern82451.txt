@@ -1,0 +1,8 @@
+andprice \675".ID
+(NP (DT )(NNP ))
+Phase: generated82451
+Input: Token
+Rule: generated82451
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn82451 --> :pttrn82451.extracted={}
+

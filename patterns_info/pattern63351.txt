@@ -1,0 +1,8 @@
+is much longer in theLPHL scheme than in the other two schemes
+(VP (VBZ )(ADVP (RB )(RBR ))(PP (IN )(NP (DT )(NN )))(PP (IN )(PP (IN )(NP (DT )(JJ )(CD )(NNS )))))
+Phase: generated63351
+Input: Token
+Rule: generated63351
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == RBR }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS })))))):pttrn63351 --> :pttrn63351.extracted={}
+

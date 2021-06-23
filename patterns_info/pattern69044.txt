@@ -1,0 +1,8 @@
+the sector locatedon the outer layer.This deployment strategy
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated69044
+Input: Token
+Rule: generated69044
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn69044 --> :pttrn69044.extracted={}
+

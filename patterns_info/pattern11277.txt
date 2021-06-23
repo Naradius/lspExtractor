@@ -1,0 +1,8 @@
+more responsiblethan other nodes
+(NP (JJR )(NNP )(JJ )(NNS ))
+Phase: generated11277
+Input: Token
+Rule: generated11277
+(
+(({ Token.category == JJR })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))):pttrn11277 --> :pttrn11277.extracted={}
+

@@ -1,0 +1,8 @@
+reduced activity
+(NP (VBN )(NN ))
+Phase: generated45274
+Input: Token
+Rule: generated45274
+(
+(({ Token.category == VBN })({ Token.category == NN }))):pttrn45274 --> :pttrn45274.extracted={}
+

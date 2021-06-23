@@ -1,0 +1,8 @@
+by Elsevier B.V.
+(PP (IN )(NP (RB )(NNP )))
+Phase: generated5800
+Input: Token
+Rule: generated5800
+(
+(({ Token.category == IN })(({ Token.category == RB })({ Token.category == NNP })))):pttrn5800 --> :pttrn5800.extracted={}
+

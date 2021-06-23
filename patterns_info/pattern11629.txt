@@ -1,0 +1,8 @@
+is 100 x 100 m2
+(VP (VBZ )(NP (CD )(JJ )(CD ){1,2}))
+Phase: generated11629
+Input: Token
+Rule: generated11629
+(
+(({ Token.category == VBZ })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == CD })+))):pttrn11629 --> :pttrn11629.extracted={}
+

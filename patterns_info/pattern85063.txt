@@ -1,0 +1,8 @@
+correctly one subset
+(NP (RB )(CD )(NN ))
+Phase: generated85063
+Input: Token
+Rule: generated85063
+(
+(({ Token.category == RB })({ Token.category == CD })({ Token.category == NN }))):pttrn85063 --> :pttrn85063.extracted={}
+

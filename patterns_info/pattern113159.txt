@@ -1,0 +1,8 @@
+have a sufficiently rich set of examples
+(VP (VBP )(NP (DT )(ADJP (RB )(JJ ))))
+Phase: generated113159
+Input: Token
+Rule: generated113159
+(
+(({ Token.category == VBP })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))))):pttrn113159 --> :pttrn113159.extracted={}
+

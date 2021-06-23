@@ -1,0 +1,8 @@
+applying the clusteringtechnique to find IoT devices with similar temperatures and formhomogeneous groups of IoT devices.The type of sensor deployed in the building
+(VP (VBG )(NP (DT )(NN ))(VP (TO )(VP (VB )(NP (NNP )(NNS )))))
+Phase: generated29905
+Input: Token
+Rule: generated29905
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NNS })))))):pttrn29905 --> :pttrn29905.extracted={}
+

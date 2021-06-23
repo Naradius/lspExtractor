@@ -1,0 +1,8 @@
+is nearing the end of its lifetime.To limit the impact of isolated node failures
+(VP (VBZ )(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(NN ))))(RB )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (VBN )(NN )(NNS )))))))
+Phase: generated7808
+Input: Token
+Rule: generated7808
+(
+(({ Token.category == VBZ })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))({ Token.category == RB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn7808 --> :pttrn7808.extracted={}
+

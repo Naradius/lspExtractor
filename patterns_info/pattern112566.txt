@@ -1,0 +1,8 @@
+a robust controller / observer
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated112566
+Input: Token
+Rule: generated112566
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn112566 --> :pttrn112566.extracted={}
+

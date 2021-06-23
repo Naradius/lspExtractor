@@ -1,0 +1,8 @@
+more than one constituent
+(NP (QP (JJR )(IN )(CD ))(NN ))
+Phase: generated89381
+Input: Token
+Rule: generated89381
+(
+((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN }))):pttrn89381 --> :pttrn89381.extracted={}
+

@@ -1,0 +1,8 @@
+the function-alities
+(NP (DT )(NNS ))
+Phase: generated93845
+Input: Token
+Rule: generated93845
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn93845 --> :pttrn93845.extracted={}
+

@@ -1,0 +1,8 @@
+in India and Abroad
+(PP (IN )(NP (NNP )(CC )(NNP )))
+Phase: generated68021
+Input: Token
+Rule: generated68021
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn68021 --> :pttrn68021.extracted={}
+

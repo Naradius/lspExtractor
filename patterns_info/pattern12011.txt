@@ -1,0 +1,8 @@
+have no known competing finan-cial interests or personal relationships that could have appeared toinfluence the work reported in this paper.Ethical approvalThis article does not contain any studies with human participantsor animals performed by any of the authors.References
+(VP (VBP )(VP (VBN )(VP (VBG )(NP (NP (JJ )(NNS ))(CC )))))
+Phase: generated12011
+Input: Token
+Rule: generated12011
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })))))):pttrn12011 --> :pttrn12011.extracted={}
+

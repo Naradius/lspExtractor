@@ -1,0 +1,8 @@
+high mo-bility
+(NP (JJ )(NN ))
+Phase: generated14362
+Input: Token
+Rule: generated14362
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn14362 --> :pttrn14362.extracted={}
+

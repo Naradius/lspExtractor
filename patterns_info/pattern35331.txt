@@ -1,0 +1,8 @@
+received during thetime period
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated35331
+Input: Token
+Rule: generated35331
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn35331 --> :pttrn35331.extracted={}
+

@@ -1,0 +1,8 @@
+works in two modes assensing and cluster head mode
+(VP (VBZ )(PP (IN )(NP (CD )(NNS )(NN )(CC )(NN ){1,2})))
+Phase: generated55748
+Input: Token
+Rule: generated55748
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)))):pttrn55748 --> :pttrn55748.extracted={}
+

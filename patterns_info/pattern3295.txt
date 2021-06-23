@@ -1,0 +1,8 @@
+for optimal perfor-mance
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated3295
+Input: Token
+Rule: generated3295
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn3295 --> :pttrn3295.extracted={}
+

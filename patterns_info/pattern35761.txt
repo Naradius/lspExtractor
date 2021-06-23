@@ -1,0 +1,8 @@
+of green IoT-based agriculture and its finance, operation
+(PP (IN )(NP (NP (JJ ){1,2}(NN ))(CC )(NP (PRP$ )(NN ){1,2})))
+Phase: generated35761
+Input: Token
+Rule: generated35761
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NN }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })+)))):pttrn35761 --> :pttrn35761.extracted={}
+

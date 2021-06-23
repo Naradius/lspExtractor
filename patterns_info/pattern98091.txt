@@ -1,0 +1,8 @@
+is called as shared digram method
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (VBN )(NN ){1,2}))))
+Phase: generated98091
+Input: Token
+Rule: generated98091
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN })+))))):pttrn98091 --> :pttrn98091.extracted={}
+

@@ -1,0 +1,8 @@
+TAGGER A Part-Of-Speech Tagger  is defined as a part of software which assigns parts of speech to every word of a language that it reads
+(VP (VBZ )(NP (DT )(NNP )(NN )))
+Phase: generated97528
+Input: Token
+Rule: generated97528
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn97528 --> :pttrn97528.extracted={}
+

@@ -1,0 +1,8 @@
+to reduce the size of the vector space model
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated85408
+Input: Token
+Rule: generated85408
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn85408 --> :pttrn85408.extracted={}
+

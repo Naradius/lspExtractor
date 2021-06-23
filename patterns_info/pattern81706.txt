@@ -1,0 +1,8 @@
+corporate ocers
+(NP (JJ )(NNS ))
+Phase: generated81706
+Input: Token
+Rule: generated81706
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn81706 --> :pttrn81706.extracted={}
+

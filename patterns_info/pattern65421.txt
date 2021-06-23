@@ -1,0 +1,8 @@
+These survey papers
+(NP (DT )(NN )(NNS ))
+Phase: generated65421
+Input: Token
+Rule: generated65421
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn65421 --> :pttrn65421.extracted={}
+

@@ -1,0 +1,8 @@
+the process of conflating the variant forms of a word into a common representation, the stem
+(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (NP (DT )(JJ )(NN ))(NP (DT )(NN )))))))
+Phase: generated98550
+Input: Token
+Rule: generated98550
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })))))))):pttrn98550 --> :pttrn98550.extracted={}
+

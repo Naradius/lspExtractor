@@ -1,0 +1,8 @@
+to the computational phase
+(PP (TO )(NP (DT )(JJ )(NN )))
+Phase: generated27663
+Input: Token
+Rule: generated27663
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn27663 --> :pttrn27663.extracted={}
+

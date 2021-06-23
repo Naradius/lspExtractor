@@ -1,0 +1,8 @@
+CHmigration phases
+(NP (NNP )(NNS ))
+Phase: generated55127
+Input: Token
+Rule: generated55127
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn55127 --> :pttrn55127.extracted={}
+

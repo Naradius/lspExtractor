@@ -1,0 +1,8 @@
+of originating and route-thrutraffic
+(PP (IN )(NP (NN )(CC )(NN )))
+Phase: generated44753
+Input: Token
+Rule: generated44753
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn44753 --> :pttrn44753.extracted={}
+

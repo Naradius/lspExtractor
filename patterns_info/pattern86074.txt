@@ -1,0 +1,8 @@
+Sentiment and Social Media Analysis
+(NP (NNP )(CC )(NNP ){1,2})
+Phase: generated86074
+Input: Token
+Rule: generated86074
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)):pttrn86074 --> :pttrn86074.extracted={}
+

@@ -1,0 +1,8 @@
+executed then Goto 15 41
+(VP (VBN )(NP (NNP )(CD ){1,2}))
+Phase: generated18803
+Input: Token
+Rule: generated18803
+(
+(({ Token.category == VBN })(({ Token.category == NNP })({ Token.category == CD })+))):pttrn18803 --> :pttrn18803.extracted={}
+

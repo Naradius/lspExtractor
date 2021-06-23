@@ -1,0 +1,8 @@
+into multipath-based, query-based, negotiation-based, QoS-based, and coherent-based
+(PP (IN )(NP (JJ ){1,2}(CC )(JJ )))
+Phase: generated32356
+Input: Token
+Rule: generated32356
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })))):pttrn32356 --> :pttrn32356.extracted={}
+

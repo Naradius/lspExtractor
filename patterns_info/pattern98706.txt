@@ -1,0 +1,8 @@
+those situation models
+(NP (DT )(NN )(NNS ))
+Phase: generated98706
+Input: Token
+Rule: generated98706
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn98706 --> :pttrn98706.extracted={}
+

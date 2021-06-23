@@ -1,0 +1,8 @@
+produces:; withG3=begin forkassignjoin endnnn nnnStat4
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated104740
+Input: Token
+Rule: generated104740
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn104740 --> :pttrn104740.extracted={}
+

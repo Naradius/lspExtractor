@@ -1,0 +1,8 @@
+to sending their messages, possibly multi-hop, to the sink
+(PP (TO )(VP (VBG )(NP (NP (PRP$ )(NNS ))(NP (RB )(JJ )))(PP (TO )(NP (DT )(NN )))))
+Phase: generated4904
+Input: Token
+Rule: generated4904
+(
+(({ Token.category == TO })(({ Token.category == VBG })((({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == RB })({ Token.category == JJ })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn4904 --> :pttrn4904.extracted={}
+

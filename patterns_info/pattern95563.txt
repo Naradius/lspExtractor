@@ -1,0 +1,8 @@
+string-encoded lexico-syntactic patterns
+(NP (JJ ){1,2}(NNS ))
+Phase: generated95563
+Input: Token
+Rule: generated95563
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn95563 --> :pttrn95563.extracted={}
+

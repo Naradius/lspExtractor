@@ -1,0 +1,8 @@
+urban planning
+(NP (JJ )(NN ))
+Phase: generated13081
+Input: Token
+Rule: generated13081
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn13081 --> :pttrn13081.extracted={}
+

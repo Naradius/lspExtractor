@@ -1,0 +1,8 @@
+Mind and Machine
+(NP (NNP )(CC )(NNP ))
+Phase: generated117042
+Input: Token
+Rule: generated117042
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn117042 --> :pttrn117042.extracted={}
+

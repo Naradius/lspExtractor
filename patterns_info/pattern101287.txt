@@ -1,0 +1,8 @@
+pages 142153
+(NP (NNS )(CD ))
+Phase: generated101287
+Input: Token
+Rule: generated101287
+(
+(({ Token.category == NNS })({ Token.category == CD }))):pttrn101287 --> :pttrn101287.extracted={}
+

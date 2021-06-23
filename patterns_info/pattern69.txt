@@ -1,0 +1,8 @@
+Intelligent Transportation Systems, December 2004
+(NP (NP (NNP ){1,2}(NNPS ))(NP (NNP )(CD )))
+Phase: generated69
+Input: Token
+Rule: generated69
+(
+((({ Token.category == NNP })+({ Token.category == NNPS }))(({ Token.category == NNP })({ Token.category == CD })))):pttrn69 --> :pttrn69.extracted={}
+

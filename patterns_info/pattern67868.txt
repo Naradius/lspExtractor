@@ -1,0 +1,8 @@
+. on Control, Automation, Robotics and Vision Hanoi, Viet-nam, December 2008, pp
+(VP (VBZ )(PP (IN )(NP (NP (NNP )(CC )(NNP ){1,2})(NP (NNP )(CD )))))
+Phase: generated67868
+Input: Token
+Rule: generated67868
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)(({ Token.category == NNP })({ Token.category == CD })))))):pttrn67868 --> :pttrn67868.extracted={}
+

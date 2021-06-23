@@ -1,0 +1,8 @@
+expected to increase the sustainabilityof WSNs and make them perpetually operational, sincethese techniques can be used to transmit power betweendevices without the need of any contact between thetransmitter and the receiver
+(VP (VBN )(VP (TO )(VP (VP (VB )(NP (DT )(JJ )(NNP )))(CC )(VP (VB )(ADJP (RB )(JJ ))))))
+Phase: generated51738
+Input: Token
+Rule: generated51738
+(
+(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == RB })({ Token.category == JJ }))))))):pttrn51738 --> :pttrn51738.extracted={}
+

@@ -1,0 +1,8 @@
+building up a new VN statefrom scratch
+(VP (VBG )(PRT (RP ))(NP (DT )(JJ )(NNP )(NN ){1,2}))
+Phase: generated15046
+Input: Token
+Rule: generated15046
+(
+(({ Token.category == VBG })(({ Token.category == RP }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+))):pttrn15046 --> :pttrn15046.extracted={}
+

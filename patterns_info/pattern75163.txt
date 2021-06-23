@@ -1,0 +1,8 @@
+human-labeled text data
+(NP (JJ )(NN )(NNS ))
+Phase: generated75163
+Input: Token
+Rule: generated75163
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn75163 --> :pttrn75163.extracted={}
+

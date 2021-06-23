@@ -1,0 +1,8 @@
+either PN 3 inregion 1.0  or PN 7 in region 1.1
+(NP (DT )(NP (NNP )(CD )(NN ))(NP (NP (CD )(CC )(NNP )(CD ))(PP (IN )(NP (NN )(CD )))))
+Phase: generated15982
+Input: Token
+Rule: generated15982
+(
+(({ Token.category == DT })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN }))((({ Token.category == CD })({ Token.category == CC })({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))):pttrn15982 --> :pttrn15982.extracted={}
+

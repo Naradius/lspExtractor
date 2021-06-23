@@ -1,0 +1,8 @@
+strong indepen-dance assumptions: a word only depends on its correspondingtag, and a tag only depends on its n previous tags
+(NP (NP (JJ )(NN )(NNS ))(CC ))
+Phase: generated106597
+Input: Token
+Rule: generated106597
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn106597 --> :pttrn106597.extracted={}
+

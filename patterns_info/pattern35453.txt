@@ -1,0 +1,8 @@
+optimalrouting performance
+(NP (JJ )(NN ))
+Phase: generated35453
+Input: Token
+Rule: generated35453
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn35453 --> :pttrn35453.extracted={}
+

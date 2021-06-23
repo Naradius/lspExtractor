@@ -1,0 +1,8 @@
+an associated graph parsing
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated104800
+Input: Token
+Rule: generated104800
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn104800 --> :pttrn104800.extracted={}
+

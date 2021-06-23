@@ -1,0 +1,8 @@
+related content
+(NP (VBN )(NN ))
+Phase: generated77202
+Input: Token
+Rule: generated77202
+(
+(({ Token.category == VBN })({ Token.category == NN }))):pttrn77202 --> :pttrn77202.extracted={}
+

@@ -1,0 +1,8 @@
+Canadaa r t
+(NP (NNP )(NN ){1,2})
+Phase: generated30848
+Input: Token
+Rule: generated30848
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn30848 --> :pttrn30848.extracted={}
+

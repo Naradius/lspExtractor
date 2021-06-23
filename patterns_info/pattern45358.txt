@@ -1,0 +1,8 @@
+the fullest
+(NP (DT )(JJS ))
+Phase: generated45358
+Input: Token
+Rule: generated45358
+(
+(({ Token.category == DT })({ Token.category == JJS }))):pttrn45358 --> :pttrn45358.extracted={}
+

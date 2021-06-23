@@ -1,0 +1,8 @@
+based onthe ant-colony principles
+(VP (VBN )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated2963
+Input: Token
+Rule: generated2963
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn2963 --> :pttrn2963.extracted={}
+

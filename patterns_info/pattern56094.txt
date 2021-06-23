@@ -1,0 +1,8 @@
+formed in thenetwork setup phase and updated after any change in networktopology reported by SNs
+(VP (VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))(CC ))
+Phase: generated56094
+Input: Token
+Rule: generated56094
+(
+((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC }))):pttrn56094 --> :pttrn56094.extracted={}
+

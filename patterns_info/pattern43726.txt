@@ -1,0 +1,8 @@
+Hybrid delay tolerant network routing protocol for heterogeneous networks	1. Introduction	1.1.
+(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NNS )(CD )(NNP )(CD ))))
+Phase: generated43726
+Input: Token
+Rule: generated43726
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD }))))):pttrn43726 --> :pttrn43726.extracted={}
+

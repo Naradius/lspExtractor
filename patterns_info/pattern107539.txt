@@ -1,0 +1,8 @@
+is much more stable and better in terms of power conservation and network lifetime and is more energy efficient
+(VP (VP (VP (VBZ )(ADJP (ADVP (RB )(RBR ))(JJ )))(CC ))(CC )(VP (VBZ )(NP (JJR )(NN ){1,2})))
+Phase: generated107539
+Input: Token
+Rule: generated107539
+(
+(((({ Token.category == VBZ })((({ Token.category == RB })({ Token.category == RBR }))({ Token.category == JJ })))({ Token.category == CC }))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == JJR })({ Token.category == NN })+)))):pttrn107539 --> :pttrn107539.extracted={}
+

@@ -1,0 +1,8 @@
+the target socket with empty packets
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated111961
+Input: Token
+Rule: generated111961
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn111961 --> :pttrn111961.extracted={}
+

@@ -1,0 +1,8 @@
+the different attacks we have ana-yzed and the different signatures we obtained for each one
+(NP (CC )(NP (NP (DT )(JJ )(NNS ))(VP (VBD )(PP (IN )(NP (DT )(CD ))))))
+Phase: generated110152
+Input: Token
+Rule: generated110152
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD }))))))):pttrn110152 --> :pttrn110152.extracted={}
+

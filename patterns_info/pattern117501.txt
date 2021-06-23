@@ -1,0 +1,8 @@
+has a low search engine score
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated117501
+Input: Token
+Rule: generated117501
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn117501 --> :pttrn117501.extracted={}
+

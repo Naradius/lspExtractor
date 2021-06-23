@@ -1,0 +1,8 @@
+implementation of our IDS
+(PP (IN )(PP (IN )(NP (PRP$ )(NNP ))))
+Phase: generated112633
+Input: Token
+Rule: generated112633
+(
+(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNP }))))):pttrn112633 --> :pttrn112633.extracted={}
+

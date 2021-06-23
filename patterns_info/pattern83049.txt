@@ -1,0 +1,8 @@
+with no error3.13Top-down
+(PP (IN )(NP (DT )(NN )))
+Phase: generated83049
+Input: Token
+Rule: generated83049
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn83049 --> :pttrn83049.extracted={}
+

@@ -1,0 +1,8 @@
+putting one rule  on theoutput list8 in each step until learning is completed
+(VP (VBG )(NP (CD )(NN ))(PP (IN )(NP (NN )(NNS )))(PP (IN )(NP (DT )(NN )))(IN ))
+Phase: generated90790
+Input: Token
+Rule: generated90790
+(
+(({ Token.category == VBG })(({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == IN }))):pttrn90790 --> :pttrn90790.extracted={}
+

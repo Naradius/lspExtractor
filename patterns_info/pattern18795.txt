@@ -1,0 +1,8 @@
+Fitness Value   Fitness Value  else Global OptimalState 35
+(NP (NNP ){1,2}(RB )(JJ )(NN )(CD ))
+Phase: generated18795
+Input: Token
+Rule: generated18795
+(
+(({ Token.category == NNP })+({ Token.category == RB })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))):pttrn18795 --> :pttrn18795.extracted={}
+

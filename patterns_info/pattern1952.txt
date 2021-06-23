@@ -1,0 +1,8 @@
+used in choosing the optimal routes
+(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(JJ )(NNS )))))
+Phase: generated1952
+Input: Token
+Rule: generated1952
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn1952 --> :pttrn1952.extracted={}
+

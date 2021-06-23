@@ -1,0 +1,8 @@
+of phrases splitinto subsets
+(PP (IN )(NP (NNS )(VBN )(NNS )))
+Phase: generated95616
+Input: Token
+Rule: generated95616
+(
+(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == VBN })({ Token.category == NNS })))):pttrn95616 --> :pttrn95616.extracted={}
+

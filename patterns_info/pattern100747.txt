@@ -1,0 +1,8 @@
+inferred from Born the illegitimate son of a notary,Piero da Vinci
+(VP (VBN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NNP ){1,2}))))
+Phase: generated100747
+Input: Token
+Rule: generated100747
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+))))):pttrn100747 --> :pttrn100747.extracted={}
+

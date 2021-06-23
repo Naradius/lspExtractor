@@ -1,0 +1,8 @@
+found that HEED mostly forms lessernumber of CHs than T-ANT.
+(VP (VBN )(IN ))
+Phase: generated8534
+Input: Token
+Rule: generated8534
+(
+(({ Token.category == VBN })({ Token.category == IN }))):pttrn8534 --> :pttrn8534.extracted={}
+

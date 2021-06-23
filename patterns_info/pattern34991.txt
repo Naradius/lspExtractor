@@ -1,0 +1,8 @@
+the source of network security problems and systemvulnerabilities
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(NNS )(CC )(NNS ))))
+Phase: generated34991
+Input: Token
+Rule: generated34991
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))):pttrn34991 --> :pttrn34991.extracted={}
+

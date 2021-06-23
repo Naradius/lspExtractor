@@ -1,0 +1,8 @@
+harm the data communication or the nodeerformance
+(VP (VB )(NP (NP (DT )(NNS )(NN ))(CC )(NP (DT )(NN ))))
+Phase: generated65643
+Input: Token
+Rule: generated65643
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN }))))):pttrn65643 --> :pttrn65643.extracted={}
+

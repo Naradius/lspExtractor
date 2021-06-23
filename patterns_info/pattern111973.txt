@@ -1,0 +1,8 @@
+received on the socket
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated111973
+Input: Token
+Rule: generated111973
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn111973 --> :pttrn111973.extracted={}
+

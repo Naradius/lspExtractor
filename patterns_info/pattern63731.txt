@@ -1,0 +1,8 @@
+krill individuals
+(NP (NN )(NNS ))
+Phase: generated63731
+Input: Token
+Rule: generated63731
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn63731 --> :pttrn63731.extracted={}
+

@@ -1,0 +1,8 @@
+.org/10.1016/j.jnca.2019.102456http://www.sciencedirect.com/science/journal/http://www.elsevier.com/locate/jncahttp://crossmark
+(NP (JJ ){1,2}(NN ){1,2})
+Phase: generated40375
+Input: Token
+Rule: generated40375
+(
+(({ Token.category == JJ })+({ Token.category == NN })+)):pttrn40375 --> :pttrn40375.extracted={}
+

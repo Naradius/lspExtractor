@@ -1,0 +1,8 @@
+the posts
+(NP (DT )(NNS ))
+Phase: generated75013
+Input: Token
+Rule: generated75013
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn75013 --> :pttrn75013.extracted={}
+

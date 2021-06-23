@@ -1,0 +1,8 @@
+by the US"
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated113443
+Input: Token
+Rule: generated113443
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn113443 --> :pttrn113443.extracted={}
+

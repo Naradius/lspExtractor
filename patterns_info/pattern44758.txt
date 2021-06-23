@@ -1,0 +1,8 @@
+is proposed in thiswork that the energy consumed per unit of suc-cessful communication can serve as a good indi-cator of energy efficiency.An adaptive transmission rate control scheme
+(VP (VBZ )(VP (VBN )(IN )))
+Phase: generated44758
+Input: Token
+Rule: generated44758
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == IN })))):pttrn44758 --> :pttrn44758.extracted={}
+

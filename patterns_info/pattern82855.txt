@@ -1,0 +1,8 @@
+in this paper astraining instances
+(PP (IN )(NP (DT )(NN ){1,2}(NNS )))
+Phase: generated82855
+Input: Token
+Rule: generated82855
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))):pttrn82855 --> :pttrn82855.extracted={}
+

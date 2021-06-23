@@ -1,0 +1,8 @@
+the weight of the term ti
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated86526
+Input: Token
+Rule: generated86526
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn86526 --> :pttrn86526.extracted={}
+

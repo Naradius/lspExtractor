@@ -1,0 +1,8 @@
+A hybrid imperialistcompetitive algorithm for minimizing makespan in a multi-processoropen shop.
+(NP (NP (DT )(JJ ){1,2}(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated64983
+Input: Token
+Rule: generated64983
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn64983 --> :pttrn64983.extracted={}
+

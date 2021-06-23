@@ -1,0 +1,8 @@
+takes a user less eort to create alist of terms than to hand tag a set of training examples that use all of the terms.In some of the experiments reported in this paper, semantic classes are presentedto WHISK as part of WHISK's input.The rule in Figure 8 shows this semantic class as well as Nghbr, a list of neigh-borhood names for the city from which the training data was taken
+(VP (VBZ )(NP (NP (DT )(NN ))(ADJP (RBR )(JJ ))))
+Phase: generated82437
+Input: Token
+Rule: generated82437
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == RBR })({ Token.category == JJ }))))):pttrn82437 --> :pttrn82437.extracted={}
+

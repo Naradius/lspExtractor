@@ -1,0 +1,8 @@
+manage acknowledgmentsand retries
+(VP (VB )(NP (DT )(NNS )))
+Phase: generated16575
+Input: Token
+Rule: generated16575
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))):pttrn16575 --> :pttrn16575.extracted={}
+

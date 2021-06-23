@@ -1,0 +1,8 @@
+represents the time periodfrom the instant the network is deployed to the momentwhen the first node runs out of energy.6.1
+(VP (VBZ )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(NP (DT )(NN ))))
+Phase: generated8340
+Input: Token
+Rule: generated8340
+(
+(({ Token.category == VBZ })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == DT })({ Token.category == NN }))))):pttrn8340 --> :pttrn8340.extracted={}
+

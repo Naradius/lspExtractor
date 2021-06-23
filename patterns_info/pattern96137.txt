@@ -1,0 +1,8 @@
+annotated hedging cue  together with itsassociated scope :Finally
+(VP (VBN )(NP (VBG )(NN ))(PP (IN )(NP (VBN )(NN ))))
+Phase: generated96137
+Input: Token
+Rule: generated96137
+(
+(({ Token.category == VBN })(({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN }))))):pttrn96137 --> :pttrn96137.extracted={}
+

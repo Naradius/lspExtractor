@@ -1,0 +1,8 @@
+to provide effectivesecure routing
+(VP (TO )(VP (VB )(NP (JJ )(NN ))))
+Phase: generated60175
+Input: Token
+Rule: generated60175
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn60175 --> :pttrn60175.extracted={}
+

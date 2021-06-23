@@ -1,0 +1,8 @@
+different from the strong andinflected patterns
+(ADJP (JJ )(PP (IN )(NP (DT )(JJ )(CC )(NNS ))))
+Phase: generated99487
+Input: Token
+Rule: generated99487
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NNS }))))):pttrn99487 --> :pttrn99487.extracted={}
+

@@ -1,0 +1,8 @@
+Volume 7
+(NP (NN )(CD ))
+Phase: generated117085
+Input: Token
+Rule: generated117085
+(
+(({ Token.category == NN })({ Token.category == CD }))):pttrn117085 --> :pttrn117085.extracted={}
+

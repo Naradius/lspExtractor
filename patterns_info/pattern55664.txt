@@ -1,0 +1,8 @@
+to the BS.
+(PP (TO )(NP (DT )(NNP )))
+Phase: generated55664
+Input: Token
+Rule: generated55664
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })))):pttrn55664 --> :pttrn55664.extracted={}
+

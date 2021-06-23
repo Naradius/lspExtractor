@@ -1,0 +1,8 @@
+consider the cluster size in the network, which is an importantomponent for the uniform energy utilization by the nodes in theetwork
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated60828
+Input: Token
+Rule: generated60828
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn60828 --> :pttrn60828.extracted={}
+

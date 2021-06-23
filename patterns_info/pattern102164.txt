@@ -1,0 +1,8 @@
+Embedding Rules: A quite different solution is an essential part of various forms of graphgrammars like .
+(NP (NP (JJ )(NNPS ))(NP (DT )(ADJP (RB )(JJ ))(NN )))
+Phase: generated102164
+Input: Token
+Rule: generated102164
+(
+((({ Token.category == JJ })({ Token.category == NNPS }))(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })))):pttrn102164 --> :pttrn102164.extracted={}
+

@@ -1,0 +1,8 @@
+in a risky area
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated589
+Input: Token
+Rule: generated589
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn589 --> :pttrn589.extracted={}
+

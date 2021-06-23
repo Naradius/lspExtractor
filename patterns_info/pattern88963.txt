@@ -1,0 +1,8 @@
+of featuresAlthough the basic features listed in Table 3.1
+(PP (IN )(VP (VBG )(NP (NP (DT )(JJ )(NNS ))(VP (VBN )(PP (IN )(NP (NN )(CD )))))))
+Phase: generated88963
+Input: Token
+Rule: generated88963
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))):pttrn88963 --> :pttrn88963.extracted={}
+

@@ -1,0 +1,8 @@
+competing interest	Acknowledgments
+(NP (VBG )(NN )(NNS ))
+Phase: generated30800
+Input: Token
+Rule: generated30800
+(
+(({ Token.category == VBG })({ Token.category == NN })({ Token.category == NNS }))):pttrn30800 --> :pttrn30800.extracted={}
+

@@ -1,0 +1,8 @@
+each site
+(NP (DT )(NN ))
+Phase: generated1446
+Input: Token
+Rule: generated1446
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn1446 --> :pttrn1446.extracted={}
+

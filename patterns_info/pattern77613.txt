@@ -1,0 +1,8 @@
+over 500 millionweb pages
+(NP (QP (IN )(CD ){1,2})(NNS ))
+Phase: generated77613
+Input: Token
+Rule: generated77613
+(
+((({ Token.category == IN })({ Token.category == CD })+)({ Token.category == NNS }))):pttrn77613 --> :pttrn77613.extracted={}
+

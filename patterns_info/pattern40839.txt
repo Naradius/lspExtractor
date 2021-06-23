@@ -1,0 +1,8 @@
+by intermediate nodes
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated40839
+Input: Token
+Rule: generated40839
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn40839 --> :pttrn40839.extracted={}
+

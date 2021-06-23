@@ -1,0 +1,8 @@
+the concepts Microsoft andGoogle
+(NP (DT )(NNS )(NNP )(NN ))
+Phase: generated92695
+Input: Token
+Rule: generated92695
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NNP })({ Token.category == NN }))):pttrn92695 --> :pttrn92695.extracted={}
+

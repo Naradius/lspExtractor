@@ -1,0 +1,8 @@
+of one book and morethan 40 articles
+(PP (IN )(NP (NP (CD )(NN ))(CC )(NP (JJR )(CD )(NNS ))))
+Phase: generated35880
+Input: Token
+Rule: generated35880
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJR })({ Token.category == CD })({ Token.category == NNS }))))):pttrn35880 --> :pttrn35880.extracted={}
+

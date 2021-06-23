@@ -1,0 +1,8 @@
+receivingroute requests
+(NP (JJ )(NNS ))
+Phase: generated22045
+Input: Token
+Rule: generated22045
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn22045 --> :pttrn22045.extracted={}
+

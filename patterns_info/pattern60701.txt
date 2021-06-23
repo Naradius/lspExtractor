@@ -1,0 +1,8 @@
+accumulating the corresponding data to be sentto the user through base station
+(VP (VBG )(NP (DT )(JJ )(NNS ))(VP (TO )(VP (VB )(VP (VBN )(NP (DT )(NN ))))))
+Phase: generated60701
+Input: Token
+Rule: generated60701
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn60701 --> :pttrn60701.extracted={}
+

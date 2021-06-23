@@ -1,0 +1,8 @@
+inherited with the properties of both MultipathOptimized Link State Routing  and Ad hoc On-Demand Mul-tipath Distance Vector  protocols
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NNP ){1,2})(CC )(NP (NNP )(JJ )(NNP ){1,2}(NNS )))))))
+Phase: generated67354
+Input: Token
+Rule: generated67354
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NNS })))))))):pttrn67354 --> :pttrn67354.extracted={}
+

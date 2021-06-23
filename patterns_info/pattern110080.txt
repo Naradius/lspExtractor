@@ -1,0 +1,8 @@
+scale invariance properties
+(NP (JJ )(NN )(NNS ))
+Phase: generated110080
+Input: Token
+Rule: generated110080
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn110080 --> :pttrn110080.extracted={}
+

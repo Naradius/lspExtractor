@@ -1,0 +1,8 @@
+this domain rather than the textitself
+(NP (NP (DT )(NN ))(CONJP (RB )(IN ))(NP (DT )(NN )))
+Phase: generated82516
+Input: Token
+Rule: generated82516
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == RB })({ Token.category == IN }))(({ Token.category == DT })({ Token.category == NN })))):pttrn82516 --> :pttrn82516.extracted={}
+

@@ -1,0 +1,8 @@
+to carry out the assignedtasks.All of these subunits
+(VP (TO )(VP (VB )(PRT (RP ))(NP (NP (DT )(NNS )(NN ))(PP (IN )(NP (DT )(NNS ))))))
+Phase: generated47150
+Input: Token
+Rule: generated47150
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RP }))((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn47150 --> :pttrn47150.extracted={}
+

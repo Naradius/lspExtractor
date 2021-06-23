@@ -1,0 +1,8 @@
+on the mentioned algorithm in ad hoc networks
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(JJ )(NNS )))))
+Phase: generated2734
+Input: Token
+Rule: generated2734
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn2734 --> :pttrn2734.extracted={}
+

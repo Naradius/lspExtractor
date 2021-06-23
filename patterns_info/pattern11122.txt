@@ -1,0 +1,8 @@
+given liontheory to design optimum searching strategy and to solve continuousoptimization problems
+(VP (VBN )(VP (VP (TO )(VP (VB )(NP (JJ )(NN ){1,2})))(CC )(VP (TO )(VP (VB )(NP (NN )(NNS ))))))
+Phase: generated11122
+Input: Token
+Rule: generated11122
+(
+(({ Token.category == VBN })((({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+)))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn11122 --> :pttrn11122.extracted={}
+

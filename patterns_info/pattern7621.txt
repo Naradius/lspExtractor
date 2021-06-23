@@ -1,0 +1,8 @@
+illustrate the worst-case scenario of closelyoverlapping CH nodes
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(VP (VBG )(NP (NNP )(NNS ))))))
+Phase: generated7621
+Input: Token
+Rule: generated7621
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == NNS }))))))):pttrn7621 --> :pttrn7621.extracted={}
+

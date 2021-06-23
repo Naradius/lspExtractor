@@ -1,0 +1,8 @@
+areselected in the sequential manner for sleep or active mode in aparticular time slot as defined above
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (CC )(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))(IN )))))))
+Phase: generated53449
+Input: Token
+Rule: generated53449
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))({ Token.category == IN })))))))):pttrn53449 --> :pttrn53449.extracted={}
+

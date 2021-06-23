@@ -1,0 +1,8 @@
+plainly stated in the text.WHISK's performance on the Management Succession domain
+(VP (VBN )(PP (IN )(NP (NP (NP (DT )(NN )(POS ))(NN ))(PP (IN )(NP (DT )(NNP ){1,2}(NN ))))))
+Phase: generated78762
+Input: Token
+Rule: generated78762
+(
+(({ Token.category == VBN })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))))))):pttrn78762 --> :pttrn78762.extracted={}
+

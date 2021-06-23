@@ -1,0 +1,8 @@
+taggingwith a cyclic dependency network
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated106239
+Input: Token
+Rule: generated106239
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn106239 --> :pttrn106239.extracted={}
+

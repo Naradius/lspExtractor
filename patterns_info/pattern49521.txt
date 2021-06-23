@@ -1,0 +1,8 @@
+meet several require-ments
+(VP (VB )(NP (JJ )(NNS )))
+Phase: generated49521
+Input: Token
+Rule: generated49521
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn49521 --> :pttrn49521.extracted={}
+

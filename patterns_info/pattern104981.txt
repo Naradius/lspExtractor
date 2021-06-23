@@ -1,0 +1,8 @@
+of this paper.References1
+(PP (IN )(NP (DT )(NN )))
+Phase: generated104981
+Input: Token
+Rule: generated104981
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn104981 --> :pttrn104981.extracted={}
+

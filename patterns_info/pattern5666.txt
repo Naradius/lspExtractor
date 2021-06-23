@@ -1,0 +1,8 @@
+Dr. Selvakennedy isa member
+(NP (NNP ){1,2}(NN ){1,2})
+Phase: generated5666
+Input: Token
+Rule: generated5666
+(
+(({ Token.category == NNP })+({ Token.category == NN })+)):pttrn5666 --> :pttrn5666.extracted={}
+

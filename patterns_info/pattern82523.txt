@@ -1,0 +1,8 @@
+some domains, such as the Rental Ad domain
+(NP (NP (DT )(NNS ))(PP (JJ )(IN )(NP (DT )(NNP ){1,2}(NN ))))
+Phase: generated82523
+Input: Token
+Rule: generated82523
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))))):pttrn82523 --> :pttrn82523.extracted={}
+

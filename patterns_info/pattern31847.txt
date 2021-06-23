@@ -1,0 +1,8 @@
+will be the doors orcorridors that join those IoT nodes
+(VP (MD )(VP (VB )(NP (NP (DT )(NNS ){1,2})(VP (VBP )(NP (DT )(NNP )(NNS ))))))
+Phase: generated31847
+Input: Token
+Rule: generated31847
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS })+)(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))))))):pttrn31847 --> :pttrn31847.extracted={}
+

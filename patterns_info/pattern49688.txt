@@ -1,0 +1,8 @@
+special care in storage and handling
+(NP (JJ )(NN )(PP (IN )(NP (NN )(CC )(NN ))))
+Phase: generated49688
+Input: Token
+Rule: generated49688
+(
+(({ Token.category == JJ })({ Token.category == NN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn49688 --> :pttrn49688.extracted={}
+

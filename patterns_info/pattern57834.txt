@@ -1,0 +1,8 @@
+A distance-based clusteringrouting protocol
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated57834
+Input: Token
+Rule: generated57834
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn57834 --> :pttrn57834.extracted={}
+

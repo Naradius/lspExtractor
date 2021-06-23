@@ -1,0 +1,8 @@
+based on Brills articles, listed in the reference list
+(VP (VBN )(PP (IN )(NP (NP (NNP )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated91154
+Input: Token
+Rule: generated91154
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn91154 --> :pttrn91154.extracted={}
+

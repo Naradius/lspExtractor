@@ -1,0 +1,8 @@
+form decision rules
+(VP (VB )(NP (NN )(NNS )))
+Phase: generated59323
+Input: Token
+Rule: generated59323
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))):pttrn59323 --> :pttrn59323.extracted={}
+

@@ -1,0 +1,8 @@
+biological evolution, such as survival of thefittest, reproduction, mutation, selection, competitionand symbiosis
+(NP (NP (JJ )(NN ))(PP (JJ )(IN )))
+Phase: generated52321
+Input: Token
+Rule: generated52321
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn52321 --> :pttrn52321.extracted={}
+

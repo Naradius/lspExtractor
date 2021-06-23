@@ -1,0 +1,8 @@
+bemoved based on its velocity produced by the Taguchimethod
+(VP (VB )(VP (VBN )(PP (IN )(NP (NP (PRP$ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NNP ))))))))
+Phase: generated69665
+Input: Token
+Rule: generated69665
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))))))):pttrn69665 --> :pttrn69665.extracted={}
+

@@ -1,0 +1,8 @@
+Hermes News PortalThe implementation of the Hermes framework
+(NP (NP (NNP ){1,2}(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated93138
+Input: Token
+Rule: generated93138
+(
+((({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn93138 --> :pttrn93138.extracted={}
+

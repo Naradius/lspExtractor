@@ -1,0 +1,8 @@
+does not meet our requirements to design an effective pro-tocol for IoT
+(VP (VBZ )(RB )(VP (VB )(NP (PRP$ )(NNS ))(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))))))
+Phase: generated41501
+Input: Token
+Rule: generated41501
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn41501 --> :pttrn41501.extracted={}
+

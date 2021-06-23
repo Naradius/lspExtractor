@@ -1,0 +1,8 @@
+has becomea hotspot and a difficult point in the field of information se-curity
+(VP (VBZ )(NP (NP (DT )(NN ))(CC )))
+Phase: generated36335
+Input: Token
+Rule: generated36335
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))):pttrn36335 --> :pttrn36335.extracted={}
+

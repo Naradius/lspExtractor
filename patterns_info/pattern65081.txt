@@ -1,0 +1,8 @@
+Wolf search algorithm with ephemeral memory
+(NP (NP (NNP )(NN ){1,2})(PP (IN )(NP (JJ )(NN ))))
+Phase: generated65081
+Input: Token
+Rule: generated65081
+(
+((({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn65081 --> :pttrn65081.extracted={}
+

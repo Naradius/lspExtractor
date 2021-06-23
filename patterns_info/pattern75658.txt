@@ -1,0 +1,8 @@
+of drug andfood allergies
+(PP (IN )(NP (NN ){1,2}(NNS )))
+Phase: generated75658
+Input: Token
+Rule: generated75658
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn75658 --> :pttrn75658.extracted={}
+

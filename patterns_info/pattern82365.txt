@@ -1,0 +1,8 @@
+being associatedwith an unrelated slot later in the text.WHISK rules also allow a form of disjunction
+(VP (VBG )(PP (IN )(NP (DT )(JJ )(NN )))(ADVP (RB )(PP (IN )(NP (DT )(NN )(NNS )))))
+Phase: generated82365
+Input: Token
+Rule: generated82365
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))):pttrn82365 --> :pttrn82365.extracted={}
+

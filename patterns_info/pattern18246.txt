@@ -1,0 +1,8 @@
+8 November 2019Please cite this article as: Z. Qian and F. Zhang, An reactive void handling algorithm in sensornetworks and IoT emergency management, Computer Communications , doi:https://doi.org/10.1016/j.comcom.2019.11.010.This is a PDF file of an article that has undergone enhancements after acceptance, such as theaddition of a cover page and metadata, and formatting for readability, but it is not yet the definitiveversion of record
+(NP (NP (CD )(NNP )(CD )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP ){1,2}(CC )(NNP ){1,2})(NP (NP (DT )(NN ){1,2})(VP (VBG )(PP (IN )(NP (NP (CC )(NP (NNP )(NN ){1,2}))(NP (NNP )(NNPS ))))))))))
+Phase: generated18246
+Input: Token
+Rule: generated18246
+(
+((({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })+))(({ Token.category == NNP })({ Token.category == NNPS }))))))))))):pttrn18246 --> :pttrn18246.extracted={}
+

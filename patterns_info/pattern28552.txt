@@ -1,0 +1,8 @@
+compared withxed node scenarios
+(PP (VBN )(PP (IN )(NP (NN )(NNS ))))
+Phase: generated28552
+Input: Token
+Rule: generated28552
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn28552 --> :pttrn28552.extracted={}
+

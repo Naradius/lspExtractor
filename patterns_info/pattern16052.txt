@@ -1,0 +1,8 @@
+an urban area of 872 m  872 m
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (CD )(NN )(CD )(NN ))))
+Phase: generated16052
+Input: Token
+Rule: generated16052
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })({ Token.category == CD })({ Token.category == NN }))))):pttrn16052 --> :pttrn16052.extracted={}
+

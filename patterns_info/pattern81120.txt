@@ -1,0 +1,8 @@
+to process semi-structured text.The most challenging text style
+(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(RBS )(JJ )(NN ){1,2})))
+Phase: generated81120
+Input: Token
+Rule: generated81120
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == RBS })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn81120 --> :pttrn81120.extracted={}
+

@@ -1,0 +1,8 @@
+of the proposed routing protocol
+(PP (IN )(NP (DT )(VBN )(NN ){1,2}))
+Phase: generated109240
+Input: Token
+Rule: generated109240
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+))):pttrn109240 --> :pttrn109240.extracted={}
+

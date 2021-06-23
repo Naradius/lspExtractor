@@ -1,0 +1,8 @@
+of transport protocols
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated61143
+Input: Token
+Rule: generated61143
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn61143 --> :pttrn61143.extracted={}
+

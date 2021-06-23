@@ -1,0 +1,8 @@
+a small-scale smart home experiment
+(NP (DT )(JJ ){1,2}(NN ){1,2})
+Phase: generated20212
+Input: Token
+Rule: generated20212
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn20212 --> :pttrn20212.extracted={}
+

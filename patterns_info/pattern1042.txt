@@ -1,0 +1,8 @@
+a bidirectional link to a cluster head
+(NP (NP (DT )(JJ )(NN ))(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated1042
+Input: Token
+Rule: generated1042
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn1042 --> :pttrn1042.extracted={}
+

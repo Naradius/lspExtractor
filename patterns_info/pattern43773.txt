@@ -1,0 +1,8 @@
+a given power setting.The subgraph
+(NP (DT )(VBN )(NN ){1,2})
+Phase: generated43773
+Input: Token
+Rule: generated43773
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)):pttrn43773 --> :pttrn43773.extracted={}
+

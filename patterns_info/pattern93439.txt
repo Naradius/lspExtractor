@@ -1,0 +1,8 @@
+to JAPE rules
+(PP (TO )(NP (NNP )(NNS )))
+Phase: generated93439
+Input: Token
+Rule: generated93439
+(
+(({ Token.category == TO })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn93439 --> :pttrn93439.extracted={}
+

@@ -1,0 +1,8 @@
+reliably indicatesthe presence of a relation instance
+(NP (NP (RB )(DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated75942
+Input: Token
+Rule: generated75942
+(
+((({ Token.category == RB })({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn75942 --> :pttrn75942.extracted={}
+

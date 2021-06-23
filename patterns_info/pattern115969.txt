@@ -1,0 +1,8 @@
+the 2004 AQUAINT Relationship QA Pilot
+(NP (DT )(CD )(NNP ){1,2}(NN ))
+Phase: generated115969
+Input: Token
+Rule: generated115969
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == NN }))):pttrn115969 --> :pttrn115969.extracted={}
+

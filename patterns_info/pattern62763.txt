@@ -1,0 +1,8 @@
+as its basic ring andoutes
+(PP (IN )(NP (PRP$ )(JJ )(NN )(NNS )))
+Phase: generated62763
+Input: Token
+Rule: generated62763
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn62763 --> :pttrn62763.extracted={}
+

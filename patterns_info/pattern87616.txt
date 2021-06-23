@@ -1,0 +1,8 @@
+its representation in a database
+(NP (NP (PRP$ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated87616
+Input: Token
+Rule: generated87616
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn87616 --> :pttrn87616.extracted={}
+

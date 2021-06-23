@@ -1,0 +1,8 @@
+their historical state
+(NP (PRP$ )(JJ )(NN ))
+Phase: generated26573
+Input: Token
+Rule: generated26573
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))):pttrn26573 --> :pttrn26573.extracted={}
+

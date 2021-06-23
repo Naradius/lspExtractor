@@ -1,0 +1,8 @@
+to the VaNetLayer, which, in turn, raises them to VNAODV+.Up in the network layer
+(PP (TO )(NP (NP (DT )(NNP ))(VP (VBZ )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated15590
+Input: Token
+Rule: generated15590
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn15590 --> :pttrn15590.extracted={}
+

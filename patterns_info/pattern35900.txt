@@ -1,0 +1,8 @@
+node cooperation
+(NP (DT )(NN ))
+Phase: generated35900
+Input: Token
+Rule: generated35900
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn35900 --> :pttrn35900.extracted={}
+

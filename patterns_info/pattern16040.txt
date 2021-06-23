@@ -1,0 +1,8 @@
+on the IEEE 802.11p standard
+(PP (IN )(NP (DT )(NN )(JJ )(NN )))
+Phase: generated16040
+Input: Token
+Rule: generated16040
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })))):pttrn16040 --> :pttrn16040.extracted={}
+

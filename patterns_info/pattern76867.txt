@@ -1,0 +1,8 @@
+text data mining  or knowledge discovery from textual databases
+(NP (NP (NN )(NNS )(NN )(CC )(NN ){1,2})(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated76867
+Input: Token
+Rule: generated76867
+(
+((({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn76867 --> :pttrn76867.extracted={}
+

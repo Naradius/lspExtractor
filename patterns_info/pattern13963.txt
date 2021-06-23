@@ -1,0 +1,8 @@
+in VANET settings.III
+(PP (IN )(NP (NNP )(NNS )(NNP )))
+Phase: generated13963
+Input: Token
+Rule: generated13963
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NNP })))):pttrn13963 --> :pttrn13963.extracted={}
+

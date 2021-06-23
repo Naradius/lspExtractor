@@ -1,0 +1,8 @@
+a priori hu-man knowledge regarding the contents or topic ofthe text that is to be processed
+(NP (NP (DT )(JJ ){1,2}(NN ))(VP (VBG )(NP (NP (DT )(NNS ))(CC ))))
+Phase: generated95308
+Input: Token
+Rule: generated95308
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn95308 --> :pttrn95308.extracted={}
+

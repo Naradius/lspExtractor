@@ -1,0 +1,8 @@
+a few documents
+(NP (DT )(JJ )(NNS ))
+Phase: generated25278
+Input: Token
+Rule: generated25278
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn25278 --> :pttrn25278.extracted={}
+

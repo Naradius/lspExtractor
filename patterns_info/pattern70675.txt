@@ -1,0 +1,8 @@
+the size of common maximal sub-tree et respective levels
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NN )(JJ )(NNS ))))
+Phase: generated70675
+Input: Token
+Rule: generated70675
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn70675 --> :pttrn70675.extracted={}
+

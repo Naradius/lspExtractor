@@ -1,0 +1,8 @@
+high energy and memory overheads
+(NP (NP (JJ )(NN ))(CC )(NP (NN )(NNS )))
+Phase: generated39038
+Input: Token
+Rule: generated39038
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == NN })({ Token.category == NNS })))):pttrn39038 --> :pttrn39038.extracted={}
+

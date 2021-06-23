@@ -1,0 +1,8 @@
+the retrieval of the knowledge of is capable
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ ))))))
+Phase: generated71865
+Input: Token
+Rule: generated71865
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ }))))))):pttrn71865 --> :pttrn71865.extracted={}
+

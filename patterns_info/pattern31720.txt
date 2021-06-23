@@ -1,0 +1,8 @@
+is essential and directly affects the accuracyand integrity of business data, so RFID data needs to be filteredand processed
+(VP (CC )(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated31720
+Input: Token
+Rule: generated31720
+(
+(({ Token.category == CC })(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn31720 --> :pttrn31720.extracted={}
+

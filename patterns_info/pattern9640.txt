@@ -1,0 +1,8 @@
+low-power security proto-col
+(NP (JJ )(NN ){1,2})
+Phase: generated9640
+Input: Token
+Rule: generated9640
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn9640 --> :pttrn9640.extracted={}
+

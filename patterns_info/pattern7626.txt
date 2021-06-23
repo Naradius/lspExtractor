@@ -1,0 +1,8 @@
+all membersAggregate data
+(NP (DT )(NN )(NNS ))
+Phase: generated7626
+Input: Token
+Rule: generated7626
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn7626 --> :pttrn7626.extracted={}
+

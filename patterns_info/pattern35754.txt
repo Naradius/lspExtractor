@@ -1,0 +1,8 @@
+to smart cities, Financ.
+(PP (TO )(NP (JJ )(NNS )(NNP )))
+Phase: generated35754
+Input: Token
+Rule: generated35754
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NNP })))):pttrn35754 --> :pttrn35754.extracted={}
+

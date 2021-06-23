@@ -1,0 +1,8 @@
+a probability p of becoming a CH in each round.It guarantees that every node becomes a CH only once in 1/p rounds
+(NP (NP (DT )(NN ){1,2})(PP (IN )(VP (VBG )(NP (DT )(NNP ))(PP (IN )(NP (DT )(JJ )(NNS )))(IN ))))
+Phase: generated6345
+Input: Token
+Rule: generated6345
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == IN }))))):pttrn6345 --> :pttrn6345.extracted={}
+

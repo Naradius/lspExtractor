@@ -1,0 +1,8 @@
+THE-MENTOR.Table 9
+(NP (JJ )(CD ))
+Phase: generated100687
+Input: Token
+Rule: generated100687
+(
+(({ Token.category == JJ })({ Token.category == CD }))):pttrn100687 --> :pttrn100687.extracted={}
+

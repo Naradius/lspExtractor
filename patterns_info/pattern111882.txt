@@ -1,0 +1,8 @@
+The sums ofackets length during a given sample period
+(NP (NP (DT )(NNS ){1,2}(NN ))(PP (IN )(NP (DT )(VBN )(NN ){1,2})))
+Phase: generated111882
+Input: Token
+Rule: generated111882
+(
+((({ Token.category == DT })({ Token.category == NNS })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))):pttrn111882 --> :pttrn111882.extracted={}
+

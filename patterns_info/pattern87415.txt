@@ -1,0 +1,8 @@
+describedin 2. a cascade of finite state transducers  in which the rules are applied strictlyin sequence and newly labelled text spans replace their constituents
+(VP (VBG )(PRT (RP ))(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN )(NNS ))(NP (DT )(NNS ))))))
+Phase: generated87415
+Input: Token
+Rule: generated87415
+(
+(({ Token.category == VBG })(({ Token.category == RP }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn87415 --> :pttrn87415.extracted={}
+

@@ -1,0 +1,8 @@
+the lifespan
+(NP (DT )(NN ))
+Phase: generated9834
+Input: Token
+Rule: generated9834
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn9834 --> :pttrn9834.extracted={}
+

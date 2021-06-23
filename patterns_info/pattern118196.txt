@@ -1,0 +1,8 @@
+In this theory
+(PP (IN )(NP (DT )(NN )))
+Phase: generated118196
+Input: Token
+Rule: generated118196
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn118196 --> :pttrn118196.extracted={}
+

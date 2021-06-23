@@ -1,0 +1,8 @@
+depending on theirpower level
+(VP (VBG )(PP (IN )(NP (PRP$ )(NN ))))
+Phase: generated48207
+Input: Token
+Rule: generated48207
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn48207 --> :pttrn48207.extracted={}
+

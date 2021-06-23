@@ -1,0 +1,8 @@
+by using local information only.One additional phase known as spare selection phase
+(PP (IN )(VP (VBG )(NP (NP (JJ )(NN )(RB )(JJ ){1,2}(NN ))(VP (VBN )(PP (IN )(NP (JJ )(NN ){1,2}))))))
+Phase: generated56866
+Input: Token
+Rule: generated56866
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == RB })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn56866 --> :pttrn56866.extracted={}
+

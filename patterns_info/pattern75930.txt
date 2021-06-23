@@ -1,0 +1,8 @@
+creating high quality relation
+(VP (VBG )(NP (JJ )(NN ){1,2}))
+Phase: generated75930
+Input: Token
+Rule: generated75930
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn75930 --> :pttrn75930.extracted={}
+

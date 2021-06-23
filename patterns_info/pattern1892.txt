@@ -1,0 +1,8 @@
+may be car battery powered or own battery powered.Small UAVs are energy constrained
+(VP (MD )(VP (VB )(NP (CC )(NP (JJ )(NN )))(VP (VBD )(NP (JJ )(NNS )))))
+Phase: generated1892
+Input: Token
+Rule: generated1892
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn1892 --> :pttrn1892.extracted={}
+

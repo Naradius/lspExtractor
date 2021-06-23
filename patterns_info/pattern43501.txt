@@ -1,0 +1,8 @@
+the density
+(NP (DT )(NN ))
+Phase: generated43501
+Input: Token
+Rule: generated43501
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn43501 --> :pttrn43501.extracted={}
+

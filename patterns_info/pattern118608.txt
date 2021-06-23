@@ -1,0 +1,8 @@
+of E 1 and E 2
+(PP (IN )(NP (NP (NNP )(CD ))(CC )(NP (NNP )(CD ))))
+Phase: generated118608
+Input: Token
+Rule: generated118608
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == CD }))))):pttrn118608 --> :pttrn118608.extracted={}
+

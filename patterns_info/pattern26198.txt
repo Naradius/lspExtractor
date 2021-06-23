@@ -1,0 +1,8 @@
+the residual energy of the nodes andccupancy of their buffers
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS )(NN ))(PP (IN )(NP (PRP$ )(NNS ))))))
+Phase: generated26198
+Input: Token
+Rule: generated26198
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))))):pttrn26198 --> :pttrn26198.extracted={}
+

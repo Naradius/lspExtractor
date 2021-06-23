@@ -1,0 +1,8 @@
+The 3rd Workshopon Question Generation, 2010.Deepak Ravichandran and Eduard Hovy
+(NP (NP (DT )(JJ )(NNP ){1,2})(NP (JJ )(NNP ))(CC ))
+Phase: generated101461
+Input: Token
+Rule: generated101461
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)(({ Token.category == JJ })({ Token.category == NNP }))({ Token.category == CC }))):pttrn101461 --> :pttrn101461.extracted={}
+

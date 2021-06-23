@@ -1,0 +1,8 @@
+the SC dictionary
+(NP (DT )(NNP )(NN ))
+Phase: generated74449
+Input: Token
+Rule: generated74449
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn74449 --> :pttrn74449.extracted={}
+

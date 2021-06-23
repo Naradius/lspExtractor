@@ -1,0 +1,8 @@
+maintaining and keeping an acceptable quality of information.1
+(VP (VBG )(CC )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(CD ))))))
+Phase: generated40206
+Input: Token
+Rule: generated40206
+(
+(({ Token.category == VBG })({ Token.category == CC })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))))):pttrn40206 --> :pttrn40206.extracted={}
+

@@ -1,0 +1,8 @@
+is typically around20 dBm and the transmission range
+(VP (VBZ )(PP (IN )(NP (CC )(NP (DT )(NN ){1,2}))))
+Phase: generated44440
+Input: Token
+Rule: generated44440
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn44440 --> :pttrn44440.extracted={}
+

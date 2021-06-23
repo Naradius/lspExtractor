@@ -1,0 +1,8 @@
+belongs to more than one cue scope
+(VP (VBZ )(PP (TO )(NP (QP (JJR )(IN )(CD ))(NN ){1,2})))
+Phase: generated95852
+Input: Token
+Rule: generated95852
+(
+(({ Token.category == VBZ })(({ Token.category == TO })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN })+)))):pttrn95852 --> :pttrn95852.extracted={}
+

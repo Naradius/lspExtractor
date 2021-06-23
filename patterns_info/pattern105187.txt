@@ -1,0 +1,8 @@
+notice that a large variety of visual languages exists of which only a few are equipped witha proper formal syntax definition
+(NP (NN )(IN ))
+Phase: generated105187
+Input: Token
+Rule: generated105187
+(
+(({ Token.category == NN })({ Token.category == IN }))):pttrn105187 --> :pttrn105187.extracted={}
+

@@ -1,0 +1,8 @@
+is computed by Eq.  as follows
+(VP (VBZ )(VP (VBN )(IN )))
+Phase: generated11356
+Input: Token
+Rule: generated11356
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == IN })))):pttrn11356 --> :pttrn11356.extracted={}
+

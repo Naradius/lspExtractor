@@ -1,0 +1,8 @@
+illustrated in Fig. 6 , in a specific network config-ration, from MRHOF point of view
+(VP (VBN )(PP (IN )(NP (NNP ){1,2}(CD )))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated27897
+Input: Token
+Rule: generated27897
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn27897 --> :pttrn27897.extracted={}
+

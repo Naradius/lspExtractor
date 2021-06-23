@@ -1,0 +1,8 @@
+for two classes
+(PP (IN )(NP (CD )(NNS )))
+Phase: generated81361
+Input: Token
+Rule: generated81361
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))):pttrn81361 --> :pttrn81361.extracted={}
+

@@ -1,0 +1,8 @@
+to continue with the alternativederivation if the choice turns out to be wrong
+(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN )))(IN )))
+Phase: generated104661
+Input: Token
+Rule: generated104661
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == IN })))):pttrn104661 --> :pttrn104661.extracted={}
+

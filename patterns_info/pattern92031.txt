@@ -1,0 +1,8 @@
+TagnWith the help of the traininglexicon, the bigbigramlist  and the lexical rules
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN )){1,2}(CC )(NP (DT )(JJ )(NNS ))))))
+Phase: generated92031
+Input: Token
+Rule: generated92031
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))+({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn92031 --> :pttrn92031.extracted={}
+

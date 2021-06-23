@@ -1,0 +1,8 @@
+a stationary WMSN
+(NP (DT )(JJ )(NNP ))
+Phase: generated52053
+Input: Token
+Rule: generated52053
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))):pttrn52053 --> :pttrn52053.extracted={}
+

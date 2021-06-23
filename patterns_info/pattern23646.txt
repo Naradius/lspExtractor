@@ -1,0 +1,8 @@
+selects route
+(NP (NNS )(NN ))
+Phase: generated23646
+Input: Token
+Rule: generated23646
+(
+(({ Token.category == NNS })({ Token.category == NN }))):pttrn23646 --> :pttrn23646.extracted={}
+

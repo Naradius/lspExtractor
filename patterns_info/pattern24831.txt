@@ -1,0 +1,8 @@
+As a Visiting Researcher
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated24831
+Input: Token
+Rule: generated24831
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn24831 --> :pttrn24831.extracted={}
+

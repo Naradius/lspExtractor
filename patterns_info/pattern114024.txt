@@ -1,0 +1,8 @@
+the derived set
+(NP (DT )(VBN )(NN ))
+Phase: generated114024
+Input: Token
+Rule: generated114024
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn114024 --> :pttrn114024.extracted={}
+

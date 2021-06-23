@@ -1,0 +1,8 @@
+expected a higher number
+(VP (VBN )(NP (DT )(JJR )(NN )))
+Phase: generated76547
+Input: Token
+Rule: generated76547
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })))):pttrn76547 --> :pttrn76547.extracted={}
+

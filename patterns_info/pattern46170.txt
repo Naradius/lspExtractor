@@ -1,0 +1,8 @@
+The concept ofmicro-sensing
+(NP (DT )(NN ){1,2})
+Phase: generated46170
+Input: Token
+Rule: generated46170
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn46170 --> :pttrn46170.extracted={}
+

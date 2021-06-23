@@ -1,0 +1,8 @@
+topologybetween DRHT and TSP.
+(PP (IN )(NP (NNP )(CC )(NNP )))
+Phase: generated43085
+Input: Token
+Rule: generated43085
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn43085 --> :pttrn43085.extracted={}
+

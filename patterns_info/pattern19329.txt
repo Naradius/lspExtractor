@@ -1,0 +1,8 @@
+these tuples
+(NP (DT )(NNS ))
+Phase: generated19329
+Input: Token
+Rule: generated19329
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn19329 --> :pttrn19329.extracted={}
+

@@ -1,0 +1,8 @@
+learn patterns also depends on the documentsthe search engine considers relevant to the posed query
+(VP (VB )(VP (VBZ )(PP (IN )(NP (NP (DT )(NNS )(NN ){1,2}(NNS ))(ADJP (JJ )(PP (TO )(NP (DT )(JJ )(NN ))))))))
+Phase: generated100283
+Input: Token
+Rule: generated100283
+(
+(({ Token.category == VB })(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn100283 --> :pttrn100283.extracted={}
+

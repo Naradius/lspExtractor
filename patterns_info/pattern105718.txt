@@ -1,0 +1,8 @@
+exist a continuum between compositional andnon-compositional sequences
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NNS )))))
+Phase: generated105718
+Input: Token
+Rule: generated105718
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))):pttrn105718 --> :pttrn105718.extracted={}
+

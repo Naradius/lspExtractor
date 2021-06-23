@@ -1,0 +1,8 @@
+network thenPNi  1 Pi  1 n.Authors
+(NP (NN )(CD )(NNP )(CD )(NNS ))
+Phase: generated53559
+Input: Token
+Rule: generated53559
+(
+(({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNS }))):pttrn53559 --> :pttrn53559.extracted={}
+

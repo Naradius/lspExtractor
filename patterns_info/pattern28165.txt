@@ -1,0 +1,8 @@
+mobile infrastruc-ures
+(NP (JJ )(NNS ))
+Phase: generated28165
+Input: Token
+Rule: generated28165
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn28165 --> :pttrn28165.extracted={}
+

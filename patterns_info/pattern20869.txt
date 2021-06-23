@@ -1,0 +1,8 @@
+executing other FDS 1
+(VP (VBG )(NP (JJ )(NNP )(CD )))
+Phase: generated20869
+Input: Token
+Rule: generated20869
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == CD })))):pttrn20869 --> :pttrn20869.extracted={}
+

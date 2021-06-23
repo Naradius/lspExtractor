@@ -1,0 +1,8 @@
+from RTM Nagpur University,agpur in 2009, and Ph.D. from SASTRA University, Thanjavur in 2016.
+(PP (IN )(NP (NP (NNP ){1,2}(NN ))(CC )))
+Phase: generated68026
+Input: Token
+Rule: generated68026
+(
+(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == CC })))):pttrn68026 --> :pttrn68026.extracted={}
+

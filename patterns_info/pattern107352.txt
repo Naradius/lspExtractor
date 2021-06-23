@@ -1,0 +1,8 @@
+routing information.The primary intention of this research
+(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated107352
+Input: Token
+Rule: generated107352
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn107352 --> :pttrn107352.extracted={}
+

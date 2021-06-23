@@ -1,0 +1,8 @@
+are the more suitable way toimplement the IDS system for the energy constrained IoT devices
+(VP (VBP )(NP (NP (DT )(ADJP (RBR )(JJ ))(NN ))(PP (IN )(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (DT )(NN )))(VP (VBN )(NP (NNP )(NNS )))))))
+Phase: generated38259
+Input: Token
+Rule: generated38259
+(
+(({ Token.category == VBP })((({ Token.category == DT })(({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == VBN })(({ Token.category == NNP })({ Token.category == NNS })))))))):pttrn38259 --> :pttrn38259.extracted={}
+

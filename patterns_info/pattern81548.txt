@@ -1,0 +1,8 @@
+from structured textwith tabular information to free text such as news stories
+(PP (PP (IN )(NP (JJ )(NN ){1,2}))(PP (TO )(NP (NP (JJ )(NN ))(PP (JJ )(IN )(NP (NN )(NNS ))))))
+Phase: generated81548
+Input: Token
+Rule: generated81548
+(
+((({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn81548 --> :pttrn81548.extracted={}
+

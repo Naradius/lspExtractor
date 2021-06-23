@@ -1,0 +1,8 @@
+are computationally time-consuming and resource-intensive
+(VP (VBP )(ADJP (RB )(JJ )(CC )(JJ )))
+Phase: generated34316
+Input: Token
+Rule: generated34316
+(
+(({ Token.category == VBP })(({ Token.category == RB })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })))):pttrn34316 --> :pttrn34316.extracted={}
+

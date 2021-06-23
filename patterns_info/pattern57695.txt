@@ -1,0 +1,8 @@
+the paper.ReferencesAl-Refai Hasan, Al-Awneh Ali, Batiha Khaldoun, Abu Ali Amer, Rahman Yehia MEl.Efficient routing LEACH  enhanced on LEACH protocol in wirelesssensor networks
+(NP (NP (DT )(JJ )(NNP ))(NP (NP (NNP ){1,2}(NN ))(VP (VBD )(PP (IN )(NP (NP (NNP )(NN ))(PP (IN )(NP (NN )(NNS ))))))))
+Phase: generated57695
+Input: Token
+Rule: generated57695
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))((({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn57695 --> :pttrn57695.extracted={}
+

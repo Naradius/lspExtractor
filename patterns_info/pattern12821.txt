@@ -1,0 +1,8 @@
+existing routing algorithms,i.e., most notably Ad hoc On-Demand Distance Vector Routing in general MANET scenarios
+(NP (ADVP (RBS )(RB ))(NP (NP (NNP )(JJ )(NNP ){1,2})(PP (IN )(NP (JJ )(NNP )(NNS )))))
+Phase: generated12821
+Input: Token
+Rule: generated12821
+(
+((({ Token.category == RBS })({ Token.category == RB }))((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS })))))):pttrn12821 --> :pttrn12821.extracted={}
+

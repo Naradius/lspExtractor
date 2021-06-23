@@ -1,0 +1,8 @@
+removing the punctuation from words
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated90965
+Input: Token
+Rule: generated90965
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn90965 --> :pttrn90965.extracted={}
+

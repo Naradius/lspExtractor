@@ -1,0 +1,8 @@
+semantic tagging of individual terms in theinput text
+(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated80322
+Input: Token
+Rule: generated80322
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn80322 --> :pttrn80322.extracted={}
+

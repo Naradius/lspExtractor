@@ -1,0 +1,8 @@
+the DCG of the ideal ranking
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated115814
+Input: Token
+Rule: generated115814
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn115814 --> :pttrn115814.extracted={}
+

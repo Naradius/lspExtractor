@@ -1,0 +1,8 @@
+On the shortest path
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated77823
+Input: Token
+Rule: generated77823
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn77823 --> :pttrn77823.extracted={}
+

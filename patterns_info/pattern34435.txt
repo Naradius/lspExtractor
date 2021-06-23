@@ -1,0 +1,8 @@
+discovered by tracking the IP address and analyzing thetopology of the transaction on the blockchain
+(VP (VBN )(PP (IN )(VP (VP (VBG )(NP (DT )(NN ){1,2}))(CC )(VP (VBG )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated34435
+Input: Token
+Rule: generated34435
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn34435 --> :pttrn34435.extracted={}
+

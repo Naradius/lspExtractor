@@ -1,0 +1,8 @@
+con-tains the term t
+(VP (VBZ )(NP (DT )(NN ){1,2}))
+Phase: generated86502
+Input: Token
+Rule: generated86502
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))):pttrn86502 --> :pttrn86502.extracted={}
+

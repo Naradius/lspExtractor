@@ -1,0 +1,8 @@
+a node in different fixed-node IoT network scenarios
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNP )(NN )(NNS ))))
+Phase: generated27312
+Input: Token
+Rule: generated27312
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))))):pttrn27312 --> :pttrn27312.extracted={}
+

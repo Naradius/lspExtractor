@@ -1,0 +1,8 @@
+correlated mentions, based on the multi-pass sieves
+(NP (NP (JJ )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NNS )))))
+Phase: generated114755
+Input: Token
+Rule: generated114755
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn114755 --> :pttrn114755.extracted={}
+

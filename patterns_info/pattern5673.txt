@@ -1,0 +1,8 @@
+online profiling, location-basedservices and wireless sensor networks
+(NP (NP (NNP )(NN ))(CC )(NP (JJ )(NN )(NNS )))
+Phase: generated5673
+Input: Token
+Rule: generated5673
+(
+((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn5673 --> :pttrn5673.extracted={}
+

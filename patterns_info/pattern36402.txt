@@ -1,0 +1,8 @@
+only part of the block data
+(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated36402
+Input: Token
+Rule: generated36402
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn36402 --> :pttrn36402.extracted={}
+

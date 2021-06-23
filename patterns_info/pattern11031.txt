@@ -1,0 +1,8 @@
+is proposed for WSNthat manages both lifetime and the stability of the network, whichis presented in
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))(NP (DT )(CC ))))
+Phase: generated11031
+Input: Token
+Rule: generated11031
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == DT })({ Token.category == CC }))))):pttrn11031 --> :pttrn11031.extracted={}
+

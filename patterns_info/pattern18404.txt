@@ -1,0 +1,8 @@
+then route packets around the holes in the constructed plane
+(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated18404
+Input: Token
+Rule: generated18404
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn18404 --> :pttrn18404.extracted={}
+

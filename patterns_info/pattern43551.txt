@@ -1,0 +1,8 @@
+hierarchical topology
+(NP (JJ )(NN ))
+Phase: generated43551
+Input: Token
+Rule: generated43551
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn43551 --> :pttrn43551.extracted={}
+

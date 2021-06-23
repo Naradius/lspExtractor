@@ -1,0 +1,8 @@
+is up to therule writing team to define a set of syntactic phrasal categories to use consistently
+(VP (VBZ )(ADVP (RB )(PP (TO )(NP (DT )(NN ){1,2})))(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNS )))))))
+Phase: generated88860
+Input: Token
+Rule: generated88860
+(
+(({ Token.category == VBZ })(({ Token.category == RB })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn88860 --> :pttrn88860.extracted={}
+

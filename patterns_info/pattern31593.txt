@@ -1,0 +1,8 @@
+a large number
+(NP (DT )(JJ )(NN ))
+Phase: generated31593
+Input: Token
+Rule: generated31593
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn31593 --> :pttrn31593.extracted={}
+

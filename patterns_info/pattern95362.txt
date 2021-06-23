@@ -1,0 +1,8 @@
+their scopes
+(NP (PRP$ )(NNS ))
+Phase: generated95362
+Input: Token
+Rule: generated95362
+(
+(({ Token.category == PRP$ })({ Token.category == NNS }))):pttrn95362 --> :pttrn95362.extracted={}
+

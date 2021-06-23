@@ -1,0 +1,8 @@
+comparing the VNLayer and the VaNetLayer in termsof virtualization efficiency
+(VP (VBG )(NP (NP (DT )(NNP ))(CC )))
+Phase: generated13244
+Input: Token
+Rule: generated13244
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC })))):pttrn13244 --> :pttrn13244.extracted={}
+

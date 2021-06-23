@@ -1,0 +1,8 @@
+every PN in a region
+(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated12900
+Input: Token
+Rule: generated12900
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn12900 --> :pttrn12900.extracted={}
+

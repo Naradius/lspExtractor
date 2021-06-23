@@ -1,0 +1,8 @@
+a very important prop-erty of graph grammars which simplifies the development of a parsing algorithm considerably
+(NP (NP (DT )(ADJP (RB )(JJ ))(NN ))(PP (IN )(NP (NP (NN )(NNS ))(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))))
+Phase: generated103089
+Input: Token
+Rule: generated103089
+(
+((({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn103089 --> :pttrn103089.extracted={}
+

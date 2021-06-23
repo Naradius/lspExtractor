@@ -1,0 +1,8 @@
+with the Seminar Announcement domain
+(PP (IN )(NP (DT )(NNP ){1,2}(NN )))
+Phase: generated84115
+Input: Token
+Rule: generated84115
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))):pttrn84115 --> :pttrn84115.extracted={}
+

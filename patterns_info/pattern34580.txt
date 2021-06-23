@@ -1,0 +1,8 @@
+the deadline t
+(NP (DT )(NN ){1,2})
+Phase: generated34580
+Input: Token
+Rule: generated34580
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn34580 --> :pttrn34580.extracted={}
+

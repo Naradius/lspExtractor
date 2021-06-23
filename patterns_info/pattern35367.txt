@@ -1,0 +1,8 @@
+to create a transaction
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated35367
+Input: Token
+Rule: generated35367
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn35367 --> :pttrn35367.extracted={}
+

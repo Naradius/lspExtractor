@@ -1,0 +1,8 @@
+using multiple QoS metrics
+(VP (VBG )(NP (JJ )(NNP )(NNS )))
+Phase: generated32519
+Input: Token
+Rule: generated32519
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS })))):pttrn32519 --> :pttrn32519.extracted={}
+

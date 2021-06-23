@@ -1,0 +1,8 @@
+of the CH nodes
+(PP (IN )(NP (DT )(NNP )(NNS )))
+Phase: generated3217
+Input: Token
+Rule: generated3217
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))):pttrn3217 --> :pttrn3217.extracted={}
+

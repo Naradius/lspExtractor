@@ -1,0 +1,8 @@
+connected by means of ferry nodes that moveaccording to a certain movement scheme
+(VP (VBN )(IN ))
+Phase: generated40629
+Input: Token
+Rule: generated40629
+(
+(({ Token.category == VBN })({ Token.category == IN }))):pttrn40629 --> :pttrn40629.extracted={}
+

@@ -1,0 +1,8 @@
+found, in this paper we fo-cus on pattern-based information extraction tech-niques
+(VP (VBN )(PP (IN )(NP (DT )(NN )))(NP (NP (PRP )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}(NNS )))))
+Phase: generated95092
+Input: Token
+Rule: generated95092
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))((({ Token.category == PRP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))))):pttrn95092 --> :pttrn95092.extracted={}
+

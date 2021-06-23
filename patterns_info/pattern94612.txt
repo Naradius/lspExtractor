@@ -1,0 +1,8 @@
+building rules and measuring the perfor-mance of the extraction of events and relations byusing these rules
+(VP (CC )(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNS )(CC )(NNS ))(VP (VBG )(NP (DT )(NNS ))))))))))
+Phase: generated94612
+Input: Token
+Rule: generated94612
+(
+(({ Token.category == CC })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))))))))))):pttrn94612 --> :pttrn94612.extracted={}
+

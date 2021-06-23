@@ -1,0 +1,8 @@
+in the convex hull of the path
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))
+Phase: generated17598
+Input: Token
+Rule: generated17598
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn17598 --> :pttrn17598.extracted={}
+

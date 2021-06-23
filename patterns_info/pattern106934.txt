@@ -1,0 +1,8 @@
+large-coverage and fine-grainedlexical resources.The decoding stage
+(NP (JJ )(CC )(JJ )(NN )(VBG )(NN ))
+Phase: generated106934
+Input: Token
+Rule: generated106934
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })({ Token.category == VBG })({ Token.category == NN }))):pttrn106934 --> :pttrn106934.extracted={}
+

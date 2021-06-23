@@ -1,0 +1,8 @@
+the non-cooperative nodes
+(NP (DT )(JJ )(NNS ))
+Phase: generated65968
+Input: Token
+Rule: generated65968
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn65968 --> :pttrn65968.extracted={}
+

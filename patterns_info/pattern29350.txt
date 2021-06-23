@@ -1,0 +1,8 @@
+the temperaturescollected
+(NP (DT )(VBN ))
+Phase: generated29350
+Input: Token
+Rule: generated29350
+(
+(({ Token.category == DT })({ Token.category == VBN }))):pttrn29350 --> :pttrn29350.extracted={}
+

@@ -1,0 +1,8 @@
+relays it toodes D and C in cluster
+(VP (VBZ )(VP (VBZ )(NP (NNP )(CC )(NNP ))))
+Phase: generated62558
+Input: Token
+Rule: generated62558
+(
+(({ Token.category == VBZ })(({ Token.category == VBZ })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn62558 --> :pttrn62558.extracted={}
+

@@ -1,0 +1,8 @@
+In: Internationalconference on mechanical and electrical technology .
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(CC )(JJ )(NN )))))
+Phase: generated57872
+Input: Token
+Rule: generated57872
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })))))):pttrn57872 --> :pttrn57872.extracted={}
+

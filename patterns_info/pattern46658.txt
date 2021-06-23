@@ -1,0 +1,8 @@
+the air flow
+(NP (DT )(NN ){1,2})
+Phase: generated46658
+Input: Token
+Rule: generated46658
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn46658 --> :pttrn46658.extracted={}
+

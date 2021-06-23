@@ -1,0 +1,8 @@
+learning models.After these steps
+(VP (VBG )(NP (JJR )(DT )(NNS )))
+Phase: generated99052
+Input: Token
+Rule: generated99052
+(
+(({ Token.category == VBG })(({ Token.category == JJR })({ Token.category == DT })({ Token.category == NNS })))):pttrn99052 --> :pttrn99052.extracted={}
+

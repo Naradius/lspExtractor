@@ -1,0 +1,8 @@
+the assertion status
+(NP (DT )(NN ){1,2})
+Phase: generated96084
+Input: Token
+Rule: generated96084
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn96084 --> :pttrn96084.extracted={}
+

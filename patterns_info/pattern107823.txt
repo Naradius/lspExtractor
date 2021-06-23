@@ -1,0 +1,8 @@
+contain any routing information while transferring the information
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated107823
+Input: Token
+Rule: generated107823
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn107823 --> :pttrn107823.extracted={}
+

@@ -1,0 +1,8 @@
+E. Other Uses of the VNLayerThe simple interface of the VNLayer
+(NP (NP (NNP )(JJ )(NNP ))(PP (IN )(NP (NP (DT )(NNP )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated13920
+Input: Token
+Rule: generated13920
+(
+((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn13920 --> :pttrn13920.extracted={}
+

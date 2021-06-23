@@ -1,0 +1,8 @@
+The longest chain rep-resents
+(NP (DT )(JJS )(NN )(NNS ))
+Phase: generated36739
+Input: Token
+Rule: generated36739
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })({ Token.category == NNS }))):pttrn36739 --> :pttrn36739.extracted={}
+

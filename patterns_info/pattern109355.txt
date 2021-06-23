@@ -1,0 +1,8 @@
+of disjoint paths
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated109355
+Input: Token
+Rule: generated109355
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn109355 --> :pttrn109355.extracted={}
+

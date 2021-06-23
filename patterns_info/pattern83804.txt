@@ -1,0 +1,8 @@
+For the Management Succession domain
+(PP (IN )(NP (DT )(NNP ){1,2}(NN )))
+Phase: generated83804
+Input: Token
+Rule: generated83804
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))):pttrn83804 --> :pttrn83804.extracted={}
+

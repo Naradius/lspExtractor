@@ -1,0 +1,8 @@
+the on-demand monitoring andouting
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated67151
+Input: Token
+Rule: generated67151
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn67151 --> :pttrn67151.extracted={}
+

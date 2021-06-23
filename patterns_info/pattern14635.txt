@@ -1,0 +1,8 @@
+the one with the highest priority
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJS )(NN ))))
+Phase: generated14635
+Input: Token
+Rule: generated14635
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))))):pttrn14635 --> :pttrn14635.extracted={}
+

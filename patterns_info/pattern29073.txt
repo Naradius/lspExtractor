@@ -1,0 +1,8 @@
+for routing protocol oflow-power and lossy networks, in: Proceedings of the 2nd International Con-ference on Systems and Informatics , IEEE, 2014, pp
+(PP (IN )(VP (VBG )(NP (CC )(NP (JJ )(NNS )))))
+Phase: generated29073
+Input: Token
+Rule: generated29073
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn29073 --> :pttrn29073.extracted={}
+

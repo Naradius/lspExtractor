@@ -1,0 +1,8 @@
+the Lisbon Pantheon, where a virtual agent assesses the visitors knowledgeabout the monument
+(NP (NP (DT )(NNP ){1,2})(WHADVP (WRB )))
+Phase: generated101650
+Input: Token
+Rule: generated101650
+(
+((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == WRB })))):pttrn101650 --> :pttrn101650.extracted={}
+

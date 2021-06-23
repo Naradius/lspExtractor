@@ -1,0 +1,8 @@
+according their collected data based in the clusters
+(PP (VBG )(NP (NP (PRP$ )(JJ )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NNS ))))))
+Phase: generated32017
+Input: Token
+Rule: generated32017
+(
+(({ Token.category == VBG })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn32017 --> :pttrn32017.extracted={}
+

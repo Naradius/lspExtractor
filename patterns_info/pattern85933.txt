@@ -1,0 +1,8 @@
+very large databases
+(NP (ADJP (RB )(JJ ))(NNS ))
+Phase: generated85933
+Input: Token
+Rule: generated85933
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn85933 --> :pttrn85933.extracted={}
+

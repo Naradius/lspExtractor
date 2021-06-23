@@ -1,0 +1,8 @@
+5 billion entity mentions
+(NP (NN )(NNS ))
+Phase: generated77709
+Input: Token
+Rule: generated77709
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn77709 --> :pttrn77709.extracted={}
+

@@ -1,0 +1,8 @@
+the ap-plication of the sensor networks
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated46875
+Input: Token
+Rule: generated46875
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn46875 --> :pttrn46875.extracted={}
+

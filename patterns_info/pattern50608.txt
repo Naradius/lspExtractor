@@ -1,0 +1,8 @@
+the broker and the gateway
+(NP (NP (DT )(NN ))(CC )(NP (DT )(NN )))
+Phase: generated50608
+Input: Token
+Rule: generated50608
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))):pttrn50608 --> :pttrn50608.extracted={}
+

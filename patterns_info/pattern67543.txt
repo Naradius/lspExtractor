@@ -1,0 +1,8 @@
+show the attack detection ratio for worm-ole and IP spoofing attacks
+(VP (VBP )(NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(CC )(NN ){1,2}(NNS ))))
+Phase: generated67543
+Input: Token
+Rule: generated67543
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn67543 --> :pttrn67543.extracted={}
+

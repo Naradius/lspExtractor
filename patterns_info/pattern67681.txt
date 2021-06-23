@@ -1,0 +1,8 @@
+with multi-variant tuples using sym-etric key approaches such as MARS, RC6, Serpent and Twofish
+(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(NP (NP (JJ ){1,2}(NNS ))(PP (JJ )(IN ))))))
+Phase: generated67681
+Input: Token
+Rule: generated67681
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))))):pttrn67681 --> :pttrn67681.extracted={}
+

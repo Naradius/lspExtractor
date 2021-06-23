@@ -1,0 +1,8 @@
+a useful elementsfor size of a tournament
+(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated64348
+Input: Token
+Rule: generated64348
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn64348 --> :pttrn64348.extracted={}
+

@@ -1,0 +1,8 @@
+respective particular time
+(NP (JJ ){1,2}(NN ))
+Phase: generated108991
+Input: Token
+Rule: generated108991
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn108991 --> :pttrn108991.extracted={}
+

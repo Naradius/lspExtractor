@@ -1,0 +1,8 @@
+ofthe dictionary equals
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated86387
+Input: Token
+Rule: generated86387
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn86387 --> :pttrn86387.extracted={}
+

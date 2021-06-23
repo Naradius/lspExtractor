@@ -1,0 +1,8 @@
+different codes
+(NP (JJ )(NNS ))
+Phase: generated945
+Input: Token
+Rule: generated945
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn945 --> :pttrn945.extracted={}
+

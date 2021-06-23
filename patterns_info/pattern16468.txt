@@ -1,0 +1,8 @@
+a number ofnew fields
+(NP (DT )(NN )(JJ )(NNS ))
+Phase: generated16468
+Input: Token
+Rule: generated16468
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn16468 --> :pttrn16468.extracted={}
+

@@ -1,0 +1,8 @@
+including RPL and 6LowPAN.
+(PP (VBG )(NP (CC )(VBG )))
+Phase: generated39451
+Input: Token
+Rule: generated39451
+(
+(({ Token.category == VBG })(({ Token.category == CC })({ Token.category == VBG })))):pttrn39451 --> :pttrn39451.extracted={}
+

@@ -1,0 +1,8 @@
+to replenishsensors embedded in concrete in a wireless manner and to power a ground sensor from a UAV
+(VP (VP (TO )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))))(CC )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP ))))))
+Phase: generated51780
+Input: Token
+Rule: generated51780
+(
+((({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))))):pttrn51780 --> :pttrn51780.extracted={}
+

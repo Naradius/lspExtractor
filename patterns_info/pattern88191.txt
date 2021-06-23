@@ -1,0 +1,8 @@
+to avoid accidental spurious matches
+(VP (TO )(VP (VB )(NP (JJ ){1,2}(NNS ))))
+Phase: generated88191
+Input: Token
+Rule: generated88191
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn88191 --> :pttrn88191.extracted={}
+

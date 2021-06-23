@@ -1,0 +1,8 @@
+to indicate group membershiprelations
+(VP (TO )(VP (VB )(NP (NN )(NNS ))))
+Phase: generated72078
+Input: Token
+Rule: generated72078
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn72078 --> :pttrn72078.extracted={}
+

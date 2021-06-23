@@ -1,0 +1,8 @@
+virtual mobile nodes
+(NP (JJ ){1,2}(NNS ))
+Phase: generated17020
+Input: Token
+Rule: generated17020
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn17020 --> :pttrn17020.extracted={}
+

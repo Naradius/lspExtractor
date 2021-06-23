@@ -1,0 +1,8 @@
+between application requirements
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated49260
+Input: Token
+Rule: generated49260
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn49260 --> :pttrn49260.extracted={}
+

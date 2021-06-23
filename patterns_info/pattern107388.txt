@@ -1,0 +1,8 @@
+different parameters, such as delay, energy, and distance
+(NP (NP (JJ )(NNS ))(PP (JJ )(IN )(NP (NN ){1,2}(CC )(NN ))))
+Phase: generated107388
+Input: Token
+Rule: generated107388
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))):pttrn107388 --> :pttrn107388.extracted={}
+

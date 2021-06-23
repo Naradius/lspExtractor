@@ -1,0 +1,8 @@
+of the SDS.
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated86201
+Input: Token
+Rule: generated86201
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn86201 --> :pttrn86201.extracted={}
+

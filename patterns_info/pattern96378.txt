@@ -1,0 +1,8 @@
+of not stemming the Q terms Must expand the Q to all term variations 1121Stemming Algorithms Stemming algorithms generate stem classes
+(PP (IN )(VP (RB )(VBG )(NP (DT )(NNP )(NNS ))(VP (MD )(VP (VB )(NP (DT )(NN ))(PP (TO )(NP (NP (DT )(NN )(NNS ))(VP (VBG )(NP (NNP ){1,2}(NNS ))(NP (JJ )(NN )(NNS )))))))))
+Phase: generated96378
+Input: Token
+Rule: generated96378
+(
+(({ Token.category == IN })(({ Token.category == RB })({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == NNP })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))))):pttrn96378 --> :pttrn96378.extracted={}
+

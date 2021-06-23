@@ -1,0 +1,8 @@
+First isthe data delivery model which describes how the end user wants toaccess the data and second
+(NP (NP (RB )(DT )(NNS )(NN ){1,2})(VP (VBZ )(WHADVP (WRB ))))
+Phase: generated56770
+Input: Token
+Rule: generated56770
+(
+((({ Token.category == RB })({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == WRB }))))):pttrn56770 --> :pttrn56770.extracted={}
+

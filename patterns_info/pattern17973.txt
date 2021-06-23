@@ -1,0 +1,8 @@
+finds more optimal paths than GPSR do
+(VP (VBZ )(NP (NP (RBR )(JJ )(NNS ))(IN )))
+Phase: generated17973
+Input: Token
+Rule: generated17973
+(
+(({ Token.category == VBZ })((({ Token.category == RBR })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == IN })))):pttrn17973 --> :pttrn17973.extracted={}
+

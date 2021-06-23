@@ -1,0 +1,8 @@
+apply WLM anal-sis, in real-time, on collected packets and compare resulted sig-ature with a bank of signatures to determine the nature of theraffic
+(VP (VP (VB )(NP (NNP )(NN ))(PP (IN )(NP (VBN )(NNS ))))(CC ))
+Phase: generated111471
+Input: Token
+Rule: generated111471
+(
+((({ Token.category == VB })(({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NNS }))))({ Token.category == CC }))):pttrn111471 --> :pttrn111471.extracted={}
+

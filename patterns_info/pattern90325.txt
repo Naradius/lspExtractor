@@ -1,0 +1,8 @@
+the constraints on the subject and object  of an event
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated90325
+Input: Token
+Rule: generated90325
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn90325 --> :pttrn90325.extracted={}
+

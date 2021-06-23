@@ -1,0 +1,8 @@
+cover the whole network andassigning a unique ID to each SN based on the local information.This protocol works on the residual energy and distribution of SNsand
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(VP (VBG )(NP (DT )(JJ )(NN ))(PP (TO )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(JJ ))))))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated55115
+Input: Token
+Rule: generated55115
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ }))))))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn55115 --> :pttrn55115.extracted={}
+

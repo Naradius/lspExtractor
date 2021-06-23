@@ -1,0 +1,8 @@
+proposed a Gateway-based Fog Computing architecture for wireless sensors and actuator networks pre-dominantly consisting of master and slave nodes, managing vir-ual gateway functions, flows, and resources
+(VP (VBD )(NP (NP (DT )(JJ )(NN ))(VP (VBG )(VP (VBG )(NP (NP (JJ )(NN )(NNS ))(CC ))))))
+Phase: generated20525
+Input: Token
+Rule: generated20525
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))))))):pttrn20525 --> :pttrn20525.extracted={}
+

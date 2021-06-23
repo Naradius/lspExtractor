@@ -1,0 +1,8 @@
+find the routing path between the source and destination node
+(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )))))
+Phase: generated107933
+Input: Token
+Rule: generated107933
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))))):pttrn107933 --> :pttrn107933.extracted={}
+

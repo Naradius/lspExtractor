@@ -1,0 +1,8 @@
+can become a CHhrough rotation policy using its own probability values when thelgorithm is hearing no cluster head-declaration from the neigh-our nodes
+(VP (MD )(VP (VB )(NP (DT )(JJ )(NN ){1,2})(VP (VBG )(NP (PRP$ )(JJ )(NN )(NNS )))))
+Phase: generated61306
+Input: Token
+Rule: generated61306
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn61306 --> :pttrn61306.extracted={}
+

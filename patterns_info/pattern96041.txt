@@ -1,0 +1,8 @@
+affirmed,negated, and speculative information in text
+(NP (NP (JJ )(VBN ))(CC ))
+Phase: generated96041
+Input: Token
+Rule: generated96041
+(
+((({ Token.category == JJ })({ Token.category == VBN }))({ Token.category == CC }))):pttrn96041 --> :pttrn96041.extracted={}
+

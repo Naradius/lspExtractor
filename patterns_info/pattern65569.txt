@@ -1,0 +1,8 @@
+selected by thelection scheme which will later create a computation overhead tohe sensor networks
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (MD )(VP (VB )(NP (DT )(NN ){1,2})(NP (DT )(NN )(NNS )))))))
+Phase: generated65569
+Input: Token
+Rule: generated65569
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn65569 --> :pttrn65569.extracted={}
+

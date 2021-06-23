@@ -1,0 +1,8 @@
+at rs = 23, i.e.
+(PP (IN )(NP (NNS )(SYM )(CD )(FW )(NNP ){1,2}))
+Phase: generated23863
+Input: Token
+Rule: generated23863
+(
+(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == SYM })({ Token.category == CD })({ Token.category == FW })({ Token.category == NNP })+))):pttrn23863 --> :pttrn23863.extracted={}
+

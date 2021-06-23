@@ -1,0 +1,8 @@
+ConclusionThe performance efficiency
+(NP (DT )(NN ){1,2})
+Phase: generated38483
+Input: Token
+Rule: generated38483
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn38483 --> :pttrn38483.extracted={}
+

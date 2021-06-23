@@ -1,0 +1,8 @@
+al.-25 76.50 40.98 53.37* 73.48 54.86 62.82*Xu et al.-50 62.80 41.53 49.99* 73.88 57.46 64.64*CRF 79.38 42.07 55.71 72.06 56.42 63.29*CRF-2 79.20 43.71 56.33 71.39 55.90 62.70*CRF-20 67.79 43.71 53.15* 70.61 55.90 62.40*Our system 82.82 44.80 58.15 71.65 61.45 66.16The horizontal line separates systems that do not learn new phrases from the systemsthat do
+(NP (NP (DT )(CD ){1,2}(JJ )(CD ){1,2})(PP (IN )(NP (CC )(NP (NP (CD ){1,2}(JJ )(CD ){1,2})(PP (IN )(NP (NP (CD ){1,2}(JJ )(CD ){1,2}(JJ )(CD ){1,2}(JJ )(CD ){1,2}(JJ )(NN )(CD ){1,2})(NP (DT )(JJ )(NN ))))))))
+Phase: generated75060
+Input: Token
+Rule: generated75060
+(
+((({ Token.category == DT })({ Token.category == CD })+({ Token.category == JJ })({ Token.category == CD })+)(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == CD })+({ Token.category == JJ })({ Token.category == CD })+)(({ Token.category == IN })((({ Token.category == CD })+({ Token.category == JJ })({ Token.category == CD })+({ Token.category == JJ })({ Token.category == CD })+({ Token.category == JJ })({ Token.category == CD })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD })+)(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn75060 --> :pttrn75060.extracted={}
+

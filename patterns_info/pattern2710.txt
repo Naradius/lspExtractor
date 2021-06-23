@@ -1,0 +1,8 @@
+are also focused on Flying Ad Hoc Networks and self-organizing networks of Unmanned Aerial Vehicles
+(VP (VBP )(VP (VBN )(PP (IN )(NP (CC )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNP )(NNPS ))))))))
+Phase: generated2710
+Input: Token
+Rule: generated2710
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNPS }))))))))):pttrn2710 --> :pttrn2710.extracted={}
+

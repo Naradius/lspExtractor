@@ -1,0 +1,8 @@
+can be stated as Pseudo-code 1.2.2.3
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(CD ))))))
+Phase: generated64264
+Input: Token
+Rule: generated64264
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CD }))))))):pttrn64264 --> :pttrn64264.extracted={}
+

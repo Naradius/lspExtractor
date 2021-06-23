@@ -1,0 +1,8 @@
+based on the reduced form of delay, energy, and distance between the nodes
+(PP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (NN ){1,2}(CC )(NN ))(PP (IN )(NP (DT )(NNS ))))))))
+Phase: generated108411
+Input: Token
+Rule: generated108411
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn108411 --> :pttrn108411.extracted={}
+

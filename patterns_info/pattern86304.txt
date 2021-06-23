@@ -1,0 +1,8 @@
+The re-sults of numerical experiments
+(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated86304
+Input: Token
+Rule: generated86304
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn86304 --> :pttrn86304.extracted={}
+

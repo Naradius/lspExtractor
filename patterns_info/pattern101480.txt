@@ -1,0 +1,8 @@
+the right answers
+(NP (DT )(JJ )(NNS ))
+Phase: generated101480
+Input: Token
+Rule: generated101480
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn101480 --> :pttrn101480.extracted={}
+

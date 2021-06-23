@@ -1,0 +1,8 @@
+finite state rules
+(NP (JJ )(NN )(NNS ))
+Phase: generated89556
+Input: Token
+Rule: generated89556
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn89556 --> :pttrn89556.extracted={}
+

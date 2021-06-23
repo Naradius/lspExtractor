@@ -1,0 +1,8 @@
+T. Melly, A. Porret, C.C. Enz, E.A. Vittoz, A 1.2 V, 430MHz, 4dBm power amplifier and a 250 lW Frontend,using a standard digital CMOS process, IEEE Interna-tional Symposium on Low Power Electronics and DesignConference, San Diego, August 1999, pp.
+(NP (NP (NNP ){1,2}(NN )(NNP ))(NP (DT )(CD )(NNP ))(NP (JJ )(NN ){1,2})(CC ))
+Phase: generated45721
+Input: Token
+Rule: generated45721
+(
+((({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNP }))(({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC }))):pttrn45721 --> :pttrn45721.extracted={}
+

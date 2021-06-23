@@ -1,0 +1,8 @@
+the QG system
+(NP (DT )(NNP )(NN ))
+Phase: generated101896
+Input: Token
+Rule: generated101896
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn101896 --> :pttrn101896.extracted={}
+

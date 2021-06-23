@@ -1,0 +1,8 @@
+to assign observed patterns to relations
+(VP (TO )(VP (VB )(NP (JJ )(NNS ))))
+Phase: generated77921
+Input: Token
+Rule: generated77921
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn77921 --> :pttrn77921.extracted={}
+

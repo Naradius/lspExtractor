@@ -1,0 +1,8 @@
+adding tothe training data
+(VP (VBG )(NP (DT )(NN )(NNS )))
+Phase: generated83902
+Input: Token
+Rule: generated83902
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn83902 --> :pttrn83902.extracted={}
+

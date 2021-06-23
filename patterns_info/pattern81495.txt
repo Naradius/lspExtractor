@@ -1,0 +1,8 @@
+in conjunctionwith a syntactic analyzer and semantic tagging
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ){1,2})(CC )(NP (JJ )(NN )))))
+Phase: generated81495
+Input: Token
+Rule: generated81495
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn81495 --> :pttrn81495.extracted={}
+

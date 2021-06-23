@@ -1,0 +1,8 @@
+for each bundle M of nr do9
+(PP (IN )(NP (NP (DT )(NN )(NNP ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated42232
+Input: Token
+Rule: generated42232
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn42232 --> :pttrn42232.extracted={}
+

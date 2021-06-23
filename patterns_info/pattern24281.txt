@@ -1,0 +1,8 @@
+to time and energy
+(PP (TO )(NP (NN )(CC )(NN )))
+Phase: generated24281
+Input: Token
+Rule: generated24281
+(
+(({ Token.category == TO })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn24281 --> :pttrn24281.extracted={}
+

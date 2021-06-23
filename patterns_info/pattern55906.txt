@@ -1,0 +1,8 @@
+a circle-shapedregion
+(NP (DT )(NN ))
+Phase: generated55906
+Input: Token
+Rule: generated55906
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn55906 --> :pttrn55906.extracted={}
+

@@ -1,0 +1,8 @@
+PT based generalization
+(NP (JJ )(VBN )(NN ))
+Phase: generated115572
+Input: Token
+Rule: generated115572
+(
+(({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN }))):pttrn115572 --> :pttrn115572.extracted={}
+

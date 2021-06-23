@@ -1,0 +1,8 @@
+well-formed control flow diagrams
+(NP (JJ )(NN ){1,2}(NNS ))
+Phase: generated102659
+Input: Token
+Rule: generated102659
+(
+(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))):pttrn102659 --> :pttrn102659.extracted={}
+

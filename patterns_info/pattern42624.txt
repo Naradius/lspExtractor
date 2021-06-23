@@ -1,0 +1,8 @@
+for the differ-ent protocols
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated42624
+Input: Token
+Rule: generated42624
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn42624 --> :pttrn42624.extracted={}
+

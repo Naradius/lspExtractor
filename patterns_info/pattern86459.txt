@@ -1,0 +1,8 @@
+is fixed for all considered termweighting methods and is calculated as following:TF ij = log
+(VP (VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(VBN )(NN )(NNS )))))(CC )(VP (VBZ )(VP (VBN )(PP (IN )(VP (VBG )(NP (NN ){1,2}(SYM )))))))
+Phase: generated86459
+Input: Token
+Rule: generated86459
+(
+((({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NN })+({ Token.category == SYM })))))))):pttrn86459 --> :pttrn86459.extracted={}
+

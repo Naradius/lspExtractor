@@ -1,0 +1,8 @@
+By looking up this signature in a bank of signatures
+(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(NN )))))
+Phase: generated109498
+Input: Token
+Rule: generated109498
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn109498 --> :pttrn109498.extracted={}
+

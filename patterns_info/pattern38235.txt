@@ -1,0 +1,8 @@
+a single source
+(NP (DT )(JJ )(NN ))
+Phase: generated38235
+Input: Token
+Rule: generated38235
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn38235 --> :pttrn38235.extracted={}
+

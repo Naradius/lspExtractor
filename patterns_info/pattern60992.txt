@@ -1,0 +1,8 @@
+learning in the proposedork
+(VP (VBG )(PP (IN )(NP (DT )(NN ))))
+Phase: generated60992
+Input: Token
+Rule: generated60992
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn60992 --> :pttrn60992.extracted={}
+

@@ -1,0 +1,8 @@
+elected as the CH depending upon various parameterswith the goal of saving the energy of the nodes
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNP ))(VP (VBG )(PP (IN )(NP (JJ )(NN )))(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))))))))
+Phase: generated57328
+Input: Token
+Rule: generated57328
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))))))):pttrn57328 --> :pttrn57328.extracted={}
+

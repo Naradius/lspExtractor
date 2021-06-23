@@ -1,0 +1,8 @@
+beyond the scope of previous systems
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated81488
+Input: Token
+Rule: generated81488
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn81488 --> :pttrn81488.extracted={}
+

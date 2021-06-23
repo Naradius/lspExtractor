@@ -1,0 +1,8 @@
+evaluated in Section 5.Finally, the conclusions of this article are summarized in Section
+(VP (VBN )(PP (IN )(NP (NP (NNP )(CD ))(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated12283
+Input: Token
+Rule: generated12283
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn12283 --> :pttrn12283.extracted={}
+

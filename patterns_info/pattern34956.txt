@@ -1,0 +1,8 @@
+multi-source logs
+(NP (JJ )(NNS ))
+Phase: generated34956
+Input: Token
+Rule: generated34956
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn34956 --> :pttrn34956.extracted={}
+

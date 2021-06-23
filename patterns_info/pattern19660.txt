@@ -1,0 +1,8 @@
+to learn info about the device from the sensors 3450 55 Watch Live Feed Camera Sensing/ Monitor Enable the user to watch live view of outside his house through IP camera
+(VP (TO )(VP (VB )(ADJP (JJ )(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (DT )(NNS )))(NP (NP (CD ){1,2}(NNP ){1,2})(NP (DT )(NN )))))
+Phase: generated19660
+Input: Token
+Rule: generated19660
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))((({ Token.category == CD })+({ Token.category == NNP })+)(({ Token.category == DT })({ Token.category == NN })))))):pttrn19660 --> :pttrn19660.extracted={}
+

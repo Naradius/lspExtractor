@@ -1,0 +1,8 @@
+would be obliged to review several thou-sand instances to nd a few dozen relevant instances
+(VP (MD )(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(CD )(NNS ))(VP (TO )(VP (VB )(NP (DT )(JJ )(NN )(JJ )(NNS )))))))))
+Phase: generated83973
+Input: Token
+Rule: generated83973
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn83973 --> :pttrn83973.extracted={}
+

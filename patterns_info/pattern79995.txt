@@ -1,0 +1,8 @@
+proper nouns.WHISK's
+(NP (JJ )(NNS )(POS ))
+Phase: generated79995
+Input: Token
+Rule: generated79995
+(
+(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == POS }))):pttrn79995 --> :pttrn79995.extracted={}
+

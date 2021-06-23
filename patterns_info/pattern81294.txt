@@ -1,0 +1,8 @@
+probabilistic parsing
+(NP (JJ )(NN ))
+Phase: generated81294
+Input: Token
+Rule: generated81294
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn81294 --> :pttrn81294.extracted={}
+

@@ -1,0 +1,8 @@
+the nodes of the WSN.
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated60732
+Input: Token
+Rule: generated60732
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn60732 --> :pttrn60732.extracted={}
+

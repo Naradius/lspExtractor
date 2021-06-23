@@ -1,0 +1,8 @@
+be too slow for large collections14Constructing Phrasesusing Part-of-Speech TaggingCan take advantage of NLP techniques: Using part-of-Speech tagging to identify key components of a sentence  store all noun phrases Republic of China, or store adjective followed by noun Red Carpet Problem: too slow
+(VP (VB )(ADJP (RB )(JJ ))(IN )(VP (VBG )(NP (JJ )(NN ))))
+Phase: generated96299
+Input: Token
+Rule: generated96299
+(
+(({ Token.category == VB })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn96299 --> :pttrn96299.extracted={}
+

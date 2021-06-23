@@ -1,0 +1,8 @@
+real-time spectrumawareness such that the IoT devices can be continuously aware ofthe surrounding physical and spectral environment.The traditional cognitive radio  enabled DSA networksachieve such coupling using devices that are sensing capable andperform local spectrum availability optimization
+(NP (NP (JJ )(NN ))(ADJP (JJ )(IN )))
+Phase: generated21438
+Input: Token
+Rule: generated21438
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn21438 --> :pttrn21438.extracted={}
+

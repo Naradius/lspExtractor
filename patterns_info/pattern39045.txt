@@ -1,0 +1,8 @@
+rendering their monitoring ineffective
+(VP (VBG )(NP (PRP$ )(NN )(JJ )))
+Phase: generated39045
+Input: Token
+Rule: generated39045
+(
+(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == JJ })))):pttrn39045 --> :pttrn39045.extracted={}
+

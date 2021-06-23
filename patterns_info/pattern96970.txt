@@ -1,0 +1,8 @@
+*100 Test scores
+(NP (CD )(JJ )(NNS ))
+Phase: generated96970
+Input: Token
+Rule: generated96970
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn96970 --> :pttrn96970.extracted={}
+

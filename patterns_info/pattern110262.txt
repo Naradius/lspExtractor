@@ -1,0 +1,8 @@
+t  n  p  a  m4  fl  p  a  (   t  u  t  p  m  a  m  q  wMI  s  i    p  o  b  q  t  t d  fi  r  x  a  f  a  m  f  b  l  d  t  r  t  V  E  m  i  t  p  c  mWwa  m  a  o  h  fl  s  aOT  s  t  t  w  t  t  c  r44 d  t  a  m  a  w  c  tep 1s signatures to select, in Step 2, different kinds of modelnd to, finally, tune the controller / observer
+(VP (VBD )(RB )(VP (VB )(NP (DT )(CD )(NN ){1,2})(NP (NP (DT )(-LRB- )(NN ){1,2})(NP (DT )(NN ){1,2}))))
+Phase: generated110262
+Input: Token
+Rule: generated110262
+(
+(({ Token.category == VBD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == -LRB- })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })+))))):pttrn110262 --> :pttrn110262.extracted={}
+

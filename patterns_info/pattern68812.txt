@@ -1,0 +1,8 @@
+one velocity
+(NP (CD )(NN ))
+Phase: generated68812
+Input: Token
+Rule: generated68812
+(
+(({ Token.category == CD })({ Token.category == NN }))):pttrn68812 --> :pttrn68812.extracted={}
+

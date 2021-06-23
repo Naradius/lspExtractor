@@ -1,0 +1,8 @@
+deployed to large text corpora.5
+(VP (VBN )(PP (TO )(NP (JJ )(NN ){1,2})))
+Phase: generated78332
+Input: Token
+Rule: generated78332
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn78332 --> :pttrn78332.extracted={}
+

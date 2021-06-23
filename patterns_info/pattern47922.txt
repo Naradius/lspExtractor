@@ -1,0 +1,8 @@
+of a small-sized, low-cost, ultralowpower transceiver
+(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2}))
+Phase: generated47922
+Input: Token
+Rule: generated47922
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))):pttrn47922 --> :pttrn47922.extracted={}
+

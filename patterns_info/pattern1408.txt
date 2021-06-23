@@ -1,0 +1,8 @@
+the number of the basic sites formed from the best sites las , found by the swarm at the l -th iteration
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(JJS )(NNS ){1,2})(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (DT )(JJ ){1,2}(NN ))))))))))
+Phase: generated1408
+Input: Token
+Rule: generated1408
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))))))))):pttrn1408 --> :pttrn1408.extracted={}
+

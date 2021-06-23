@@ -1,0 +1,8 @@
+production instance pi.function Apply
+(NP (NN ){1,2}(NNP ))
+Phase: generated104692
+Input: Token
+Rule: generated104692
+(
+(({ Token.category == NN })+({ Token.category == NNP }))):pttrn104692 --> :pttrn104692.extracted={}
+

@@ -1,0 +1,8 @@
+via the sibling rela-tionship
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated76162
+Input: Token
+Rule: generated76162
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn76162 --> :pttrn76162.extracted={}
+

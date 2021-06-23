@@ -1,0 +1,8 @@
+pre-sented in  addresses the scheduling, power control, and routingproblems simultaneously
+(VP (VBN )(NP (NP (DT )(NN ))(CC )))
+Phase: generated21820
+Input: Token
+Rule: generated21820
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))):pttrn21820 --> :pttrn21820.extracted={}
+

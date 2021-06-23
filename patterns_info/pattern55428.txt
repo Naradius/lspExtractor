@@ -1,0 +1,8 @@
+remaining energy and distance
+(NP (VBG )(NN )(CC )(NN ))
+Phase: generated55428
+Input: Token
+Rule: generated55428
+(
+(({ Token.category == VBG })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn55428 --> :pttrn55428.extracted={}
+

@@ -1,0 +1,8 @@
+to Equation  and Equation
+(PP (TO )(NP (NNP )(CC )(NNP )))
+Phase: generated42196
+Input: Token
+Rule: generated42196
+(
+(({ Token.category == TO })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn42196 --> :pttrn42196.extracted={}
+

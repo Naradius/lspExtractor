@@ -1,0 +1,8 @@
+tackle information extraction and knowledge integration problems usually requiring deep natural language understanding
+(VP (VB )(NP (NP (NN ){1,2}(CC )(NN ){1,2}(NNS ))(VP (VBG )(NP (JJ ){1,2}(NN ){1,2}))))
+Phase: generated70591
+Input: Token
+Rule: generated70591
+(
+(({ Token.category == VB })((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == JJ })+({ Token.category == NN })+))))):pttrn70591 --> :pttrn70591.extracted={}
+

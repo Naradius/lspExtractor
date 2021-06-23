@@ -1,0 +1,8 @@
+A comparison
+(NP (DT )(NN ))
+Phase: generated30444
+Input: Token
+Rule: generated30444
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn30444 --> :pttrn30444.extracted={}
+

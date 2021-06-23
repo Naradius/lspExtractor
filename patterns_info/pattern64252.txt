@@ -1,0 +1,8 @@
+toclose to prey from different directions
+(VP (VB )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated64252
+Input: Token
+Rule: generated64252
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn64252 --> :pttrn64252.extracted={}
+

@@ -1,0 +1,8 @@
+similar to Mitchell'scandidate elimination algorithm
+(ADJP (JJ )(PP (TO )(NP (NP (NNP )(POS ))(NN ){1,2})))
+Phase: generated80484
+Input: Token
+Rule: generated80484
+(
+(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN })+)))):pttrn80484 --> :pttrn80484.extracted={}
+

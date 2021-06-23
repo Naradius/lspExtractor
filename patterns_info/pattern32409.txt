@@ -1,0 +1,8 @@
+Sequential AssignmentRouting
+(NP (JJ )(NNP ))
+Phase: generated32409
+Input: Token
+Rule: generated32409
+(
+(({ Token.category == JJ })({ Token.category == NNP }))):pttrn32409 --> :pttrn32409.extracted={}
+

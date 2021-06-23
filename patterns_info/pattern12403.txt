@@ -1,0 +1,8 @@
+attempts to address dynamic clustering issuesand the performance of this algorithm is tested over both data andimages
+(VP (VBZ )(VP (TO )(VP (VB )(NP (JJ )(NN ){1,2}))))
+Phase: generated12403
+Input: Token
+Rule: generated12403
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn12403 --> :pttrn12403.extracted={}
+

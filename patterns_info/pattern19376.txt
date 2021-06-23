@@ -1,0 +1,8 @@
+the method up-dateAllocatedMips
+(NP (DT )(NN )(NNS ))
+Phase: generated19376
+Input: Token
+Rule: generated19376
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn19376 --> :pttrn19376.extracted={}
+

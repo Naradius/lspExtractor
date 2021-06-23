@@ -1,0 +1,8 @@
+extractorsfrom text
+(NP (VBN )(NN ))
+Phase: generated75954
+Input: Token
+Rule: generated75954
+(
+(({ Token.category == VBN })({ Token.category == NN }))):pttrn75954 --> :pttrn75954.extracted={}
+

@@ -1,0 +1,8 @@
+has given us promising results with a simple topol-gy within a time-delay framework
+(VP (VBZ )(VP (VBN )(NP (NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated112076
+Input: Token
+Rule: generated112076
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn112076 --> :pttrn112076.extracted={}
+

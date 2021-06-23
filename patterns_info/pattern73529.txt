@@ -1,0 +1,8 @@
+et al.. Unsupervised named-entity extraction
+(NP (NNP )(JJ )(NNP ){1,2}(NN ){1,2})
+Phase: generated73529
+Input: Token
+Rule: generated73529
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP })+({ Token.category == NN })+)):pttrn73529 --> :pttrn73529.extracted={}
+

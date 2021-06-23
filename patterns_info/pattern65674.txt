@@ -1,0 +1,8 @@
+with the help of Modified Two-Fish al-gorithm
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP ){1,2}(NN )))))
+Phase: generated65674
+Input: Token
+Rule: generated65674
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })))))):pttrn65674 --> :pttrn65674.extracted={}
+

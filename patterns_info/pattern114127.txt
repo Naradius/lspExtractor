@@ -1,0 +1,8 @@
+of a paragraph
+(PP (IN )(NP (DT )(NN )))
+Phase: generated114127
+Input: Token
+Rule: generated114127
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn114127 --> :pttrn114127.extracted={}
+

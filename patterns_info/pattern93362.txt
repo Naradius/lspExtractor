@@ -1,0 +1,8 @@
+the concept lexical representations
+(NP (DT )(NN )(JJ )(NNS ))
+Phase: generated93362
+Input: Token
+Rule: generated93362
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn93362 --> :pttrn93362.extracted={}
+

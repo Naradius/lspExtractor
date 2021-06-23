@@ -1,0 +1,8 @@
+is given asai  qi t1 JO si JJC si J
+(VP (VBZ )(VP (VBN )(NP (DT )(NN ))(PP (IN )(NP (NNP )(FW )(NNP )(FW )(NNP )))))
+Phase: generated56971
+Input: Token
+Rule: generated56971
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == FW })({ Token.category == NNP })({ Token.category == FW })({ Token.category == NNP })))))):pttrn56971 --> :pttrn56971.extracted={}
+

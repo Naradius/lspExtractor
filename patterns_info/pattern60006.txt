@@ -1,0 +1,8 @@
+in each cluster
+(PP (IN )(NP (DT )(NN )))
+Phase: generated60006
+Input: Token
+Rule: generated60006
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn60006 --> :pttrn60006.extracted={}
+

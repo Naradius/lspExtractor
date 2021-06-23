@@ -1,0 +1,8 @@
+of search plans for a production p
+(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated103844
+Input: Token
+Rule: generated103844
+(
+(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn103844 --> :pttrn103844.extracted={}
+

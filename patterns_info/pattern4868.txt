@@ -1,0 +1,8 @@
+usedto determine this optimal number
+(VP (VBN )(NP (DT )(JJ )(NN )))
+Phase: generated4868
+Input: Token
+Rule: generated4868
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn4868 --> :pttrn4868.extracted={}
+

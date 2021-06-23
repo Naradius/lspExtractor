@@ -1,0 +1,8 @@
+limiting their ability to host sophisticated security system and secondly, ad hoc nat-ure of 6LoWPAN network allows devices to connect to other devices at runtime typically for short time periods thereforecreating a volatile infrastructure
+(VP (VBG )(NP (PRP$ )(NN )(VP (TO )(VP (VP (VB )(NP (JJ )(NN ){1,2}))(CC )))))
+Phase: generated39076
+Input: Token
+Rule: generated39076
+(
+(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NN })(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+))({ Token.category == CC })))))):pttrn39076 --> :pttrn39076.extracted={}
+

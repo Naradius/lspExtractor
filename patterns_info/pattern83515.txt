@@ -1,0 +1,8 @@
+featuresper instance.3.3
+(NP (JJ )(NN )(CD ))
+Phase: generated83515
+Input: Token
+Rule: generated83515
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))):pttrn83515 --> :pttrn83515.extracted={}
+

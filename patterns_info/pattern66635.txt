@@ -1,0 +1,8 @@
+are elected proactively by optimizednd secured link-state routing approach to avoid the adversaries athe starting point of data communication
+(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(VBN )(NN ){1,2}))))
+Phase: generated66635
+Input: Token
+Rule: generated66635
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN })+))))):pttrn66635 --> :pttrn66635.extracted={}
+

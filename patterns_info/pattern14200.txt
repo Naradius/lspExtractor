@@ -1,0 +1,8 @@
+reduce the length of the routes and,therefore, to reduce the packet delivery times
+(VP (VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))))(CC )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}(NNS )))))
+Phase: generated14200
+Input: Token
+Rule: generated14200
+(
+((({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })))))):pttrn14200 --> :pttrn14200.extracted={}
+

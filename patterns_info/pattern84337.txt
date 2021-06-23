@@ -1,0 +1,8 @@
+precision are sensitive to how well the system performs on the truepositives
+(VP (VBP )(ADJP (JJ )(VP (TO )(VP (VB )(NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(NNS )))))))
+Phase: generated84337
+Input: Token
+Rule: generated84337
+(
+(({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn84337 --> :pttrn84337.extracted={}
+

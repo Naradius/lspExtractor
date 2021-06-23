@@ -1,0 +1,8 @@
+indifferent about the outcomesof
+(ADJP (JJ )(PP (IN )(NP (DT )(CD ))))
+Phase: generated23412
+Input: Token
+Rule: generated23412
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD }))))):pttrn23412 --> :pttrn23412.extracted={}
+

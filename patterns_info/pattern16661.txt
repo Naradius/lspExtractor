@@ -1,0 +1,8 @@
+was the worst choice in all cases.Fig
+(VP (VBD )(NP (DT )(JJS )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated16661
+Input: Token
+Rule: generated16661
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn16661 --> :pttrn16661.extracted={}
+

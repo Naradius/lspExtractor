@@ -1,0 +1,8 @@
+about 200 very common words
+(NP (CD )(ADJP (RB )(JJ ))(NNS ))
+Phase: generated74659
+Input: Token
+Rule: generated74659
+(
+(({ Token.category == CD })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn74659 --> :pttrn74659.extracted={}
+

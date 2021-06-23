@@ -1,0 +1,8 @@
+Exploiting the rule notationExamples of different usages of the formalism
+(VP (VBG )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated88251
+Input: Token
+Rule: generated88251
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn88251 --> :pttrn88251.extracted={}
+

@@ -1,0 +1,8 @@
+these algorithmswere designed to generate stable clusters in environmentswith mobile nodes
+(NP (NP (DT )(JJ ))(VP (VBN )(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ ){1,2}(NNS ))))))))
+Phase: generated2896
+Input: Token
+Rule: generated2896
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))))))):pttrn2896 --> :pttrn2896.extracted={}
+

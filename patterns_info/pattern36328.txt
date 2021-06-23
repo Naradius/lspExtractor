@@ -1,0 +1,8 @@
+makes it difficult to achieve valuable connectivity ofdata
+(VP (VBZ )(VP (TO )(VP (VB )(NP (JJ )(NN ){1,2}))))
+Phase: generated36328
+Input: Token
+Rule: generated36328
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn36328 --> :pttrn36328.extracted={}
+

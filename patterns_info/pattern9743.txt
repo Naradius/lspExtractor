@@ -1,0 +1,8 @@
+d-hop clusters
+(NP (JJ )(NNS ))
+Phase: generated9743
+Input: Token
+Rule: generated9743
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn9743 --> :pttrn9743.extracted={}
+

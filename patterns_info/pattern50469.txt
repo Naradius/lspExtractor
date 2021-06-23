@@ -1,0 +1,8 @@
+Theseare differentiated based on the minimum and maximumcontention windows.
+(NP (NP (DT )(JJ ))(VP (VBN )(PP (IN )(NP (DT )(NN )(CC )(NN )(NNS )))))
+Phase: generated50469
+Input: Token
+Rule: generated50469
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))))):pttrn50469 --> :pttrn50469.extracted={}
+

@@ -1,0 +1,8 @@
+the shortest path
+(NP (DT )(JJS )(NN ))
+Phase: generated11507
+Input: Token
+Rule: generated11507
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))):pttrn11507 --> :pttrn11507.extracted={}
+

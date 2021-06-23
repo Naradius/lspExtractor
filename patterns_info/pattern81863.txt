@@ -1,0 +1,8 @@
+a later module assembles
+(NP (DT )(ADJP (RB )(JJ ))(NNS ))
+Phase: generated81863
+Input: Token
+Rule: generated81863
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn81863 --> :pttrn81863.extracted={}
+

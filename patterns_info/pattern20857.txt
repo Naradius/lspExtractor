@@ -1,0 +1,8 @@
+its initial release state
+(NP (PRP$ )(JJ )(NN ){1,2})
+Phase: generated20857
+Input: Token
+Rule: generated20857
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)):pttrn20857 --> :pttrn20857.extracted={}
+

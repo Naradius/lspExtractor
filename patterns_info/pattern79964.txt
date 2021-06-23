@@ -1,0 +1,8 @@
+are in representation and support-ing knowledge sources
+(VP (VBP )(PP (IN )(NP (NN )(CC )(NN ){1,2}(NNS ))))
+Phase: generated79964
+Input: Token
+Rule: generated79964
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn79964 --> :pttrn79964.extracted={}
+

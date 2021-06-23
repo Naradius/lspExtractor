@@ -1,0 +1,8 @@
+is the most widely known and used weighting method
+(VP (VBZ )(NP (DT )(ADJP (RBS )(RB )(VBN )(CC )(VBN ))(NN ){1,2}))
+Phase: generated85467
+Input: Token
+Rule: generated85467
+(
+(({ Token.category == VBZ })(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == RB })({ Token.category == VBN })({ Token.category == CC })({ Token.category == VBN }))({ Token.category == NN })+))):pttrn85467 --> :pttrn85467.extracted={}
+

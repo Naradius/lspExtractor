@@ -1,0 +1,8 @@
+trained two models with CRF++10
+(VP (VBD )(NP (CD )(NNS )))
+Phase: generated105816
+Input: Token
+Rule: generated105816
+(
+(({ Token.category == VBD })(({ Token.category == CD })({ Token.category == NNS })))):pttrn105816 --> :pttrn105816.extracted={}
+

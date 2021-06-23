@@ -1,0 +1,8 @@
+a goodindicator for the entailed relation.This
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNP ))))
+Phase: generated76475
+Input: Token
+Rule: generated76475
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))))):pttrn76475 --> :pttrn76475.extracted={}
+

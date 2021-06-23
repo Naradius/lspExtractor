@@ -1,0 +1,8 @@
+created around the DT word Albuterol will be DT andX, DTand X for SC, X for SC, and so on
+(VP (VBD )(PP (IN )(NP (NP (DT )(NNP )(NN ))(VP (MD )(VP (VB )(NP (NP (NNP )(NNS ))(CC )(ADVP (RB )(IN ))))))))
+Phase: generated74281
+Input: Token
+Rule: generated74281
+(
+(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == RB })({ Token.category == IN }))))))))):pttrn74281 --> :pttrn74281.extracted={}
+

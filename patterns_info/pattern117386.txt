@@ -1,0 +1,8 @@
+are available, or very dissimilar ones
+(VP (VBP )(NP (ADJP (CC )(ADJP (RB )(JJ )))(NNS )))
+Phase: generated117386
+Input: Token
+Rule: generated117386
+(
+(({ Token.category == VBP })((({ Token.category == CC })(({ Token.category == RB })({ Token.category == JJ })))({ Token.category == NNS })))):pttrn117386 --> :pttrn117386.extracted={}
+

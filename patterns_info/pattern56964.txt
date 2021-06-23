@@ -1,0 +1,8 @@
+Root node weight
+(NP (NNP )(NN ){1,2})
+Phase: generated56964
+Input: Token
+Rule: generated56964
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn56964 --> :pttrn56964.extracted={}
+

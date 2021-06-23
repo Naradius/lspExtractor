@@ -1,0 +1,8 @@
+can be avoidedthanks to the optimal placement of nodes through evendistribution or by adding a few relay nodes with enhancedcapabilities
+(VP (MD )(VP (VB )(PP (CC )(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN )(NNS )))))))
+Phase: generated51575
+Input: Token
+Rule: generated51575
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn51575 --> :pttrn51575.extracted={}
+

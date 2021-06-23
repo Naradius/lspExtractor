@@ -1,0 +1,8 @@
+Future Generation Computer Systems 93  833848 841pair m
+(NP (NNP ){1,2}(NNPS )(CD ){1,2}(NN ){1,2})
+Phase: generated23397
+Input: Token
+Rule: generated23397
+(
+(({ Token.category == NNP })+({ Token.category == NNPS })({ Token.category == CD })+({ Token.category == NN })+)):pttrn23397 --> :pttrn23397.extracted={}
+

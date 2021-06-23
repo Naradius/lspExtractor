@@ -1,0 +1,8 @@
+the three domains
+(NP (DT )(CD )(NNS ))
+Phase: generated47850
+Input: Token
+Rule: generated47850
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))):pttrn47850 --> :pttrn47850.extracted={}
+

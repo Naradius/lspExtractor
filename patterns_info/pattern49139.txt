@@ -1,0 +1,8 @@
+well known companies as well as academy
+(NP (NP (RB )(VBN )(NNS ))(CONJP (RB ){1,2}(IN )))
+Phase: generated49139
+Input: Token
+Rule: generated49139
+(
+((({ Token.category == RB })({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == RB })+({ Token.category == IN })))):pttrn49139 --> :pttrn49139.extracted={}
+

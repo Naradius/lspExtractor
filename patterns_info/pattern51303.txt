@@ -1,0 +1,8 @@
+to deactivate some nodes while maintaining networkoperations and connectivity
+(VP (TO )(VP (VB )(NP (DT )(NNS ))))
+Phase: generated51303
+Input: Token
+Rule: generated51303
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn51303 --> :pttrn51303.extracted={}
+

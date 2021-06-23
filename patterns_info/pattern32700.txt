@@ -1,0 +1,8 @@
+aresynchronously available.Jitter
+(PP (RB )(NP (JJ )(NN )))
+Phase: generated32700
+Input: Token
+Rule: generated32700
+(
+(({ Token.category == RB })(({ Token.category == JJ })({ Token.category == NN })))):pttrn32700 --> :pttrn32700.extracted={}
+

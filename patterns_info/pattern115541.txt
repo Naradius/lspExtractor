@@ -1,0 +1,8 @@
+social activity and enchance communications with the friends other than most close ones
+(NP (NP (JJ )(NN ))(CC )(NP (NP (NN )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(ADJP (JJ )(PP (IN )(NP (JJS )(JJ )(NNS ))))))))
+Phase: generated115541
+Input: Token
+Rule: generated115541
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJS })({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn115541 --> :pttrn115541.extracted={}
+

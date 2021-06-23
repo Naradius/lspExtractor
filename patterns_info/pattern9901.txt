@@ -1,0 +1,8 @@
+The flow diagram of the proposed work
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(VBN )(NN ))))
+Phase: generated9901
+Input: Token
+Rule: generated9901
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))))):pttrn9901 --> :pttrn9901.extracted={}
+

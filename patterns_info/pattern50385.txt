@@ -1,0 +1,8 @@
+the standarddefines non-router nodes
+(NP (DT )(NNS )(NN )(NNS ))
+Phase: generated50385
+Input: Token
+Rule: generated50385
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })({ Token.category == NNS }))):pttrn50385 --> :pttrn50385.extracted={}
+

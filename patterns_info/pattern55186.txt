@@ -1,0 +1,8 @@
+sD2 H2,H1 EH1
+(NP (DT )(NNP ){1,2})
+Phase: generated55186
+Input: Token
+Rule: generated55186
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn55186 --> :pttrn55186.extracted={}
+

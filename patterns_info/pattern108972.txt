@@ -1,0 +1,8 @@
+on four different metrics
+(PP (IN )(NP (CD )(JJ )(NNS )))
+Phase: generated108972
+Input: Token
+Rule: generated108972
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))):pttrn108972 --> :pttrn108972.extracted={}
+

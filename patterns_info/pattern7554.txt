@@ -1,0 +1,8 @@
+the spa-tial proximity
+(NP (DT )(JJ )(NN ))
+Phase: generated7554
+Input: Token
+Rule: generated7554
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn7554 --> :pttrn7554.extracted={}
+

@@ -1,0 +1,8 @@
+Revised 3 July 2018 Accepted 6 September 2018 Available online xxx Keywords: UAV FANET Intrusion detection system Spectral analysis Robust estimator Drone ad hoc network a b s t r a c t The use of a swarm of low-cost, mission-specific drones to form a Flying Ad-hoc Network  has literally become a hotspot in the drone community
+(VP (VBN )(NP (NP (CD )(NNP )(CD )(NNP )(CD )(NNP )(CD )(JJ ){1,2}(NN )(NNS ))(NP (NP (NNP ){1,2}(NN ){1,2})(NP (JJ )(NN )(NNP )(NN )(NNP )(NN ){1,2})(NP (DT )(NN )))))
+Phase: generated112530
+Input: Token
+Rule: generated112530
+(
+(({ Token.category == VBN })((({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == NNP })+({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })))))):pttrn112530 --> :pttrn112530.extracted={}
+

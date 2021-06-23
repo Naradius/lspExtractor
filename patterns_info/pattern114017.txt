@@ -1,0 +1,8 @@
+can better tackle variety in phrasings and writing styles, as well as distribution of information through sentences.We will now outline the algorithm of forming thicket phrases
+(VP (MD )(VP (VB )(VP (MD )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (JJ )(NNS )))))))))
+Phase: generated114017
+Input: Token
+Rule: generated114017
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn114017 --> :pttrn114017.extracted={}
+

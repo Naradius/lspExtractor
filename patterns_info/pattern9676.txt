@@ -1,0 +1,8 @@
+due to the nodes spatial proximity
+(ADJP (JJ )(PP (TO )(NP (NP (DT )(NNS ))(JJ )(NN ))))
+Phase: generated9676
+Input: Token
+Rule: generated9676
+(
+(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NN }))))):pttrn9676 --> :pttrn9676.extracted={}
+

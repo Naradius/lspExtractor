@@ -1,0 +1,8 @@
+the both TOHIP and FL-TOHIP
+(NP (DT )(NN ){1,2}(CC )(NN ))
+Phase: generated109245
+Input: Token
+Rule: generated109245
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn109245 --> :pttrn109245.extracted={}
+

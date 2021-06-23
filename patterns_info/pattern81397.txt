@@ -1,0 +1,8 @@
+the classiers
+(NP (DT )(NNS ))
+Phase: generated81397
+Input: Token
+Rule: generated81397
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn81397 --> :pttrn81397.extracted={}
+

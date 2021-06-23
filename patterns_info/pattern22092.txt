@@ -1,0 +1,8 @@
+orpredict the spectrum usage at arbitrary locations
+(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated22092
+Input: Token
+Rule: generated22092
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn22092 --> :pttrn22092.extracted={}
+

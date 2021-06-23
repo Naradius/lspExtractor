@@ -1,0 +1,8 @@
+Deterministic part-of-speech tagging with finite-state transducers.
+(NP (NP (NNP )(NN ){1,2})(PP (IN )(NP (NN )(NNS ))))
+Phase: generated106227
+Input: Token
+Rule: generated106227
+(
+((({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn106227 --> :pttrn106227.extracted={}
+

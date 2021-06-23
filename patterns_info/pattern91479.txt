@@ -1,0 +1,8 @@
+are then tagged with the most likely tag and finally the ordered contextual rules areapplied to all words
+(VP (VBP )(VP (VP (VBN )(PP (IN )(NP (DT )(ADJP (RBS )(JJ ))(NN ))))(CC )(NP (NP (DT )(VBN )(JJ )(NNS ))(VP (VBN )(PP (TO )(NP (DT )(NNS )))))))
+Phase: generated91479
+Input: Token
+Rule: generated91479
+(
+(({ Token.category == VBP })((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))))({ Token.category == CC })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn91479 --> :pttrn91479.extracted={}
+

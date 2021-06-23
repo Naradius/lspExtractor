@@ -1,0 +1,8 @@
+a given SRL tool
+(NP (DT )(VBN )(NNP )(NN ))
+Phase: generated72967
+Input: Token
+Rule: generated72967
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })({ Token.category == NN }))):pttrn72967 --> :pttrn72967.extracted={}
+

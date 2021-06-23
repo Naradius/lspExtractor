@@ -1,0 +1,8 @@
+limitsof the identified lexical unit
+(PP (IN )(NP (DT )(JJ ){1,2}(NN )))
+Phase: generated105997
+Input: Token
+Rule: generated105997
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))):pttrn105997 --> :pttrn105997.extracted={}
+

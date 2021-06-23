@@ -1,0 +1,8 @@
+to a singlesensor node
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated44863
+Input: Token
+Rule: generated44863
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn44863 --> :pttrn44863.extracted={}
+

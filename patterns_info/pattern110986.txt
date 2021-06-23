@@ -1,0 +1,8 @@
+ad-itional results related to the second step of this process: anomalyeconstruction and detection using robust controller / observer
+(NP (NP (JJ )(NNS ))(VP (VBN )(PP (TO )(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))(NP (NP (NN )(CC )(NN ))(VP (VBG )(NP (JJ )(NN ){1,2})))))))
+Phase: generated110986
+Input: Token
+Rule: generated110986
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+)))))))):pttrn110986 --> :pttrn110986.extracted={}
+

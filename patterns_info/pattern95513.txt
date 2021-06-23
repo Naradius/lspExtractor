@@ -1,0 +1,8 @@
+non-cue and non-scope words
+(NP (ADJP (JJ )(CC )(JJ ))(NNS ))
+Phase: generated95513
+Input: Token
+Rule: generated95513
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn95513 --> :pttrn95513.extracted={}
+

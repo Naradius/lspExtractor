@@ -1,0 +1,8 @@
+them and potentially lower the reliability of data delivery
+(NP (CC )(NP (NP (ADJP (RB )(JJR ))(DT )(NN ))(PP (IN )(NP (NNS )(NN )))))
+Phase: generated107546
+Input: Token
+Rule: generated107546
+(
+(({ Token.category == CC })(((({ Token.category == RB })({ Token.category == JJR }))({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })))))):pttrn107546 --> :pttrn107546.extracted={}
+

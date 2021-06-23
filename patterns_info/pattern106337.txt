@@ -1,0 +1,8 @@
+are gen-erally evaluated on perfectly tokenized texts wheremultiword units  have already been identi-fied.Our paper presents a MWU-aware POS tagger.It is based on a Conditional Random Field model that integrates features computed from large-coverage morphosyntactic lexicons and fine-grainedMWU resources
+(VP (VBP )(VP (VBN )(PP (IN )(NP (ADJP (RB )(JJ ))(NNS )))))
+Phase: generated106337
+Input: Token
+Rule: generated106337
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS })))))):pttrn106337 --> :pttrn106337.extracted={}
+

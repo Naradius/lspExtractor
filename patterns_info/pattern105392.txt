@@ -1,0 +1,8 @@
+tothe corresponding ASG.The SRG
+(NP (DT )(JJ )(NNP ){1,2})
+Phase: generated105392
+Input: Token
+Rule: generated105392
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)):pttrn105392 --> :pttrn105392.extracted={}
+

@@ -1,0 +1,8 @@
+look up current leader of theVN in the region activeness table
+(VP (VB )(PRT (RP )))
+Phase: generated13679
+Input: Token
+Rule: generated13679
+(
+(({ Token.category == VB })(({ Token.category == RP })))):pttrn13679 --> :pttrn13679.extracted={}
+

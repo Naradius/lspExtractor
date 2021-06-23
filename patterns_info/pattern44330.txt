@@ -1,0 +1,8 @@
+is to fairly and efficiently sharecommunication resources between sensor nodes.Traditional MAC schemes can all be categorizedbased on their resource sharing mechanisms
+(VP (VBZ )(VP (TO )(ADVP (RB )(CC )(RB ))(NP (NP (NN )(NNS ))(PP (IN )(NP (NN )(JJ )(NNP )(NNS ))))))
+Phase: generated44330
+Input: Token
+Rule: generated44330
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == RB })({ Token.category == CC })({ Token.category == RB }))((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))))):pttrn44330 --> :pttrn44330.extracted={}
+

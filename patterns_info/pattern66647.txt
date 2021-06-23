@@ -1,0 +1,8 @@
+the link type and availability of the sensor
+(NP (NP (DT )(NN ){1,2}(CC )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated66647
+Input: Token
+Rule: generated66647
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn66647 --> :pttrn66647.extracted={}
+

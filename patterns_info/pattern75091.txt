@@ -1,0 +1,8 @@
+X and nasal rinsepersistent SC
+(NP (CC )(NP (JJ )(NN )(NNP )))
+Phase: generated75091
+Input: Token
+Rule: generated75091
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })))):pttrn75091 --> :pttrn75091.extracted={}
+

@@ -1,0 +1,8 @@
+nomadicand inhabitant lions
+(NP (DT )(JJ )(NNS ))
+Phase: generated11296
+Input: Token
+Rule: generated11296
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn11296 --> :pttrn11296.extracted={}
+

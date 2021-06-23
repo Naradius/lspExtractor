@@ -1,0 +1,8 @@
+reveal that differentiation becomes irreversiblesoon after AP-1 appears.Both sentences contain the word form appears,however in the first sentence the word marks a hedg-ing cue, while in the second sentence the word doesnot suggest speculation.Unlike previous work, we do not attempt to iden-tify negation/speculation cues independently of theirscopes
+(VP (VBP )(IN ))
+Phase: generated96168
+Input: Token
+Rule: generated96168
+(
+(({ Token.category == VBP })({ Token.category == IN }))):pttrn96168 --> :pttrn96168.extracted={}
+

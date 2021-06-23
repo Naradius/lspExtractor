@@ -1,0 +1,8 @@
+vehicular networks  , smart grids , andmilitarycommunications , to name a few
+(NP (NP (JJ )(NNS )){1,2}(VP (TO )(VP (VB )(NP (DT )(JJ )))))
+Phase: generated21287
+Input: Token
+Rule: generated21287
+(
+((({ Token.category == JJ })({ Token.category == NNS }))+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })))))):pttrn21287 --> :pttrn21287.extracted={}
+

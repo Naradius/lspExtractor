@@ -1,0 +1,8 @@
+are compared againstthe existing approaches
+(VP (VBP )(VP (VBN )(PP (RB )(NP (VBG )(NNS )))))
+Phase: generated10376
+Input: Token
+Rule: generated10376
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == RB })(({ Token.category == VBG })({ Token.category == NNS })))))):pttrn10376 --> :pttrn10376.extracted={}
+

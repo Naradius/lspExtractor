@@ -1,0 +1,8 @@
+specifying semantic roles
+(VP (VBG )(NP (JJ )(NNS )))
+Phase: generated72591
+Input: Token
+Rule: generated72591
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn72591 --> :pttrn72591.extracted={}
+

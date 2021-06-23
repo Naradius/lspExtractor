@@ -1,0 +1,8 @@
+153.2.2 Regular expression operators
+(NP (CD )(JJ )(NN )(NNS ))
+Phase: generated88512
+Input: Token
+Rule: generated88512
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn88512 --> :pttrn88512.extracted={}
+

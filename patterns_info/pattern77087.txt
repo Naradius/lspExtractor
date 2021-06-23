@@ -1,0 +1,8 @@
+company-related knowledge.3
+(NP (JJ )(NN )(CD ))
+Phase: generated77087
+Input: Token
+Rule: generated77087
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CD }))):pttrn77087 --> :pttrn77087.extracted={}
+

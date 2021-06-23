@@ -1,0 +1,8 @@
+US Patent Application
+(NP (PRP )(NNP ){1,2})
+Phase: generated116889
+Input: Token
+Rule: generated116889
+(
+(({ Token.category == PRP })({ Token.category == NNP })+)):pttrn116889 --> :pttrn116889.extracted={}
+

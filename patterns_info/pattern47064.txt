@@ -1,0 +1,8 @@
+a power unit.They
+(NP (DT )(NN ){1,2})
+Phase: generated47064
+Input: Token
+Rule: generated47064
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn47064 --> :pttrn47064.extracted={}
+

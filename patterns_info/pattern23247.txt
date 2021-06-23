@@ -1,0 +1,8 @@
+for a SD pair
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated23247
+Input: Token
+Rule: generated23247
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn23247 --> :pttrn23247.extracted={}
+

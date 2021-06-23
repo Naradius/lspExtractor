@@ -1,0 +1,8 @@
+from the permu-tations that build the queries sent to the search engine
+(PP (IN )(NP (NP (DT )(NNS ))(VP (VBP )(NP (NP (DT )(NNS ))(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2})))))))
+Phase: generated99416
+Input: Token
+Rule: generated99416
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn99416 --> :pttrn99416.extracted={}
+

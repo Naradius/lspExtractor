@@ -1,0 +1,8 @@
+secondary IoT devices
+(NP (JJ )(NN )(NNS ))
+Phase: generated22014
+Input: Token
+Rule: generated22014
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn22014 --> :pttrn22014.extracted={}
+

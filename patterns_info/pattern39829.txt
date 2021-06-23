@@ -1,0 +1,8 @@
+called the Global Detection Enactor , has threecomponents: Alert Collector , Correlation Agent , and Detection Agent
+(VP (VBD )(NP (DT )(NNP ){1,2}))
+Phase: generated39829
+Input: Token
+Rule: generated39829
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn39829 --> :pttrn39829.extracted={}
+

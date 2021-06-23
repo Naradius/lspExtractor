@@ -1,0 +1,8 @@
+6= ; _ h1(common) \ h2(Xlhs)
+(NP (NP (CD )(JJ ){1,2}(-RRB- )(JJ )(NNS ))(-RRB- ))
+Phase: generated104413
+Input: Token
+Rule: generated104413
+(
+((({ Token.category == CD })({ Token.category == JJ })+({ Token.category == -RRB- })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == -RRB- }))):pttrn104413 --> :pttrn104413.extracted={}
+

@@ -1,0 +1,8 @@
+alive sensors in the network
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated54775
+Input: Token
+Rule: generated54775
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn54775 --> :pttrn54775.extracted={}
+

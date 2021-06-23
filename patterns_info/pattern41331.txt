@@ -1,0 +1,8 @@
+various equipment and elements of thenetwork.4E.A. Abdellaoui Alaoui et al
+(NP (NP (JJ )(NN )(CC )(NNS ))(PP (IN )(NP (DT )(NNP ){1,2}(NN ))))
+Phase: generated41331
+Input: Token
+Rule: generated41331
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))))):pttrn41331 --> :pttrn41331.extracted={}
+

@@ -1,0 +1,8 @@
+is consideredas a good approximation of the inter-contact interval in a significantnumber of realistic DTN networks.4.2
+(VP (VBZ )(VP (VBG )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NNS ))))))))))
+Phase: generated41138
+Input: Token
+Rule: generated41138
+(
+(({ Token.category == VBZ })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))))))))):pttrn41138 --> :pttrn41138.extracted={}
+

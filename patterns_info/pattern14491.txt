@@ -1,0 +1,8 @@
+by traffic lights
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated14491
+Input: Token
+Rule: generated14491
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn14491 --> :pttrn14491.extracted={}
+

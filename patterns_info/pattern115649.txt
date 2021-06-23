@@ -1,0 +1,8 @@
+in the resultant relevance
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated115649
+Input: Token
+Rule: generated115649
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn115649 --> :pttrn115649.extracted={}
+

@@ -1,0 +1,8 @@
+://www.ScienceDirect.comhttp://www.elsevier.com/locate/jsshttp://crossmark.crossref.org/dialog/?doi=10.1016/j.jss.2019.04.058&domain=pdfmailto:s
+(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NN ){1,2}(NNS ))))
+Phase: generated20350
+Input: Token
+Rule: generated20350
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn20350 --> :pttrn20350.extracted={}
+

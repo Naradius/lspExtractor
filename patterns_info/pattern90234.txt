@@ -1,0 +1,8 @@
+but rather
+(CONJP (CC )(RB ))
+Phase: generated90234
+Input: Token
+Rule: generated90234
+(
+(({ Token.category == CC })({ Token.category == RB }))):pttrn90234 --> :pttrn90234.extracted={}
+

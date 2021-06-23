@@ -1,0 +1,8 @@
+based on a parse tree kernel
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated117030
+Input: Token
+Rule: generated117030
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn117030 --> :pttrn117030.extracted={}
+

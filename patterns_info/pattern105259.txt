@@ -1,0 +1,8 @@
+to illustrate the proposed data structures
+(VP (TO )(VP (VB )(NP (DT )(VBN )(NNS ){1,2})))
+Phase: generated105259
+Input: Token
+Rule: generated105259
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS })+)))):pttrn105259 --> :pttrn105259.extracted={}
+

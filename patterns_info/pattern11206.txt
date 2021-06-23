@@ -1,0 +1,8 @@
+behaveslike a controlling authority that ensures scalability and manageabil-ity
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(NP (NN )(CC )(NN )))))
+Phase: generated11206
+Input: Token
+Rule: generated11206
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn11206 --> :pttrn11206.extracted={}
+

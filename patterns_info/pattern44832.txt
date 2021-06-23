@@ -1,0 +1,8 @@
+to reduce the problem of hidden nodesin a multihop network by constantly tuning thetransmission rate and performing phase changes,so that periodic streams are less likely to repeat-edly collide.Hybrid TDMA/FDMA based: This centrallycontrolled MAC scheme is introduced in
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ))))(NP (DT )(JJ )(NN ))(PP (IN )(VP (VP (VBG )(NP (DT )(NN )))(CC )(VP (VBG )(NP (NN )(NNS )))(VP (VBP )(IN ))))))
+Phase: generated44832
+Input: Token
+Rule: generated44832
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == VBP })({ Token.category == IN }))))))):pttrn44832 --> :pttrn44832.extracted={}
+

@@ -1,0 +1,8 @@
+an example of two patterns
+(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NNS ))))
+Phase: generated74327
+Input: Token
+Rule: generated74327
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))):pttrn74327 --> :pttrn74327.extracted={}
+

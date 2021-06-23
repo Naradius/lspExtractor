@@ -1,0 +1,8 @@
+single cluster head that may cause a single point failure
+(NP (NP (JJ )(NN ){1,2})(VP (MD )(VP (VB )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated65576
+Input: Token
+Rule: generated65576
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn65576 --> :pttrn65576.extracted={}
+

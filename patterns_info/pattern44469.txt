@@ -1,0 +1,8 @@
+contains the ME pathFlooding Broadcasts data to all neighbor nodes regardless if they receive it before or notGossiping  Sends data to one randomly selected neighborSPIN  Sends data to sensor nodes only if they are interested
+(VP (VBZ )(NP (DT )(NNP )(NN )(NNS ){1,2})(PP (TO )(NP (DT )(NN ))))
+Phase: generated44469
+Input: Token
+Rule: generated44469
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })+)(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn44469 --> :pttrn44469.extracted={}
+

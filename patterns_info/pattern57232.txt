@@ -1,0 +1,8 @@
+andconnectivityScalability FaulttoleranceMobility ofnodesReliability CommunicationCostLEACH-C  Single-hop Homogeneous ClusterBasedLow Random Good   low  Nodes arestationary- HighLEACH-EM  Single-hop Homogeneous ClusterbasedRandom    Low  Nodes aremobile HighPEGASIS  Single-hop Homogeneous ChainbasedVeryhighRandom Very good   low  Nodes arestationary HighBinary schemes with &without CDMA Single-hop Homogeneous ChainbasedHigh Random Very good   low  Nodes arestationary HighHIT  Multihop Homogeneous ClusterbasedHigh Random Good    Yes Nodes arestationary LowHEED  Multihop Heterogeneous ClusterbasedHigh Random Good Yes  Medium  Nodes arestationary LowSEP  Single-hop Heterogeneous ClusterbasedLow Random Good Yes    Nodes arestationaryYes HighTL-LEACH  Two Level Homogeneous ClusterbasedHigh Random Good Yes  Low  Nodes arestationary LowBCDCP  Multihop Homogeneous ClusterbasedHigh Random Good   Low  Nodes
+(PP (IN )(NP (NP (NNP ){1,2}(JJ )(NNP ))(CC )))
+Phase: generated57232
+Input: Token
+Rule: generated57232
+(
+(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNP }))({ Token.category == CC })))):pttrn57232 --> :pttrn57232.extracted={}
+

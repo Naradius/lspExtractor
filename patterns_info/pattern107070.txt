@@ -1,0 +1,8 @@
+523536Rahul K. Ambekar*
+(NP (JJ )(NNP ){1,2})
+Phase: generated107070
+Input: Token
+Rule: generated107070
+(
+(({ Token.category == JJ })({ Token.category == NNP })+)):pttrn107070 --> :pttrn107070.extracted={}
+

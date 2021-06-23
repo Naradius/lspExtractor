@@ -1,0 +1,8 @@
+could circumvent a surveillance sys-tem by sending false data.In the case of active intervention
+(VP (MD )(VP (VB )(NP (DT )(NN ){1,2})(PP (IN )(VP (VBG )(NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )))))))))
+Phase: generated49984
+Input: Token
+Rule: generated49984
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn49984 --> :pttrn49984.extracted={}
+

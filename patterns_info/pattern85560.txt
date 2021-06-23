@@ -1,0 +1,8 @@
+affect the cluster learning due to the most machine learning algorithms which are implemented on clustering cannot deal with this huge number of features
+(VP (VB )(NP (NP (DT )(NN ){1,2})(ADJP (JJ )(PP (TO )(NP (NP (DT )(JJS )(NN ){1,2}(NNS ))(VP (VBP )(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(NN )))))))))))
+Phase: generated85560
+Input: Token
+Rule: generated85560
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn85560 --> :pttrn85560.extracted={}
+

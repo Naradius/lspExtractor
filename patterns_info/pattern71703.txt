@@ -1,0 +1,8 @@
+such as FirstSubeventOf,LastSubeventOf, EffectOf in ConceptNet
+(PP (JJ )(IN ))
+Phase: generated71703
+Input: Token
+Rule: generated71703
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn71703 --> :pttrn71703.extracted={}
+

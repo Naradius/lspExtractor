@@ -1,0 +1,8 @@
+into front matter  and bodytext
+(PP (IN )(NP (JJ )(NN )(CC )(NN )))
+Phase: generated88160
+Input: Token
+Rule: generated88160
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn88160 --> :pttrn88160.extracted={}
+

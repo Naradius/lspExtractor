@@ -1,0 +1,8 @@
+The operation of HIT protocol
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN ))))
+Phase: generated55808
+Input: Token
+Rule: generated55808
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn55808 --> :pttrn55808.extracted={}
+

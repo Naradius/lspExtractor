@@ -1,0 +1,8 @@
+lexical terms and syntactic patterns in typical English writing.In many instances, the parsed semantic roles of a sentence may bedifferent from those of a corresponding fictitious sentence that iscomposed by substituting a specific semantic role in the given sen-tence
+(NP (NP (JJ )(NNS ))(CC ))
+Phase: generated72785
+Input: Token
+Rule: generated72785
+(
+((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC }))):pttrn72785 --> :pttrn72785.extracted={}
+

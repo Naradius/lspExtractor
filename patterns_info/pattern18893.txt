@@ -1,0 +1,8 @@
+designed to pro-vide an interface between the android application and appli-ances
+(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(CC )(NNS )))))))
+Phase: generated18893
+Input: Token
+Rule: generated18893
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })))))))):pttrn18893 --> :pttrn18893.extracted={}
+

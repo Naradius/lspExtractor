@@ -1,0 +1,8 @@
+further connected to the Internetvia 6LowPan
+(VP (VBN )(PP (TO )(NP (DT )(NNP )(NN ))))
+Phase: generated50650
+Input: Token
+Rule: generated50650
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn50650 --> :pttrn50650.extracted={}
+

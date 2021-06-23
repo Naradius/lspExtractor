@@ -1,0 +1,8 @@
+more average and more
+(ADJP (RBR )(JJ )(CC )(JJR ))
+Phase: generated59820
+Input: Token
+Rule: generated59820
+(
+(({ Token.category == RBR })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJR }))):pttrn59820 --> :pttrn59820.extracted={}
+

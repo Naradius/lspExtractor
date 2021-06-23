@@ -1,0 +1,8 @@
+the conducted research and describes futurelines
+(NP (DT )(VBN )(NN )(CC )(NNS ){1,2})
+Phase: generated31266
+Input: Token
+Rule: generated31266
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })+)):pttrn31266 --> :pttrn31266.extracted={}
+

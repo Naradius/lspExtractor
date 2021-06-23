@@ -1,0 +1,8 @@
+malicious or legitimate
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated38319
+Input: Token
+Rule: generated38319
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn38319 --> :pttrn38319.extracted={}
+

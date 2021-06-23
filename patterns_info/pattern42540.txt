@@ -1,0 +1,8 @@
+routing approaches
+(NP (JJ )(NNS ))
+Phase: generated42540
+Input: Token
+Rule: generated42540
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn42540 --> :pttrn42540.extracted={}
+

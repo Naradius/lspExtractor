@@ -1,0 +1,8 @@
+the reachability amongsecondary IoT devices with and without power control
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP )(NNS ))(PP (IN )(CC )))))
+Phase: generated23930
+Input: Token
+Rule: generated23930
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })({ Token.category == CC })))))):pttrn23930 --> :pttrn23930.extracted={}
+

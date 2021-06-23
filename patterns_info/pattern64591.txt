@@ -1,0 +1,8 @@
+ofthe pride
+(NP (DT )(NN ))
+Phase: generated64591
+Input: Token
+Rule: generated64591
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn64591 --> :pttrn64591.extracted={}
+

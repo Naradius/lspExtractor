@@ -1,0 +1,8 @@
+assigned Fog devices
+(NP (VBN )(NN )(NNS ))
+Phase: generated19202
+Input: Token
+Rule: generated19202
+(
+(({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))):pttrn19202 --> :pttrn19202.extracted={}
+

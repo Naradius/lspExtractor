@@ -1,0 +1,8 @@
+from the current statecannot
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated55296
+Input: Token
+Rule: generated55296
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn55296 --> :pttrn55296.extracted={}
+

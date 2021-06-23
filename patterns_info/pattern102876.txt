@@ -1,0 +1,8 @@
+the right-hand sidesof productions.Definition 3.2
+(NP (DT )(JJ )(NN ){1,2}(CD ))
+Phase: generated102876
+Input: Token
+Rule: generated102876
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CD }))):pttrn102876 --> :pttrn102876.extracted={}
+

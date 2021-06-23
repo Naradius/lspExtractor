@@ -1,0 +1,8 @@
+of a TF-IDF matrix correspond
+(PP (IN )(NP (DT )(NNP )(NN ){1,2}))
+Phase: generated85601
+Input: Token
+Rule: generated85601
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+))):pttrn85601 --> :pttrn85601.extracted={}
+

@@ -1,0 +1,8 @@
+words and their syntactic links
+(NP (CC )(NP (PRP$ )(NN )(NNS )))
+Phase: generated117826
+Input: Token
+Rule: generated117826
+(
+(({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS })))):pttrn117826 --> :pttrn117826.extracted={}
+

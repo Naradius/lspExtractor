@@ -1,0 +1,8 @@
+shows one such scenario where an in-efficient multi-channel route from source IoT device  to thedestination  yields harmful interference to primary receiver when an alternate multi-channel route  is available that ensures primary protection as well asuses low power transmission  ensuringenergy preservation
+(VP (VBZ )(NP (NP (CD )(JJ )(NN ))(WHADVP (WRB ))))
+Phase: generated21385
+Input: Token
+Rule: generated21385
+(
+(({ Token.category == VBZ })((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == WRB }))))):pttrn21385 --> :pttrn21385.extracted={}
+

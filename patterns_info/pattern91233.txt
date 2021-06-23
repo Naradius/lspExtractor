@@ -1,0 +1,8 @@
+the goal corpus moreand more.Figure 1. Error-driven learning module In the lexical module of the tagger the goal corpus is a list of words containing informationabout the frequencies of tags in a manually annotated corpus
+(NP (NP (DT )(NN ){1,2})(VP (VBD )(NP (JJR )(NN )(CD )(NNP ))))
+Phase: generated91233
+Input: Token
+Rule: generated91233
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBD })(({ Token.category == JJR })({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP }))))):pttrn91233 --> :pttrn91233.extracted={}
+

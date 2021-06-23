@@ -1,0 +1,8 @@
+A large subset comprising of 23.000distinct pattern
+(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NN ))))
+Phase: generated76657
+Input: Token
+Rule: generated76657
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn76657 --> :pttrn76657.extracted={}
+

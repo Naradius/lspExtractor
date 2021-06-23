@@ -1,0 +1,8 @@
+their first,or their second
+(NP (NP (PRP$ )(JJ ))(PP (IN )(NP (PRP$ )(JJ ))))
+Phase: generated23333
+Input: Token
+Rule: generated23333
+(
+((({ Token.category == PRP$ })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ }))))):pttrn23333 --> :pttrn23333.extracted={}
+

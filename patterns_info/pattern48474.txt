@@ -1,0 +1,8 @@
+sensormanagement protocol , task assignment anddata advertisement protocol , and sensorquery and data dissemination protocol
+(NP (NP (NN ){1,2}(CC )(NN ){1,2})(CC )(NP (NN )(CC )(NNS )(NN ){1,2}))
+Phase: generated48474
+Input: Token
+Rule: generated48474
+(
+((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN })+))):pttrn48474 --> :pttrn48474.extracted={}
+

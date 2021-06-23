@@ -1,0 +1,8 @@
+withresulting tag Y
+(PP (IN )(NP (NN )(NNP )))
+Phase: generated91317
+Input: Token
+Rule: generated91317
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })))):pttrn91317 --> :pttrn91317.extracted={}
+

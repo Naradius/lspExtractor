@@ -1,0 +1,8 @@
+fully connectedn nature
+(NP (ADJP (RB )(JJ ))(NN ))
+Phase: generated59101
+Input: Token
+Rule: generated59101
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN }))):pttrn59101 --> :pttrn59101.extracted={}
+

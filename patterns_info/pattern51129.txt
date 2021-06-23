@@ -1,0 +1,8 @@
+network coding.T. Rault et al
+(NP (NN ){1,2}(NNP ){1,2}(NN ))
+Phase: generated51129
+Input: Token
+Rule: generated51129
+(
+(({ Token.category == NN })+({ Token.category == NNP })+({ Token.category == NN }))):pttrn51129 --> :pttrn51129.extracted={}
+

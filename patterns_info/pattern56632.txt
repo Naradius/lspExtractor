@@ -1,0 +1,8 @@
+isT n  p1p rmod 1p  En_currentEmax 	VmaxVn_currentVmax 	where En_current is the current energy, Emaxis the initial energy,Vn_current is the current speed and Vmax maximum speed of thenode
+(VP (MD )(RB )(VP (VB )(NP (NP (DT )(JJ )(NNP ){1,2})(WHADVP (WRB )))))
+Phase: generated56632
+Input: Token
+Rule: generated56632
+(
+(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)(({ Token.category == WRB })))))):pttrn56632 --> :pttrn56632.extracted={}
+

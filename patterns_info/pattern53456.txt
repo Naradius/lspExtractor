@@ -1,0 +1,8 @@
+the cost ofstorage
+(NP (DT )(NN ){1,2})
+Phase: generated53456
+Input: Token
+Rule: generated53456
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn53456 --> :pttrn53456.extracted={}
+

@@ -1,0 +1,8 @@
+needed to start the induction
+(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(NN )))))
+Phase: generated80635
+Input: Token
+Rule: generated80635
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))):pttrn80635 --> :pttrn80635.extracted={}
+

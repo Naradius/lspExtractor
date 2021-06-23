@@ -1,0 +1,8 @@
+linguistic theory rule
+(NP (JJ )(NN ){1,2}){1,2}
+Phase: generated97377
+Input: Token
+Rule: generated97377
+(
+(({ Token.category == JJ })({ Token.category == NN })+)+):pttrn97377 --> :pttrn97377.extracted={}
+

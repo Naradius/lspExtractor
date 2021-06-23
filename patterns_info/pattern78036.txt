@@ -1,0 +1,8 @@
+calculated using the like-lihood estimates P for each observed relation Reli in thefollowing way:H = iP  logP We experimentally determined 3.0 as a good cut-off pointto filter non-descriptive from descriptive patterns, whichwere observed with too many different relations
+(VP (VBN )(VP (VBG )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )(NNP ))))(PP (IN )(VP (VBG )(IN )))))
+Phase: generated78036
+Input: Token
+Rule: generated78036
+(
+(({ Token.category == VBN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == IN })))))):pttrn78036 --> :pttrn78036.extracted={}
+

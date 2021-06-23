@@ -1,0 +1,8 @@
+In our recur-sive algorithm which starts at the trees root node,child node procedure calls are performed.
+(PP (IN )(NP (NP (PRP$ )(JJ )(NN ))(VP (VBZ )(PP (IN )(NP (DT )(NNS )))(VP (VBP )(NP (NN ){1,2}(NNS ))))))
+Phase: generated93518
+Input: Token
+Rule: generated93518
+(
+(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == VBP })(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn93518 --> :pttrn93518.extracted={}
+

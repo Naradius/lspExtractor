@@ -1,0 +1,8 @@
+is skewed,with some patterns being observed frequently for a givenrelation, while many others are rarer
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(VP (VBG )(VP (VBN )(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated76535
+Input: Token
+Rule: generated76535
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn76535 --> :pttrn76535.extracted={}
+

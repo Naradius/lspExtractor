@@ -1,0 +1,8 @@
+a message toadvertise its primary CH and each simple node
+(NP (NP (DT )(NN ){1,2})(NP (PRP$ )(JJ )(NNP ))(CC )(NP (DT )(JJ )(NN )))
+Phase: generated53210
+Input: Token
+Rule: generated53210
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNP }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn53210 --> :pttrn53210.extracted={}
+

@@ -1,0 +1,8 @@
+to derive the energy dissipation
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated7083
+Input: Token
+Rule: generated7083
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn7083 --> :pttrn7083.extracted={}
+

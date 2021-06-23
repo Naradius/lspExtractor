@@ -1,0 +1,8 @@
+on recognizingentities.3
+(PP (IN )(NP (NNS )(CD )))
+Phase: generated92519
+Input: Token
+Rule: generated92519
+(
+(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CD })))):pttrn92519 --> :pttrn92519.extracted={}
+

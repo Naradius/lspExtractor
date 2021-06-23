@@ -1,0 +1,8 @@
+w0 = A & w0 is multiword &t0 = TContextual unigram featureswi
+(NP (NP (NP (CD )(SYM ))(NP (DT )(CC )(CD )))(PP (IN )(NP (SYM )(JJ )(NN )(NNS ))))
+Phase: generated106561
+Input: Token
+Rule: generated106561
+(
+(((({ Token.category == CD })({ Token.category == SYM }))(({ Token.category == DT })({ Token.category == CC })({ Token.category == CD })))(({ Token.category == IN })(({ Token.category == SYM })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn106561 --> :pttrn106561.extracted={}
+

@@ -1,0 +1,8 @@
+de-pendency trees
+(NP (NN )(NNS ))
+Phase: generated75985
+Input: Token
+Rule: generated75985
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn75985 --> :pttrn75985.extracted={}
+

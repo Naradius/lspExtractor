@@ -1,0 +1,8 @@
+differ from traditional ter-restrial networks in that the sensors are deployed in spe-cial environments that make communications difficultand impact their ease of deployment
+(VP (VBP )(PP (IN )(NP (JJ ){1,2}(NNS ))))
+Phase: generated50125
+Input: Token
+Rule: generated50125
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn50125 --> :pttrn50125.extracted={}
+

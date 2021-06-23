@@ -1,0 +1,8 @@
+our system run on three other forums
+(NP (NP (PRP$ )(NN ))(VP (VBN )(PP (IN )(NP (CD )(JJ )(NNS )))))
+Phase: generated74105
+Input: Token
+Rule: generated74105
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn74105 --> :pttrn74105.extracted={}
+

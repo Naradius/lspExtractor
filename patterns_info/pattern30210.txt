@@ -1,0 +1,8 @@
+test the efficiency of our new technique removesthe outliers
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NN )(NNS ){1,2}))))
+Phase: generated30210
+Input: Token
+Rule: generated30210
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })+))))):pttrn30210 --> :pttrn30210.extracted={}
+

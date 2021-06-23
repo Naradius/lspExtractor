@@ -1,0 +1,8 @@
+the basic ring selected by the source node
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated62861
+Input: Token
+Rule: generated62861
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn62861 --> :pttrn62861.extracted={}
+

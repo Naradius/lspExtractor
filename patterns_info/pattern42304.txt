@@ -1,0 +1,8 @@
+Buffer time
+(NP (NNP )(NN ))
+Phase: generated42304
+Input: Token
+Rule: generated42304
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn42304 --> :pttrn42304.extracted={}
+

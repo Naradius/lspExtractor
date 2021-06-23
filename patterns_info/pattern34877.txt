@@ -1,0 +1,8 @@
+based onmulti-dimensional features such as PE file header and machinecode byte sequence, and combining effective feature selectionmethods
+(VP (VP (VBN )(NP (NP (JJ )(NNS ))(PP (JJ )(IN )(NP (CC )(NP (JJ )(NN ){1,2})))))(CC )(VP (VBG )(NP (JJ ){1,2}(NNS ))))
+Phase: generated34877
+Input: Token
+Rule: generated34877
+(
+((({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+)))))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn34877 --> :pttrn34877.extracted={}
+

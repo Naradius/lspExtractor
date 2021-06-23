@@ -1,0 +1,8 @@
+non-wildcard terms
+(NP (JJ )(NNS ))
+Phase: generated83109
+Input: Token
+Rule: generated83109
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn83109 --> :pttrn83109.extracted={}
+

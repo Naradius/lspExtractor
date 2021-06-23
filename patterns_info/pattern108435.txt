@@ -1,0 +1,8 @@
+the distance calculation of the routing path
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated108435
+Input: Token
+Rule: generated108435
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn108435 --> :pttrn108435.extracted={}
+

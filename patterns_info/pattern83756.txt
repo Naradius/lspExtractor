@@ -1,0 +1,8 @@
+fewer than 50 instances
+(NP (QP (JJR )(IN )(CD ))(NNS ))
+Phase: generated83756
+Input: Token
+Rule: generated83756
+(
+((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS }))):pttrn83756 --> :pttrn83756.extracted={}
+

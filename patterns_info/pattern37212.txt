@@ -1,0 +1,8 @@
+= 13 368.3
+(QP (SYM )(CD ){1,2})
+Phase: generated37212
+Input: Token
+Rule: generated37212
+(
+(({ Token.category == SYM })({ Token.category == CD })+)):pttrn37212 --> :pttrn37212.extracted={}
+

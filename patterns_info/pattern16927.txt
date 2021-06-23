@@ -1,0 +1,8 @@
+regards the network layer
+(VP (VBG )(NP (DT )(NN ){1,2}))
+Phase: generated16927
+Input: Token
+Rule: generated16927
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))):pttrn16927 --> :pttrn16927.extracted={}
+

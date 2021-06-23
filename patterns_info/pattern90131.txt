@@ -1,0 +1,8 @@
+the country
+(NP (DT )(NN ))
+Phase: generated90131
+Input: Token
+Rule: generated90131
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn90131 --> :pttrn90131.extracted={}
+

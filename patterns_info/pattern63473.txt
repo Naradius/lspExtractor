@@ -1,0 +1,8 @@
+eferences  G. Han
+(NP (NNS )(NNP ){1,2})
+Phase: generated63473
+Input: Token
+Rule: generated63473
+(
+(({ Token.category == NNS })({ Token.category == NNP })+)):pttrn63473 --> :pttrn63473.extracted={}
+

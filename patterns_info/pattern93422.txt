@@ -1,0 +1,8 @@
+isno longer the CEO of Google and hence resultsin an ontology update
+(VP (CC )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated93422
+Input: Token
+Rule: generated93422
+(
+(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn93422 --> :pttrn93422.extracted={}
+

@@ -1,0 +1,8 @@
+A minimum spanning tree
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated23144
+Input: Token
+Rule: generated23144
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn23144 --> :pttrn23144.extracted={}
+

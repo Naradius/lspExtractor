@@ -1,0 +1,8 @@
+is done based on the evaluation metrics
+(VP (VBZ )(VP (VBN )(PP (VBN )(PP (IN )(NP (DT )(NN )(NNS ))))))
+Phase: generated108960
+Input: Token
+Rule: generated108960
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn108960 --> :pttrn108960.extracted={}
+

@@ -1,0 +1,8 @@
+into a reverse agent
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated33324
+Input: Token
+Rule: generated33324
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn33324 --> :pttrn33324.extracted={}
+

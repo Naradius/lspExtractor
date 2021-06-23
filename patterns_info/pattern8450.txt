@@ -1,0 +1,8 @@
+the cluster sizes
+(NP (DT )(NN )(NNS ))
+Phase: generated8450
+Input: Token
+Rule: generated8450
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn8450 --> :pttrn8450.extracted={}
+

@@ -1,0 +1,8 @@
+a satisfactoryrecall rate
+(NP (DT )(NN ){1,2})
+Phase: generated72231
+Input: Token
+Rule: generated72231
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn72231 --> :pttrn72231.extracted={}
+

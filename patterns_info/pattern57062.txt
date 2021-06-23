@@ -1,0 +1,8 @@
+is applicable for a specificnumber of CH failures
+(VP (VBZ )(ADJP (JJ )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NNS )))))))
+Phase: generated57062
+Input: Token
+Rule: generated57062
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))))):pttrn57062 --> :pttrn57062.extracted={}
+

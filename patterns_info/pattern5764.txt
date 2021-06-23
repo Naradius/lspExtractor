@@ -1,0 +1,8 @@
+propose a novel application of collective social agents to guide the formation of these clusters
+(VP (VBP )(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ ){1,2}(NNS ))))(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))))))
+Phase: generated5764
+Input: Token
+Rule: generated5764
+(
+(({ Token.category == VBP })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn5764 --> :pttrn5764.extracted={}
+

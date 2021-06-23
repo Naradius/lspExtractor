@@ -1,0 +1,8 @@
+morethan 5000 relations
+(NP (JJR )(CD )(NNS ))
+Phase: generated77593
+Input: Token
+Rule: generated77593
+(
+(({ Token.category == JJR })({ Token.category == CD })({ Token.category == NNS }))):pttrn77593 --> :pttrn77593.extracted={}
+

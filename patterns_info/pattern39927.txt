@@ -1,0 +1,8 @@
+a snapshot of formal representation of the GDE
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NNP ))))))
+Phase: generated39927
+Input: Token
+Rule: generated39927
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))))):pttrn39927 --> :pttrn39927.extracted={}
+

@@ -1,0 +1,8 @@
+itmust be mentioned that performance of LOA is a bit weak inf24, f28, f29
+(VP (MD )(VP (VB )(VP (VBN )(IN ))))
+Phase: generated64912
+Input: Token
+Rule: generated64912
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN }))))):pttrn64912 --> :pttrn64912.extracted={}
+

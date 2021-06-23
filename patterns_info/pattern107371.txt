@@ -1,0 +1,8 @@
+by combining the fractional theory and lion algorithm
+(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN )(CC )(NN ){1,2})))
+Phase: generated107371
+Input: Token
+Rule: generated107371
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)))):pttrn107371 --> :pttrn107371.extracted={}
+

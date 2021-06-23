@@ -1,0 +1,8 @@
+co-reference rules
+(NP (NN )(NNS ))
+Phase: generated89105
+Input: Token
+Rule: generated89105
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn89105 --> :pttrn89105.extracted={}
+

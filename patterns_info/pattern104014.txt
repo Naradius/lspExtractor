@@ -1,0 +1,8 @@
+attached to vertex 105, as the next matching direc-tive starts at V1:(p6;M6; 3; f; ; ; g; active):However, the parser cannot simply discard the old version of the dotted rule, as anotheroutgoing edge labeled nmight still appear in the future
+(VP (VBN )(PP (TO )(NP (JJ )(CD )))(IN ))
+Phase: generated104014
+Input: Token
+Rule: generated104014
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == CD })))({ Token.category == IN }))):pttrn104014 --> :pttrn104014.extracted={}
+

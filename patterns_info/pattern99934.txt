@@ -1,0 +1,8 @@
+of the weak pattern
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated99934
+Input: Token
+Rule: generated99934
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn99934 --> :pttrn99934.extracted={}
+

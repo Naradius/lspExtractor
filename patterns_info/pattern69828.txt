@@ -1,0 +1,8 @@
+the most outer layer
+(NP (DT )(ADJP (RBS )(JJ ))(NN ))
+Phase: generated69828
+Input: Token
+Rule: generated69828
+(
+(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))):pttrn69828 --> :pttrn69828.extracted={}
+

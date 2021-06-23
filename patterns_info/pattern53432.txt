@@ -1,0 +1,8 @@
+described the slot during whichsome of the nodes
+(VP (VBD )(NP (DT )(NN )))
+Phase: generated53432
+Input: Token
+Rule: generated53432
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })))):pttrn53432 --> :pttrn53432.extracted={}
+

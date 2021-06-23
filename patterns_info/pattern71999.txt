@@ -1,0 +1,8 @@
+The dog
+(NP (DT )(NN ))
+Phase: generated71999
+Input: Token
+Rule: generated71999
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn71999 --> :pttrn71999.extracted={}
+

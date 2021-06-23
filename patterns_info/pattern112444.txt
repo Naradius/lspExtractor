@@ -1,0 +1,8 @@
+for the Paparazzi project
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated112444
+Input: Token
+Rule: generated112444
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn112444 --> :pttrn112444.extracted={}
+

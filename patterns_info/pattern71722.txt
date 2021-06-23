@@ -1,0 +1,8 @@
+com-pared to the immense scope of general human commonsenseknowledge
+(VP (VBN )(PP (TO )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ ){1,2}(NN ))))))
+Phase: generated71722
+Input: Token
+Rule: generated71722
+(
+(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN }))))))):pttrn71722 --> :pttrn71722.extracted={}
+

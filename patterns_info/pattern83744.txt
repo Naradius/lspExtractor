@@ -1,0 +1,8 @@
+about 500news
+(QP (IN )(CD ))
+Phase: generated83744
+Input: Token
+Rule: generated83744
+(
+(({ Token.category == IN })({ Token.category == CD }))):pttrn83744 --> :pttrn83744.extracted={}
+

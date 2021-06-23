@@ -1,0 +1,8 @@
+a reduced maintenance and deploymentfee
+(NP (DT )(JJ )(NN )(CC )(NN ))
+Phase: generated31562
+Input: Token
+Rule: generated31562
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn31562 --> :pttrn31562.extracted={}
+

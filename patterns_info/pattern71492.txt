@@ -1,0 +1,8 @@
+is around 98%
+(VP (VBZ )(PP (IN )(NP (CD )(NN ))))
+Phase: generated71492
+Input: Token
+Rule: generated71492
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn71492 --> :pttrn71492.extracted={}
+

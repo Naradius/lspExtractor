@@ -1,0 +1,8 @@
+Cooja  simulator
+(NP (NNP )(NN ))
+Phase: generated27257
+Input: Token
+Rule: generated27257
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn27257 --> :pttrn27257.extracted={}
+

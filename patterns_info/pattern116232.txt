@@ -1,0 +1,8 @@
+a state-of-the-art QA system
+(NP (DT )(NN ){1,2})
+Phase: generated116232
+Input: Token
+Rule: generated116232
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn116232 --> :pttrn116232.extracted={}
+

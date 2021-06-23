@@ -1,0 +1,8 @@
+the information sources
+(NP (DT )(NN )(NNS ))
+Phase: generated100252
+Input: Token
+Rule: generated100252
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn100252 --> :pttrn100252.extracted={}
+

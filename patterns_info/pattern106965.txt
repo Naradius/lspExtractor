@@ -1,0 +1,8 @@
+at a given position t
+(PP (IN )(NP (DT )(VBN )(NN ){1,2}))
+Phase: generated106965
+Input: Token
+Rule: generated106965
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+))):pttrn106965 --> :pttrn106965.extracted={}
+

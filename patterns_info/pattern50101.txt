@@ -1,0 +1,8 @@
+caused by heavy rains,wind, animals or engines
+(VP (VBN )(PP (IN )(NP (NP (JJ )(NNS )(NN ))(NP (NNS )(CC )(NNS )))))
+Phase: generated50101
+Input: Token
+Rule: generated50101
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))))):pttrn50101 --> :pttrn50101.extracted={}
+

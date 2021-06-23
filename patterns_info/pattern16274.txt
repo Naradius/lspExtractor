@@ -1,0 +1,8 @@
+neighboring regions
+(NP (VBG )(NNS ))
+Phase: generated16274
+Input: Token
+Rule: generated16274
+(
+(({ Token.category == VBG })({ Token.category == NNS }))):pttrn16274 --> :pttrn16274.extracted={}
+

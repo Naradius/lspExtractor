@@ -1,0 +1,8 @@
+a Destination Orientedirected Acyclic Graph
+(NP (DT )(NNP ){1,2})
+Phase: generated25847
+Input: Token
+Rule: generated25847
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn25847 --> :pttrn25847.extracted={}
+

@@ -1,0 +1,8 @@
+have a dynamic nature
+(VP (VBP )(NP (DT )(JJ )(NN )))
+Phase: generated403
+Input: Token
+Rule: generated403
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn403 --> :pttrn403.extracted={}
+

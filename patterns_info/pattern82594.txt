@@ -1,0 +1,8 @@
+the eld name, such as \fSUBJ
+(NP (NP (DT )(JJ )(NN ))(PP (JJ )(IN )))
+Phase: generated82594
+Input: Token
+Rule: generated82594
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn82594 --> :pttrn82594.extracted={}
+

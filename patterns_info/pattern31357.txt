@@ -1,0 +1,8 @@
+has been carried out to improvemethods for the efficient analysis and management of graphinformation, such as graph similarity search , graph match-ing , and graph mining
+(VP (VBZ )(VP (VBN )(VP (VBN )(PRT (RP )))))
+Phase: generated31357
+Input: Token
+Rule: generated31357
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == RP })))))):pttrn31357 --> :pttrn31357.extracted={}
+

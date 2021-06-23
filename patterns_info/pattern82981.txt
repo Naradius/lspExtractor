@@ -1,0 +1,8 @@
+3g fPrice 995gFigure 11
+(PP (IN )(NP (NN )(NNP )(CD )))
+Phase: generated82981
+Input: Token
+Rule: generated82981
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })({ Token.category == CD })))):pttrn82981 --> :pttrn82981.extracted={}
+

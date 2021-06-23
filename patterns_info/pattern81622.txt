@@ -1,0 +1,8 @@
+as a runningexample of semi-structured text.Capitol Hill - 1 br twnhme
+(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNP ))))(NP (CD )(NN ){1,2})))
+Phase: generated81622
+Input: Token
+Rule: generated81622
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))))(({ Token.category == CD })({ Token.category == NN })+)))):pttrn81622 --> :pttrn81622.extracted={}
+

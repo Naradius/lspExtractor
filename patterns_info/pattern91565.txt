@@ -1,0 +1,8 @@
+of the manually taggedcorpus3
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated91565
+Input: Token
+Rule: generated91565
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn91565 --> :pttrn91565.extracted={}
+

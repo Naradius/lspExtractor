@@ -1,0 +1,8 @@
+are placed within the same organization or home
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )(CC )(NN )))))
+Phase: generated38373
+Input: Token
+Rule: generated38373
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))))):pttrn38373 --> :pttrn38373.extracted={}
+

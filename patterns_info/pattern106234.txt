@@ -1,0 +1,8 @@
+a freely available, accurateand large-coverage lexicon for French
+(NP (DT )(ADJP (RB )(JJ ))(CC ))
+Phase: generated106234
+Input: Token
+Rule: generated106234
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == CC }))):pttrn106234 --> :pttrn106234.extracted={}
+

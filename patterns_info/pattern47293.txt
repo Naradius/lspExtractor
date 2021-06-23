@@ -1,0 +1,8 @@
+of a smart dust mote prototype
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated47293
+Input: Token
+Rule: generated47293
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn47293 --> :pttrn47293.extracted={}
+

@@ -1,0 +1,8 @@
+correctly identified scope
+(NP (JJ )(VBN )(NN ))
+Phase: generated95702
+Input: Token
+Rule: generated95702
+(
+(({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN }))):pttrn95702 --> :pttrn95702.extracted={}
+

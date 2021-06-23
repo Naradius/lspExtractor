@@ -1,0 +1,8 @@
+follow an edge with labelk to a target vertex with label l
+(VP (VBP )(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated103837
+Input: Token
+Rule: generated103837
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn103837 --> :pttrn103837.extracted={}
+

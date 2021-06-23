@@ -1,0 +1,8 @@
+canreduce the transmit on-time by sending multiplebits per symbol
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated45401
+Input: Token
+Rule: generated45401
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn45401 --> :pttrn45401.extracted={}
+

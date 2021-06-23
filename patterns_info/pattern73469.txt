@@ -1,0 +1,8 @@
+accumulate commonsense knowledge efficiently withvery high accuracy rates that are close to 98%
+(VP (VB )(PP (IN )(NP (NP (JJ )(NN )(NNS ))(VP (VBP )(ADJP (JJ )(PP (TO )(NP (CD )(NN ))))))))
+Phase: generated73469
+Input: Token
+Rule: generated73469
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == CD })({ Token.category == NN }))))))))):pttrn73469 --> :pttrn73469.extracted={}
+

@@ -1,0 +1,8 @@
+aim to help research groups and individ-uals in tapping into the potential offered by RE on largecorpora
+(VP (VBP )(VP (TO )(VP (VB )(NP (NN )(NNS )(CC )(NNS )))))
+Phase: generated77625
+Input: Token
+Rule: generated77625
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))))):pttrn77625 --> :pttrn77625.extracted={}
+

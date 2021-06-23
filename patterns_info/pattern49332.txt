@@ -1,0 +1,8 @@
+a general survey of wirelesssensor networks
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated49332
+Input: Token
+Rule: generated49332
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn49332 --> :pttrn49332.extracted={}
+

@@ -1,0 +1,8 @@
+most developing countries
+(NP (JJS )(VBG )(NNS ))
+Phase: generated264
+Input: Token
+Rule: generated264
+(
+(({ Token.category == JJS })({ Token.category == VBG })({ Token.category == NNS }))):pttrn264 --> :pttrn264.extracted={}
+

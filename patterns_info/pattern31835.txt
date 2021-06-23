@@ -1,0 +1,8 @@
+encompasses the followingtechniques or algorithms:968 R. Casado-Vara, A. Martin-del Rey, S. Affes et al
+(VP (VBZ )(NP (DT )(NNS )(CC )(NNS ))(PP (IN )(NP (NP (NN )(NNP ){1,2})(NP (NNP ){1,2}(NN )))))
+Phase: generated31835
+Input: Token
+Rule: generated31835
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNP })+)(({ Token.category == NNP })+({ Token.category == NN })))))):pttrn31835 --> :pttrn31835.extracted={}
+

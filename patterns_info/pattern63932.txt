@@ -1,0 +1,8 @@
+are selected as nomad lions and rest popula-tion
+(VP (VBP )(VP (VBN )(PP (IN )(NP (JJ )(NNS )(CC )(NN ){1,2}))))
+Phase: generated63932
+Input: Token
+Rule: generated63932
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+))))):pttrn63932 --> :pttrn63932.extracted={}
+

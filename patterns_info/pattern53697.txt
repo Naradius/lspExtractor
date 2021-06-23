@@ -1,0 +1,8 @@
+are having b times more energy thanthe normal nodes
+(VP (VBP )(VP (VBG )(NP (NP (NN )(NNS ))(NP (JJR )(NN )))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated53697
+Input: Token
+Rule: generated53697
+(
+(({ Token.category == VBP })(({ Token.category == VBG })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJR })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn53697 --> :pttrn53697.extracted={}
+

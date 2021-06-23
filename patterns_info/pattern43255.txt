@@ -1,0 +1,8 @@
+the delivery rate
+(NP (DT )(NN ){1,2})
+Phase: generated43255
+Input: Token
+Rule: generated43255
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn43255 --> :pttrn43255.extracted={}
+

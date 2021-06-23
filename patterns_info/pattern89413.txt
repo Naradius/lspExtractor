@@ -1,0 +1,8 @@
+a standard left-corner chart parser, where rule ordering is notsignificant
+(NP (NP (DT )(JJ ){1,2}(NN ){1,2})(WHADVP (WRB )))
+Phase: generated89413
+Input: Token
+Rule: generated89413
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == WRB })))):pttrn89413 --> :pttrn89413.extracted={}
+

@@ -1,0 +1,8 @@
+are specific to directional antennashave to be considered
+(VP (VBP )(ADJP (JJ )(PP (TO )(NP (JJ )(NN )))))
+Phase: generated50970
+Input: Token
+Rule: generated50970
+(
+(({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn50970 --> :pttrn50970.extracted={}
+

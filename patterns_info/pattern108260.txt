@@ -1,0 +1,8 @@
+as an unreliable routing path
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated108260
+Input: Token
+Rule: generated108260
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn108260 --> :pttrn108260.extracted={}
+

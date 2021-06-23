@@ -1,0 +1,8 @@
+op-erational spectrum bands
+(NP (JJ )(NN )(NNS ))
+Phase: generated24444
+Input: Token
+Rule: generated24444
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn24444 --> :pttrn24444.extracted={}
+

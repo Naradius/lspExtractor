@@ -1,0 +1,8 @@
+their individual componentsare
+(NP (PRP$ )(JJ )(NN ))
+Phase: generated93180
+Input: Token
+Rule: generated93180
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))):pttrn93180 --> :pttrn93180.extracted={}
+

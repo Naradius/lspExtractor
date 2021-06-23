@@ -1,0 +1,8 @@
+higher precision and recall scores
+(NP (JJR )(NN )(CC )(NN )(NNS ))
+Phase: generated94636
+Input: Token
+Rule: generated94636
+(
+(({ Token.category == JJR })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn94636 --> :pttrn94636.extracted={}
+

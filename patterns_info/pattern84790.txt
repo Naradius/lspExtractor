@@ -1,0 +1,8 @@
+55.4 83.6 36.1 93.8The entire text
+(NP (CD ){1,2}(JJ ){1,2}(NN ))
+Phase: generated84790
+Input: Token
+Rule: generated84790
+(
+(({ Token.category == CD })+({ Token.category == JJ })+({ Token.category == NN }))):pttrn84790 --> :pttrn84790.extracted={}
+

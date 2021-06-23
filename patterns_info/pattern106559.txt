@@ -1,0 +1,8 @@
+w0 = A & w0 is multiword
+(NP (NP (CD )(SYM ))(NP (DT )(CC )(CD )))
+Phase: generated106559
+Input: Token
+Rule: generated106559
+(
+((({ Token.category == CD })({ Token.category == SYM }))(({ Token.category == DT })({ Token.category == CC })({ Token.category == CD })))):pttrn106559 --> :pttrn106559.extracted={}
+

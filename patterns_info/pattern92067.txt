@@ -1,0 +1,8 @@
+desired results
+(NP (VBN )(NNS ))
+Phase: generated92067
+Input: Token
+Rule: generated92067
+(
+(({ Token.category == VBN })({ Token.category == NNS }))):pttrn92067 --> :pttrn92067.extracted={}
+

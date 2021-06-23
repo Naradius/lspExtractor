@@ -1,0 +1,8 @@
+the Hyde
+(NP (DT )(NNP ))
+Phase: generated73046
+Input: Token
+Rule: generated73046
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn73046 --> :pttrn73046.extracted={}
+

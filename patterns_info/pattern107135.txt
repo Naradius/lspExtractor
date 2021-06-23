@@ -1,0 +1,8 @@
+is adapted to the mathematical theory called fractional calculus
+(VP (VBZ )(VP (VBN )(PP (TO )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(NP (JJ )(NN )))))))
+Phase: generated107135
+Input: Token
+Rule: generated107135
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn107135 --> :pttrn107135.extracted={}
+

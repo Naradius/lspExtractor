@@ -1,0 +1,8 @@
+broadcast the transaction data to the entire network.Based on the data desensitization technology
+(VP (VB )(NP (DT )(NN )(NNS ))(PP (TO )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NNS )(NN ){1,2}))))))
+Phase: generated34822
+Input: Token
+Rule: generated34822
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+))))))):pttrn34822 --> :pttrn34822.extracted={}
+

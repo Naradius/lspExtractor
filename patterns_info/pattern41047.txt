@@ -1,0 +1,8 @@
+traditional3E.A. Abdellaoui Alaoui et al
+(VP (VBG )(PP (IN )(NP (NNP ){1,2}(NN ))))
+Phase: generated41047
+Input: Token
+Rule: generated41047
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))):pttrn41047 --> :pttrn41047.extracted={}
+

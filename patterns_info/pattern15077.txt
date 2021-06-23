@@ -1,0 +1,8 @@
+not only with regionemptiness but also with other transient situations .The new mechanism takes advantage of the fact that thetransmissions from a PN can be heard, at least, in its currentregion and in the neighboring regions
+(PP (CONJP (CC )(RB ))(PP (IN )(NP (NP (JJ ){1,2}(NNS ))(NP (DT )(JJ )(NN )))))
+Phase: generated15077
+Input: Token
+Rule: generated15077
+(
+((({ Token.category == CC })({ Token.category == RB }))(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn15077 --> :pttrn15077.extracted={}
+

@@ -1,0 +1,8 @@
+the tokens between square brackets
+(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated99325
+Input: Token
+Rule: generated99325
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn99325 --> :pttrn99325.extracted={}
+

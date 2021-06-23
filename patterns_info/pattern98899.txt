@@ -1,0 +1,8 @@
+the question.In the following section we describe the component responsible for learning lexico-syntacticpatterns in THE-MENTOR
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated98899
+Input: Token
+Rule: generated98899
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn98899 --> :pttrn98899.extracted={}
+

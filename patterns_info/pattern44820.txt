@@ -1,0 +1,8 @@
+repeat-edly collide.Hybrid TDMA/FDMA based: This centrallycontrolled MAC scheme is introduced in
+(VP (VB )(NP (NP (JJ )(NN ))(VP (VBN )(NP (DT )(JJ )(NNP )(NN )))))
+Phase: generated44820
+Input: Token
+Rule: generated44820
+(
+(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })))))):pttrn44820 --> :pttrn44820.extracted={}
+

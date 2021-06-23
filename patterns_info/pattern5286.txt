@@ -1,0 +1,8 @@
+more thantwice the lifetime of HEED and LEACH.
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(CC )(NNP )))))
+Phase: generated5286
+Input: Token
+Rule: generated5286
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))))):pttrn5286 --> :pttrn5286.extracted={}
+

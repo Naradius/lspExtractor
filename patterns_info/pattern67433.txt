@@ -1,0 +1,8 @@
+of 600 m x
+(PP (IN )(NP (CD )(NN ){1,2}))
+Phase: generated67433
+Input: Token
+Rule: generated67433
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })+))):pttrn67433 --> :pttrn67433.extracted={}
+

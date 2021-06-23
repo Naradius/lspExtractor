@@ -1,0 +1,8 @@
+the players
+(NP (DT )(NNS ))
+Phase: generated22769
+Input: Token
+Rule: generated22769
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn22769 --> :pttrn22769.extracted={}
+

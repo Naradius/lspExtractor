@@ -1,0 +1,8 @@
+based on the algorithm presented in this paper
+(PP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated114748
+Input: Token
+Rule: generated114748
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn114748 --> :pttrn114748.extracted={}
+

@@ -1,0 +1,8 @@
+limits the problem to well-dened and fairly repetitious information
+(VP (VBZ )(NP (DT )(NN ))(PP (TO )(NP (JJ )(CC )(RB )(JJ )(NN ))))
+Phase: generated81018
+Input: Token
+Rule: generated81018
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == RB })({ Token.category == JJ })({ Token.category == NN }))))):pttrn81018 --> :pttrn81018.extracted={}
+

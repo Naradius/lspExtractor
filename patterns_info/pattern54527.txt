@@ -1,0 +1,8 @@
+more remaining energy
+(NP (RBR )(VBG )(NN ))
+Phase: generated54527
+Input: Token
+Rule: generated54527
+(
+(({ Token.category == RBR })({ Token.category == VBG })({ Token.category == NN }))):pttrn54527 --> :pttrn54527.extracted={}
+

@@ -1,0 +1,8 @@
+The percentage
+(NP (DT )(NN ))
+Phase: generated101039
+Input: Token
+Rule: generated101039
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn101039 --> :pttrn101039.extracted={}
+

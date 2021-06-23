@@ -1,0 +1,8 @@
+Annotation Editor 255.1 Adding annotations
+(NP (NNP ){1,2}(CD )(VBG )(NNS ))
+Phase: generated87107
+Input: Token
+Rule: generated87107
+(
+(({ Token.category == NNP })+({ Token.category == CD })({ Token.category == VBG })({ Token.category == NNS }))):pttrn87107 --> :pttrn87107.extracted={}
+

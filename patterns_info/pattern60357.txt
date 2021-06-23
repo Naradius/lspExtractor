@@ -1,0 +1,8 @@
+discussions	5 Conclusion
+(NP (NNS )(CD )(NNP ))
+Phase: generated60357
+Input: Token
+Rule: generated60357
+(
+(({ Token.category == NNS })({ Token.category == CD })({ Token.category == NNP }))):pttrn60357 --> :pttrn60357.extracted={}
+

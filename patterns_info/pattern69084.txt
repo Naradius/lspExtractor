@@ -1,0 +1,8 @@
+an area covered by48 sensor nodes
+(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (NN )(NNS )))))
+Phase: generated69084
+Input: Token
+Rule: generated69084
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn69084 --> :pttrn69084.extracted={}
+

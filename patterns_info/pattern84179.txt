@@ -1,0 +1,8 @@
+of 100 news articles used as the ocialMUC-6 conference test set
+(PP (IN )(NP (NP (CD )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated84179
+Input: Token
+Rule: generated84179
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn84179 --> :pttrn84179.extracted={}
+

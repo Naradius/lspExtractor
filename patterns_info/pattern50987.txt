@@ -1,0 +1,8 @@
+the increased complexity
+(NP (DT )(VBN )(NN ))
+Phase: generated50987
+Input: Token
+Rule: generated50987
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn50987 --> :pttrn50987.extracted={}
+

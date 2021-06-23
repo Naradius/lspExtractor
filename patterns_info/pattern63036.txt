@@ -1,0 +1,8 @@
+the time
+(NP (DT )(NN ))
+Phase: generated63036
+Input: Token
+Rule: generated63036
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn63036 --> :pttrn63036.extracted={}
+

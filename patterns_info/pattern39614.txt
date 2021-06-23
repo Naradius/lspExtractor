@@ -1,0 +1,8 @@
+the framework and formal representations
+(NP (NP (DT )(NN ))(CC )(NP (JJ )(NNS )))
+Phase: generated39614
+Input: Token
+Rule: generated39614
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn39614 --> :pttrn39614.extracted={}
+

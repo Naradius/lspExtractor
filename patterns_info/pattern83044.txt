@@ -1,0 +1,8 @@
+the Laplacian formula
+(NP (DT )(JJ )(NN ))
+Phase: generated83044
+Input: Token
+Rule: generated83044
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn83044 --> :pttrn83044.extracted={}
+

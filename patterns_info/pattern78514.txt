@@ -1,0 +1,8 @@
+ten-fold cross validation on 100 randomly selected textsfrom the Software Jobs domain
+(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (NP (CD )(RB ))(VP (VBN )(PP (IN )(NP (DT )(NNP ){1,2}(NN )))))))
+Phase: generated78514
+Input: Token
+Rule: generated78514
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == CD })({ Token.category == RB }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))))))):pttrn78514 --> :pttrn78514.extracted={}
+

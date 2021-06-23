@@ -1,0 +1,8 @@
+maintains a region id, the medium accesscontrol  address of the current leader of the region,and parameters to measure the activeness of the region
+(VP (VBZ )(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )(CC )(NNS )))(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))))))
+Phase: generated13655
+Input: Token
+Rule: generated13655
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn13655 --> :pttrn13655.extracted={}
+

@@ -1,0 +1,8 @@
+a stationary maximum performance
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated43339
+Input: Token
+Rule: generated43339
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn43339 --> :pttrn43339.extracted={}
+

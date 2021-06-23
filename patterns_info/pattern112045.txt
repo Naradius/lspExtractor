@@ -1,0 +1,8 @@
+a linear con-roller / observer and spectral analysis of the traffic
+(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated112045
+Input: Token
+Rule: generated112045
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn112045 --> :pttrn112045.extracted={}
+

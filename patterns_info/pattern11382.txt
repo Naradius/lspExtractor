@@ -1,0 +1,8 @@
+another node, thenode forwards a request to the cluster leader node with a packet
+(NP (NP (DT )(NN ))(NP (NP (DT )(NNS ))(NP (DT )(NN ))(PP (TO )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))))
+Phase: generated11382
+Input: Token
+Rule: generated11382
+(
+((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn11382 --> :pttrn11382.extracted={}
+

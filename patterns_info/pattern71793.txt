@@ -1,0 +1,8 @@
+provide the onlycredible prospect for acquiring world knowledge on the scaleneeded to support real life applications
+(VP (VBP )(NP (NP (DT )(JJ )(NN ))(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(VBN )))(VP (TO )(VP (VB )(NP (JJ )(NN )(NNS ))))))))
+Phase: generated71793
+Input: Token
+Rule: generated71793
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn71793 --> :pttrn71793.extracted={}
+

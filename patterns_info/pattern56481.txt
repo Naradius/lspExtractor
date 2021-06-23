@@ -1,0 +1,8 @@
+of 60.Yueyang et al
+(PP (IN )(NP (CD )(NNP )(NN )))
+Phase: generated56481
+Input: Token
+Rule: generated56481
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })))):pttrn56481 --> :pttrn56481.extracted={}
+

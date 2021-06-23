@@ -1,0 +1,8 @@
+of CH electionand CMs enrollment
+(PP (IN )(NP (NNP )(CC )(NNP )(NN )))
+Phase: generated54534
+Input: Token
+Rule: generated54534
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NN })))):pttrn54534 --> :pttrn54534.extracted={}
+

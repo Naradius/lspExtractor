@@ -1,0 +1,8 @@
+to raise the accuracy to as high as above 90% so asto keep the final knowledge item reliable
+(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (TO )(NP (ADJP (RB )(JJ ))(PP (IN )(PP (IN )(NP (CD )(NN ))))))(RB )(VP (VB )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated72845
+Input: Token
+Rule: generated72845
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))))({ Token.category == RB })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn72845 --> :pttrn72845.extracted={}
+

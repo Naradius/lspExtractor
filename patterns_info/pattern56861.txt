@@ -1,0 +1,8 @@
+as spare selection phase
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated56861
+Input: Token
+Rule: generated56861
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn56861 --> :pttrn56861.extracted={}
+

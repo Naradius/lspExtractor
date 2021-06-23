@@ -1,0 +1,8 @@
+each eventform a knowledge item that possibly contains the desired knowl-edge
+(NP (NP (DT )(NN ))(NP (NP (DT )(NN ){1,2})(VP (VBZ )(NP (DT )(VBN )(NN )))))
+Phase: generated72386
+Input: Token
+Rule: generated72386
+(
+((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))))):pttrn72386 --> :pttrn72386.extracted={}
+

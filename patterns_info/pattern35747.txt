@@ -1,0 +1,8 @@
+raspberry pi,Procedia
+(NP (NN )(NNS ))
+Phase: generated35747
+Input: Token
+Rule: generated35747
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn35747 --> :pttrn35747.extracted={}
+

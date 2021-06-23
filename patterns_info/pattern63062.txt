@@ -1,0 +1,8 @@
+be used to protect the source loca-ion privacy
+(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))))
+Phase: generated63062
+Input: Token
+Rule: generated63062
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn63062 --> :pttrn63062.extracted={}
+

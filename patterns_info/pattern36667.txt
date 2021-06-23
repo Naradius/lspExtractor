@@ -1,0 +1,8 @@
+the consistency
+(NP (DT )(NN ))
+Phase: generated36667
+Input: Token
+Rule: generated36667
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn36667 --> :pttrn36667.extracted={}
+

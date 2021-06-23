@@ -1,0 +1,8 @@
+to probabilistically chooseto either relay the traffic to the next-hop or to deliver itdirectly to the sink
+(VP (TO )(VP (VB )(CC )(VP (VB )(NP (DT )(NN ))(PP (PP (TO )(NP (DT )(JJ )))(CC )))))
+Phase: generated6326
+Input: Token
+Rule: generated6326
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))((({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })))({ Token.category == CC })))))):pttrn6326 --> :pttrn6326.extracted={}
+

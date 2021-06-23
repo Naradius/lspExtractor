@@ -1,0 +1,8 @@
+theprocessing efficiency
+(NP (DT )(NN ))
+Phase: generated35398
+Input: Token
+Rule: generated35398
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn35398 --> :pttrn35398.extracted={}
+

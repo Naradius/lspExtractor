@@ -1,0 +1,8 @@
+user. 4 Appliances
+(NP (NN )(CD )(NNP ))
+Phase: generated19467
+Input: Token
+Rule: generated19467
+(
+(({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP }))):pttrn19467 --> :pttrn19467.extracted={}
+

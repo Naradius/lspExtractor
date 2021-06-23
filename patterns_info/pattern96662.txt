@@ -1,0 +1,8 @@
+rather than a word based approach
+(PP (RB )(IN ))
+Phase: generated96662
+Input: Token
+Rule: generated96662
+(
+(({ Token.category == RB })({ Token.category == IN }))):pttrn96662 --> :pttrn96662.extracted={}
+

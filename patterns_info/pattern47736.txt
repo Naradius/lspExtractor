@@ -1,0 +1,8 @@
+modulation schemes
+(NP (NN )(NNS ))
+Phase: generated47736
+Input: Token
+Rule: generated47736
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn47736 --> :pttrn47736.extracted={}
+

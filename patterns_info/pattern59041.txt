@@ -1,0 +1,8 @@
+used as the con-olution layer
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated59041
+Input: Token
+Rule: generated59041
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn59041 --> :pttrn59041.extracted={}
+

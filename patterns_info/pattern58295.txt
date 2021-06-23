@@ -1,0 +1,8 @@
+,with one node acting as the leader and known as cluster head and rest of the nodes act as ordinary nodes
+(PP (IN )(NP (NP (CD )(NN ))(VP (VP (VBG )(PP (IN )(NP (DT )(NN ))))(CC )(VP (VBN )(PP (IN )(NP (NP (NN ){1,2}(CC )(NN ))(PP (IN )(NP (DT )(NNS ))))))(VP (VBP )(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated58295
+Input: Token
+Rule: generated58295
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN }))((({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn58295 --> :pttrn58295.extracted={}
+

@@ -1,0 +1,8 @@
+the bee function ifit  value at this site
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated1687
+Input: Token
+Rule: generated1687
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn1687 --> :pttrn1687.extracted={}
+

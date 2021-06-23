@@ -1,0 +1,8 @@
+a Single Perceptron
+(NP (DT )(NNP ){1,2})
+Phase: generated106241
+Input: Token
+Rule: generated106241
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn106241 --> :pttrn106241.extracted={}
+

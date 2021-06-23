@@ -1,0 +1,8 @@
+the real packets
+(NP (DT )(JJ )(NNS ))
+Phase: generated62866
+Input: Token
+Rule: generated62866
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn62866 --> :pttrn62866.extracted={}
+

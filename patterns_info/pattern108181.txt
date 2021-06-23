@@ -1,0 +1,8 @@
+node na removes the excluded routes as nb, nc
+(VP (VB )(VP (TO )(VP (VBZ )(NP (DT )(JJ )(NNS )))))
+Phase: generated108181
+Input: Token
+Rule: generated108181
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn108181 --> :pttrn108181.extracted={}
+

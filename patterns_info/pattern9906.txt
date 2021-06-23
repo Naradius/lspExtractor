@@ -1,0 +1,8 @@
+the cluster leader node
+(NP (DT )(NN ){1,2})
+Phase: generated9906
+Input: Token
+Rule: generated9906
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn9906 --> :pttrn9906.extracted={}
+

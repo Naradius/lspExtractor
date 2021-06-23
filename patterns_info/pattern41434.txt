@@ -1,0 +1,8 @@
+ableto deliver critical and sensitive data such as monitoring data.6
+(NP (NP (NP (JJ )(NN ))(ADJP (JJ )(CC )(JJ ))(NNS ))(PP (JJ )(IN )(NP (NN )(NNS ))))
+Phase: generated41434
+Input: Token
+Rule: generated41434
+(
+(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn41434 --> :pttrn41434.extracted={}
+

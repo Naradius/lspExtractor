@@ -1,0 +1,8 @@
+the sourcebefore replication
+(NP (DT )(JJ )(NN ))
+Phase: generated41880
+Input: Token
+Rule: generated41880
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn41880 --> :pttrn41880.extracted={}
+

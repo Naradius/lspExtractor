@@ -1,0 +1,8 @@
+202 live nodes
+(NP (CD )(JJ )(NNS ))
+Phase: generated10558
+Input: Token
+Rule: generated10558
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn10558 --> :pttrn10558.extracted={}
+

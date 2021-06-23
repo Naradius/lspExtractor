@@ -1,0 +1,8 @@
+between  and , it should be noted that theformer would allow both variables to be accessed for use on rule l.h.s., whereas the latterreduces the prolixity of the notation
+(PP (IN )(CC ))
+Phase: generated90222
+Input: Token
+Rule: generated90222
+(
+(({ Token.category == IN })({ Token.category == CC }))):pttrn90222 --> :pttrn90222.extracted={}
+

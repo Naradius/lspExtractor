@@ -1,0 +1,8 @@
+end-to-end delay, ETX, and hop count
+(NP (NP (JJ )(NN ))(CC ))
+Phase: generated26827
+Input: Token
+Rule: generated26827
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))):pttrn26827 --> :pttrn26827.extracted={}
+

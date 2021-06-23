@@ -1,0 +1,8 @@
+nodesto become more energy drained than the others.6.4
+(VP (VBN )(NP (RBR )(NN )))
+Phase: generated8625
+Input: Token
+Rule: generated8625
+(
+(({ Token.category == VBN })(({ Token.category == RBR })({ Token.category == NN })))):pttrn8625 --> :pttrn8625.extracted={}
+

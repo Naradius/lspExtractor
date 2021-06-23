@@ -1,0 +1,8 @@
+opposed to other pro-posals in the literature.Observation 1
+(VP (VBN )(PP (TO )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}(CD ))))))
+Phase: generated7301
+Input: Token
+Rule: generated7301
+(
+(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CD }))))))):pttrn7301 --> :pttrn7301.extracted={}
+

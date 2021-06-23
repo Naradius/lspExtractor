@@ -1,0 +1,8 @@
+the German Web
+(NP (DT )(JJ )(NNP ))
+Phase: generated78344
+Input: Token
+Rule: generated78344
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))):pttrn78344 --> :pttrn78344.extracted={}
+

@@ -1,0 +1,8 @@
+have got greatdevelopment in the past several years
+(VP (VB )(VP (VBD )(PP (IN )(NP (DT )(JJ ){1,2}(NNS )))))
+Phase: generated32265
+Input: Token
+Rule: generated32265
+(
+(({ Token.category == VB })(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))))):pttrn32265 --> :pttrn32265.extracted={}
+

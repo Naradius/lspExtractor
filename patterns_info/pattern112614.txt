@@ -1,0 +1,8 @@
+such as ad hoc networks for aerial vehicles
+(PP (JJ )(IN )(NP (NP (NN )(JJ )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated112614
+Input: Token
+Rule: generated112614
+(
+(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn112614 --> :pttrn112614.extracted={}
+

@@ -1,0 +1,8 @@
+2-3 keywords
+(NP (CD )(NNS ))
+Phase: generated70269
+Input: Token
+Rule: generated70269
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn70269 --> :pttrn70269.extracted={}
+

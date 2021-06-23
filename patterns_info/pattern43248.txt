@@ -1,0 +1,8 @@
+2 and 10.As Fig. 17 shows
+(NP (CC )(NP (DT )(NNP )(CD )(NNS )))
+Phase: generated43248
+Input: Token
+Rule: generated43248
+(
+(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNS })))):pttrn43248 --> :pttrn43248.extracted={}
+

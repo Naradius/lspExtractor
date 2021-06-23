@@ -1,0 +1,8 @@
+uses the shortest path routing to deliver the packet to node in cluster 1
+(VP (VBZ )(NP (NP (DT )(JJS )(NN ))(VP (VBG )(VP (TO )(VP (VB )(NP (DT )(NN ))(VP (TO )(VP (VB )(PP (IN )(NP (NN )(CD ))))))))))
+Phase: generated62553
+Input: Token
+Rule: generated62553
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))))))))):pttrn62553 --> :pttrn62553.extracted={}
+

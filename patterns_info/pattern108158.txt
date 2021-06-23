@@ -1,0 +1,8 @@
+can avoid the wormhole attackers on the particular route
+(VP (MD )(VP (VB )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated108158
+Input: Token
+Rule: generated108158
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn108158 --> :pttrn108158.extracted={}
+

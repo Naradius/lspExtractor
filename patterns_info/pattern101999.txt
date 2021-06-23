@@ -1,0 +1,8 @@
+move any graphical object without anyinterference by the syntax
+(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated101999
+Input: Token
+Rule: generated101999
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn101999 --> :pttrn101999.extracted={}
+

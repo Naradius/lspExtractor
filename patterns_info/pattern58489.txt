@@ -1,0 +1,8 @@
+be a CH for this round.Figure 3 shows the steps used in the protocol.Apart from many potential applications of WSNs
+(VP (VB )(NP (NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NN ){1,2})))(VP (VBZ )(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated58489
+Input: Token
+Rule: generated58489
+(
+(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn58489 --> :pttrn58489.extracted={}
+

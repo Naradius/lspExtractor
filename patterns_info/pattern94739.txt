@@ -1,0 +1,8 @@
+http://www.w3.org/TR/rdf-concepts
+(NP (NN )(NNS ))
+Phase: generated94739
+Input: Token
+Rule: generated94739
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn94739 --> :pttrn94739.extracted={}
+

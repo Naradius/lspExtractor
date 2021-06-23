@@ -1,0 +1,8 @@
+to the associated sensor
+(PP (TO )(NP (DT )(JJ )(NN )))
+Phase: generated22231
+Input: Token
+Rule: generated22231
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn22231 --> :pttrn22231.extracted={}
+

@@ -1,0 +1,8 @@
+does not only separate strings into basic processing units, but also interprets and groups isolated tokens to create higher level tokens
+(VP (VP (VBZ )(RB ){1,2}(NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS ))))(CC ))
+Phase: generated85226
+Input: Token
+Rule: generated85226
+(
+((({ Token.category == VBZ })({ Token.category == RB })+(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))({ Token.category == CC }))):pttrn85226 --> :pttrn85226.extracted={}
+

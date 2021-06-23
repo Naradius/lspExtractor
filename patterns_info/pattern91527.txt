@@ -1,0 +1,8 @@
+could in principle be the same rule as R1, i.e. the rules considered in each iteration is the whole set PR.4 Learning lexical rulesThe ideal goal of the lexical module
+(VP (MD )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated91527
+Input: Token
+Rule: generated91527
+(
+(({ Token.category == MD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn91527 --> :pttrn91527.extracted={}
+

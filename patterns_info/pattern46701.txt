@@ -1,0 +1,8 @@
+can provide paging and localization in-side the museum
+(VP (MD )(VP (VB )(NP (NP (NN )(CC )(NN ))(NP (DT )(NN )))))
+Phase: generated46701
+Input: Token
+Rule: generated46701
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })))))):pttrn46701 --> :pttrn46701.extracted={}
+

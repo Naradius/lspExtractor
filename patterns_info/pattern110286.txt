@@ -1,0 +1,8 @@
+known at a given moment inime, in order to predict the future evolution of the system
+(VP (VBN )(PP (IN )(NP (DT )(VBN )(NN ){1,2})))
+Phase: generated110286
+Input: Token
+Rule: generated110286
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))):pttrn110286 --> :pttrn110286.extracted={}
+

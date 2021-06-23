@@ -1,0 +1,8 @@
+the text andlater processing
+(NP (DT )(NN ){1,2})
+Phase: generated81923
+Input: Token
+Rule: generated81923
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn81923 --> :pttrn81923.extracted={}
+

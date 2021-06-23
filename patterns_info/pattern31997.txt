@@ -1,0 +1,8 @@
+Clustering moduleTemperature data
+(NP (NNP )(NN )(NNS ))
+Phase: generated31997
+Input: Token
+Rule: generated31997
+(
+(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))):pttrn31997 --> :pttrn31997.extracted={}
+

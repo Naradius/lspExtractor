@@ -1,0 +1,8 @@
+The metric value carried by the DIOetric container and sent by the neighbour
+(NP (NP (DT )(JJ )(NN ))(VP (VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))(CC )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated26664
+Input: Token
+Rule: generated26664
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn26664 --> :pttrn26664.extracted={}
+

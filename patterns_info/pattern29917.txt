@@ -1,0 +1,8 @@
+the ESP8266 microcontroller
+(NP (DT )(NNPS )(NN ))
+Phase: generated29917
+Input: Token
+Rule: generated29917
+(
+(({ Token.category == DT })({ Token.category == NNPS })({ Token.category == NN }))):pttrn29917 --> :pttrn29917.extracted={}
+

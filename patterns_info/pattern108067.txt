@@ -1,0 +1,8 @@
+as the destination node
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated108067
+Input: Token
+Rule: generated108067
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn108067 --> :pttrn108067.extracted={}
+

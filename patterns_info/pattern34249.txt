@@ -1,0 +1,8 @@
+running on different nodes, which in turn leads to hardforks and soft forks
+(VP (VBG )(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBZ )(PP (TO )(NP (CC )(NP (JJ )(NNS ))))))))
+Phase: generated34249
+Input: Token
+Rule: generated34249
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn34249 --> :pttrn34249.extracted={}
+

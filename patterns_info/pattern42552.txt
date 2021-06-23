@@ -1,0 +1,8 @@
+each pro-tocol according
+(NP (DT )(JJ )(NN ))
+Phase: generated42552
+Input: Token
+Rule: generated42552
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn42552 --> :pttrn42552.extracted={}
+

@@ -1,0 +1,8 @@
+the chart.Figure 9
+(NP (DT )(NN )(CD ))
+Phase: generated100513
+Input: Token
+Rule: generated100513
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CD }))):pttrn100513 --> :pttrn100513.extracted={}
+

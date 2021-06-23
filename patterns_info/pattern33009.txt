@@ -1,0 +1,8 @@
+provide moreflexible interaction and cooperation mode
+(VP (VB )(NP (JJ )(NN )(CC )(NN ){1,2}))
+Phase: generated33009
+Input: Token
+Rule: generated33009
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))):pttrn33009 --> :pttrn33009.extracted={}
+

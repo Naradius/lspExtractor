@@ -1,0 +1,8 @@
+to be syntactically correct
+(VP (TO )(VP (VB )(ADJP (RB )(JJ ))))
+Phase: generated73137
+Input: Token
+Rule: generated73137
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RB })({ Token.category == JJ }))))):pttrn73137 --> :pttrn73137.extracted={}
+

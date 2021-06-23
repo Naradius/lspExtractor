@@ -1,0 +1,8 @@
+the dictionary
+(NP (DT )(NN ))
+Phase: generated74255
+Input: Token
+Rule: generated74255
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn74255 --> :pttrn74255.extracted={}
+

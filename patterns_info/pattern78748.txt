@@ -1,0 +1,8 @@
+handle the complexities offree text
+(VP (VB )(NP (DT )(NNS )(JJ )(NN )))
+Phase: generated78748
+Input: Token
+Rule: generated78748
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NN })))):pttrn78748 --> :pttrn78748.extracted={}
+

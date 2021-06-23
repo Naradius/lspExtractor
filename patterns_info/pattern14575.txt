@@ -1,0 +1,8 @@
+rearranging the transitions between theremaining states, as shown in Fig
+(VP (VBG )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS ))))(IN ))
+Phase: generated14575
+Input: Token
+Rule: generated14575
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))({ Token.category == IN }))):pttrn14575 --> :pttrn14575.extracted={}
+

@@ -1,0 +1,8 @@
+the longest matching substrings
+(NP (DT )(JJS )(NN )(NNS ))
+Phase: generated98863
+Input: Token
+Rule: generated98863
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })({ Token.category == NNS }))):pttrn98863 --> :pttrn98863.extracted={}
+

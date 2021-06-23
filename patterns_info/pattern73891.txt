@@ -1,0 +1,8 @@
+improve a symptom orcondition  are included in DT
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated73891
+Input: Token
+Rule: generated73891
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn73891 --> :pttrn73891.extracted={}
+

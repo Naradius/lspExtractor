@@ -1,0 +1,8 @@
+thathe packet delivery ratio
+(NP (DT )(NN ){1,2})
+Phase: generated60985
+Input: Token
+Rule: generated60985
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn60985 --> :pttrn60985.extracted={}
+

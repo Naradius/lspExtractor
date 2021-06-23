@@ -1,0 +1,8 @@
+therewere synchronized backups
+(NP (DT )(JJ )(NNS ))
+Phase: generated14374
+Input: Token
+Rule: generated14374
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn14374 --> :pttrn14374.extracted={}
+

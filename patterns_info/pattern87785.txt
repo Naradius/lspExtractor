@@ -1,0 +1,8 @@
+would notbe sufficient to say that the sem feature has the values  and the idfeature the values , sincethe semantics of the rule-based analyser assume all such lists to be disjunctions, when in factthey are distributed disjunctions.As it is planned to move to the use of a knowledge-base in place of the simple gazetteer,those kinds of enhancement will be delayed until that version of the resource becomes available
+(VP (MD )(RB )(VP (VB )(VP (TO )(VP (VB )(IN )))))
+Phase: generated87785
+Input: Token
+Rule: generated87785
+(
+(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))))):pttrn87785 --> :pttrn87785.extracted={}
+

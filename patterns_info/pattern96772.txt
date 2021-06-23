@@ -1,0 +1,8 @@
+the tag for a word
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated96772
+Input: Token
+Rule: generated96772
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn96772 --> :pttrn96772.extracted={}
+

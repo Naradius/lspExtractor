@@ -1,0 +1,8 @@
+of assigning a part-of-speech or lexical class marker to each word in a collection
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(CC )(NP (NP (JJ )(NN ){1,2})(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated97437
+Input: Token
+Rule: generated97437
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn97437 --> :pttrn97437.extracted={}
+

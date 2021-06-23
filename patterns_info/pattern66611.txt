@@ -1,0 +1,8 @@
+same for both transmission and reply
+(ADJP (JJ )(PP (IN )(NP (DT )(NN )(CC )(NN ))))
+Phase: generated66611
+Input: Token
+Rule: generated66611
+(
+(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn66611 --> :pttrn66611.extracted={}
+

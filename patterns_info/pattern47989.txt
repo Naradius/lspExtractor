@@ -1,0 +1,8 @@
+ishence an effective means of lowering power con-sumption in the active state
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated47989
+Input: Token
+Rule: generated47989
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn47989 --> :pttrn47989.extracted={}
+

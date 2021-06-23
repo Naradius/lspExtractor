@@ -1,0 +1,8 @@
+the network.Lan et al
+(NP (DT )(NN )(NNP ){1,2}(NN ))
+Phase: generated54503
+Input: Token
+Rule: generated54503
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN }))):pttrn54503 --> :pttrn54503.extracted={}
+

@@ -1,0 +1,8 @@
+to stayconstant with the increase of replications under the two topologies
+(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(CD )(NNS )))))))
+Phase: generated43453
+Input: Token
+Rule: generated43453
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS })))))))):pttrn43453 --> :pttrn43453.extracted={}
+

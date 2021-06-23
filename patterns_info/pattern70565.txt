@@ -1,0 +1,8 @@
+of resultant semantic representation
+(PP (IN )(NP (JJ ){1,2}(NN )))
+Phase: generated70565
+Input: Token
+Rule: generated70565
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })))):pttrn70565 --> :pttrn70565.extracted={}
+

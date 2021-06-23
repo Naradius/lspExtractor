@@ -1,0 +1,8 @@
+the Maximum Common Subgraph Problem
+(NP (DT )(NNP ){1,2})
+Phase: generated116949
+Input: Token
+Rule: generated116949
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn116949 --> :pttrn116949.extracted={}
+

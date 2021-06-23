@@ -1,0 +1,8 @@
+by selecting annotation groups or instances in the tree or tabularviews
+(PP (IN )(VP (VBG )(NP (NP (NN )(NNS ))(CC ))))
+Phase: generated89719
+Input: Token
+Rule: generated89719
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn89719 --> :pttrn89719.extracted={}
+

@@ -1,0 +1,8 @@
+a semantic constraint
+(NP (DT )(JJ )(NN ))
+Phase: generated80381
+Input: Token
+Rule: generated80381
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn80381 --> :pttrn80381.extracted={}
+

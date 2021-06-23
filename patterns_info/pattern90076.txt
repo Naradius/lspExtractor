@@ -1,0 +1,8 @@
+of the relevant entities
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated90076
+Input: Token
+Rule: generated90076
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn90076 --> :pttrn90076.extracted={}
+

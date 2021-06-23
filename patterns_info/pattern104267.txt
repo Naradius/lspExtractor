@@ -1,0 +1,8 @@
+to the graph
+(PP (TO )(NP (DT )(NN )))
+Phase: generated104267
+Input: Token
+Rule: generated104267
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))):pttrn104267 --> :pttrn104267.extracted={}
+

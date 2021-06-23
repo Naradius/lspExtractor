@@ -1,0 +1,8 @@
+the6LoWPAN network
+(NP (DT )(NN ))
+Phase: generated37465
+Input: Token
+Rule: generated37465
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn37465 --> :pttrn37465.extracted={}
+

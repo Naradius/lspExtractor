@@ -1,0 +1,8 @@
+constructing a short path in an HS network under ideal con-ditions
+(VP (VBG )(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated35427
+Input: Token
+Rule: generated35427
+(
+(({ Token.category == VBG })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn35427 --> :pttrn35427.extracted={}
+

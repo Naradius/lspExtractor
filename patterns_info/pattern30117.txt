@@ -1,0 +1,8 @@
+both experiments.Final temperature
+(NP (NP (DT )(NNS ))(NP (JJ )(NN )))
+Phase: generated30117
+Input: Token
+Rule: generated30117
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN })))):pttrn30117 --> :pttrn30117.extracted={}
+

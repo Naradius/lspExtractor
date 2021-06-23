@@ -1,0 +1,8 @@
+pointingto further information
+(VP (VBD )(NP (JJ )(NN )))
+Phase: generated81875
+Input: Token
+Rule: generated81875
+(
+(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NN })))):pttrn81875 --> :pttrn81875.extracted={}
+

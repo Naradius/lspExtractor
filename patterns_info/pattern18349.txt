@@ -1,0 +1,8 @@
+provides a promising solution for information delivery in next-generation wireless networks such as the IoT, Vehicular Ad Hoc Networks , Wireless Sensor Networks , and Wireless Mesh Networks
+(VP (VBZ )(NP (DT )(JJ )(NN )))
+Phase: generated18349
+Input: Token
+Rule: generated18349
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn18349 --> :pttrn18349.extracted={}
+

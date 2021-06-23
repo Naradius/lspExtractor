@@ -1,0 +1,8 @@
+representinghe dynamics of a observed / controlled system such as the TCPynamics of an ad hoc network mathematically
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(VBN )(NN )(JJ )(NN ))(PP (JJ )(IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated110274
+Input: Token
+Rule: generated110274
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn110274 --> :pttrn110274.extracted={}
+

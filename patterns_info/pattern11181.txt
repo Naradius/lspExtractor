@@ -1,0 +1,8 @@
+Outof all these basic activities
+(PP (IN )(NP (PDT )(DT )(JJ )(NNS )))
+Phase: generated11181
+Input: Token
+Rule: generated11181
+(
+(({ Token.category == IN })(({ Token.category == PDT })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn11181 --> :pttrn11181.extracted={}
+

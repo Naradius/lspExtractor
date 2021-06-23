@@ -1,0 +1,8 @@
+against data corrup-tion that could give false information about traffic or con-ditions on the road
+(PP (IN )(NP (NP (NNS )(NN ))(VP (MD )(VP (VB )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (NN )(CC )(NNS ))(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated49858
+Input: Token
+Rule: generated49858
+(
+(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn49858 --> :pttrn49858.extracted={}
+

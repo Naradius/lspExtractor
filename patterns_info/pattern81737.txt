@@ -1,0 +1,8 @@
+the role each plays,if any, in an output case frame
+(NP (NP (DT )(NN ))(VP (VBZ )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated81737
+Input: Token
+Rule: generated81737
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn81737 --> :pttrn81737.extracted={}
+

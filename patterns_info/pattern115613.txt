@@ -1,0 +1,8 @@
+In product and travel recommendations
+(PP (IN )(NP (NN )(CC )(NN )(NNS )))
+Phase: generated115613
+Input: Token
+Rule: generated115613
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))):pttrn115613 --> :pttrn115613.extracted={}
+

@@ -1,0 +1,8 @@
+itto Prophet and Prophetv2 which are based on the extreme replicationof copies in the network
+(PP (IN )(NP (NP (NNP )(CC )(NNP ))(VP (VBP )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN )(NNS ))(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated42734
+Input: Token
+Rule: generated42734
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn42734 --> :pttrn42734.extracted={}
+

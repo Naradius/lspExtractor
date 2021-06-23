@@ -1,0 +1,8 @@
+is obtained by the TOHIP as 0.224.6
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated109336
+Input: Token
+Rule: generated109336
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn109336 --> :pttrn109336.extracted={}
+

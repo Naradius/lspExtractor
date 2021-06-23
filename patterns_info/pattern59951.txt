@@ -1,0 +1,8 @@
+the experiments conducted in this work
+(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated59951
+Input: Token
+Rule: generated59951
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn59951 --> :pttrn59951.extracted={}
+

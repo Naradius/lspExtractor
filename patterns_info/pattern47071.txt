@@ -1,0 +1,8 @@
+a location finding sys-tem, a power generator and a mobilizer
+(NP (NP (DT )(NN ){1,2}){1,2}(CC )(NP (DT )(NN )))
+Phase: generated47071
+Input: Token
+Rule: generated47071
+(
+((({ Token.category == DT })({ Token.category == NN })+)+({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))):pttrn47071 --> :pttrn47071.extracted={}
+

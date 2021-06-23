@@ -1,0 +1,8 @@
+T .BRAVO-TORRES et al
+(NP (NNP ){1,2}(NN ))
+Phase: generated15397
+Input: Token
+Rule: generated15397
+(
+(({ Token.category == NNP })+({ Token.category == NN }))):pttrn15397 --> :pttrn15397.extracted={}
+

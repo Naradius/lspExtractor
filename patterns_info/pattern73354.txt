@@ -1,0 +1,8 @@
+through the knowledge distilling process
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated73354
+Input: Token
+Rule: generated73354
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn73354 --> :pttrn73354.extracted={}
+

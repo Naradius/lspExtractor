@@ -1,0 +1,8 @@
+is a function of neighborproximity or cluster density
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(CC )(NN ){1,2}))))
+Phase: generated6412
+Input: Token
+Rule: generated6412
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))))):pttrn6412 --> :pttrn6412.extracted={}
+

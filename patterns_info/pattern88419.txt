@@ -1,0 +1,8 @@
+of text elements
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated88419
+Input: Token
+Rule: generated88419
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn88419 --> :pttrn88419.extracted={}
+

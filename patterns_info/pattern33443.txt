@@ -1,0 +1,8 @@
+can be regarded as a set with multiple feasiblesolutions
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated33443
+Input: Token
+Rule: generated33443
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn33443 --> :pttrn33443.extracted={}
+

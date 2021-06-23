@@ -1,0 +1,8 @@
+is designedfor indoor spaces according to its datasheet
+(VP (VBZ )(VP (VBN )(NP (JJ )(NNS ))(PP (VBG )(PP (TO )(NP (PRP$ )(NN ))))))
+Phase: generated29931
+Input: Token
+Rule: generated29931
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN }))))))):pttrn29931 --> :pttrn29931.extracted={}
+

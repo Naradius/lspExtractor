@@ -1,0 +1,8 @@
+to be routed over multiple hops.Sophisticated multi-hop routing algorithms are needed that canfind the best end-to-end route in terms of quality of service metrics and the best channels at each hop.The primary challenges for such multi-hop D2D IoT communi-cations in using DSA over dedicated spectrum are:  the need forspatio-temporal spectrum-awareness in terms of finding unusedor underused channels at different locations along an end-to-endroute,  protecting licensed primary transmission on channelswhen and where they arrive from harmful interference caused bysecondary IoT communication, and  ensuring power controlledIoT communication to maintain the strict energy preservation re-quirements of the IoT devices
+(VP (TO )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBN )(NP (JJ )(NN )(NNS ))))))))
+Phase: generated21354
+Input: Token
+Rule: generated21354
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn21354 --> :pttrn21354.extracted={}
+

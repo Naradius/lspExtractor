@@ -1,0 +1,8 @@
+directly associated with a higher-level semantic concept, which represents a question cat-egory
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ ){1,2}(NN ))(VP (VBZ )(NP (DT )(NN ){1,2})))))
+Phase: generated100028
+Input: Token
+Rule: generated100028
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn100028 --> :pttrn100028.extracted={}
+

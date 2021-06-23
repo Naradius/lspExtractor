@@ -1,0 +1,8 @@
+about so-called webgrammars  and Chomsky systems for partial orders
+(PP (IN )(NP (NP (JJ )(NNS ))(CC )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated102472
+Input: Token
+Rule: generated102472
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn102472 --> :pttrn102472.extracted={}
+

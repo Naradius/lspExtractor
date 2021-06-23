@@ -1,0 +1,8 @@
+its initial energy.Authors
+(NP (PRP$ )(JJ )(NN )(NNS ))
+Phase: generated55404
+Input: Token
+Rule: generated55404
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn55404 --> :pttrn55404.extracted={}
+

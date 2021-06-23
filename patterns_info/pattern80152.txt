@@ -1,0 +1,8 @@
+the rst system to learn text ex-traction rules from training examples
+(NP (NP (DT )(JJ )(NN ))(VP (TO )(VP (VB )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (NN )(NNS )))))))
+Phase: generated80152
+Input: Token
+Rule: generated80152
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))):pttrn80152 --> :pttrn80152.extracted={}
+

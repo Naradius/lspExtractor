@@ -1,0 +1,8 @@
+the energy cost of transmit-ting 1
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(CD ))))
+Phase: generated47953
+Input: Token
+Rule: generated47953
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD }))))):pttrn47953 --> :pttrn47953.extracted={}
+

@@ -1,0 +1,8 @@
+the loss of the private key, the privatekey of the node
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated37188
+Input: Token
+Rule: generated37188
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn37188 --> :pttrn37188.extracted={}
+

@@ -1,0 +1,8 @@
+reporting significant alert patterns to a global correlation stage
+(VP (VBG )(NP (JJ )(NN )(NNS ))(PP (TO )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated39530
+Input: Token
+Rule: generated39530
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn39530 --> :pttrn39530.extracted={}
+

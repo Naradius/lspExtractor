@@ -1,0 +1,8 @@
+a successful QG
+(NP (DT )(JJ )(NNP ))
+Phase: generated101034
+Input: Token
+Rule: generated101034
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))):pttrn101034 --> :pttrn101034.extracted={}
+

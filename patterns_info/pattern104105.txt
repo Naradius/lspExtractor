@@ -1,0 +1,8 @@
+with a discovered possible extension of analready known match
+(PP (IN )(NP (NP (DT )(VBN )(JJ )(NN ))(PP (IN )(NP (JJ )(VBN )(NN )))))
+Phase: generated104105
+Input: Token
+Rule: generated104105
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN })))))):pttrn104105 --> :pttrn104105.extracted={}
+

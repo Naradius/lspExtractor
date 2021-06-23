@@ -1,0 +1,8 @@
+the flooding scheme
+(NP (DT )(NN ){1,2})
+Phase: generated61881
+Input: Token
+Rule: generated61881
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn61881 --> :pttrn61881.extracted={}
+

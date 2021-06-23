@@ -1,0 +1,8 @@
+stabbing pain
+(NP (JJ )(NN ))
+Phase: generated73722
+Input: Token
+Rule: generated73722
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn73722 --> :pttrn73722.extracted={}
+

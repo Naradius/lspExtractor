@@ -1,0 +1,8 @@
+3b then use  mortgage payment 171 Fig. 1b: Semantic generalization diagram for three paragraphs
+(VP (VBD )(VP (VB )(NP (NP (CD )(NNP )(CD ))(NP (NP (NNP )(NN ){1,2})(PP (IN )(NP (CD )(NNS )))))))
+Phase: generated70126
+Input: Token
+Rule: generated70126
+(
+(({ Token.category == VBD })(({ Token.category == VB })((({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD }))((({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))))):pttrn70126 --> :pttrn70126.extracted={}
+

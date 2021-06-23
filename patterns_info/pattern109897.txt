@@ -1,0 +1,8 @@
+have developed a specific methodincluding a Matlab toolbox
+(VP (VBP )(VP (VBN )(NP (NP (DT )(JJ ))(VP (VBG )(NP (DT )(NNP )(NN ))))))
+Phase: generated109897
+Input: Token
+Rule: generated109897
+(
+(({ Token.category == VBP })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))))):pttrn109897 --> :pttrn109897.extracted={}
+

@@ -1,0 +1,8 @@
+of this heterogeneity
+(PP (IN )(NP (DT )(NN )))
+Phase: generated41173
+Input: Token
+Rule: generated41173
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn41173 --> :pttrn41173.extracted={}
+

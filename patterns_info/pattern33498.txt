@@ -1,0 +1,8 @@
+an agent basedrouting discovery mechanism if no corresponding routing infor-mation can be found in the routing table
+(NP (NP (DT )(NN ))(VP (VBG )(IN )))
+Phase: generated33498
+Input: Token
+Rule: generated33498
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })({ Token.category == IN })))):pttrn33498 --> :pttrn33498.extracted={}
+

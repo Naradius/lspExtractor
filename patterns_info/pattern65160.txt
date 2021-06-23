@@ -1,0 +1,8 @@
+to multiple mobile adversaries
+(PP (TO )(NP (JJ ){1,2}(NNS )))
+Phase: generated65160
+Input: Token
+Rule: generated65160
+(
+(({ Token.category == TO })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn65160 --> :pttrn65160.extracted={}
+

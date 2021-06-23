@@ -1,0 +1,8 @@
+matches white iPhone case
+(VP (VBZ )(NP (JJ )(NN ){1,2}))
+Phase: generated118015
+Input: Token
+Rule: generated118015
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn118015 --> :pttrn118015.extracted={}
+

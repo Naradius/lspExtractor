@@ -1,0 +1,8 @@
+the sink node results inthe more power consumption
+(NP (NP (DT )(NN ){1,2}(NNS ))(PP (IN )(NP (JJR )(NN ){1,2})))
+Phase: generated68922
+Input: Token
+Rule: generated68922
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })+)))):pttrn68922 --> :pttrn68922.extracted={}
+

@@ -1,0 +1,8 @@
+a School of Computing and Communications, Lancaster University, UK b Cloud Computing and Distributed Systems  Laboratory, School of Computing and Information Systems, The University of Melbourne
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(CC )(NNP ))))(NP (NNP )(NN )(NNP ){1,2})(CC ))
+Phase: generated20152
+Input: Token
+Rule: generated20152
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP })+)({ Token.category == CC }))):pttrn20152 --> :pttrn20152.extracted={}
+

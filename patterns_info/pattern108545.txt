@@ -1,0 +1,8 @@
+the lions unique characteristics
+(NP (DT )(NNS )(JJ )(NNS ))
+Phase: generated108545
+Input: Token
+Rule: generated108545
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == JJ })({ Token.category == NNS }))):pttrn108545 --> :pttrn108545.extracted={}
+

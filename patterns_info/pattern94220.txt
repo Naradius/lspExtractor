@@ -1,0 +1,8 @@
+in between the countries and the verb.When replacing lexical categories and literalswith concepts stemming from our political ontol-ogy, we obtain the following lexico-semantic rule inHIEL: :-$sub:=(!
+(PP (IN )(PP (IN )(NP (NP (DT )(NNS ))(CC )(NP (NP (DT )(NN ))(VP (VBP )(NP (NP (DT )(VBG )(JJ )(NN ){1,2})(NP (JJ )(NN ){1,2})))))))
+Phase: generated94220
+Input: Token
+Rule: generated94220
+(
+(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == VBG })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == NN })+)))))))):pttrn94220 --> :pttrn94220.extracted={}
+

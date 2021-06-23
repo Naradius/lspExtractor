@@ -1,0 +1,8 @@
+attributes in ER diagrams
+(VP (VBZ )(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated105490
+Input: Token
+Rule: generated105490
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn105490 --> :pttrn105490.extracted={}
+

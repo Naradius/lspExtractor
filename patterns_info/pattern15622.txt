@@ -1,0 +1,8 @@
+do con-sistency checks, etc
+(VP (VBP )(NP (NN )(NNS )))
+Phase: generated15622
+Input: Token
+Rule: generated15622
+(
+(({ Token.category == VBP })(({ Token.category == NN })({ Token.category == NNS })))):pttrn15622 --> :pttrn15622.extracted={}
+

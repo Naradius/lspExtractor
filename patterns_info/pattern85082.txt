@@ -1,0 +1,8 @@
+With hierarchical clustering
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated85082
+Input: Token
+Rule: generated85082
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn85082 --> :pttrn85082.extracted={}
+

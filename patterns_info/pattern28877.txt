@@ -1,0 +1,8 @@
+more than 10%
+(NP (QP (JJR )(IN )(CD ))(NN ))
+Phase: generated28877
+Input: Token
+Rule: generated28877
+(
+((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN }))):pttrn28877 --> :pttrn28877.extracted={}
+

@@ -1,0 +1,8 @@
+an LMIriteria  on the following augmentedodel
+(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(VBG )(NN ))))
+Phase: generated110504
+Input: Token
+Rule: generated110504
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))))):pttrn110504 --> :pttrn110504.extracted={}
+

@@ -1,0 +1,8 @@
+the numberof HDRP replications
+(NP (DT )(NN )(NNP )(NNS ))
+Phase: generated41584
+Input: Token
+Rule: generated41584
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NNS }))):pttrn41584 --> :pttrn41584.extracted={}
+

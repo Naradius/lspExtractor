@@ -1,0 +1,8 @@
+is authorized to comment on postings, images, videos, and other media
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (CC )(NP (JJ )(NNS ))))))))
+Phase: generated115553
+Input: Token
+Rule: generated115553
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn115553 --> :pttrn115553.extracted={}
+

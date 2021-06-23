@@ -1,0 +1,8 @@
+PAT  and entity types
+(NP (NN )(CC )(NN )(NNS ))
+Phase: generated75417
+Input: Token
+Rule: generated75417
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn75417 --> :pttrn75417.extracted={}
+

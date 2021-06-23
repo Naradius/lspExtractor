@@ -1,0 +1,8 @@
+the questionWho
+(NP (DT )(NN ))
+Phase: generated99148
+Input: Token
+Rule: generated99148
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn99148 --> :pttrn99148.extracted={}
+

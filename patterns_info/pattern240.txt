@@ -1,0 +1,8 @@
+of the Intelligent Transport Systems
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated240
+Input: Token
+Rule: generated240
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn240 --> :pttrn240.extracted={}
+

@@ -1,0 +1,8 @@
+are almost the same
+(VP (VBP )(NP (RB )(DT )(JJ )))
+Phase: generated27637
+Input: Token
+Rule: generated27637
+(
+(({ Token.category == VBP })(({ Token.category == RB })({ Token.category == DT })({ Token.category == JJ })))):pttrn27637 --> :pttrn27637.extracted={}
+

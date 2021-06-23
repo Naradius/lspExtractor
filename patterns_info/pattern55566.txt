@@ -1,0 +1,8 @@
+the nodes and Eth
+(NP (NP (DT )(NNS ))(CC ))
+Phase: generated55566
+Input: Token
+Rule: generated55566
+(
+((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC }))):pttrn55566 --> :pttrn55566.extracted={}
+

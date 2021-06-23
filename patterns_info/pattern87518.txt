@@ -1,0 +1,8 @@
+the transformation-based learning  algorithm
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated87518
+Input: Token
+Rule: generated87518
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn87518 --> :pttrn87518.extracted={}
+

@@ -1,0 +1,8 @@
+leads to the improvisation of the network lifetime
+(VP (VBZ )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated10992
+Input: Token
+Rule: generated10992
+(
+(({ Token.category == VBZ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn10992 --> :pttrn10992.extracted={}
+

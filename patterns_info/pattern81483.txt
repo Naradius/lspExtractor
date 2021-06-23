@@ -1,0 +1,8 @@
+helps to overcome this knowledge-engineering bottleneckby learning text extraction rules automatically.WHISK is designed to handle text styles ranging from highly structured to free text, includ-ing text that is neither rigidly formatted nor composed of grammatical sentences
+(VP (VBZ )(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(NN ))(VP (VBG )(NP (NN ){1,2}(NNS ))(RB ))))))
+Phase: generated81483
+Input: Token
+Rule: generated81483
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == RB }))))))):pttrn81483 --> :pttrn81483.extracted={}
+

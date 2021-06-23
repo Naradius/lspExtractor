@@ -1,0 +1,8 @@
+Am Med Inform Assoc 2014;21:902909
+(VP (VBP )(NP (NNP ){1,2}(CD )))
+Phase: generated73909
+Input: Token
+Rule: generated73909
+(
+(({ Token.category == VBP })(({ Token.category == NNP })+({ Token.category == CD })))):pttrn73909 --> :pttrn73909.extracted={}
+

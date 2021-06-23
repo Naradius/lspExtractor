@@ -1,0 +1,8 @@
+vertex 105
+(NP (JJ )(CD ))
+Phase: generated104002
+Input: Token
+Rule: generated104002
+(
+(({ Token.category == JJ })({ Token.category == CD }))):pttrn104002 --> :pttrn104002.extracted={}
+

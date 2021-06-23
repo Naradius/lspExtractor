@@ -1,0 +1,8 @@
+allows for the use of temperaturecontrol algorithms in all types of IoT networks
+(VP (VBZ )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NNP )(NNS ))))))))))
+Phase: generated31823
+Input: Token
+Rule: generated31823
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))))))))):pttrn31823 --> :pttrn31823.extracted={}
+

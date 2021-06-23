@@ -1,0 +1,8 @@
+F m F
+(NP (NNP )(NN )(NNP ))
+Phase: generated108755
+Input: Token
+Rule: generated108755
+(
+(({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNP }))):pttrn108755 --> :pttrn108755.extracted={}
+

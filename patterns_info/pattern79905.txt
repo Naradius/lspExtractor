@@ -1,0 +1,8 @@
+for the eld
+(PP (IN )(NP (DT )(NN )))
+Phase: generated79905
+Input: Token
+Rule: generated79905
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn79905 --> :pttrn79905.extracted={}
+

@@ -1,0 +1,8 @@
+report the accuracy  on the TREC-QA dataset of 24.2  3.1% for a bag-of-words classifier and 39.1  6.9% for the optimal combination of tree kernels.
+(VP (VB )(NP (CD )(NN ))(PP (IN )(NP (NP (DT )(NNS )(NN ))(CC )(NP (NP (CD ){1,2}(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))))))
+Phase: generated116015
+Input: Token
+Rule: generated116015
+(
+(({ Token.category == VB })(({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == CD })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))))):pttrn116015 --> :pttrn116015.extracted={}
+

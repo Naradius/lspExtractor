@@ -1,0 +1,8 @@
+employed to learn traffic patterns and detectintrusions.2.2
+(VP (VBN )(VP (TO )(VP (VB )(NP (NP (NN )(NNS ))(CC )(NP (NNS )(CD ))))))
+Phase: generated39353
+Input: Token
+Rule: generated39353
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == NNS })({ Token.category == CD }))))))):pttrn39353 --> :pttrn39353.extracted={}
+

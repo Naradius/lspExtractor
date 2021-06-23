@@ -1,0 +1,8 @@
+the bat-tery
+(NP (DT )(NN ))
+Phase: generated51714
+Input: Token
+Rule: generated51714
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn51714 --> :pttrn51714.extracted={}
+

@@ -1,0 +1,8 @@
+wildlife.Table 2
+(NP (JJ )(CD ))
+Phase: generated2251
+Input: Token
+Rule: generated2251
+(
+(({ Token.category == JJ })({ Token.category == CD }))):pttrn2251 --> :pttrn2251.extracted={}
+

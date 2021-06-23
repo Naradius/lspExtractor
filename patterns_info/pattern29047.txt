@@ -1,0 +1,8 @@
+smart energy efficient objective function: adaptingrpl objective function to enable an ipv6 meshed topology solution for batteryoperated smart meters, in: Proceedings of the Global Internet of Things Sum-mit , IEEE, 2017, pp
+(NP (NP (JJ )(NN )(JJ ){1,2}(NN ))(NP (NP (JJ ){1,2}(NN ))(VP (TO )(VP (VB )(NP (DT )(NN ))))))
+Phase: generated29047
+Input: Token
+Rule: generated29047
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NN }))((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn29047 --> :pttrn29047.extracted={}
+

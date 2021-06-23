@@ -1,0 +1,8 @@
+In a typical swarm intelligence use
+(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2}))
+Phase: generated9561
+Input: Token
+Rule: generated9561
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))):pttrn9561 --> :pttrn9561.extracted={}
+

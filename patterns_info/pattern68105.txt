@@ -1,0 +1,8 @@
+4.8 Channel dependent key shares
+(NP (CD )(NNP )(JJ )(NN )(NNS ))
+Phase: generated68105
+Input: Token
+Rule: generated68105
+(
+(({ Token.category == CD })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn68105 --> :pttrn68105.extracted={}
+

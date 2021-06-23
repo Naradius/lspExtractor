@@ -1,0 +1,8 @@
+validation platforms.Wirel
+(NP (NN )(NNS )(NN ))
+Phase: generated43670
+Input: Token
+Rule: generated43670
+(
+(({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN }))):pttrn43670 --> :pttrn43670.extracted={}
+

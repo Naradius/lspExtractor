@@ -1,0 +1,8 @@
+The computational nature
+(NP (DT )(JJ )(NN ))
+Phase: generated44796
+Input: Token
+Rule: generated44796
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn44796 --> :pttrn44796.extracted={}
+

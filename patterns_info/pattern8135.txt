@@ -1,0 +1,8 @@
+to forward messages whenever the destinationis not within the radio range
+(VP (TO )(VP (VB )(WHADVP (WRB ))))
+Phase: generated8135
+Input: Token
+Rule: generated8135
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == WRB }))))):pttrn8135 --> :pttrn8135.extracted={}
+

@@ -1,0 +1,8 @@
+of the above mecha-nism
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated37250
+Input: Token
+Rule: generated37250
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn37250 --> :pttrn37250.extracted={}
+

@@ -1,0 +1,8 @@
+A Framework
+(NP (DT )(NNP ))
+Phase: generated76953
+Input: Token
+Rule: generated76953
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn76953 --> :pttrn76953.extracted={}
+

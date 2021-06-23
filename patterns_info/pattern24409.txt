@@ -1,0 +1,8 @@
+with the aid of a spectrum map cre-ated by ESC sensors
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(ADJP (JJ )(PP (IN )(NP (NNP )(NNS ))))))))
+Phase: generated24409
+Input: Token
+Rule: generated24409
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))))))):pttrn24409 --> :pttrn24409.extracted={}
+

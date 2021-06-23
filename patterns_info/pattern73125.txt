@@ -1,0 +1,8 @@
+applied to eliminate the following noises to ensure thecorrectness of the knowledge item
+(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(VBG )(NNS )))))
+Phase: generated73125
+Input: Token
+Rule: generated73125
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS })))))):pttrn73125 --> :pttrn73125.extracted={}
+

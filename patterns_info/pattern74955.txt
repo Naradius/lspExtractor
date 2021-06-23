@@ -1,0 +1,8 @@
+More examplesinclude inhaler, b5, and puffer.Spelling mistakesSpelling mistakes
+(NP (CC )(NP (VBG )(NN )(NNS )))
+Phase: generated74955
+Input: Token
+Rule: generated74955
+(
+(({ Token.category == CC })(({ Token.category == VBG })({ Token.category == NN })({ Token.category == NNS })))):pttrn74955 --> :pttrn74955.extracted={}
+

@@ -1,0 +1,8 @@
+MAC layers for low-power devices operating inthe vicinity of, or inside a human body for medical andnon-medical applications
+(NP (NP (NNP )(NNS ))(PP (IN )(NP (NP (JJR )(NNS ))(VP (VBG )(PP (CC )(PP (IN )(NP (DT )(JJ )(NN ))))(PP (IN )(NP (JJ ){1,2}(NNS )))))))
+Phase: generated50440
+Input: Token
+Rule: generated50440
+(
+((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))))):pttrn50440 --> :pttrn50440.extracted={}
+

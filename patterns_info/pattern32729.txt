@@ -1,0 +1,8 @@
+most cases
+(NP (JJS )(NNS ))
+Phase: generated32729
+Input: Token
+Rule: generated32729
+(
+(({ Token.category == JJS })({ Token.category == NNS }))):pttrn32729 --> :pttrn32729.extracted={}
+

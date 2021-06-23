@@ -1,0 +1,8 @@
+the derivation of this optimal systemparameter value
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated3496
+Input: Token
+Rule: generated3496
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn3496 --> :pttrn3496.extracted={}
+

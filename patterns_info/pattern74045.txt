@@ -1,0 +1,8 @@
+most work in this area
+(NP (NP (JJS )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated74045
+Input: Token
+Rule: generated74045
+(
+((({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn74045 --> :pttrn74045.extracted={}
+

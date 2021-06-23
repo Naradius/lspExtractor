@@ -1,0 +1,8 @@
+overcome thisproblem the threshold defined above can be modified as follows:thrp1p rmod 1p  EcurrentEinit rsdiv1p 	1EcurrentEinit 	where rs are the number of consecutive rounds in which node doesnot become
+(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(IN )))))
+Phase: generated54001
+Input: Token
+Rule: generated54001
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })({ Token.category == IN })))))):pttrn54001 --> :pttrn54001.extracted={}
+

@@ -1,0 +1,8 @@
+obtain the relations as de-picted in Fig. 11
+(VP (VBP )(NP (DT )(NNS ))(PP (IN )(NP (NNP ){1,2}(CD ))))
+Phase: generated104528
+Input: Token
+Rule: generated104528
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD }))))):pttrn104528 --> :pttrn104528.extracted={}
+

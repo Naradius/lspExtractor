@@ -1,0 +1,8 @@
+to the partition problem statement and the given data, the population of N  bees
+(PP (TO )(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (DT )(VBN )(NNS ))(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NNS )))))))
+Phase: generated1670
+Input: Token
+Rule: generated1670
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))))):pttrn1670 --> :pttrn1670.extracted={}
+

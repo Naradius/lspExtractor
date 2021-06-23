@@ -1,0 +1,8 @@
+to more instances
+(PP (TO )(NP (JJR )(NNS )))
+Phase: generated83219
+Input: Token
+Rule: generated83219
+(
+(({ Token.category == TO })(({ Token.category == JJR })({ Token.category == NNS })))):pttrn83219 --> :pttrn83219.extracted={}
+

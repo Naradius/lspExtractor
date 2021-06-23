@@ -1,0 +1,8 @@
+such as the Multi Layer Clustering RoutingAlgorithm  , LEACH-Density of Distribu-tion of Node  , Arranging Cluster Sizesand Transmission Ranges   and Multi-hopRouting with Low Energy Adaptive Clustering Hierarchy   are also the part of this category.Xiaoping et al
+(PP (JJ )(IN )(NP (NP (DT )(NNP ){1,2})(VP (VBG )(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(VBG )(FW )(NN ))))))))
+Phase: generated55989
+Input: Token
+Rule: generated55989
+(
+(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == VBG })(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == VBG })({ Token.category == FW })({ Token.category == NN }))))))))):pttrn55989 --> :pttrn55989.extracted={}
+

@@ -1,0 +1,8 @@
+anddisease normalization16
+(NP (DT )(NNS ))
+Phase: generated73999
+Input: Token
+Rule: generated73999
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn73999 --> :pttrn73999.extracted={}
+

@@ -1,0 +1,8 @@
+high throughput.Figure 4B
+(NP (JJ )(NN )(NNS ))
+Phase: generated109082
+Input: Token
+Rule: generated109082
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn109082 --> :pttrn109082.extracted={}
+

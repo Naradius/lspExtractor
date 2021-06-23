@@ -1,0 +1,8 @@
+cannot be mixed, consequently, there are two types ofontrol system
+(VP (MD )(VP (VB )(VP (VBP )(NP (CD )(NNS )(NN ){1,2}))))
+Phase: generated111429
+Input: Token
+Rule: generated111429
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBP })(({ Token.category == CD })({ Token.category == NNS })({ Token.category == NN })+))))):pttrn111429 --> :pttrn111429.extracted={}
+

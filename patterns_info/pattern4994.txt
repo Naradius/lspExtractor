@@ -1,0 +1,8 @@
+possiblethat the elected CHs
+(VP (VBG )(NP (DT )(VBN )(NNP )))
+Phase: generated4994
+Input: Token
+Rule: generated4994
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })))):pttrn4994 --> :pttrn4994.extracted={}
+

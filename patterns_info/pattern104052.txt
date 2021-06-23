@@ -1,0 +1,8 @@
+the bottom-up part of the parsing algorithm
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated104052
+Input: Token
+Rule: generated104052
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn104052 --> :pttrn104052.extracted={}
+

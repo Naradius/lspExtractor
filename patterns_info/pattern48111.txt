@@ -1,0 +1,8 @@
+used by the sink and allsensor nodes
+(VP (VBN )(PP (IN )(NP (DT )(NN )(CC )(NN )(NNS ))))
+Phase: generated48111
+Input: Token
+Rule: generated48111
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))))):pttrn48111 --> :pttrn48111.extracted={}
+

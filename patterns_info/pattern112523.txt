@@ -1,0 +1,8 @@
+a hotspot in the drone community
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated112523
+Input: Token
+Rule: generated112523
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn112523 --> :pttrn112523.extracted={}
+

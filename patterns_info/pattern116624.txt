@@ -1,0 +1,8 @@
+the best
+(NP (DT )(JJS ))
+Phase: generated116624
+Input: Token
+Rule: generated116624
+(
+(({ Token.category == DT })({ Token.category == JJS }))):pttrn116624 --> :pttrn116624.extracted={}
+

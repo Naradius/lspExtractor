@@ -1,0 +1,8 @@
+the transmissionrate
+(NP (DT )(NN ))
+Phase: generated37871
+Input: Token
+Rule: generated37871
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn37871 --> :pttrn37871.extracted={}
+

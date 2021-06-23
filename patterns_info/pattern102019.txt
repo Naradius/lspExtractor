@@ -1,0 +1,8 @@
+to discover the new structure
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))))
+Phase: generated102019
+Input: Token
+Rule: generated102019
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn102019 --> :pttrn102019.extracted={}
+

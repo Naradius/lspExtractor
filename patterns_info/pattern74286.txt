@@ -1,0 +1,8 @@
+ignoring the words  whilematching the patterns
+(VP (VBG )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated74286
+Input: Token
+Rule: generated74286
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn74286 --> :pttrn74286.extracted={}
+

@@ -1,0 +1,8 @@
+filter out the search results which are determined to be irrelevant to a purchase decision
+(VP (VB )(PRT (RP ))(NP (NP (DT )(NN )(NNS ))(VP (VBP )(ADJP (VBN )(VP (TO )(VP (VB )(ADJP (JJ )(PP (TO )(NP (DT )(NN ){1,2})))))))))
+Phase: generated117568
+Input: Token
+Rule: generated117568
+(
+(({ Token.category == VB })(({ Token.category == RP }))((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))))))))):pttrn117568 --> :pttrn117568.extracted={}
+

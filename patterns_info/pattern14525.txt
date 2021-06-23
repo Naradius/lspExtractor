@@ -1,0 +1,8 @@
+VANET nodes
+(NP (NNP )(NNS ))
+Phase: generated14525
+Input: Token
+Rule: generated14525
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn14525 --> :pttrn14525.extracted={}
+

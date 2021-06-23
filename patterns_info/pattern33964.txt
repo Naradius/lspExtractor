@@ -1,0 +1,8 @@
+the synthetic QoS parameters
+(NP (DT )(JJ )(NNP )(NNS ))
+Phase: generated33964
+Input: Token
+Rule: generated33964
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))):pttrn33964 --> :pttrn33964.extracted={}
+

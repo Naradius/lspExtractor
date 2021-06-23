@@ -1,0 +1,8 @@
+all the NKRL representations
+(NP (PDT )(DT )(NNP )(NNS ))
+Phase: generated90559
+Input: Token
+Rule: generated90559
+(
+(({ Token.category == PDT })({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn90559 --> :pttrn90559.extracted={}
+

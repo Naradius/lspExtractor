@@ -1,0 +1,8 @@
+of the simple queries
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated115185
+Input: Token
+Rule: generated115185
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn115185 --> :pttrn115185.extracted={}
+

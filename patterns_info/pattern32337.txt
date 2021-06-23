@@ -1,0 +1,8 @@
+in Section 4. ThePSO and multi-agent based algorithm for the above routing modelare detailed in Section 5
+(PP (IN )(NP (NP (NNP )(CD )(NNP ))(CC )(NP (NP (JJ )(VBN )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NN )(CD )))))))))
+Phase: generated32337
+Input: Token
+Rule: generated32337
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))))):pttrn32337 --> :pttrn32337.extracted={}
+

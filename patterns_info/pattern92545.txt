@@ -1,0 +1,8 @@
+semi-automatic infor-mation extraction from news items, of which theExtended Backus Naur Form  grammar isgiven in Appendix A. Last, Subsect
+(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (NP (NN )(NNS ))(NP (DT )(NNP ){1,2}(NN )))))
+Phase: generated92545
+Input: Token
+Rule: generated92545
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))))):pttrn92545 --> :pttrn92545.extracted={}
+

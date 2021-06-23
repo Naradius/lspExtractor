@@ -1,0 +1,8 @@
+.Definition 4.1 The right-hand side of a production p :=  can be linearized into asearch plan, which is a sequence  of pattern matching directives
+(NP (NP (NNP )(CD ))(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated103784
+Input: Token
+Rule: generated103784
+(
+((({ Token.category == NNP })({ Token.category == CD }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn103784 --> :pttrn103784.extracted={}
+

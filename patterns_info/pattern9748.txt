@@ -1,0 +1,8 @@
+the assumption that the loca-tions are known a priori
+(NP (DT )(NN )(IN ))
+Phase: generated9748
+Input: Token
+Rule: generated9748
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == IN }))):pttrn9748 --> :pttrn9748.extracted={}
+

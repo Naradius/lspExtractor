@@ -1,0 +1,8 @@
+the pattern extraction processis illustrated in Figure 1
+(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NN )(CD )))))
+Phase: generated77847
+Input: Token
+Rule: generated77847
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))):pttrn77847 --> :pttrn77847.extracted={}
+

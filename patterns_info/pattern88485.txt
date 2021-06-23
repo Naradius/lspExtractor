@@ -1,0 +1,8 @@
+astringtrue iff A matches the instantiation ofB, ignoring case.A=B list of strings variable instantiated to alist of stringstrue iff each member of A matches thecorresponding2 member of the instan-tiation of B, ignoring case.A!=B simple stringor numbersimple string or numberor variabletrue iff A and B fail to match, ig-noring case, i.e. it is not the casethat
+(NP (NP (JJ )(NN ))(VP (VBZ )(NP (DT )(NN ){1,2})))
+Phase: generated88485
+Input: Token
+Rule: generated88485
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn88485 --> :pttrn88485.extracted={}
+

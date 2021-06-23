@@ -1,0 +1,8 @@
+of question/answer seeds
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated101571
+Input: Token
+Rule: generated101571
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn101571 --> :pttrn101571.extracted={}
+

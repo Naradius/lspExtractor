@@ -1,0 +1,8 @@
+the claim that in saying something, we perform something
+(NP (DT )(NN )(IN ))
+Phase: generated118275
+Input: Token
+Rule: generated118275
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == IN }))):pttrn118275 --> :pttrn118275.extracted={}
+

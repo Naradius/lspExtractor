@@ -1,0 +1,8 @@
+implement the DTN protocols and our HDRPprotocol
+(VP (VB )(NP (NP (DT )(NNP )(NNS ))(CC )(NP (PRP$ )(NNP ))))
+Phase: generated42359
+Input: Token
+Rule: generated42359
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NNP }))))):pttrn42359 --> :pttrn42359.extracted={}
+

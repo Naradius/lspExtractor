@@ -1,0 +1,8 @@
+using the VNLayer to support com-munications in VANETs
+(VP (VBG )(NP (DT )(NN )))
+Phase: generated14322
+Input: Token
+Rule: generated14322
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))):pttrn14322 --> :pttrn14322.extracted={}
+

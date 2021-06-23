@@ -1,0 +1,8 @@
+Knowledge Markup and Semantic Annotation,page
+(NP (NNP ){1,2}(CC )(NNP ){1,2}(NN ))
+Phase: generated90626
+Input: Token
+Rule: generated90626
+(
+(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+({ Token.category == NN }))):pttrn90626 --> :pttrn90626.extracted={}
+

@@ -1,0 +1,8 @@
+The software solution to create high availabil-ity with minimal security risks, IEEE Consum
+(NP (NP (DT )(NN ){1,2})(VP (TO )(VP (VB )(NP (JJ )(NN )))))
+Phase: generated35723
+Input: Token
+Rule: generated35723
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn35723 --> :pttrn35723.extracted={}
+

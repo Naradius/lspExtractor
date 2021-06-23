@@ -1,0 +1,8 @@
+into constatives and performatives
+(PP (IN )(NP (NNS )(CC )(NNS )))
+Phase: generated118373
+Input: Token
+Rule: generated118373
+(
+(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn118373 --> :pttrn118373.extracted={}
+

@@ -1,0 +1,8 @@
+from this distribution for each pattern
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated76470
+Input: Token
+Rule: generated76470
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn76470 --> :pttrn76470.extracted={}
+

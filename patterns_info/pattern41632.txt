@@ -1,0 +1,8 @@
+In most studies dealing with traditional routingprotocols
+(PP (IN )(NP (NP (JJS )(NNS ))(VP (VBG )(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated41632
+Input: Token
+Rule: generated41632
+(
+(({ Token.category == IN })((({ Token.category == JJS })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn41632 --> :pttrn41632.extracted={}
+

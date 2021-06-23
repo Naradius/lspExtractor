@@ -1,0 +1,8 @@
+mobilead-hoc networks
+(NP (JJ )(NNS ))
+Phase: generated5599
+Input: Token
+Rule: generated5599
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn5599 --> :pttrn5599.extracted={}
+

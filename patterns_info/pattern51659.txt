@@ -1,0 +1,8 @@
+to efficientlymanage the available power
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))))
+Phase: generated51659
+Input: Token
+Rule: generated51659
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn51659 --> :pttrn51659.extracted={}
+

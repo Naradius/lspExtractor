@@ -1,0 +1,8 @@
+less delay
+(NP (JJR )(NN ))
+Phase: generated108538
+Input: Token
+Rule: generated108538
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn108538 --> :pttrn108538.extracted={}
+

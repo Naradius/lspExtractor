@@ -1,0 +1,8 @@
+canchange the state of the world
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated92617
+Input: Token
+Rule: generated92617
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn92617 --> :pttrn92617.extracted={}
+

@@ -1,0 +1,8 @@
+to derive a new initial lexicon from a corpusof pre-tagged text from the same domain and text-type  as that to be processed.However, since the biggest contribution to tagging accuracy is the initial lexicon
+(VP (TO )(VP (VB )(NP (DT )(JJ ){1,2}(NN ))))
+Phase: generated87549
+Input: Token
+Rule: generated87549
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn87549 --> :pttrn87549.extracted={}
+

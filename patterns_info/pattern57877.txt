@@ -1,0 +1,8 @@
+Jia Y. Multi-layer clustering routingalgorithm for wireless vehicular sensor networks
+(NP (NP (NNP ){1,2}(NN ){1,2})(PP (IN )(NP (JJ ){1,2}(NN )(NNS ))))
+Phase: generated57877
+Input: Token
+Rule: generated57877
+(
+((({ Token.category == NNP })+({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))))):pttrn57877 --> :pttrn57877.extracted={}
+

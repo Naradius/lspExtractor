@@ -1,0 +1,8 @@
+two types of healthcare-oriented sys-tems, namely, vital status monitoring and remote healthcaresurveillance
+(NP (NP (NP (CD )(NNS ))(PP (IN )(NP (JJ )(NNS ))))(NP (NP (JJ )(NN ){1,2})(CC )(NP (JJ )(NN ))))
+Phase: generated49507
+Input: Token
+Rule: generated49507
+(
+(((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn49507 --> :pttrn49507.extracted={}
+

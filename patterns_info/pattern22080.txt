@@ -1,0 +1,8 @@
+the state-of-the-artwirelessMACprotocols.Spectrum map
+(NP (DT )(NNS )(NN ){1,2})
+Phase: generated22080
+Input: Token
+Rule: generated22080
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+)):pttrn22080 --> :pttrn22080.extracted={}
+

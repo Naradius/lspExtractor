@@ -1,0 +1,8 @@
+in a uniform manner
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated68183
+Input: Token
+Rule: generated68183
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn68183 --> :pttrn68183.extracted={}
+

@@ -1,0 +1,8 @@
+:Received 19 April 2017Received in revised form 15November 2017Accepted 2 January 2018Available online 31 January 2018a b s t r a c tIn order to meet the growing demands for high-throughput, cost-effective
+(VP (VBD )(NP (CD )(NNP )(CD )))
+Phase: generated21125
+Input: Token
+Rule: generated21125
+(
+(({ Token.category == VBD })(({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })))):pttrn21125 --> :pttrn21125.extracted={}
+

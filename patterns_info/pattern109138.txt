@@ -1,0 +1,8 @@
+the throughput value
+(NP (DT )(NN ){1,2})
+Phase: generated109138
+Input: Token
+Rule: generated109138
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn109138 --> :pttrn109138.extracted={}
+

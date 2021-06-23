@@ -1,0 +1,8 @@
+live for ashort time.Aforementioned algorithms are widely applied by research-ers in many different areas
+(VP (VB )(PP (IN )(NP (NP (JJ )(NN ))(NP (VBN )(NNS )))))
+Phase: generated63762
+Input: Token
+Rule: generated63762
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })({ Token.category == NNS })))))):pttrn63762 --> :pttrn63762.extracted={}
+

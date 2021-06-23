@@ -1,0 +1,8 @@
+monitor  nodes
+(NP (NN )(NNS ))
+Phase: generated65686
+Input: Token
+Rule: generated65686
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn65686 --> :pttrn65686.extracted={}
+

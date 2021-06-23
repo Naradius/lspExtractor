@@ -1,0 +1,8 @@
+is a triplethat
+(VP (VBZ )(NP (DT )(JJ )))
+Phase: generated93054
+Input: Token
+Rule: generated93054
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })))):pttrn93054 --> :pttrn93054.extracted={}
+

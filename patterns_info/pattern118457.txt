@@ -1,0 +1,8 @@
+speech acts
+(NP (JJ )(NNS ))
+Phase: generated118457
+Input: Token
+Rule: generated118457
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn118457 --> :pttrn118457.extracted={}
+

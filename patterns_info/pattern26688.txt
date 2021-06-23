@@ -1,0 +1,8 @@
+the metric that has been defined in the structuref MRHOF
+(NP (NP (DT )(JJ ))(VP (VBZ )(VP (VBN )(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated26688
+Input: Token
+Rule: generated26688
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn26688 --> :pttrn26688.extracted={}
+

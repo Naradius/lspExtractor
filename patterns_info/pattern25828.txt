@@ -1,0 +1,8 @@
+from the physical world
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated25828
+Input: Token
+Rule: generated25828
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn25828 --> :pttrn25828.extracted={}
+

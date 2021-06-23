@@ -1,0 +1,8 @@
+with higher remaining energy mayincrease its transmission power, which will potentiallyenable other nodes to decrease their transmission power,thus saving energy
+(PP (IN )(NP (NP (JJR )(VBG )(NN ){1,2})(NP (PRP$ )(NN ){1,2})))
+Phase: generated50904
+Input: Token
+Rule: generated50904
+(
+(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == VBG })({ Token.category == NN })+)(({ Token.category == PRP$ })({ Token.category == NN })+)))):pttrn50904 --> :pttrn50904.extracted={}
+

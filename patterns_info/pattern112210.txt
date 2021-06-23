@@ -1,0 +1,8 @@
+the first designed step
+(NP (DT )(JJ )(VBN )(NN ))
+Phase: generated112210
+Input: Token
+Rule: generated112210
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == VBN })({ Token.category == NN }))):pttrn112210 --> :pttrn112210.extracted={}
+

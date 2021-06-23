@@ -1,0 +1,8 @@
+communication applications
+(NP (NN )(NNS ))
+Phase: generated45425
+Input: Token
+Rule: generated45425
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn45425 --> :pttrn45425.extracted={}
+

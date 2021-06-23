@@ -1,0 +1,8 @@
+Applications 37  341347particular event
+(NP (NNP )(CD )(JJ )(NN ))
+Phase: generated71690
+Input: Token
+Rule: generated71690
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN }))):pttrn71690 --> :pttrn71690.extracted={}
+

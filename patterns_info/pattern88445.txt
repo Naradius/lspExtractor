@@ -1,0 +1,8 @@
+quoted string orunquoted stringtrue iff A and B are equal strings, ig-noring case.A=B string quoted string with wild-cardtrue iff B matches A, with every
+(VP (VBN )(VP (VBG )(VP (VBN )(VP (VBG )(PP (IN )(NP (JJ )(NN ){1,2}))))))
+Phase: generated88445
+Input: Token
+Rule: generated88445
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn88445 --> :pttrn88445.extracted={}
+

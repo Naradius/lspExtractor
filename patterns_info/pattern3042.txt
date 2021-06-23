@@ -1,0 +1,8 @@
+be proactive or reactive
+(VP (VB )(ADJP (JJ )(CC )(JJ )))
+Phase: generated3042
+Input: Token
+Rule: generated3042
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })))):pttrn3042 --> :pttrn3042.extracted={}
+

@@ -1,0 +1,8 @@
+Successor variety of a string
+(NP (NP (NNP )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated98025
+Input: Token
+Rule: generated98025
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn98025 --> :pttrn98025.extracted={}
+

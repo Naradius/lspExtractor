@@ -1,0 +1,8 @@
+have some overheads
+(VP (VB )(NP (DT )(NNS )))
+Phase: generated38452
+Input: Token
+Rule: generated38452
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))):pttrn38452 --> :pttrn38452.extracted={}
+

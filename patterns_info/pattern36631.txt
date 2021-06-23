@@ -1,0 +1,8 @@
+is a large-scale or multimedia data,stored in a fog node, and can be downloaded immediately whenneeded.The premise that the traditional distributed consistency algo-rithm works normally
+(VP (VP (VBZ )(NP (NP (DT )(JJ )(CC )(NNS ){1,2})(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))))(CC )(VP (MD )(VP (VB )(VP (VBN )(NP (DT )(NN ))))))
+Phase: generated36631
+Input: Token
+Rule: generated36631
+(
+((({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NNS })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))({ Token.category == CC })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn36631 --> :pttrn36631.extracted={}
+

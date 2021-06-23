@@ -1,0 +1,8 @@
+into considerationthe uneven energy consumption profile of the sensors.Therefore, a node with higher remaining energy mayincrease its transmission power, which will potentiallyenable other nodes to decrease their transmission power,thus saving energy
+(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJR )(VBG )(NN ){1,2})(NP (PRP$ )(NN ){1,2}))))))))
+Phase: generated50911
+Input: Token
+Rule: generated50911
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == VBG })({ Token.category == NN })+)(({ Token.category == PRP$ })({ Token.category == NN })+))))))))):pttrn50911 --> :pttrn50911.extracted={}
+

@@ -1,0 +1,8 @@
+to our observations
+(PP (TO )(NP (PRP$ )(NNS )))
+Phase: generated27826
+Input: Token
+Rule: generated27826
+(
+(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NNS })))):pttrn27826 --> :pttrn27826.extracted={}
+

@@ -1,0 +1,8 @@
+a deterministic approach in the solution design
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated9411
+Input: Token
+Rule: generated9411
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn9411 --> :pttrn9411.extracted={}
+

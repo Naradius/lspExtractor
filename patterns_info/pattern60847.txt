@@ -1,0 +1,8 @@
+due to the uncertainty
+(PP (JJ )(PP (TO )(NP (DT )(NN ))))
+Phase: generated60847
+Input: Token
+Rule: generated60847
+(
+(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn60847 --> :pttrn60847.extracted={}
+

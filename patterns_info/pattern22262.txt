@@ -1,0 +1,8 @@
+the entiresystem model
+(NP (DT )(NN ){1,2})
+Phase: generated22262
+Input: Token
+Rule: generated22262
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn22262 --> :pttrn22262.extracted={}
+

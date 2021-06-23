@@ -1,0 +1,8 @@
+on secure communication ar-chitectures
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated112475
+Input: Token
+Rule: generated112475
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn112475 --> :pttrn112475.extracted={}
+

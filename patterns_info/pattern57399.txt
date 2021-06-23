@@ -1,0 +1,8 @@
+save theenergy for small networks consisting of few nodes
+(VP (VB )(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated57399
+Input: Token
+Rule: generated57399
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn57399 --> :pttrn57399.extracted={}
+

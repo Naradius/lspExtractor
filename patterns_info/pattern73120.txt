@@ -1,0 +1,8 @@
+of straightforward filteringrules
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated73120
+Input: Token
+Rule: generated73120
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn73120 --> :pttrn73120.extracted={}
+

@@ -1,0 +1,8 @@
+Fapojuwo Abraham O. Acentralized energy-efficient routing protocol for wireless sensor networks
+(PP (IN )(NP (NP (NNP ){1,2}(NN ){1,2})(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated57937
+Input: Token
+Rule: generated57937
+(
+(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn57937 --> :pttrn57937.extracted={}
+

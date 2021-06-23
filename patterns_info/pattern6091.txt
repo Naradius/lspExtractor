@@ -1,0 +1,8 @@
+the convergence time
+(NP (DT )(NN ){1,2})
+Phase: generated6091
+Input: Token
+Rule: generated6091
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn6091 --> :pttrn6091.extracted={}
+

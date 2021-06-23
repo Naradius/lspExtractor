@@ -1,0 +1,8 @@
+the locations
+(NP (DT )(NNS ))
+Phase: generated65636
+Input: Token
+Rule: generated65636
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn65636 --> :pttrn65636.extracted={}
+

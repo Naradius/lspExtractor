@@ -1,0 +1,8 @@
+received.M. Liu et al
+(VP (VBN )(NP (FW )(NNP )(FW )(NN )))
+Phase: generated33873
+Input: Token
+Rule: generated33873
+(
+(({ Token.category == VBN })(({ Token.category == FW })({ Token.category == NNP })({ Token.category == FW })({ Token.category == NN })))):pttrn33873 --> :pttrn33873.extracted={}
+

@@ -1,0 +1,8 @@
+combing TF-IDF and SVD to reduce the high dimensionality
+(VP (VBG )(NP (NNP )(CC )(NNP ))(VP (TO )(VP (VB )(NP (DT )(JJ )(NN )))))
+Phase: generated85880
+Input: Token
+Rule: generated85880
+(
+(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn85880 --> :pttrn85880.extracted={}
+

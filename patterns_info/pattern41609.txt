@@ -1,0 +1,8 @@
+is ensured.This exchange can take place only if a node comes into contact withits neighbor during its displacement; which also means that it enterswithin its communication range
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated41609
+Input: Token
+Rule: generated41609
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn41609 --> :pttrn41609.extracted={}
+

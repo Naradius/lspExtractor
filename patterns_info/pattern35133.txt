@@ -1,0 +1,8 @@
+Future Generation Computer Systems 101  10281040Table 5IoT/blockchain attack analysis
+(NP (NNP ){1,2}(NNPS )(CD )(JJ ){1,2}(NN ){1,2})
+Phase: generated35133
+Input: Token
+Rule: generated35133
+(
+(({ Token.category == NNP })+({ Token.category == NNPS })({ Token.category == CD })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn35133 --> :pttrn35133.extracted={}
+

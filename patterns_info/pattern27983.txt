@@ -1,0 +1,8 @@
+Fig. 7 , independent from type of the OF, byonsidering a topology with a fixed number of nodes, the incre-ent of data rate
+(NP (NP (NNP ){1,2}(CD ))(VP (VBG )(NP (DT )(NN ))))
+Phase: generated27983
+Input: Token
+Rule: generated27983
+(
+((({ Token.category == NNP })+({ Token.category == CD }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))):pttrn27983 --> :pttrn27983.extracted={}
+

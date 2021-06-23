@@ -1,0 +1,8 @@
+by a keyword search
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated117217
+Input: Token
+Rule: generated117217
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn117217 --> :pttrn117217.extracted={}
+

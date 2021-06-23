@@ -1,0 +1,8 @@
+the seed/validation pair
+(NP (DT )(NN ){1,2})
+Phase: generated99535
+Input: Token
+Rule: generated99535
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn99535 --> :pttrn99535.extracted={}
+

@@ -1,0 +1,8 @@
+underutilize FM spectrum for low-power short-range IoT de-vices
+(NP (NP (JJ )(NNP )(NN ))(PP (IN )(NP (JJ ){1,2}(NNP )(NNS ))))
+Phase: generated21904
+Input: Token
+Rule: generated21904
+(
+((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NNS }))))):pttrn21904 --> :pttrn21904.extracted={}
+

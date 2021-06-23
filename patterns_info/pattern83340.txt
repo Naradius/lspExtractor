@@ -1,0 +1,8 @@
+belongs to a user-dened semantic class
+(VP (VBZ )(PP (TO )(NP (DT )(JJ ){1,2}(NN ))))
+Phase: generated83340
+Input: Token
+Rule: generated83340
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn83340 --> :pttrn83340.extracted={}
+

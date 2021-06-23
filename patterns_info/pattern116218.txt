@@ -1,0 +1,8 @@
+of a complex question
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated116218
+Input: Token
+Rule: generated116218
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn116218 --> :pttrn116218.extracted={}
+

@@ -1,0 +1,8 @@
+our network topology
+(NP (PRP$ )(NN ){1,2})
+Phase: generated110334
+Input: Token
+Rule: generated110334
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn110334 --> :pttrn110334.extracted={}
+

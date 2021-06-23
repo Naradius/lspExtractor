@@ -1,0 +1,8 @@
+against twowell-known proposals, LEACH and a more recent one,HEED
+(PP (IN )(NP (NP (JJ )(NNS ))(CC )(NP (DT )(ADJP (JJR )(JJ ))(CD )(NN ))))
+Phase: generated4760
+Input: Token
+Rule: generated4760
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })(({ Token.category == JJR })({ Token.category == JJ }))({ Token.category == CD })({ Token.category == NN }))))):pttrn4760 --> :pttrn4760.extracted={}
+

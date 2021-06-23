@@ -1,0 +1,8 @@
+separate featurenames
+(NP (JJ )(NNS ))
+Phase: generated89551
+Input: Token
+Rule: generated89551
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn89551 --> :pttrn89551.extracted={}
+

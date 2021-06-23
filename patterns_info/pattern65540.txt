@@ -1,0 +1,8 @@
+help to detect the availability of the unauthorized trafficsr intruder nodes in the cluster
+(VP (VB )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2}(NNS ))(PP (IN )(NP (DT )(NN )))))))))
+Phase: generated65540
+Input: Token
+Rule: generated65540
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn65540 --> :pttrn65540.extracted={}
+

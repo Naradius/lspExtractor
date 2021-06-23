@@ -1,0 +1,8 @@
+mobile and static
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated24915
+Input: Token
+Rule: generated24915
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn24915 --> :pttrn24915.extracted={}
+

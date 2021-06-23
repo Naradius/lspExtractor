@@ -1,0 +1,8 @@
+is proposed to prevent malicious behaviorof local dominance
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (JJ )(NN )))))))
+Phase: generated35971
+Input: Token
+Rule: generated35971
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn35971 --> :pttrn35971.extracted={}
+

@@ -1,0 +1,8 @@
+a request from the interested sinks.The data-centric routing
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )(NN ){1,2})))
+Phase: generated48969
+Input: Token
+Rule: generated48969
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })+)))):pttrn48969 --> :pttrn48969.extracted={}
+

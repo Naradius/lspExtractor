@@ -1,0 +1,8 @@
+of a productionmode in which he is free to insert, delete, change, or move any graphical object without anyinterference by the syntax directed nature of the editor
+(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(ADJP (JJ )(VP (TO )(VP (CC )(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated102007
+Input: Token
+Rule: generated102007
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn102007 --> :pttrn102007.extracted={}
+

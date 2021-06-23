@@ -1,0 +1,8 @@
+range not
+(NP (NN )(RB ))
+Phase: generated3943
+Input: Token
+Rule: generated3943
+(
+(({ Token.category == NN })({ Token.category == RB }))):pttrn3943 --> :pttrn3943.extracted={}
+

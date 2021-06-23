@@ -1,0 +1,8 @@
+the web  about this product
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated115016
+Input: Token
+Rule: generated115016
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn115016 --> :pttrn115016.extracted={}
+

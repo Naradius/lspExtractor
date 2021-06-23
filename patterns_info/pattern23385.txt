@@ -1,0 +1,8 @@
+the games
+(NP (DT )(NNS ))
+Phase: generated23385
+Input: Token
+Rule: generated23385
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn23385 --> :pttrn23385.extracted={}
+

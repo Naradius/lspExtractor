@@ -1,0 +1,8 @@
+at the Second International Conference on Networks Security, Wireless Communications and Trusted Computing, 2010
+(PP (IN )(NP (NP (DT )(NNP ){1,2})(PP (IN )(NP (NP (JJ )(NNS ))(CC )(NP (NNP ){1,2}(CD ))))))
+Phase: generated154
+Input: Token
+Rule: generated154
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })+)(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == CD }))))))):pttrn154 --> :pttrn154.extracted={}
+

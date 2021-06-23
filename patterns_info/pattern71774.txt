@@ -1,0 +1,8 @@
+to accumulate commonsense knowledge automatically toenrich ConceptNet
+(VP (TO )(VP (VB )(PP (RB )(NP (JJ )(NNP )))))
+Phase: generated71774
+Input: Token
+Rule: generated71774
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RB })(({ Token.category == JJ })({ Token.category == NNP })))))):pttrn71774 --> :pttrn71774.extracted={}
+

@@ -1,0 +1,8 @@
+the resource demand of that particular request isatisfied or not at FDS 1
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(CC )(RB )(PP (IN )(NP (NNP )(CD )))))))
+Phase: generated20833
+Input: Token
+Rule: generated20833
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })({ Token.category == CC })({ Token.category == RB })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })))))))):pttrn20833 --> :pttrn20833.extracted={}
+

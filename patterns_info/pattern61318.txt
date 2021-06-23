@@ -1,0 +1,8 @@
+fuzzy logic and only a few worked on cluster formation
+(NP (NP (JJ )(NN ))(CC ))
+Phase: generated61318
+Input: Token
+Rule: generated61318
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))):pttrn61318 --> :pttrn61318.extracted={}
+

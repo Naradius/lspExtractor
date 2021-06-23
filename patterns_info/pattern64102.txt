@@ -1,0 +1,8 @@
+Left Wing,Centre and Right Wing positions
+(NP (CC )(NP (NNP ){1,2}(NNS )))
+Phase: generated64102
+Input: Token
+Rule: generated64102
+(
+(({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == NNS })))):pttrn64102 --> :pttrn64102.extracted={}
+

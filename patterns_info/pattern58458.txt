@@ -1,0 +1,8 @@
+towhich cluster it belongs for this round
+(NP (NP (DT )(NN ))(VP (VBZ )(PP (IN )(NP (DT )(NN )))))
+Phase: generated58458
+Input: Token
+Rule: generated58458
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn58458 --> :pttrn58458.extracted={}
+

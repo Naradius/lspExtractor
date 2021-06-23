@@ -1,0 +1,8 @@
+by the scout-agents
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated1422
+Input: Token
+Rule: generated1422
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn1422 --> :pttrn1422.extracted={}
+

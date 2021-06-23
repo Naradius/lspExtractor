@@ -1,0 +1,8 @@
+as medical care
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated117675
+Input: Token
+Rule: generated117675
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn117675 --> :pttrn117675.extracted={}
+

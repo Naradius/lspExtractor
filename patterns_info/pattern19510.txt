@@ -1,0 +1,8 @@
+134 S.S. Gill
+(NP (CD )(NNP ){1,2})
+Phase: generated19510
+Input: Token
+Rule: generated19510
+(
+(({ Token.category == CD })({ Token.category == NNP })+)):pttrn19510 --> :pttrn19510.extracted={}
+

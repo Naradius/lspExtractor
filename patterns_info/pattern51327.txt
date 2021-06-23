@@ -1,0 +1,8 @@
+activating only asubset of nodes, with the minimum overlap area
+(VP (VBG )(PP (IN )(NP (DT )(JJ ){1,2}(NN ))))
+Phase: generated51327
+Input: Token
+Rule: generated51327
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn51327 --> :pttrn51327.extracted={}
+

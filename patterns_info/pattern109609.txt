@@ -1,0 +1,8 @@
+of a fluid-flow model
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated109609
+Input: Token
+Rule: generated109609
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn109609 --> :pttrn109609.extracted={}
+

@@ -1,0 +1,8 @@
+the nodes
+(NP (DT )(NNS ))
+Phase: generated9671
+Input: Token
+Rule: generated9671
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn9671 --> :pttrn9671.extracted={}
+

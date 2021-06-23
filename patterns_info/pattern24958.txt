@@ -1,0 +1,8 @@
+i n f o Article history: Received 15 October 2018 Revised 20 May 2019 Accepted 26 May 2019 Available online 4 June 2019 Keywords: Internet of Things Mobility IPv6 Routing Protocol for Low-power and lossy networks Objective function a b s t r a c t The emergence of mobile IoT applications in recent years and the challenge of routing in their infrastruc- tures have motivated scholars to propose appropriate routing mechanisms for such systems
+(VP (VBD )(VP (VBN )(NP (CD )(NNP )(CD )(NNP )(CD )(NNP )(CD )(NNP )(CD ))))
+Phase: generated24958
+Input: Token
+Rule: generated24958
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD }))))):pttrn24958 --> :pttrn24958.extracted={}
+

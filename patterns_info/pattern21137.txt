@@ -1,0 +1,8 @@
+Energy- Efficient multi-hop multi-channelrouting scheme for D2D communication in IoT mesh network
+(NP (NP (NNP ){1,2}(JJ ){1,2}(NN ))(PP (IN )(NP (NP (NNP )(NN ))(PP (IN )(NP (NNP )(NN ){1,2})))))
+Phase: generated21137
+Input: Token
+Rule: generated21137
+(
+((({ Token.category == NNP })+({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+)))))):pttrn21137 --> :pttrn21137.extracted={}
+

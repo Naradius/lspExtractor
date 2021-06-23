@@ -1,0 +1,8 @@
+either one or two title tokens
+(NP (DT )(CD )(CC )(CD )(NN )(NNS ))
+Phase: generated89061
+Input: Token
+Rule: generated89061
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == CC })({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn89061 --> :pttrn89061.extracted={}
+

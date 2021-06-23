@@ -1,0 +1,8 @@
+the solution search in the optimal routing path
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated107479
+Input: Token
+Rule: generated107479
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn107479 --> :pttrn107479.extracted={}
+

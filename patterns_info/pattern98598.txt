@@ -1,0 +1,8 @@
+their stems
+(NP (PRP$ )(NNS ))
+Phase: generated98598
+Input: Token
+Rule: generated98598
+(
+(({ Token.category == PRP$ })({ Token.category == NNS }))):pttrn98598 --> :pttrn98598.extracted={}
+

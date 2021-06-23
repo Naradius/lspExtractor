@@ -1,0 +1,8 @@
+proves better results whencompared to the existing approaches
+(VP (VBZ )(NP (JJR )(NNS ))(PP (IN )(PP (TO )(NP (DT )(VBG )(NNS )))))
+Phase: generated12138
+Input: Token
+Rule: generated12138
+(
+(({ Token.category == VBZ })(({ Token.category == JJR })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS })))))):pttrn12138 --> :pttrn12138.extracted={}
+

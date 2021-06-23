@@ -1,0 +1,8 @@
+46% of the time
+(NP (NP (CD )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated79814
+Input: Token
+Rule: generated79814
+(
+((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn79814 --> :pttrn79814.extracted={}
+

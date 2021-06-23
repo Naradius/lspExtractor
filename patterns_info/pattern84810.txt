@@ -1,0 +1,8 @@
+About half
+(QP (IN )(PDT ))
+Phase: generated84810
+Input: Token
+Rule: generated84810
+(
+(({ Token.category == IN })({ Token.category == PDT }))):pttrn84810 --> :pttrn84810.extracted={}
+

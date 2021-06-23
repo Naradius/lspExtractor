@@ -1,0 +1,8 @@
+every human being
+(NP (DT )(JJ )(NN ))
+Phase: generated97129
+Input: Token
+Rule: generated97129
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn97129 --> :pttrn97129.extracted={}
+

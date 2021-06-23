@@ -1,0 +1,8 @@
+theotal number
+(NP (JJ )(NN ))
+Phase: generated62926
+Input: Token
+Rule: generated62926
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn62926 --> :pttrn62926.extracted={}
+

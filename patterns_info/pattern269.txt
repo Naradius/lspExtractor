@@ -1,0 +1,8 @@
+is particularly attractive for most developing countries and remote areas where the proper roadside infrastructures are unavailable
+(VP (VBZ )(ADJP (RB )(JJ ))(PP (IN )(NP (NP (JJS )(VBG )(NNS ))(CC ))))
+Phase: generated269
+Input: Token
+Rule: generated269
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == JJS })({ Token.category == VBG })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn269 --> :pttrn269.extracted={}
+

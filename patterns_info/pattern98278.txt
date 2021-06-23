@@ -1,0 +1,8 @@
+a query or profile
+(NP (DT )(NN )(CC )(NN ))
+Phase: generated98278
+Input: Token
+Rule: generated98278
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn98278 --> :pttrn98278.extracted={}
+

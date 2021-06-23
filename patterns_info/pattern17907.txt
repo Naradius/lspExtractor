@@ -1,0 +1,8 @@
+all simulations of GPSR and IPF
+(NP (NP (DT )(NNS ))(PP (IN )(NP (NNP )(CC )(NNP ))))
+Phase: generated17907
+Input: Token
+Rule: generated17907
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn17907 --> :pttrn17907.extracted={}
+

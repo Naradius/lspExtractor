@@ -1,0 +1,8 @@
+this assumption
+(NP (DT )(NN ))
+Phase: generated11351
+Input: Token
+Rule: generated11351
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn11351 --> :pttrn11351.extracted={}
+

@@ -1,0 +1,8 @@
+a 350-radius circle
+(NP (DT )(JJ )(NN ))
+Phase: generated69713
+Input: Token
+Rule: generated69713
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn69713 --> :pttrn69713.extracted={}
+

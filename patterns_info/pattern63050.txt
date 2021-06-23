@@ -1,0 +1,8 @@
+are compared with the SLPRR, namelyhe greedy routing  scheme  and the source location pri-acy against hotspot-locating attack  scheme
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NP (DT )(NNP ))(NP (ADJP (RB )(JJ ))(JJ )(NN )(CC )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN ){1,2}))))))))
+Phase: generated63050
+Input: Token
+Rule: generated63050
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))))):pttrn63050 --> :pttrn63050.extracted={}
+

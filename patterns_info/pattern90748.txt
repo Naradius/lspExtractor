@@ -1,0 +1,8 @@
+tagged with Z. 7.  The current word is Z.                                                 6 These triggers do not check if the word before/after the current word is a particular word ,instead they check if the current word ever can be preceded/followed by a particular word in some context.7 RT0 was called TC0 in the general description of TEL above.88
+(VP (VBN )(PP (IN )(NP (NP (NNP )(CD ))(NP (DT )(JJ )(NN )))))
+Phase: generated90748
+Input: Token
+Rule: generated90748
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn90748 --> :pttrn90748.extracted={}
+

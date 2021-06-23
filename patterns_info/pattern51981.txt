@@ -1,0 +1,8 @@
+to be improved because nodedecisions are based on metrics whose evolution reflectsthe network status
+(VP (TO )(VP (VB )(VP (VBN )(IN ))))
+Phase: generated51981
+Input: Token
+Rule: generated51981
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN }))))):pttrn51981 --> :pttrn51981.extracted={}
+

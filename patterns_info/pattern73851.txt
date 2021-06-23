@@ -1,0 +1,8 @@
+SC and DT phrases
+(NP (NNP )(CC )(NNP )(NNS ))
+Phase: generated73851
+Input: Token
+Rule: generated73851
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNS }))):pttrn73851 --> :pttrn73851.extracted={}
+

@@ -1,0 +1,8 @@
+be applied if the host graph has a subgraphwhich matches the entire left-hand side  AttrEntity has
+(VP (VB )(VP (VBN )(IN )))
+Phase: generated105508
+Input: Token
+Rule: generated105508
+(
+(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN })))):pttrn105508 --> :pttrn105508.extracted={}
+

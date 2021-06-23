@@ -1,0 +1,8 @@
+at least two clusters
+(NP (QP (IN )(JJS )(CD ))(NNS ))
+Phase: generated1028
+Input: Token
+Rule: generated1028
+(
+((({ Token.category == IN })({ Token.category == JJS })({ Token.category == CD }))({ Token.category == NNS }))):pttrn1028 --> :pttrn1028.extracted={}
+

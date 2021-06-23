@@ -1,0 +1,8 @@
+a best search plan within this set
+(NP (NP (DT )(JJS )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated103851
+Input: Token
+Rule: generated103851
+(
+((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn103851 --> :pttrn103851.extracted={}
+

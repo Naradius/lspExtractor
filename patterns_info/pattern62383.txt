@@ -1,0 +1,8 @@
+the ring
+(NP (DT )(NN ))
+Phase: generated62383
+Input: Token
+Rule: generated62383
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn62383 --> :pttrn62383.extracted={}
+

@@ -1,0 +1,8 @@
+conclude the paper and describe planned futuretudies in Section 6 .
+(VP (VP (VBP )(NP (DT )(NN )))(CC )(VP (VB )(NP (VBN )(NNS ))(PP (IN )(NP (NNP )(CD )(NNP )))))
+Phase: generated61790
+Input: Token
+Rule: generated61790
+(
+((({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })))))):pttrn61790 --> :pttrn61790.extracted={}
+

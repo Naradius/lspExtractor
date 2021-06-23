@@ -1,0 +1,8 @@
+the set of relevant annotations and Found
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(CC ))))
+Phase: generated93988
+Input: Token
+Rule: generated93988
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn93988 --> :pttrn93988.extracted={}
+

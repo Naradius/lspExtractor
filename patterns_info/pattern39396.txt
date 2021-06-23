@@ -1,0 +1,8 @@
+envisioned to address the cyber-physicalnature of smart grids protecting against both physical and cyber attacks
+(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(PP (IN )(NP (DT )(JJ )(CC )(JJ )(NNS ))))))))))
+Phase: generated39396
+Input: Token
+Rule: generated39396
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS }))))))))))):pttrn39396 --> :pttrn39396.extracted={}
+

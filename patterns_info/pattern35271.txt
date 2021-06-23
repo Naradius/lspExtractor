@@ -1,0 +1,8 @@
+10 averagevalues
+(NP (CD )(NNS ))
+Phase: generated35271
+Input: Token
+Rule: generated35271
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn35271 --> :pttrn35271.extracted={}
+

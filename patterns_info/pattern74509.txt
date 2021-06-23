@@ -1,0 +1,8 @@
+remove body partphrases  from the set of potential DT phrases
+(VP (VB )(NP (NN )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNP )(NNS ))))))
+Phase: generated74509
+Input: Token
+Rule: generated74509
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))))):pttrn74509 --> :pttrn74509.extracted={}
+

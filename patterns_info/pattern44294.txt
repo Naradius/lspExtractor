@@ -1,0 +1,8 @@
+a wireless multihop self-organizing sensor network
+(NP (DT )(JJ ){1,2}(NN ){1,2})
+Phase: generated44294
+Input: Token
+Rule: generated44294
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)):pttrn44294 --> :pttrn44294.extracted={}
+

@@ -1,0 +1,8 @@
+are often used to design robust non-linear observers orontrol laws
+(VP (VBP )(VP (VBN )(VP (TO )(VP (VB )(NP (JJ ){1,2}(NNS )){1,2}))))
+Phase: generated109952
+Input: Token
+Rule: generated109952
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == NNS }))+))))):pttrn109952 --> :pttrn109952.extracted={}
+

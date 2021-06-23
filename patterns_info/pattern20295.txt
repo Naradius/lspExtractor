@@ -1,0 +1,8 @@
+s  q  ttps://doi.org/10.1016/j.jss.2019.04.058 164-1212/ 2019 Elsevier Inc.
+(NP (CC )(NP (DT )(NNP ){1,2}(CD )(JJ )(CD )(NNP ){1,2}))
+Phase: generated20295
+Input: Token
+Rule: generated20295
+(
+(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == CD })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNP })+))):pttrn20295 --> :pttrn20295.extracted={}
+

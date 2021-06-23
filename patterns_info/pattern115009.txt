@@ -1,0 +1,8 @@
+https://code.google.com/p/relevance-based-on-parse-trees/downloads/detail?name=Queries900set.xls
+(NP (PRP$ )(JJ ){1,2}(NN )(NNP ){1,2})
+Phase: generated115009
+Input: Token
+Rule: generated115009
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNP })+)):pttrn115009 --> :pttrn115009.extracted={}
+

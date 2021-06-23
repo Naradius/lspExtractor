@@ -1,0 +1,8 @@
+noun Red Carpet Problem: too slow
+(NP (NP (NN )(NNP ){1,2})(ADJP (RB )(JJ )))
+Phase: generated96294
+Input: Token
+Rule: generated96294
+(
+((({ Token.category == NN })({ Token.category == NNP })+)(({ Token.category == RB })({ Token.category == JJ })))):pttrn96294 --> :pttrn96294.extracted={}
+

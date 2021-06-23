@@ -1,0 +1,8 @@
+are routed back to the end user by amultihop infrastructureless architecture throughthe sink as shown in Fig
+(VP (VBP )(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2}))(PP (IN )(NP (JJ ){1,2}(NN )))(NP (DT )(NN ))(IN )))
+Phase: generated48116
+Input: Token
+Rule: generated48116
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })))(({ Token.category == DT })({ Token.category == NN }))({ Token.category == IN })))):pttrn48116 --> :pttrn48116.extracted={}
+

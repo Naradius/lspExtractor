@@ -1,0 +1,8 @@
+allow the existence ofcertain properties that are less expressive in other built document collections: the same informationis likely to be replicated multiple times  and presented in various ways
+(VP (VBP )(NP (NP (NP (DT )(NN ){1,2}(NNS ))(VP (VBP )(ADJP (RBR )(JJ ))(PP (IN )(NP (JJ )(NN ){1,2}(NNS )))))(NP (NP (DT )(JJ )(NN ))(ADJP (JJ )(VP (TO )(VP (VB )(VP (VP (VBN )(NP (JJ )(NNS )))(CC )(VP (VBD )(PP (IN )(NP (JJ )(NNS )))))))))))
+Phase: generated99108
+Input: Token
+Rule: generated99108
+(
+(({ Token.category == VBP })(((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == RBR })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))))))):pttrn99108 --> :pttrn99108.extracted={}
+

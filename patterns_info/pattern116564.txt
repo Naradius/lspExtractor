@@ -1,0 +1,8 @@
+a broad match of queries and answers
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNS )(CC )(NNS ))))
+Phase: generated116564
+Input: Token
+Rule: generated116564
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))):pttrn116564 --> :pttrn116564.extracted={}
+

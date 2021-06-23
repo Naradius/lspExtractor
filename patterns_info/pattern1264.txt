@@ -1,0 +1,8 @@
+the bee colony
+(NP (DT )(NN ){1,2})
+Phase: generated1264
+Input: Token
+Rule: generated1264
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn1264 --> :pttrn1264.extracted={}
+

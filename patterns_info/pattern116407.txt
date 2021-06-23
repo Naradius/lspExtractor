@@ -1,0 +1,8 @@
+on the lower, i.e.
+(PP (IN )(NP (DT )(JJR )(FW )(NNP ){1,2}))
+Phase: generated116407
+Input: Token
+Rule: generated116407
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == FW })({ Token.category == NNP })+))):pttrn116407 --> :pttrn116407.extracted={}
+

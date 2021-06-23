@@ -1,0 +1,8 @@
+the applications reliability
+(NP (DT )(NNS )(NN ))
+Phase: generated50184
+Input: Token
+Rule: generated50184
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))):pttrn50184 --> :pttrn50184.extracted={}
+

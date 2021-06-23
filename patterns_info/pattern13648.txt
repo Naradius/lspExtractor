@@ -1,0 +1,8 @@
+to measure the activeness of the region
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated13648
+Input: Token
+Rule: generated13648
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn13648 --> :pttrn13648.extracted={}
+

@@ -1,0 +1,8 @@
+defining every QoS function of the routing model
+(VP (VBG )(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated32886
+Input: Token
+Rule: generated32886
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn32886 --> :pttrn32886.extracted={}
+

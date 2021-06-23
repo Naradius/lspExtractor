@@ -1,0 +1,8 @@
+the case
+(NP (DT )(NN ))
+Phase: generated112215
+Input: Token
+Rule: generated112215
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn112215 --> :pttrn112215.extracted={}
+

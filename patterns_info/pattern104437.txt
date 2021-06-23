@@ -1,0 +1,8 @@
+applying a uniquely defined pro-duction instance
+(VP (VBG )(NP (DT )(ADJP (RB )(VBN ))(JJ )(NN )))
+Phase: generated104437
+Input: Token
+Rule: generated104437
+(
+(({ Token.category == VBG })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == JJ })({ Token.category == NN })))):pttrn104437 --> :pttrn104437.extracted={}
+

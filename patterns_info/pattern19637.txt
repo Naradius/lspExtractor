@@ -1,0 +1,8 @@
+about their occurrence
+(PP (IN )(NP (PRP$ )(NN )))
+Phase: generated19637
+Input: Token
+Rule: generated19637
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn19637 --> :pttrn19637.extracted={}
+

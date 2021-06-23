@@ -1,0 +1,8 @@
+ofthe subj and obj
+(PP (IN )(NP (NN )(CC )(NN )))
+Phase: generated90416
+Input: Token
+Rule: generated90416
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn90416 --> :pttrn90416.extracted={}
+

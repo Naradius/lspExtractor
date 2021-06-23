@@ -1,0 +1,8 @@
+0.5 m/s
+(NP (CD )(NNS ))
+Phase: generated67505
+Input: Token
+Rule: generated67505
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn67505 --> :pttrn67505.extracted={}
+

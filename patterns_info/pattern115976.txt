@@ -1,0 +1,8 @@
+of candidate paragraph-length answers
+(PP (IN )(NP (NN ){1,2}(NNS )))
+Phase: generated115976
+Input: Token
+Rule: generated115976
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn115976 --> :pttrn115976.extracted={}
+

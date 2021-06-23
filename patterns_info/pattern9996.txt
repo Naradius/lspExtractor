@@ -1,0 +1,8 @@
+possess greater energy backup and minimaldistance from the BS
+(VP (VB )(NP (JJR )(NN ){1,2}(CC )(NN ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated9996
+Input: Token
+Rule: generated9996
+(
+(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn9996 --> :pttrn9996.extracted={}
+

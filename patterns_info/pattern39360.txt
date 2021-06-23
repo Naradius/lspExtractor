@@ -1,0 +1,8 @@
+an anomaly based IDS focused on four attacks namely
+(NP (NP (DT )(NN ))(VP (VBN )(VP (VBD )(PP (IN )(NP (CD )(NNS ))))))
+Phase: generated39360
+Input: Token
+Rule: generated39360
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))))):pttrn39360 --> :pttrn39360.extracted={}
+

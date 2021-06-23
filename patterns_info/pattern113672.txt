@@ -1,0 +1,8 @@
+to rent an office
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated113672
+Input: Token
+Rule: generated113672
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn113672 --> :pttrn113672.extracted={}
+

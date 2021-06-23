@@ -1,0 +1,8 @@
+10:30 PM - 11:30 PM"in the heading section
+(NP (NP (CD )(NNP ))(NNP )(NP (DT )(NN ){1,2}))
+Phase: generated84822
+Input: Token
+Rule: generated84822
+(
+((({ Token.category == CD })({ Token.category == NNP }))({ Token.category == NNP })(({ Token.category == DT })({ Token.category == NN })+))):pttrn84822 --> :pttrn84822.extracted={}
+

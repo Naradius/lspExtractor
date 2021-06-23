@@ -1,0 +1,8 @@
+a given con-figuration between t, yt, yt1 and x
+(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (NN ){1,2}(CC )(NN ))))
+Phase: generated106409
+Input: Token
+Rule: generated106409
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))):pttrn106409 --> :pttrn106409.extracted={}
+

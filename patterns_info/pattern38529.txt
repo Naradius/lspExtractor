@@ -1,0 +1,8 @@
+energy consumption and memory,and
+(NP (NN ){1,2}(CC )(NN ){1,2})
+Phase: generated38529
+Input: Token
+Rule: generated38529
+(
+(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)):pttrn38529 --> :pttrn38529.extracted={}
+

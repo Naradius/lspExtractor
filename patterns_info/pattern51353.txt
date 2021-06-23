@@ -1,0 +1,8 @@
+in some applica-tions like environmental monitoring, when the senseddata are location-dependent, since the data of inactivenodes can be inferred from those of active nodes due tothe spatial correlation.4.4
+(PP (IN )(NP (NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NN ))))(WHADVP (WRB ))))
+Phase: generated51353
+Input: Token
+Rule: generated51353
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == WRB }))))):pttrn51353 --> :pttrn51353.extracted={}
+

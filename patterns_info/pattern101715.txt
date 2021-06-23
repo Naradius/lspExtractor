@@ -1,0 +1,8 @@
+a multiple-choice test item
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated101715
+Input: Token
+Rule: generated101715
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn101715 --> :pttrn101715.extracted={}
+

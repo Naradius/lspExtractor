@@ -1,0 +1,8 @@
+to manage user credentials
+(VP (TO )(VP (VB )(NP (NN )(NNS ))))
+Phase: generated20766
+Input: Token
+Rule: generated20766
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn20766 --> :pttrn20766.extracted={}
+

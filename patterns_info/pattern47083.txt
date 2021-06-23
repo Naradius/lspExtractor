@@ -1,0 +1,8 @@
+to digital converters
+(PP (TO )(NP (JJ )(NNS )))
+Phase: generated47083
+Input: Token
+Rule: generated47083
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn47083 --> :pttrn47083.extracted={}
+

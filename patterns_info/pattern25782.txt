@@ -1,0 +1,8 @@
+low bit rate and long-range radioechnologies, e.g., LoRa/LoRaWAN  and Sigfox
+(NP (NP (JJ )(NN ){1,2})(CC )(NP (NP (JJ )(NNS ))(NP (FW )(NNP )(CC )(NNP ))))
+Phase: generated25782
+Input: Token
+Rule: generated25782
+(
+((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == FW })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn25782 --> :pttrn25782.extracted={}
+

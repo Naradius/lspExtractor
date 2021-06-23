@@ -1,0 +1,8 @@
+associated with the concatenation of itspossible tags in an external lexicon
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))))
+Phase: generated106487
+Input: Token
+Rule: generated106487
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn106487 --> :pttrn106487.extracted={}
+

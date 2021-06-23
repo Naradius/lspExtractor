@@ -1,0 +1,8 @@
+fictitious substitution sentences
+(NP (JJ )(NN )(NNS ))
+Phase: generated72924
+Input: Token
+Rule: generated72924
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn72924 --> :pttrn72924.extracted={}
+

@@ -1,0 +1,8 @@
+des languesnaturelles .M. Constant and P. Watrin
+(VP (VBZ )(NP (NP (NNS )(FW )(NNP ))(CC )))
+Phase: generated106162
+Input: Token
+Rule: generated106162
+(
+(({ Token.category == VBZ })((({ Token.category == NNS })({ Token.category == FW })({ Token.category == NNP }))({ Token.category == CC })))):pttrn106162 --> :pttrn106162.extracted={}
+

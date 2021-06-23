@@ -1,0 +1,8 @@
+in thenew backup synchronization process
+(PP (IN )(NP (JJ ){1,2}(NN ){1,2}))
+Phase: generated15209
+Input: Token
+Rule: generated15209
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })+))):pttrn15209 --> :pttrn15209.extracted={}
+

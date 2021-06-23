@@ -1,0 +1,8 @@
+be used for indexing the document
+(VP (VB )(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(NN ))))))
+Phase: generated85415
+Input: Token
+Rule: generated85415
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn85415 --> :pttrn85415.extracted={}
+

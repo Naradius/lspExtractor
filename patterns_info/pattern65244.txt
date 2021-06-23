@@ -1,0 +1,8 @@
+the con-ective device
+(NP (DT )(JJ )(NN ))
+Phase: generated65244
+Input: Token
+Rule: generated65244
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn65244 --> :pttrn65244.extracted={}
+

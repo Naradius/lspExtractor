@@ -1,0 +1,8 @@
+have created theinflected patterns that have significantly contributed to the QG of plausible questions.Thus
+(VP (VBP )(VP (VBN )(NP (NP (DT )(NNS ))(VP (VBP )(VP (VBN )(PP (TO )(NP (NP (DT )(NNP ))(PP (IN )(NP (JJ )(NN ))))))))))
+Phase: generated101189
+Input: Token
+Rule: generated101189
+(
+(({ Token.category == VBP })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))))))):pttrn101189 --> :pttrn101189.extracted={}
+

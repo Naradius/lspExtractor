@@ -1,0 +1,8 @@
+zero coverage
+(NP (CD )(NN ))
+Phase: generated80950
+Input: Token
+Rule: generated80950
+(
+(({ Token.category == CD })({ Token.category == NN }))):pttrn80950 --> :pttrn80950.extracted={}
+

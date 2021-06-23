@@ -1,0 +1,8 @@
+was no agreement in 4 questions
+(VP (VBD )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NNS )))))
+Phase: generated100857
+Input: Token
+Rule: generated100857
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn100857 --> :pttrn100857.extracted={}
+

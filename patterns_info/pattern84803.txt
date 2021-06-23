@@ -1,0 +1,8 @@
+eachof the four slots separately
+(VP (VBG )(NP (DT )(CD )(NNS )))
+Phase: generated84803
+Input: Token
+Rule: generated84803
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS })))):pttrn84803 --> :pttrn84803.extracted={}
+

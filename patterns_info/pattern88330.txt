@@ -1,0 +1,8 @@
+of unquoted string
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated88330
+Input: Token
+Rule: generated88330
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn88330 --> :pttrn88330.extracted={}
+

@@ -1,0 +1,8 @@
+the intrusion detection process we propose in this paper
+(NP (NP (DT )(NN ){1,2})(VP (VBP )(PP (IN )(NP (DT )(NN )))))
+Phase: generated112626
+Input: Token
+Rule: generated112626
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn112626 --> :pttrn112626.extracted={}
+

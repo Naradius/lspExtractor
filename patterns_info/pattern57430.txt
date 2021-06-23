@@ -1,0 +1,8 @@
+used for larger network domain
+(VP (VBN )(PP (IN )(NP (JJR )(NN ){1,2})))
+Phase: generated57430
+Input: Token
+Rule: generated57430
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })+)))):pttrn57430 --> :pttrn57430.extracted={}
+

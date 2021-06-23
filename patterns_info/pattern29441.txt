@@ -1,0 +1,8 @@
+have con-structed in the previous point
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated29441
+Input: Token
+Rule: generated29441
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn29441 --> :pttrn29441.extracted={}
+

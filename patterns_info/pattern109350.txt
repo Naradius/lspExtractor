@@ -1,0 +1,8 @@
+to provide better transmission in MANETs using the optimal routing path
+(VP (TO )(VP (VB )(NP (JJR )(NN ))(VP (VBG )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated109350
+Input: Token
+Rule: generated109350
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn109350 --> :pttrn109350.extracted={}
+

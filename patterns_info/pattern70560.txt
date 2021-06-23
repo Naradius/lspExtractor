@@ -1,0 +1,8 @@
+be to detect weak semantic signals in a domain-independent manner
+(VP (VB )(VP (TO )(VP (VB )(NP (JJ ){1,2}(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated70560
+Input: Token
+Rule: generated70560
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn70560 --> :pttrn70560.extracted={}
+

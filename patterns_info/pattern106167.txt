@@ -1,0 +1,8 @@
+on LanguageResources and Evaluation
+(PP (IN )(NP (NNP )(CC )(NNP )))
+Phase: generated106167
+Input: Token
+Rule: generated106167
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn106167 --> :pttrn106167.extracted={}
+

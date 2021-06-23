@@ -1,0 +1,8 @@
+a signal over a distance
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated45339
+Input: Token
+Rule: generated45339
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn45339 --> :pttrn45339.extracted={}
+

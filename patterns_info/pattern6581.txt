@@ -1,0 +1,8 @@
+a hierarchical structure
+(NP (DT )(JJ )(NN )){1,2}
+Phase: generated6581
+Input: Token
+Rule: generated6581
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))+):pttrn6581 --> :pttrn6581.extracted={}
+

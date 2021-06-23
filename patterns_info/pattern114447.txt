@@ -1,0 +1,8 @@
+suggest   condemn
+(NP (JJ )(NN ))
+Phase: generated114447
+Input: Token
+Rule: generated114447
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn114447 --> :pttrn114447.extracted={}
+

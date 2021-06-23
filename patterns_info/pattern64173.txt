@@ -1,0 +1,8 @@
+the other twogroups consider as two wings
+(NP (NP (DT )(JJ )(NNS )(NN ))(PP (IN )(NP (CD )(NNS ))))
+Phase: generated64173
+Input: Token
+Rule: generated64173
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))):pttrn64173 --> :pttrn64173.extracted={}
+

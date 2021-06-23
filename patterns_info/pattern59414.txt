@@ -1,0 +1,8 @@
+Neuro fuzzy rules In this work, first we performed training of the convolutionalneural network with fuzzy approach for weight adjustment andhence Mamdani Fuzzy inference model has been used in this workdue to the nature of the convolutional neural network  and .
+(NP (NP (NNP )(JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated59414
+Input: Token
+Rule: generated59414
+(
+((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn59414 --> :pttrn59414.extracted={}
+

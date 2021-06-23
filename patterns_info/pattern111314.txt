@@ -1,0 +1,8 @@
+all the ground software andhardware infrastructures (Ground Control Station , anten-nas, modems, video, receivers) that are used to prepare, mon-itor and analyze the flight
+(NP (NP (PDT )(DT )(NN ){1,2}(NNS ))(PRN (-LRB- )(-RRB- ))(VP (VBP )(VP (VBN )(VP (TO )(VP (CC )(VP (VB )(NP (DT )(NN ))))))))
+Phase: generated111314
+Input: Token
+Rule: generated111314
+(
+((({ Token.category == PDT })({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == -LRB- })({ Token.category == -RRB- }))(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn111314 --> :pttrn111314.extracted={}
+

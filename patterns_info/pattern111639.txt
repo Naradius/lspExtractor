@@ -1,0 +1,8 @@
+to saturate either theCS or the drone
+(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(CC )(NP (DT )(NN )))))
+Phase: generated111639
+Input: Token
+Rule: generated111639
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))))):pttrn111639 --> :pttrn111639.extracted={}
+

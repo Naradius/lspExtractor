@@ -1,0 +1,8 @@
+become currently important, representing a special type of peer-to-peer ad hoc network based on unmanned aerial vehicles
+(VP (VBN )(ADJP (RB )(JJ ))(VP (VBG )(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )(JJ )(NN ))))(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NNS )))))))
+Phase: generated1826
+Input: Token
+Rule: generated1826
+(
+(({ Token.category == VBN })(({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == VBG })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))))):pttrn1826 --> :pttrn1826.extracted={}
+

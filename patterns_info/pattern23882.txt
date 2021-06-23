@@ -1,0 +1,8 @@
+The IoT network reachescomplete connectivity at rs = 23, i.e., at this point at least one edgedevice
+(NP (NP (NP (DT )(NNP )(NN ){1,2})(PP (IN )(NP (NNS )(SYM )(CD )(FW )(NNP ){1,2})))(PP (IN )(NP (NP (NP (DT )(NN ))(ADVP (IN )(JJS )))(CD )(NN ))))
+Phase: generated23882
+Input: Token
+Rule: generated23882
+(
+(((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == SYM })({ Token.category == CD })({ Token.category == FW })({ Token.category == NNP })+)))(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })({ Token.category == JJS })))({ Token.category == CD })({ Token.category == NN }))))):pttrn23882 --> :pttrn23882.extracted={}
+

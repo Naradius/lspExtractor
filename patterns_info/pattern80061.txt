@@ -1,0 +1,8 @@
+more than one token
+(NP (QP (JJR )(IN )(CD ))(NN ))
+Phase: generated80061
+Input: Token
+Rule: generated80061
+(
+((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN }))):pttrn80061 --> :pttrn80061.extracted={}
+

@@ -1,0 +1,8 @@
+a realisticdiscrete-event simulation environment using C++ and useMATLABscripts to generate different deployment and network character-istic scenarios
+(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBG )(NP (NNP )(CC )(NNS ))(VP (TO )(VP (VB )(NP (JJ )(NN )(CC )(NN )(JJ )(NNS ))))))
+Phase: generated23701
+Input: Token
+Rule: generated23701
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBG })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn23701 --> :pttrn23701.extracted={}
+

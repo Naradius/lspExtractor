@@ -1,0 +1,8 @@
+a hierarchical cluster
+(NP (DT )(JJ )(NN ))
+Phase: generated10770
+Input: Token
+Rule: generated10770
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn10770 --> :pttrn10770.extracted={}
+

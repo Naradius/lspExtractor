@@ -1,0 +1,8 @@
+the full job
+(NP (DT )(JJ )(NN ))
+Phase: generated82129
+Input: Token
+Rule: generated82129
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn82129 --> :pttrn82129.extracted={}
+

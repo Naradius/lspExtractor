@@ -1,0 +1,8 @@
+is divided in several phases starting with the chainconstruction phase
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated54219
+Input: Token
+Rule: generated54219
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn54219 --> :pttrn54219.extracted={}
+

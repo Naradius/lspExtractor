@@ -1,0 +1,8 @@
+must refresh and re-inforce the interest when it starts to receive datafrom the source
+(VP (MD )(VP (CC )(VP (VB )(NP (DT )(NN )))))
+Phase: generated44270
+Input: Token
+Rule: generated44270
+(
+(({ Token.category == MD })(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))):pttrn44270 --> :pttrn44270.extracted={}
+

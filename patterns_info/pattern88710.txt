@@ -1,0 +1,8 @@
+have been associated with the text span in the gazetteer or knowledge-base lookupphase
+(VP (VBP )(VP (VBN )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN )(CC )(NN ){1,2})))))))
+Phase: generated88710
+Input: Token
+Rule: generated88710
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)))))))):pttrn88710 --> :pttrn88710.extracted={}
+

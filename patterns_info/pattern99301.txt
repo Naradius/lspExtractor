@@ -1,0 +1,8 @@
+of David  and its parse tree depicted in Figure 5
+(PP (IN )(NP (CC )(NP (NP (PRP$ )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NN )(CD )))))))
+Phase: generated99301
+Input: Token
+Rule: generated99301
+(
+(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == PRP$ })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })))))))):pttrn99301 --> :pttrn99301.extracted={}
+

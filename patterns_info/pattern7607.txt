@@ -1,0 +1,8 @@
+the best CHEndEnd/*
+(NP (DT )(JJS )(NN ))
+Phase: generated7607
+Input: Token
+Rule: generated7607
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))):pttrn7607 --> :pttrn7607.extracted={}
+

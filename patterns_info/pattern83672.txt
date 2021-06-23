@@ -1,0 +1,8 @@
+pruning terms from a rule or discard-ing a rule
+(VP (VBG )(PP (IN )(NP (DT )(NN )(CC )(NN )))(NP (DT )(NN )))
+Phase: generated83672
+Input: Token
+Rule: generated83672
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))(({ Token.category == DT })({ Token.category == NN })))):pttrn83672 --> :pttrn83672.extracted={}
+

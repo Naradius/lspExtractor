@@ -1,0 +1,8 @@
+on the same dataset
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated84881
+Input: Token
+Rule: generated84881
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn84881 --> :pttrn84881.extracted={}
+

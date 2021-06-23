@@ -1,0 +1,8 @@
+Results and discussion	Conclusion	Declaration
+(NP (NNS )(CC )(NN )(NNP ){1,2})
+Phase: generated12059
+Input: Token
+Rule: generated12059
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNP })+)):pttrn12059 --> :pttrn12059.extracted={}
+

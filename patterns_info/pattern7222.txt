@@ -1,0 +1,8 @@
+efsr2 efs1
+(NP (DT )(NN ))
+Phase: generated7222
+Input: Token
+Rule: generated7222
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn7222 --> :pttrn7222.extracted={}
+

@@ -1,0 +1,8 @@
+A maximum entropy model
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated106222
+Input: Token
+Rule: generated106222
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn106222 --> :pttrn106222.extracted={}
+

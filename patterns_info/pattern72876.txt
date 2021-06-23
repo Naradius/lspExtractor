@@ -1,0 +1,8 @@
+SRL tool
+(NP (NNP )(NN ))
+Phase: generated72876
+Input: Token
+Rule: generated72876
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn72876 --> :pttrn72876.extracted={}
+

@@ -1,0 +1,8 @@
+deploy ourDS in a real drone system and analyze if the first promising re-ults we got with both our hybrid simulation / emulation platformnd the Matlab Simulink estimator are confirmed
+(VP (VP (VB )(PP (IN )(NP (DT )(JJ )(NN ){1,2})))(CC ))
+Phase: generated111254
+Input: Token
+Rule: generated111254
+(
+((({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))({ Token.category == CC }))):pttrn111254 --> :pttrn111254.extracted={}
+

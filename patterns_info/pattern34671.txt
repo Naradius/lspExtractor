@@ -1,0 +1,8 @@
+of the blockchain IoT
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated34671
+Input: Token
+Rule: generated34671
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn34671 --> :pttrn34671.extracted={}
+

@@ -1,0 +1,8 @@
+the source and destination within itsdomain
+(NP (NP (DT )(NN ))(CC ))
+Phase: generated22437
+Input: Token
+Rule: generated22437
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))):pttrn22437 --> :pttrn22437.extracted={}
+

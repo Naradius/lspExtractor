@@ -1,0 +1,8 @@
+devoted to the extraction of event-based knowledge.Detecting events automatically and obtaining a semantic represen-tation for them
+(VP (VBN )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(VP (CC )(VP (VBG )(NP (DT )(JJ )(NN )))))))))
+Phase: generated72169
+Input: Token
+Rule: generated72169
+(
+(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn72169 --> :pttrn72169.extracted={}
+

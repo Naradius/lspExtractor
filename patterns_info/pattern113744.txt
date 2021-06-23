@@ -1,0 +1,8 @@
+to be added to my profit
+(VP (TO )(VP (VB )(VP (VBN )(PP (TO )(NP (PRP$ )(NN ))))))
+Phase: generated113744
+Input: Token
+Rule: generated113744
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN }))))))):pttrn113744 --> :pttrn113744.extracted={}
+

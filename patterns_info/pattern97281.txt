@@ -1,0 +1,8 @@
+of Computer Applications   Volume 118  No. 6, May 2015 32 POS Tagging Approaches
+(PP (IN )(NP (NNP ){1,2}(NN )(CD )(NN )(CD )(NNP )(CD ){1,2}(NNP ){1,2}(NNPS )))
+Phase: generated97281
+Input: Token
+Rule: generated97281
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })({ Token.category == CD })({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NNP })+({ Token.category == NNPS })))):pttrn97281 --> :pttrn97281.extracted={}
+

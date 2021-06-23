@@ -1,0 +1,8 @@
+could possibly achieve a signif-icantly high accuracy for identifying all the semantic roles in do-main-dependent free-text sentences
+(VP (MD )(VP (VB )(NP (DT )(RB )(JJ )(NN ))(PP (IN )(VP (VBG )(NP (NP (PDT )(DT )(JJ )(NNS ))(PP (IN )(NP (JJ ){1,2}(NNS ))))))))
+Phase: generated72682
+Input: Token
+Rule: generated72682
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == RB })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == PDT })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))))))):pttrn72682 --> :pttrn72682.extracted={}
+

@@ -1,0 +1,8 @@
+is to come up with a reasonable solution for the so-called embeddingproblem
+(VP (VBZ )(VP (TO )(VP (VB )(PRT (RP ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))))
+Phase: generated102097
+Input: Token
+Rule: generated102097
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RP }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn102097 --> :pttrn102097.extracted={}
+

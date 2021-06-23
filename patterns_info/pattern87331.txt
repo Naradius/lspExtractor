@@ -1,0 +1,8 @@
+identified an element
+(VP (VBN )(NP (DT )(NN )))
+Phase: generated87331
+Input: Token
+Rule: generated87331
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })))):pttrn87331 --> :pttrn87331.extracted={}
+

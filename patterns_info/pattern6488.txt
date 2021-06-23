@@ -1,0 +1,8 @@
+is larger on a shorter path thanon a longer path
+(VP (VBZ )(PP (IN )(NP (NP (DT )(JJR )(NN ))(PP (IN )(NP (DT )(JJR )(NN ))))))
+Phase: generated6488
+Input: Token
+Rule: generated6488
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN }))))))):pttrn6488 --> :pttrn6488.extracted={}
+

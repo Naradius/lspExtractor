@@ -1,0 +1,8 @@
+Future Gener
+(NP (JJ )(NNP ))
+Phase: generated24554
+Input: Token
+Rule: generated24554
+(
+(({ Token.category == JJ })({ Token.category == NNP }))):pttrn24554 --> :pttrn24554.extracted={}
+

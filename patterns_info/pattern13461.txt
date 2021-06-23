@@ -1,0 +1,8 @@
+control how long a node waitsto send a LeaderRequest message after entering a newregion or after hearing that the current leader has left
+(VP (VB )(WHADVP (WRB )(JJ )))
+Phase: generated13461
+Input: Token
+Rule: generated13461
+(
+(({ Token.category == VB })(({ Token.category == WRB })({ Token.category == JJ })))):pttrn13461 --> :pttrn13461.extracted={}
+

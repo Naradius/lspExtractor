@@ -1,0 +1,8 @@
+was above 95%
+(VP (VBD )(PP (IN )(NP (CD )(NN ))))
+Phase: generated73397
+Input: Token
+Rule: generated73397
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn73397 --> :pttrn73397.extracted={}
+

@@ -1,0 +1,8 @@
+the same experimental process
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated111646
+Input: Token
+Rule: generated111646
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn111646 --> :pttrn111646.extracted={}
+

@@ -1,0 +1,8 @@
+isbeyond the scope of this paper
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated4089
+Input: Token
+Rule: generated4089
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn4089 --> :pttrn4089.extracted={}
+

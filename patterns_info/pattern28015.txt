@@ -1,0 +1,8 @@
+the DODAG.
+(NP (DT )(NNP ))
+Phase: generated28015
+Input: Token
+Rule: generated28015
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn28015 --> :pttrn28015.extracted={}
+

@@ -1,0 +1,8 @@
+the saving funds
+(NP (DT )(NN )(NNS ))
+Phase: generated71008
+Input: Token
+Rule: generated71008
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn71008 --> :pttrn71008.extracted={}
+

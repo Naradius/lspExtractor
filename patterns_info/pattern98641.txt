@@ -1,0 +1,8 @@
+monologue snippets
+(NP (NN )(NNS ))
+Phase: generated98641
+Input: Token
+Rule: generated98641
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn98641 --> :pttrn98641.extracted={}
+

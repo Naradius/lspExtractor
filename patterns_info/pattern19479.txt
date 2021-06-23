@@ -1,0 +1,8 @@
+The system module
+(NP (DT )(NN ){1,2})
+Phase: generated19479
+Input: Token
+Rule: generated19479
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn19479 --> :pttrn19479.extracted={}
+

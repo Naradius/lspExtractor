@@ -1,0 +1,8 @@
+deploying the sensor nodes based on their payload and the distance to the sink node
+(VP (VBG )(NP (NP (DT )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (NP (PRP$ )(NN ))(CC )(NP (NP (DT )(NN ))(PP (TO )(NP (DT )(NN ){1,2}))))))))
+Phase: generated70009
+Input: Token
+Rule: generated70009
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))))))):pttrn70009 --> :pttrn70009.extracted={}
+

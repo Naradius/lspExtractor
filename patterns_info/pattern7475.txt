@@ -1,0 +1,8 @@
+the square region
+(NP (DT )(JJ )(NN ))
+Phase: generated7475
+Input: Token
+Rule: generated7475
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn7475 --> :pttrn7475.extracted={}
+

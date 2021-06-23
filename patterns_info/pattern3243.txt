@@ -1,0 +1,8 @@
+by a significant reduction in existing phero-mone levels
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (VBG )(NN )(NNS )))))
+Phase: generated3243
+Input: Token
+Rule: generated3243
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN })({ Token.category == NNS })))))):pttrn3243 --> :pttrn3243.extracted={}
+

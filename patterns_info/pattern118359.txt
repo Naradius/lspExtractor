@@ -1,0 +1,8 @@
+of another person
+(PP (IN )(NP (DT )(NN )))
+Phase: generated118359
+Input: Token
+Rule: generated118359
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn118359 --> :pttrn118359.extracted={}
+

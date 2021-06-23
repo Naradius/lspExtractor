@@ -1,0 +1,8 @@
+the challenges ofthese new technologies in order to establish routes making the wholesystem related.Fig
+(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated41565
+Input: Token
+Rule: generated41565
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn41565 --> :pttrn41565.extracted={}
+

@@ -1,0 +1,8 @@
+compositional andnon-compositional sequences
+(NP (JJ ){1,2}(NNS ))
+Phase: generated105713
+Input: Token
+Rule: generated105713
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn105713 --> :pttrn105713.extracted={}
+

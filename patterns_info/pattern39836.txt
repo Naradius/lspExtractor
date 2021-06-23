@@ -1,0 +1,8 @@
+is envisaged to mon-itor all the devices within a LoWPAN
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(NP (PDT )(DT )(NNS ))(PP (IN )(NP (DT )(NNP )))))))
+Phase: generated39836
+Input: Token
+Rule: generated39836
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PDT })({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))):pttrn39836 --> :pttrn39836.extracted={}
+

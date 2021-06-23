@@ -1,0 +1,8 @@
+the la-bels at the current position
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated106428
+Input: Token
+Rule: generated106428
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn106428 --> :pttrn106428.extracted={}
+

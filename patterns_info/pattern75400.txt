@@ -1,0 +1,8 @@
+presented by Leaman et al.2 Our system
+(VP (VBN )(PP (IN )(NP (NP (NNP ){1,2}(NN ))(PP (IN )(NP (PRP$ )(NN ))))))
+Phase: generated75400
+Input: Token
+Rule: generated75400
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))))):pttrn75400 --> :pttrn75400.extracted={}
+

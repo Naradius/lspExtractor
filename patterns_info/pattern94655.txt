@@ -1,0 +1,8 @@
+re-quire more development time because of the largeramount of effort needed for entering the individ-ual literals, resulting in low precision
+(VP (VBP )(NP (JJR )(NN ){1,2}))
+Phase: generated94655
+Input: Token
+Rule: generated94655
+(
+(({ Token.category == VBP })(({ Token.category == JJR })({ Token.category == NN })+))):pttrn94655 --> :pttrn94655.extracted={}
+

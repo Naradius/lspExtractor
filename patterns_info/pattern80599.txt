@@ -1,0 +1,8 @@
+for major clausal elements
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated80599
+Input: Token
+Rule: generated80599
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn80599 --> :pttrn80599.extracted={}
+

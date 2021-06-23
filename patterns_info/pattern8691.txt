@@ -1,0 +1,8 @@
+have contributed to this shortcoming.Firstly
+(VP (VB )(VP (VBN )(PP (TO )(NP (DT )(JJ )))))
+Phase: generated8691
+Input: Token
+Rule: generated8691
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })))))):pttrn8691 --> :pttrn8691.extracted={}
+

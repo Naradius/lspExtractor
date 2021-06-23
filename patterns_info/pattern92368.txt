@@ -1,0 +1,8 @@
+do not capture the se-mantic context of the text, while our approach aimsfor a semantic description of the context.The lexico-semantic pattern language proposedby the authors of  is similar to ours, since italso employs patterns for detecting semantics intext
+(VP (VBP )(RB )(VP (VB )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated92368
+Input: Token
+Rule: generated92368
+(
+(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn92368 --> :pttrn92368.extracted={}
+

@@ -1,0 +1,8 @@
+the pattern extraction processis
+(NP (DT )(NN ){1,2})
+Phase: generated76227
+Input: Token
+Rule: generated76227
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn76227 --> :pttrn76227.extracted={}
+

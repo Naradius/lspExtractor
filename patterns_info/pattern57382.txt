@@ -1,0 +1,8 @@
+to the CHor BS
+(PP (TO )(NP (DT )(NNP ){1,2}))
+Phase: generated57382
+Input: Token
+Rule: generated57382
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn57382 --> :pttrn57382.extracted={}
+

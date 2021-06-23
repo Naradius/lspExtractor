@@ -1,0 +1,8 @@
+most important
+(ADJP (RBS )(JJ ))
+Phase: generated54751
+Input: Token
+Rule: generated54751
+(
+(({ Token.category == RBS })({ Token.category == JJ }))):pttrn54751 --> :pttrn54751.extracted={}
+

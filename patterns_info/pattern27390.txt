@@ -1,0 +1,8 @@
+receive packets from mo-ile nodes
+(VP (VB )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated27390
+Input: Token
+Rule: generated27390
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn27390 --> :pttrn27390.extracted={}
+

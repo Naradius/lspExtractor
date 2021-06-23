@@ -1,0 +1,8 @@
+to evaluate the usability andexpressivity of the proposed information extractionlanguage, the HIEE plug-in for the Hermes frame-work was created
+(VP (TO )(VP (VB )(NP (NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(VBN )(NN ){1,2})))(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP )(NN )))))))
+Phase: generated93620
+Input: Token
+Rule: generated93620
+(
+(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))))):pttrn93620 --> :pttrn93620.extracted={}
+

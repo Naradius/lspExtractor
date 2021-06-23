@@ -1,0 +1,8 @@
+Every source nodeaddress and its serial number contained in the forward agent areonly certain
+(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (PRP$ )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated33161
+Input: Token
+Rule: generated33161
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn33161 --> :pttrn33161.extracted={}
+

@@ -1,0 +1,8 @@
+the possible routes
+(NP (DT )(JJ )(NNS ))
+Phase: generated55652
+Input: Token
+Rule: generated55652
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn55652 --> :pttrn55652.extracted={}
+

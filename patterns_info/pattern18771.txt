@@ -1,0 +1,8 @@
+Resource list, Job Request List, Randomly Allocating Input Value 5. Population Size = Size of Population 6
+(NP (NP (NNP )(NN ))(NP (NP (NNP ){1,2}(CD )(NNP ){1,2}(SYM )(NNP ))(PP (IN )(NP (NNP )(CD )))))
+Phase: generated18771
+Input: Token
+Rule: generated18771
+(
+((({ Token.category == NNP })({ Token.category == NN }))((({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNP })+({ Token.category == SYM })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })))))):pttrn18771 --> :pttrn18771.extracted={}
+

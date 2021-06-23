@@ -1,0 +1,8 @@
+post-pruning.At 100 training instances
+(NP (JJ )(CD )(NN )(NNS ))
+Phase: generated78846
+Input: Token
+Rule: generated78846
+(
+(({ Token.category == JJ })({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))):pttrn78846 --> :pttrn78846.extracted={}
+

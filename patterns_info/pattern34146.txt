@@ -1,0 +1,8 @@
+Lecture Notes
+(NP (NNP )(NNPS ))
+Phase: generated34146
+Input: Token
+Rule: generated34146
+(
+(({ Token.category == NNP })({ Token.category == NNPS }))):pttrn34146 --> :pttrn34146.extracted={}
+

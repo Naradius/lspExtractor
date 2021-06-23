@@ -1,0 +1,8 @@
+a set of path costs according to the intendedpplication requirements
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS )))(PP (VBG )(PP (TO )(NP (DT )(NN )(NNS )))))
+Phase: generated25866
+Input: Token
+Rule: generated25866
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))):pttrn25866 --> :pttrn25866.extracted={}
+

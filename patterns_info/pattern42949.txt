@@ -1,0 +1,8 @@
+the increase of the network density
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated42949
+Input: Token
+Rule: generated42949
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn42949 --> :pttrn42949.extracted={}
+

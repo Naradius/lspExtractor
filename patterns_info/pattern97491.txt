@@ -1,0 +1,8 @@
+get such words that have different tag categories when they are used in different context
+(VP (VB )(NP (NP (JJ )(NNS ))(VP (VBP )(NP (JJ )(NN )(NNS )))))
+Phase: generated97491
+Input: Token
+Rule: generated97491
+(
+(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn97491 --> :pttrn97491.extracted={}
+

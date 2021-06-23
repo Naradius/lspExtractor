@@ -1,0 +1,8 @@
+to join the appropriate DODAG with its conve-nient version
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NNP ))(PP (IN )(NP (PRP$ )(JJ )(NN )))))
+Phase: generated26108
+Input: Token
+Rule: generated26108
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))))):pttrn26108 --> :pttrn26108.extracted={}
+

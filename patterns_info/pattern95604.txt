@@ -1,0 +1,8 @@
+previously de-veloped
+(ADJP (RB )(JJ ))
+Phase: generated95604
+Input: Token
+Rule: generated95604
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn95604 --> :pttrn95604.extracted={}
+

@@ -1,0 +1,8 @@
+of a companys loss
+(PP (IN )(NP (DT )(NNS )(NN )))
+Phase: generated94382
+Input: Token
+Rule: generated94382
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })))):pttrn94382 --> :pttrn94382.extracted={}
+

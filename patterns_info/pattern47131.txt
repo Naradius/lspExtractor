@@ -1,0 +1,8 @@
+be supported by a powerscavenging unit such as solar cells
+(VP (VB )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (JJ )(IN )(NP (JJ )(NNS )))))))
+Phase: generated47131
+Input: Token
+Rule: generated47131
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn47131 --> :pttrn47131.extracted={}
+

@@ -1,0 +1,8 @@
+is, the lower the coverageintensity is
+(VP (VBZ )(NP (DT )(JJR )(DT )(NN )))
+Phase: generated69032
+Input: Token
+Rule: generated69032
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == DT })({ Token.category == NN })))):pttrn69032 --> :pttrn69032.extracted={}
+

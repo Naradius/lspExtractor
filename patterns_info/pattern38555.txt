@@ -1,0 +1,8 @@
+m2m networks
+(NP (JJ )(NNS ))
+Phase: generated38555
+Input: Token
+Rule: generated38555
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn38555 --> :pttrn38555.extracted={}
+

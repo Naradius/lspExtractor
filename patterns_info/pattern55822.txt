@@ -1,0 +1,8 @@
+the BS.HIT minimizes
+(NP (DT )(NNP )(NNS ))
+Phase: generated55822
+Input: Token
+Rule: generated55822
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn55822 --> :pttrn55822.extracted={}
+

@@ -1,0 +1,8 @@
+neural information processing sys-tems
+(NP (JJ )(NN ){1,2}(NNS ))
+Phase: generated95955
+Input: Token
+Rule: generated95955
+(
+(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))):pttrn95955 --> :pttrn95955.extracted={}
+

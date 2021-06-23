@@ -1,0 +1,8 @@
+security issues in the trans-port network, which may be the target of a cyber-attack.Thus
+(NP (NP (NP (NN )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))(VP (MD )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated49846
+Input: Token
+Rule: generated49846
+(
+(((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn49846 --> :pttrn49846.extracted={}
+

@@ -1,0 +1,8 @@
+is com-posed of a few to hundreds or even thousands of sensor nodemodules
+(VP (VBZ )(ADJP (JJ )(PP (IN )(NP (DT )(JJ ))))(PP (TO )(NP (CC )(NP (NP (RB )(NNS ))(PP (IN )(NP (NN )(NNS )))))))
+Phase: generated70047
+Input: Token
+Rule: generated70047
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ }))))(({ Token.category == TO })(({ Token.category == CC })((({ Token.category == RB })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))):pttrn70047 --> :pttrn70047.extracted={}
+

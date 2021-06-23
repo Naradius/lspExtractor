@@ -1,0 +1,8 @@
+of the candidate paths
+(PP (IN )(NP (DT )(NN )(NNS )))
+Phase: generated26898
+Input: Token
+Rule: generated26898
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn26898 --> :pttrn26898.extracted={}
+

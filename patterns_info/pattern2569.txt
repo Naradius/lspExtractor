@@ -1,0 +1,8 @@
+by the advantages of the other
+(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )))))
+Phase: generated2569
+Input: Token
+Rule: generated2569
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))))):pttrn2569 --> :pttrn2569.extracted={}
+

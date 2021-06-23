@@ -1,0 +1,8 @@
+receiving the RREQ checks whether the des-tination is associated with it
+(VP (VBG )(NP (DT )(NNP )(NNS )))
+Phase: generated22322
+Input: Token
+Rule: generated22322
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))):pttrn22322 --> :pttrn22322.extracted={}
+

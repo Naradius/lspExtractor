@@ -1,0 +1,8 @@
+of mapped sub-graphs which form the common parts of two PTs , which is a generalization of two paragraphs
+(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBP )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NP (CD )(NNS ))(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NNS )))))))))))
+Phase: generated117821
+Input: Token
+Rule: generated117821
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))))))))):pttrn117821 --> :pttrn117821.extracted={}
+

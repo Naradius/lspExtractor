@@ -1,0 +1,8 @@
+used for extracting information from semi-structured text as well as free text
+(VP (VBN )(PP (IN )(VP (VBG )(PP (IN )(NP (NP (JJ )(NN ))(CONJP (RB ){1,2}(IN ))(NP (JJ )(NN )))))))
+Phase: generated92237
+Input: Token
+Rule: generated92237
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })+({ Token.category == IN }))(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn92237 --> :pttrn92237.extracted={}
+

@@ -1,0 +1,8 @@
+advancesneed choosing a value for the preferred number of clusters to be produced
+(VP (VBD )(VP (VBG )(NP (DT )(NN ))))
+Phase: generated85075
+Input: Token
+Rule: generated85075
+(
+(({ Token.category == VBD })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))):pttrn85075 --> :pttrn85075.extracted={}
+

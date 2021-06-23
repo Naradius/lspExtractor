@@ -1,0 +1,8 @@
+72.9	70.8	71.2	73.3	79.3	1.182	0.0083		Average	70.03	74.37	72.13	72.77	74.43	80.23	1.146		4 sentences
+(NP (JJ )(NNS ))
+Phase: generated115474
+Input: Token
+Rule: generated115474
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn115474 --> :pttrn115474.extracted={}
+

@@ -1,0 +1,8 @@
+the dis-ance of the nodes
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated28612
+Input: Token
+Rule: generated28612
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn28612 --> :pttrn28612.extracted={}
+

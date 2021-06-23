@@ -1,0 +1,8 @@
+the next node accord-ing to its own original travel records
+(NP (NP (DT )(JJ )(NN ){1,2})(PP (TO )(NP (PRP$ )(JJ ){1,2}(NN )(NNS ))))
+Phase: generated33390
+Input: Token
+Rule: generated33390
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))))):pttrn33390 --> :pttrn33390.extracted={}
+

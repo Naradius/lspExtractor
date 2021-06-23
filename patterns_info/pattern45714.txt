@@ -1,0 +1,8 @@
+in a single-user operating system
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated45714
+Input: Token
+Rule: generated45714
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn45714 --> :pttrn45714.extracted={}
+

@@ -1,0 +1,8 @@
+to another.This network design
+(PP (TO )(NP (DT )(NN ){1,2}))
+Phase: generated67464
+Input: Token
+Rule: generated67464
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))):pttrn67464 --> :pttrn67464.extracted={}
+

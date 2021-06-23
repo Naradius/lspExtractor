@@ -1,0 +1,8 @@
+with othersby passing packages
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated70059
+Input: Token
+Rule: generated70059
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn70059 --> :pttrn70059.extracted={}
+

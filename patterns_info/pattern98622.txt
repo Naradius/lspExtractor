@@ -1,0 +1,8 @@
+the Full Option Science System and Wyse and Piwek
+(NP (NP (DT )(NNP ){1,2})(CC )(NP (NNP )(CC )(NNP )))
+Phase: generated98622
+Input: Token
+Rule: generated98622
+(
+((({ Token.category == DT })({ Token.category == NNP })+)({ Token.category == CC })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn98622 --> :pttrn98622.extracted={}
+

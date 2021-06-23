@@ -1,0 +1,8 @@
+carried out in the network simulator ns-2
+(VP (VBN )(PRT (RP ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated2335
+Input: Token
+Rule: generated2335
+(
+(({ Token.category == VBN })(({ Token.category == RP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn2335 --> :pttrn2335.extracted={}
+

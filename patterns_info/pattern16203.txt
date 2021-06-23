@@ -1,0 +1,8 @@
+of situationsthat leader withdrawals
+(PP (IN )(NP (NN ){1,2}(NNS )))
+Phase: generated16203
+Input: Token
+Rule: generated16203
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))):pttrn16203 --> :pttrn16203.extracted={}
+

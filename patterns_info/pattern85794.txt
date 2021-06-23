@@ -1,0 +1,8 @@
+consists of 2225 text documents and 9636 words unique
+(VP (VBZ )(PP (IN )(NP (NP (CD )(NN )(NNS ))(CC ))))
+Phase: generated85794
+Input: Token
+Rule: generated85794
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC }))))):pttrn85794 --> :pttrn85794.extracted={}
+

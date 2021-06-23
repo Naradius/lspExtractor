@@ -1,0 +1,8 @@
+IEEE Communications Surveys Tutorials18   11531176
+(NP (NNP ){1,2}(NNPS )(CD ))
+Phase: generated67820
+Input: Token
+Rule: generated67820
+(
+(({ Token.category == NNP })+({ Token.category == NNPS })({ Token.category == CD }))):pttrn67820 --> :pttrn67820.extracted={}
+

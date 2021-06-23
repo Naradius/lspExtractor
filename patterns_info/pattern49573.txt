@@ -1,0 +1,8 @@
+with less sensitive data such asroom temperature
+(PP (IN )(NP (NP (ADJP (JJR )(JJ ))(NNS ))(PP (JJ )(IN ))))
+Phase: generated49573
+Input: Token
+Rule: generated49573
+(
+(({ Token.category == IN })(((({ Token.category == JJR })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn49573 --> :pttrn49573.extracted={}
+

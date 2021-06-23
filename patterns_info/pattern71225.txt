@@ -1,0 +1,8 @@
+form logical predicates
+(VP (VB )(NP (JJ )(NNS )))
+Phase: generated71225
+Input: Token
+Rule: generated71225
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn71225 --> :pttrn71225.extracted={}
+

@@ -1,0 +1,8 @@
+have an overlap in theircovers
+(VP (VB )(NP (DT )(NN )))
+Phase: generated104491
+Input: Token
+Rule: generated104491
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn104491 --> :pttrn104491.extracted={}
+

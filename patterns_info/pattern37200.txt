@@ -1,0 +1,8 @@
+be reconstructed onlywhen t and t or more participants work together
+(VP (VB )(VP (VBN )(NP (NP (RB )(NN )(CC )(NN ))(CC )(NP (JJR )(NNS )))))
+Phase: generated37200
+Input: Token
+Rule: generated37200
+(
+(({ Token.category == VB })(({ Token.category == VBN })((({ Token.category == RB })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJR })({ Token.category == NNS })))))):pttrn37200 --> :pttrn37200.extracted={}
+

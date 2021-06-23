@@ -1,0 +1,8 @@
+s  Xni  1S i
+(VP (VBZ )(NP (NNP )(CC )(FW )))
+Phase: generated64355
+Input: Token
+Rule: generated64355
+(
+(({ Token.category == VBZ })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == FW })))):pttrn64355 --> :pttrn64355.extracted={}
+

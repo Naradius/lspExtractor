@@ -1,0 +1,8 @@
+sends helloacket to identify the neighbors through Multipoint relays n the basis of the OLSR approach
+(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS )))(PP (RB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))))))
+Phase: generated66974
+Input: Token
+Rule: generated66974
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == RB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))))))):pttrn66974 --> :pttrn66974.extracted={}
+

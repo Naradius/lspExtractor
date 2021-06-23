@@ -1,0 +1,8 @@
+morefficient services
+(NP (JJ )(NNS ))
+Phase: generated20568
+Input: Token
+Rule: generated20568
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn20568 --> :pttrn20568.extracted={}
+

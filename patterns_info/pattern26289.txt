@@ -1,0 +1,8 @@
+is another important parameter inoT infrastructures
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2}(NNS )))
+Phase: generated26289
+Input: Token
+Rule: generated26289
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn26289 --> :pttrn26289.extracted={}
+

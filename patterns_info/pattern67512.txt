@@ -1,0 +1,8 @@
+is observed that the proposed se-ure hybrid routing protocol stabilizes the routing mechanism toelect a secure trustworthy node
+(VP (VBZ )(VP (VBN )(IN )))
+Phase: generated67512
+Input: Token
+Rule: generated67512
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == IN })))):pttrn67512 --> :pttrn67512.extracted={}
+

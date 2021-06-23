@@ -1,0 +1,8 @@
+the value of therouting counter in the forward agent
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated33154
+Input: Token
+Rule: generated33154
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn33154 --> :pttrn33154.extracted={}
+

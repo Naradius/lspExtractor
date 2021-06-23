@@ -1,0 +1,8 @@
+fewer or more
+(NP (JJR )(CC )(JJR ))
+Phase: generated7831
+Input: Token
+Rule: generated7831
+(
+(({ Token.category == JJR })({ Token.category == CC })({ Token.category == JJR }))):pttrn7831 --> :pttrn7831.extracted={}
+

@@ -1,0 +1,8 @@
+compile the programs
+(VP (VB )(NP (DT )(NNS )))
+Phase: generated90946
+Input: Token
+Rule: generated90946
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))):pttrn90946 --> :pttrn90946.extracted={}
+

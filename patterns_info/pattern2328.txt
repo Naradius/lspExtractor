@@ -1,0 +1,8 @@
+the simulation
+(NP (DT )(NN ))
+Phase: generated2328
+Input: Token
+Rule: generated2328
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn2328 --> :pttrn2328.extracted={}
+

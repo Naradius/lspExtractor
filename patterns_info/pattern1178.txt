@@ -1,0 +1,8 @@
+Average End-to-End delay
+(NP (JJ ){1,2}(NN ))
+Phase: generated1178
+Input: Token
+Rule: generated1178
+(
+(({ Token.category == JJ })+({ Token.category == NN }))):pttrn1178 --> :pttrn1178.extracted={}
+

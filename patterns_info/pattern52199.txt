@@ -1,0 +1,8 @@
+cross-layer solutions
+(NP (JJ )(NNS ))
+Phase: generated52199
+Input: Token
+Rule: generated52199
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn52199 --> :pttrn52199.extracted={}
+

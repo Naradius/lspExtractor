@@ -1,0 +1,8 @@
+MAC protocols
+(NP (NNP )(NNS ))
+Phase: generated44837
+Input: Token
+Rule: generated44837
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn44837 --> :pttrn44837.extracted={}
+

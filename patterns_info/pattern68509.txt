@@ -1,0 +1,8 @@
+being proposed in recent years
+(VP (VBG )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated68509
+Input: Token
+Rule: generated68509
+(
+(({ Token.category == VBG })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn68509 --> :pttrn68509.extracted={}
+

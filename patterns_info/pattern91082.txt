@@ -1,0 +1,8 @@
+does not use hand-crafted rules or prespecified language information,nor does the tagger use external lexicons or lists of different types
+(VP (VP (VBZ )(RB )(VP (VB )(NP (NP (JJ )(NNS ))(CC )(NP (JJ )(NN ){1,2}))))(CC )(VP (VBZ )(NP (DT )(NN ){1,2})(NP (NP (JJ )(NNS )(CC )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated91082
+Input: Token
+Rule: generated91082
+(
+((({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+))))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn91082 --> :pttrn91082.extracted={}
+

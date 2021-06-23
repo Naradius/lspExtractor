@@ -1,0 +1,8 @@
+A hole in wireless ad hoc and sensor network
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}(CC )(NN ){1,2})))
+Phase: generated17297
+Input: Token
+Rule: generated17297
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)))):pttrn17297 --> :pttrn17297.extracted={}
+

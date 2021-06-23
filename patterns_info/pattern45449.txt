@@ -1,0 +1,8 @@
+is a largely unexplored areain sensor networks
+(VP (VBZ )(NP (DT )(ADJP (RB )(JJ ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated45449
+Input: Token
+Rule: generated45449
+(
+(({ Token.category == VBZ })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn45449 --> :pttrn45449.extracted={}
+

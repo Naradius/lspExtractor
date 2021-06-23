@@ -1,0 +1,8 @@
+with improved coverage
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated57913
+Input: Token
+Rule: generated57913
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn57913 --> :pttrn57913.extracted={}
+

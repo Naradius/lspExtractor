@@ -1,0 +1,8 @@
+transmitting this packet to nodesC and D
+(VP (VBG )(NP (DT )(NN ))(PP (TO )(NP (NNS )(CC )(NNP ))))
+Phase: generated62656
+Input: Token
+Rule: generated62656
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNP }))))):pttrn62656 --> :pttrn62656.extracted={}
+

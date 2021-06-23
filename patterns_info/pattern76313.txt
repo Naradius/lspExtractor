@@ -1,0 +1,8 @@
+extract for each identified pair all re-lations
+(VP (VB )(PP (IN )(NP (DT )(VBN )(NN )))(NP (DT )(NNS )))
+Phase: generated76313
+Input: Token
+Rule: generated76313
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))(({ Token.category == DT })({ Token.category == NNS })))):pttrn76313 --> :pttrn76313.extracted={}
+

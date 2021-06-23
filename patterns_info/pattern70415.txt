@@ -1,0 +1,8 @@
+treat text relevance in a systematic way
+(VP (VB )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated70415
+Input: Token
+Rule: generated70415
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn70415 --> :pttrn70415.extracted={}
+

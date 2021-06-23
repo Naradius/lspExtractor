@@ -1,0 +1,8 @@
+represents the probability that the destination isreached before TTL.Now
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated42330
+Input: Token
+Rule: generated42330
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn42330 --> :pttrn42330.extracted={}
+

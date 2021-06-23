@@ -1,0 +1,8 @@
+does not have to considerindividual graph elements
+(VP (VBZ )(RB )(VP (VB )(PP (TO )(NP (JJ )(NN )(NNS )))))
+Phase: generated103753
+Input: Token
+Rule: generated103753
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn103753 --> :pttrn103753.extracted={}
+

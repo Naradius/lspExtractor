@@ -1,0 +1,8 @@
+the tree
+(NP (DT )(NN ))
+Phase: generated95544
+Input: Token
+Rule: generated95544
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn95544 --> :pttrn95544.extracted={}
+

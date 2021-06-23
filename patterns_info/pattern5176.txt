@@ -1,0 +1,8 @@
+could still be forced toneighboring nodes, which results in some regular nodes leftuncovered as shown in Fig
+(VP (MD )(VP (VB )(VP (VBN )(NP (NP (NN )(NNS ))(VP (VBZ )(PP (IN )(NP (NP (DT )(JJ )(NNS ))(VP (VBN )(IN )))))))))
+Phase: generated5176
+Input: Token
+Rule: generated5176
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })({ Token.category == IN })))))))))):pttrn5176 --> :pttrn5176.extracted={}
+

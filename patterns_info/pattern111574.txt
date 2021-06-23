@@ -1,0 +1,8 @@
+known normal or malicious traf-cs
+(NP (JJ ){1,2}(CC )(JJ )(NNS ))
+Phase: generated111574
+Input: Token
+Rule: generated111574
+(
+(({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == NNS }))):pttrn111574 --> :pttrn111574.extracted={}
+

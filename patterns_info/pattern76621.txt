@@ -1,0 +1,8 @@
+an example sen-Figure 3: Web demonstrator
+(NP (NP (DT )(NN ){1,2}(CD ))(NP (NNP )(NN )))
+Phase: generated76621
+Input: Token
+Rule: generated76621
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == CD }))(({ Token.category == NNP })({ Token.category == NN })))):pttrn76621 --> :pttrn76621.extracted={}
+

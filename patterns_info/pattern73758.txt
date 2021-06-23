@@ -1,0 +1,8 @@
+sought healthinformation on the internet.1
+(VP (VBD )(PP (IN )(NP (DT )(NN ))))
+Phase: generated73758
+Input: Token
+Rule: generated73758
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn73758 --> :pttrn73758.extracted={}
+

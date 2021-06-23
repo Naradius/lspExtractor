@@ -1,0 +1,8 @@
+%qj=1.5%Fig
+(NP (CD )(NN ){1,2})
+Phase: generated63272
+Input: Token
+Rule: generated63272
+(
+(({ Token.category == CD })({ Token.category == NN })+)):pttrn63272 --> :pttrn63272.extracted={}
+

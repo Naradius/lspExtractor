@@ -1,0 +1,8 @@
+of the router
+(PP (IN )(NP (DT )(NN )))
+Phase: generated107245
+Input: Token
+Rule: generated107245
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn107245 --> :pttrn107245.extracted={}
+

@@ -1,0 +1,8 @@
+oftheir home appliances
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated19474
+Input: Token
+Rule: generated19474
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn19474 --> :pttrn19474.extracted={}
+

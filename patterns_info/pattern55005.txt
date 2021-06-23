@@ -1,0 +1,8 @@
+was the modified version of LEACH interms of distance based clustering
+(VP (VBD )(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (NP (NNP )(NNS ))(PP (IN )(NP (NN )(VBN )(NN )))))))
+Phase: generated55005
+Input: Token
+Rule: generated55005
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == VBN })({ Token.category == NN })))))))):pttrn55005 --> :pttrn55005.extracted={}
+

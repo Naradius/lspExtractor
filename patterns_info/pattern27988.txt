@@ -1,0 +1,8 @@
+reduce the control packetverhead
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated27988
+Input: Token
+Rule: generated27988
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn27988 --> :pttrn27988.extracted={}
+

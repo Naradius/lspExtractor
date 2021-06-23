@@ -1,0 +1,8 @@
+the different suffixes -s
+(NP (DT )(JJ )(NNS ){1,2})
+Phase: generated85324
+Input: Token
+Rule: generated85324
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })+)):pttrn85324 --> :pttrn85324.extracted={}
+

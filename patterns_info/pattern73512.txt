@@ -1,0 +1,8 @@
+O. .Tools and methods
+(NP (NNP )(NNS )(CC )(NNS ))
+Phase: generated73512
+Input: Token
+Rule: generated73512
+(
+(({ Token.category == NNP })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn73512 --> :pttrn73512.extracted={}
+

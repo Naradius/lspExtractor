@@ -1,0 +1,8 @@
+Byzantine fault tolerance
+(NP (NNP )(NN ){1,2})
+Phase: generated36648
+Input: Token
+Rule: generated36648
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn36648 --> :pttrn36648.extracted={}
+

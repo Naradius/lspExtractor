@@ -1,0 +1,8 @@
+Systems-2nd I* PROMS Virtual International Conference 3-14
+(NP (NNP ){1,2}(CD ))
+Phase: generated2600
+Input: Token
+Rule: generated2600
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn2600 --> :pttrn2600.extracted={}
+

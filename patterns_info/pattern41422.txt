@@ -1,0 +1,8 @@
+by adapting different protocolsthat support heterogeneity to increase network flexibility and to preventoutages.5.6
+(PP (IN )(VP (VBG )(NP (JJ )(NN ){1,2})(VP (CC )(PP (TO )(NP (NNS )(CD ))))))
+Phase: generated41422
+Input: Token
+Rule: generated41422
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == CC })(({ Token.category == TO })(({ Token.category == NNS })({ Token.category == CD }))))))):pttrn41422 --> :pttrn41422.extracted={}
+

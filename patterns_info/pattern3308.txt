@@ -1,0 +1,8 @@
+of many state variables
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated3308
+Input: Token
+Rule: generated3308
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn3308 --> :pttrn3308.extracted={}
+

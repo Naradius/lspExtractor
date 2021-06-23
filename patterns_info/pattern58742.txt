@@ -1,0 +1,8 @@
+LEACH-Density Distribution ofNode  protocol
+(NP (NNP ){1,2}(NN ))
+Phase: generated58742
+Input: Token
+Rule: generated58742
+(
+(({ Token.category == NNP })+({ Token.category == NN }))):pttrn58742 --> :pttrn58742.extracted={}
+

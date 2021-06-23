@@ -1,0 +1,8 @@
+one optimization, called routecorrection by destination, to account for the fact that the PNstypically stay within the region covered by one VN for a limitedtime only
+(NP (NP (CD )(NN ))(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated14169
+Input: Token
+Rule: generated14169
+(
+((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn14169 --> :pttrn14169.extracted={}
+

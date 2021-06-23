@@ -1,0 +1,8 @@
+SN and BS
+(NP (NNP )(CC )(NNP ))
+Phase: generated54226
+Input: Token
+Rule: generated54226
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn54226 --> :pttrn54226.extracted={}
+

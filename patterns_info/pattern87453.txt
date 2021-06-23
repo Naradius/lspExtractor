@@ -1,0 +1,8 @@
+is partitioned into paragraphs.2.2 TokenizationWithin each paragraph
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NNS )(CD )(NNP )))(NP (DT )(NN ))))
+Phase: generated87453
+Input: Token
+Rule: generated87453
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CD })({ Token.category == NNP })))(({ Token.category == DT })({ Token.category == NN }))))):pttrn87453 --> :pttrn87453.extracted={}
+

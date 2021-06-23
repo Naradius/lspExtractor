@@ -1,0 +1,8 @@
+their infrastruc
+(NP (PRP$ )(FW ))
+Phase: generated24934
+Input: Token
+Rule: generated24934
+(
+(({ Token.category == PRP$ })({ Token.category == FW }))):pttrn24934 --> :pttrn24934.extracted={}
+

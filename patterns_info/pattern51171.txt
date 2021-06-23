@@ -1,0 +1,8 @@
+represent the initialmessage is reduced
+(VP (VB )(NP (DT )(NN )))
+Phase: generated51171
+Input: Token
+Rule: generated51171
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn51171 --> :pttrn51171.extracted={}
+

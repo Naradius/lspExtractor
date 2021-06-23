@@ -1,0 +1,8 @@
+sections 2 and 3. CRF-MWE+ indicatesthat a preliminary lexical analysis
+(NP (NP (NNS )(CD )(CC )(CD )(NNP ))(PP (IN )(NP (DT )(JJ ){1,2}(NN ))))
+Phase: generated105942
+Input: Token
+Rule: generated105942
+(
+((({ Token.category == NNS })({ Token.category == CD })({ Token.category == CC })({ Token.category == CD })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn105942 --> :pttrn105942.extracted={}
+

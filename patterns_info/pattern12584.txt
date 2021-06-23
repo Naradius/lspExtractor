@@ -1,0 +1,8 @@
+the Universityof Vigo.
+(NP (DT )(NNP ){1,2})
+Phase: generated12584
+Input: Token
+Rule: generated12584
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn12584 --> :pttrn12584.extracted={}
+

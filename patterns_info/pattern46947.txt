@@ -1,0 +1,8 @@
+as high as 20 sensor nodes/m3
+(ADVP (ADVP (RB )(JJ ))(PP (IN )(NP (CD )(NN ){1,2})))
+Phase: generated46947
+Input: Token
+Rule: generated46947
+(
+((({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })+)))):pttrn46947 --> :pttrn46947.extracted={}
+

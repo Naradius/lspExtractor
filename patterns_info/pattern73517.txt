@@ -1,0 +1,8 @@
+LSA and noun coordination
+(NP (NNP )(CC )(NN ){1,2})
+Phase: generated73517
+Input: Token
+Rule: generated73517
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })+)):pttrn73517 --> :pttrn73517.extracted={}
+

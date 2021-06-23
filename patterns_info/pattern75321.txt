@@ -1,0 +1,8 @@
+two fronts
+(NP (CD )(NNS ))
+Phase: generated75321
+Input: Token
+Rule: generated75321
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn75321 --> :pttrn75321.extracted={}
+

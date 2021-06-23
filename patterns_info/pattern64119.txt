@@ -1,0 +1,8 @@
+these huntersencircle prey and attack
+(NP (DT )(NN ){1,2}(CC )(NN ))
+Phase: generated64119
+Input: Token
+Rule: generated64119
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn64119 --> :pttrn64119.extracted={}
+

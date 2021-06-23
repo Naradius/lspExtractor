@@ -1,0 +1,8 @@
+selects the pathsased on the number of hops to the root
+(VP (VBZ )(NP (NP (DT )(VBN ))(PP (IN )(NP (NP (DT )(NN ))(PP (TO )(NP (DT )(NN )))))))
+Phase: generated28055
+Input: Token
+Rule: generated28055
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == VBN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn28055 --> :pttrn28055.extracted={}
+

@@ -1,0 +1,8 @@
+just within the extraction boundary  anda rule
+(PP (RB )(IN )(NP (DT )(NN ){1,2}))
+Phase: generated83135
+Input: Token
+Rule: generated83135
+(
+(({ Token.category == RB })({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn83135 --> :pttrn83135.extracted={}
+

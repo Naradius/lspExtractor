@@ -1,0 +1,8 @@
+the house
+(NP (DT )(NN ))
+Phase: generated19539
+Input: Token
+Rule: generated19539
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn19539 --> :pttrn19539.extracted={}
+

@@ -1,0 +1,8 @@
+previously developed pattern-based ap-proaches
+(NP (ADJP (RB )(VBN ))(JJ )(NNS ))
+Phase: generated72126
+Input: Token
+Rule: generated72126
+(
+((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == JJ })({ Token.category == NNS }))):pttrn72126 --> :pttrn72126.extracted={}
+

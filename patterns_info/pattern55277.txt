@@ -1,0 +1,8 @@
+the mobilitymetric for CH election
+(NP (NP (DT )(JJ ))(PP (IN )(NP (NNP )(NN ))))
+Phase: generated55277
+Input: Token
+Rule: generated55277
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn55277 --> :pttrn55277.extracted={}
+

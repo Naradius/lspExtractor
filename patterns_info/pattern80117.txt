@@ -1,0 +1,8 @@
+WHISK.For semi-structured text that is known to have at most one case frame, eitherSRV, RAPIER, or WHISK will serve
+(PP (IN )(NP (NP (JJ )(NN ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (JJS )(CD )(NN ){1,2}))))))
+Phase: generated80117
+Input: Token
+Rule: generated80117
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJS })({ Token.category == CD })({ Token.category == NN })+))))))):pttrn80117 --> :pttrn80117.extracted={}
+

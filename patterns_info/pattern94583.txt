@@ -1,0 +1,8 @@
+in news items
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated94583
+Input: Token
+Rule: generated94583
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn94583 --> :pttrn94583.extracted={}
+

@@ -1,0 +1,8 @@
+remains unchanged.During the experiment the number of the network nodes varied in the range of 10 to 50.Fig
+(VP (VBZ )(PP (IN )(NP (DT )(NN )))(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated2426
+Input: Token
+Rule: generated2426
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn2426 --> :pttrn2426.extracted={}
+

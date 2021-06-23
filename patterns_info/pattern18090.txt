@@ -1,0 +1,8 @@
+overhead scale to the node amount
+(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated18090
+Input: Token
+Rule: generated18090
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn18090 --> :pttrn18090.extracted={}
+

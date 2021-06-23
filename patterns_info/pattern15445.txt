@@ -1,0 +1,8 @@
+packet losses in the com-munications, etc.V. VNAODV+: ENHANCEMENTS TO VIRTUAL NODEAD HOC ON-DEMAND VECTOR ROUTING FOR VEHICULARAD HOC NETWORK ENVIRONMENTSDuring the implementation of VNAODV as per the detailsgiven in , we identified several potential inefficiencies thatwere later confirmed by our simulations in VANET scenarios.These shortcomings at the network layer pile up on the limita-tions of the VNLayer discussed in Section
+(NP (NP (NN )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(NP (DT )(NNP )))))
+Phase: generated15445
+Input: Token
+Rule: generated15445
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNP })))))):pttrn15445 --> :pttrn15445.extracted={}
+

@@ -1,0 +1,8 @@
+was inspired by a frog population searching forfood
+(VP (VBD )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated63671
+Input: Token
+Rule: generated63671
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn63671 --> :pttrn63671.extracted={}
+

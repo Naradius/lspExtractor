@@ -1,0 +1,8 @@
+by using PSO based resource scheduling tech-nique, which uses multi-objective fitness function to optimize thefour different QoS parameters simultaneously
+(PP (IN )(VP (VBG )(NP (NP (NNP )(VBN )(NN ){1,2})(VP (VBZ )(NP (JJ )(NN ){1,2})(VP (TO )(VP (VB )(NP (PRP$ )(JJ )(NNP )(NNS ))))))))
+Phase: generated19763
+Input: Token
+Rule: generated19763
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == NNP })({ Token.category == VBN })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))))))))):pttrn19763 --> :pttrn19763.extracted={}
+

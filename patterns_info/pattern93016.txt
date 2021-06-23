@@ -1,0 +1,8 @@
+all the instances ofthe enclosed type
+(NP (NP (DT ){1,2}(NNS ))(PP (IN )(NP (VBN )(NN ))))
+Phase: generated93016
+Input: Token
+Rule: generated93016
+(
+((({ Token.category == DT })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN }))))):pttrn93016 --> :pttrn93016.extracted={}
+

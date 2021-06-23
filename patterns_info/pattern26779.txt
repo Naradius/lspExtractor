@@ -1,0 +1,8 @@
+of the metrics in all mentioned OFs
+(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(VBN )(NNS )))))
+Phase: generated26779
+Input: Token
+Rule: generated26779
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNS })))))):pttrn26779 --> :pttrn26779.extracted={}
+

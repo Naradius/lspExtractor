@@ -1,0 +1,8 @@
+a unique way tocontrol CH election
+(NP (DT )(JJ )(NN ){1,2}(NNP )(NN ))
+Phase: generated3315
+Input: Token
+Rule: generated3315
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NN }))):pttrn3315 --> :pttrn3315.extracted={}
+

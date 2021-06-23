@@ -1,0 +1,8 @@
+the CMS formation
+(NP (DT )(NNP )(NN ))
+Phase: generated67077
+Input: Token
+Rule: generated67077
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn67077 --> :pttrn67077.extracted={}
+

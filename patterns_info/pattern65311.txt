@@ -1,0 +1,8 @@
+the battle fieldsor
+(NP (DT )(NN ){1,2})
+Phase: generated65311
+Input: Token
+Rule: generated65311
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn65311 --> :pttrn65311.extracted={}
+

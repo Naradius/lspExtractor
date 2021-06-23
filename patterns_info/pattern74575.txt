@@ -1,0 +1,8 @@
+in an iteration, totalnumber of iterations, and the thresholds for learning patternsand phrases
+(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (NP (DT )(NNS ))(PP (IN )(VP (VBG )(NP (NN )(NNS )))))))
+Phase: generated74575
+Input: Token
+Rule: generated74575
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS })))))))):pttrn74575 --> :pttrn74575.extracted={}
+

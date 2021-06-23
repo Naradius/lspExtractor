@@ -1,0 +1,8 @@
+a general framework that supportsour Hermes Information Extraction Engine plug-in
+(NP (NP (DT )(JJ )(NN ))(VP (VBD )(NP (NNP ){1,2}(NN ))))
+Phase: generated93161
+Input: Token
+Rule: generated93161
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBD })(({ Token.category == NNP })+({ Token.category == NN }))))):pttrn93161 --> :pttrn93161.extracted={}
+

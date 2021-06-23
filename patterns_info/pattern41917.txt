@@ -1,0 +1,8 @@
+being transmitted to their final desti-6E.A. Abdellaoui Alaoui et al
+(VP (VBG )(VP (VBN )(PP (TO )(NP (PRP$ )(JJ ){1,2}(NNP ){1,2}(NN )))))
+Phase: generated41917
+Input: Token
+Rule: generated41917
+(
+(({ Token.category == VBG })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })+({ Token.category == NNP })+({ Token.category == NN })))))):pttrn41917 --> :pttrn41917.extracted={}
+

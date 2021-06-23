@@ -1,0 +1,8 @@
+removing toomany patterns.Our generated training data
+(VP (VBG )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated76456
+Input: Token
+Rule: generated76456
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn76456 --> :pttrn76456.extracted={}
+

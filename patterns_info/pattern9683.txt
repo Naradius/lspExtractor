@@ -1,0 +1,8 @@
+be aggregated as these signals could be sufficientlycorrelated due to the nodes spatial proximity, and trans-mitted to the base-station
+(VP (VB )(VP (VBN )(IN )))
+Phase: generated9683
+Input: Token
+Rule: generated9683
+(
+(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN })))):pttrn9683 --> :pttrn9683.extracted={}
+

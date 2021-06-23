@@ -1,0 +1,8 @@
+RapidMiner Com-munity Meeting and Conference, volume 9. Citeseer.Soucy, P. and Mineau, G. W.
+(NP (CC )(NP (NP (NN )(CD ))(NP (NNP )(CC )(NNP ))))
+Phase: generated86141
+Input: Token
+Rule: generated86141
+(
+(({ Token.category == CC })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn86141 --> :pttrn86141.extracted={}
+

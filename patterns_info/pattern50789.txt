@@ -1,0 +1,8 @@
+the noise
+(NP (DT )(NN ))
+Phase: generated50789
+Input: Token
+Rule: generated50789
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn50789 --> :pttrn50789.extracted={}
+

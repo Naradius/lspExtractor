@@ -1,0 +1,8 @@
+envisioned as aeans to reduce the latency
+(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(NN )))))
+Phase: generated20271
+Input: Token
+Rule: generated20271
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))):pttrn20271 --> :pttrn20271.extracted={}
+

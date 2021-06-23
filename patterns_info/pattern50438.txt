@@ -1,0 +1,8 @@
+MAC layers
+(NP (NNP )(NNS ))
+Phase: generated50438
+Input: Token
+Rule: generated50438
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn50438 --> :pttrn50438.extracted={}
+

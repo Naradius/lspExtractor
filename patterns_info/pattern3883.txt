@@ -1,0 +1,8 @@
+a significant reduction
+(NP (DT )(JJ )(NN ))
+Phase: generated3883
+Input: Token
+Rule: generated3883
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn3883 --> :pttrn3883.extracted={}
+

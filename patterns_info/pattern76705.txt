@@ -1,0 +1,8 @@
+defining patterns
+(NP (VBG )(NNS ))
+Phase: generated76705
+Input: Token
+Rule: generated76705
+(
+(({ Token.category == VBG })({ Token.category == NNS }))):pttrn76705 --> :pttrn76705.extracted={}
+

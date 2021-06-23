@@ -1,0 +1,8 @@
+the progress
+(NP (DT )(NN ))
+Phase: generated18337
+Input: Token
+Rule: generated18337
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn18337 --> :pttrn18337.extracted={}
+

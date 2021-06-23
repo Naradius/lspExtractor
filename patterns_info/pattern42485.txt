@@ -1,0 +1,8 @@
+the time required for a message to betransmitted from the source to the destination through the relaynodes.Table 3Basic simulation parameters.Parameter ValueTotal Simulation Time 12 hWorld Size 4500  3400 m2DTN Routing Protocol HDRP, Epidemic, Spray and Wait
+(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))(VP (TO )(VP (VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (TO )(NP (DT )(NN ))))(CC )))))
+Phase: generated42485
+Input: Token
+Rule: generated42485
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })))))):pttrn42485 --> :pttrn42485.extracted={}
+

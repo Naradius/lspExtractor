@@ -1,0 +1,8 @@
+stands for one or more extra words allowed between the tokens David and Michelangelo
+(VP (VBZ )(PP (IN )(NP (NP (CD )(CC )(JJR )(JJ )(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(NNS )(NNP ))(CC )))))))
+Phase: generated99210
+Input: Token
+Rule: generated99210
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == CC })({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NNP }))({ Token.category == CC })))))))):pttrn99210 --> :pttrn99210.extracted={}
+

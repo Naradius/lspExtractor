@@ -1,0 +1,8 @@
+on Computer Communications
+(PP (IN )(NP (NNP )(NNPS )))
+Phase: generated18215
+Input: Token
+Rule: generated18215
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNPS })))):pttrn18215 --> :pttrn18215.extracted={}
+

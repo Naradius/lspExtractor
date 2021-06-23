@@ -1,0 +1,8 @@
+to take a large text in a language
+(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated91099
+Input: Token
+Rule: generated91099
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn91099 --> :pttrn91099.extracted={}
+

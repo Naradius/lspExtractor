@@ -1,0 +1,8 @@
+of totally different natures.Table 6
+(PP (IN )(NP (ADJP (RB )(JJ ))(JJ )))
+Phase: generated115355
+Input: Token
+Rule: generated115355
+(
+(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })))):pttrn115355 --> :pttrn115355.extracted={}
+

@@ -1,0 +1,8 @@
+Compression format
+(NP (NNP )(NN ))
+Phase: generated38608
+Input: Token
+Rule: generated38608
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn38608 --> :pttrn38608.extracted={}
+

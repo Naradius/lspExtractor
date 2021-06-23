@@ -1,0 +1,8 @@
+on average70% transmission power reduction against traditional non-powercontrolled schemes
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ ){1,2}(NNS )))))
+Phase: generated21608
+Input: Token
+Rule: generated21608
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))):pttrn21608 --> :pttrn21608.extracted={}
+

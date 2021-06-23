@@ -1,0 +1,8 @@
+around 20 relations  and 15 node level tags
+(NP (NP (QP (IN )(CD ))(NNS ))(CC )(NP (CD )(NN ){1,2}(NNS )))
+Phase: generated96851
+Input: Token
+Rule: generated96851
+(
+(((({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN })+({ Token.category == NNS })))):pttrn96851 --> :pttrn96851.extracted={}
+

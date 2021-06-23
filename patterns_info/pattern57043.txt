@@ -1,0 +1,8 @@
+the desired area
+(NP (DT )(VBN )(NN ))
+Phase: generated57043
+Input: Token
+Rule: generated57043
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn57043 --> :pttrn57043.extracted={}
+

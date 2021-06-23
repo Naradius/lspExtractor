@@ -1,0 +1,8 @@
+to agricultural andopen-space monitoring applications
+(PP (TO )(NP (JJ )(NN ){1,2}(NNS )))
+Phase: generated50022
+Input: Token
+Rule: generated50022
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn50022 --> :pttrn50022.extracted={}
+

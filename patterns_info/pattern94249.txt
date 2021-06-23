@@ -1,0 +1,8 @@
+percolating and manipulat-ing features
+(NP (NN )(CC )(NN )(NNS ))
+Phase: generated94249
+Input: Token
+Rule: generated94249
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn94249 --> :pttrn94249.extracted={}
+

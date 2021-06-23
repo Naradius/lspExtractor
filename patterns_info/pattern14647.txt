@@ -1,0 +1,8 @@
+moves to a new region, its state changesdirectly to REQUEST
+(VP (VBZ )(PP (TO )(NP (NP (DT )(JJ )(NN ))(NP (PRP$ )(NN )))))
+Phase: generated14647
+Input: Token
+Rule: generated14647
+(
+(({ Token.category == VBZ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == PRP$ })({ Token.category == NN })))))):pttrn14647 --> :pttrn14647.extracted={}
+

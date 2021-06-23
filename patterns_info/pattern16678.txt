@@ -1,0 +1,8 @@
+through the VNs wereshorter
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated16678
+Input: Token
+Rule: generated16678
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn16678 --> :pttrn16678.extracted={}
+

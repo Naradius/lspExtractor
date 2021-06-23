@@ -1,0 +1,8 @@
+happened only occasionally in our experiments.broadcast
+(VP (VBD )(PP (IN )(NP (PRP$ )(NNS ))))
+Phase: generated14563
+Input: Token
+Rule: generated14563
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))):pttrn14563 --> :pttrn14563.extracted={}
+

@@ -1,0 +1,8 @@
+As withthe pos and syn features
+(PP (IN )(NP (DT )(NNS )(CC )(NN )(NNS )))
+Phase: generated88118
+Input: Token
+Rule: generated88118
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))):pttrn88118 --> :pttrn88118.extracted={}
+

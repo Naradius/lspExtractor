@@ -1,0 +1,8 @@
+over 300 papers published in re-ated international conference proceedings and journals, including the IEEE COMST,EEE TII, IEEE TMC, IEEE TVT, IEEE TIE, IEEE TPDS, IEEE TETC, IEEE IoT Journal, IEEEETCI, IEEE TCC, IEEE Systems, IEEE Sensors, IEEE Wireless Communications, IEEEommunications, IEEE Network, etc
+(NP (NP (NP (QP (IN )(CD ))(NNS ))(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NN )(NNS )))))(CC ))
+Phase: generated61451
+Input: Token
+Rule: generated61451
+(
+((((({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })))))({ Token.category == CC }))):pttrn61451 --> :pttrn61451.extracted={}
+

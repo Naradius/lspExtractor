@@ -1,0 +1,8 @@
+parsed each sentence in the trainingdataset which contained a negation or speculationcue using the Stanford parser
+(VP (VBD )(NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBD )(NP (NP (DT )(NN )(CC )(NN ))(VP (VBG )(NP (DT )(NNP )(NN ))))))))
+Phase: generated95465
+Input: Token
+Rule: generated95465
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))))))):pttrn95465 --> :pttrn95465.extracted={}
+

@@ -1,0 +1,8 @@
+the maximum level of a regularnode, a move similar to Hes proposal
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))(NP (NP (DT )(NN ))(ADJP (JJ )(PP (TO )(NP (NNP )(NN ))))))
+Phase: generated8070
+Input: Token
+Rule: generated8070
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == NNP })({ Token.category == NN }))))))):pttrn8070 --> :pttrn8070.extracted={}
+

@@ -1,0 +1,8 @@
+of control algorithms islower
+(PP (IN )(NP (NN )(NNS )(NN )))
+Phase: generated31044
+Input: Token
+Rule: generated31044
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })))):pttrn31044 --> :pttrn31044.extracted={}
+

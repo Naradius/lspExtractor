@@ -1,0 +1,8 @@
+Supervised termweighting
+(NP (NNP )(NN ))
+Phase: generated86055
+Input: Token
+Rule: generated86055
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn86055 --> :pttrn86055.extracted={}
+

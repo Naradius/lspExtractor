@@ -1,0 +1,8 @@
+the ratio
+(NP (DT )(NN ))
+Phase: generated108984
+Input: Token
+Rule: generated108984
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn108984 --> :pttrn108984.extracted={}
+

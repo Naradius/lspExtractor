@@ -1,0 +1,8 @@
+1) Total Number of Successful transmissions from onend to another end of the link , and 2) Total number ofransmissions
+(NP (LST (LS )(-RRB- ))(CC )(-RRB- )(JJ )(NN )(NNS ))
+Phase: generated26736
+Input: Token
+Rule: generated26736
+(
+((({ Token.category == LS })({ Token.category == -RRB- }))({ Token.category == CC })({ Token.category == -RRB- })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn26736 --> :pttrn26736.extracted={}
+

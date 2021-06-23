@@ -1,0 +1,8 @@
+an im-provised heuristic function
+(NP (DT )(JJ ){1,2}(NN ))
+Phase: generated11079
+Input: Token
+Rule: generated11079
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))):pttrn11079 --> :pttrn11079.extracted={}
+

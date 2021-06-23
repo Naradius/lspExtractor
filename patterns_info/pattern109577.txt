@@ -1,0 +1,8 @@
+improved by testing its performances faced withreal DDoS attacks, real UAV trajectories, real UAV background traf-fic, and real UAV fleet topology in real-time
+(VP (VBN )(PP (IN )(VP (VBG )(NP (NP (PRP$ )(NNS ))(VP (VBN )(NP (NP (DT )(NNP )(NNS ))(NP (JJ )(NNP )(NNS ))(NP (JJ )(NNP )(NN ){1,2})(CC )))))))
+Phase: generated109577
+Input: Token
+Rule: generated109577
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)({ Token.category == CC })))))))):pttrn109577 --> :pttrn109577.extracted={}
+

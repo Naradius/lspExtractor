@@ -1,0 +1,8 @@
+the ACL and the 4th Interna-tional Joint Conference on Natural Language Processingof the AFNLP: Volume 2 - Volume 2, pages 10031011.Petrov, S. and McDonald, R.
+(NP (NP (DT )(NNP ))(CC ))
+Phase: generated76788
+Input: Token
+Rule: generated76788
+(
+((({ Token.category == DT })({ Token.category == NNP }))({ Token.category == CC }))):pttrn76788 --> :pttrn76788.extracted={}
+

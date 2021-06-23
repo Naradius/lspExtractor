@@ -1,0 +1,8 @@
+re-quire less training data than statistical methods,and also help users to gain more insight into whya certain relation
+(VP (VP (VBP )(NP (NP (JJR )(NN )(NNS ))(PP (IN )(NP (JJ )(NNS )))))(CC )(VP (VB )(VP (TO )(VP (VB )(NP (JJR )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated95085
+Input: Token
+Rule: generated95085
+(
+((({ Token.category == VBP })((({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn95085 --> :pttrn95085.extracted={}
+

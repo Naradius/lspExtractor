@@ -1,0 +1,8 @@
+to deploy them in many ad hoc scenarios such as forearthquake monitoring, tsunami monitoring and battlefield surveillance
+(VP (TO )(VP (VB )(PP (IN )(NP (NP (JJ )(NN ){1,2}(NNS ))(PP (JJ )(IN ))))))
+Phase: generated9201
+Input: Token
+Rule: generated9201
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))))):pttrn9201 --> :pttrn9201.extracted={}
+

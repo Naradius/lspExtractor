@@ -1,0 +1,8 @@
+the contextual modules
+(NP (DT )(JJ )(NNS ))
+Phase: generated91481
+Input: Token
+Rule: generated91481
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn91481 --> :pttrn91481.extracted={}
+

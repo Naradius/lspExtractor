@@ -1,0 +1,8 @@
+electronic data
+(NP (JJ )(NNS ))
+Phase: generated67259
+Input: Token
+Rule: generated67259
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn67259 --> :pttrn67259.extracted={}
+

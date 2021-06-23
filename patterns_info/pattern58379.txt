@@ -1,0 +1,8 @@
+to selecta random number between 0 and 1
+(PP (TO )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (CD )(CC )(CD )))))
+Phase: generated58379
+Input: Token
+Rule: generated58379
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == CC })({ Token.category == CD })))))):pttrn58379 --> :pttrn58379.extracted={}
+

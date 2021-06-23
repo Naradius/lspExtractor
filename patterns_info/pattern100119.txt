@@ -1,0 +1,8 @@
+used to learn the lexico-syntactic patterns candidates
+(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(JJ )(NNS ){1,2}))))
+Phase: generated100119
+Input: Token
+Rule: generated100119
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })+))))):pttrn100119 --> :pttrn100119.extracted={}
+

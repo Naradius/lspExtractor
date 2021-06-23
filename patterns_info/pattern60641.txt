@@ -1,0 +1,8 @@
+incorporatedin the IoT.
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated60641
+Input: Token
+Rule: generated60641
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn60641 --> :pttrn60641.extracted={}
+

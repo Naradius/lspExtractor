@@ -1,0 +1,8 @@
+automatic processingby information extraction  systems
+(NP (JJ )(NN ){1,2}(NNS ))
+Phase: generated81457
+Input: Token
+Rule: generated81457
+(
+(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))):pttrn81457 --> :pttrn81457.extracted={}
+

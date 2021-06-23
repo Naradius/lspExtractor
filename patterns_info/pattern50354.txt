@@ -1,0 +1,8 @@
+an overall graph of the network anddefines the graph routing protocol
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )(NNS )))(NP (DT )(NN ){1,2}))
+Phase: generated50354
+Input: Token
+Rule: generated50354
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == DT })({ Token.category == NN })+))):pttrn50354 --> :pttrn50354.extracted={}
+

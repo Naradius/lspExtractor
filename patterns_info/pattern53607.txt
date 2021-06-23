@@ -1,0 +1,8 @@
+more residual energy than theother nodes will become CH in the subsequent rounds
+(NP (NP (JJR )(JJ )(NN ))(IN ))
+Phase: generated53607
+Input: Token
+Rule: generated53607
+(
+((({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == IN }))):pttrn53607 --> :pttrn53607.extracted={}
+

@@ -1,0 +1,8 @@
+to a de-tailed semantic analysis
+(PP (TO )(NP (DT )(JJ ){1,2}(NN )))
+Phase: generated86225
+Input: Token
+Rule: generated86225
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))):pttrn86225 --> :pttrn86225.extracted={}
+

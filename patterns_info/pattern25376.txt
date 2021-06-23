@@ -1,0 +1,8 @@
+any node/link metrics
+(NP (DT )(NN )(NNS ))
+Phase: generated25376
+Input: Token
+Rule: generated25376
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn25376 --> :pttrn25376.extracted={}
+

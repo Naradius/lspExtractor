@@ -1,0 +1,8 @@
+certain probability
+(NP (JJ )(NN ))
+Phase: generated61953
+Input: Token
+Rule: generated61953
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn61953 --> :pttrn61953.extracted={}
+

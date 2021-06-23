@@ -1,0 +1,8 @@
+i.e. growth of 200%
+(NP (NP (FW ){1,2}(NN ))(PP (IN )(NP (CD )(NN ))))
+Phase: generated65189
+Input: Token
+Rule: generated65189
+(
+((({ Token.category == FW })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))):pttrn65189 --> :pttrn65189.extracted={}
+

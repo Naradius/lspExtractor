@@ -1,0 +1,8 @@
+would learn a users profile,conduct text mining operations automatically
+(VP (MD )(VP (VB )(NP (DT )(NNS )(NN ){1,2}(NNS ))))
+Phase: generated77424
+Input: Token
+Rule: generated77424
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn77424 --> :pttrn77424.extracted={}
+

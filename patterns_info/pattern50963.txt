@@ -1,0 +1,8 @@
+network capac-ity and lifetime
+(NP (NN ){1,2}(CC )(NN ))
+Phase: generated50963
+Input: Token
+Rule: generated50963
+(
+(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn50963 --> :pttrn50963.extracted={}
+

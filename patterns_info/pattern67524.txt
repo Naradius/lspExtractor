@@ -1,0 +1,8 @@
+insecurity S-Boxes
+(NP (NN )(NNS ))
+Phase: generated67524
+Input: Token
+Rule: generated67524
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn67524 --> :pttrn67524.extracted={}
+

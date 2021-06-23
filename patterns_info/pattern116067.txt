@@ -1,0 +1,8 @@
+search problems
+(NP (NN )(NNS ))
+Phase: generated116067
+Input: Token
+Rule: generated116067
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn116067 --> :pttrn116067.extracted={}
+

@@ -1,0 +1,8 @@
+the parser on actual visual sentences
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NNS ))))
+Phase: generated104974
+Input: Token
+Rule: generated104974
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn104974 --> :pttrn104974.extracted={}
+

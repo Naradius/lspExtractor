@@ -1,0 +1,8 @@
+modified HEED protocol in terms ofinternetwork connectivity
+(VP (VBN )(NP (NNP )(NN ))(PP (IN )(NP (NNS )(NN ){1,2})))
+Phase: generated56142
+Input: Token
+Rule: generated56142
+(
+(({ Token.category == VBN })(({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })+)))):pttrn56142 --> :pttrn56142.extracted={}
+

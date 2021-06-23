@@ -1,0 +1,8 @@
+are givenn the below equations
+(VP (VBP )(VP (VBN )(NP (DT )(JJ )(NNS ))))
+Phase: generated59335
+Input: Token
+Rule: generated59335
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn59335 --> :pttrn59335.extracted={}
+

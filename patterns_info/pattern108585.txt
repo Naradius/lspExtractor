@@ -1,0 +1,8 @@
+The extension of conventional mathematics
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated108585
+Input: Token
+Rule: generated108585
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn108585 --> :pttrn108585.extracted={}
+

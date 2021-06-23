@@ -1,0 +1,8 @@
+the user.5   Results and DiscussionThis section
+(NP (NP (DT )(CD )(NNS ))(CC )(NP (DT )(NN )))
+Phase: generated108839
+Input: Token
+Rule: generated108839
+(
+((({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))):pttrn108839 --> :pttrn108839.extracted={}
+

@@ -1,0 +1,8 @@
+as mobility decreases
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated18083
+Input: Token
+Rule: generated18083
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn18083 --> :pttrn18083.extracted={}
+

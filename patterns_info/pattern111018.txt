@@ -1,0 +1,8 @@
+theongestion window size and the router queue length at the equi-ibrium point of the system: W 0 and q 0
+(NP (CC )(NP (NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))))(NP (NP (NNP )(CD ))(CC )(NP (NNP )(CD )))))
+Phase: generated111018
+Input: Token
+Rule: generated111018
+(
+(({ Token.category == CC })(((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))((({ Token.category == NNP })({ Token.category == CD }))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == CD })))))):pttrn111018 --> :pttrn111018.extracted={}
+

@@ -1,0 +1,8 @@
+sink nodes
+(NP (NN )(NNS ))
+Phase: generated49090
+Input: Token
+Rule: generated49090
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn49090 --> :pttrn49090.extracted={}
+

@@ -1,0 +1,8 @@
+the clustering phase
+(NP (DT )(NN ){1,2})
+Phase: generated60032
+Input: Token
+Rule: generated60032
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn60032 --> :pttrn60032.extracted={}
+

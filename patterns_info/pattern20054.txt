@@ -1,0 +1,8 @@
+industrialexperience building large-scale systems and his researchinterests
+(NP (NP (NN ){1,2}(JJ )(NNS ))(CC )(NP (PRP$ )(NNS )))
+Phase: generated20054
+Input: Token
+Rule: generated20054
+(
+((({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NNS })))):pttrn20054 --> :pttrn20054.extracted={}
+

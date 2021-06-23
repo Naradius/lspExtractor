@@ -1,0 +1,8 @@
+the specified lexico-syn-Web SearchQuery StringFormulationSentence CollectorSnippet ExtractorRawSentenceDatabaseSemantic Role Plausibility VerificationSemantic Role LabelingCommonsenseKnowledge ProcessorKnowledge DistillationCommonsenseKnowledge DatabaseFig
+(NP (DT )(VBN )(NN )(NNP ){1,2})
+Phase: generated72472
+Input: Token
+Rule: generated72472
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNP })+)):pttrn72472 --> :pttrn72472.extracted={}
+

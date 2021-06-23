@@ -1,0 +1,8 @@
+see in the next section that itdoes not have an impact on the performance at the upper layers
+(VP (VB )(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(RB )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )))))))))))
+Phase: generated16420
+Input: Token
+Rule: generated16420
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))))))):pttrn16420 --> :pttrn16420.extracted={}
+

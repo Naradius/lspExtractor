@@ -1,0 +1,8 @@
+forad hoc networks, in Proc.
+(VP (VBD )(NP (JJ )(NNS )))
+Phase: generated12506
+Input: Token
+Rule: generated12506
+(
+(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn12506 --> :pttrn12506.extracted={}
+

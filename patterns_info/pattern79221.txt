@@ -1,0 +1,8 @@
+is similarly easy to learnrules for StartTime for input such as \Time
+(VP (VBZ )(ADJP (RB )(JJ )))
+Phase: generated79221
+Input: Token
+Rule: generated79221
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == JJ })))):pttrn79221 --> :pttrn79221.extracted={}
+

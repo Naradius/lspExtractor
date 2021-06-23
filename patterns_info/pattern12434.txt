@@ -1,0 +1,8 @@
+In ,a Dempster Shafer  evidence theory
+(PP (IN )(NP (NNP ){1,2}(NN ){1,2}))
+Phase: generated12434
+Input: Token
+Rule: generated12434
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })+))):pttrn12434 --> :pttrn12434.extracted={}
+

@@ -1,0 +1,8 @@
+the center of the terrain .The overall idea of the derivation of this optimal systemparameter value
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))))))))
+Phase: generated3520
+Input: Token
+Rule: generated3520
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))))))):pttrn3520 --> :pttrn3520.extracted={}
+

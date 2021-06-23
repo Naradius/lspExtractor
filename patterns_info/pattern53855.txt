@@ -1,0 +1,8 @@
+LEACH-Ensuring Reliable DataDelivery  protocol which is based upon the election ofCH with the objective of energy efficiency and data reliability.This protocol
+(NP (NP (JJ ){1,2}(NNP )(NN ))(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated53855
+Input: Token
+Rule: generated53855
+(
+((({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn53855 --> :pttrn53855.extracted={}
+

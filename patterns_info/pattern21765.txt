@@ -1,0 +1,8 @@
+cognitive radio
+(NP (JJ )(NN ))
+Phase: generated21765
+Input: Token
+Rule: generated21765
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn21765 --> :pttrn21765.extracted={}
+

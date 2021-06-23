@@ -1,0 +1,8 @@
+restore theoriginal level of QoS after a short fluctuating process
+(VP (VB )(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated33926
+Input: Token
+Rule: generated33926
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn33926 --> :pttrn33926.extracted={}
+

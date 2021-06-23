@@ -1,0 +1,8 @@
+very significant pre-processing task for Natural language processing activities
+(NP (NP (ADJP (RB )(JJ ))(JJ )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}(NNS ))))
+Phase: generated97358
+Input: Token
+Rule: generated97358
+(
+(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn97358 --> :pttrn97358.extracted={}
+

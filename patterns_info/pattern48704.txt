@@ -1,0 +1,8 @@
+arenot based on global addressing
+(VP (VBN )(PP (IN )(NP (JJ )(NN ))))
+Phase: generated48704
+Input: Token
+Rule: generated48704
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn48704 --> :pttrn48704.extracted={}
+

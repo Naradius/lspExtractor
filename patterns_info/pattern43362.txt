@@ -1,0 +1,8 @@
+TSP topology
+(NP (NNP )(NN ))
+Phase: generated43362
+Input: Token
+Rule: generated43362
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn43362 --> :pttrn43362.extracted={}
+

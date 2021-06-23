@@ -1,0 +1,8 @@
+introduced two fitness metrics that could be used to benchmark different clustering algorithms.Crown copyright  2007 Published by Elsevier B.V. All rights reserved.Keywords: Clustering; Routing; Biologically-inspired; Meta-heuristic; Simulations1
+(VP (VBD )(NP (NP (CD )(NN )(NNS ))(VP (MD )(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NN ))(PP (IN )(NP (NP (NN )(CD ))(VP (VBN )(PP (IN )(NP (RB )(NNP )))))))))))))
+Phase: generated9296
+Input: Token
+Rule: generated9296
+(
+(({ Token.category == VBD })((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == RB })({ Token.category == NNP })))))))))))))):pttrn9296 --> :pttrn9296.extracted={}
+

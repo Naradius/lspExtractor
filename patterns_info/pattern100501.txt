@@ -1,0 +1,8 @@
+generated with all filters re-garding their categories
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(VP (VBG )(NP (PRP$ )(NNS ))))))
+Phase: generated100501
+Input: Token
+Rule: generated100501
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NNS }))))))):pttrn100501 --> :pttrn100501.extracted={}
+

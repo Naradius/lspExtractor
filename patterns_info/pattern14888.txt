@@ -1,0 +1,8 @@
+link layer notifications
+(NP (NN ){1,2}(NNS ))
+Phase: generated14888
+Input: Token
+Rule: generated14888
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn14888 --> :pttrn14888.extracted={}
+

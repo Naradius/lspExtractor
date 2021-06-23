@@ -1,0 +1,8 @@
+of a multi-agent-based dynamic lifetime security scheme for AODV routing protocol
+(PP (IN )(NP (NP (DT )(JJ ){1,2}(NN ){1,2})(PP (IN )(NP (NNP )(NN ){1,2}))))
+Phase: generated34050
+Input: Token
+Rule: generated34050
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+))))):pttrn34050 --> :pttrn34050.extracted={}
+

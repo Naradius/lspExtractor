@@ -1,0 +1,8 @@
+the nodes which prevents its optimized path selection inerms of E2E delay
+(NP (NP (DT )(NNS ))(VP (VBZ )(NP (NP (PRP$ )(JJ )(NN ){1,2}(NNS ))(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated28461
+Input: Token
+Rule: generated28461
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBZ })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn28461 --> :pttrn28461.extracted={}
+

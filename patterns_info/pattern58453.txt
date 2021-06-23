@@ -1,0 +1,8 @@
+keep their receivers on and based on the received signalstrength of the advertisement
+(VP (VP (VBP )(NP (PRP$ )(NNS )))(CC )(VP (VBN )(PP (IN )(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated58453
+Input: Token
+Rule: generated58453
+(
+((({ Token.category == VBP })(({ Token.category == PRP$ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn58453 --> :pttrn58453.extracted={}
+

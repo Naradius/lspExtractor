@@ -1,0 +1,8 @@
+removes the collision problem during the transmis-sion
+(VP (VBZ )(NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated53372
+Input: Token
+Rule: generated53372
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn53372 --> :pttrn53372.extracted={}
+

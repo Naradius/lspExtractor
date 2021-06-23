@@ -1,0 +1,8 @@
+the antennas of the sensor nodes
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated47253
+Input: Token
+Rule: generated47253
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn47253 --> :pttrn47253.extracted={}
+

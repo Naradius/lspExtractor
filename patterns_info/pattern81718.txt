@@ -1,0 +1,8 @@
+are required to extract information from free text
+(VP (VBP )(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (JJ )(NN )))))))
+Phase: generated81718
+Input: Token
+Rule: generated81718
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))))):pttrn81718 --> :pttrn81718.extracted={}
+

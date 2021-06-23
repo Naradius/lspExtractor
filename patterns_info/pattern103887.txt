@@ -1,0 +1,8 @@
+based on estimated costs of searchplans.In constructing a match
+(VP (VBN )(PP (IN )(NP (NP (VBN )(NNS ))(PP (IN )(VP (VBG )(PP (IN )(VP (VBG )(NP (DT )(NN )))))))))
+Phase: generated103887
+Input: Token
+Rule: generated103887
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn103887 --> :pttrn103887.extracted={}
+

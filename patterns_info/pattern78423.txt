@@ -1,0 +1,8 @@
+can express such a rule.Figure 22 show examples of patterns learned in the Seminar Announcement do-main
+(VP (MD )(VP (VB )(NP (JJ )(DT )(NN ){1,2})))
+Phase: generated78423
+Input: Token
+Rule: generated78423
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN })+)))):pttrn78423 --> :pttrn78423.extracted={}
+

@@ -1,0 +1,8 @@
+this paper.AcknowledgmentsThis research was co-funded by Modern Agricultural Indus-try Technology System of Henan Province of China , Henan Province Science and Technology Huimin Project.References D. Li, Z. Cai, L. Deng, Information security model of block chain based onintrusion sensing in the IoT environment, Cluster Comput
+(NP (NP (DT )(NNS ))(NP (DT )(NN )))
+Phase: generated35699
+Input: Token
+Rule: generated35699
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })))):pttrn35699 --> :pttrn35699.extracted={}
+

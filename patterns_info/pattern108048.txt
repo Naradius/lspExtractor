@@ -1,0 +1,8 @@
+receiving the request message
+(VP (VBG )(NP (DT )(NN ){1,2}))
+Phase: generated108048
+Input: Token
+Rule: generated108048
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))):pttrn108048 --> :pttrn108048.extracted={}
+

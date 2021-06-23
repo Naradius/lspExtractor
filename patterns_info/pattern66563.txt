@@ -1,0 +1,8 @@
+is mainly used to identifyhe set of idle sensor nodes or available nodes from multiple chan-els that are to act as the guard nodes in the later process
+(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(VP (VBN )(PP (IN )(NP (NP (JJ )(NN )(NNS ))(CC )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBP )(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))))))))))))))
+Phase: generated66563
+Input: Token
+Rule: generated66563
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))))))))))))):pttrn66563 --> :pttrn66563.extracted={}
+

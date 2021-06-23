@@ -1,0 +1,8 @@
+FloodingMaxprop  2006 Controlled replication
+(NP (NNP )(CD )(VBN )(NN ))
+Phase: generated41059
+Input: Token
+Rule: generated41059
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == VBN })({ Token.category == NN }))):pttrn41059 --> :pttrn41059.extracted={}
+

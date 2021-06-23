@@ -1,0 +1,8 @@
+present our approach to the text-to-question task (as identified by Rus et al.)
+(VP (VBP )(NP (NP (NP (PRP$ )(NN ))(PP (TO )(NP (DT )(NN ){1,2})))(PRN (-LRB- )(-RRB- ))))
+Phase: generated101746
+Input: Token
+Rule: generated101746
+(
+(({ Token.category == VBP })(((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))(({ Token.category == -LRB- })({ Token.category == -RRB- }))))):pttrn101746 --> :pttrn101746.extracted={}
+

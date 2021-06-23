@@ -1,0 +1,8 @@
+the text.WHISK's
+(NP (DT )(NN )(POS ))
+Phase: generated78755
+Input: Token
+Rule: generated78755
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))):pttrn78755 --> :pttrn78755.extracted={}
+

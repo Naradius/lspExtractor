@@ -1,0 +1,8 @@
+about the current energy level
+(PP (IN )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated54961
+Input: Token
+Rule: generated54961
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn54961 --> :pttrn54961.extracted={}
+

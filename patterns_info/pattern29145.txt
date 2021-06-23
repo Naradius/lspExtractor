@@ -1,0 +1,8 @@
+a map.road network
+(NP (DT )(NN ){1,2})
+Phase: generated29145
+Input: Token
+Rule: generated29145
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn29145 --> :pttrn29145.extracted={}
+

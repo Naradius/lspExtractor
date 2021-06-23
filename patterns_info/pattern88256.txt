@@ -1,0 +1,8 @@
+gouped according tothe features of the formalism that they exploit
+(NP (NP (JJ )(NN ))(NP (PP (IN )(NP (DT )(NN )))(IN )))
+Phase: generated88256
+Input: Token
+Rule: generated88256
+(
+((({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == IN })))):pttrn88256 --> :pttrn88256.extracted={}
+

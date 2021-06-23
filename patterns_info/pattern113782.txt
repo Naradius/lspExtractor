@@ -1,0 +1,8 @@
+distinguish between renting for yourself and deducting from total income and renting to someone
+(VP (VP (CC )(VP (VBG )(PP (IN )(NP (JJ )(NN )))))(CC ))
+Phase: generated113782
+Input: Token
+Rule: generated113782
+(
+((({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))({ Token.category == CC }))):pttrn113782 --> :pttrn113782.extracted={}
+

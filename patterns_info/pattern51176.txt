@@ -1,0 +1,8 @@
+allowing nodes receiving less than N packets to send anegative acknowledgement to retrieve missing data.Data compression encodes information in such a waythat the number of bits needed to represent the initialmessage is reduced
+(VP (VBG )(VP (VBZ )(PP (IN )(NP (JJ )(DT )(WP )))))
+Phase: generated51176
+Input: Token
+Rule: generated51176
+(
+(({ Token.category == VBG })(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == DT })({ Token.category == WP })))))):pttrn51176 --> :pttrn51176.extracted={}
+

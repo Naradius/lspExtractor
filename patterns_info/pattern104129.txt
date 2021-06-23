@@ -1,0 +1,8 @@
+attached to the vertexfrom which matching directive mdi+1has to proceed
+(VP (VBN )(PP (TO )(NP (NP (DT )(NN ))(VP (VBG )(NP (JJ )(NNS ))))))
+Phase: generated104129
+Input: Token
+Rule: generated104129
+(
+(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn104129 --> :pttrn104129.extracted={}
+

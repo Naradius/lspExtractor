@@ -1,0 +1,8 @@
+the availability of free channels, IoT transmission power,path loss and other propagation characteristics like shadowing andfading
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(NP (NNP )(NN ){1,2})(CC )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (VBG )(NN )))))))
+Phase: generated22171
+Input: Token
+Rule: generated22171
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == NNP })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN })))))))):pttrn22171 --> :pttrn22171.extracted={}
+

@@ -1,0 +1,8 @@
+for executing Relation Extraction on web scale text collections
+(PP (IN )(VP (VBG )(PP (IN )(NP (NN ){1,2}(NNS )))))
+Phase: generated77508
+Input: Token
+Rule: generated77508
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))))):pttrn77508 --> :pttrn77508.extracted={}
+

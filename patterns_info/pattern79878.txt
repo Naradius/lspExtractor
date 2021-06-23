@@ -1,0 +1,8 @@
+tokens afterit.RAPIER's rules
+(NP (NP (DT )(NN )(POS ))(NNS ))
+Phase: generated79878
+Input: Token
+Rule: generated79878
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))({ Token.category == NNS }))):pttrn79878 --> :pttrn79878.extracted={}
+

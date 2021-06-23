@@ -1,0 +1,8 @@
+a set of dis-tinct characteristics and the fitness function determinesthe fitness of each individual
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))(CC ))
+Phase: generated52333
+Input: Token
+Rule: generated52333
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC }))):pttrn52333 --> :pttrn52333.extracted={}
+

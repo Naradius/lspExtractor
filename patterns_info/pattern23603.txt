@@ -1,0 +1,8 @@
+that the MSNE
+(PP (IN )(NP (DT )(NNP )))
+Phase: generated23603
+Input: Token
+Rule: generated23603
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))):pttrn23603 --> :pttrn23603.extracted={}
+

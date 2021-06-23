@@ -1,0 +1,8 @@
+The main objective of the fitness function
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated20955
+Input: Token
+Rule: generated20955
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn20955 --> :pttrn20955.extracted={}
+

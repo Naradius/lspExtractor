@@ -1,0 +1,8 @@
+to transfer their funds from premier to regular savings account
+(VP (TO )(VP (VB )(NP (PRP$ )(NNS ))(PP (TO )(NP (JJ )(NNS )(NN )))))
+Phase: generated71015
+Input: Token
+Rule: generated71015
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })))))):pttrn71015 --> :pttrn71015.extracted={}
+

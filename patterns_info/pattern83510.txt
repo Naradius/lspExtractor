@@ -1,0 +1,8 @@
+growing rules from seedwithin k of an extraction slot
+(NP (NP (VBG )(NNS ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated83510
+Input: Token
+Rule: generated83510
+(
+((({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn83510 --> :pttrn83510.extracted={}
+

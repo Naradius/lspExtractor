@@ -1,0 +1,8 @@
+organized according to the followingplan
+(VP (VBN )(PP (VBG )(PP (TO )(NP (DT )(NN )))))
+Phase: generated40526
+Input: Token
+Rule: generated40526
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn40526 --> :pttrn40526.extracted={}
+

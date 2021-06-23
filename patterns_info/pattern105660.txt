@@ -1,0 +1,8 @@
+in theFTB-DEV corpus
+(PP (IN )(NP (DT )(FW )))
+Phase: generated105660
+Input: Token
+Rule: generated105660
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == FW })))):pttrn105660 --> :pttrn105660.extracted={}
+

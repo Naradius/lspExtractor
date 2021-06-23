@@ -1,0 +1,8 @@
+a very low density area.
+(NP (DT )(ADJP (RB )(JJ ))(NN ){1,2})
+Phase: generated54823
+Input: Token
+Rule: generated54823
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })+)):pttrn54823 --> :pttrn54823.extracted={}
+

@@ -1,0 +1,8 @@
+transmit the travel records to the sourcenode along the anti-direction with the forward agent
+(VP (VB )(NP (DT )(NN )(NNS ))(PP (TO )(NP (DT )(NN )))(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated33336
+Input: Token
+Rule: generated33336
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn33336 --> :pttrn33336.extracted={}
+

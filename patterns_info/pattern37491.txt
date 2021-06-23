@@ -1,0 +1,8 @@
+hashigher processing power and memory than the devices in the 6LoWPAN network
+(VP (VBZ )(NP (NP (VBG )(NN )(CC )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))))
+Phase: generated37491
+Input: Token
+Rule: generated37491
+(
+(({ Token.category == VBZ })((({ Token.category == VBG })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn37491 --> :pttrn37491.extracted={}
+

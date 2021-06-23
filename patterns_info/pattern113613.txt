@@ -1,0 +1,8 @@
+coreference chains
+(NP (NN )(NNS ))
+Phase: generated113613
+Input: Token
+Rule: generated113613
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn113613 --> :pttrn113613.extracted={}
+

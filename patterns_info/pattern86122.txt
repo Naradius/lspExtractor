@@ -1,0 +1,8 @@
+for text documents
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated86122
+Input: Token
+Rule: generated86122
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn86122 --> :pttrn86122.extracted={}
+

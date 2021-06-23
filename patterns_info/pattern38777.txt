@@ -1,0 +1,8 @@
+the foundation of an IIoT ecosystem
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated38777
+Input: Token
+Rule: generated38777
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn38777 --> :pttrn38777.extracted={}
+

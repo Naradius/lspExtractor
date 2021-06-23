@@ -1,0 +1,8 @@
+the scope
+(NP (DT )(NN ))
+Phase: generated45298
+Input: Token
+Rule: generated45298
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn45298 --> :pttrn45298.extracted={}
+

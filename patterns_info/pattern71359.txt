@@ -1,0 +1,8 @@
+38FUNDAMENTAL RESEARCH    1, 2014TECHNICAL SCIENCES 004.4236
+(NP (NP (JJ )(NNP )(CD ))(NP (CD )(NNS )))
+Phase: generated71359
+Input: Token
+Rule: generated71359
+(
+((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == CD })({ Token.category == NNS })))):pttrn71359 --> :pttrn71359.extracted={}
+

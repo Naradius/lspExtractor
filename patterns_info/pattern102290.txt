@@ -1,0 +1,8 @@
+Bunke and Haller
+(NP (NNP )(CC )(NNP ))
+Phase: generated102290
+Input: Token
+Rule: generated102290
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn102290 --> :pttrn102290.extracted={}
+

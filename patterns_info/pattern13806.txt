@@ -1,0 +1,8 @@
+with probability1 BP
+(PP (IN )(NP (JJ )(NNP )))
+Phase: generated13806
+Input: Token
+Rule: generated13806
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })))):pttrn13806 --> :pttrn13806.extracted={}
+

@@ -1,0 +1,8 @@
+ADEME.Retrieved December 30 , 2014
+(VP (VBD )(NP (NNP )(CD ){1,2}))
+Phase: generated30432
+Input: Token
+Rule: generated30432
+(
+(({ Token.category == VBD })(({ Token.category == NNP })({ Token.category == CD })+))):pttrn30432 --> :pttrn30432.extracted={}
+

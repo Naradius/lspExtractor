@@ -1,0 +1,8 @@
+from the Cloudlet class of CloudSim Calheiros et al
+(PP (IN )(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (NNP ){1,2}(NN )))))
+Phase: generated19238
+Input: Token
+Rule: generated19238
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })))))):pttrn19238 --> :pttrn19238.extracted={}
+

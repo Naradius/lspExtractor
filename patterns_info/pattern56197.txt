@@ -1,0 +1,8 @@
+turn on its sensing units
+(VP (VB )(PP (IN )(NP (PRP$ )(NN )(NNS ))))
+Phase: generated56197
+Input: Token
+Rule: generated56197
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn56197 --> :pttrn56197.extracted={}
+

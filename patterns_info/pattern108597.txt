@@ -1,0 +1,8 @@
+of the ran-domly generated vectors
+(PP (IN )(NP (DT )(JJ ){1,2}(NNS )))
+Phase: generated108597
+Input: Token
+Rule: generated108597
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS })))):pttrn108597 --> :pttrn108597.extracted={}
+

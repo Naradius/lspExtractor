@@ -1,0 +1,8 @@
+howmany randomly sampled training examples
+(PP (IN )(NP (ADJP (RB )(VBN ))(NN )(NNS )))
+Phase: generated83919
+Input: Token
+Rule: generated83919
+(
+(({ Token.category == IN })((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NN })({ Token.category == NNS })))):pttrn83919 --> :pttrn83919.extracted={}
+

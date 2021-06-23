@@ -1,0 +1,8 @@
+one isrelative distance from the BS and the second one
+(NP (NP (NP (CD )(NN ){1,2})(PP (IN )(NP (DT )(NNP ))))(CC )(NP (DT )(JJ )(NN )))
+Phase: generated55351
+Input: Token
+Rule: generated55351
+(
+(((({ Token.category == CD })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn55351 --> :pttrn55351.extracted={}
+

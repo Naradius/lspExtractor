@@ -1,0 +1,8 @@
+is still needed before thisknowledgebase is finished
+(VP (VBZ )(VP (VBN )(IN )))
+Phase: generated71636
+Input: Token
+Rule: generated71636
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == IN })))):pttrn71636 --> :pttrn71636.extracted={}
+

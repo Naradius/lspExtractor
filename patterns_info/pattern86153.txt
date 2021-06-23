@@ -1,0 +1,8 @@
+Text Preprocessing Approaches
+(NP (NNP ){1,2}(NNPS ))
+Phase: generated86153
+Input: Token
+Rule: generated86153
+(
+(({ Token.category == NNP })+({ Token.category == NNPS }))):pttrn86153 --> :pttrn86153.extracted={}
+

@@ -1,0 +1,8 @@
+aNsen Nsensquare grid
+(NP (DT )(NNP )(NN ))
+Phase: generated23228
+Input: Token
+Rule: generated23228
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn23228 --> :pttrn23228.extracted={}
+

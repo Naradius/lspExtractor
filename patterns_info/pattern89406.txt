@@ -1,0 +1,8 @@
+the union of the features ofits member lexical annotations.For this to work with phrases or more than one constituent, the rule that sets the labelcannot be the same one that recognizes the phrase as a lexical annotation.7When the knowledge-base-linked version of the system is in place
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )))(PP (IN )(NP (NP (NN )(JJ )(NNS ))(VP (TO )(VP (VB )(PP (IN )(NP (NP (CC )(NP (QP (JJR )(IN )(CD ))(NN )))(NP (NP (DT )(NN ))(VP (VBZ )(VP (VB )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))))))))))))
+Phase: generated89406
+Input: Token
+Rule: generated89406
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == CC })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN })))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))))))))):pttrn89406 --> :pttrn89406.extracted={}
+

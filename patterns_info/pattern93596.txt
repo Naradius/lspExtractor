@@ -1,0 +1,8 @@
+simple inferences basedon the typeOf relations
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated93596
+Input: Token
+Rule: generated93596
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn93596 --> :pttrn93596.extracted={}
+

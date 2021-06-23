@@ -1,0 +1,8 @@
+PT-supported search relevancePTs
+(NP (JJ )(NN )(NNS ))
+Phase: generated114846
+Input: Token
+Rule: generated114846
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn114846 --> :pttrn114846.extracted={}
+

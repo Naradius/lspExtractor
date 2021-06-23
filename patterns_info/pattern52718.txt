@@ -1,0 +1,8 @@
+using wirelesssensor networks, in
+(VP (VBG )(NP (NN )(NNS )))
+Phase: generated52718
+Input: Token
+Rule: generated52718
+(
+(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS })))):pttrn52718 --> :pttrn52718.extracted={}
+

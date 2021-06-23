@@ -1,0 +1,8 @@
+the lexicon for the given token(e.g
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(NN ){1,2})))
+Phase: generated106463
+Input: Token
+Rule: generated106463
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))):pttrn106463 --> :pttrn106463.extracted={}
+

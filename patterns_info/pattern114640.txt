@@ -1,0 +1,8 @@
+to cliques cardinality
+(PP (TO )(NP (NNS )(NN )))
+Phase: generated114640
+Input: Token
+Rule: generated114640
+(
+(({ Token.category == TO })(({ Token.category == NNS })({ Token.category == NN })))):pttrn114640 --> :pttrn114640.extracted={}
+

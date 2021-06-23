@@ -1,0 +1,8 @@
+a multi-hop steady-statetransmitting data
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated58761
+Input: Token
+Rule: generated58761
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn58761 --> :pttrn58761.extracted={}
+

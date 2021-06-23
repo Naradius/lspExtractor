@@ -1,0 +1,8 @@
+presented in Fig. 3
+(VP (VBN )(PP (IN )(NP (NNP )(CD ))))
+Phase: generated50282
+Input: Token
+Rule: generated50282
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))):pttrn50282 --> :pttrn50282.extracted={}
+

@@ -1,0 +1,8 @@
+stemmed to the same root
+(VP (VBN )(PP (TO )(NP (DT )(JJ )(NN ))))
+Phase: generated98581
+Input: Token
+Rule: generated98581
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn98581 --> :pttrn98581.extracted={}
+

@@ -1,0 +1,8 @@
+food and drug
+(NP (NN )(CC )(NN ))
+Phase: generated73987
+Input: Token
+Rule: generated73987
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn73987 --> :pttrn73987.extracted={}
+

@@ -1,0 +1,8 @@
+adding two parameters
+(VP (VBG )(NP (CD )(NNS )))
+Phase: generated26652
+Input: Token
+Rule: generated26652
+(
+(({ Token.category == VBG })(({ Token.category == CD })({ Token.category == NNS })))):pttrn26652 --> :pttrn26652.extracted={}
+

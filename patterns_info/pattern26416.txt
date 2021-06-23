@@ -1,0 +1,8 @@
+Hosseini Monazzah et al. / Microprocessors and Microsystems 69  7991 83 o  t  i  d  t  t  s  m  c  Q  O3 t  a  e  l  c  fi  t  N  l  p  R  tR  W  t  s  s  r  a  R  l  d  w  t  t  a  m  p  tR  3 i  d  t  r  t  a  t  w  t  v  o  n  b  r M  w  p  m  b  t  t  p  b  n  m  I  o  [  t  iP   o  p  s  i  fi  l  P  r  e  t  L r  I  a  a  s  e  t  b3 (  0  u  t  f  v  c  f l  d  (  (  t  s       f more comprehensive OFs and routing metrics, which can meethe emerging IoT applications requirements , is still an open research area
+(PP (IN )(NP (NP (NNP ){1,2}(NN ){1,2}(NNS ))(CC )))
+Phase: generated26416
+Input: Token
+Rule: generated26416
+(
+(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == CC })))):pttrn26416 --> :pttrn26416.extracted={}
+

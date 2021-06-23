@@ -1,0 +1,8 @@
+network-induced delay and packet dropout, Automatica 59 194199
+(NP (NP (JJ )(NN )(CC )(NN ){1,2})(NP (NNP )(CD ){1,2}))
+Phase: generated30516
+Input: Token
+Rule: generated30516
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == NNP })({ Token.category == CD })+))):pttrn30516 --> :pttrn30516.extracted={}
+

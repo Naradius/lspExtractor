@@ -1,0 +1,8 @@
+mode.Step 5
+(NP (NN ){1,2}(CD ))
+Phase: generated68666
+Input: Token
+Rule: generated68666
+(
+(({ Token.category == NN })+({ Token.category == CD }))):pttrn68666 --> :pttrn68666.extracted={}
+

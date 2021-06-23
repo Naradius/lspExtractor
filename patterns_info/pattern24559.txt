@@ -1,0 +1,8 @@
+Primary radio user activity models
+(NP (JJ )(NN ){1,2}(NNS ))
+Phase: generated24559
+Input: Token
+Rule: generated24559
+(
+(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))):pttrn24559 --> :pttrn24559.extracted={}
+

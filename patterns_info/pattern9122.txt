@@ -1,0 +1,8 @@
+MobileComputing and Networking
+(NP (NNP )(CC )(NNP ))
+Phase: generated9122
+Input: Token
+Rule: generated9122
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn9122 --> :pttrn9122.extracted={}
+

@@ -1,0 +1,8 @@
+The purpose of LEACH-C protocol
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(NN ))))
+Phase: generated53554
+Input: Token
+Rule: generated53554
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn53554 --> :pttrn53554.extracted={}
+

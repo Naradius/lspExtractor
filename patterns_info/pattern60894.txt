@@ -1,0 +1,8 @@
+called Hybrid Energy Efficient and Distributed odel for energy efficient cluster based routing
+(VP (VBD )(NP (NP (NNP ){1,2}(CC )(NNP )(NN ))(PP (IN )(NP (NN )(JJ )(NN )))))
+Phase: generated60894
+Input: Token
+Rule: generated60894
+(
+(({ Token.category == VBD })((({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })))))):pttrn60894 --> :pttrn60894.extracted={}
+

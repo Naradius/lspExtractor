@@ -1,0 +1,8 @@
+hardware and software
+(NP (NN )(CC )(NN ))
+Phase: generated1995
+Input: Token
+Rule: generated1995
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn1995 --> :pttrn1995.extracted={}
+

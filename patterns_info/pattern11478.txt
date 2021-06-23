@@ -1,0 +1,8 @@
+the process of data transmission
+(NP (NP (DT )(NN ))(PP (IN )(NP (NNS )(NN ))))
+Phase: generated11478
+Input: Token
+Rule: generated11478
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))):pttrn11478 --> :pttrn11478.extracted={}
+

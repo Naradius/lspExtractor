@@ -1,0 +1,8 @@
+are still made to pro-pose energy-efficient solutions for body area networks tofoster the acceptance of these technologies by the patients.This
+(VP (VBP )(VP (VBN )(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (NN ){1,2}(NNS ))(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS ))))(PP (IN )(NP (DT )(NN )))))))))))
+Phase: generated50256
+Input: Token
+Rule: generated50256
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })+({ Token.category == NNS }))(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn50256 --> :pttrn50256.extracted={}
+

@@ -1,0 +1,8 @@
+be its secondary CH
+(VP (VB )(NP (PRP$ )(JJ )(NNP )))
+Phase: generated53203
+Input: Token
+Rule: generated53203
+(
+(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNP })))):pttrn53203 --> :pttrn53203.extracted={}
+

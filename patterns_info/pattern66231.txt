@@ -1,0 +1,8 @@
+effective Intrusion Detection System  to keep track of ma-licious activities of the network
+(VP (VB )(VP (TO )(VP (VB )(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated66231
+Input: Token
+Rule: generated66231
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn66231 --> :pttrn66231.extracted={}
+

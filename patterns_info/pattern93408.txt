@@ -1,0 +1,8 @@
+the Rule Matcher
+(NP (DT )(NNP ){1,2})
+Phase: generated93408
+Input: Token
+Rule: generated93408
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn93408 --> :pttrn93408.extracted={}
+

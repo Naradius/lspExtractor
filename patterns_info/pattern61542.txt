@@ -1,0 +1,8 @@
+of the Sparbanksstiftelsen Kronan
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated61542
+Input: Token
+Rule: generated61542
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn61542 --> :pttrn61542.extracted={}
+

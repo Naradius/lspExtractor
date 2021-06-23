@@ -1,0 +1,8 @@
+research initiatives
+(NP (NN )(NNS ))
+Phase: generated96060
+Input: Token
+Rule: generated96060
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn96060 --> :pttrn96060.extracted={}
+

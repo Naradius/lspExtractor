@@ -1,0 +1,8 @@
+CH election.For the HEED protocol implementation
+(NP (NP (NNP )(NN ))(PP (IN )(NP (DT )(NNP )(NN ){1,2})))
+Phase: generated4796
+Input: Token
+Rule: generated4796
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))):pttrn4796 --> :pttrn4796.extracted={}
+

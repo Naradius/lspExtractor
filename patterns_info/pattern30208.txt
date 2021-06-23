@@ -1,0 +1,8 @@
+of our new technique removesthe outliers
+(PP (IN )(NP (PRP$ )(JJ )(NN )(NNS ){1,2}))
+Phase: generated30208
+Input: Token
+Rule: generated30208
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })+))):pttrn30208 --> :pttrn30208.extracted={}
+

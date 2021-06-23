@@ -1,0 +1,8 @@
+has either the label end or assign or :
+(VP (VBZ )(NP (RB )(NP (DT )(NN ){1,2})(CC )(NP (NN )(CC )(NN ))))
+Phase: generated102726
+Input: Token
+Rule: generated102726
+(
+(({ Token.category == VBZ })(({ Token.category == RB })(({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))):pttrn102726 --> :pttrn102726.extracted={}
+

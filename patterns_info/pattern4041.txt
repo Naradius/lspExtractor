@@ -1,0 +1,8 @@
+the same nodetoo
+(NP (DT )(JJ )(NN ))
+Phase: generated4041
+Input: Token
+Rule: generated4041
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn4041 --> :pttrn4041.extracted={}
+

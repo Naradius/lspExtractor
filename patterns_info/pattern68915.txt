@@ -1,0 +1,8 @@
+a scheme for thesensor deployment
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated68915
+Input: Token
+Rule: generated68915
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn68915 --> :pttrn68915.extracted={}
+

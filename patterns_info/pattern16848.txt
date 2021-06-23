@@ -1,0 +1,8 @@
+theOpen Automotive Alliance
+(NP (DT )(NNP ){1,2})
+Phase: generated16848
+Input: Token
+Rule: generated16848
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn16848 --> :pttrn16848.extracted={}
+

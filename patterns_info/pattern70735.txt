@@ -1,0 +1,8 @@
+the notion of generalization
+(NP (DT )(NN ))
+Phase: generated70735
+Input: Token
+Rule: generated70735
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn70735 --> :pttrn70735.extracted={}
+

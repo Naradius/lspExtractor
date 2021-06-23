@@ -1,0 +1,8 @@
+divided into super-frame structures
+(VP (VBN )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated50457
+Input: Token
+Rule: generated50457
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn50457 --> :pttrn50457.extracted={}
+

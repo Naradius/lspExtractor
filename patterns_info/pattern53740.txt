@@ -1,0 +1,8 @@
+the differential evolution algorithm
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated53740
+Input: Token
+Rule: generated53740
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn53740 --> :pttrn53740.extracted={}
+

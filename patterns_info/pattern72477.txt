@@ -1,0 +1,8 @@
+1. Overall framework of the knowledge extraction process.344
+(NP (NP (CD )(NNP )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated72477
+Input: Token
+Rule: generated72477
+(
+((({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn72477 --> :pttrn72477.extracted={}
+

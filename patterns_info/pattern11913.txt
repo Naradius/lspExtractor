@@ -1,0 +1,8 @@
+146 at500th s
+(NP (CD )(JJ )(NNS ))
+Phase: generated11913
+Input: Token
+Rule: generated11913
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn11913 --> :pttrn11913.extracted={}
+

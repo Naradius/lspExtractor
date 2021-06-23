@@ -1,0 +1,8 @@
+to create a multiplex.Each one of the layers of the multiplex
+(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(CD ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ ))))))))
+Phase: generated29458
+Input: Token
+Rule: generated29458
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ }))))))))):pttrn29458 --> :pttrn29458.extracted={}
+

@@ -1,0 +1,8 @@
+is transmitted with the route request message  from a source to a destination
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN )))(PP (TO )(NP (DT )(NN )))))))
+Phase: generated108043
+Input: Token
+Rule: generated108043
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn108043 --> :pttrn108043.extracted={}
+

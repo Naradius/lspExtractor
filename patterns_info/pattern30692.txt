@@ -1,0 +1,8 @@
+the Telecommunication Engineer degree and the Marketing Research and Techniquesdegree
+(NP (NP (DT )(NNP ){1,2}(NN ))(CC )(NP (DT )(NNP ){1,2}(CC )(NNP )))
+Phase: generated30692
+Input: Token
+Rule: generated30692
+(
+((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })))):pttrn30692 --> :pttrn30692.extracted={}
+

@@ -1,0 +1,8 @@
+is a tedious andtime consuming process, in this paper
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated94540
+Input: Token
+Rule: generated94540
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn94540 --> :pttrn94540.extracted={}
+

@@ -1,0 +1,8 @@
+REKERS & SCHURRwhich
+(NP (NNP )(CC )(NNP ))
+Phase: generated103531
+Input: Token
+Rule: generated103531
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn103531 --> :pttrn103531.extracted={}
+

@@ -1,0 +1,8 @@
+learning semantic lexicons usingextraction pattern contexts
+(VP (VBG )(NP (JJ )(NNS )(NN ){1,2}(NNS )))
+Phase: generated75677
+Input: Token
+Rule: generated75677
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })+({ Token.category == NNS })))):pttrn75677 --> :pttrn75677.extracted={}
+

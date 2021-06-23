@@ -1,0 +1,8 @@
+of a clustering algorithmagainst a flat routing approach
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ ){1,2}(NN )))))
+Phase: generated5346
+Input: Token
+Rule: generated5346
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))):pttrn5346 --> :pttrn5346.extracted={}
+

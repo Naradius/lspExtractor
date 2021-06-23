@@ -1,0 +1,8 @@
+Information Science and Engineering
+(NP (NNP ){1,2}(CC )(NNP ))
+Phase: generated69907
+Input: Token
+Rule: generated69907
+(
+(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP }))):pttrn69907 --> :pttrn69907.extracted={}
+

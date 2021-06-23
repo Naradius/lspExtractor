@@ -1,0 +1,8 @@
+a formal operation on abstract trees
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated112843
+Input: Token
+Rule: generated112843
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn112843 --> :pttrn112843.extracted={}
+

@@ -1,0 +1,8 @@
+3,043 speculation scope
+(NP (CD )(NN ){1,2})
+Phase: generated95520
+Input: Token
+Rule: generated95520
+(
+(({ Token.category == CD })({ Token.category == NN })+)):pttrn95520 --> :pttrn95520.extracted={}
+

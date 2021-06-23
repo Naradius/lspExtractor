@@ -1,0 +1,8 @@
+the proposed power
+(NP (DT )(VBN )(NN ))
+Phase: generated21681
+Input: Token
+Rule: generated21681
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn21681 --> :pttrn21681.extracted={}
+

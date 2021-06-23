@@ -1,0 +1,8 @@
+F. Stajano, N. Hoult, I. Wassell, P. Bennett, C. Middleton, K. Soga,Smart bridges, smart tunnels
+(NP (NP (NNP ){1,2}(NNS ))(NP (JJ )(NNS )))
+Phase: generated52713
+Input: Token
+Rule: generated52713
+(
+((({ Token.category == NNP })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNS })))):pttrn52713 --> :pttrn52713.extracted={}
+

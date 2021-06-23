@@ -1,0 +1,8 @@
+YouthScience and Technology Awards
+(NP (NNP )(CC )(NNP ){1,2})
+Phase: generated61554
+Input: Token
+Rule: generated61554
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)):pttrn61554 --> :pttrn61554.extracted={}
+

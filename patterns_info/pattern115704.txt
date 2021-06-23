@@ -1,0 +1,8 @@
+over 40 searches
+(NP (QP (IN )(CD ))(NNS ))
+Phase: generated115704
+Input: Token
+Rule: generated115704
+(
+((({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS }))):pttrn115704 --> :pttrn115704.extracted={}
+

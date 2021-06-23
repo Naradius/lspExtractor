@@ -1,0 +1,8 @@
+before the Verb, which is before the Object
+(PP (IN )(NP (NP (DT )(NNP ))(VP (VBZ )(PP (IN )(NP (DT )(NNP ))))))
+Phase: generated80341
+Input: Token
+Rule: generated80341
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))))):pttrn80341 --> :pttrn80341.extracted={}
+

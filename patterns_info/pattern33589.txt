@@ -1,0 +1,8 @@
+the optimal target value
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated33589
+Input: Token
+Rule: generated33589
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn33589 --> :pttrn33589.extracted={}
+

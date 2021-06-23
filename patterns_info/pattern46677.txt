@@ -1,0 +1,8 @@
+of carbon emissions
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated46677
+Input: Token
+Rule: generated46677
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn46677 --> :pttrn46677.extracted={}
+

@@ -1,0 +1,8 @@
+its belief
+(NP (PRP$ )(NN ))
+Phase: generated54618
+Input: Token
+Rule: generated54618
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn54618 --> :pttrn54618.extracted={}
+

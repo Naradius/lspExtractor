@@ -1,0 +1,8 @@
+needed in thenew backup synchronization process so that outgoing leaderscan always be immediately replaced by a synchronized backup.In addition, we will consider 1 and M as the minimum andmaximum numbers of backups that the VaNetLayer attemptsto have
+(VP (VBN )(PP (IN )(NP (JJ ){1,2}(NN ){1,2})))
+Phase: generated15211
+Input: Token
+Rule: generated15211
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })+)))):pttrn15211 --> :pttrn15211.extracted={}
+

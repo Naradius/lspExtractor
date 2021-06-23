@@ -1,0 +1,8 @@
+our version of the Brill tagger
+(NP (NP (PRP$ )(NN ))(PP (IN )(NP (DT )(NNP )(NN ))))
+Phase: generated88648
+Input: Token
+Rule: generated88648
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))))):pttrn88648 --> :pttrn88648.extracted={}
+

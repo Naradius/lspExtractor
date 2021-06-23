@@ -1,0 +1,8 @@
+can be thought as beginning from a phrase in one sentence, then jumping to the tree for another sentence and continuing the phrase.Although the generalization
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(VP (VP (VBG )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NN ))))))(VP (VBG )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))(CC )(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))))))
+Phase: generated113938
+Input: Token
+Rule: generated113938
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))))(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))({ Token.category == CC })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))):pttrn113938 --> :pttrn113938.extracted={}
+

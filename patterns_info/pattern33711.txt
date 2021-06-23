@@ -1,0 +1,8 @@
+the mean delay curve
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated33711
+Input: Token
+Rule: generated33711
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn33711 --> :pttrn33711.extracted={}
+

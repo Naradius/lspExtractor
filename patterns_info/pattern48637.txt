@@ -1,0 +1,8 @@
+the best of our knowledge
+(NP (NP (DT )(JJS ))(PP (IN )(NP (PRP$ )(NN ))))
+Phase: generated48637
+Input: Token
+Rule: generated48637
+(
+((({ Token.category == DT })({ Token.category == JJS }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))):pttrn48637 --> :pttrn48637.extracted={}
+

@@ -1,0 +1,8 @@
+proposed scheme both theoretically and experimentally fordifferent primary environments and IoT networks in terms of op-erational spectrum bands , primarytransmission characteristics, spectrum characteristics, and hetero-geneous secondary IoT device communication mode/capabilities
+(NP (NP (VBN )(NN ))(NP (DT )(CC )(NP (ADJP (RB )(JJ ))(JJ )(NNS ))(CC )))
+Phase: generated24451
+Input: Token
+Rule: generated24451
+(
+((({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == CC })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })))):pttrn24451 --> :pttrn24451.extracted={}
+

@@ -1,0 +1,8 @@
+the packet loss value
+(NP (DT )(NN ){1,2})
+Phase: generated33842
+Input: Token
+Rule: generated33842
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn33842 --> :pttrn33842.extracted={}
+

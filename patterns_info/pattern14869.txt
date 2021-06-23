@@ -1,0 +1,8 @@
+relying on a wrongnumber of synchronized backups in case the M_SyncData mes-sages are lost
+(VP (VBG )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated14869
+Input: Token
+Rule: generated14869
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn14869 --> :pttrn14869.extracted={}
+

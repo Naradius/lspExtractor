@@ -1,0 +1,8 @@
+an independent programunning
+(NP (DT )(JJ )(NN ))
+Phase: generated111495
+Input: Token
+Rule: generated111495
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn111495 --> :pttrn111495.extracted={}
+

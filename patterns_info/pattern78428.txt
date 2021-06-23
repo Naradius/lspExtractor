@@ -1,0 +1,8 @@
+StartTime \ * '
+(NP (NNP ){1,2}(POS ))
+Phase: generated78428
+Input: Token
+Rule: generated78428
+(
+(({ Token.category == NNP })+({ Token.category == POS }))):pttrn78428 --> :pttrn78428.extracted={}
+

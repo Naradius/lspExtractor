@@ -1,0 +1,8 @@
+the in-ervals
+(NP (DT )(NNS ))
+Phase: generated28249
+Input: Token
+Rule: generated28249
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn28249 --> :pttrn28249.extracted={}
+

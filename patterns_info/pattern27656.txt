@@ -1,0 +1,8 @@
+theyprefer longer and more reliable links instead of shorter and un-reliable links  towards the sink
+(NP (NP (ADJP (ADVP (RB ){1,2}(CC )(RBR ))(JJ ))(NNS ))(PP (RB )(IN )(NP (NP (ADJP (JJR )(CC )(JJ ))(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated27656
+Input: Token
+Rule: generated27656
+(
+((((({ Token.category == RB })+({ Token.category == CC })({ Token.category == RBR }))({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == RB })({ Token.category == IN })(((({ Token.category == JJR })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn27656 --> :pttrn27656.extracted={}
+

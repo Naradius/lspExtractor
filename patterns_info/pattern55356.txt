@@ -1,0 +1,8 @@
+the improvementof 14%
+(NP (DT )(JJ )(CD )(NN ))
+Phase: generated55356
+Input: Token
+Rule: generated55356
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NN }))):pttrn55356 --> :pttrn55356.extracted={}
+

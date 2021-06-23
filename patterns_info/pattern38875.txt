@@ -1,0 +1,8 @@
+Signal Processing xxx  xxxservices and functions
+(NP (NNP ){1,2}(NNS )(CC )(NNS ))
+Phase: generated38875
+Input: Token
+Rule: generated38875
+(
+(({ Token.category == NNP })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn38875 --> :pttrn38875.extracted={}
+

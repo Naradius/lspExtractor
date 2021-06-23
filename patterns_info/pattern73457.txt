@@ -1,0 +1,8 @@
+a semantic rolesubstitution strategy, which significantly pruned knowledge itemswith a high probability of erroneously parsed semantic roles
+(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBD )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (ADJP (RB )(VBN ))(JJ )(NNS )))))))
+Phase: generated73457
+Input: Token
+Rule: generated73457
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn73457 --> :pttrn73457.extracted={}
+

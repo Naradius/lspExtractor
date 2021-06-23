@@ -1,0 +1,8 @@
+maintain-ng the infrastructure
+(NP (JJ )(DT )(NN ))
+Phase: generated25618
+Input: Token
+Rule: generated25618
+(
+(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN }))):pttrn25618 --> :pttrn25618.extracted={}
+

@@ -1,0 +1,8 @@
+has a vowel satisfy --> satisfi
+(VP (VBZ )(NP (DT )(NN )(JJ ){1,2}(NN )))
+Phase: generated96421
+Input: Token
+Rule: generated96421
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NN })))):pttrn96421 --> :pttrn96421.extracted={}
+

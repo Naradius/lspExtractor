@@ -1,0 +1,8 @@
+used a combination of manually compiled rules, aCRF classifier, and a sequence of post-processingsteps on the same task
+(VP (VBD )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (RB )(VBN )(NNS ))(CC )))))
+Phase: generated95883
+Input: Token
+Rule: generated95883
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == RB })({ Token.category == VBN })({ Token.category == NNS }))({ Token.category == CC })))))):pttrn95883 --> :pttrn95883.extracted={}
+

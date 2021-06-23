@@ -1,0 +1,8 @@
+introducing anadaptive mechanism
+(VP (VBG )(NP (JJ )(NN )))
+Phase: generated11225
+Input: Token
+Rule: generated11225
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })))):pttrn11225 --> :pttrn11225.extracted={}
+

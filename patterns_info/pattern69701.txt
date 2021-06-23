@@ -1,0 +1,8 @@
+indicate the value from1, or2,should be used in the corresponding dimension
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))))))
+Phase: generated69701
+Input: Token
+Rule: generated69701
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn69701 --> :pttrn69701.extracted={}
+

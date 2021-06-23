@@ -1,0 +1,8 @@
+is worthwhile toexplore
+(VP (VBZ )(NP (JJ )(NN )))
+Phase: generated71734
+Input: Token
+Rule: generated71734
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })))):pttrn71734 --> :pttrn71734.extracted={}
+

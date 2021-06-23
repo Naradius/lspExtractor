@@ -1,0 +1,8 @@
+a JOIN message
+(NP (DT )(NNP )(NN ))
+Phase: generated4022
+Input: Token
+Rule: generated4022
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn4022 --> :pttrn4022.extracted={}
+

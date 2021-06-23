@@ -1,0 +1,8 @@
+to  usefulness and easiness with less computationost
+(PP (TO )(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (JJR )(NN )))))
+Phase: generated21039
+Input: Token
+Rule: generated21039
+(
+(({ Token.category == TO })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJR })({ Token.category == NN })))))):pttrn21039 --> :pttrn21039.extracted={}
+

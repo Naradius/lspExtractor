@@ -1,0 +1,8 @@
+to the UMLS Metathesaurus
+(PP (TO )(NP (DT )(NNP ){1,2}))
+Phase: generated75646
+Input: Token
+Rule: generated75646
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn75646 --> :pttrn75646.extracted={}
+

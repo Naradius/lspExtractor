@@ -1,0 +1,8 @@
+does not take intoaccount the inter-contact metric and the number of message replication.In Borah et al
+(VP (VBZ )(RB )(VP (VB )(VP (VB )(NP (NP (DT )(JJ ){1,2})(CC )))))
+Phase: generated40893
+Input: Token
+Rule: generated40893
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })+)({ Token.category == CC })))))):pttrn40893 --> :pttrn40893.extracted={}
+

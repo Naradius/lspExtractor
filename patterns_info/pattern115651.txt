@@ -1,0 +1,8 @@
+to less than 1% drop in the resultant relevance
+(PP (TO )(NP (NP (NP (QP (JJR )(IN )(CD ))(NN ))(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated115651
+Input: Token
+Rule: generated115651
+(
+(({ Token.category == TO })((((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn115651 --> :pttrn115651.extracted={}
+

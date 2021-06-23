@@ -1,0 +1,8 @@
+monitoring report updates
+(NP (NN ){1,2}(NNS ))
+Phase: generated67149
+Input: Token
+Rule: generated67149
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn67149 --> :pttrn67149.extracted={}
+

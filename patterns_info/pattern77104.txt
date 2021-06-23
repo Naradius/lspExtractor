@@ -1,0 +1,8 @@
+knowledge distillation functions as well as the intermediate form adopted
+(VP (VB )(NP (NN )(NNS )))
+Phase: generated77104
+Input: Token
+Rule: generated77104
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))):pttrn77104 --> :pttrn77104.extracted={}
+

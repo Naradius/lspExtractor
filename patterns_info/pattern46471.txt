@@ -1,0 +1,8 @@
+a fall
+(NP (DT )(NN ))
+Phase: generated46471
+Input: Token
+Rule: generated46471
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn46471 --> :pttrn46471.extracted={}
+

@@ -1,0 +1,8 @@
+a CRF decoding usingweighted finite-state transducer composition
+(NP (NP (DT )(NNP ))(VP (VBG )(NP (JJ )(NN ){1,2})))
+Phase: generated106090
+Input: Token
+Rule: generated106090
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn106090 --> :pttrn106090.extracted={}
+

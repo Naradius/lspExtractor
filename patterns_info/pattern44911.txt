@@ -1,0 +1,8 @@
+aims to illustrate the noveland important features in each of these schemesthat enable their application in the sensor networkdomain
+(VP (VBZ )(VP (TO )(VP (VB )(NP (DT )(NN )(JJ )(NNS )))))
+Phase: generated44911
+Input: Token
+Rule: generated44911
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn44911 --> :pttrn44911.extracted={}
+

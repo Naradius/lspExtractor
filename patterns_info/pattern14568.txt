@@ -1,0 +1,8 @@
+for Leader ElectionOur new procedure
+(PP (IN )(NP (NNP ){1,2}(JJ )(NN )))
+Phase: generated14568
+Input: Token
+Rule: generated14568
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NN })))):pttrn14568 --> :pttrn14568.extracted={}
+

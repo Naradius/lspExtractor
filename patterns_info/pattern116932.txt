@@ -1,0 +1,8 @@
+2004 International Symposium on information and Communication Technologies, Las Vegas, Nevada, June 1618, 2004.
+(NP (NP (CD )(NNP ){1,2})(PP (IN )(NP (NP (NN )(CC )(NNP )(NNS ))(NP (NNP )(CD ){1,2}))))
+Phase: generated116932
+Input: Token
+Rule: generated116932
+(
+((({ Token.category == CD })({ Token.category == NNP })+)(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == NNP })({ Token.category == CD })+))))):pttrn116932 --> :pttrn116932.extracted={}
+

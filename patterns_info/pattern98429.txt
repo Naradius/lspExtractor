@@ -1,0 +1,8 @@
+of punctuation marks
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated98429
+Input: Token
+Rule: generated98429
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn98429 --> :pttrn98429.extracted={}
+

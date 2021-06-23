@@ -1,0 +1,8 @@
+would strive to share the aggregation task.If there is any uncovered node
+(VP (MD )(VP (VB )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})))))
+Phase: generated4299
+Input: Token
+Rule: generated4299
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn4299 --> :pttrn4299.extracted={}
+

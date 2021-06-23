@@ -1,0 +1,8 @@
+or more
+(QP (CC )(JJR ))
+Phase: generated55803
+Input: Token
+Rule: generated55803
+(
+(({ Token.category == CC })({ Token.category == JJR }))):pttrn55803 --> :pttrn55803.extracted={}
+

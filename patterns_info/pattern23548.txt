@@ -1,0 +1,8 @@
+the same strategy set
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated23548
+Input: Token
+Rule: generated23548
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn23548 --> :pttrn23548.extracted={}
+

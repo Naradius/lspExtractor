@@ -1,0 +1,8 @@
+sitting or running.Network coding  is used to reduce the traffic inbroadcast scenarios by sending a linear combination ofseveral packets instead of a copy of each packet
+(VP (VBG )(CC )(VP (VB )(VP (VBZ )(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}(NNS ))(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2})(NP (NP (JJ )(NNS ))(PP (RB )(IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))))))))))
+Phase: generated51100
+Input: Token
+Rule: generated51100
+(
+(({ Token.category == VBG })({ Token.category == CC })(({ Token.category == VB })(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == RB })({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))))))))):pttrn51100 --> :pttrn51100.extracted={}
+

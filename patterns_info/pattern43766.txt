@@ -1,0 +1,8 @@
+Average duration
+(NP (JJ )(NN ))
+Phase: generated43766
+Input: Token
+Rule: generated43766
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn43766 --> :pttrn43766.extracted={}
+

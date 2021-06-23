@@ -1,0 +1,8 @@
+of the next section.Our dependency relations between production instances
+(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2}(NNS ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated104468
+Input: Token
+Rule: generated104468
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn104468 --> :pttrn104468.extracted={}
+

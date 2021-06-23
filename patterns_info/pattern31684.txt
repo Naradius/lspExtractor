@@ -1,0 +1,8 @@
+in large databases
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated31684
+Input: Token
+Rule: generated31684
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn31684 --> :pttrn31684.extracted={}
+

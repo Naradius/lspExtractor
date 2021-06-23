@@ -1,0 +1,8 @@
+this way data quality algorithm
+(NP (DT )(NN )(NNS )(NN ){1,2})
+Phase: generated31207
+Input: Token
+Rule: generated31207
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })+)):pttrn31207 --> :pttrn31207.extracted={}
+

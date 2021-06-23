@@ -1,0 +1,8 @@
+of entire MANET
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated107716
+Input: Token
+Rule: generated107716
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn107716 --> :pttrn107716.extracted={}
+

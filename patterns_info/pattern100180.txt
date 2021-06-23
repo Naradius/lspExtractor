@@ -1,0 +1,8 @@
+seed/validation pairs
+(NP (NN )(NNS ))
+Phase: generated100180
+Input: Token
+Rule: generated100180
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn100180 --> :pttrn100180.extracted={}
+

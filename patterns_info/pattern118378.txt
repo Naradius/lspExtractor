@@ -1,0 +1,8 @@
+such that it is possible to assess whether they are false or true
+(ADJP (JJ )(IN ))
+Phase: generated118378
+Input: Token
+Rule: generated118378
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn118378 --> :pttrn118378.extracted={}
+

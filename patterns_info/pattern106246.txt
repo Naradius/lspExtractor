@@ -1,0 +1,8 @@
+the Workshop
+(NP (DT )(NNP ))
+Phase: generated106246
+Input: Token
+Rule: generated106246
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn106246 --> :pttrn106246.extracted={}
+

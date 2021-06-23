@@ -1,0 +1,8 @@
+According to thelayering concept of the IoT
+(PP (VBG )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP ))))))
+Phase: generated36485
+Input: Token
+Rule: generated36485
+(
+(({ Token.category == VBG })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))))):pttrn36485 --> :pttrn36485.extracted={}
+

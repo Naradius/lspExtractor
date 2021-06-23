@@ -1,0 +1,8 @@
+the new headaccording
+(NP (DT )(JJ )(NN ))
+Phase: generated54321
+Input: Token
+Rule: generated54321
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn54321 --> :pttrn54321.extracted={}
+

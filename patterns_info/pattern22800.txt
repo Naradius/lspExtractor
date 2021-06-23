@@ -1,0 +1,8 @@
+each SD pair byanalyzing past best strategies and corresponding payoffs and thusleading to a evolutionary stable strategy  model
+(NP (NP (DT )(NNP )(NN ))(VP (VP (VBG )(NP (NP (JJ )(JJS )(NNS ))(CC )(NP (JJ )(NNS ))))(CC )(VP (VBG )(PP (TO )(NP (DT )(JJ ){1,2}(NN ){1,2})))))
+Phase: generated22800
+Input: Token
+Rule: generated22800
+(
+((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))((({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == JJS })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)))))):pttrn22800 --> :pttrn22800.extracted={}
+

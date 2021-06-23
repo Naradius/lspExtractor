@@ -1,0 +1,8 @@
+is responsible for processing security events from the IoT devices for the meaningful deci-sion , which is then communicated back to the IoT device to block or allow events of specificpatterns
+(VP (VBZ )(ADJP (JJ )(PP (IN )(VP (VBG )(NP (NN )(NNS ))(PP (IN )(NP (DT )(NNP )(NNS )))(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(VP (VBN )(PP (TO )(NP (DT )(NNP )(NN )))(VP (TO )(VP (VB )(CC )))))))))))
+Phase: generated39136
+Input: Token
+Rule: generated39136
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC })))))))))))):pttrn39136 --> :pttrn39136.extracted={}
+

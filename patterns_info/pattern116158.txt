@@ -1,0 +1,8 @@
+pure syntactic information
+(NP (JJ )(NN ){1,2})
+Phase: generated116158
+Input: Token
+Rule: generated116158
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn116158 --> :pttrn116158.extracted={}
+

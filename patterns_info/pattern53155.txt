@@ -1,0 +1,8 @@
+the network.Loscr et al
+(NP (DT )(NN )(NNP ){1,2}(NN ))
+Phase: generated53155
+Input: Token
+Rule: generated53155
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN }))):pttrn53155 --> :pttrn53155.extracted={}
+

@@ -1,0 +1,8 @@
+pre-stored transaction credits
+(NP (JJ )(NN )(NNS ))
+Phase: generated34459
+Input: Token
+Rule: generated34459
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn34459 --> :pttrn34459.extracted={}
+

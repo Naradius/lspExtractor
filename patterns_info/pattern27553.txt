@@ -1,0 +1,8 @@
+of the transmitter moduleue
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated27553
+Input: Token
+Rule: generated27553
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn27553 --> :pttrn27553.extracted={}
+

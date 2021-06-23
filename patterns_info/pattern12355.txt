@@ -1,0 +1,8 @@
+to enhance thenetwork lifetime by managing the energy conservation of sensor nodesis presented in
+(VP (TO )(VP (VB )(NP (DT )(NN ))))
+Phase: generated12355
+Input: Token
+Rule: generated12355
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn12355 --> :pttrn12355.extracted={}
+

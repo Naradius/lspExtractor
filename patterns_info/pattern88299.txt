@@ -1,0 +1,8 @@
+created with the synfeature np and the sem feature qty
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(NN ){1,2}))))
+Phase: generated88299
+Input: Token
+Rule: generated88299
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn88299 --> :pttrn88299.extracted={}
+

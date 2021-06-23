@@ -1,0 +1,8 @@
+theinformation exchanging process
+(NP (DT )(NN ){1,2})
+Phase: generated68673
+Input: Token
+Rule: generated68673
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn68673 --> :pttrn68673.extracted={}
+

@@ -1,0 +1,8 @@
+differ-ent public and private research centers, such as theUniversity of Valladolid  and the MassachusettsInstitute of Technology
+(NP (NP (JJ ){1,2}(CC )(JJ )(NN )(NNS ))(PP (JJ )(IN )))
+Phase: generated30697
+Input: Token
+Rule: generated30697
+(
+((({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))):pttrn30697 --> :pttrn30697.extracted={}
+

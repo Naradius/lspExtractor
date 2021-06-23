@@ -1,0 +1,8 @@
+produce new clusters until all of the clusters are combined into one
+(VP (VB )(NP (JJ )(NNS ))(IN ))
+Phase: generated85094
+Input: Token
+Rule: generated85094
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == IN }))):pttrn85094 --> :pttrn85094.extracted={}
+

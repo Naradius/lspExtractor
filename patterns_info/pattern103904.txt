@@ -1,0 +1,8 @@
+the host graph
+(NP (DT )(NN ){1,2})
+Phase: generated103904
+Input: Token
+Rule: generated103904
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn103904 --> :pttrn103904.extracted={}
+

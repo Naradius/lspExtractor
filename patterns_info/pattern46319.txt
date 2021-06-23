@@ -1,0 +1,8 @@
+environ-mental conditions that affect crops and livestock;irrigation; macroinstruments for large-scale Earthmonitoring and planetary exploration; chemical/biological detection; precision agriculture; biolog-ical, Earth, and environmental monitoring in ma-rine, soil, and atmospheric contexts
+(NP (CC )(NP (JJ )(NNS )))
+Phase: generated46319
+Input: Token
+Rule: generated46319
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn46319 --> :pttrn46319.extracted={}
+

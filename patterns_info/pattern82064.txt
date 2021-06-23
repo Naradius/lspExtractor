@@ -1,0 +1,8 @@
+isolated6 Table 1
+(NP (DT )(NN )(CD ))
+Phase: generated82064
+Input: Token
+Rule: generated82064
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CD }))):pttrn82064 --> :pttrn82064.extracted={}
+

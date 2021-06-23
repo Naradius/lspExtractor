@@ -1,0 +1,8 @@
+For tourism sentences
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated96916
+Input: Token
+Rule: generated96916
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn96916 --> :pttrn96916.extracted={}
+

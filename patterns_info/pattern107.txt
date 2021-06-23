@@ -1,0 +1,8 @@
+greedy perimeter stateless routing
+(NP (JJ )(NN )(JJ )(NN ))
+Phase: generated107
+Input: Token
+Rule: generated107
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))):pttrn107 --> :pttrn107.extracted={}
+

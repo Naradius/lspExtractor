@@ -1,0 +1,8 @@
+a Listener mod-le, which receives the data from different sensors as shown inig
+(NP (NP (DT )(NN ){1,2})(VP (VBZ )(NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS )))(IN )))
+Phase: generated19111
+Input: Token
+Rule: generated19111
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == IN })))):pttrn19111 --> :pttrn19111.extracted={}
+

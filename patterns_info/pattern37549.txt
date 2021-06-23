@@ -1,0 +1,8 @@
+one ofthe IDS nodes
+(NP (CD )(DT )(NNP )(NNS ))
+Phase: generated37549
+Input: Token
+Rule: generated37549
+(
+(({ Token.category == CD })({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn37549 --> :pttrn37549.extracted={}
+

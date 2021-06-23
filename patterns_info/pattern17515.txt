@@ -1,0 +1,8 @@
+convex hull of the source, destination and hole nodes
+(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(NP (NN )(CC )(NN )(NNS )))))
+Phase: generated17515
+Input: Token
+Rule: generated17515
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))))):pttrn17515 --> :pttrn17515.extracted={}
+

@@ -1,0 +1,8 @@
+onlAMPS wireless sensor nodes.Most of the sensing tasks
+(NP (NP (ADJP (RB )(JJ ))(NN ){1,2})(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated47318
+Input: Token
+Rule: generated47318
+(
+(((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn47318 --> :pttrn47318.extracted={}
+

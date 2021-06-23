@@ -1,0 +1,8 @@
+a Reviewer of more than 60 journals
+(NP (NP (DT )(NNP ))(PP (IN )(NP (QP (JJR )(IN )(CD ))(NNS ))))
+Phase: generated61507
+Input: Token
+Rule: generated61507
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == IN })({ Token.category == CD }))({ Token.category == NNS }))))):pttrn61507 --> :pttrn61507.extracted={}
+

@@ -1,0 +1,8 @@
+of computational simulation of human agents
+(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated118426
+Input: Token
+Rule: generated118426
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn118426 --> :pttrn118426.extracted={}
+

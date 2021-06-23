@@ -1,0 +1,8 @@
+topological changes
+(NP (JJ )(NNS ))
+Phase: generated668
+Input: Token
+Rule: generated668
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn668 --> :pttrn668.extracted={}
+

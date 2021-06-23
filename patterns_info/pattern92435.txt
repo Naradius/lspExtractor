@@ -1,0 +1,8 @@
+makeuse of existing ontologies and support tools .In our work
+(VP (VB )(PP (IN )(NP (NP (NP (VBG )(NNS ))(CC )(NP (NN )(NNS )))(PP (IN )(NP (PRP$ )(NN ))))))
+Phase: generated92435
+Input: Token
+Rule: generated92435
+(
+(({ Token.category == VB })(({ Token.category == IN })(((({ Token.category == VBG })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN }))))))):pttrn92435 --> :pttrn92435.extracted={}
+

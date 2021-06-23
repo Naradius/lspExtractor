@@ -1,0 +1,8 @@
+to another or switch theirFig
+(PP (TO )(NP (DT )(CC )(NN ){1,2}))
+Phase: generated63996
+Input: Token
+Rule: generated63996
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == CC })({ Token.category == NN })+))):pttrn63996 --> :pttrn63996.extracted={}
+

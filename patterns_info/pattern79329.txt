@@ -1,0 +1,8 @@
+applies only twice among 600 training instances.This rule covers instances such as \Mr.
+(VP (VBZ )(PP (IN )(NP (NP (CD )(NN ))(PP (IN )(NP (NP (NN )(NNS ){1,2})(PP (JJ )(IN )))))))
+Phase: generated79329
+Input: Token
+Rule: generated79329
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS })+)(({ Token.category == JJ })({ Token.category == IN })))))))):pttrn79329 --> :pttrn79329.extracted={}
+

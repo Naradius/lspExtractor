@@ -1,0 +1,8 @@
+low-cost, mission-specific drones
+(NP (JJ ){1,2}(NNS ))
+Phase: generated112511
+Input: Token
+Rule: generated112511
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn112511 --> :pttrn112511.extracted={}
+

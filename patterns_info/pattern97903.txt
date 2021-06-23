@@ -1,0 +1,8 @@
+of predetermined rule template
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated97903
+Input: Token
+Rule: generated97903
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn97903 --> :pttrn97903.extracted={}
+

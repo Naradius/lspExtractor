@@ -1,0 +1,8 @@
+with the CHs andthe average amount of total energy that the CHs need to the data sinkis given in Eqs
+(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN )))(IN )))))
+Phase: generated10226
+Input: Token
+Rule: generated10226
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))({ Token.category == IN })))))):pttrn10226 --> :pttrn10226.extracted={}
+

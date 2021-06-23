@@ -1,0 +1,8 @@
+.Detecting and monitoring car thefts
+(VP (VBG )(CC )(VP (VBG )(NP (NN )(NNS ))))
+Phase: generated46706
+Input: Token
+Rule: generated46706
+(
+(({ Token.category == VBG })({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn46706 --> :pttrn46706.extracted={}
+

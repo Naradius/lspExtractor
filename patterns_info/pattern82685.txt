@@ -1,0 +1,8 @@
+semantic tagsThis pattern's
+(NP (JJ )(DT )(NN )(POS ))
+Phase: generated82685
+Input: Token
+Rule: generated82685
+(
+(({ Token.category == JJ })({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))):pttrn82685 --> :pttrn82685.extracted={}
+

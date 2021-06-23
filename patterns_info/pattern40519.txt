@@ -1,0 +1,8 @@
+to implement a new reliable and scalable protocol called Hybrid DTN Routing Protocol .The main contributions of this paper are the following: We are developing the HDRP protocol based on the combination ofthe benefits of the two DTN routing strategies; We propose a mathematical model to deal with the replication prob-lem, with the aim of optimizing this parameter for the HDRP proto-col; We model a probabilistic approach to update the probability ofdelivery, this approach is based on the duration of the contact, withthe aim of optimizing this parameter for the HDRP protocol; We implement the HDRP protocol on the ONE simulator; We evaluate the HDRP protocol relation to the existing DTN routingprotocols; We also evaluate the HDRP protocol on topologies like DRHT andTSP.1.3
+(VP (TO )(VP (VB )(NP (NP (DT )(JJ ){1,2}(CC )(JJ )(NN ))(VP (VBN )(NP (NP (NNP ){1,2}(JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated40519
+Input: Token
+Rule: generated40519
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })((({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn40519 --> :pttrn40519.extracted={}
+

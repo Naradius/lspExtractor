@@ -1,0 +1,8 @@
+employs an evolutionary game theoretic route discovery model
+(VP (VBZ )(NP (DT )(JJ )(NN ))(NP (DT )(NN ){1,2}))
+Phase: generated21113
+Input: Token
+Rule: generated21113
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })+))):pttrn21113 --> :pttrn21113.extracted={}
+

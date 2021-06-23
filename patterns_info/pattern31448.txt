@@ -1,0 +1,8 @@
+inorder to minimize an objective distance-based function and anapproach based on Gaussian models
+(ADJP (JJR )(VP (TO )(VP (VB )(NP (NP (DT )(JJ ){1,2}(NN )(CC )(NN ))(VP (VBN )(PP (IN )(NP (NNP )(NNS ))))))))
+Phase: generated31448
+Input: Token
+Rule: generated31448
+(
+(({ Token.category == JJR })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))))))):pttrn31448 --> :pttrn31448.extracted={}
+

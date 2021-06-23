@@ -1,0 +1,8 @@
+WLM Wavelet Leader analysis result on normal traffic  and flooded traffic  .
+(NP (NP (NNP ){1,2}(NN ){1,2})(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (JJ )(NN )))))
+Phase: generated111548
+Input: Token
+Rule: generated111548
+(
+((({ Token.category == NNP })+({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn111548 --> :pttrn111548.extracted={}
+

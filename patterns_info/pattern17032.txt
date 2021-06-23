@@ -1,0 +1,8 @@
+network coverage or application
+(NP (NN ){1,2}(CC )(NN ))
+Phase: generated17032
+Input: Token
+Rule: generated17032
+(
+(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn17032 --> :pttrn17032.extracted={}
+

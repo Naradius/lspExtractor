@@ -1,0 +1,8 @@
+both rule compilation and executing rulesfor
+(NP (DT )(NN ){1,2}(CC )(NN ){1,2})
+Phase: generated93589
+Input: Token
+Rule: generated93589
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)):pttrn93589 --> :pttrn93589.extracted={}
+

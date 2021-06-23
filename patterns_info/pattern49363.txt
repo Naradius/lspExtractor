@@ -1,0 +1,8 @@
+focus on duty cycling and data-reductionapproaches
+(VP (VBD )(PP (IN )(NP (NN ){1,2}(CC )(NNS ))))
+Phase: generated49363
+Input: Token
+Rule: generated49363
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NNS }))))):pttrn49363 --> :pttrn49363.extracted={}
+

@@ -1,0 +1,8 @@
+have tools to discover and robustly identifyentities such as symptoms, conditions, drugs, andtreatments in the text
+(VP (VBP )(NP (CC )(NP (NP (JJ )(NNS ))(PP (JJ )(IN )))))
+Phase: generated73813
+Input: Token
+Rule: generated73813
+(
+(({ Token.category == VBP })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))))):pttrn73813 --> :pttrn73813.extracted={}
+

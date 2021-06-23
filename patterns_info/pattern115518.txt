@@ -1,0 +1,8 @@
+by PT generalization
+(PP (IN )(NP (NNP )(NN )))
+Phase: generated115518
+Input: Token
+Rule: generated115518
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn115518 --> :pttrn115518.extracted={}
+

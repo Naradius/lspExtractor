@@ -1,0 +1,8 @@
+conflicting secondary IoT end-to-end route as-signment
+(VP (VBG )(NP (JJ )(NNP )(NN ){1,2}))
+Phase: generated21571
+Input: Token
+Rule: generated21571
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+))):pttrn21571 --> :pttrn21571.extracted={}
+

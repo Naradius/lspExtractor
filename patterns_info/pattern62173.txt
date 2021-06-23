@@ -1,0 +1,8 @@
+the confounding ring q j The creation probability of the phantom node d u The updating period for the confounding ring l Bits of each packet 4 p  t  d  d  a  c  p  i  t  m  F1
+(NP (NP (DT )(JJ )(NN ))(ADVP (RB ){1,2}(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated62173
+Input: Token
+Rule: generated62173
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn62173 --> :pttrn62173.extracted={}
+

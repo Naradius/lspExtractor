@@ -1,0 +1,8 @@
+our research groupwho
+(NP (PRP$ )(NN ){1,2})
+Phase: generated29983
+Input: Token
+Rule: generated29983
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn29983 --> :pttrn29983.extracted={}
+

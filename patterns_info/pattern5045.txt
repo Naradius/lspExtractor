@@ -1,0 +1,8 @@
+move to better locations
+(VP (VB )(PP (TO )(NP (RB )(NNS ))))
+Phase: generated5045
+Input: Token
+Rule: generated5045
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == RB })({ Token.category == NNS }))))):pttrn5045 --> :pttrn5045.extracted={}
+

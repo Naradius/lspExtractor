@@ -1,0 +1,8 @@
+provisioning end-to-end routes to competing IoTdevices that maximizes achievable channel performancewithout compromising fairness.S. Debroy, P. Samanta, A. Bashir et al
+(VP (VBG )(NP (JJ )(NNS ))(PP (TO )(NP (NP (VBG )(NNS ))(VP (VBZ )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (JJ )(NN )(NNP ){1,2})(NP (NN )(NNP ){1,2}(NN )))))))))
+Phase: generated21650
+Input: Token
+Rule: generated21650
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })((({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+)(({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN })))))))))):pttrn21650 --> :pttrn21650.extracted={}
+

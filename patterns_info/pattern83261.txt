@@ -1,0 +1,8 @@
+the next ' br'
+(NP (DT )(JJ )('' )(NN )('' ))
+Phase: generated83261
+Input: Token
+Rule: generated83261
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == '' })({ Token.category == NN })({ Token.category == '' }))):pttrn83261 --> :pttrn83261.extracted={}
+

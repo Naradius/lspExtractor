@@ -1,0 +1,8 @@
+of the ring identifier
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated62474
+Input: Token
+Rule: generated62474
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn62474 --> :pttrn62474.extracted={}
+

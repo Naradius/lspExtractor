@@ -1,0 +1,8 @@
+Computer Communications 30  27862801 2795application and the network layer
+(NP (NP (NNP )(NNPS )(CD ){1,2})(CC )(NP (DT )(NN ){1,2}))
+Phase: generated8116
+Input: Token
+Rule: generated8116
+(
+((({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == CD })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))):pttrn8116 --> :pttrn8116.extracted={}
+

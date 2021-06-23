@@ -1,0 +1,8 @@
+inhabitants   and poor Corresponding authors
+(NP (CC )(NP (JJ )(VBG )(NNS )))
+Phase: generated30981
+Input: Token
+Rule: generated30981
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == VBG })({ Token.category == NNS })))):pttrn30981 --> :pttrn30981.extracted={}
+

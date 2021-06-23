@@ -1,0 +1,8 @@
+of Rayleigh fading,path loss
+(PP (IN )(NP (NNP )(NN ){1,2}))
+Phase: generated24578
+Input: Token
+Rule: generated24578
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+))):pttrn24578 --> :pttrn24578.extracted={}
+

@@ -1,0 +1,8 @@
+in the corpus.Our process
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated78108
+Input: Token
+Rule: generated78108
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn78108 --> :pttrn78108.extracted={}
+

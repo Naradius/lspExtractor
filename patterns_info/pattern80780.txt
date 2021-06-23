@@ -1,0 +1,8 @@
+k slots
+(NP (NN )(NNS ))
+Phase: generated80780
+Input: Token
+Rule: generated80780
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn80780 --> :pttrn80780.extracted={}
+

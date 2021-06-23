@@ -1,0 +1,8 @@
+over thelog semiring
+(PP (IN )(NP (DT )(NN )))
+Phase: generated106960
+Input: Token
+Rule: generated106960
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn106960 --> :pttrn106960.extracted={}
+

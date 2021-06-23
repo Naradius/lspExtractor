@@ -1,0 +1,8 @@
+to design thenodes of the WSN with energy efficiency and to make the relatedprotocols to focus on the improvement of overall quality of thenetwork
+(VP (CC )(VP (TO )(VP (VB )(NP (DT )(NNS )))))
+Phase: generated60725
+Input: Token
+Rule: generated60725
+(
+(({ Token.category == CC })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn60725 --> :pttrn60725.extracted={}
+

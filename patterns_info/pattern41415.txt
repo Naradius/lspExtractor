@@ -1,0 +1,8 @@
+between the different networks
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated41415
+Input: Token
+Rule: generated41415
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn41415 --> :pttrn41415.extracted={}
+

@@ -1,0 +1,8 @@
+be in an overlappingregion.For the abovementioned deployment, the total number of over-lapping regions, Noverlap, is 2Nsen
+(VP (VB )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated22993
+Input: Token
+Rule: generated22993
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn22993 --> :pttrn22993.extracted={}
+

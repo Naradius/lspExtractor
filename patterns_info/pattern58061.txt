@@ -1,0 +1,8 @@
+on sensor technologies and applications
+(PP (IN )(NP (NN )(NNS )(CC )(NNS )))
+Phase: generated58061
+Input: Token
+Rule: generated58061
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn58061 --> :pttrn58061.extracted={}
+

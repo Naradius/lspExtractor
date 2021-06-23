@@ -1,0 +1,8 @@
+is the number of the size
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated1410
+Input: Token
+Rule: generated1410
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn1410 --> :pttrn1410.extracted={}
+

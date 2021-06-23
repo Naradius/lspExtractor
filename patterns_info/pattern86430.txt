@@ -1,0 +1,8 @@
+two parts
+(NP (CD )(NNS ))
+Phase: generated86430
+Input: Token
+Rule: generated86430
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn86430 --> :pttrn86430.extracted={}
+

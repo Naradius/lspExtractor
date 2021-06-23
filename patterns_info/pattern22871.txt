@@ -1,0 +1,8 @@
+reduce signaling overhead
+(VP (VB )(NP (VBG )(JJ )))
+Phase: generated22871
+Input: Token
+Rule: generated22871
+(
+(({ Token.category == VB })(({ Token.category == VBG })({ Token.category == JJ })))):pttrn22871 --> :pttrn22871.extracted={}
+

@@ -1,0 +1,8 @@
+the GENLToolset , which is a set of text interpretationtools
+(NP (NP (DT )(NNP ))(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated92375
+Input: Token
+Rule: generated92375
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn92375 --> :pttrn92375.extracted={}
+

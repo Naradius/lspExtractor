@@ -1,0 +1,8 @@
+our dynamic clustering protocol exhibitsfault-tolerance
+(NP (PRP$ )(JJ )(NN ){1,2})
+Phase: generated9585
+Input: Token
+Rule: generated9585
+(
+(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+)):pttrn9585 --> :pttrn9585.extracted={}
+

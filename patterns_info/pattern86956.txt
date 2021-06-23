@@ -1,0 +1,8 @@
+to the most appropriate class
+(PP (TO )(NP (DT )(JJS )(JJ )(NN )))
+Phase: generated86956
+Input: Token
+Rule: generated86956
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == JJ })({ Token.category == NN })))):pttrn86956 --> :pttrn86956.extracted={}
+

@@ -1,0 +1,8 @@
+to be made has to do with choosing the question taxonomythat will be used during the QG.
+(VP (TO )(VP (VB )(VP (VBN )(VP (VBZ )(VP (TO )(VP (VB )(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NNP )))))))))))))))
+Phase: generated101825
+Input: Token
+Rule: generated101825
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))))))))))):pttrn101825 --> :pttrn101825.extracted={}
+

@@ -1,0 +1,8 @@
+implementing anomaly based intrusion detection atthe edge router
+(VP (VBG )(NP (DT )(VBN )(NN ){1,2})(NP (DT )(NN ){1,2}))
+Phase: generated39981
+Input: Token
+Rule: generated39981
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NN })+))):pttrn39981 --> :pttrn39981.extracted={}
+

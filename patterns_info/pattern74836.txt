@@ -1,0 +1,8 @@
+the top 10 patterns
+(NP (DT )(JJ )(CD )(NNS ))
+Phase: generated74836
+Input: Token
+Rule: generated74836
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS }))):pttrn74836 --> :pttrn74836.extracted={}
+

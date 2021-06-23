@@ -1,0 +1,8 @@
+effectivethrough the mathematical modelling of the behaviour
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated60634
+Input: Token
+Rule: generated60634
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn60634 --> :pttrn60634.extracted={}
+

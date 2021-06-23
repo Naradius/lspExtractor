@@ -1,0 +1,8 @@
+to fmd the closest neighbor to the destination which is also closer than itself to the destination
+(VP (TO )(VP (VB )(NP (DT )(JJS )(NN ))(PP (TO )(NP (NP (DT )(NN ))(VP (VBZ )(ADJP (ADJP (RB )(RBR ))(PP (TO )(NP (DT )(NN )))))))))
+Phase: generated462
+Input: Token
+Rule: generated462
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == RB })({ Token.category == RBR }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))))))):pttrn462 --> :pttrn462.extracted={}
+

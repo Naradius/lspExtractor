@@ -1,0 +1,8 @@
+a high percentage
+(NP (DT )(JJ )(NN ))
+Phase: generated65153
+Input: Token
+Rule: generated65153
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn65153 --> :pttrn65153.extracted={}
+

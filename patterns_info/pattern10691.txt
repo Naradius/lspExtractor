@@ -1,0 +1,8 @@
+based trustant colony routing in WSN, China Commun
+(VP (VBN )(NP (JJ )(NN ){1,2}))
+Phase: generated10691
+Input: Token
+Rule: generated10691
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn10691 --> :pttrn10691.extracted={}
+

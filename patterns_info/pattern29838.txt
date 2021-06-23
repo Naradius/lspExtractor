@@ -1,0 +1,8 @@
+three ofthem in the basement and another three in height and in whichmore than 250 people work
+(NP (NP (CD )(NNP ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(CD )))))
+Phase: generated29838
+Input: Token
+Rule: generated29838
+(
+((({ Token.category == CD })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == CD })))))):pttrn29838 --> :pttrn29838.extracted={}
+

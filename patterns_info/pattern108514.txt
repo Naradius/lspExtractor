@@ -1,0 +1,8 @@
+the delays
+(NP (DT )(NNS ))
+Phase: generated108514
+Input: Token
+Rule: generated108514
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn108514 --> :pttrn108514.extracted={}
+

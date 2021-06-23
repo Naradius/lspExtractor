@@ -1,0 +1,8 @@
+ensure better quality of service in wireless sensornetworks compared with traditional algorithms.Crown Copyright & 2011 Published by Elsevier Ltd.
+(VP (VB )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated32181
+Input: Token
+Rule: generated32181
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn32181 --> :pttrn32181.extracted={}
+

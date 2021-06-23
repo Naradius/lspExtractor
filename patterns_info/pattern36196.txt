@@ -1,0 +1,8 @@
+consensus mechanism, insufficient reliable authentication,limited capacity, and insufficient computer capabilities
+(NP (CC )(NP (JJ )(NN )(NNS )))
+Phase: generated36196
+Input: Token
+Rule: generated36196
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn36196 --> :pttrn36196.extracted={}
+

@@ -1,0 +1,8 @@
+an accurate distinctionetween legitimate traffic and traffic
+(NP (DT )(JJ )(NN )(JJ )(NN )(CC )(NN ))
+Phase: generated111235
+Input: Token
+Rule: generated111235
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn111235 --> :pttrn111235.extracted={}
+

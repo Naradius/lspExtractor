@@ -1,0 +1,8 @@
+in a single hop
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated58802
+Input: Token
+Rule: generated58802
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn58802 --> :pttrn58802.extracted={}
+

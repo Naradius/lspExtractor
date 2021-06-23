@@ -1,0 +1,8 @@
+is established by a simple strategy
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated10644
+Input: Token
+Rule: generated10644
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn10644 --> :pttrn10644.extracted={}
+

@@ -1,0 +1,8 @@
+introducing the judg-ment mechanism
+(VP (VBG )(NP (DT )(NN ){1,2}))
+Phase: generated36710
+Input: Token
+Rule: generated36710
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))):pttrn36710 --> :pttrn36710.extracted={}
+

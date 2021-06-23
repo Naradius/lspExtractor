@@ -1,0 +1,8 @@
+textmining approaches
+(NP (NN )(NNS ))
+Phase: generated71877
+Input: Token
+Rule: generated71877
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn71877 --> :pttrn71877.extracted={}
+

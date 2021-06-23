@@ -1,0 +1,8 @@
+buffers the packet and broadcasts a route requestmessage
+(VP (VBZ )(NP (DT )(NN )(CC )(NNS ))(NP (DT )(NN ){1,2}))
+Phase: generated13987
+Input: Token
+Rule: generated13987
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })+))):pttrn13987 --> :pttrn13987.extracted={}
+

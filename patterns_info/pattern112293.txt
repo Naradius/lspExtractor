@@ -1,0 +1,8 @@
+Intelligent % Robotic Systems 77 629652 01 3
+(NP (NP (NNP )(NN ))(NP (NNP ){1,2}(CD ){1,2}))
+Phase: generated112293
+Input: Token
+Rule: generated112293
+(
+((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == NNP })+({ Token.category == CD })+))):pttrn112293 --> :pttrn112293.extracted={}
+

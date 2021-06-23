@@ -1,0 +1,8 @@
+as a single network where thenodes are the airports and the edges are the direct flights betweenairports
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(WHADVP (WRB ))))
+Phase: generated29169
+Input: Token
+Rule: generated29169
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == WRB }))))):pttrn29169 --> :pttrn29169.extracted={}
+

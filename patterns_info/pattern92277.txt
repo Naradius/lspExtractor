@@ -1,0 +1,8 @@
+assigned to $1
+(VP (VBN )(PP (TO )(NP ($ )(CD ))))
+Phase: generated92277
+Input: Token
+Rule: generated92277
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == $ })({ Token.category == CD }))))):pttrn92277 --> :pttrn92277.extracted={}
+

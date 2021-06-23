@@ -1,0 +1,8 @@
+the data routing, that is, whether it istrue
+(NP (NP (DT )(NNS )(NN ))(PRN )(IN ))
+Phase: generated36801
+Input: Token
+Rule: generated36801
+(
+((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))({ Token.category == PRN })({ Token.category == IN }))):pttrn36801 --> :pttrn36801.extracted={}
+

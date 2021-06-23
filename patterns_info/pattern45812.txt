@@ -1,0 +1,8 @@
+with a cubic-millimeter computer, IEEEComputer  29
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(NP (NNP )(CD ))))
+Phase: generated45812
+Input: Token
+Rule: generated45812
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == CD }))))):pttrn45812 --> :pttrn45812.extracted={}
+

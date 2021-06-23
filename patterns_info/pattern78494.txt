@@ -1,0 +1,8 @@
+the Software Jobs domain,as in the previous domain
+(NP (NP (DT )(NNP ){1,2}(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated78494
+Input: Token
+Rule: generated78494
+(
+((({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn78494 --> :pttrn78494.extracted={}
+

@@ -1,0 +1,8 @@
+4.4 RAM
+(NP (CD )(NNP ))
+Phase: generated38693
+Input: Token
+Rule: generated38693
+(
+(({ Token.category == CD })({ Token.category == NNP }))):pttrn38693 --> :pttrn38693.extracted={}
+

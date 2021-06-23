@@ -1,0 +1,8 @@
+aided controlled sprayingrouting algorithm for delay tolerant networks
+(VP (VBN )(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (NN )(JJ )(NNS )))))
+Phase: generated43623
+Input: Token
+Rule: generated43623
+(
+(({ Token.category == VBN })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn43623 --> :pttrn43623.extracted={}
+

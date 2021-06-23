@@ -1,0 +1,8 @@
+very few clusters
+(NP (ADJP (RB )(JJ ))(NNS ))
+Phase: generated5243
+Input: Token
+Rule: generated5243
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn5243 --> :pttrn5243.extracted={}
+

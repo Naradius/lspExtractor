@@ -1,0 +1,8 @@
+the pre-stored transactionte Deadline
+(NP (DT )(JJ )(NN )(NNP ))
+Phase: generated34447
+Input: Token
+Rule: generated34447
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))):pttrn34447 --> :pttrn34447.extracted={}
+

@@ -1,0 +1,8 @@
+repli-cate them as they exhibits many attractive features, such asrobustness and reliability through redundancy .In this paper
+(VP (VB )(IN ))
+Phase: generated6689
+Input: Token
+Rule: generated6689
+(
+(({ Token.category == VB })({ Token.category == IN }))):pttrn6689 --> :pttrn6689.extracted={}
+

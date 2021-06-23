@@ -1,0 +1,8 @@
+in the fourth experiments
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated33938
+Input: Token
+Rule: generated33938
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn33938 --> :pttrn33938.extracted={}
+

@@ -1,0 +1,8 @@
+to guarantee their better efficiency in case of more predictableobility models
+(VP (TO )(VP (VB )(NP (PRP$ )(JJR )(NN ))))
+Phase: generated28177
+Input: Token
+Rule: generated28177
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == JJR })({ Token.category == NN }))))):pttrn28177 --> :pttrn28177.extracted={}
+

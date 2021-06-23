@@ -1,0 +1,8 @@
+these modelsby means of external morphosyntactic resources stillimproves accuracy
+(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (JJ ){1,2}(NNS ){1,2}(NN ))))
+Phase: generated106306
+Input: Token
+Rule: generated106306
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })+({ Token.category == NN }))))):pttrn106306 --> :pttrn106306.extracted={}
+

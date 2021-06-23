@@ -1,0 +1,8 @@
+the spaceetween
+(NP (DT )(NN ))
+Phase: generated60037
+Input: Token
+Rule: generated60037
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn60037 --> :pttrn60037.extracted={}
+

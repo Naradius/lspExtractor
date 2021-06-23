@@ -1,0 +1,8 @@
+the pattern andeach of the text segments
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated99790
+Input: Token
+Rule: generated99790
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn99790 --> :pttrn99790.extracted={}
+

@@ -1,0 +1,8 @@
+by a set of randomly generatedsolutions called Lions
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated63918
+Input: Token
+Rule: generated63918
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn63918 --> :pttrn63918.extracted={}
+

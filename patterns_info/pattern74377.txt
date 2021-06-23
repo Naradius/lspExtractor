@@ -1,0 +1,8 @@
+from overshadowing the contribution of low-frequency words
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated74377
+Input: Token
+Rule: generated74377
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn74377 --> :pttrn74377.extracted={}
+

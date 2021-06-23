@@ -1,0 +1,8 @@
+for spatializing multi-media observations of species and ecosystems, Landscapeand Urban Planning 21  285297
+(PP (IN )(VP (VBG )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (NNS )(CC )(NNS ))(NP (NNP ){1,2}(CD ){1,2}))))))
+Phase: generated45673
+Input: Token
+Rule: generated45673
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == NNP })+({ Token.category == CD })+))))))):pttrn45673 --> :pttrn45673.extracted={}
+

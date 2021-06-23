@@ -1,0 +1,8 @@
+their visit
+(NP (PRP$ )(NN ))
+Phase: generated101557
+Input: Token
+Rule: generated101557
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn101557 --> :pttrn101557.extracted={}
+

@@ -1,0 +1,8 @@
+under the purview of the sensor
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated22026
+Input: Token
+Rule: generated22026
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn22026 --> :pttrn22026.extracted={}
+

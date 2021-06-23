@@ -1,0 +1,8 @@
+the time intervalfrom the request
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated35295
+Input: Token
+Rule: generated35295
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn35295 --> :pttrn35295.extracted={}
+

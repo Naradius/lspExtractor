@@ -1,0 +1,8 @@
+pre-process the texts used to learn patterns andgenerate the question/answer pairs
+(VP (JJ )(NP (NP (DT )(NNS ))(VP (VBN )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN )(NNS ))))))))
+Phase: generated101118
+Input: Token
+Rule: generated101118
+(
+(({ Token.category == JJ })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn101118 --> :pttrn101118.extracted={}
+

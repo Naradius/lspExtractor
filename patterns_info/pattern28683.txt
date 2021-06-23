@@ -1,0 +1,8 @@
+control packets in the network
+(NP (NP (NN )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated28683
+Input: Token
+Rule: generated28683
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn28683 --> :pttrn28683.extracted={}
+

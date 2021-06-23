@@ -1,0 +1,8 @@
+the most likely tag
+(NP (DT )(ADJP (RBS )(JJ ))(NN ))
+Phase: generated91842
+Input: Token
+Rule: generated91842
+(
+(({ Token.category == DT })(({ Token.category == RBS })({ Token.category == JJ }))({ Token.category == NN }))):pttrn91842 --> :pttrn91842.extracted={}
+

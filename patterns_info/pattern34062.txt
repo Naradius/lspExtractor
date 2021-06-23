@@ -1,0 +1,8 @@
+Karatza D. Optimized QoS priority routing forservice tenability
+(NP (NNP ){1,2}(NN ){1,2})
+Phase: generated34062
+Input: Token
+Rule: generated34062
+(
+(({ Token.category == NNP })+({ Token.category == NN })+)):pttrn34062 --> :pttrn34062.extracted={}
+

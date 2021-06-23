@@ -1,0 +1,8 @@
+the distances between new cluster andother clusters
+(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NN ){1,2}(NNS ))))
+Phase: generated86925
+Input: Token
+Rule: generated86925
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn86925 --> :pttrn86925.extracted={}
+

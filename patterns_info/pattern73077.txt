@@ -1,0 +1,8 @@
+to estimate the plausibility of the originallyparsed ARGM-TMP Park last night
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNP ){1,2}))(NP (JJ )(NN )))))
+Phase: generated73077
+Input: Token
+Rule: generated73077
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+))(({ Token.category == JJ })({ Token.category == NN })))))):pttrn73077 --> :pttrn73077.extracted={}
+

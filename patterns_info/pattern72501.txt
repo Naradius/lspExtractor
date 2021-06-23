@@ -1,0 +1,8 @@
+correct punctuation
+(NP (JJ )(NN ))
+Phase: generated72501
+Input: Token
+Rule: generated72501
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn72501 --> :pttrn72501.extracted={}
+

@@ -1,0 +1,8 @@
+the convex hull
+(NP (DT )(NN ){1,2})
+Phase: generated17436
+Input: Token
+Rule: generated17436
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn17436 --> :pttrn17436.extracted={}
+

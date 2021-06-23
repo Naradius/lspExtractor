@@ -1,0 +1,8 @@
+for over a year
+(PP (IN )(NP (IN )(DT )(NN )))
+Phase: generated50426
+Input: Token
+Rule: generated50426
+(
+(({ Token.category == IN })(({ Token.category == IN })({ Token.category == DT })({ Token.category == NN })))):pttrn50426 --> :pttrn50426.extracted={}
+

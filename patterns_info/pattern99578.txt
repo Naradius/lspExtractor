@@ -1,0 +1,8 @@
+a certain threshold
+(NP (DT )(JJ )(NN ))
+Phase: generated99578
+Input: Token
+Rule: generated99578
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn99578 --> :pttrn99578.extracted={}
+

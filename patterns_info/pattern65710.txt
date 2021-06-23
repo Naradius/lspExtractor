@@ -1,0 +1,8 @@
+so on discussed inSection 4.7
+(VP (ADVP (RB )(IN ))(VBN ))
+Phase: generated65710
+Input: Token
+Rule: generated65710
+(
+((({ Token.category == RB })({ Token.category == IN }))({ Token.category == VBN }))):pttrn65710 --> :pttrn65710.extracted={}
+

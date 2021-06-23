@@ -1,0 +1,8 @@
+production instances
+(NP (NN )(NNS ))
+Phase: generated104745
+Input: Token
+Rule: generated104745
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn104745 --> :pttrn104745.extracted={}
+

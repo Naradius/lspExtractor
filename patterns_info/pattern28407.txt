@@ -1,0 +1,8 @@
+the route which pro-ides higher reliability , even if it takes more time to de-iver data packets to the destination
+(NP (NP (DT )(NN ))(VP (VBZ )(NP (JJR )(NN ))))
+Phase: generated28407
+Input: Token
+Rule: generated28407
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == JJR })({ Token.category == NN }))))):pttrn28407 --> :pttrn28407.extracted={}
+

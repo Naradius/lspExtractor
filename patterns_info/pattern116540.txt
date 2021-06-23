@@ -1,0 +1,8 @@
+to learning parse thickets for two paragraphs
+(PP (TO )(VP (VBG )(NP (JJ )(NNS ))(PP (IN )(NP (CD )(NNS )))))
+Phase: generated116540
+Input: Token
+Rule: generated116540
+(
+(({ Token.category == TO })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn116540 --> :pttrn116540.extracted={}
+

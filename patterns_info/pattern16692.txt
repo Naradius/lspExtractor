@@ -1,0 +1,8 @@
+the end-to-enddelays
+(NP (DT )(NNS ))
+Phase: generated16692
+Input: Token
+Rule: generated16692
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn16692 --> :pttrn16692.extracted={}
+

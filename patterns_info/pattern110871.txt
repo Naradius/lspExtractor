@@ -1,0 +1,8 @@
+show a large variationn the scaling function   , especially in the case of neg-tive moments for traffic including attacks
+(VP (VBP )(NP (DT )(JJ )(NN ))(NP (DT )(NN ){1,2}))
+Phase: generated110871
+Input: Token
+Rule: generated110871
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NN })+))):pttrn110871 --> :pttrn110871.extracted={}
+

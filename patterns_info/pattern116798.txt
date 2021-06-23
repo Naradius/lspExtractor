@@ -1,0 +1,8 @@
+2*45*45*12*5 operations
+(NP (CD )(NNS ))
+Phase: generated116798
+Input: Token
+Rule: generated116798
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn116798 --> :pttrn116798.extracted={}
+

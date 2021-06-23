@@ -1,0 +1,8 @@
+to assign each term from the dictionary to one corre-sponding class
+(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))(PP (TO )(NP (CD )(JJ )(NN )))))
+Phase: generated86822
+Input: Token
+Rule: generated86822
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })))))):pttrn86822 --> :pttrn86822.extracted={}
+

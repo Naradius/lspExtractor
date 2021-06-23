@@ -1,0 +1,8 @@
+. Millions of sensor nodes
+(NP (NP (DT )(NNP ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated46314
+Input: Token
+Rule: generated46314
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn46314 --> :pttrn46314.extracted={}
+

@@ -1,0 +1,8 @@
+of the requirements of theentire storage system
+(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated36244
+Input: Token
+Rule: generated36244
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn36244 --> :pttrn36244.extracted={}
+

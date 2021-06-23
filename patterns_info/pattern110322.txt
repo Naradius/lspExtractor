@@ -1,0 +1,8 @@
+the inputs and anrray
+(NP (DT )(NNS )(CC )(NN ))
+Phase: generated110322
+Input: Token
+Rule: generated110322
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN }))):pttrn110322 --> :pttrn110322.extracted={}
+

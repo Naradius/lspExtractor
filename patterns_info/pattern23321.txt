@@ -1,0 +1,8 @@
+both the SD pairs lead tointerference
+(NP (DT )(NP (DT )(NNP )(NNS )(NN ){1,2}))
+Phase: generated23321
+Input: Token
+Rule: generated23321
+(
+(({ Token.category == DT })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NN })+))):pttrn23321 --> :pttrn23321.extracted={}
+

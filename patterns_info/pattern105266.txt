@@ -1,0 +1,8 @@
+of a diagram
+(PP (IN )(NP (DT )(NN )))
+Phase: generated105266
+Input: Token
+Rule: generated105266
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn105266 --> :pttrn105266.extracted={}
+

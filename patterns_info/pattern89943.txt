@@ -1,0 +1,8 @@
+numbered unitis an atomic predication, having a predicate name, and named slots
+(VP (VP (VBD )(PP (IN )(NP (DT )(JJ )(NN )))(VP (VBG )(NP (DT )(NN ){1,2})))(CC ))
+Phase: generated89943
+Input: Token
+Rule: generated89943
+(
+((({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC }))):pttrn89943 --> :pttrn89943.extracted={}
+

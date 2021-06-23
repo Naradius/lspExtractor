@@ -1,0 +1,8 @@
+Remote Patient Healthonitoring Systems
+(NP (NNP ){1,2}(NNPS ))
+Phase: generated27070
+Input: Token
+Rule: generated27070
+(
+(({ Token.category == NNP })+({ Token.category == NNPS }))):pttrn27070 --> :pttrn27070.extracted={}
+

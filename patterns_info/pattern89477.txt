@@ -1,0 +1,8 @@
+contextual constraints
+(NP (JJ )(NNS ))
+Phase: generated89477
+Input: Token
+Rule: generated89477
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn89477 --> :pttrn89477.extracted={}
+

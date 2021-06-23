@@ -1,0 +1,8 @@
+was proposed by the authorskeeping in view of the issues of balancing the energy for SNs energyaccording to the needs of applications
+(VP (VBD )(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated58821
+Input: Token
+Rule: generated58821
+(
+(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn58821 --> :pttrn58821.extracted={}
+

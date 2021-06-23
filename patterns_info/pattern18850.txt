@@ -1,0 +1,8 @@
+from the smart home
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated18850
+Input: Token
+Rule: generated18850
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn18850 --> :pttrn18850.extracted={}
+

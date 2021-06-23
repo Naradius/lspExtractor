@@ -1,0 +1,8 @@
+in the falsification/addition/deletion ofdata
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated36576
+Input: Token
+Rule: generated36576
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn36576 --> :pttrn36576.extracted={}
+

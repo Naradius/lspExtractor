@@ -1,0 +1,8 @@
+using shallow text features
+(VP (VBG )(NP (JJ )(NN )(NNS )))
+Phase: generated76776
+Input: Token
+Rule: generated76776
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn76776 --> :pttrn76776.extracted={}
+

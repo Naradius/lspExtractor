@@ -1,0 +1,8 @@
+be explainedby a set of relations.The entropy H for each pattern
+(VP (VB )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )(NNP ))))(PP (IN )(NP (DT )(NN )))))
+Phase: generated76396
+Input: Token
+Rule: generated76396
+(
+(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn76396 --> :pttrn76396.extracted={}
+

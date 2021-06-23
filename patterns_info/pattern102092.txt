@@ -1,0 +1,8 @@
+for the so-called embeddingproblem
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated102092
+Input: Token
+Rule: generated102092
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn102092 --> :pttrn102092.extracted={}
+

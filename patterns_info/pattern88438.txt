@@ -1,0 +1,8 @@
+are equal strings, ig-noring case
+(VP (VBP )(NP (NP (JJ )(NNS ))(NP (JJ )(NN ))))
+Phase: generated88438
+Input: Token
+Rule: generated88438
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN }))))):pttrn88438 --> :pttrn88438.extracted={}
+

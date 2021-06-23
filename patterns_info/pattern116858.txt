@@ -1,0 +1,8 @@
+the 2009 Conference
+(NP (DT )(CD )(NNP ))
+Phase: generated116858
+Input: Token
+Rule: generated116858
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNP }))):pttrn116858 --> :pttrn116858.extracted={}
+

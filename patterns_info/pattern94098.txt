@@ -1,0 +1,8 @@
+thelexico-syntactic and lexico-semantic
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated94098
+Input: Token
+Rule: generated94098
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn94098 --> :pttrn94098.extracted={}
+

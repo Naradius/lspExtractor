@@ -1,0 +1,8 @@
+prior and successor node
+(NP (JJ )(CC )(NN ){1,2})
+Phase: generated17555
+Input: Token
+Rule: generated17555
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN })+)):pttrn17555 --> :pttrn17555.extracted={}
+

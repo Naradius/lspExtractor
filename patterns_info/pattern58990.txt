@@ -1,0 +1,8 @@
+works in many rounds starting with initial round, contin-uing with intermediate rounds and ending with the final roundas it is done in cluster based routing protocols including LEACH.This proposed work differs from the existing works from clusterformation stage onwards when it is compared with the other re-lated protocols namely LEACH, FLCFP and HEED.
+(VP (VBZ )(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBG )(PP (IN )(NP (JJ )(NN ))))))(VP (VP (VBG )(PP (IN )(NP (JJ )(NNS ))))(CC )))
+Phase: generated58990
+Input: Token
+Rule: generated58990
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))((({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })))):pttrn58990 --> :pttrn58990.extracted={}
+

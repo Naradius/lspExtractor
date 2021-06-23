@@ -1,0 +1,8 @@
+retrieve missing data.Data compression
+(VP (VB )(NP (VBG )(NNS )(NN )))
+Phase: generated51164
+Input: Token
+Rule: generated51164
+(
+(({ Token.category == VB })(({ Token.category == VBG })({ Token.category == NNS })({ Token.category == NN })))):pttrn51164 --> :pttrn51164.extracted={}
+

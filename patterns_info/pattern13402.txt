@@ -1,0 +1,8 @@
+allow PN 4 in region1.0 to send packets directly to PN 8 in distant region 1.2
+(VP (VB )(VP (TO )(VP (VB )(PP (TO )(NP (NNP )(CD )))(PP (IN )(NP (JJ )(NN ))))))
+Phase: generated13402
+Input: Token
+Rule: generated13402
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == NNP })({ Token.category == CD })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn13402 --> :pttrn13402.extracted={}
+

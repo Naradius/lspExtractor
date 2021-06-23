@@ -1,0 +1,8 @@
+RoamingEach male lion in a pride roams in that pride's territory
+(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )(NNS ))))(PP (IN )(NP (NP (DT )(NN )(POS ))(NN ))))
+Phase: generated64410
+Input: Token
+Rule: generated64410
+(
+(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))({ Token.category == NN }))))):pttrn64410 --> :pttrn64410.extracted={}
+

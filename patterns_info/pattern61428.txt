@@ -1,0 +1,8 @@
+a Key Account Manager
+(NP (DT )(JJ )(NNP ){1,2})
+Phase: generated61428
+Input: Token
+Rule: generated61428
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })+)):pttrn61428 --> :pttrn61428.extracted={}
+

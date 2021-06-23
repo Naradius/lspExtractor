@@ -1,0 +1,8 @@
+a new leader election process
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated13545
+Input: Token
+Rule: generated13545
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn13545 --> :pttrn13545.extracted={}
+

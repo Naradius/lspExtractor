@@ -1,0 +1,8 @@
+hadbeen awarded the ICINIS 2011 Best Paper Awards, the Na-tional Science and Technology Progress Award and YouthScience and Technology Awards from China Ordnance So-ciety
+(VP (VBZ )(VP (VBN )(NP (NP (DT )(NNP )(CD )(JJS )(NN )(NNS ))(NP (DT )(NNP ){1,2}(CC )(NNP ){1,2})(CC )(NP (NP (NNP )(CC )(NNP ){1,2})(PP (IN )(NP (NNP ){1,2}(NN )))))))
+Phase: generated61561
+Input: Token
+Rule: generated61561
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == CD })({ Token.category == JJS })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)({ Token.category == CC })((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })))))))):pttrn61561 --> :pttrn61561.extracted={}
+

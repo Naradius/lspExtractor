@@ -1,0 +1,8 @@
+us-ng fuzzy IF-THEN rules
+(NP (DT )(JJ )(NNP )(NNS ))
+Phase: generated59426
+Input: Token
+Rule: generated59426
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))):pttrn59426 --> :pttrn59426.extracted={}
+

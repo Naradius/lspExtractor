@@ -1,0 +1,8 @@
+a sequence connecting the words for communicative actions
+(NP (NP (DT )(NN ))(VP (VBG )(NP (DT )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated114162
+Input: Token
+Rule: generated114162
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn114162 --> :pttrn114162.extracted={}
+

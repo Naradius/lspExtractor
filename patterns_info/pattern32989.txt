@@ -1,0 +1,8 @@
+is very important
+(VP (VBZ )(ADJP (RB )(JJ )))
+Phase: generated32989
+Input: Token
+Rule: generated32989
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == JJ })))):pttrn32989 --> :pttrn32989.extracted={}
+

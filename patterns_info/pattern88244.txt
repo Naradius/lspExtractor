@@ -1,0 +1,8 @@
+the formalism
+(NP (DT )(NN ))
+Phase: generated88244
+Input: Token
+Rule: generated88244
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn88244 --> :pttrn88244.extracted={}
+

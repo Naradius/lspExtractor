@@ -1,0 +1,8 @@
+Boundary NLC graph grammars
+(NP (NNP ){1,2}(NN )(NNS ))
+Phase: generated105096
+Input: Token
+Rule: generated105096
+(
+(({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNS }))):pttrn105096 --> :pttrn105096.extracted={}
+

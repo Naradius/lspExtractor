@@ -1,0 +1,8 @@
+with CBLR algorithm
+(PP (IN )(NP (NNP )(NN )))
+Phase: generated233
+Input: Token
+Rule: generated233
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn233 --> :pttrn233.extracted={}
+

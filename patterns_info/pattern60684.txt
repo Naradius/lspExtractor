@@ -1,0 +1,8 @@
+the overall network-ing and IoT communities
+(NP (DT )(JJ ){1,2}(CC )(NNP )(NNS ))
+Phase: generated60684
+Input: Token
+Rule: generated60684
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNS }))):pttrn60684 --> :pttrn60684.extracted={}
+

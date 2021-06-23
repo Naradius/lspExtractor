@@ -1,0 +1,8 @@
+Hierarchical architecture andprotocol
+(NP (JJ )(NN ){1,2})
+Phase: generated43682
+Input: Token
+Rule: generated43682
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn43682 --> :pttrn43682.extracted={}
+

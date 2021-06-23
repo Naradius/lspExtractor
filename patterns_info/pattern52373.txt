@@ -1,0 +1,8 @@
+to maximise the proba-bility of target detection, while minimising the totalenergy dissipated in the network and minimising thetotal number of sensors deployed.Game theoretic approaches have been successfullyapplied for a variety of applications in WSNs, as sur-veyed in
+(VP (TO )(VP (VB )(IN )))
+Phase: generated52373
+Input: Token
+Rule: generated52373
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))):pttrn52373 --> :pttrn52373.extracted={}
+

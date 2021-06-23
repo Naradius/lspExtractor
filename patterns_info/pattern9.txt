@@ -1,0 +1,8 @@
+considering the road conditions and the selection of appropriate cluster head
+(VP (VBG )(NP (NP (DT )(NN )(NNS ))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))))
+Phase: generated9
+Input: Token
+Rule: generated9
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn9 --> :pttrn9.extracted={}
+

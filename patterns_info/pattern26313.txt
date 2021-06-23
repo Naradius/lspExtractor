@@ -1,0 +1,8 @@
+additiono utilization factor, which determines the amount of occupancyn the buffer
+(NP (NP (DT )(NN ){1,2})(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(NP (DT )(NN )))))))
+Phase: generated26313
+Input: Token
+Rule: generated26313
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn26313 --> :pttrn26313.extracted={}
+

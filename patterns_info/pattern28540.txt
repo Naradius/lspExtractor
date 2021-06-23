@@ -1,0 +1,8 @@
+of PDRn mobile conditions
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated28540
+Input: Token
+Rule: generated28540
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn28540 --> :pttrn28540.extracted={}
+

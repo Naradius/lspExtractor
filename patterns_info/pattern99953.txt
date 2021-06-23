@@ -1,0 +1,8 @@
+with their verbalphrases
+(PP (IN )(NP (PRP$ )(NNS )))
+Phase: generated99953
+Input: Token
+Rule: generated99953
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS })))):pttrn99953 --> :pttrn99953.extracted={}
+

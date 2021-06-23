@@ -1,0 +1,8 @@
+to the UAV.e
+(PP (TO )(NP (DT )(NN )))
+Phase: generated111701
+Input: Token
+Rule: generated111701
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))):pttrn111701 --> :pttrn111701.extracted={}
+

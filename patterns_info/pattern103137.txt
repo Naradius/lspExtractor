@@ -1,0 +1,8 @@
+,but maybe not the dangling edge condition
+(PP (IN )(VP (RB )(NP (DT )(JJ ){1,2}(NN ))))
+Phase: generated103137
+Input: Token
+Rule: generated103137
+(
+(({ Token.category == IN })(({ Token.category == RB })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))):pttrn103137 --> :pttrn103137.extracted={}
+

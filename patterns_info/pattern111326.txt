@@ -1,0 +1,8 @@
+UAV ad-hoc communication
+(NP (NNP )(JJ )(NN ))
+Phase: generated111326
+Input: Token
+Rule: generated111326
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))):pttrn111326 --> :pttrn111326.extracted={}
+

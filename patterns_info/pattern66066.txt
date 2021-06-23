@@ -1,0 +1,8 @@
+the computation process
+(NP (DT )(NN ){1,2})
+Phase: generated66066
+Input: Token
+Rule: generated66066
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn66066 --> :pttrn66066.extracted={}
+

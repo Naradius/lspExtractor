@@ -1,0 +1,8 @@
+with mobile nodes
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated57774
+Input: Token
+Rule: generated57774
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn57774 --> :pttrn57774.extracted={}
+

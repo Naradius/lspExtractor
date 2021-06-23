@@ -1,0 +1,8 @@
+i = i+ 1.2.6
+(NP (FW )(SYM )(JJ )(CD ))
+Phase: generated86920
+Input: Token
+Rule: generated86920
+(
+(({ Token.category == FW })({ Token.category == SYM })({ Token.category == JJ })({ Token.category == CD }))):pttrn86920 --> :pttrn86920.extracted={}
+

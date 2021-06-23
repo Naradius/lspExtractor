@@ -1,0 +1,8 @@
+the polynomial expansion
+(NP (DT )(JJ )(NN ))
+Phase: generated97843
+Input: Token
+Rule: generated97843
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn97843 --> :pttrn97843.extracted={}
+

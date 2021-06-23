@@ -1,0 +1,8 @@
+becomes a CH, whereas the others would choose to jointhe best cluster in range
+(VP (VBZ )(NP (DT )(NNP )))
+Phase: generated6804
+Input: Token
+Rule: generated6804
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNP })))):pttrn6804 --> :pttrn6804.extracted={}
+

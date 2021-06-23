@@ -1,0 +1,8 @@
+digital zoom
+(NP (JJ )(NN ))
+Phase: generated113219
+Input: Token
+Rule: generated113219
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn113219 --> :pttrn113219.extracted={}
+

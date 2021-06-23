@@ -1,0 +1,8 @@
+CHs aswell as to reduce the number of CHs as compared toLCA or LCA2
+(NP (NP (JJ )(NN ))(IN ))
+Phase: generated9736
+Input: Token
+Rule: generated9736
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == IN }))):pttrn9736 --> :pttrn9736.extracted={}
+

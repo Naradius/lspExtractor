@@ -1,0 +1,8 @@
+be formulated based upon the following
+(VP (VB )(VP (VBN )(VP (VBN )(PP (IN )(NP (DT )(VBG ))))))
+Phase: generated54787
+Input: Token
+Rule: generated54787
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG }))))))):pttrn54787 --> :pttrn54787.extracted={}
+

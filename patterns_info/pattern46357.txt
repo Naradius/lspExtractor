@@ -1,0 +1,8 @@
+dominant plant species
+(NP (JJ )(NN )(NNS ))
+Phase: generated46357
+Input: Token
+Rule: generated46357
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn46357 --> :pttrn46357.extracted={}
+

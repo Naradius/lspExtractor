@@ -1,0 +1,8 @@
+based on this paradigm
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated102176
+Input: Token
+Rule: generated102176
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn102176 --> :pttrn102176.extracted={}
+

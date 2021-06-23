@@ -1,0 +1,8 @@
+comparedwith looking up the single property of the category label from a gazetteer, as outlined insection 2.4.1.7
+(PP (IN )(VP (VBG )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN )))))(VP (VB )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated90475
+Input: Token
+Rule: generated90475
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn90475 --> :pttrn90475.extracted={}
+

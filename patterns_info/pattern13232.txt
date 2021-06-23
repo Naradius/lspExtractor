@@ -1,0 +1,8 @@
+themain procedures bundled in the reference implementations ofVNLayer and VNAODV
+(NP (NP (RB )(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(NN )(NNS )(NN ))(CC )))))
+Phase: generated13232
+Input: Token
+Rule: generated13232
+(
+((({ Token.category == RB })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN }))({ Token.category == CC })))))):pttrn13232 --> :pttrn13232.extracted={}
+

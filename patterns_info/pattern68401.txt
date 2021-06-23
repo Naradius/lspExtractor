@@ -1,0 +1,8 @@
+a WSN inthe real-world application
+(NP (NP (DT )(NNP ))(PP (IN )(NP (NNP )(NN ))))
+Phase: generated68401
+Input: Token
+Rule: generated68401
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))):pttrn68401 --> :pttrn68401.extracted={}
+

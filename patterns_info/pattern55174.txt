@@ -1,0 +1,8 @@
+is elected as CH then itwill start sending the messages to its neighbors.In the cluster head migration phase
+(VP (VBZ )(VP (VBN )(RB )(VP (VB )(VP (VBG )(NP (DT )(NNS ))(PP (TO )(NP (PRP$ )(NNS )))(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated55174
+Input: Token
+Rule: generated55174
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn55174 --> :pttrn55174.extracted={}
+

@@ -1,0 +1,8 @@
+Building automation routing re-quirements in low power
+(NP (NP (NNP )(NN ){1,2}(NNS ))(PP (IN )(NP (JJ )(NN ))))
+Phase: generated28956
+Input: Token
+Rule: generated28956
+(
+((({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn28956 --> :pttrn28956.extracted={}
+

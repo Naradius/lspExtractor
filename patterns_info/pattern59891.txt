@@ -1,0 +1,8 @@
+the other two algorithms
+(NP (DT )(JJ )(CD )(NNS ))
+Phase: generated59891
+Input: Token
+Rule: generated59891
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS }))):pttrn59891 --> :pttrn59891.extracted={}
+

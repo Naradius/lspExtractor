@@ -1,0 +1,8 @@
+allow forcontext-sensitive graph grammars , even though the performance penalty might be serious
+(VP (VBP )(NP (JJ )(NN )(NNS )))
+Phase: generated102066
+Input: Token
+Rule: generated102066
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn102066 --> :pttrn102066.extracted={}
+

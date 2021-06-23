@@ -1,0 +1,8 @@
+are drawn at random from the reservoir of 14,052 untaggedinstances
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NNS )))))))
+Phase: generated78925
+Input: Token
+Rule: generated78925
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))))):pttrn78925 --> :pttrn78925.extracted={}
+

@@ -1,0 +1,8 @@
+in: IEEE Int
+(PP (IN )(NP (NN )(NNP )))
+Phase: generated52870
+Input: Token
+Rule: generated52870
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })))):pttrn52870 --> :pttrn52870.extracted={}
+

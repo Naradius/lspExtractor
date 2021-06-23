@@ -1,0 +1,8 @@
+Energy efficiency of intrusion detectionsystems in wireless sensor networks
+(NP (NP (NP (NNP )(NN ))(PP (IN )(NP (NN )(NNS ))))(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated67954
+Input: Token
+Rule: generated67954
+(
+(((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn67954 --> :pttrn67954.extracted={}
+

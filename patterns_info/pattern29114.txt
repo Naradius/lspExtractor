@@ -1,0 +1,8 @@
+in many so-cial interactions
+(PP (IN )(NP (JJ ){1,2}(NNS )))
+Phase: generated29114
+Input: Token
+Rule: generated29114
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))):pttrn29114 --> :pttrn29114.extracted={}
+

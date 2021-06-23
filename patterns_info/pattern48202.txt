@@ -1,0 +1,8 @@
+required to perform the sensing task at thesame time
+(VP (VBD )(VP (TO )(VP (VB )(NP (DT )(VBG )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated48202
+Input: Token
+Rule: generated48202
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn48202 --> :pttrn48202.extracted={}
+

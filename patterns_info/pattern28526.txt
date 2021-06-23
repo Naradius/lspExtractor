@@ -1,0 +1,8 @@
+Mohammad Salehi and A.M. Hosseini Monazzah et al. / Microprocessors
+(NP (CC )(RB )(NP (NNP ){1,2}(NN ){1,2}(NNS )))
+Phase: generated28526
+Input: Token
+Rule: generated28526
+(
+(({ Token.category == CC })({ Token.category == RB })(({ Token.category == NNP })+({ Token.category == NN })+({ Token.category == NNS })))):pttrn28526 --> :pttrn28526.extracted={}
+

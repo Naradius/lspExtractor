@@ -1,0 +1,8 @@
+for mobile ad hoc networks,  Wireless Personal Commun
+(PP (IN )(NP (NP (JJ )(NN )(JJ )(NNS ))(NP (JJ )(NNP ){1,2})))
+Phase: generated107044
+Input: Token
+Rule: generated107044
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNP })+)))):pttrn107044 --> :pttrn107044.extracted={}
+

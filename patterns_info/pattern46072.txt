@@ -1,0 +1,8 @@
+limited, generally irreplaceable,power sources
+(NP (ADJP (RB )(JJ ))(NN )(NNS ))
+Phase: generated46072
+Input: Token
+Rule: generated46072
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })({ Token.category == NNS }))):pttrn46072 --> :pttrn46072.extracted={}
+

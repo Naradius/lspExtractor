@@ -1,0 +1,8 @@
+to separate the first three paragraph and the second three paragraphs
+(VP (TO )(VP (VB )(NP (NP (DT )(JJ )(CD )(NN ))(CC )(NP (DT )(JJ )(CD )(NNS )))))
+Phase: generated113756
+Input: Token
+Rule: generated113756
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNS })))))):pttrn113756 --> :pttrn113756.extracted={}
+

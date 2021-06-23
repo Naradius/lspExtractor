@@ -1,0 +1,8 @@
+the applications
+(NP (DT )(NNS ))
+Phase: generated46175
+Input: Token
+Rule: generated46175
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn46175 --> :pttrn46175.extracted={}
+

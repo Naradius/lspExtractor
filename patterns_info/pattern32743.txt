@@ -1,0 +1,8 @@
+the energy of a node
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated32743
+Input: Token
+Rule: generated32743
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn32743 --> :pttrn32743.extracted={}
+

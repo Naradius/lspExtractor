@@ -1,0 +1,8 @@
+an English sentence
+(NP (DT )(JJ )(NN ))
+Phase: generated72138
+Input: Token
+Rule: generated72138
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn72138 --> :pttrn72138.extracted={}
+

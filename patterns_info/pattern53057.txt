@@ -1,0 +1,8 @@
+The proposed protocolis suitable for both homogeneous and heterogeneous networks
+(NP (NP (DT )(VBN )(NN ){1,2})(PP (IN )(NP (ADJP (DT )(JJ )(CC )(JJ ))(NNS ))))
+Phase: generated53057
+Input: Token
+Rule: generated53057
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))))):pttrn53057 --> :pttrn53057.extracted={}
+

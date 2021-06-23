@@ -1,0 +1,8 @@
+limit the broadcast range oftransaction data
+(VP (VB )(NP (DT )(NN ){1,2})(NP (NN )(NNS )))
+Phase: generated34218
+Input: Token
+Rule: generated34218
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == NN })({ Token.category == NNS })))):pttrn34218 --> :pttrn34218.extracted={}
+

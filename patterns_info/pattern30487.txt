@@ -1,0 +1,8 @@
+from medical images
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated30487
+Input: Token
+Rule: generated30487
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn30487 --> :pttrn30487.extracted={}
+

@@ -1,0 +1,8 @@
+possibly even limitations
+(NP (RB ){1,2}(NNS ))
+Phase: generated76566
+Input: Token
+Rule: generated76566
+(
+(({ Token.category == RB })+({ Token.category == NNS }))):pttrn76566 --> :pttrn76566.extracted={}
+

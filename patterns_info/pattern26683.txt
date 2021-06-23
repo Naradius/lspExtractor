@@ -1,0 +1,8 @@
+defined in the structuref MRHOF
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated26683
+Input: Token
+Rule: generated26683
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn26683 --> :pttrn26683.extracted={}
+

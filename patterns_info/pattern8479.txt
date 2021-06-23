@@ -1,0 +1,8 @@
+2-Jbattery energy
+(NP (JJ )(NN ))
+Phase: generated8479
+Input: Token
+Rule: generated8479
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn8479 --> :pttrn8479.extracted={}
+

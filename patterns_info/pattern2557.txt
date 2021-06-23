@@ -1,0 +1,8 @@
+to be the development and realization of the hybrid algorithm based on the bee and ant colony algorithms
+(VP (TO )(VP (VB )(NP (NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (JJ )(NN )(NNS ))))))))
+Phase: generated2557
+Input: Token
+Rule: generated2557
+(
+(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn2557 --> :pttrn2557.extracted={}
+

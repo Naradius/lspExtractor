@@ -1,0 +1,8 @@
+mon-tor the trustworthiness of neighbor nodes
+(VP (NN )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated66381
+Input: Token
+Rule: generated66381
+(
+(({ Token.category == NN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn66381 --> :pttrn66381.extracted={}
+

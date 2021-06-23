@@ -1,0 +1,8 @@
+that appliesto \Adams
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated79348
+Input: Token
+Rule: generated79348
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn79348 --> :pttrn79348.extracted={}
+

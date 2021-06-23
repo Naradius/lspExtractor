@@ -1,0 +1,8 @@
+use thesignal intensity to control the distance between SNs which are inthe same cluster
+(VP (VB )(NP (DT )(NN ))(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(VP (VBP )(NP (DT )(JJ )(NN )))))))
+Phase: generated54522
+Input: Token
+Rule: generated54522
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn54522 --> :pttrn54522.extracted={}
+

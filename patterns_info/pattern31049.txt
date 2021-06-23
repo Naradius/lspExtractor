@@ -1,0 +1,8 @@
+.org/10.1016/j.future.2019.09.0420167-739X/ 2019
+(NP (JJ ){1,2}(CD ))
+Phase: generated31049
+Input: Token
+Rule: generated31049
+(
+(({ Token.category == JJ })+({ Token.category == CD }))):pttrn31049 --> :pttrn31049.extracted={}
+

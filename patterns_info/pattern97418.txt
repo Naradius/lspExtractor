@@ -1,0 +1,8 @@
+denoted to as grammatical tagging of textual matter as representing to a specific component of speech because of both its definition and context
+(VP (VBN )(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN )))))(PP (IN )(VP (VBG )(PP (IN ){1,2}(NP (DT )(NP (PRP$ )(NN ))(CC )(NN ))))))
+Phase: generated97418
+Input: Token
+Rule: generated97418
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })+(({ Token.category == DT })(({ Token.category == PRP$ })({ Token.category == NN }))({ Token.category == CC })({ Token.category == NN }))))))):pttrn97418 --> :pttrn97418.extracted={}
+

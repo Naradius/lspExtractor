@@ -1,0 +1,8 @@
+in the Cafetiere system
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated90029
+Input: Token
+Rule: generated90029
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn90029 --> :pttrn90029.extracted={}
+

@@ -1,0 +1,8 @@
+generates some invalid blocks or trans-actions
+(VP (VBZ )(NP (DT )(JJ )(NNS )(CC )(NNS )))
+Phase: generated34296
+Input: Token
+Rule: generated34296
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn34296 --> :pttrn34296.extracted={}
+

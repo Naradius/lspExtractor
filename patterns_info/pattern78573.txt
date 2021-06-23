@@ -1,0 +1,8 @@
+used ina longer phrase
+(VP (VBN )(NP (RB )(NN )))
+Phase: generated78573
+Input: Token
+Rule: generated78573
+(
+(({ Token.category == VBN })(({ Token.category == RB })({ Token.category == NN })))):pttrn78573 --> :pttrn78573.extracted={}
+

@@ -1,0 +1,8 @@
+are mostly adopted from the regularexpression language
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated92115
+Input: Token
+Rule: generated92115
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn92115 --> :pttrn92115.extracted={}
+

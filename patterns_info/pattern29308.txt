@@ -1,0 +1,8 @@
+the multiplex approach
+(NP (DT )(JJ )(NN ))
+Phase: generated29308
+Input: Token
+Rule: generated29308
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn29308 --> :pttrn29308.extracted={}
+

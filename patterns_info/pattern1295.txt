@@ -1,0 +1,8 @@
+the search space
+(NP (DT )(NN ){1,2})
+Phase: generated1295
+Input: Token
+Rule: generated1295
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn1295 --> :pttrn1295.extracted={}
+

@@ -1,0 +1,8 @@
+follows.Step 1. Pick up a group of subpopulations sequentially andsort these cats according to their FS values.Step 2. Randomly select a local best solution from an unre-peatable group.Step 3. Replace the position of theworst of cat whose FS valueis the worst with the local best solution cat position.Step 4. Repeatedly perform Step 1 to 3  times  to let each group receive a local best solution fromthe others.3
+(VP (VBZ )(VP (VBP )(VP (VBG )(VP (VB )(NP (NP (DT )(JJ )(JJS )(NN ))(PP (IN )(NP (DT )(JJ )(NN ))))))))
+Phase: generated68890
+Input: Token
+Rule: generated68890
+(
+(({ Token.category == VBZ })(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn68890 --> :pttrn68890.extracted={}
+

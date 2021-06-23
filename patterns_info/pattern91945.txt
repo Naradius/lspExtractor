@@ -1,0 +1,8 @@
+get a template of the simpler type
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJR )(NN )))))
+Phase: generated91945
+Input: Token
+Rule: generated91945
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })))))):pttrn91945 --> :pttrn91945.extracted={}
+

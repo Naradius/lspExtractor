@@ -1,0 +1,8 @@
+has somewhat its own conventions as to word boundaries
+(VP (VBZ )(RB )(NP (NP (PRP$ )(JJ )(NNS ))(PP (IN )(PP (TO )(NP (NN )(NNS ))))))
+Phase: generated96209
+Input: Token
+Rule: generated96209
+(
+(({ Token.category == VBZ })({ Token.category == RB })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == TO })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn96209 --> :pttrn96209.extracted={}
+

@@ -1,0 +1,8 @@
+are for full system performance, which includes merging informationacross sentences, resolving pronouns and generic references, and formatting theoutput.The highest performingMUC-6 systems, which used hand-crafted rules, had recallof 47% at precision 70%, recall of 50% at precision 59%, and recall of 47% atprecision 62%
+(VP (VP (VBP )(PP (IN )(NP (NP (JJ )(NN ){1,2})(VP (VBZ )(VP (VP (VBG )(NP (JJ )(NNS )))(VP (VBG )(NP (CC )(NP (JJ )(NNS ))))(CC )(VP (VBG )(NP (NP (DT )(JJS )(NN )(NNS ))(VP (VBD )(NP (JJ )(NNS ))))))))))(VP (VBD )(VP (VBN )(NP (CD )(NN ))(NP (NP (CD )(NN ))(CC )))))
+Phase: generated79016
+Input: Token
+Rule: generated79016
+(
+((({ Token.category == VBP })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBZ })((({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == VBG })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NNS }))))))))))(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == CD })({ Token.category == NN }))((({ Token.category == CD })({ Token.category == NN }))({ Token.category == CC })))))):pttrn79016 --> :pttrn79016.extracted={}
+

@@ -1,0 +1,8 @@
+Table 3 pre-sents the results.
+(NP (NP (NN )(CD )(NNS ))(NP (DT )(NNS )))
+Phase: generated73359
+Input: Token
+Rule: generated73359
+(
+((({ Token.category == NN })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNS })))):pttrn73359 --> :pttrn73359.extracted={}
+

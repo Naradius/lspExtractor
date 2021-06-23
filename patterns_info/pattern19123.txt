@@ -1,0 +1,8 @@
+its connectivity
+(NP (PRP$ )(NN ))
+Phase: generated19123
+Input: Token
+Rule: generated19123
+(
+(({ Token.category == PRP$ })({ Token.category == NN }))):pttrn19123 --> :pttrn19123.extracted={}
+

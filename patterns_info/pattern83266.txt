@@ -1,0 +1,8 @@
+as the number ofBedrooms
+(PP (IN )(NP (DT )(NN )(NNS )))
+Phase: generated83266
+Input: Token
+Rule: generated83266
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))):pttrn83266 --> :pttrn83266.extracted={}
+

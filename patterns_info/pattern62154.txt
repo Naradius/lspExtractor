@@ -1,0 +1,8 @@
+the adversary per hop R Network scope
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(NNP )(NN ))))
+Phase: generated62154
+Input: Token
+Rule: generated62154
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NN }))))):pttrn62154 --> :pttrn62154.extracted={}
+

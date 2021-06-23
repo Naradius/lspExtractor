@@ -1,0 +1,8 @@
+guarantee thatthe application of a graph grammar production is reversible
+(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated103072
+Input: Token
+Rule: generated103072
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn103072 --> :pttrn103072.extracted={}
+

@@ -1,0 +1,8 @@
+the network and a submesh group communication
+(NP (NP (DT )(NN ))(CC )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated107601
+Input: Token
+Rule: generated107601
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn107601 --> :pttrn107601.extracted={}
+

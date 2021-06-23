@@ -1,0 +1,8 @@
+would allow both variables to be accessed for use on rule l.h.s.
+(VP (MD )(VP (VB )(NP (DT )(NNS ))))
+Phase: generated90215
+Input: Token
+Rule: generated90215
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn90215 --> :pttrn90215.extracted={}
+

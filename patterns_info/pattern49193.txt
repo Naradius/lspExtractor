@@ -1,0 +1,8 @@
+f o a b
+(PP (IN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated49193
+Input: Token
+Rule: generated49193
+(
+(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn49193 --> :pttrn49193.extracted={}
+

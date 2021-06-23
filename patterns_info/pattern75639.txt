@@ -1,0 +1,8 @@
+theC-value/NC-value method
+(NP (DT )(NN ))
+Phase: generated75639
+Input: Token
+Rule: generated75639
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn75639 --> :pttrn75639.extracted={}
+

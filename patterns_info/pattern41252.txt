@@ -1,0 +1,8 @@
+on the constructors or makers
+(PP (IN )(NP (DT )(NNS )(CC )(NNS )))
+Phase: generated41252
+Input: Token
+Rule: generated41252
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn41252 --> :pttrn41252.extracted={}
+

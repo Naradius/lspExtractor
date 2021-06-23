@@ -1,0 +1,8 @@
+Rhetoric Structures and Speech Acts as inter-sentence linksIn this section we attempt to treat computationally, with a unified framework, two approaches to textual discourse: Rhetoric structure theory ; Speech Act theory ;We selected these theories as most reliable and frequent sources of links between sentences.
+(NP (NP (NP (CD )(NNS ))(PP (TO )(NP (JJ )(NN ))))(NP (NP (NNP )(NN ){1,2})(NP (NP (NNP )(NN ))(RB )(VP (VBN )(NP (DT )(NNS ))))))
+Phase: generated117917
+Input: Token
+Rule: generated117917
+(
+(((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN }))))((({ Token.category == NNP })({ Token.category == NN })+)((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn117917 --> :pttrn117917.extracted={}
+

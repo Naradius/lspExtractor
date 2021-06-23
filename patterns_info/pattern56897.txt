@@ -1,0 +1,8 @@
+prior to exhaust the active nodes in WSNsso that the task should be executing by means of spare nodes.Decentralized Energy-efficient Spare Selection Technique is used for the spare selection in spare selection phase
+(ADVP (RB )(VP (TO )(VP (VB )(NP (DT )(JJ )(NNS )))))
+Phase: generated56897
+Input: Token
+Rule: generated56897
+(
+(({ Token.category == RB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn56897 --> :pttrn56897.extracted={}
+

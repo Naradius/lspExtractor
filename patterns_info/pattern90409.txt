@@ -1,0 +1,8 @@
+a text span that covers the whole sentence
+(NP (NP (DT )(NN ){1,2})(VP (VBZ )(NP (DT )(JJ )(NN ))))
+Phase: generated90409
+Input: Token
+Rule: generated90409
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn90409 --> :pttrn90409.extracted={}
+

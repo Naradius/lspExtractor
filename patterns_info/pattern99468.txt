@@ -1,0 +1,8 @@
+are particularly interesting because they cancapture the relation between the question and the answer
+(VP (VBP )(ADJP (RB )(JJ )))
+Phase: generated99468
+Input: Token
+Rule: generated99468
+(
+(({ Token.category == VBP })(({ Token.category == RB })({ Token.category == JJ })))):pttrn99468 --> :pttrn99468.extracted={}
+

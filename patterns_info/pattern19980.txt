@@ -1,0 +1,8 @@
+for Heart Patients
+(PP (IN )(NP (NNP )(NNPS )))
+Phase: generated19980
+Input: Token
+Rule: generated19980
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNPS })))):pttrn19980 --> :pttrn19980.extracted={}
+

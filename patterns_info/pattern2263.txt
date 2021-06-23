@@ -1,0 +1,8 @@
+the bee colony algorithms
+(NP (DT )(NN ){1,2}(NNS ))
+Phase: generated2263
+Input: Token
+Rule: generated2263
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))):pttrn2263 --> :pttrn2263.extracted={}
+

@@ -1,0 +1,8 @@
+to the maximum security and ran-om ability
+(PP (TO )(NP (DT )(JJ )(NN )(CC )(NN ){1,2}))
+Phase: generated67579
+Input: Token
+Rule: generated67579
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+))):pttrn67579 --> :pttrn67579.extracted={}
+

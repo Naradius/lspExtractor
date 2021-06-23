@@ -1,0 +1,8 @@
+retrieveonly the news items that contain terms of the usersinterest, not taking into account indirect informa-tion, which is also deemed relevant, such as com-petitors of companies of interest, political partiesof politicians, etc. Exploiting the semantic con-textual information related to concepts of interestenables a more comprehensive overview of relevantnews with respect to certain topics
+(VP (VB )(NP (NP (DT )(NN )(NNS ))(VP (VBP )(RB ))))
+Phase: generated95019
+Input: Token
+Rule: generated95019
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB }))))):pttrn95019 --> :pttrn95019.extracted={}
+

@@ -1,0 +1,8 @@
+on the OSPF routing protocol,IEEE Trans
+(PP (IN )(NP (DT )(NNP )(NN ){1,2}(NNP )))
+Phase: generated24482
+Input: Token
+Rule: generated24482
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNP })))):pttrn24482 --> :pttrn24482.extracted={}
+

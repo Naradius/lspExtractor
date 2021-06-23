@@ -1,0 +1,8 @@
+weidentified significant overlap with existing IDS efforts for wireless sensor networks as well as SCADA system however wePlease cite this article as: J. Arshad, M. A. Azad, M. M. Abdeltaif et al., An intrusion detection framework for energy constrained IoT devices,Mechanical Systems and Signal Processing, https://doi.org/10.1016/j.ymssp.2019.106436https://doi
+(VP (VBD )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (VBG )(NNP )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS ))))))(RB ))
+Phase: generated39239
+Input: Token
+Rule: generated39239
+(
+(({ Token.category == VBD })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBG })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))({ Token.category == RB }))):pttrn39239 --> :pttrn39239.extracted={}
+

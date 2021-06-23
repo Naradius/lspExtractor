@@ -1,0 +1,8 @@
+5 end 6 Node.X  Node.X + Node.Velocity * cos
+(NP (NP (CD )(NN ))(NP (CD )(NNP ){1,2}(NN ){1,2}(NNS )))
+Phase: generated28225
+Input: Token
+Rule: generated28225
+(
+((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == CD })({ Token.category == NNP })+({ Token.category == NN })+({ Token.category == NNS })))):pttrn28225 --> :pttrn28225.extracted={}
+

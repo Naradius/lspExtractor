@@ -1,0 +1,8 @@
+were they may not be represented because they are domain specific and require some other stemming methods
+(VP (VBD )(VP (MD )(RB )))
+Phase: generated98013
+Input: Token
+Rule: generated98013
+(
+(({ Token.category == VBD })(({ Token.category == MD })({ Token.category == RB })))):pttrn98013 --> :pttrn98013.extracted={}
+

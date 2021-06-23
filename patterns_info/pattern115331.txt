@@ -1,0 +1,8 @@
+in the following order
+(PP (IN )(NP (DT )(VBG )(NN )))
+Phase: generated115331
+Input: Token
+Rule: generated115331
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })))):pttrn115331 --> :pttrn115331.extracted={}
+

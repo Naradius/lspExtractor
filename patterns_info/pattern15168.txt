@@ -1,0 +1,8 @@
+to deal with broken links
+(VP (TO )(VP (VB )(PP (IN )(NP (VBN )(NNS )))))
+Phase: generated15168
+Input: Token
+Rule: generated15168
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NNS })))))):pttrn15168 --> :pttrn15168.extracted={}
+

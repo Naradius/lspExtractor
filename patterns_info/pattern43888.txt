@@ -1,0 +1,8 @@
+are also the neighbors of sensornode B
+(VP (VBP )(NP (NP (DT )(NNS ))(PP (IN )(NP (NN )(NNP )))))
+Phase: generated43888
+Input: Token
+Rule: generated43888
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })))))):pttrn43888 --> :pttrn43888.extracted={}
+

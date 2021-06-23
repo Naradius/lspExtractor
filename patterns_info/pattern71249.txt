@@ -1,0 +1,8 @@
+this domain
+(NP (DT )(NN ))
+Phase: generated71249
+Input: Token
+Rule: generated71249
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn71249 --> :pttrn71249.extracted={}
+

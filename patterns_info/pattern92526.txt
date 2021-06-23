@@ -1,0 +1,8 @@
+focus on seman-tic patterns and aim to determine relations betweenconcepts, rather than solely focusing on recognizingentities.3
+(VP (VP (VBP )(PP (IN )(NP (JJ )(NNS ))))(CC )(VP (VBP )(VP (TO )(VP (CONJP (RB )(IN ))(VP (VBG )(PP (IN )(NP (NNS )(CD ))))))))
+Phase: generated92526
+Input: Token
+Rule: generated92526
+(
+((({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })(({ Token.category == VBP })(({ Token.category == TO })((({ Token.category == RB })({ Token.category == IN }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CD }))))))))):pttrn92526 --> :pttrn92526.extracted={}
+

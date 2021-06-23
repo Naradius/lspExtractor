@@ -1,0 +1,8 @@
+its occupantshttp://www.cc.gatech.edu/fce/ahriCOUGAR
+(NP (PRP$ )(NN ){1,2})
+Phase: generated45587
+Input: Token
+Rule: generated45587
+(
+(({ Token.category == PRP$ })({ Token.category == NN })+)):pttrn45587 --> :pttrn45587.extracted={}
+

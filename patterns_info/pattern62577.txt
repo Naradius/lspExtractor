@@ -1,0 +1,8 @@
+in the monitoring range
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated62577
+Input: Token
+Rule: generated62577
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn62577 --> :pttrn62577.extracted={}
+

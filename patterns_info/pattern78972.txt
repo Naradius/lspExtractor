@@ -1,0 +1,8 @@
+use combinationsof terms and syntactic patterns that are found only a few times in the entire cor-pus
+(VP (VBP )(PP (IN )(NP (CC )(NP (NP (JJ )(NNS ))(VP (VBP )(VP (VBN )(NP (QP (RB )(DT )(JJ ))(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))))))
+Phase: generated78972
+Input: Token
+Rule: generated78972
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == VBN })((({ Token.category == RB })({ Token.category == DT })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn78972 --> :pttrn78972.extracted={}
+

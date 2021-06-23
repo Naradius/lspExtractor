@@ -1,0 +1,8 @@
+Asthma-DT F1 Asthma-SC F1 ENT-DT F1 ENT-SCDictionary
+(NP (NNP ){1,2}(JJ ))
+Phase: generated74903
+Input: Token
+Rule: generated74903
+(
+(({ Token.category == NNP })+({ Token.category == JJ }))):pttrn74903 --> :pttrn74903.extracted={}
+

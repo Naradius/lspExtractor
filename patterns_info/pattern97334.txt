@@ -1,0 +1,8 @@
+on diverse Tag-set
+(PP (IN )(NP (JJ )(NNP )))
+Phase: generated97334
+Input: Token
+Rule: generated97334
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })))):pttrn97334 --> :pttrn97334.extracted={}
+

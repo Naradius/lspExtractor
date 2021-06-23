@@ -1,0 +1,8 @@
+t  n  l3a a  (  T  t  fi  g  a  g  t  l  a  s  e  p  c  Y  i i  t  fi  t  n  b  c  w  t  s d          1   A  l  t4 h  i  a  s  m  t  t  c  c  p  p  h  I  t  (  .2.1
+(VP (VBD )(RB )(VP (VB )(NP (DT )(-LRB- ))))
+Phase: generated20948
+Input: Token
+Rule: generated20948
+(
+(({ Token.category == VBD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == -LRB- }))))):pttrn20948 --> :pttrn20948.extracted={}
+

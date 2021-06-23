@@ -1,0 +1,8 @@
+the origin of the loop
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated19352
+Input: Token
+Rule: generated19352
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn19352 --> :pttrn19352.extracted={}
+

@@ -1,0 +1,8 @@
+used rule based approach
+(VP (VBD )(NP (NN )(VBN )(NN )))
+Phase: generated97721
+Input: Token
+Rule: generated97721
+(
+(({ Token.category == VBD })(({ Token.category == NN })({ Token.category == VBN })({ Token.category == NN })))):pttrn97721 --> :pttrn97721.extracted={}
+

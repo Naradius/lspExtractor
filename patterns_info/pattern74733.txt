@@ -1,0 +1,8 @@
+such as the words and labels ofnearby words
+(PP (JJ )(IN ))
+Phase: generated74733
+Input: Token
+Rule: generated74733
+(
+(({ Token.category == JJ })({ Token.category == IN }))):pttrn74733 --> :pttrn74733.extracted={}
+

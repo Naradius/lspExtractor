@@ -1,0 +1,8 @@
+Human Language Technologyand Empirical Methods
+(NP (NNP ){1,2}(NNPS ))
+Phase: generated76752
+Input: Token
+Rule: generated76752
+(
+(({ Token.category == NNP })+({ Token.category == NNPS }))):pttrn76752 --> :pttrn76752.extracted={}
+

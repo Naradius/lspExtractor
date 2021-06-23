@@ -1,0 +1,8 @@
+WLM method Internet traffic exhibits scale invariance property
+(NP (NNP )(NN ){1,2}(NNS )(NN ){1,2})
+Phase: generated110057
+Input: Token
+Rule: generated110057
+(
+(({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNS })({ Token.category == NN })+)):pttrn110057 --> :pttrn110057.extracted={}
+

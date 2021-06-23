@@ -1,0 +1,8 @@
+name an author if they follow by, which is not itself part of the name.This suggest that the rule formalism should be context-sensitive
+(VP (VB )(NP (DT )(NN )))
+Phase: generated87290
+Input: Token
+Rule: generated87290
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn87290 --> :pttrn87290.extracted={}
+

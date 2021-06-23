@@ -1,0 +1,8 @@
+of a DTN network
+(PP (IN )(NP (DT )(NNP )(NN )))
+Phase: generated41324
+Input: Token
+Rule: generated41324
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))):pttrn41324 --> :pttrn41324.extracted={}
+

@@ -1,0 +1,8 @@
+in many Information Extraction frameworks such as DARE 2  our approach is based onminimally supervised learning, where a set of seeds is used to bootstrap patterns that will be usedto find the target type of information.Figure 2 illustrates some of the information used by THE-MENTOR
+(PP (IN )(NP (NP (JJ )(NN ){1,2}(NNS ))(PP (JJ )(IN ))))
+Phase: generated101708
+Input: Token
+Rule: generated101708
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN }))))):pttrn101708 --> :pttrn101708.extracted={}
+

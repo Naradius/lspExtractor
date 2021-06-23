@@ -1,0 +1,8 @@
+devices and facilitates detection
+(NP (NNS )(CC )(NNS )(NN ))
+Phase: generated39908
+Input: Token
+Rule: generated39908
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })({ Token.category == NN }))):pttrn39908 --> :pttrn39908.extracted={}
+

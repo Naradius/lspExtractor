@@ -1,0 +1,8 @@
+applied successfully to the knowledge ac-quisition for new domains
+(VP (VBN )(PP (TO )(NP (DT )(NN ){1,2}))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated81089
+Input: Token
+Rule: generated81089
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn81089 --> :pttrn81089.extracted={}
+

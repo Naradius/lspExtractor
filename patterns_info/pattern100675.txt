@@ -1,0 +1,8 @@
+to each one of the parameters
+(PP (TO )(NP (NP (DT )(CD ))(PP (IN )(NP (DT )(NNS )))))
+Phase: generated100675
+Input: Token
+Rule: generated100675
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn100675 --> :pttrn100675.extracted={}
+

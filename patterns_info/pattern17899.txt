@@ -1,0 +1,8 @@
+of this simulation performance
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated17899
+Input: Token
+Rule: generated17899
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn17899 --> :pttrn17899.extracted={}
+

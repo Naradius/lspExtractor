@@ -1,0 +1,8 @@
+determine theneighbor with the highest pheromone level
+(VP (VB )(PP (IN )(NP (DT )(JJS )(NN ){1,2})))
+Phase: generated7482
+Input: Token
+Rule: generated7482
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+)))):pttrn7482 --> :pttrn7482.extracted={}
+

@@ -1,0 +1,8 @@
+the optimal weights
+(NP (DT )(JJ )(NNS ))
+Phase: generated113049
+Input: Token
+Rule: generated113049
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn113049 --> :pttrn113049.extracted={}
+

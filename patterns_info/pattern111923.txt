@@ -1,0 +1,8 @@
+the signaturesnd
+(NP (DT )(NN ))
+Phase: generated111923
+Input: Token
+Rule: generated111923
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn111923 --> :pttrn111923.extracted={}
+

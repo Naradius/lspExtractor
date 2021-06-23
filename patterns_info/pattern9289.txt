@@ -1,0 +1,8 @@
+to benchmark different clustering algorithms.Crown copyright  2007 Published by Elsevier B.V. All rights reserved.Keywords: Clustering; Routing; Biologically-inspired; Meta-heuristic; Simulations1
+(VP (TO )(VP (VB )(NP (JJ )(NN ))(PP (IN )(NP (NP (NN )(CD ))(VP (VBN )(PP (IN )(NP (RB )(NNP ))))))))
+Phase: generated9289
+Input: Token
+Rule: generated9289
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == RB })({ Token.category == NNP }))))))))):pttrn9289 --> :pttrn9289.extracted={}
+

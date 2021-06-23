@@ -1,0 +1,8 @@
+with theirmorphological variations
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated75412
+Input: Token
+Rule: generated75412
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn75412 --> :pttrn75412.extracted={}
+

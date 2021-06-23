@@ -1,0 +1,8 @@
+In this section
+(PP (IN )(NP (DT )(NN )))
+Phase: generated31919
+Input: Token
+Rule: generated31919
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn31919 --> :pttrn31919.extracted={}
+

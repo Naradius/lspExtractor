@@ -1,0 +1,8 @@
+are many nodes in the network
+(VP (VBP )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated534
+Input: Token
+Rule: generated534
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn534 --> :pttrn534.extracted={}
+

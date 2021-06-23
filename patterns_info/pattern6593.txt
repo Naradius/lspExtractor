@@ -1,0 +1,8 @@
+swarm intelligence
+(NP (JJ )(NN ))
+Phase: generated6593
+Input: Token
+Rule: generated6593
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn6593 --> :pttrn6593.extracted={}
+

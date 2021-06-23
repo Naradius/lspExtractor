@@ -1,0 +1,8 @@
+of healthcare-oriented sys-tems
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated49502
+Input: Token
+Rule: generated49502
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn49502 --> :pttrn49502.extracted={}
+

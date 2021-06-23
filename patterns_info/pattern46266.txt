@@ -1,0 +1,8 @@
+theupper levels of the command hierarchy
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated46266
+Input: Token
+Rule: generated46266
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn46266 --> :pttrn46266.extracted={}
+

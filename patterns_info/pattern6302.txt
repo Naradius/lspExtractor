@@ -1,0 +1,8 @@
+the determination of the optimal sinkplacement that maximizes the network topological lifetime
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(NP (DT )(NN )(JJ )(NN ))))))
+Phase: generated6302
+Input: Token
+Rule: generated6302
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn6302 --> :pttrn6302.extracted={}
+

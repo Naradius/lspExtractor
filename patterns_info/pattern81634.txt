@@ -1,0 +1,8 @@
+much useful information on the World Wide Websuch as the apartment rental ad shown in Figure 1, which will serve as a runningexample of semi-structured text.Capitol Hill - 1 br twnhme
+(NP (NP (NP (JJ ){1,2}(NN ))(PP (IN )(NP (DT )(NNP ){1,2})))(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NP (NN )(CD ))(VP (MD )(VP (VB )(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN )(NNP ))))(NP (CD )(NN ){1,2})))))))))))
+Phase: generated81634
+Input: Token
+Rule: generated81634
+(
+(((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+)))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))))(({ Token.category == CD })({ Token.category == NN })+)))))))))))):pttrn81634 --> :pttrn81634.extracted={}
+

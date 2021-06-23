@@ -1,0 +1,8 @@
+propose an intrusion detection framework for the energy-constrained IoTdevices which form the foundation of an IIoT ecosystem
+(VP (VBP )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(JJ )(NNS ))(VP (VBP )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )(NN )))))))))
+Phase: generated38784
+Input: Token
+Rule: generated38784
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))))))):pttrn38784 --> :pttrn38784.extracted={}
+

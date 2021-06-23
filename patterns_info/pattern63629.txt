@@ -1,0 +1,8 @@
+provide a suitablesolution for them
+(VP (VB )(NP (DT )(NN )))
+Phase: generated63629
+Input: Token
+Rule: generated63629
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn63629 --> :pttrn63629.extracted={}
+

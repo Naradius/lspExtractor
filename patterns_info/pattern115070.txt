@@ -1,0 +1,8 @@
+baseline2/40 + (PT2/40.To do that, we assume that the search accuracy can be described by a normal distribution, and the number of searches is large enough
+(NP (NP (CD )(NN ))(PRN (-LRB- )))
+Phase: generated115070
+Input: Token
+Rule: generated115070
+(
+((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == -LRB- })))):pttrn115070 --> :pttrn115070.extracted={}
+

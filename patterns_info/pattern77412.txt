@@ -1,0 +1,8 @@
+developing systems that interpret natural language queries and automatically performthe appropriate mining operations
+(NP (NP (VBG )(NNS ))(VP (VP (VBP )(NP (JJ )(NN )(NNS )))(CC )(NP (DT )(JJ )(NN )(NNS ))))
+Phase: generated77412
+Input: Token
+Rule: generated77412
+(
+((({ Token.category == VBG })({ Token.category == NNS }))((({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn77412 --> :pttrn77412.extracted={}
+

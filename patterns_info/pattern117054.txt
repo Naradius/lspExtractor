@@ -1,0 +1,8 @@
+A Semantic Web mining approach
+(NP (DT )(JJ )(NNP )(NN ){1,2})
+Phase: generated117054
+Input: Token
+Rule: generated117054
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })+)):pttrn117054 --> :pttrn117054.extracted={}
+

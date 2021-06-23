@@ -1,0 +1,8 @@
+on our investigation on the results of the knowledgeitems
+(PP (IN )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NNS )))))))
+Phase: generated72869
+Input: Token
+Rule: generated72869
+(
+(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))))))):pttrn72869 --> :pttrn72869.extracted={}
+

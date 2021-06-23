@@ -1,0 +1,8 @@
+shown in Table 6, the weightedtime overhead of the SWR
+(VP (VBN )(PP (IN )(NP (NP (NN )(CD ))(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP )))))))
+Phase: generated35584
+Input: Token
+Rule: generated35584
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == CD }))((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))):pttrn35584 --> :pttrn35584.extracted={}
+

@@ -1,0 +1,8 @@
+the city
+(NP (DT )(NN ))
+Phase: generated82425
+Input: Token
+Rule: generated82425
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn82425 --> :pttrn82425.extracted={}
+

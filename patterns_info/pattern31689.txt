@@ -1,0 +1,8 @@
+suggested new technologies that im-prove the searching rate in large databases
+(VP (VBD )(NP (NP (JJ )(NNS ))(VP (VBP )(NP (NP (DT )(VBG )(NN ))(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated31689
+Input: Token
+Rule: generated31689
+(
+(({ Token.category == VBD })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn31689 --> :pttrn31689.extracted={}
+

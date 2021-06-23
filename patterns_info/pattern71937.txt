@@ -1,0 +1,8 @@
+have shown much success but are inherently limited
+(VP (VP (VBP )(VP (VBN )(NP (JJ )(NN ))))(CC )(VP (VBP )(RB )))
+Phase: generated71937
+Input: Token
+Rule: generated71937
+(
+((({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == VBP })({ Token.category == RB })))):pttrn71937 --> :pttrn71937.extracted={}
+

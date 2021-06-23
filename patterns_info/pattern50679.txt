@@ -1,0 +1,8 @@
+the integration of differ-ent technologies and standards
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )(CC )(NNS ))))
+Phase: generated50679
+Input: Token
+Rule: generated50679
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))):pttrn50679 --> :pttrn50679.extracted={}
+

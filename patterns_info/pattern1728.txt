@@ -1,0 +1,8 @@
+the employed bee proceeds to the better  sites neighborhoods
+(NP (NP (DT )(JJ )(NN )(NNS ))(PP (TO )(NP (DT )(JJR )(NNS ){1,2})))
+Phase: generated1728
+Input: Token
+Rule: generated1728
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NNS })+)))):pttrn1728 --> :pttrn1728.extracted={}
+

@@ -1,0 +1,8 @@
+affiliating with a suitable CH inrder to become a member of anyone of the clusters and they arepproved by the CH based on the application of fuzzy rules
+(VP (VBG )(PP (IN )(NP (DT )(JJ )(NNP )(NN ))))
+Phase: generated59172
+Input: Token
+Rule: generated59172
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))))):pttrn59172 --> :pttrn59172.extracted={}
+

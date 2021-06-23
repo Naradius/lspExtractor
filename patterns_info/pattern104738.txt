@@ -1,0 +1,8 @@
+has an excludes* relation, so wecan freely pick one and apply it
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(ADJP (RB )(JJ ))))
+Phase: generated104738
+Input: Token
+Rule: generated104738
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })({ Token.category == JJ }))))):pttrn104738 --> :pttrn104738.extracted={}
+

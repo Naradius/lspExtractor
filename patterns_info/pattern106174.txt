@@ -1,0 +1,8 @@
+Coupling an annotated cor-pus and a morphosyntactic lexicon for state-of-the-art55POS tagging with less human effort.
+(VP (VBG )(NP (NP (DT )(JJ )(NN ))(CC )))
+Phase: generated106174
+Input: Token
+Rule: generated106174
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })))):pttrn106174 --> :pttrn106174.extracted={}
+

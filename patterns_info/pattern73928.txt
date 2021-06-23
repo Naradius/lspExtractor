@@ -1,0 +1,8 @@
+especially meant for Candidawith limited success.however
+(VP (VBN )(PP (IN )(NP (NNP )(JJ )(NN ))))
+Phase: generated73928
+Input: Token
+Rule: generated73928
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))))):pttrn73928 --> :pttrn73928.extracted={}
+

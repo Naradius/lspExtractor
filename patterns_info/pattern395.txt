@@ -1,0 +1,8 @@
+may change the network topology
+(VP (MD )(VP (VB )(NP (DT )(NN ){1,2})))
+Phase: generated395
+Input: Token
+Rule: generated395
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn395 --> :pttrn395.extracted={}
+

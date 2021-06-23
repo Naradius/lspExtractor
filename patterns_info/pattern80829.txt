@@ -1,0 +1,8 @@
+into disjoint classes
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated80829
+Input: Token
+Rule: generated80829
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn80829 --> :pttrn80829.extracted={}
+

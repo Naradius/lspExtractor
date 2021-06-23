@@ -1,0 +1,8 @@
+can be said to be a hybrid approach, because it first usesstatistical techniques to extract information from the training corpus and then uses a program toautomatically learn rules which reduces the faults that would be introduced by statistical mistakes
+(VP (MD )(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(JJ )(NN )))))))
+Phase: generated91070
+Input: Token
+Rule: generated91070
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn91070 --> :pttrn91070.extracted={}
+

@@ -1,0 +1,8 @@
+based on six metrics
+(VP (VBN )(PP (IN )(NP (CD )(NNS ))))
+Phase: generated57074
+Input: Token
+Rule: generated57074
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))):pttrn57074 --> :pttrn57074.extracted={}
+

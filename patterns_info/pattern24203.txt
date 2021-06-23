@@ -1,0 +1,8 @@
+andnumber of free channels due to the increase in finding more routeoptions and thereby using less transmission power
+(PP (IN )(PP (IN )(NP (NP (JJ )(NNS ))(ADJP (JJ )(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(VP (VP (VBG )(NP (JJR )(NNS )))(CC )(VP (VBG )(NP (JJR )(NN ){1,2}))))))))))
+Phase: generated24203
+Input: Token
+Rule: generated24203
+(
+(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == JJR })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == JJR })({ Token.category == NN })+))))))))))):pttrn24203 --> :pttrn24203.extracted={}
+

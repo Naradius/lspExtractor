@@ -1,0 +1,8 @@
+very domain
+(ADJP (RB )(JJ ))
+Phase: generated71263
+Input: Token
+Rule: generated71263
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn71263 --> :pttrn71263.extracted={}
+

@@ -1,0 +1,8 @@
+more challenging genre
+(NP (ADJP (RBR )(JJ ))(NN ))
+Phase: generated84024
+Input: Token
+Rule: generated84024
+(
+((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NN }))):pttrn84024 --> :pttrn84024.extracted={}
+

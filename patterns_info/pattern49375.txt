@@ -1,0 +1,8 @@
+on only one energy-efficient mecha-nism (like energy-efficient routing protocols, dataaggregation techniques, energy harvesting approacheshttp://crossmark.crossref.org/dialog/?doi=10.1016/j.comnet.2014.03.027&domain=pdfhttp://dx.doi.org/10.1016/j.comnet.2014.03.027mailto:tifenn.rault@utc.frmailto:abdelmadjid.bouabdallah@utc.frmailto:abdelmadjid.bouabdallah@utc.frmailto:yacine.challal@utc.frhttp://dx.doi.org/10.1016/j.comnet.2014.03.027http://www.sciencedirect.com/science/journal/13891286http
+(PP (IN )(NP (NP (QP (RB )(CD ))(JJ )(NN ))(PRN (-LRB- ))))
+Phase: generated49375
+Input: Token
+Rule: generated49375
+(
+(({ Token.category == IN })(((({ Token.category == RB })({ Token.category == CD }))({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == -LRB- }))))):pttrn49375 --> :pttrn49375.extracted={}
+

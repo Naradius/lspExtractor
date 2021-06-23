@@ -1,0 +1,8 @@
+as: Z. Qian and F. Zhang, An reactive void handling algorithm in sensornetworks and IoT emergency management, Computer Communications
+(PP (IN )(NP (NP (NNP ){1,2}(CC )(NNP ){1,2})(NP (NP (DT )(NN ){1,2})(VP (VBG )(PP (IN )(NP (NP (CC )(NP (NNP )(NN ){1,2}))(NP (NNP )(NNPS ))))))))
+Phase: generated18241
+Input: Token
+Rule: generated18241
+(
+(({ Token.category == IN })((({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })+))(({ Token.category == NNP })({ Token.category == NNPS }))))))))):pttrn18241 --> :pttrn18241.extracted={}
+

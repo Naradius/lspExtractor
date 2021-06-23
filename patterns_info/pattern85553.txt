@@ -1,0 +1,8 @@
+the most machine learning algorithms
+(NP (DT )(JJS )(NN ){1,2}(NNS ))
+Phase: generated85553
+Input: Token
+Rule: generated85553
+(
+(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+({ Token.category == NNS }))):pttrn85553 --> :pttrn85553.extracted={}
+

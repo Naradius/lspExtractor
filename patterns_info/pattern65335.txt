@@ -1,0 +1,8 @@
+moving adversariesare the decisive one in terms of protective factors
+(VP (VBG )(NP (DT )(JJ )(NN )))
+Phase: generated65335
+Input: Token
+Rule: generated65335
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn65335 --> :pttrn65335.extracted={}
+

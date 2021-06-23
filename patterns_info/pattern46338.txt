@@ -1,0 +1,8 @@
+collaborate with each other to performdistributed sensing
+(VP (VB )(PP (IN )(NP (DT )(JJ )))(PP (TO )(NP (JJ )(NN ))))
+Phase: generated46338
+Input: Token
+Rule: generated46338
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn46338 --> :pttrn46338.extracted={}
+

@@ -1,0 +1,8 @@
+at the trees
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated93513
+Input: Token
+Rule: generated93513
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn93513 --> :pttrn93513.extracted={}
+

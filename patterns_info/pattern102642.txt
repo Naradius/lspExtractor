@@ -1,0 +1,8 @@
+a more detailed explanation of layered graph grammars and graphgrammar parsing throughout the rest of this paper
+(NP (NP (NP (DT )(ADJP (RBR )(JJ ))(NN ))(PP (IN )(NP (JJ )(NN )(NNS )(CC )(NN ){1,2})))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated102642
+Input: Token
+Rule: generated102642
+(
+(((({ Token.category == DT })(({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+)))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn102642 --> :pttrn102642.extracted={}
+

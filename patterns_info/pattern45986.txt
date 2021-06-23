@@ -1,0 +1,8 @@
+are health, military, and se-curity
+(VP (VBP )(NP (NN )(JJ )(CC )(NN )))
+Phase: generated45986
+Input: Token
+Rule: generated45986
+(
+(({ Token.category == VBP })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN })))):pttrn45986 --> :pttrn45986.extracted={}
+

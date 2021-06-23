@@ -1,0 +1,8 @@
+with anomaly detection
+(PP (IN )(NP (DT )(NN )))
+Phase: generated109995
+Input: Token
+Rule: generated109995
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn109995 --> :pttrn109995.extracted={}
+

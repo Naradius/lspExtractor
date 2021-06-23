@@ -1,0 +1,8 @@
+propermobility models for VANET studies
+(NP (NP (NN )(NNS ))(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated14484
+Input: Token
+Rule: generated14484
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn14484 --> :pttrn14484.extracted={}
+

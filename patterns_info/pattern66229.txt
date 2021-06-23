@@ -1,0 +1,8 @@
+keep track of ma-licious activities of the network
+(VP (VB )(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated66229
+Input: Token
+Rule: generated66229
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn66229 --> :pttrn66229.extracted={}
+

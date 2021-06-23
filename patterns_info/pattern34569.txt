@@ -1,0 +1,8 @@
+to the MC
+(PP (TO )(NP (DT )(NNP )))
+Phase: generated34569
+Input: Token
+Rule: generated34569
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNP })))):pttrn34569 --> :pttrn34569.extracted={}
+

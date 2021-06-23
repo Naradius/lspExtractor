@@ -1,0 +1,8 @@
+vol 4150
+(NP (JJ )(CD ))
+Phase: generated34031
+Input: Token
+Rule: generated34031
+(
+(({ Token.category == JJ })({ Token.category == CD }))):pttrn34031 --> :pttrn34031.extracted={}
+

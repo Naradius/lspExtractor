@@ -1,0 +1,8 @@
+used the VNLayer for different goals suchas providing a convenient programming abstraction for wirelesssensor networks , coordinating the movements of mobilesensors , or improving quality-of-service parameters inheterogeneous networks
+(VP (VBD )(NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ){1,2})(VP (VBG )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (NN )(NNS ))))(VP (CC )(VP (VBG )(NP (NN )(NNS ))(NP (JJ )(NNS ))))))))
+Phase: generated13951
+Input: Token
+Rule: generated13951
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS })+)(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn13951 --> :pttrn13951.extracted={}
+

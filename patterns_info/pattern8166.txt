@@ -1,0 +1,8 @@
+the radio range of the nodes
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS ))))
+Phase: generated8166
+Input: Token
+Rule: generated8166
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn8166 --> :pttrn8166.extracted={}
+

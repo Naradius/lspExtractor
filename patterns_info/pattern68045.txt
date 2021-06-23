@@ -1,0 +1,8 @@
+IEEE Communications Letters,EEE Access
+(NP (NNP )(NNPS )(NNP ){1,2})
+Phase: generated68045
+Input: Token
+Rule: generated68045
+(
+(({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == NNP })+)):pttrn68045 --> :pttrn68045.extracted={}
+

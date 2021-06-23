@@ -1,0 +1,8 @@
+the comparative analysis of bio-inspired adaptive routing algorithms
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ ){1,2}(NN )(NNS ))))
+Phase: generated2249
+Input: Token
+Rule: generated2249
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))))):pttrn2249 --> :pttrn2249.extracted={}
+

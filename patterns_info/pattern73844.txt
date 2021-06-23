@@ -1,0 +1,8 @@
+our method over two entitytypes: symptoms and conditions , and drugsand treatments  on two of MedHelpsforums: Asthma and Ear, Nose & Throat .We also report the results of applying our system tothree other forums on MedHelp: Adult Type IIDiabetes, Acne, and Breast Cancer
+(NP (NP (NP (PRP$ )(NN ))(PP (IN )(NP (CD )(NNS ))))(NP (NP (NNS )(CC )(NNS ))(CC )))
+Phase: generated73844
+Input: Token
+Rule: generated73844
+(
+(((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS }))))((({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))({ Token.category == CC })))):pttrn73844 --> :pttrn73844.extracted={}
+

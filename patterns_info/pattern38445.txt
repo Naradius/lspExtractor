@@ -1,0 +1,8 @@
+deploying the neural network model at the device level and secondly by deploying the model at the edge router
+(VP (VP (VBG )(NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))(CC ))
+Phase: generated38445
+Input: Token
+Rule: generated38445
+(
+((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC }))):pttrn38445 --> :pttrn38445.extracted={}
+

@@ -1,0 +1,8 @@
+to be of notable concern
+(VP (TO )(VP (VB )(PP (IN )(NP (JJ )(NN )))))
+Phase: generated38006
+Input: Token
+Rule: generated38006
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn38006 --> :pttrn38006.extracted={}
+

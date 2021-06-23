@@ -1,0 +1,8 @@
+on such ant-colony behav-ior
+(PP (IN )(NP (JJ ){1,2}(NN )))
+Phase: generated3019
+Input: Token
+Rule: generated3019
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })))):pttrn3019 --> :pttrn3019.extracted={}
+

@@ -1,0 +1,8 @@
+are interlinked by a small set of semantic rela-tions, including hypernyms , hyponyms , mero-nym  relationships, etc
+(VP (VBP )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated71571
+Input: Token
+Rule: generated71571
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn71571 --> :pttrn71571.extracted={}
+

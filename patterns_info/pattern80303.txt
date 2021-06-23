@@ -1,0 +1,8 @@
+multi-slot case frames
+(NP (JJ )(NN )(NNS ))
+Phase: generated80303
+Input: Token
+Rule: generated80303
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn80303 --> :pttrn80303.extracted={}
+

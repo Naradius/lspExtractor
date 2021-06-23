@@ -1,0 +1,8 @@
+changedbecause the state information on a VN
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNP )))))
+Phase: generated15307
+Input: Token
+Rule: generated15307
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))):pttrn15307 --> :pttrn15307.extracted={}
+

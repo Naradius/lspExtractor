@@ -1,0 +1,8 @@
+appearing in different order in a general case
+(VP (VBG )(PP (IN )(NP (JJ )(NN )))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated71201
+Input: Token
+Rule: generated71201
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn71201 --> :pttrn71201.extracted={}
+

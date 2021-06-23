@@ -1,0 +1,8 @@
+of micro-electro-mechanical systems technology, wireless communications and digital electronics
+(PP (IN )(NP (NP (JJ )(NNS )(NN ))(NP (JJ )(NNS ))(CC )(NP (JJ )(NNS ))))
+Phase: generated45843
+Input: Token
+Rule: generated45843
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn45843 --> :pttrn45843.extracted={}
+

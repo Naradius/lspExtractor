@@ -1,0 +1,8 @@
+attach-ing initial dotted rules
+(NP (DT )(JJ ){1,2}(NNS ))
+Phase: generated104057
+Input: Token
+Rule: generated104057
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn104057 --> :pttrn104057.extracted={}
+

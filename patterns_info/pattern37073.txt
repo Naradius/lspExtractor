@@ -1,0 +1,8 @@
+between the information system and thephysical system, the internal connection and the cascading failureacross the space
+(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (JJ )(NN ))(NP (DT )(JJ )(NN ))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated37073
+Input: Token
+Rule: generated37073
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn37073 --> :pttrn37073.extracted={}
+

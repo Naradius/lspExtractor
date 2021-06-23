@@ -1,0 +1,8 @@
+4.3 Power measurements	4.4 RAM and ROM usage	5 Evaluation	6 Discussion	7 Conclusion	References
+(NP (NP (CD )(NN )(NNS ))(NP (NP (CD )(NNP ))(CC )(NP (NP (NNP )(NN ))(NP (CD )(NNP )(CD )(NNP )(CD )(NN )(NNS )))))
+Phase: generated38698
+Input: Token
+Rule: generated38698
+(
+((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == CD })({ Token.category == NNP }))({ Token.category == CC })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS })))))):pttrn38698 --> :pttrn38698.extracted={}
+

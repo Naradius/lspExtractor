@@ -1,0 +1,8 @@
+a number
+(NP (DT )(NN ))
+Phase: generated115565
+Input: Token
+Rule: generated115565
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn115565 --> :pttrn115565.extracted={}
+

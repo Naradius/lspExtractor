@@ -1,0 +1,8 @@
+widely researched with regardo industrial WSNs  , mobile networks
+(VP (VBN )(PP (IN )(NP (NP (NNP )(JJ )(NNP ))(NP (JJ )(NNS )))))
+Phase: generated61795
+Input: Token
+Rule: generated61795
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn61795 --> :pttrn61795.extracted={}
+

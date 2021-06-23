@@ -1,0 +1,8 @@
+could not be inferred from the sentence that originateit
+(VP (MD )(RB )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated100362
+Input: Token
+Rule: generated100362
+(
+(({ Token.category == MD })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn100362 --> :pttrn100362.extracted={}
+

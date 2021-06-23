@@ -1,0 +1,8 @@
+from one sentence to four sentences
+(PP (PP (IN )(NP (CD )(NN )))(PP (TO )(NP (CD )(NNS ))))
+Phase: generated115395
+Input: Token
+Rule: generated115395
+(
+((({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == CD })({ Token.category == NNS }))))):pttrn115395 --> :pttrn115395.extracted={}
+

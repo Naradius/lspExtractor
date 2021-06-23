@@ -1,0 +1,8 @@
+of learned patterns
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated99657
+Input: Token
+Rule: generated99657
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn99657 --> :pttrn99657.extracted={}
+

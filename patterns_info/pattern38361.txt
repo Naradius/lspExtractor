@@ -1,0 +1,8 @@
+to the edge router which may contain sensitive information of host nodes
+(PP (TO )(NP (NP (DT )(NN ){1,2})(VP (MD )(VP (VB )(NP (NP (JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))))))
+Phase: generated38361
+Input: Token
+Rule: generated38361
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn38361 --> :pttrn38361.extracted={}
+

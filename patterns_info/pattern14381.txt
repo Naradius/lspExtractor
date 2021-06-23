@@ -1,0 +1,8 @@
+a node that was not acting as a backup ora nonsynchronized backup node, even in cases that therewere synchronized backups in the region
+(NP (NP (DT )(NN ))(VP (VBD )(RB )(VP (VBG )(PP (IN )(NP (DT )(NN ){1,2}(JJ )(NN ){1,2})))))
+Phase: generated14381
+Input: Token
+Rule: generated14381
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBD })({ Token.category == RB })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn14381 --> :pttrn14381.extracted={}
+

@@ -1,0 +1,8 @@
+distance, energy, and delay within the algorithm
+(NP (NP (NN ){1,2}(CC )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated107305
+Input: Token
+Rule: generated107305
+(
+((({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn107305 --> :pttrn107305.extracted={}
+

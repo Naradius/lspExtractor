@@ -1,0 +1,8 @@
+discusses the problem statement, network design,dversary model, routing and monitoring, algorithms and channel-ependent key shares for IoT-based WSNs
+(VP (VBZ )(NP (NP (DT )(NN ){1,2})(NP (NP (NN ){1,2}(JJ )(NN ))(NP (NP (NN )(CC )(NN )(NNS )(CC )(JJ ){1,2}(NNS ))(PP (IN )(NP (JJ )(NNP )))))))
+Phase: generated66315
+Input: Token
+Rule: generated66315
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN }))((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })))))))):pttrn66315 --> :pttrn66315.extracted={}
+

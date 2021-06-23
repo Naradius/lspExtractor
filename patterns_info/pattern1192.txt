@@ -1,0 +1,8 @@
+in natural habitat.In wildlife
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated1192
+Input: Token
+Rule: generated1192
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn1192 --> :pttrn1192.extracted={}
+

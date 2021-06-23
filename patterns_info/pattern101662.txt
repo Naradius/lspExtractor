@@ -1,0 +1,8 @@
+of the project or a different language
+(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(JJ )(NN ))))
+Phase: generated101662
+Input: Token
+Rule: generated101662
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn101662 --> :pttrn101662.extracted={}
+

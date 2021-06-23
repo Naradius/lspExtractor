@@ -1,0 +1,8 @@
+lexico-syntactic rulesand
+(NP (JJ )(NN ))
+Phase: generated94160
+Input: Token
+Rule: generated94160
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn94160 --> :pttrn94160.extracted={}
+

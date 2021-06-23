@@ -1,0 +1,8 @@
+Home automation routing requirements
+(NP (NNP )(NN ){1,2}(NNS ))
+Phase: generated28951
+Input: Token
+Rule: generated28951
+(
+(({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNS }))):pttrn28951 --> :pttrn28951.extracted={}
+

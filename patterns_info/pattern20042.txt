@@ -1,0 +1,8 @@
+further information on Dr. Gill,please visit
+(NP (NP (JJ )(NN ))(PP (IN )(NP (NNP ){1,2}(NN ))))
+Phase: generated20042
+Input: Token
+Rule: generated20042
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))):pttrn20042 --> :pttrn20042.extracted={}
+

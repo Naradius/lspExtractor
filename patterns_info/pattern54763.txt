@@ -1,0 +1,8 @@
+based on the sensordensities and their remaining energy
+(VP (VBN )(PP (IN )(NP (NP (DT )(NNS ))(CC )(NP (PRP$ )(VBG )(NN )))))
+Phase: generated54763
+Input: Token
+Rule: generated54763
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == VBG })({ Token.category == NN })))))):pttrn54763 --> :pttrn54763.extracted={}
+

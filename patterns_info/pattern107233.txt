@@ -1,0 +1,8 @@
+of data transmission and bandwidth
+(PP (IN )(NP (NNS )(NN )(CC )(NN )))
+Phase: generated107233
+Input: Token
+Rule: generated107233
+(
+(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn107233 --> :pttrn107233.extracted={}
+

@@ -1,0 +1,8 @@
+allowfor manual adaptation of the rule set to newdomains and corpora.1 MotivationInformation Extraction  systems often facethe problem of distinguishing between affirmed,negated, and speculative information in text
+(VP (VB )(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))(VP (VBN )(PP (TO )(NP (CC )(NP (JJ )(NN ){1,2}(NNS )))))))
+Phase: generated96046
+Input: Token
+Rule: generated96046
+(
+(({ Token.category == VB })(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))))))):pttrn96046 --> :pttrn96046.extracted={}
+

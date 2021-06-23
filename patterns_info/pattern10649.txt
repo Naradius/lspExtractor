@@ -1,0 +1,8 @@
+ideaconserves the energy and reduces the routing overhead as well
+(VP (VP (VBZ )(NP (DT )(NN )))(CC )(VP (VBZ )(NP (DT )(NN ){1,2})))
+Phase: generated10649
+Input: Token
+Rule: generated10649
+(
+((({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn10649 --> :pttrn10649.extracted={}
+

@@ -1,0 +1,8 @@
+for the design of such less con-trollable systems
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ ){1,2}(NNS )))))
+Phase: generated5939
+Input: Token
+Rule: generated5939
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS })))))):pttrn5939 --> :pttrn5939.extracted={}
+

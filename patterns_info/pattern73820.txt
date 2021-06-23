@@ -1,0 +1,8 @@
+seed dictionaries
+(NP (NN )(NNS ))
+Phase: generated73820
+Input: Token
+Rule: generated73820
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn73820 --> :pttrn73820.extracted={}
+

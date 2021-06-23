@@ -1,0 +1,8 @@
+two-hop topology database
+(NP (JJ )(NN ){1,2})
+Phase: generated1107
+Input: Token
+Rule: generated1107
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn1107 --> :pttrn1107.extracted={}
+

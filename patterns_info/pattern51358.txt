@@ -1,0 +1,8 @@
+in multi-hop schemes
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated51358
+Input: Token
+Rule: generated51358
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn51358 --> :pttrn51358.extracted={}
+

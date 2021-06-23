@@ -1,0 +1,8 @@
+hedge scopedetection systems
+(NP (NN ){1,2}(NNS ))
+Phase: generated95441
+Input: Token
+Rule: generated95441
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn95441 --> :pttrn95441.extracted={}
+

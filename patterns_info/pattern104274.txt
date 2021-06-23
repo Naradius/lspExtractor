@@ -1,0 +1,8 @@
+of pi1matches the graph elements f103
+(PP (IN )(VP (VBG )(NP (DT )(NN )(NNS ))))
+Phase: generated104274
+Input: Token
+Rule: generated104274
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn104274 --> :pttrn104274.extracted={}
+

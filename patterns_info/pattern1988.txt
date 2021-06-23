@@ -1,0 +1,8 @@
+The total number
+(NP (DT )(JJ )(NN ))
+Phase: generated1988
+Input: Token
+Rule: generated1988
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn1988 --> :pttrn1988.extracted={}
+

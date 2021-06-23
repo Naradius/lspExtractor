@@ -1,0 +1,8 @@
+wire-less sensor networks, wireless ad hoc networksand wireless mesh networks
+(NP (NP (JJ )(NN )(NNS ))(NP (JJ )(NN ){1,2}(JJ )(NN )(NNS )))
+Phase: generated5659
+Input: Token
+Rule: generated5659
+(
+((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn5659 --> :pttrn5659.extracted={}
+

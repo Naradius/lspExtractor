@@ -1,0 +1,8 @@
+of IEEE and ACM.
+(PP (IN )(NP (NNP )(CC )(NNP )))
+Phase: generated61519
+Input: Token
+Rule: generated61519
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn61519 --> :pttrn61519.extracted={}
+

@@ -1,0 +1,8 @@
+on the reservoir of untagged instances and repeatedly selectedbatches of instances to be tagged
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(CC )))))
+Phase: generated84246
+Input: Token
+Rule: generated84246
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })))))):pttrn84246 --> :pttrn84246.extracted={}
+

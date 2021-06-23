@@ -1,0 +1,8 @@
+into multi-slot caseframes
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated79439
+Input: Token
+Rule: generated79439
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn79439 --> :pttrn79439.extracted={}
+

@@ -1,0 +1,8 @@
+be used to create asmart environment
+(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NN ))))))
+Phase: generated46567
+Input: Token
+Rule: generated46567
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn46567 --> :pttrn46567.extracted={}
+

@@ -1,0 +1,8 @@
+along the route
+(PP (IN )(NP (DT )(NN )))
+Phase: generated22630
+Input: Token
+Rule: generated22630
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn22630 --> :pttrn22630.extracted={}
+

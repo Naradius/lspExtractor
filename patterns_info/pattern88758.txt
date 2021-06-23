@@ -1,0 +1,8 @@
+would be to write a rule like for each possible semantic category
+(VP (MD )(VP (VB )(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(PP (IN )(NP (DT )(JJ ){1,2}(NN ))))))))
+Phase: generated88758
+Input: Token
+Rule: generated88758
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))))))))):pttrn88758 --> :pttrn88758.extracted={}
+

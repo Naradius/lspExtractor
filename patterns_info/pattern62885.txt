@@ -1,0 +1,8 @@
+balance the energy consumption
+(VP (VB )(NP (DT )(NN ){1,2}))
+Phase: generated62885
+Input: Token
+Rule: generated62885
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))):pttrn62885 --> :pttrn62885.extracted={}
+

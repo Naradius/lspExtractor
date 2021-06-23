@@ -1,0 +1,8 @@
+to a phrase of parse tree nor to a thicket phrase of thicket
+(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated116727
+Input: Token
+Rule: generated116727
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn116727 --> :pttrn116727.extracted={}
+

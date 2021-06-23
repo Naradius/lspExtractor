@@ -1,0 +1,8 @@
+revised form 7 November 2019
+(NP (VBN )(NN )(CD )(NNP )(CD ))
+Phase: generated12252
+Input: Token
+Rule: generated12252
+(
+(({ Token.category == VBN })({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD }))):pttrn12252 --> :pttrn12252.extracted={}
+

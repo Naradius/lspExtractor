@@ -1,0 +1,8 @@
+is closely related to WHISK's rule representation
+(VP (VBZ )(ADJP (RB )(VBN )(PP (TO )(NP (NP (NNP )(POS ))(NN ){1,2}))))
+Phase: generated80888
+Input: Token
+Rule: generated80888
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NN })+))))):pttrn80888 --> :pttrn80888.extracted={}
+

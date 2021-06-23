@@ -1,0 +1,8 @@
+Engineering 3  243634these tables
+(NP (NNP )(CD )(JJ )(NNS ))
+Phase: generated64819
+Input: Token
+Rule: generated64819
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn64819 --> :pttrn64819.extracted={}
+

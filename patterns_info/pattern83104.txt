@@ -1,0 +1,8 @@
+each extractedslot
+(NP (DT )(NN ))
+Phase: generated83104
+Input: Token
+Rule: generated83104
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn83104 --> :pttrn83104.extracted={}
+

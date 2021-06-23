@@ -1,0 +1,8 @@
+a discrete-event simulator
+(NP (DT )(JJ )(NN ))
+Phase: generated4445
+Input: Token
+Rule: generated4445
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn4445 --> :pttrn4445.extracted={}
+

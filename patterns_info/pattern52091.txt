@@ -1,0 +1,8 @@
+aboutits remaining energy and location
+(PP (IN )(NP (VBG )(NN )(CC )(NN )))
+Phase: generated52091
+Input: Token
+Rule: generated52091
+(
+(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn52091 --> :pttrn52091.extracted={}
+

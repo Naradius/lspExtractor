@@ -1,0 +1,8 @@
+in attainingbetter clustering and Routing
+(PP (IN )(NP (NN ){1,2}(CC )(NNP )))
+Phase: generated12240
+Input: Token
+Rule: generated12240
+(
+(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NNP })))):pttrn12240 --> :pttrn12240.extracted={}
+

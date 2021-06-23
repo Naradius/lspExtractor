@@ -1,0 +1,8 @@
+in MUC-6.An example
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated82499
+Input: Token
+Rule: generated82499
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn82499 --> :pttrn82499.extracted={}
+

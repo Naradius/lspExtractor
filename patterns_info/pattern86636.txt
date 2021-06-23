@@ -1,0 +1,8 @@
+proposed in  and is calculated as the following:rf = log2,rf = maxcjCrf  ,where aj is the number of documents of the category cjwhich contain the term ti and aj is the number of docu-ments of all the other categories which also contain thisterm.3.6
+(VP (VBN )(PP (IN )(CC )))
+Phase: generated86636
+Input: Token
+Rule: generated86636
+(
+(({ Token.category == VBN })(({ Token.category == IN })({ Token.category == CC })))):pttrn86636 --> :pttrn86636.extracted={}
+

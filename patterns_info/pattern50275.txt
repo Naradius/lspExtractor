@@ -1,0 +1,8 @@
+the beacon-enabled mode
+(NP (DT )(JJ )(NN ))
+Phase: generated50275
+Input: Token
+Rule: generated50275
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn50275 --> :pttrn50275.extracted={}
+

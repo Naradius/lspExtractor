@@ -1,0 +1,8 @@
+Sivalingam Krishna M. Data gatheringalgorithms
+(NP (NNP ){1,2}(NNS ))
+Phase: generated57925
+Input: Token
+Rule: generated57925
+(
+(({ Token.category == NNP })+({ Token.category == NNS }))):pttrn57925 --> :pttrn57925.extracted={}
+

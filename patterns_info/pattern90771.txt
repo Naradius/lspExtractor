@@ -1,0 +1,8 @@
+met the scores on the temporary corpus RT0are computed
+(VP (VBN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(JJ ){1,2}))))
+Phase: generated90771
+Input: Token
+Rule: generated90771
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+))))):pttrn90771 --> :pttrn90771.extracted={}
+

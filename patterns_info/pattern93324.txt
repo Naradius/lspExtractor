@@ -1,0 +1,8 @@
+of the Brill tagger ,which produces a POS tag as an annotation to eachword or symbol
+(PP (IN )(NP (NP (DT )(NNP )(NN ))(VP (VBZ )(NP (DT )(NNP )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (TO )(NP (NN )(CC )(NN ))))))))
+Phase: generated93324
+Input: Token
+Rule: generated93324
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))))))):pttrn93324 --> :pttrn93324.extracted={}
+

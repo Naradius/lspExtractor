@@ -1,0 +1,8 @@
+contaminatedfield, in a battlefield beyond the enemy lines, in a home or a large building, in a large warehouse
+(VP (VB )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (DT )(NN )(NNS )))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(JJ )(NN ))))(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated47487
+Input: Token
+Rule: generated47487
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn47487 --> :pttrn47487.extracted={}
+

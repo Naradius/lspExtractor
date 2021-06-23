@@ -1,0 +1,8 @@
+the proposed HDRP protocol.Declaration of competing interestWe
+(NP (NP (DT )(VBN )(NNP )(NN ))(PP (IN )(NP (VBG )(NN ))))
+Phase: generated43532
+Input: Token
+Rule: generated43532
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN }))))):pttrn43532 --> :pttrn43532.extracted={}
+

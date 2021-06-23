@@ -1,0 +1,8 @@
+ofR to already discovered graph elements inG as the result of processing matchingdirectives md0; : : : ;mdi1, and s represents the state of a dotted rule, which can be active or suspended
+(PP (IN )(VP (TO )(VP (VBN )(NP (NP (NN )(NNS ))(PP (RB )(IN ))))))
+Phase: generated103959
+Input: Token
+Rule: generated103959
+(
+(({ Token.category == IN })(({ Token.category == TO })(({ Token.category == VBN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == RB })({ Token.category == IN }))))))):pttrn103959 --> :pttrn103959.extracted={}
+

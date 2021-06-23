@@ -1,0 +1,8 @@
+the average energyof node
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated53790
+Input: Token
+Rule: generated53790
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn53790 --> :pttrn53790.extracted={}
+

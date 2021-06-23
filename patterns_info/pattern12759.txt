@@ -1,0 +1,8 @@
+30  >>  /AntiAliasGrayImages false  /CropGrayImages
+(NP (NP (NP (CD )(NNS ))(JJ )(NNS ))(JJ )(NNS ))
+Phase: generated12759
+Input: Token
+Rule: generated12759
+(
+(((({ Token.category == CD })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NNS }))):pttrn12759 --> :pttrn12759.extracted={}
+

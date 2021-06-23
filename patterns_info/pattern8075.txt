@@ -1,0 +1,8 @@
+possiblefor a sensor node with tunable transmit power as in Mica2motes
+(VP (VBG )(NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NN ){1,2})))
+Phase: generated8075
+Input: Token
+Rule: generated8075
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn8075 --> :pttrn8075.extracted={}
+

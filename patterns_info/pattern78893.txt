@@ -1,0 +1,8 @@
+as train-ing levels increaseUnpruned PrunedTraining R P R P100 51.5 24.1 9.6 45.6200 49.9 31.5 13.9 62.1400 53.5 36.0 19.3 70.5800 56.3 42.9 31.0 70.66,900 61.0 48.5 46.4 68.9increases recall from 19% to 54% but reduces precision from 70% to 36%
+(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBN )(VP (VBG )(NP (NP (NN )(NNP ){1,2})(VP (VP (VBP )(PP (PP (IN )(NP (CD )(NN )))(PP (TO )(NP (CD )(NN )))))(CC )(VP (VBZ )(PP (IN )(NP (CD )(NN )))(PP (TO )(NP (CD )(NN ))))))))))
+Phase: generated78893
+Input: Token
+Rule: generated78893
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == VBG })((({ Token.category == NN })({ Token.category == NNP })+)((({ Token.category == VBP })((({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == CD })({ Token.category == NN })))))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == CD })({ Token.category == NN }))))))))))):pttrn78893 --> :pttrn78893.extracted={}
+

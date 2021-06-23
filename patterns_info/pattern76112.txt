@@ -1,0 +1,8 @@
+the natural languagetext
+(NP (DT )(JJ )(NN ))
+Phase: generated76112
+Input: Token
+Rule: generated76112
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn76112 --> :pttrn76112.extracted={}
+

@@ -1,0 +1,8 @@
+routing in partially connected ad hoc networks, in: Proceedings of International Conference on Global Telecommunications, vol
+(VP (VBG )(PP (IN )(NP (ADJP (RB )(VBN ))(NN )(JJ )(NNS ))))
+Phase: generated107051
+Input: Token
+Rule: generated107051
+(
+(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn107051 --> :pttrn107051.extracted={}
+

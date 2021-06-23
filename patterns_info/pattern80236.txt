@@ -1,0 +1,8 @@
+done to assign asemantic class to entire elds
+(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NN )))))
+Phase: generated80236
+Input: Token
+Rule: generated80236
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn80236 --> :pttrn80236.extracted={}
+

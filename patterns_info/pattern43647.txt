@@ -1,0 +1,8 @@
+heterogeneous and selfish nodes
+(NP (ADJP (JJ )(CC )(JJ ))(NNS ))
+Phase: generated43647
+Input: Token
+Rule: generated43647
+(
+((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn43647 --> :pttrn43647.extracted={}
+

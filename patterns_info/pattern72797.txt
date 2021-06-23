@@ -1,0 +1,8 @@
+for different semantic roles of a sentence
+(PP (IN )(NP (NP (JJ ){1,2}(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated72797
+Input: Token
+Rule: generated72797
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn72797 --> :pttrn72797.extracted={}
+

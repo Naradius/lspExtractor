@@ -1,0 +1,8 @@
+routing.Clustering with data aggregation
+(VP (VBG )(PP (IN )(NP (NNS )(NN ))))
+Phase: generated9356
+Input: Token
+Rule: generated9356
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))):pttrn9356 --> :pttrn9356.extracted={}
+

@@ -1,0 +1,8 @@
+Landscapeand Urban Planning 21  285297
+(NP (NNP ){1,2}(CD ){1,2})
+Phase: generated45666
+Input: Token
+Rule: generated45666
+(
+(({ Token.category == NNP })+({ Token.category == CD })+)):pttrn45666 --> :pttrn45666.extracted={}
+

@@ -1,0 +1,8 @@
+allocation requirements
+(NP (NN )(NNS ))
+Phase: generated20742
+Input: Token
+Rule: generated20742
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn20742 --> :pttrn20742.extracted={}
+

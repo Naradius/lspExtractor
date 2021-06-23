@@ -1,0 +1,8 @@
+is can be either physically existent of an interior area without network coverage or application
+(VP (VBZ )(VP (MD )(VP (VB )(NP (NP (DT )(RB )(JJ ))(PP (IN )(NP (DT )(JJ )(NN ))))(PP (IN )(NP (NN ){1,2}(CC )(NN ))))))
+Phase: generated17037
+Input: Token
+Rule: generated17037
+(
+(({ Token.category == VBZ })(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == RB })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))))):pttrn17037 --> :pttrn17037.extracted={}
+

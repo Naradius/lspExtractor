@@ -1,0 +1,8 @@
+continuous sens-ing, event detection, event ID, location sensing,and local control of actuators
+(NP (NP (JJ )(NN ))(NP (NN )(NNP ))(CC ))
+Phase: generated46163
+Input: Token
+Rule: generated46163
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NN })({ Token.category == NNP }))({ Token.category == CC }))):pttrn46163 --> :pttrn46163.extracted={}
+

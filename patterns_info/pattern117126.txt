@@ -1,0 +1,8 @@
+parse trees for all sentences
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated117126
+Input: Token
+Rule: generated117126
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn117126 --> :pttrn117126.extracted={}
+

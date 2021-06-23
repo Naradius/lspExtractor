@@ -1,0 +1,8 @@
+:Eth  Einit 1ynr,where Einit
+(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated55580
+Input: Token
+Rule: generated55580
+(
+((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn55580 --> :pttrn55580.extracted={}
+

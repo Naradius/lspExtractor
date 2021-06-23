@@ -1,0 +1,8 @@
+a customer's description
+(NP (NP (DT )(NN )(POS ))(NN ))
+Phase: generated81065
+Input: Token
+Rule: generated81065
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == POS }))({ Token.category == NN }))):pttrn81065 --> :pttrn81065.extracted={}
+

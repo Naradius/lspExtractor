@@ -1,0 +1,8 @@
+named as SCENARIO #1 and SCENARIO #2
+(VP (VBN )(NP (# )(CD )(CC )(NNP )(# )(CD )))
+Phase: generated59741
+Input: Token
+Rule: generated59741
+(
+(({ Token.category == VBN })(({ Token.category == # })({ Token.category == CD })({ Token.category == CC })({ Token.category == NNP })({ Token.category == # })({ Token.category == CD })))):pttrn59741 --> :pttrn59741.extracted={}
+

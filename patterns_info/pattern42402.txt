@@ -1,0 +1,8 @@
+of the simulation used to ana-lyze the performance of the HDRP.7.2
+(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNP )))))))))
+Phase: generated42402
+Input: Token
+Rule: generated42402
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))))):pttrn42402 --> :pttrn42402.extracted={}
+

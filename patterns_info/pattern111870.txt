@@ -1,0 +1,8 @@
+the reception port
+(NP (DT )(NN ){1,2})
+Phase: generated111870
+Input: Token
+Rule: generated111870
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn111870 --> :pttrn111870.extracted={}
+

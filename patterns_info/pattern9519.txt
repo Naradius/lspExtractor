@@ -1,0 +1,8 @@
+such biologically-inspired meta-heuris-tics
+(NP (JJ ){1,2}(NNS ))
+Phase: generated9519
+Input: Token
+Rule: generated9519
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn9519 --> :pttrn9519.extracted={}
+

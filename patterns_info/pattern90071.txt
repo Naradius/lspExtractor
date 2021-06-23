@@ -1,0 +1,8 @@
+Washington names a capital city
+(NP (NP (NNP )(NNS ))(NP (DT )(NN ){1,2}))
+Phase: generated90071
+Input: Token
+Rule: generated90071
+(
+((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })+))):pttrn90071 --> :pttrn90071.extracted={}
+

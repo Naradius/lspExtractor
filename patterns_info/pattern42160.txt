@@ -1,0 +1,8 @@
+:2131+    +2( )3> 0
+(NP (DT )(JJ )(CD )(NN )(CD ))
+Phase: generated42160
+Input: Token
+Rule: generated42160
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NN })({ Token.category == CD }))):pttrn42160 --> :pttrn42160.extracted={}
+

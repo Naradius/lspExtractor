@@ -1,0 +1,8 @@
+a Head delimiter, a set of Left and Right delimiters for eachslot
+(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NN ))(PP (IN )(NP (NNP )(CC )(NNP )(NNS )))))
+Phase: generated79518
+Input: Token
+Rule: generated79518
+(
+((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNS })))))):pttrn79518 --> :pttrn79518.extracted={}
+

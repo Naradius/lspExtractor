@@ -1,0 +1,8 @@
+on matching the text in web search results to designed lexico-syntacticpatterns
+(PP (IN )(VP (VBG )(NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(NNS )))(PP (TO )(NP (JJ )(NNS )))))
+Phase: generated71454
+Input: Token
+Rule: generated71454
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS })))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn71454 --> :pttrn71454.extracted={}
+

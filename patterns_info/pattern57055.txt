@@ -1,0 +1,8 @@
+working in the network and mini-mizing the energy consumption
+(VP (VP (VBG )(PP (IN )(NP (DT )(NN ))))(CC )(VP (JJ )(NP (DT )(NN ){1,2})))
+Phase: generated57055
+Input: Token
+Rule: generated57055
+(
+((({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))({ Token.category == CC })(({ Token.category == JJ })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn57055 --> :pttrn57055.extracted={}
+

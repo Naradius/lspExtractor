@@ -1,0 +1,8 @@
+uses information from a single source, whereas a collaborative sys-tem uses information from diverse set of devices across network
+(VP (VBZ )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated39026
+Input: Token
+Rule: generated39026
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn39026 --> :pttrn39026.extracted={}
+

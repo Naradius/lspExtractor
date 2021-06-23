@@ -1,0 +1,8 @@
+stationdeplete their battery
+(PP (IN )(NP (PRP$ )(NN )))
+Phase: generated51611
+Input: Token
+Rule: generated51611
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn51611 --> :pttrn51611.extracted={}
+

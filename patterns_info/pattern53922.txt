@@ -1,0 +1,8 @@
+is not dependent on the random numbergenerated
+(VP (VBZ )(RB )(ADJP (JJ )(PP (IN )(NP (DT )(JJ ){1,2}))))
+Phase: generated53922
+Input: Token
+Rule: generated53922
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+))))):pttrn53922 --> :pttrn53922.extracted={}
+

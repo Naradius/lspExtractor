@@ -1,0 +1,8 @@
+use more fundamental computation of received signal to noiseratio at any location to determine the presence of the primary atany location and analyze network connectivity .Environmental sensing capacity
+(VP (VBP )(NP (NP (ADJP (RBR )(JJ ))(NN ))(PP (IN )(NP (VBN )(NN ))))(PP (IN )(NP (DT )(NN )))(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}(CC )(NN ){1,2}(JJ )(NN ){1,2}))))))
+Phase: generated21999
+Input: Token
+Rule: generated21999
+(
+(({ Token.category == VBP })(((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn21999 --> :pttrn21999.extracted={}
+

@@ -1,0 +1,8 @@
+verifiedusing simulation
+(NP (JJ )(NN ))
+Phase: generated8352
+Input: Token
+Rule: generated8352
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn8352 --> :pttrn8352.extracted={}
+

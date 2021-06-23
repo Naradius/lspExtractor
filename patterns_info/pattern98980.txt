@@ -1,0 +1,8 @@
+of 4,000 parse-annotated questions
+(PP (IN )(NP (CD )(JJ )(NNS )))
+Phase: generated98980
+Input: Token
+Rule: generated98980
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })))):pttrn98980 --> :pttrn98980.extracted={}
+

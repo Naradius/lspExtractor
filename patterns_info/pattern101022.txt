@@ -1,0 +1,8 @@
+to the learned patterns and to the generated questions
+(PP (PP (TO )(NP (DT )(JJ )(NNS )))(CC )(PP (TO )(NP (DT )(JJ )(NNS ))))
+Phase: generated101022
+Input: Token
+Rule: generated101022
+(
+((({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn101022 --> :pttrn101022.extracted={}
+

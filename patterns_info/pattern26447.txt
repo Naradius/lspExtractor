@@ -1,0 +1,8 @@
+its data pack-ts
+(NP (PRP$ )(NNS ){1,2})
+Phase: generated26447
+Input: Token
+Rule: generated26447
+(
+(({ Token.category == PRP$ })({ Token.category == NNS })+)):pttrn26447 --> :pttrn26447.extracted={}
+

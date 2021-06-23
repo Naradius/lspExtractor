@@ -1,0 +1,8 @@
+the optimal routing path
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated108798
+Input: Token
+Rule: generated108798
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn108798 --> :pttrn108798.extracted={}
+

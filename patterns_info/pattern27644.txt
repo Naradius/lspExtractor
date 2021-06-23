@@ -1,0 +1,8 @@
+more reliable links
+(NP (JJR )(JJ )(NNS ))
+Phase: generated27644
+Input: Token
+Rule: generated27644
+(
+(({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NNS }))):pttrn27644 --> :pttrn27644.extracted={}
+

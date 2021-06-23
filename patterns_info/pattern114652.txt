@@ -1,0 +1,8 @@
+to common subgraph problem
+(PP (TO )(NP (JJ )(NN ){1,2}))
+Phase: generated114652
+Input: Token
+Rule: generated114652
+(
+(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn114652 --> :pttrn114652.extracted={}
+

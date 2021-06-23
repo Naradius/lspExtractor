@@ -1,0 +1,8 @@
+,hich not only optimizes the path selection procedure
+(VP (VBG )(VP (VBZ )(NP (DT )(NN ){1,2})))
+Phase: generated27584
+Input: Token
+Rule: generated27584
+(
+(({ Token.category == VBG })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn27584 --> :pttrn27584.extracted={}
+

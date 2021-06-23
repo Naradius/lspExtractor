@@ -1,0 +1,8 @@
+EPCSO algorithmare briefly
+(NP (NNP )(JJ )(NN ))
+Phase: generated68360
+Input: Token
+Rule: generated68360
+(
+(({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))):pttrn68360 --> :pttrn68360.extracted={}
+

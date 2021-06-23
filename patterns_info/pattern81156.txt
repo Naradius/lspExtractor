@@ -1,0 +1,8 @@
+required for manually constructing text extraction rules.7.2
+(VP (VBN )(PP (IN )(VP (VBG )(NP (NN ){1,2}(NNS )))))
+Phase: generated81156
+Input: Token
+Rule: generated81156
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == NN })+({ Token.category == NNS })))))):pttrn81156 --> :pttrn81156.extracted={}
+

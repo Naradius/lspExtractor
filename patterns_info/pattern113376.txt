@@ -1,0 +1,8 @@
+are constructed and generalized
+(VP (VBP )(VP (VBN )(CC )(VBN )))
+Phase: generated113376
+Input: Token
+Rule: generated113376
+(
+(({ Token.category == VBP })(({ Token.category == VBN })({ Token.category == CC })({ Token.category == VBN })))):pttrn113376 --> :pttrn113376.extracted={}
+

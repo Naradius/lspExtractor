@@ -1,0 +1,8 @@
+the Internetof Things
+(NP (DT )(NNP )(NNS ))
+Phase: generated24547
+Input: Token
+Rule: generated24547
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))):pttrn24547 --> :pttrn24547.extracted={}
+

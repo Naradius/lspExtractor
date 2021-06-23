@@ -1,0 +1,8 @@
+based on the routing protocol
+(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated107498
+Input: Token
+Rule: generated107498
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn107498 --> :pttrn107498.extracted={}
+

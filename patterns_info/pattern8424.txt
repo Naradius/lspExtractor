@@ -1,0 +1,8 @@
+3. Average energy
+(NP (DT )(JJ )(NN ))
+Phase: generated8424
+Input: Token
+Rule: generated8424
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn8424 --> :pttrn8424.extracted={}
+

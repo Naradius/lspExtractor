@@ -1,0 +1,8 @@
+two threads
+(NP (CD )(NNS ))
+Phase: generated102604
+Input: Token
+Rule: generated102604
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn102604 --> :pttrn102604.extracted={}
+

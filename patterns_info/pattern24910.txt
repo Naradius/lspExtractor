@@ -1,0 +1,8 @@
+RPL objective functions on the primitive characteristics of mobile and static IoT infrastructuresMicroprocessors and Microsystems
+(NP (NP (NNP )(JJ )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NP (ADJP (JJ )(CC )(JJ ))(NNP )(NNS ))(CC ))))))
+Phase: generated24910
+Input: Token
+Rule: generated24910
+(
+((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC }))))))):pttrn24910 --> :pttrn24910.extracted={}
+

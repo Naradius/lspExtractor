@@ -1,0 +1,8 @@
+can consider the final solution vector as Xm
+(VP (MD )(VP (VB )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated108629
+Input: Token
+Rule: generated108629
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn108629 --> :pttrn108629.extracted={}
+

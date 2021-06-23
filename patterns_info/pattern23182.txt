@@ -1,0 +1,8 @@
+from allcovered devices to all other covered vertices in the secondary IoTnetwork
+(PP (PP (IN )(NP (DT )(NNS )))(PP (TO )(NP (NP (DT )(JJ ){1,2}(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated23182
+Input: Token
+Rule: generated23182
+(
+((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn23182 --> :pttrn23182.extracted={}
+

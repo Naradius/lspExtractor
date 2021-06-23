@@ -1,0 +1,8 @@
+of untagged instances
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated82958
+Input: Token
+Rule: generated82958
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn82958 --> :pttrn82958.extracted={}
+

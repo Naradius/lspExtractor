@@ -1,0 +1,8 @@
+stabilize the signaling strength in order toolve the routing problem in multipath routing networks
+(VP (VB )(NP (DT )(JJ )(NN ))(PP (TO )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (JJ ){1,2}(NNS ))))))
+Phase: generated65909
+Input: Token
+Rule: generated65909
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NNS }))))))):pttrn65909 --> :pttrn65909.extracted={}
+

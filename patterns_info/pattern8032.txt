@@ -1,0 +1,8 @@
+be less conservative to reflect the smallerscope of a cluster rather than an entire network as in
+(VP (VB )(ADJP (RBR )(JJ )(VP (TO )(VP (VB )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(CONJP (RB )(IN )))))))
+Phase: generated8032
+Input: Token
+Rule: generated8032
+(
+(({ Token.category == VB })(({ Token.category == RBR })({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == RB })({ Token.category == IN })))))))):pttrn8032 --> :pttrn8032.extracted={}
+

@@ -1,0 +1,8 @@
+discuss existing standards for low-powerwireless sensor networks and show that current standardscannot respond to all application needs
+(VP (VP (VBP )(NP (NP (VBG )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS )))))(CC ))
+Phase: generated49454
+Input: Token
+Rule: generated49454
+(
+((({ Token.category == VBP })((({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))({ Token.category == CC }))):pttrn49454 --> :pttrn49454.extracted={}
+

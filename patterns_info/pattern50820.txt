@@ -1,0 +1,8 @@
+a virtual multiple-antenna transmitter
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated50820
+Input: Token
+Rule: generated50820
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn50820 --> :pttrn50820.extracted={}
+

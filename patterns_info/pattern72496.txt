@@ -1,0 +1,8 @@
+for the success of a typical knowledge miningprocess
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated72496
+Input: Token
+Rule: generated72496
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn72496 --> :pttrn72496.extracted={}
+

@@ -1,0 +1,8 @@
+with the tense and person existing in the seed question and the auxiliary inthe question
+(PP (IN )(NP (NP (DT )(NN )(CC )(NN ))(VP (VBG )(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (DT )(JJ ){1,2}(NN )))))))
+Phase: generated99898
+Input: Token
+Rule: generated99898
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })))))))):pttrn99898 --> :pttrn99898.extracted={}
+

@@ -1,0 +1,8 @@
+size andcommunicate untethered
+(NP (NN )(JJ ){1,2})
+Phase: generated45895
+Input: Token
+Rule: generated45895
+(
+(({ Token.category == NN })({ Token.category == JJ })+)):pttrn45895 --> :pttrn45895.extracted={}
+

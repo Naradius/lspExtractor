@@ -1,0 +1,8 @@
+retrieve the de-ails of nodes and neighbors from the OLSR through Protocol In-erface Table
+(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (NNS )(CC )(NNS ))))(PP (IN )(NP (DT )(NNP )))(PP (IN )(NP (NNP ){1,2}(NN ))))
+Phase: generated67096
+Input: Token
+Rule: generated67096
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))):pttrn67096 --> :pttrn67096.extracted={}
+

@@ -1,0 +1,8 @@
+inhis area include
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated60835
+Input: Token
+Rule: generated60835
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn60835 --> :pttrn60835.extracted={}
+

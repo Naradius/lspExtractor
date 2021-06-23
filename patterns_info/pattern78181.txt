@@ -1,0 +1,8 @@
+to identify less common lexico-syntacticpatterns in the long tail of all possible patterns that point toa relation.Effort and cost
+(VP (TO )(VP (VB )(NP (NP (ADJP (RBR )(JJ ))(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NNS )))(PP (IN )(NP (NN ){1,2}(CC )(NN ))))))))
+Phase: generated78181
+Input: Token
+Rule: generated78181
+(
+(({ Token.category == TO })(({ Token.category == VB })(((({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))))))):pttrn78181 --> :pttrn78181.extracted={}
+

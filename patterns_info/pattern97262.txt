@@ -1,0 +1,8 @@
+HMM and Brills POS Tagging Approaches
+(NP (NNP )(CC )(NNP ){1,2})
+Phase: generated97262
+Input: Token
+Rule: generated97262
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+)):pttrn97262 --> :pttrn97262.extracted={}
+

@@ -1,0 +1,8 @@
+an ad hoc eld REL V for the relative clause attached to the verb.Verb roots
+(NP (NP (DT )(NN )(JJ ){1,2}(NNP ){1,2})(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (TO )(NP (DT )(JJ )(NNS )))))))
+Phase: generated81777
+Input: Token
+Rule: generated81777
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NNP })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn81777 --> :pttrn81777.extracted={}
+

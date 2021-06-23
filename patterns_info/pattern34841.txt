@@ -1,0 +1,8 @@
+the data access mechanism
+(NP (DT )(NNS )(NN ){1,2})
+Phase: generated34841
+Input: Token
+Rule: generated34841
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+)):pttrn34841 --> :pttrn34841.extracted={}
+

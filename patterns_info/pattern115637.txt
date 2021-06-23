@@ -1,0 +1,8 @@
+much higher complexity
+(NP (ADJP (RB )(JJR ))(NN ))
+Phase: generated115637
+Input: Token
+Rule: generated115637
+(
+((({ Token.category == RB })({ Token.category == JJR }))({ Token.category == NN }))):pttrn115637 --> :pttrn115637.extracted={}
+

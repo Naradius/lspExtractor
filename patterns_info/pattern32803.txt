@@ -1,0 +1,8 @@
+as vs and vd
+(PP (IN )(NP (NN )(CC )(NN )))
+Phase: generated32803
+Input: Token
+Rule: generated32803
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn32803 --> :pttrn32803.extracted={}
+

@@ -1,0 +1,8 @@
+2535 sMessage
+(NP (CD )(NN ))
+Phase: generated42492
+Input: Token
+Rule: generated42492
+(
+(({ Token.category == CD })({ Token.category == NN }))):pttrn42492 --> :pttrn42492.extracted={}
+

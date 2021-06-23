@@ -1,0 +1,8 @@
+A. Martin-del Rey
+(NP (NN )(NNP ){1,2})
+Phase: generated31830
+Input: Token
+Rule: generated31830
+(
+(({ Token.category == NN })({ Token.category == NNP })+)):pttrn31830 --> :pttrn31830.extracted={}
+

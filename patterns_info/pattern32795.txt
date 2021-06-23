@@ -1,0 +1,8 @@
+can be regarded as an independent router
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))))
+Phase: generated32795
+Input: Token
+Rule: generated32795
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn32795 --> :pttrn32795.extracted={}
+

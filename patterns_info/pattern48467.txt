@@ -1,0 +1,8 @@
+related to the other layers and sensornetwork application areas
+(VP (VBN )(PP (TO )(NP (DT )(JJ )(NNS )(CC )(NN ){1,2}(NNS ))))
+Phase: generated48467
+Input: Token
+Rule: generated48467
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+({ Token.category == NNS }))))):pttrn48467 --> :pttrn48467.extracted={}
+

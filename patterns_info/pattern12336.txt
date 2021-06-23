@@ -1,0 +1,8 @@
+the network lifetime
+(NP (DT )(NN ){1,2})
+Phase: generated12336
+Input: Token
+Rule: generated12336
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn12336 --> :pttrn12336.extracted={}
+

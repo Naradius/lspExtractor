@@ -1,0 +1,8 @@
+like  found a single antecedent text unit
+(PP (IN )(VP (VBD )(NP (DT )(JJ ){1,2}(NN ){1,2})))
+Phase: generated89145
+Input: Token
+Rule: generated89145
+(
+(({ Token.category == IN })(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)))):pttrn89145 --> :pttrn89145.extracted={}
+

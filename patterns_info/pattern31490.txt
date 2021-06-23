@@ -1,0 +1,8 @@
+self-organized mapping-based method
+(NP (JJ ){1,2}(NN )){1,2}
+Phase: generated31490
+Input: Token
+Rule: generated31490
+(
+(({ Token.category == JJ })+({ Token.category == NN }))+):pttrn31490 --> :pttrn31490.extracted={}
+

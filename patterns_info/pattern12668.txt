@@ -1,0 +1,8 @@
+false  /ParseICCProfiles
+(NP (JJ )(NNS ))
+Phase: generated12668
+Input: Token
+Rule: generated12668
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn12668 --> :pttrn12668.extracted={}
+

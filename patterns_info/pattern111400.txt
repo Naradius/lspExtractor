@@ -1,0 +1,8 @@
+the communica-tion links
+(NP (DT )(NN )(NNS ))
+Phase: generated111400
+Input: Token
+Rule: generated111400
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn111400 --> :pttrn111400.extracted={}
+

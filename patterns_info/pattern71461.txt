@@ -1,0 +1,8 @@
+the event described in each sentence
+(NP (NP (DT )(NN ))(VP (VBD )(PP (IN )(NP (DT )(NN )))))
+Phase: generated71461
+Input: Token
+Rule: generated71461
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn71461 --> :pttrn71461.extracted={}
+

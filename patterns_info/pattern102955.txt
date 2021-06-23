@@ -1,0 +1,8 @@
+are total mappings
+(VP (VBP )(NP (JJ )(NNS )))
+Phase: generated102955
+Input: Token
+Rule: generated102955
+(
+(({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn102955 --> :pttrn102955.extracted={}
+

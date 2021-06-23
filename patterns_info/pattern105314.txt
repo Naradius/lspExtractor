@@ -1,0 +1,8 @@
+is an appropriate ASG for the ERdiagram of Fig. 1
+(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (NNP ){1,2}(CD )))))))
+Phase: generated105314
+Input: Token
+Rule: generated105314
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })))))))):pttrn105314 --> :pttrn105314.extracted={}
+

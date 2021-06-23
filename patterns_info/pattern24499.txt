@@ -1,0 +1,8 @@
+for future cognitive radio technology,in
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated24499
+Input: Token
+Rule: generated24499
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn24499 --> :pttrn24499.extracted={}
+

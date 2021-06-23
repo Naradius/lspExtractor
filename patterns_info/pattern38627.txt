@@ -1,0 +1,8 @@
+for knowledge-driven adaptable intrusion detection
+(PP (IN )(NP (JJ ){1,2}(NN ){1,2}))
+Phase: generated38627
+Input: Token
+Rule: generated38627
+(
+(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })+))):pttrn38627 --> :pttrn38627.extracted={}
+

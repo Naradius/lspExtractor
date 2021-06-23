@@ -1,0 +1,8 @@
+anomaly based detection
+(NP (DT )(VBN )(NN ))
+Phase: generated39692
+Input: Token
+Rule: generated39692
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn39692 --> :pttrn39692.extracted={}
+

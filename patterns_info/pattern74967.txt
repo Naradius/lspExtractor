@@ -1,0 +1,8 @@
+to extract a widerrange of spelling mistakes than would be possible with typicaledit distance metrics
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NN )(NNS ))(VP (MD )(VP (VB )(PP (IN )(NP (NN ){1,2}(NNS ))))))))))
+Phase: generated74967
+Input: Token
+Rule: generated74967
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))))))))):pttrn74967 --> :pttrn74967.extracted={}
+

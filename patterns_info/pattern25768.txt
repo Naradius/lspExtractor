@@ -1,0 +1,8 @@
+a scalable, comprehensive, flexible,ulti-hop and low power routing protocol
+(NP (NP (DT )(JJ ){1,2}(NN ))(CC )(NP (JJ )(NN ){1,2}))
+Phase: generated25768
+Input: Token
+Rule: generated25768
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn25768 --> :pttrn25768.extracted={}
+

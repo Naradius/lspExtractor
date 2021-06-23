@@ -1,0 +1,8 @@
+the computational and power capabilities
+(NP (DT )(JJ )(CC )(NN )(NNS ))
+Phase: generated51190
+Input: Token
+Rule: generated51190
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn51190 --> :pttrn51190.extracted={}
+

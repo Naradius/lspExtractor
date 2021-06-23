@@ -1,0 +1,8 @@
+the at-tention of many researchers in recent years
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated61676
+Input: Token
+Rule: generated61676
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn61676 --> :pttrn61676.extracted={}
+

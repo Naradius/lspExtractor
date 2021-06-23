@@ -1,0 +1,8 @@
+to a maximum length
+(PP (TO )(NP (DT )(JJ )(NN )))
+Phase: generated79632
+Input: Token
+Rule: generated79632
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn79632 --> :pttrn79632.extracted={}
+

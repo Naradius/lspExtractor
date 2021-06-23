@@ -1,0 +1,8 @@
+query submissions to thechosen search engine
+(NP (NP (NN )(NNS ))(PP (TO )(NP (DT )(NN ){1,2})))
+Phase: generated99143
+Input: Token
+Rule: generated99143
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn99143 --> :pttrn99143.extracted={}
+

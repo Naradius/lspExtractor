@@ -1,0 +1,8 @@
+are able to reach the sinkdirectly, and requires position knowledge to perform a pre-cise transceiver power control
+(VP (VP (VBP )(ADJP (JJ )(VP (TO )(VP (VB )(NP (DT )(RB ))))))(CC )(VP (VBZ )(VP (VBP )(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ){1,2}))))))
+Phase: generated6369
+Input: Token
+Rule: generated6369
+(
+((({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == RB }))))))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn6369 --> :pttrn6369.extracted={}
+

@@ -1,0 +1,8 @@
+of thebuilding temperature
+(PP (IN )(NP (DT )(NN )))
+Phase: generated31025
+Input: Token
+Rule: generated31025
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn31025 --> :pttrn31025.extracted={}
+

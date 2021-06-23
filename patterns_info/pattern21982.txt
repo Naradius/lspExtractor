@@ -1,0 +1,8 @@
+for the basestations
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated21982
+Input: Token
+Rule: generated21982
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn21982 --> :pttrn21982.extracted={}
+

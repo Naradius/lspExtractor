@@ -1,0 +1,8 @@
+the denotation
+(NP (DT )(NN ))
+Phase: generated71093
+Input: Token
+Rule: generated71093
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn71093 --> :pttrn71093.extracted={}
+

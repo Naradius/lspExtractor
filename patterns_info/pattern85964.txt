@@ -1,0 +1,8 @@
+false  /GrayImageAutoFilterStrategy /JPEG  /GrayACSImageDict <<    /QFactor 0.76    /HSamples  /VSamples
+(NP (JJ )(NN )(NNP ){1,2}(CD )(NNS ){1,2})
+Phase: generated85964
+Input: Token
+Rule: generated85964
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CD })({ Token.category == NNS })+)):pttrn85964 --> :pttrn85964.extracted={}
+

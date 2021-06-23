@@ -1,0 +1,8 @@
+seek to find as many sentences as possi-ble that contain mentions of at least two FREEBASE entities
+(VP (VBP )(VP (TO )(VP (VB )(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated76071
+Input: Token
+Rule: generated76071
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn76071 --> :pttrn76071.extracted={}
+

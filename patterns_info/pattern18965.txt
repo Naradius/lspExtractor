@@ -1,0 +1,8 @@
+sent to the owners phone
+(VP (VBN )(PP (TO )(NP (DT )(NNS )(NN ))))
+Phase: generated18965
+Input: Token
+Rule: generated18965
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))))):pttrn18965 --> :pttrn18965.extracted={}
+

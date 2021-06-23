@@ -1,0 +1,8 @@
+have used theclustering approach in which SNs communicate with the CHs andthen CHs communicate with the BS for data transfer
+(VP (VBP )(VP (VBN )(NP (NP (DT )(NN ))(VP (VB )(PP (IN )(NP (NP (DT )(NNP ))(PP (RB )(NP (NP (NNP )(NN ))(PP (IN )(NP (NP (DT )(NNP ))(PP (IN )(NP (NNS )(NN )))))))))))))
+Phase: generated57311
+Input: Token
+Rule: generated57311
+(
+(({ Token.category == VBP })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == RB })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN })))))))))))))):pttrn57311 --> :pttrn57311.extracted={}
+

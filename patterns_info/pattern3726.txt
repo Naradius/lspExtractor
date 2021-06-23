@@ -1,0 +1,8 @@
+are np clusters in the network
+(VP (VBP )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated3726
+Input: Token
+Rule: generated3726
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn3726 --> :pttrn3726.extracted={}
+

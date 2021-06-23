@@ -1,0 +1,8 @@
+mining syntactic parse trees
+(NP (NN ){1,2}(NNS ))
+Phase: generated116877
+Input: Token
+Rule: generated116877
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn116877 --> :pttrn116877.extracted={}
+

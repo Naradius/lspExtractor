@@ -1,0 +1,8 @@
+convenient places to persis-tently keep not only tables for reactive algorithms like AODVor proactive algorithms like OLSR and fisheye state routing
+(NP (NP (JJ )(NNS ))(VP (TO )(VP (VB )(NP (RB ){1,2}(NNS ))(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (NP (NNP )(JJ )(NNS ))(PP (IN )(NP (NNP )(CC )(NN ){1,2})))))))))
+Phase: generated16950
+Input: Token
+Rule: generated16950
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == RB })+({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })+)))))))))):pttrn16950 --> :pttrn16950.extracted={}
+

@@ -1,0 +1,8 @@
+have attempted to discover and categorize how the agents attitudes and communicative actions are related to each other in the case of computational simulation of human agents
+(VP (VBP )(VP (VBN )(VP (TO )(VP (CC )(VP (VB )(WHADVP (WRB )))))))
+Phase: generated118438
+Input: Token
+Rule: generated118438
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == WRB })))))))):pttrn118438 --> :pttrn118438.extracted={}
+

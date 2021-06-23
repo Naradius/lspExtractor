@@ -1,0 +1,8 @@
+this infrastructure
+(NP (DT )(NN ))
+Phase: generated78218
+Input: Token
+Rule: generated78218
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn78218 --> :pttrn78218.extracted={}
+

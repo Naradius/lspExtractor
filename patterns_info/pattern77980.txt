@@ -1,0 +1,8 @@
+a confidence measure to indicate how plau-sible an assignment relation to pattern is.2.5
+(NP (NP (DT )(NN ){1,2})(VP (TO )(VP (VB )(WHADVP (WRB )(JJ )))))
+Phase: generated77980
+Input: Token
+Rule: generated77980
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == WRB })({ Token.category == JJ })))))):pttrn77980 --> :pttrn77980.extracted={}
+

@@ -1,0 +1,8 @@
+the systemmodel.Section 4 presents the proposed power controlled routing scheme.Section 5 discusses the mathematical and game theoretic analysisof the proposed scheme
+(NP (NP (DT )(NN ){1,2})(NP (CD )(NNS ))(NP (NP (DT )(VBN )(NN ))(VP (VBN )(VP (VBZ )(NP (NP (DT )(JJ )(CC )(NN ))(ADJP (JJ )(PP (IN )(NP (DT )(VBN )(NN )))))))))
+Phase: generated21686
+Input: Token
+Rule: generated21686
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == CD })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))))))))):pttrn21686 --> :pttrn21686.extracted={}
+

@@ -1,0 +1,8 @@
+PoS taggerBeata MegyesiEric Brill introduced a PoS tagger in 1992 that was based on rules, or transformations as he callsthem, where the grammar is induced directly from the training corpus without human interventionor expert knowledge
+(NP (NP (NNP )(NNS ))(VP (VBD )(IN )(WHADVP (WRB ))))
+Phase: generated91032
+Input: Token
+Rule: generated91032
+(
+((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == VBD })({ Token.category == IN })(({ Token.category == WRB }))))):pttrn91032 --> :pttrn91032.extracted={}
+

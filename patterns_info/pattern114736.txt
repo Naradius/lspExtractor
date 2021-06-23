@@ -1,0 +1,8 @@
+subject to a conventional text processing flow such as sentence splitting, tokenizing, stemming, part-of-speech assignment, building of parse trees and coreferences assignment for each sentence
+(ADJP (JJ )(PP (TO )(NP (NP (DT )(JJ )(NN ){1,2})(PP (JJ )(IN )))))
+Phase: generated114736
+Input: Token
+Rule: generated114736
+(
+(({ Token.category == JJ })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })({ Token.category == IN })))))):pttrn114736 --> :pttrn114736.extracted={}
+

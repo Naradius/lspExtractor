@@ -1,0 +1,8 @@
+based routing provides optimal results by re-ducing the energy consumption and delay
+(VP (VBN )(VP (VBZ )(NP (JJ )(NNS ))(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2}(CC )(NN ))))))
+Phase: generated58912
+Input: Token
+Rule: generated58912
+(
+(({ Token.category == VBN })(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))))))):pttrn58912 --> :pttrn58912.extracted={}
+

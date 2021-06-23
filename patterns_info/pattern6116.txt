@@ -1,0 +1,8 @@
+biologically-inspired algorithms
+(NP (JJ )(NNS ))
+Phase: generated6116
+Input: Token
+Rule: generated6116
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn6116 --> :pttrn6116.extracted={}
+

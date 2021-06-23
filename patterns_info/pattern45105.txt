@@ -1,0 +1,8 @@
+by exploiting the redundancy and structureof the code to correct some of the transmissionerrors
+(PP (IN )(VP (VP (VBG )(NP (DT )(NN )))(CC )(VP (VBD )(NP (DT )(NN )))))
+Phase: generated45105
+Input: Token
+Rule: generated45105
+(
+(({ Token.category == IN })((({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })))))):pttrn45105 --> :pttrn45105.extracted={}
+

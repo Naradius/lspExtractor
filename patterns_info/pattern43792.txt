@@ -1,0 +1,8 @@
+two nodes, u and v
+(NP (NP (CD )(NNS ))(NP (NNP )(CC )(NN )))
+Phase: generated43792
+Input: Token
+Rule: generated43792
+(
+((({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NN })))):pttrn43792 --> :pttrn43792.extracted={}
+

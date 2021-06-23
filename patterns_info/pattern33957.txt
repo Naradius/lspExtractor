@@ -1,0 +1,8 @@
+to say that theproposed algorithm is practically effective
+(VP (TO )(VP (VB )(IN )))
+Phase: generated33957
+Input: Token
+Rule: generated33957
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == IN })))):pttrn33957 --> :pttrn33957.extracted={}
+

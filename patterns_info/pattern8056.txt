@@ -1,0 +1,8 @@
+adopted a simple routingmechanism in Greedy Routing Scheme   to con-trol the networks forwarding behavior
+(VP (VBD )(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(JJ )(NN )))))
+Phase: generated8056
+Input: Token
+Rule: generated8056
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == JJ })({ Token.category == NN })))))):pttrn8056 --> :pttrn8056.extracted={}
+

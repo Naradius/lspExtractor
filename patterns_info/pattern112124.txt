@@ -1,0 +1,8 @@
+of WLM analysis
+(PP (IN )(NP (NNP )(NN )))
+Phase: generated112124
+Input: Token
+Rule: generated112124
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))):pttrn112124 --> :pttrn112124.extracted={}
+

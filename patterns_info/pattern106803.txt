@@ -1,0 +1,8 @@
+two separate clas-sical stages
+(NP (CD )(JJ ){1,2}(NNS ))
+Phase: generated106803
+Input: Token
+Rule: generated106803
+(
+(({ Token.category == CD })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn106803 --> :pttrn106803.extracted={}
+

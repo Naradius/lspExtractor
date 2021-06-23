@@ -1,0 +1,8 @@
+be used as a cloud service consumer  or asa cloud service provider .In order to avoid multiple payment problems, in theblockchain technology of Bitcoin application
+(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}(CC )(NN ){1,2}))))
+Phase: generated34399
+Input: Token
+Rule: generated34399
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+))))):pttrn34399 --> :pttrn34399.extracted={}
+

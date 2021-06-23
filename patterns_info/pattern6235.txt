@@ -1,0 +1,8 @@
+designed toensure each cluster
+(VP (VBN )(PP (TO )(NP (DT )(NN ))))
+Phase: generated6235
+Input: Token
+Rule: generated6235
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn6235 --> :pttrn6235.extracted={}
+

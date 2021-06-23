@@ -1,0 +1,8 @@
+the sink node
+(NP (DT )(NN ){1,2})
+Phase: generated62620
+Input: Token
+Rule: generated62620
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn62620 --> :pttrn62620.extracted={}
+

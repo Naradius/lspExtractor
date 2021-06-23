@@ -1,0 +1,8 @@
+al.first
+(NP (DT )(NNP ))
+Phase: generated68511
+Input: Token
+Rule: generated68511
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn68511 --> :pttrn68511.extracted={}
+

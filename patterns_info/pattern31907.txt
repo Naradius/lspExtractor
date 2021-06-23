@@ -1,0 +1,8 @@
+on to the complex network
+(PP (IN )(PP (TO )(NP (DT )(JJ )(NN ))))
+Phase: generated31907
+Input: Token
+Rule: generated31907
+(
+(({ Token.category == IN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn31907 --> :pttrn31907.extracted={}
+

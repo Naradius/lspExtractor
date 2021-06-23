@@ -1,0 +1,8 @@
+event-based commonsense knowledge using lexico-syntactic pattern matching and semantic role labelingExpert Systems with Applications 37  341347Contents
+(NP (NP (JJ )(NN ){1,2})(VP (VBG )(NP (NP (JJ )(NN ){1,2})(CC ))))
+Phase: generated71419
+Input: Token
+Rule: generated71419
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC }))))):pttrn71419 --> :pttrn71419.extracted={}
+

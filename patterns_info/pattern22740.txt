@@ -1,0 +1,8 @@
+into domain specific route discovery
+(PP (IN )(NP (NN )(JJ )(NN ){1,2}))
+Phase: generated22740
+Input: Token
+Rule: generated22740
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+))):pttrn22740 --> :pttrn22740.extracted={}
+

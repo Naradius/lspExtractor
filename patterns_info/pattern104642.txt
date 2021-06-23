@@ -1,0 +1,8 @@
+excluded by already applied produc-tion instances
+(VP (VBN )(PP (IN )(VP (VBN )(NP (NN )(NNS )))))
+Phase: generated104642
+Input: Token
+Rule: generated104642
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn104642 --> :pttrn104642.extracted={}
+

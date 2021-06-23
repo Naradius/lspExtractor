@@ -1,0 +1,8 @@
+is the transportnetwork that includes, for example, the airport network, theR
+(VP (VBZ )(NP (DT )(NN ))(IN ))
+Phase: generated29138
+Input: Token
+Rule: generated29138
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))({ Token.category == IN }))):pttrn29138 --> :pttrn29138.extracted={}
+

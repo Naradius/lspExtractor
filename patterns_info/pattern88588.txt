@@ -1,0 +1,8 @@
+bothleft and right-hand side of the rule
+(NP (NP (NN )(CC )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated88588
+Input: Token
+Rule: generated88588
+(
+((({ Token.category == NN })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn88588 --> :pttrn88588.extracted={}
+

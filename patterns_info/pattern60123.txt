@@ -1,0 +1,8 @@
+the sensor node and theH
+(NP (DT )(NN ){1,2}(CC )(NN ))
+Phase: generated60123
+Input: Token
+Rule: generated60123
+(
+(({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN }))):pttrn60123 --> :pttrn60123.extracted={}
+

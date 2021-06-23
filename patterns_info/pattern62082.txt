@@ -1,0 +1,8 @@
+grids and rings
+(NP (NNS )(CC )(NNS ))
+Phase: generated62082
+Input: Token
+Rule: generated62082
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn62082 --> :pttrn62082.extracted={}
+

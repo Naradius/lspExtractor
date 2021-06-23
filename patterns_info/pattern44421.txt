@@ -1,0 +1,8 @@
+to re-place the cable between electronic user terminalswith RF links
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}(NNS ))))))
+Phase: generated44421
+Input: Token
+Rule: generated44421
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn44421 --> :pttrn44421.extracted={}
+

@@ -1,0 +1,8 @@
+enhance theetwork lifetime
+(VP (VB )(NP (DT )(NN )))
+Phase: generated61071
+Input: Token
+Rule: generated61071
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn61071 --> :pttrn61071.extracted={}
+

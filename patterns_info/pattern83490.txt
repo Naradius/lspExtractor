@@ -1,0 +1,8 @@
+TagEXTEND RULEBase 2 = Rule + terms
+(NP (NNP ){1,2}(CD )(SYM )(NNP )(JJS )(NNS ))
+Phase: generated83490
+Input: Token
+Rule: generated83490
+(
+(({ Token.category == NNP })+({ Token.category == CD })({ Token.category == SYM })({ Token.category == NNP })({ Token.category == JJS })({ Token.category == NNS }))):pttrn83490 --> :pttrn83490.extracted={}
+

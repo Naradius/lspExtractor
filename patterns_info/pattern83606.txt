@@ -1,0 +1,8 @@
+performanceon previously unseen instances
+(NP (DT )(ADJP (RB )(JJ ))(NNS ))
+Phase: generated83606
+Input: Token
+Rule: generated83606
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn83606 --> :pttrn83606.extracted={}
+

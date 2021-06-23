@@ -1,0 +1,8 @@
+false      /IncludeNonPrinting false      /IncludeSlug false      /Namespace       /OmitPlacedBitmaps false      /OmitPlacedEPS false      /OmitPlacedPDF false      /SimulateOverprint /Legacy    >>    <<
+(VP (VBG )(NP (JJ )(NN )(JJ )(NN )(NNS ))(NP (NP (NNP )(JJ )(NN )(JJ )(NN ){1,2})(PP (IN )(NP (JJ ){1,2}(NN )))))
+Phase: generated12723
+Input: Token
+Rule: generated12723
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })))))):pttrn12723 --> :pttrn12723.extracted={}
+

@@ -1,0 +1,8 @@
+manually annotated
+(ADJP (RB )(VBN ))
+Phase: generated91238
+Input: Token
+Rule: generated91238
+(
+(({ Token.category == RB })({ Token.category == VBN }))):pttrn91238 --> :pttrn91238.extracted={}
+

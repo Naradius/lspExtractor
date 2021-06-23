@@ -1,0 +1,8 @@
+the expected coverage of the SN
+(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (DT )(NNP ))))
+Phase: generated55941
+Input: Token
+Rule: generated55941
+(
+((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn55941 --> :pttrn55941.extracted={}
+

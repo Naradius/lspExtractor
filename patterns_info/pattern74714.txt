@@ -1,0 +1,8 @@
+a seedpattern
+(NP (DT )(NN ))
+Phase: generated74714
+Input: Token
+Rule: generated74714
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn74714 --> :pttrn74714.extracted={}
+

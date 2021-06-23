@@ -1,0 +1,8 @@
+"learns" relationships between words and phrasesautomatically from sample documents and visually guides you to construct searches
+(VP (VBZ )(NP (NP (JJ )(NNS ))(PP (IN )(NP (CC )(RB )(PP (IN )(NP (NP (NN )(NNS ))(CC )))))))
+Phase: generated77219
+Input: Token
+Rule: generated77219
+(
+(({ Token.category == VBZ })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CC })({ Token.category == RB })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })))))))):pttrn77219 --> :pttrn77219.extracted={}
+

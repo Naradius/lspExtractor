@@ -1,0 +1,8 @@
+used fuzzy logic for handlinghe uncertainty issue in many applications
+(VP (VBN )(NP (JJ )(NN ))(PP (IN )(NP (NP (JJR )(NN ){1,2})(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated61103
+Input: Token
+Rule: generated61103
+(
+(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn61103 --> :pttrn61103.extracted={}
+

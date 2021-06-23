@@ -1,0 +1,8 @@
+representing visual language sentencesand for defining their syntax
+(VP (VBG )(NP (NP (JJ )(NN ){1,2})(PP (IN )(VP (VBG )(NP (PRP$ )(NN ))))))
+Phase: generated104757
+Input: Token
+Rule: generated104757
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == NN }))))))):pttrn104757 --> :pttrn104757.extracted={}
+

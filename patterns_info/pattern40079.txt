@@ -1,0 +1,8 @@
+Ehi 2 DEPEND
+(NP (NNP )(CD )(NNP ))
+Phase: generated40079
+Input: Token
+Rule: generated40079
+(
+(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP }))):pttrn40079 --> :pttrn40079.extracted={}
+

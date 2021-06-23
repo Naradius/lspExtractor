@@ -1,0 +1,8 @@
+by up to 28% and 69%
+(PP (IN )(NP (NP (QP (RB )(TO )(CD ))(NN ))(CC )(NP (CD )(NN ))))
+Phase: generated28605
+Input: Token
+Rule: generated28605
+(
+(({ Token.category == IN })(((({ Token.category == RB })({ Token.category == TO })({ Token.category == CD }))({ Token.category == NN }))({ Token.category == CC })(({ Token.category == CD })({ Token.category == NN }))))):pttrn28605 --> :pttrn28605.extracted={}
+

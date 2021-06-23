@@ -1,0 +1,8 @@
+the attack
+(NP (DT )(NN ))
+Phase: generated111610
+Input: Token
+Rule: generated111610
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn111610 --> :pttrn111610.extracted={}
+

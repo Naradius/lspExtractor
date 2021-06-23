@@ -1,0 +1,8 @@
+our approach, MUSE  em-ploys
+(NP (NP (PRP$ )(NN ))(NP (NNP )(NNS )))
+Phase: generated92502
+Input: Token
+Rule: generated92502
+(
+((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == NNS })))):pttrn92502 --> :pttrn92502.extracted={}
+

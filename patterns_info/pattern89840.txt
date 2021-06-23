@@ -1,0 +1,8 @@
+rather than current capabilities of the Cafetiere system
+(PP (RB )(IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NNP )(NN )))))
+Phase: generated89840
+Input: Token
+Rule: generated89840
+(
+(({ Token.category == RB })({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))))):pttrn89840 --> :pttrn89840.extracted={}
+

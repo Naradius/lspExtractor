@@ -1,0 +1,8 @@
+on the Her-mes Information Extraction Language
+(PP (IN )(NP (DT )(NNP ){1,2}))
+Phase: generated94545
+Input: Token
+Rule: generated94545
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn94545 --> :pttrn94545.extracted={}
+

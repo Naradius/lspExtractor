@@ -1,0 +1,8 @@
+the underlying forwarding strategy
+(NP (DT )(VBG )(JJ )(NN ))
+Phase: generated17942
+Input: Token
+Rule: generated17942
+(
+(({ Token.category == DT })({ Token.category == VBG })({ Token.category == JJ })({ Token.category == NN }))):pttrn17942 --> :pttrn17942.extracted={}
+

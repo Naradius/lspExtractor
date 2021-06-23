@@ -1,0 +1,8 @@
+the effects
+(NP (DT )(NNS ))
+Phase: generated4452
+Input: Token
+Rule: generated4452
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn4452 --> :pttrn4452.extracted={}
+

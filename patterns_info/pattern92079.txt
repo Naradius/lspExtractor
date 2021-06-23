@@ -1,0 +1,8 @@
+be rec-ognizable with little or no pre-encoded knowledge.Furthermore
+(VP (VB )(ADJP (JJ )(PP (IN )(NP (JJ )(CC )(DT )(JJ )(NN ){1,2}))))
+Phase: generated92079
+Input: Token
+Rule: generated92079
+(
+(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn92079 --> :pttrn92079.extracted={}
+

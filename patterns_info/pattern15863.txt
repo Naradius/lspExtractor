@@ -1,0 +1,8 @@
+the IP address of PN 2
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NNP )(CD ))))
+Phase: generated15863
+Input: Token
+Rule: generated15863
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD }))))):pttrn15863 --> :pttrn15863.extracted={}
+

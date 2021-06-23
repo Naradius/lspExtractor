@@ -1,0 +1,8 @@
+of the agent data structure
+(PP (IN )(NP (DT )(NN )(NNS )(NN )))
+Phase: generated33252
+Input: Token
+Rule: generated33252
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })))):pttrn33252 --> :pttrn33252.extracted={}
+

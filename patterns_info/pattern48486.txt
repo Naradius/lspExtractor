@@ -1,0 +1,8 @@
+of the lower layers
+(PP (IN )(NP (DT )(JJR )(NNS )))
+Phase: generated48486
+Input: Token
+Rule: generated48486
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NNS })))):pttrn48486 --> :pttrn48486.extracted={}
+

@@ -1,0 +1,8 @@
+on a illegally captured drone
+(PP (IN )(NP (DT )(RB )(VBN )(NN )))
+Phase: generated109742
+Input: Token
+Rule: generated109742
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == RB })({ Token.category == VBN })({ Token.category == NN })))):pttrn109742 --> :pttrn109742.extracted={}
+

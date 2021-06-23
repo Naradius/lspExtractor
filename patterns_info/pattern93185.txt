@@ -1,0 +1,8 @@
+These parts and their individual componentsare
+(NP (NP (DT )(NNS ))(CC )(NP (PRP$ )(JJ )(NN )))
+Phase: generated93185
+Input: Token
+Rule: generated93185
+(
+((({ Token.category == DT })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))):pttrn93185 --> :pttrn93185.extracted={}
+

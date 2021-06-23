@@ -1,0 +1,8 @@
+re-sorted relevance /for Bing	Standard Deviation For the relevancy improvement	3-4 word phrases	1 sentence	87.9	88.3	90.3	1.016	0.0054		2 sentences	83.7	81.8	84.2	0.992	0.0048		3 sentences	79.9	79.5	80.7	1.003	0.0056		Average	83.83	83.20	85.07	1.00		5-10 word phrases to a sentence	1 sentence	82.9	84.5	84.4	1.019	0.0061		2 sentences	79.5	83.1	83.7	1.049	0.006		3 sentences	77.5	82.2	83.2	1.067	0.0065		Average	79.97	83.27	83.77	1.04		2 sentences, and in each:	1 sentence	66.3	69.5	70.8	1.058	0.0052		2 sentences	65.2	71	70.5	1.085	0.0061		3 sentences	65.4	70.2	70.9	1.079	0.0058		Average	65.63	70.23	70.73	1.07		3 sentences, and in each:	1 sentence	62.1	67.3	68.1	1.090	0.0046		2 sentences	60.4	65	65.4	1.079	0.0054		3 sentences	59.9	64.7	64.2	1.076	0.0048		Average	60.80	65.67	65.90	1.08	    We did not find a significant correlation between a query type, phrase type, and search performance with and without syntactic generalization for these types of phrases
+(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (NNP ){1,2}(NN ))))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated115238
+Input: Token
+Rule: generated115238
+(
+(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn115238 --> :pttrn115238.extracted={}
+

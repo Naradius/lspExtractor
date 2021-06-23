@@ -1,0 +1,8 @@
+The maximum energy consumed by the proposedapproach
+(NP (NP (DT )(JJ )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated11846
+Input: Token
+Rule: generated11846
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn11846 --> :pttrn11846.extracted={}
+

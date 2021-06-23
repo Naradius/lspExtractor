@@ -1,0 +1,8 @@
+betweenthe two reference points
+(PP (IN )(NP (CD )(NN )(NNS )))
+Phase: generated32664
+Input: Token
+Rule: generated32664
+(
+(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS })))):pttrn32664 --> :pttrn32664.extracted={}
+

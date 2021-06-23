@@ -1,0 +1,8 @@
+consist of 26 lexical tags
+(VP (VBP )(PP (IN )(NP (CD )(JJ )(NNS ))))
+Phase: generated96868
+Input: Token
+Rule: generated96868
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn96868 --> :pttrn96868.extracted={}
+

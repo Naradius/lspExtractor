@@ -1,0 +1,8 @@
+allowed in IoT devices and hence the formation ofules for mobility management
+(VP (VP (VBN )(PP (IN )(NP (NNP )(NNS ))))(CC ))
+Phase: generated60539
+Input: Token
+Rule: generated60539
+(
+((({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))({ Token.category == CC }))):pttrn60539 --> :pttrn60539.extracted={}
+

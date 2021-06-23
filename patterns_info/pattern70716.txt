@@ -1,0 +1,8 @@
+explanation based learning and inductive logic programming
+(NP (CC )(NP (JJ )(NN ){1,2}))
+Phase: generated70716
+Input: Token
+Rule: generated70716
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn70716 --> :pttrn70716.extracted={}
+

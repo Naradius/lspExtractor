@@ -1,0 +1,8 @@
+will consider 1 and M as the minimum andmaximum numbers of backups that the VaNetLayer attemptsto have
+(VP (MD )(VP (VB )(NP (CD )(CC )(NNP ))))
+Phase: generated15204
+Input: Token
+Rule: generated15204
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == CD })({ Token.category == CC })({ Token.category == NNP }))))):pttrn15204 --> :pttrn15204.extracted={}
+

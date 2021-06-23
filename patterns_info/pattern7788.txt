@@ -1,0 +1,8 @@
+to resort to direct transmissions towards the sink
+(VP (TO )(VP (VB )(PP (TO )(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated7788
+Input: Token
+Rule: generated7788
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn7788 --> :pttrn7788.extracted={}
+

@@ -1,0 +1,8 @@
+may be equipped witheffective power scavenging methods
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (NN ){1,2}(NNS ))))))
+Phase: generated46333
+Input: Token
+Rule: generated46333
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn46333 --> :pttrn46333.extracted={}
+

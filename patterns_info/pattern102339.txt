@@ -1,0 +1,8 @@
+is restricted to the case ofrelational structures, where relationships of the same type define partial orders.Finally, the approach of Ferrucci et al.  with so-called 1NS-RG grammars is a transla-tion of the graph grammar approach of Rozenberg/Welzl  into the terminology of relationalgrammars
+(VP (VBZ )(VP (VBN )(PP (TO )(NP (DT )(NN )))))
+Phase: generated102339
+Input: Token
+Rule: generated102339
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))):pttrn102339 --> :pttrn102339.extracted={}
+

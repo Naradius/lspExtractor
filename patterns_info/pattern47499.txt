@@ -1,0 +1,8 @@
+in the interior of a large machinery
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated47499
+Input: Token
+Rule: generated47499
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn47499 --> :pttrn47499.extracted={}
+

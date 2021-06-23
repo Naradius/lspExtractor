@@ -1,0 +1,8 @@
+t  a  e  l  c  fi  t  N  l  p  R  tR  W  t  s  s  r  a  R  l  d  w  t  t  a  m  p  tR  3 i  d  t  r  t  a  t  w  t  v  o  n  b  r M  w  p  m  b  t  t  p  b  n  m  I  o  [  t  iP   o  p  s  i  fi  l  P  r  e  t  L r  I  a  a  s  e  t  b3 (  0  u  t  f  v  c  f l  d  (  (  t  s       f more comprehensive OFs and routing metrics, which can meethe emerging IoT applications requirements , is still an open research area
+(PP (IN )(NP (NP (NP (DT )(NN ){1,2})(JJ )(NN ))(NP (NNP )(NN ){1,2}(NNP )(NN ))))
+Phase: generated26411
+Input: Token
+Rule: generated26411
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NNP })({ Token.category == NN })+({ Token.category == NNP })({ Token.category == NN }))))):pttrn26411 --> :pttrn26411.extracted={}
+

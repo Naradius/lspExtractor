@@ -1,0 +1,8 @@
+the ant
+(NP (DT )(JJ ))
+Phase: generated6942
+Input: Token
+Rule: generated6942
+(
+(({ Token.category == DT })({ Token.category == JJ }))):pttrn6942 --> :pttrn6942.extracted={}
+

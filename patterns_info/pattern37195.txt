@@ -1,0 +1,8 @@
+a secret sharing mechanism.In
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated37195
+Input: Token
+Rule: generated37195
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn37195 --> :pttrn37195.extracted={}
+

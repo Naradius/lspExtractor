@@ -1,0 +1,8 @@
+as alanguage-based dimensionality reduction method
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated86708
+Input: Token
+Rule: generated86708
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn86708 --> :pttrn86708.extracted={}
+

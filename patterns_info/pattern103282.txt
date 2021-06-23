@@ -1,0 +1,8 @@
+Layered Graph Grammars and Their LanguagesThe above definitions of a graph grammar and its language
+(NP (NP (JJ )(NNP ){1,2})(CC ))
+Phase: generated103282
+Input: Token
+Rule: generated103282
+(
+((({ Token.category == JJ })({ Token.category == NNP })+)({ Token.category == CC }))):pttrn103282 --> :pttrn103282.extracted={}
+

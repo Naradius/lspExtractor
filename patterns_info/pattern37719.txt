@@ -1,0 +1,8 @@
+the power consumption of the intrusion detection sys-tem
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated37719
+Input: Token
+Rule: generated37719
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn37719 --> :pttrn37719.extracted={}
+

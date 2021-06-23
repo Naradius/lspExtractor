@@ -1,0 +1,8 @@
+route iden-ification rreq, initial selection phase, secure monitors selectionor multiple channels, on-demand route maintenance, and secureransmission, aggregated monitor report generation and updates
+(NP (NP (JJ )(NN ){1,2})(NP (NP (NN )(NNS ))(NP (JJ ){1,2}(NNS ))(CC ))(CC )(NP (NP (JJ )(NN ){1,2})(CC )))
+Phase: generated66950
+Input: Token
+Rule: generated66950
+(
+((({ Token.category == JJ })({ Token.category == NN })+)((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })+({ Token.category == NNS }))({ Token.category == CC }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })))):pttrn66950 --> :pttrn66950.extracted={}
+

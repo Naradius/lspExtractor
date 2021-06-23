@@ -1,0 +1,8 @@
+Cyber-Physical Systems
+(NP (JJ )(NNP ))
+Phase: generated38887
+Input: Token
+Rule: generated38887
+(
+(({ Token.category == JJ })({ Token.category == NNP }))):pttrn38887 --> :pttrn38887.extracted={}
+

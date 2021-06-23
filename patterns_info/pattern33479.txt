@@ -1,0 +1,8 @@
+are builtin the routing table
+(VP (VBP )(VP (VBG )(NP (DT )(NN ){1,2})))
+Phase: generated33479
+Input: Token
+Rule: generated33479
+(
+(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn33479 --> :pttrn33479.extracted={}
+

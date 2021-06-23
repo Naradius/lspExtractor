@@ -1,0 +1,8 @@
+more often
+(ADVP (RBR )(RB ))
+Phase: generated16358
+Input: Token
+Rule: generated16358
+(
+(({ Token.category == RBR })({ Token.category == RB }))):pttrn16358 --> :pttrn16358.extracted={}
+

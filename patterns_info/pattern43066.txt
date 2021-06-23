@@ -1,0 +1,8 @@
+for each protocol considered in this work
+(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated43066
+Input: Token
+Rule: generated43066
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn43066 --> :pttrn43066.extracted={}
+

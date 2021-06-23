@@ -1,0 +1,8 @@
+a string of the class Nghbr, which it binds to the rst slot
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN )(NNP ))(VP (VBZ )(PP (TO )(NP (DT )(JJ )(NN )))))))
+Phase: generated83207
+Input: Token
+Rule: generated83207
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn83207 --> :pttrn83207.extracted={}
+

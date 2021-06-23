@@ -1,0 +1,8 @@
+at the granularityof syntactic elds.37CRYSTAL
+(PP (IN )(NP (DT )(NN ){1,2}(NNS )(NN )))
+Phase: generated80327
+Input: Token
+Rule: generated80327
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS })({ Token.category == NN })))):pttrn80327 --> :pttrn80327.extracted={}
+

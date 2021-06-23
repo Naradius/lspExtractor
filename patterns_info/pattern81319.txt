@@ -1,0 +1,8 @@
+my thanks to the helpful feedback from Ray Mooney, ClaireCardie, and the anonymous reviewers
+(NP (NP (NP (PRP$ )(NNS ))(PP (TO )(NP (DT )(JJ )(NN ))))(PP (IN )(NP (CC )(NP (DT )(JJ )(NNS )))))
+Phase: generated81319
+Input: Token
+Rule: generated81319
+(
+(((({ Token.category == PRP$ })({ Token.category == NNS }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn81319 --> :pttrn81319.extracted={}
+

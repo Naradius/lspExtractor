@@ -1,0 +1,8 @@
+with the label of the vertex shared by 22,efin
+(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (CD )(NN ))))))))
+Phase: generated114573
+Input: Token
+Rule: generated114573
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))))))):pttrn114573 --> :pttrn114573.extracted={}
+

@@ -1,0 +1,8 @@
+an efficient protocol
+(NP (DT )(JJ )(NN ))
+Phase: generated921
+Input: Token
+Rule: generated921
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn921 --> :pttrn921.extracted={}
+

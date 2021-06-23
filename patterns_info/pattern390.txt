@@ -1,0 +1,8 @@
+the messages
+(NP (DT )(NNS ))
+Phase: generated390
+Input: Token
+Rule: generated390
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn390 --> :pttrn390.extracted={}
+

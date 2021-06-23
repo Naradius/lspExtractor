@@ -1,0 +1,8 @@
+each layer
+(NP (DT )(NN ))
+Phase: generated29288
+Input: Token
+Rule: generated29288
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn29288 --> :pttrn29288.extracted={}
+

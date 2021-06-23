@@ -1,0 +1,8 @@
+showed the SpEED-IoT performance in terms ofensuring IoT network connectivity, end-to-end data rate optimiza-tion, primary receiver protection, and route assignment fairness.As part of future work
+(VP (VBD )(NP (DT )(JJ )(NN )))
+Phase: generated24456
+Input: Token
+Rule: generated24456
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn24456 --> :pttrn24456.extracted={}
+

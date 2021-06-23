@@ -1,0 +1,8 @@
+hasto receive and aggregate data messages linear in n duringthe steady state phase
+(VP (VBP )(NP (ADJP (JJ )(CC )(JJ ))(NNS ){1,2}(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))
+Phase: generated4010
+Input: Token
+Rule: generated4010
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn4010 --> :pttrn4010.extracted={}
+

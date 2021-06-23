@@ -1,0 +1,8 @@
+such as obtained funds are used for something and no such statement is made, account type transfer and 170refinancing, and many more
+(NP (JJ )(IN )(NP (CC )(NP (JJ )(JJR ))))
+Phase: generated71074
+Input: Token
+Rule: generated71074
+(
+(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == JJR }))))):pttrn71074 --> :pttrn71074.extracted={}
+

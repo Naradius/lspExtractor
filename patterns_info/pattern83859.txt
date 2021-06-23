@@ -1,0 +1,8 @@
+to ndwhen relevant information is sparse
+(VP (TO )(VP (VB )(NP (JJ )(NN ))))
+Phase: generated83859
+Input: Token
+Rule: generated83859
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn83859 --> :pttrn83859.extracted={}
+

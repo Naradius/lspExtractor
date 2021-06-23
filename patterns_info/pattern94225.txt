@@ -1,0 +1,8 @@
+lexicographic and orthographic
+(ADJP (JJ )(CC )(JJ ))
+Phase: generated94225
+Input: Token
+Rule: generated94225
+(
+(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn94225 --> :pttrn94225.extracted={}
+

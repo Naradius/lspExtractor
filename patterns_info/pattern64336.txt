@@ -1,0 +1,8 @@
+the lions
+(NP (DT )(NNS ))
+Phase: generated64336
+Input: Token
+Rule: generated64336
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn64336 --> :pttrn64336.extracted={}
+

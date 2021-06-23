@@ -1,0 +1,8 @@
+for WSNs.Relay node placement
+(PP (IN )(NP (NNP )(NN ){1,2}))
+Phase: generated51556
+Input: Token
+Rule: generated51556
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })+))):pttrn51556 --> :pttrn51556.extracted={}
+

@@ -1,0 +1,8 @@
+2 or more text spans, each of which has the same weight in the discourse structure
+(NP (NP (CD )(CC )(JJR )(NN )(NNS ))(VP (VBZ )(NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated118120
+Input: Token
+Rule: generated118120
+(
+((({ Token.category == CD })({ Token.category == CC })({ Token.category == JJR })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn118120 --> :pttrn118120.extracted={}
+

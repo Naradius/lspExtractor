@@ -1,0 +1,8 @@
+are computed based on scope tokens
+(VP (VBP )(VP (VBN )(PP (VBN )(PP (IN )(NP (NN )(NNS ))))))
+Phase: generated95845
+Input: Token
+Rule: generated95845
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))):pttrn95845 --> :pttrn95845.extracted={}
+

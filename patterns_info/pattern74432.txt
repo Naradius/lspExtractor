@@ -1,0 +1,8 @@
+a phrase p for the label DT isweightp;DT Pti1 nump
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN )(NNP ))(CC )(NP (NNP )(NN )))))
+Phase: generated74432
+Input: Token
+Rule: generated74432
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn74432 --> :pttrn74432.extracted={}
+

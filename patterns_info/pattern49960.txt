@@ -1,0 +1,8 @@
+an efficient service differentiationmechanism
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated49960
+Input: Token
+Rule: generated49960
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn49960 --> :pttrn49960.extracted={}
+

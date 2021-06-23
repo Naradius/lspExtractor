@@ -1,0 +1,8 @@
+an important pa-ameter
+(NP (DT )(JJ )(NN ))
+Phase: generated58838
+Input: Token
+Rule: generated58838
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn58838 --> :pttrn58838.extracted={}
+

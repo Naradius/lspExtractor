@@ -1,0 +1,8 @@
+the valuessed for this simulation
+(NP (NP (DT )(VBN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated59789
+Input: Token
+Rule: generated59789
+(
+((({ Token.category == DT })({ Token.category == VBN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn59789 --> :pttrn59789.extracted={}
+

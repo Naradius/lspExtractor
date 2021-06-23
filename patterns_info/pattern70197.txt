@@ -1,0 +1,8 @@
+resultant form  predicate1 &  predicate2
+(NP (NP (JJ )(NN ))(CC ))
+Phase: generated70197
+Input: Token
+Rule: generated70197
+(
+((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC }))):pttrn70197 --> :pttrn70197.extracted={}
+

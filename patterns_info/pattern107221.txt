@@ -1,0 +1,8 @@
+are transferred to an exact destination
+(VP (VBP )(VP (VBN )(PP (TO )(NP (DT )(JJ )(NN )))))
+Phase: generated107221
+Input: Token
+Rule: generated107221
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn107221 --> :pttrn107221.extracted={}
+

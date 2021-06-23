@@ -1,0 +1,8 @@
+Clustering moduleTemperature data collected by the IoT network of the smartbuilding
+(NP (NP (NNP )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (NP (DT )(NNP )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated32000
+Input: Token
+Rule: generated32000
+(
+((({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn32000 --> :pttrn32000.extracted={}
+

@@ -1,0 +1,8 @@
+went out to play in the yard	Relative clauses
+(VP (VBD )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN )(JJ )(NNS ))))))
+Phase: generated113194
+Input: Token
+Rule: generated113194
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn113194 --> :pttrn113194.extracted={}
+

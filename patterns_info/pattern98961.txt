@@ -1,0 +1,8 @@
+to create seed/validation pairs from the given set of Q/A pairs, THE-MENTOR performsthree steps
+(VP (TO )(VP (VB )(NP (NN )(NNS ))(PP (IN )(NP (NP (DT )(VBN )(NN ))(PP (IN )(NP (NP (NNP )(NNS ))(NP (JJ )(NNS ){1,2})))))))
+Phase: generated98961
+Input: Token
+Rule: generated98961
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNS })+)))))))):pttrn98961 --> :pttrn98961.extracted={}
+

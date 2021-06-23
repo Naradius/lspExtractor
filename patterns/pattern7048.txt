@@ -1,0 +1,6 @@
+Phase: generated7048
+Input: Token
+Rule: generated7048
+(
+((({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NNP }))({ Token.category == CC }))))))({ Token.category == CC })(({ Token.category == VBD })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))))):pttrn7048 --> :pttrn7048.extracted={}
+

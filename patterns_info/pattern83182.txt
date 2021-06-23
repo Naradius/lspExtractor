@@ -1,0 +1,8 @@
+this slot
+(NP (DT )(NN ))
+Phase: generated83182
+Input: Token
+Rule: generated83182
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn83182 --> :pttrn83182.extracted={}
+

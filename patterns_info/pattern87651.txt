@@ -1,0 +1,8 @@
+addedto the data structure representing the text units features
+(VP (VBG )(NP (NP (DT )(NNS )(NN ))(VP (VBG )(NP (DT )(NN )(NNS ){1,2}))))
+Phase: generated87651
+Input: Token
+Rule: generated87651
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })+))))):pttrn87651 --> :pttrn87651.extracted={}
+

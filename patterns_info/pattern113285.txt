@@ -1,0 +1,8 @@
+can be merged with the latter
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated113285
+Input: Token
+Rule: generated113285
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn113285 --> :pttrn113285.extracted={}
+

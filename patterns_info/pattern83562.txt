@@ -1,0 +1,8 @@
+willtend to have lower coverage on unseen instances
+(VP (MD )(VP (TO )(VP (VB )(NP (JJR )(NN ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated83562
+Input: Token
+Rule: generated83562
+(
+(({ Token.category == MD })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn83562 --> :pttrn83562.extracted={}
+

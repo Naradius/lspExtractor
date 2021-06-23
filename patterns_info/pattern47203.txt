@@ -1,0 +1,8 @@
+to provide long operating life
+(VP (TO )(VP (VB )(NP (JJ )(NN ){1,2})))
+Phase: generated47203
+Input: Token
+Rule: generated47203
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn47203 --> :pttrn47203.extracted={}
+

@@ -1,0 +1,8 @@
+remedyof the situation is multihop data transmission between CHs and BS.Multihop transmission can use parallel transmission to reducethe delay and improve energy consumption
+(VP (VBD )(NP (DT )(NN )))
+Phase: generated55494
+Input: Token
+Rule: generated55494
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })))):pttrn55494 --> :pttrn55494.extracted={}
+

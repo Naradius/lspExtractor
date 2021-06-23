@@ -1,0 +1,8 @@
+the basic communication rules
+(NP (DT )(JJ )(NN )(NNS ))
+Phase: generated13323
+Input: Token
+Rule: generated13323
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn13323 --> :pttrn13323.extracted={}
+

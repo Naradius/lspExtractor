@@ -1,0 +1,8 @@
+of comprehensive evaluations
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated25503
+Input: Token
+Rule: generated25503
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn25503 --> :pttrn25503.extracted={}
+

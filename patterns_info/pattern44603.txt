@@ -1,0 +1,8 @@
+their neighbors
+(NP (PRP$ )(NNS ))
+Phase: generated44603
+Input: Token
+Rule: generated44603
+(
+(({ Token.category == PRP$ })({ Token.category == NNS }))):pttrn44603 --> :pttrn44603.extracted={}
+

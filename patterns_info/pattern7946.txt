@@ -1,0 +1,8 @@
+the occasionalbeaconing by the sink and the cluster setup phase
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN ){1,2}))))
+Phase: generated7946
+Input: Token
+Rule: generated7946
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn7946 --> :pttrn7946.extracted={}
+

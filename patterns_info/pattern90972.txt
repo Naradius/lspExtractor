@@ -1,0 +1,8 @@
+is of the form word/tag
+(VP (VBZ )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated90972
+Input: Token
+Rule: generated90972
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn90972 --> :pttrn90972.extracted={}
+

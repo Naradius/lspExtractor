@@ -1,0 +1,8 @@
+are now interested in the delivery delay.Fig
+(VP (VBP )(ADJP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated42643
+Input: Token
+Rule: generated42643
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn42643 --> :pttrn42643.extracted={}
+

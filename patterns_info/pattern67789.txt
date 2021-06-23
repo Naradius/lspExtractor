@@ -1,0 +1,8 @@
+IEEE Communi-cation Surveys 10
+(NP (NNP ){1,2}(CD ))
+Phase: generated67789
+Input: Token
+Rule: generated67789
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn67789 --> :pttrn67789.extracted={}
+

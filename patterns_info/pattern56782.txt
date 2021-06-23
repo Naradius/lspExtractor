@@ -1,0 +1,8 @@
+to adapt to event-driven data delivery and mobilenodes
+(VP (TO )(VP (VB )(PP (TO )(NP (JJ )(NNS )(NN )(CC )(NNS )))))
+Phase: generated56782
+Input: Token
+Rule: generated56782
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })))))):pttrn56782 --> :pttrn56782.extracted={}
+

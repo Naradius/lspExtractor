@@ -1,0 +1,8 @@
+in large scale or dense WSNs
+(PP (IN )(NP (NP (JJ )(NN ))(CC )(NP (JJ )(NNP ))))
+Phase: generated66393
+Input: Token
+Rule: generated66393
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNP }))))):pttrn66393 --> :pttrn66393.extracted={}
+

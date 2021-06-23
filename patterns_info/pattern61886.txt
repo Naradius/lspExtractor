@@ -1,0 +1,8 @@
+the flooding area
+(NP (DT )(NN ){1,2})
+Phase: generated61886
+Input: Token
+Rule: generated61886
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn61886 --> :pttrn61886.extracted={}
+

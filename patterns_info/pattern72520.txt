@@ -1,0 +1,8 @@
+of,obvious lexico-syntactic patterns that potentially identify thecapability of the subject at least
+(PP (IN )(NP (NP (JJ ){1,2}(NNS ))(VP (VBP )(ADVP (IN )(JJS )))))
+Phase: generated72520
+Input: Token
+Rule: generated72520
+(
+(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == IN })({ Token.category == JJS })))))):pttrn72520 --> :pttrn72520.extracted={}
+

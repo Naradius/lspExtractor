@@ -1,0 +1,8 @@
+applied to natural language corpora,i.e., lexico-syntactic patterns and lexico-semanticpatterns
+(VP (VBN )(PP (TO )(NP (JJ )(NN ){1,2})))
+Phase: generated95315
+Input: Token
+Rule: generated95315
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn95315 --> :pttrn95315.extracted={}
+

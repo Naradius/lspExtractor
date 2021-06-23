@@ -1,0 +1,8 @@
+in smart vehicles
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated25159
+Input: Token
+Rule: generated25159
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn25159 --> :pttrn25159.extracted={}
+

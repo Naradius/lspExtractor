@@ -1,0 +1,8 @@
+energy bysending data
+(NP (NN ){1,2}(NNS ))
+Phase: generated43967
+Input: Token
+Rule: generated43967
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn43967 --> :pttrn43967.extracted={}
+

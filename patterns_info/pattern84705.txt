@@ -1,0 +1,8 @@
+at an average of 73% from 25 instances
+(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NN ))))(PP (IN )(NP (CD )(NNS )))))
+Phase: generated84705
+Input: Token
+Rule: generated84705
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn84705 --> :pttrn84705.extracted={}
+

@@ -1,0 +1,8 @@
+optimum searching strategy
+(NP (JJ )(NN ){1,2})
+Phase: generated11115
+Input: Token
+Rule: generated11115
+(
+(({ Token.category == JJ })({ Token.category == NN })+)):pttrn11115 --> :pttrn11115.extracted={}
+

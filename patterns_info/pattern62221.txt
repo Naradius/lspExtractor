@@ -1,0 +1,8 @@
+record the statistical results in eachsimulation run
+(VP (VBD )(NP (DT )(JJ )(NNS )))
+Phase: generated62221
+Input: Token
+Rule: generated62221
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn62221 --> :pttrn62221.extracted={}
+

@@ -1,0 +1,8 @@
+make the algorithmmore reliable for the data transmission through CHs to BS.Authors
+(VP (VBP )(NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS )(NN ))))
+Phase: generated55561
+Input: Token
+Rule: generated55561
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))))):pttrn55561 --> :pttrn55561.extracted={}
+

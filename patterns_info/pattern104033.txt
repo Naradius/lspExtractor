@@ -1,0 +1,8 @@
+by usingavailable layering information .4.1.2
+(PP (IN )(NP (JJ )(NN ){1,2}))
+Phase: generated104033
+Input: Token
+Rule: generated104033
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn104033 --> :pttrn104033.extracted={}
+

@@ -1,0 +1,8 @@
+the member choiceutput variable in this work
+(NP (NP (DT )(NN ){1,2})(ADJP (JJ )(PP (IN )(NP (DT )(NN )))))
+Phase: generated59438
+Input: Token
+Rule: generated59438
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn59438 --> :pttrn59438.extracted={}
+

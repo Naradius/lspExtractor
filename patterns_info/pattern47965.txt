@@ -1,0 +1,8 @@
+must therefore have built-incomputational abilities and be capable of inter-acting with its surroundings
+(VP (MD )(VP (VP (VB )(NP (JJ )(NNS )))(CC )))
+Phase: generated47965
+Input: Token
+Rule: generated47965
+(
+(({ Token.category == MD })((({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })))):pttrn47965 --> :pttrn47965.extracted={}
+

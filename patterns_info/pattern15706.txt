@@ -1,0 +1,8 @@
+The region activeness tables handled by PN 5,PN 7, and PN 8 at the virtualization layer
+(NP (NP (NP (DT )(NN ){1,2}(NNS ))(VP (VBN )(PP (IN )(NP (NNP ){1,2}(CD )))))(CC )(NP (NP (NNP )(CD ))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated15706
+Input: Token
+Rule: generated15706
+(
+(((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CD })))))({ Token.category == CC })((({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn15706 --> :pttrn15706.extracted={}
+

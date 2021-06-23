@@ -1,0 +1,8 @@
+between source and intermediate relay
+(PP (IN )(NP (CC )(NP (JJ )(NN ))))
+Phase: generated17718
+Input: Token
+Rule: generated17718
+(
+(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn17718 --> :pttrn17718.extracted={}
+

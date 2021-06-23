@@ -1,0 +1,8 @@
+radio parameters
+(NP (NN )(NNS ))
+Phase: generated50758
+Input: Token
+Rule: generated50758
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn50758 --> :pttrn50758.extracted={}
+

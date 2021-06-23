@@ -1,0 +1,8 @@
+are potentially connected with the query keywords
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN )(NNS )))))
+Phase: generated115245
+Input: Token
+Rule: generated115245
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })))))):pttrn115245 --> :pttrn115245.extracted={}
+

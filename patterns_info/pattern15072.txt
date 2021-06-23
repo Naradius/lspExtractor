@@ -1,0 +1,8 @@
+other transient situations
+(NP (JJ ){1,2}(NNS ))
+Phase: generated15072
+Input: Token
+Rule: generated15072
+(
+(({ Token.category == JJ })+({ Token.category == NNS }))):pttrn15072 --> :pttrn15072.extracted={}
+

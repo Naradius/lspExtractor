@@ -1,0 +1,8 @@
+the simulation of MANET environment and the experimental results of the proposed FL-TOHIP method for optimal path selection
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP )(NN ))(CC )(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NP (DT )(VBN )(NN ){1,2})(PP (IN )(NP (JJ )(NN ){1,2}))))))))
+Phase: generated108858
+Input: Token
+Rule: generated108858
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))))):pttrn108858 --> :pttrn108858.extracted={}
+

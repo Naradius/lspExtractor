@@ -1,0 +1,8 @@
+a low rate ofdelivered bundles
+(NP (DT )(JJ )(NN )(JJ )(NNS ))
+Phase: generated42564
+Input: Token
+Rule: generated42564
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn42564 --> :pttrn42564.extracted={}
+

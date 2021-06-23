@@ -1,0 +1,8 @@
+to zero or apre-pruning criterion
+(PP (TO )(NP (CD )(CC )(JJ )(NN )))
+Phase: generated80719
+Input: Token
+Rule: generated80719
+(
+(({ Token.category == TO })(({ Token.category == CD })({ Token.category == CC })({ Token.category == JJ })({ Token.category == NN })))):pttrn80719 --> :pttrn80719.extracted={}
+

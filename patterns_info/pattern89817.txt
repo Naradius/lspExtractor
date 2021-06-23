@@ -1,0 +1,8 @@
+is toselect an existing lexical annotation
+(VP (VBZ )(VP (VB )(NP (DT )(VBG )(JJ )(NN ))))
+Phase: generated89817
+Input: Token
+Rule: generated89817
+(
+(({ Token.category == VBZ })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == JJ })({ Token.category == NN }))))):pttrn89817 --> :pttrn89817.extracted={}
+

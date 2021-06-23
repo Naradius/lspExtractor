@@ -1,0 +1,8 @@
+the BioScope corpus
+(NP (DT )(NNP )(FW ))
+Phase: generated95374
+Input: Token
+Rule: generated95374
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == FW }))):pttrn95374 --> :pttrn95374.extracted={}
+

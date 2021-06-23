@@ -1,0 +1,8 @@
+at a power level below its maximum level
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (PRP$ )(JJ )(NN )))))
+Phase: generated4603
+Input: Token
+Rule: generated4603
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))))):pttrn4603 --> :pttrn4603.extracted={}
+

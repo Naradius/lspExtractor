@@ -1,0 +1,8 @@
+is not allowed as the first or the last element of the permutation
+(VP (VBZ )(RB )(VP (VBN )(PP (IN )(NP (NP (DT )(JJ ))(CC )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated99253
+Input: Token
+Rule: generated99253
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn99253 --> :pttrn99253.extracted={}
+

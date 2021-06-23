@@ -1,0 +1,8 @@
+isable to extract SC and DT phrases that are not inthe seed dictionaries, such as cinnamon pills andOpuntia as DTs from the Diabetes forum, andachiness and lumpy as SCs from the BreastCancer forum.OBJECTIVEOur objective
+(VP (VBZ )(VP (TO )(VP (VB )(NP (NP (NNP )(CC )(NNP )(NNS ))(VP (VBP )(RB )(PP (IN )(NP (NP (NN )(NNS ))(PP (JJ )(IN )(NP (NN )(NNS ))))))))))
+Phase: generated73856
+Input: Token
+Rule: generated73856
+(
+(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))))):pttrn73856 --> :pttrn73856.extracted={}
+

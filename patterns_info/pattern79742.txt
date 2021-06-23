@@ -1,0 +1,8 @@
+part of speech or semantic classes
+(NP (CC )(NP (JJ )(NNS )))
+Phase: generated79742
+Input: Token
+Rule: generated79742
+(
+(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn79742 --> :pttrn79742.extracted={}
+

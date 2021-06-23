@@ -1,0 +1,8 @@
+be increased which results an increasein the overall lifetime of WSNs
+(VP (VB )(VP (VBN )(VP (VBZ )(NP (DT )(NN )))))
+Phase: generated54182
+Input: Token
+Rule: generated54182
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))))):pttrn54182 --> :pttrn54182.extracted={}
+

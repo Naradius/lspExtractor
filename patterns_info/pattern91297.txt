@@ -1,0 +1,8 @@
+are of the formIf Trigger
+(VP (VBP )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated91297
+Input: Token
+Rule: generated91297
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn91297 --> :pttrn91297.extracted={}
+

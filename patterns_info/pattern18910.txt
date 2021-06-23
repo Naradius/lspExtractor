@@ -1,0 +1,8 @@
+the servercreated
+(NP (DT )(VBN ))
+Phase: generated18910
+Input: Token
+Rule: generated18910
+(
+(({ Token.category == DT })({ Token.category == VBN }))):pttrn18910 --> :pttrn18910.extracted={}
+

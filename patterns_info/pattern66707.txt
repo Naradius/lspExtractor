@@ -1,0 +1,8 @@
+the end of this first evaluation, k sensor nodesre taken for the second step of effective identity verification andhe third of Two-Fish symmetric key encryption using channel-ased key shares
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}))))(NP (NP (DT )(JJ ))(PP (IN )(NP (NP (JJ ){1,2}(NN ))(VP (VBG )(NP (JJ ){1,2}(NNS ))))))))))
+Phase: generated66707
+Input: Token
+Rule: generated66707
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == JJ })+({ Token.category == NNS }))))))))))):pttrn66707 --> :pttrn66707.extracted={}
+

@@ -1,0 +1,8 @@
+low-lying antennae and near-ground channels
+(NP (NP (JJ )(NNS ))(CC )(NP (JJ )(NNS )))
+Phase: generated45346
+Input: Token
+Rule: generated45346
+(
+((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn45346 --> :pttrn45346.extracted={}
+

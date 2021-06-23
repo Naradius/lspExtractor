@@ -1,0 +1,8 @@
+the practicality of theproposed framework
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated35670
+Input: Token
+Rule: generated35670
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn35670 --> :pttrn35670.extracted={}
+

@@ -1,0 +1,8 @@
+the accuracy rate of the semantic role labeling
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated72393
+Input: Token
+Rule: generated72393
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn72393 --> :pttrn72393.extracted={}
+

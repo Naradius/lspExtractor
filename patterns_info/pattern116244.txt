@@ -1,0 +1,8 @@
+summary-length answers
+(NP (NN )(NNS ))
+Phase: generated116244
+Input: Token
+Rule: generated116244
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn116244 --> :pttrn116244.extracted={}
+

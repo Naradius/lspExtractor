@@ -1,0 +1,8 @@
+en-coded in the FTB.
+(VP (VBN )(PP (IN )(NP (DT )(NNP ))))
+Phase: generated105706
+Input: Token
+Rule: generated105706
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn105706 --> :pttrn105706.extracted={}
+

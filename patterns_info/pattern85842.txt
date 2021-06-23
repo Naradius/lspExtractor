@@ -1,0 +1,8 @@
+varying sizes of the document
+(NP (NP (VBG )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated85842
+Input: Token
+Rule: generated85842
+(
+((({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn85842 --> :pttrn85842.extracted={}
+

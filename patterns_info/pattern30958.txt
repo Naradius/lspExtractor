@@ -1,0 +1,8 @@
+are noted forbeing the biggest contributor of final power consumption, fol-lowed by industry and transport
+(VP (VBP )(VP (VBN )(VP (VBG )(NP (NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))(ADJP (JJ )(PP (IN )(NP (NN )(CC )(NN ))))))))
+Phase: generated30958
+Input: Token
+Rule: generated30958
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBG })(((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))))))))):pttrn30958 --> :pttrn30958.extracted={}
+

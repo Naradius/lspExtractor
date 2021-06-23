@@ -1,0 +1,8 @@
+the best survival of an agent
+(NP (NP (DT )(JJS )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated6653
+Input: Token
+Rule: generated6653
+(
+((({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn6653 --> :pttrn6653.extracted={}
+

@@ -1,0 +1,8 @@
+verify the location information of the system
+(VP (VB )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN )))))
+Phase: generated35917
+Input: Token
+Rule: generated35917
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn35917 --> :pttrn35917.extracted={}
+

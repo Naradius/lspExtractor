@@ -1,0 +1,8 @@
+complex, non-linear optimiza-tion problems
+(NP (JJ ){1,2}(NN )(NNS ))
+Phase: generated3126
+Input: Token
+Rule: generated3126
+(
+(({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS }))):pttrn3126 --> :pttrn3126.extracted={}
+

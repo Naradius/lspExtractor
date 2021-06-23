@@ -1,0 +1,8 @@
+result in weak patterns
+(VP (VB )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated99451
+Input: Token
+Rule: generated99451
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn99451 --> :pttrn99451.extracted={}
+

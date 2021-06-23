@@ -1,0 +1,8 @@
+are applied to auto-matically compose fictitious substitution sentences by substitut-ing a specific semantic role in the original sentences
+(VP (VBP )(VP (VBN )(VP (TO )(VP (VB )(NP (JJ )(NN )(NNS ))(NP (NP (DT )(JJ ){1,2}(NN ))(PP (IN )(NP (DT )(JJ )(NNS ))))))))
+Phase: generated72929
+Input: Token
+Rule: generated72929
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn72929 --> :pttrn72929.extracted={}
+

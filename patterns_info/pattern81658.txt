@@ -1,0 +1,8 @@
+the same neighborhood
+(NP (DT )(JJ )(NN ))
+Phase: generated81658
+Input: Token
+Rule: generated81658
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn81658 --> :pttrn81658.extracted={}
+

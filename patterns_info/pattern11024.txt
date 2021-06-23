@@ -1,0 +1,8 @@
+a Quality
+(NP (DT )(NNP ))
+Phase: generated11024
+Input: Token
+Rule: generated11024
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn11024 --> :pttrn11024.extracted={}
+

@@ -1,0 +1,8 @@
+if theybecome actives or spares
+(PP (IN )(NP (DT )(NNS )(CC )(NNS )))
+Phase: generated56854
+Input: Token
+Rule: generated56854
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn56854 --> :pttrn56854.extracted={}
+

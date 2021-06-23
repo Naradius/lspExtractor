@@ -1,0 +1,8 @@
+a directedacyclic graph
+(NP (DT )(JJ )(NN ))
+Phase: generated37290
+Input: Token
+Rule: generated37290
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn37290 --> :pttrn37290.extracted={}
+

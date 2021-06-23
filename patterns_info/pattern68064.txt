@@ -1,0 +1,8 @@
+spans over 250 publicationsin journals, conferences, patents, books, and book chap-ters, in addition to numerous keynotes and plenary talksat flagship venues
+(VP (VBZ )(PP (IN )(NP (NP (CD )(NN )(NNS ))(CC )(NP (NN )(NNS )))))
+Phase: generated68064
+Input: Token
+Rule: generated68064
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn68064 --> :pttrn68064.extracted={}
+

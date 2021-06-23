@@ -1,0 +1,8 @@
+considered as an appropriatecarrier to use the intelligent algorithm in WSNs
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (TO )(VP (VB )(NP (DT )(JJ )(NN )))))))
+Phase: generated32996
+Input: Token
+Rule: generated32996
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn32996 --> :pttrn32996.extracted={}
+

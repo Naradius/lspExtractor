@@ -1,0 +1,8 @@
+other patterns
+(NP (JJ )(NNS ))
+Phase: generated87477
+Input: Token
+Rule: generated87477
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn87477 --> :pttrn87477.extracted={}
+

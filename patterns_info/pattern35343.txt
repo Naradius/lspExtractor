@@ -1,0 +1,8 @@
+the total delay
+(NP (DT )(JJ )(NN ))
+Phase: generated35343
+Input: Token
+Rule: generated35343
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn35343 --> :pttrn35343.extracted={}
+

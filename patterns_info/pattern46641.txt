@@ -1,0 +1,8 @@
+most buildings
+(NP (JJS )(NNS ))
+Phase: generated46641
+Input: Token
+Rule: generated46641
+(
+(({ Token.category == JJS })({ Token.category == NNS }))):pttrn46641 --> :pttrn46641.extracted={}
+

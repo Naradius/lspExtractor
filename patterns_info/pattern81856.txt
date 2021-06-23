@@ -1,0 +1,8 @@
+single-slot extraction
+(NP (JJ )(NN ))
+Phase: generated81856
+Input: Token
+Rule: generated81856
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn81856 --> :pttrn81856.extracted={}
+

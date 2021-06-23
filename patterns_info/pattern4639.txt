@@ -1,0 +1,8 @@
+Selvakennedy et al. / Computer Communications 30  27862801 2795application and the network layer
+(NP (NP (NNP ){1,2}(NN ))('' )(NP (NP (NNP )(NNPS )(CD ){1,2})(CC )(NP (DT )(NN ){1,2})))
+Phase: generated4639
+Input: Token
+Rule: generated4639
+(
+((({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == '' })((({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == CD })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn4639 --> :pttrn4639.extracted={}
+

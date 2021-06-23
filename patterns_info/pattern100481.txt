@@ -1,0 +1,8 @@
+the 81 sentencesof QGSTEC 2010
+(NP (DT )(CD )(NN )(NNP )(CD ))
+Phase: generated100481
+Input: Token
+Rule: generated100481
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == NN })({ Token.category == NNP })({ Token.category == CD }))):pttrn100481 --> :pttrn100481.extracted={}
+

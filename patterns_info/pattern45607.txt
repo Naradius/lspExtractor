@@ -1,0 +1,8 @@
+Low-power direct-sequence spread-spectrum modem architecture
+(NP (NNP )(NN ){1,2})
+Phase: generated45607
+Input: Token
+Rule: generated45607
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn45607 --> :pttrn45607.extracted={}
+

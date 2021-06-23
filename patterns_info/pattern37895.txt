@@ -1,0 +1,8 @@
+such as the source anddestination IP addresses and port numbers of the malicious packet as well as the attack signature
+(PP (JJ )(IN )(NP (NP (DT )(NN ){1,2}(NNS ))(CC )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(CONJP (RB ){1,2}(IN ))(NP (DT )(NN ){1,2}))))))
+Phase: generated37895
+Input: Token
+Rule: generated37895
+(
+(({ Token.category == JJ })({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })+({ Token.category == IN }))(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn37895 --> :pttrn37895.extracted={}
+

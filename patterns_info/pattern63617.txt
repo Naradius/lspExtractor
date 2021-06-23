@@ -1,0 +1,8 @@
+under the CCBY-NC-ND license .Keywords
+(PP (IN )(NP (DT )(NNP )(NN )(NNS )))
+Phase: generated63617
+Input: Token
+Rule: generated63617
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))):pttrn63617 --> :pttrn63617.extracted={}
+

@@ -1,0 +1,8 @@
+all nouns or noun phrases
+(NP (DT )(NNS )(CC )(NN )(NNS ))
+Phase: generated114108
+Input: Token
+Rule: generated114108
+(
+(({ Token.category == DT })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))):pttrn114108 --> :pttrn114108.extracted={}
+

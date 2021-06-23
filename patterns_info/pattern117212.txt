@@ -1,0 +1,8 @@
+tackle answering complex paragraph-sized questions in a number of products and services-related domains
+(VP (VB )(VP (VBG )(NP (NP (JJ ){1,2}(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (CC )(NP (JJ )(NNS )))))))))
+Phase: generated117212
+Input: Token
+Rule: generated117212
+(
+(({ Token.category == VB })(({ Token.category == VBG })((({ Token.category == JJ })+({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn117212 --> :pttrn117212.extracted={}
+

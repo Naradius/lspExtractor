@@ -1,0 +1,8 @@
+balanced automatically by deployingsensor nodes with higher density in the inner layer sectors.Furthermore, the possibility of network paralyzing caused bydisabled internal nodes is reduced
+(VP (VBN )(PP (IN )(NP (NP (NN )(NNS ))(PP (IN )(NP (NP (JJR )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(NNS ))))))))
+Phase: generated69025
+Input: Token
+Rule: generated69025
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn69025 --> :pttrn69025.extracted={}
+

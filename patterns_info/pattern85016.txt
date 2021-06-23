@@ -1,0 +1,8 @@
+using k-means algorithm
+(VP (VBG )(NP (NNS )(NN )))
+Phase: generated85016
+Input: Token
+Rule: generated85016
+(
+(({ Token.category == VBG })(({ Token.category == NNS })({ Token.category == NN })))):pttrn85016 --> :pttrn85016.extracted={}
+

@@ -1,0 +1,8 @@
+was noticed earlier the main difference with the traditional edge product
+(VP (VBD )(VP (VBN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))))
+Phase: generated114767
+Input: Token
+Rule: generated114767
+(
+(({ Token.category == VBD })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn114767 --> :pttrn114767.extracted={}
+

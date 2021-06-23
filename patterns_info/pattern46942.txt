@@ -1,0 +1,8 @@
+for thevehicle tracking application
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated46942
+Input: Token
+Rule: generated46942
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn46942 --> :pttrn46942.extracted={}
+

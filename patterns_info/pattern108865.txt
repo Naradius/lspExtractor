@@ -1,0 +1,8 @@
+expressed as follows:532R.K. Ambekar and U.D. Kolekar: FL-TOHIP in MANET 1 2 , , , Q i j i j i j q i jR n n r n n r n n r n n=   where Q represents the total number of optimal path selected given by the user.5   Results and DiscussionThis section shows the simulation of MANET environment and the experimental results of the proposed FL-TOHIP method for optimal path selection
+(VP (VBN )(IN ))
+Phase: generated108865
+Input: Token
+Rule: generated108865
+(
+(({ Token.category == VBN })({ Token.category == IN }))):pttrn108865 --> :pttrn108865.extracted={}
+

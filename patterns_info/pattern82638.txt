@@ -1,0 +1,8 @@
+the same syntactic eld
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated82638
+Input: Token
+Rule: generated82638
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn82638 --> :pttrn82638.extracted={}
+

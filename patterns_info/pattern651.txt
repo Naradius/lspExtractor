@@ -1,0 +1,8 @@
+lower overhead
+(NP (JJR )(NN ))
+Phase: generated651
+Input: Token
+Rule: generated651
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn651 --> :pttrn651.extracted={}
+

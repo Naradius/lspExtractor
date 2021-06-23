@@ -1,0 +1,8 @@
+9. Book delay
+(NP (CD )(NNP ){1,2}(NN ))
+Phase: generated35439
+Input: Token
+Rule: generated35439
+(
+(({ Token.category == CD })({ Token.category == NNP })+({ Token.category == NN }))):pttrn35439 --> :pttrn35439.extracted={}
+

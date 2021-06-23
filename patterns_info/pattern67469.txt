@@ -1,0 +1,8 @@
+200 ad-sensor nodes arecreated which are roaming randomly from one location to another.This network design
+(NP (NP (CD )(JJ )(NNS ))(CC )(VP (VBP )(VP (VBG )(PP (PP (IN )(NP (CD )(NN )))(PP (TO )(NP (DT )(NN ){1,2}))))))
+Phase: generated67469
+Input: Token
+Rule: generated67469
+(
+((({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == VBP })(({ Token.category == VBG })((({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn67469 --> :pttrn67469.extracted={}
+

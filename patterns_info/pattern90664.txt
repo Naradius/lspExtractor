@@ -1,0 +1,8 @@
+computed using the lexical rules: each unknown word is first tagged withNN or NNP and then each of the lexical rules are applied in order
+(VP (VBN )(VP (VBG )(NP (NP (DT )(JJ )(NNS ))(NP (DT )(JJ )(NN )))))
+Phase: generated90664
+Input: Token
+Rule: generated90664
+(
+(({ Token.category == VBN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn90664 --> :pttrn90664.extracted={}
+

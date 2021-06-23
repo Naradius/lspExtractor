@@ -1,0 +1,8 @@
+):match --> :match.provokes
+(VP (-RRB- )(VP (NN )(NP (JJ )(NNS ))))
+Phase: generated94287
+Input: Token
+Rule: generated94287
+(
+(({ Token.category == -RRB- })(({ Token.category == NN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn94287 --> :pttrn94287.extracted={}
+

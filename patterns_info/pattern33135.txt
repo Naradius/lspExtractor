@@ -1,0 +1,8 @@
+point to a dynamically increasing list
+(VP (VBP )(PP (TO )(NP (DT )(ADJP (RB )(VBG ))(NN ))))
+Phase: generated33135
+Input: Token
+Rule: generated33135
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBG }))({ Token.category == NN }))))):pttrn33135 --> :pttrn33135.extracted={}
+

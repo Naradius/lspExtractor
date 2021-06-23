@@ -1,0 +1,8 @@
+based on blockchainThe lack of an effective sharing mechanism in the Internetof Things
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NNP )(NNS ))))))))
+Phase: generated36323
+Input: Token
+Rule: generated36323
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))))))))):pttrn36323 --> :pttrn36323.extracted={}
+

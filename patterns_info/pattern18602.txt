@@ -1,0 +1,8 @@
+whicInitial Random Velocity
+(NP (DT )(NNP ){1,2})
+Phase: generated18602
+Input: Token
+Rule: generated18602
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn18602 --> :pttrn18602.extracted={}
+

@@ -1,0 +1,8 @@
+No FA8750-13-2-0040
+(NP (DT )(NNP ))
+Phase: generated75579
+Input: Token
+Rule: generated75579
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn75579 --> :pttrn75579.extracted={}
+

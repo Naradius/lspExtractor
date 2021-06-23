@@ -1,0 +1,8 @@
+using sequential forwarding which decrease the possibility of encountering holes
+(VP (VBG )(NP (NP (JJ )(NN ))(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (VBG )(NNS )))))))
+Phase: generated17985
+Input: Token
+Rule: generated17985
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS })))))))):pttrn17985 --> :pttrn17985.extracted={}
+

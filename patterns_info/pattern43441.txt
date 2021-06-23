@@ -1,0 +1,8 @@
+the studiedprotocol
+(NP (DT )(NN ))
+Phase: generated43441
+Input: Token
+Rule: generated43441
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn43441 --> :pttrn43441.extracted={}
+

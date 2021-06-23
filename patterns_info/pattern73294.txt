@@ -1,0 +1,8 @@
+the subject of the raw sentences
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNS ))))
+Phase: generated73294
+Input: Token
+Rule: generated73294
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn73294 --> :pttrn73294.extracted={}
+

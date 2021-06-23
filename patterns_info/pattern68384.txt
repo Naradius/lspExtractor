@@ -1,0 +1,8 @@
+both ACO and CSO
+(NP (DT )(NNP )(CC )(NNP ))
+Phase: generated68384
+Input: Token
+Rule: generated68384
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))):pttrn68384 --> :pttrn68384.extracted={}
+

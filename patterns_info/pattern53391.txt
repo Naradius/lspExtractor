@@ -1,0 +1,8 @@
+after several rounds of various operations
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated53391
+Input: Token
+Rule: generated53391
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn53391 --> :pttrn53391.extracted={}
+

@@ -1,0 +1,8 @@
+defined networking approach based efficient routing in multihopand relay surveillance using Lion Optimization algorithmP.
+(NP (NP (VBN )(VBG )(NN ))(VP (VBN )(VP (VBG )(PP (IN )(NP (JJ )(NN ){1,2})))))
+Phase: generated10728
+Input: Token
+Rule: generated10728
+(
+((({ Token.category == VBN })({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn10728 --> :pttrn10728.extracted={}
+

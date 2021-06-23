@@ -1,0 +1,8 @@
+is a tuple , with A a nonempty initial graph
+(VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (DT ){1,2}(JJ ){1,2}(NN ))))
+Phase: generated103247
+Input: Token
+Rule: generated103247
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })+({ Token.category == JJ })+({ Token.category == NN }))))):pttrn103247 --> :pttrn103247.extracted={}
+

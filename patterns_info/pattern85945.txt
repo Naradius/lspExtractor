@@ -1,0 +1,8 @@
+/AntiAliasColorImages false  /CropColorImages
+(NP (JJ )(NNS ))
+Phase: generated85945
+Input: Token
+Rule: generated85945
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn85945 --> :pttrn85945.extracted={}
+

@@ -1,0 +1,8 @@
+to link the slots
+(VP (TO )(VP (VB )(NP (DT )(NNS ))))
+Phase: generated80393
+Input: Token
+Rule: generated80393
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn80393 --> :pttrn80393.extracted={}
+

@@ -1,0 +1,8 @@
+in secret","Iran
+(PP (IN )(NP (NN )(NNP )))
+Phase: generated113462
+Input: Token
+Rule: generated113462
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNP })))):pttrn113462 --> :pttrn113462.extracted={}
+

@@ -1,0 +1,8 @@
+#1 author in the world
+(NP (NP (# )(CD )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated20085
+Input: Token
+Rule: generated20085
+(
+((({ Token.category == # })({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn20085 --> :pttrn20085.extracted={}
+

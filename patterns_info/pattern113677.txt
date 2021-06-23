@@ -1,0 +1,8 @@
+store goods for my retail business
+(VP (VB )(PP (IN )(NP (PRP$ )(JJ )(NN ))))
+Phase: generated113677
+Input: Token
+Rule: generated113677
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))):pttrn113677 --> :pttrn113677.extracted={}
+

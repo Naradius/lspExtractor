@@ -1,0 +1,8 @@
+a deterministic approach
+(NP (DT )(JJ )(NN ))
+Phase: generated5927
+Input: Token
+Rule: generated5927
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn5927 --> :pttrn5927.extracted={}
+

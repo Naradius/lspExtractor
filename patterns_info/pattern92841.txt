@@ -1,0 +1,8 @@
+contains the typeOfproperty
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated92841
+Input: Token
+Rule: generated92841
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn92841 --> :pttrn92841.extracted={}
+

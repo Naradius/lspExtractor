@@ -1,0 +1,8 @@
+using the IoT slicing techniqueto improve the operation of an algorithm to self-correct outliers in data collected by IoT networks.The results of the case study confirm, irrefutably, the effectiveness of the proposed method
+(VP (VBG )(NP (DT )(NNP )(NN ))(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(PP (TO )(NP (JJ )(NNS ))))))
+Phase: generated30939
+Input: Token
+Rule: generated30939
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn30939 --> :pttrn30939.extracted={}
+

@@ -1,0 +1,8 @@
+deliver data to the sinknode
+(VP (VBP )(PP (TO )(NP (DT )(NN ))))
+Phase: generated32368
+Input: Token
+Rule: generated32368
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn32368 --> :pttrn32368.extracted={}
+

@@ -1,0 +1,8 @@
+beyond the designatedmaximum or the QoS computing value
+(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (DT )(NNP )(NN ){1,2})))
+Phase: generated33632
+Input: Token
+Rule: generated33632
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)))):pttrn33632 --> :pttrn33632.extracted={}
+

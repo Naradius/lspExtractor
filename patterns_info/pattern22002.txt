@@ -1,0 +1,8 @@
+com-prising the ESC
+(VP (VBG )(NP (DT )(NNP )))
+Phase: generated22002
+Input: Token
+Rule: generated22002
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })))):pttrn22002 --> :pttrn22002.extracted={}
+

@@ -1,0 +1,8 @@
+with thecorresponding tag of the word in the goal corpus
+(PP (IN )(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated91395
+Input: Token
+Rule: generated91395
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn91395 --> :pttrn91395.extracted={}
+

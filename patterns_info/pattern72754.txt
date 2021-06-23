@@ -1,0 +1,8 @@
+the predic-tion
+(NP (DT )(NN ))
+Phase: generated72754
+Input: Token
+Rule: generated72754
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn72754 --> :pttrn72754.extracted={}
+

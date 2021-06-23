@@ -1,0 +1,8 @@
+of presenting a user with 100 questions from which 80 areimplausible, it is better to have the most probable plausible questions in the first positions
+(PP (IN )(VP (VBG )(NP (DT )(NN ))))
+Phase: generated101251
+Input: Token
+Rule: generated101251
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN }))))):pttrn101251 --> :pttrn101251.extracted={}
+

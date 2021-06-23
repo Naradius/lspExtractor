@@ -1,0 +1,8 @@
+the reverse paths
+(NP (DT )(NN )(NNS ))
+Phase: generated2987
+Input: Token
+Rule: generated2987
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn2987 --> :pttrn2987.extracted={}
+

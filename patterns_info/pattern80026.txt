@@ -1,0 +1,8 @@
+too many or toofew tokens
+(NP (ADJP (RB )(JJ )(CC )(JJ ))(NNS ))
+Phase: generated80026
+Input: Token
+Rule: generated80026
+(
+((({ Token.category == RB })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn80026 --> :pttrn80026.extracted={}
+

@@ -1,0 +1,8 @@
+has a transmissionrange of rs and secondary IoT devices within the range, i.e
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (CC )(NP (NP (JJ )(NN )(NNS ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated22021
+Input: Token
+Rule: generated22021
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn22021 --> :pttrn22021.extracted={}
+

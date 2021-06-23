@@ -1,0 +1,8 @@
+of encountering holes
+(PP (IN )(NP (VBG )(NNS )))
+Phase: generated17980
+Input: Token
+Rule: generated17980
+(
+(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NNS })))):pttrn17980 --> :pttrn17980.extracted={}
+

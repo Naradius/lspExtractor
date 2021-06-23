@@ -1,0 +1,8 @@
+the creation of relation extractors
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated77448
+Input: Token
+Rule: generated77448
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn77448 --> :pttrn77448.extracted={}
+

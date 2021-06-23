@@ -1,0 +1,8 @@
+Yamamoto, editors, Structured Document Image Analysis
+(NP (NNP )(NNS )(NNP ){1,2})
+Phase: generated105013
+Input: Token
+Rule: generated105013
+(
+(({ Token.category == NNP })({ Token.category == NNS })({ Token.category == NNP })+)):pttrn105013 --> :pttrn105013.extracted={}
+

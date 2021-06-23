@@ -1,0 +1,8 @@
+2. The T-ANT Clustering AlgorithmCluster Setup
+(VP (VBD )(NP (DT )(NNP ){1,2}))
+Phase: generated4120
+Input: Token
+Rule: generated4120
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn4120 --> :pttrn4120.extracted={}
+

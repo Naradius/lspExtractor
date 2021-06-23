@@ -1,0 +1,8 @@
+of the possible solutions
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated2801
+Input: Token
+Rule: generated2801
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn2801 --> :pttrn2801.extracted={}
+

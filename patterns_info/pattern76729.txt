@@ -1,0 +1,8 @@
+In-formation and Analytics on the German Web
+(NP (NP (NNP )(CC )(NNS ))(PP (IN )(NP (DT )(JJ )(NNP ))))
+Phase: generated76729
+Input: Token
+Rule: generated76729
+(
+((({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))))):pttrn76729 --> :pttrn76729.extracted={}
+

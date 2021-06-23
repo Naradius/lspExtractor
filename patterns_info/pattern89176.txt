@@ -1,0 +1,8 @@
+an individual entity
+(NP (DT )(JJ )(NN ))
+Phase: generated89176
+Input: Token
+Rule: generated89176
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn89176 --> :pttrn89176.extracted={}
+

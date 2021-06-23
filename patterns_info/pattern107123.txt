@@ -1,0 +1,8 @@
+by the proposed fractional lion algorithm
+(PP (IN )(NP (DT )(VBN )(JJ )(NN ){1,2}))
+Phase: generated107123
+Input: Token
+Rule: generated107123
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == JJ })({ Token.category == NN })+))):pttrn107123 --> :pttrn107123.extracted={}
+

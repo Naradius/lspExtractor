@@ -1,0 +1,8 @@
+. 15. A. Nosratinia, T. Hunter, A. Hedayat, Cooperative communication inwireless networks, IEEE Commun
+(VP (VBD )(NP (NP (CD )(NN )(NNP ))(NP (JJ )(NN )(JJ )(NNS ))))
+Phase: generated52804
+Input: Token
+Rule: generated52804
+(
+(({ Token.category == VBD })((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))))):pttrn52804 --> :pttrn52804.extracted={}
+

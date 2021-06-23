@@ -1,0 +1,8 @@
+5 unique digrams st
+(NP (CD )(JJ )(NNS )(NN ))
+Phase: generated98116
+Input: Token
+Rule: generated98116
+(
+(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))):pttrn98116 --> :pttrn98116.extracted={}
+

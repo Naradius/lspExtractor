@@ -1,0 +1,8 @@
+of the IoT nodes on a map.road network and the metro network
+(PP (IN )(NP (NP (NP (DT )(NNP )(NNS ))(PP (IN )(NP (DT )(NN ){1,2})))(CC )(NP (DT )(NN ){1,2})))
+Phase: generated29152
+Input: Token
+Rule: generated29152
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn29152 --> :pttrn29152.extracted={}
+

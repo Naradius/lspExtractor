@@ -1,0 +1,8 @@
+is increased when all the values are presented in the column
+(VP (VBZ )(VP (VBN )(WHADVP (WRB ))))
+Phase: generated107632
+Input: Token
+Rule: generated107632
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == WRB }))))):pttrn107632 --> :pttrn107632.extracted={}
+

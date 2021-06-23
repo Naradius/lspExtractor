@@ -1,0 +1,8 @@
+Performance study
+(NP (NNP )(NN ))
+Phase: generated12518
+Input: Token
+Rule: generated12518
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn12518 --> :pttrn12518.extracted={}
+

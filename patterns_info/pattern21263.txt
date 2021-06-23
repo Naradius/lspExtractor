@@ -1,0 +1,8 @@
+being proposed and pursued for thehttps://doi.org/10.1016/j.future.2018.01.0020167-739X/ 2018
+(VP (VBG )(VP (CC )(VP (VBN )(PP (IN )(NP (DT )(NNP )(NN )(JJ )(CD ))))))
+Phase: generated21263
+Input: Token
+Rule: generated21263
+(
+(({ Token.category == VBG })(({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })({ Token.category == JJ })({ Token.category == CD }))))))):pttrn21263 --> :pttrn21263.extracted={}
+

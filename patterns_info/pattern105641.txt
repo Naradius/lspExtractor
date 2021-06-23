@@ -1,0 +1,8 @@
+theydescribe regular grammars
+(NP (DT )(JJ )(NNS ))
+Phase: generated105641
+Input: Token
+Rule: generated105641
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn105641 --> :pttrn105641.extracted={}
+

@@ -1,0 +1,8 @@
+described the mainoperator of Lion's Algorithm as Mating that refers to derivingnew solutions and Territorial Defense and Territorial Takeoverintend to find and replace the worst solution by new the bestsolution
+(VP (VBD )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNP )(POS ))(NNP )))))
+Phase: generated63798
+Input: Token
+Rule: generated63798
+(
+(({ Token.category == VBD })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == POS }))({ Token.category == NNP })))))):pttrn63798 --> :pttrn63798.extracted={}
+

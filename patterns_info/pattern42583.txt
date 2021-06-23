@@ -1,0 +1,8 @@
+delivered bundle rate
+(NP (VBN )(NN ){1,2})
+Phase: generated42583
+Input: Token
+Rule: generated42583
+(
+(({ Token.category == VBN })({ Token.category == NN })+)):pttrn42583 --> :pttrn42583.extracted={}
+

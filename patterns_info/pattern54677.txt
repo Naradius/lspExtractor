@@ -1,0 +1,8 @@
+its upper level CH so that in reaching the BS, theenergy consumption is distributed among different CHs whichresults in longer network lifetime
+(NP (NP (PRP$ )(JJ )(NN ))(WDT ))
+Phase: generated54677
+Input: Token
+Rule: generated54677
+(
+((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == WDT }))):pttrn54677 --> :pttrn54677.extracted={}
+

@@ -1,0 +1,8 @@
+with a similar rule for domestic cities,gives
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NNS ){1,2}))))
+Phase: generated84499
+Input: Token
+Rule: generated84499
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })+))))):pttrn84499 --> :pttrn84499.extracted={}
+

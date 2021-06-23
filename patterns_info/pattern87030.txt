@@ -1,0 +1,8 @@
+the novel feature transfor-mation method
+(NP (DT )(NN ){1,2})
+Phase: generated87030
+Input: Token
+Rule: generated87030
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn87030 --> :pttrn87030.extracted={}
+

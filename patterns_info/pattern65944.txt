@@ -1,0 +1,8 @@
+launching a jamming attack on highly impor-ant messages
+(VP (VBG )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (ADJP (RB )(JJ ))(NNS )))))
+Phase: generated65944
+Input: Token
+Rule: generated65944
+(
+(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS })))))):pttrn65944 --> :pttrn65944.extracted={}
+

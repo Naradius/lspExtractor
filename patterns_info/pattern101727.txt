@@ -1,0 +1,8 @@
+identify the matching between the generated pattern and the text tokens.The last line shows an example of a multiple-choice test item created by THE-MENTOR.3In this paper
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(CC )))))
+Phase: generated101727
+Input: Token
+Rule: generated101727
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })))))):pttrn101727 --> :pttrn101727.extracted={}
+

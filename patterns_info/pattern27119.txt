@@ -1,0 +1,8 @@
+,he dominant part
+(NP (DT )(JJ )(NN ))
+Phase: generated27119
+Input: Token
+Rule: generated27119
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn27119 --> :pttrn27119.extracted={}
+

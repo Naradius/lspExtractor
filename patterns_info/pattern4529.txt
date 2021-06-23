@@ -1,0 +1,8 @@
+likely to be many nodes at each hop
+(ADJP (JJ )(VP (TO )(VP (VB )(NP (JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated4529
+Input: Token
+Rule: generated4529
+(
+(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn4529 --> :pttrn4529.extracted={}
+

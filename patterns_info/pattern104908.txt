@@ -1,0 +1,8 @@
+the embedding problem via context elements
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NN )(NNS ))))
+Phase: generated104908
+Input: Token
+Rule: generated104908
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn104908 --> :pttrn104908.extracted={}
+

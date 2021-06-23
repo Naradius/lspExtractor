@@ -1,0 +1,8 @@
+so on
+(ADVP (RB )(IN ))
+Phase: generated97420
+Input: Token
+Rule: generated97420
+(
+(({ Token.category == RB })({ Token.category == IN }))):pttrn97420 --> :pttrn97420.extracted={}
+

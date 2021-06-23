@@ -1,0 +1,8 @@
+making effective routing decisions
+(VP (VBG )(NP (JJ )(NN )(NNS )))
+Phase: generated60966
+Input: Token
+Rule: generated60966
+(
+(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn60966 --> :pttrn60966.extracted={}
+

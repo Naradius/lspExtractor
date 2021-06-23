@@ -1,0 +1,8 @@
+for minimum energybroadcast problem in wireless ad hoc networks
+(PP (IN )(NP (NP (JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NN )(JJ )(NNS )))))
+Phase: generated65098
+Input: Token
+Rule: generated65098
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS })))))):pttrn65098 --> :pttrn65098.extracted={}
+

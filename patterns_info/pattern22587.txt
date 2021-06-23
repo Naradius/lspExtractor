@@ -1,0 +1,8 @@
+a RREQ from the edge device
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated22587
+Input: Token
+Rule: generated22587
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn22587 --> :pttrn22587.extracted={}
+

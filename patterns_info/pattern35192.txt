@@ -1,0 +1,8 @@
+limits the number of malicious blocks thatcan be increased, thus preventing the attackerfrom generating the longest ledger and using it asa real ledger.9
+(VP (VBZ )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated35192
+Input: Token
+Rule: generated35192
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn35192 --> :pttrn35192.extracted={}
+

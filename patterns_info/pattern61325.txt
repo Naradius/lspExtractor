@@ -1,0 +1,8 @@
+of theetwork  and  .
+(PP (IN )(NP (NN )(CC )(POS )))
+Phase: generated61325
+Input: Token
+Rule: generated61325
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == POS })))):pttrn61325 --> :pttrn61325.extracted={}
+

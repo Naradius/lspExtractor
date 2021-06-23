@@ -1,0 +1,8 @@
+training and tagging
+(NP (NN )(CC )(NN ))
+Phase: generated84258
+Input: Token
+Rule: generated84258
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn84258 --> :pttrn84258.extracted={}
+

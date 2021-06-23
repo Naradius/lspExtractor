@@ -1,0 +1,8 @@
+the gateway and the neighboring cluster head
+(NP (NP (DT )(NN ))(CC )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated1082
+Input: Token
+Rule: generated1082
+(
+((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn1082 --> :pttrn1082.extracted={}
+

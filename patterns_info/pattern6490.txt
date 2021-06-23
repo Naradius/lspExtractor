@@ -1,0 +1,8 @@
+more ants
+(NP (JJR )(NNS ))
+Phase: generated6490
+Input: Token
+Rule: generated6490
+(
+(({ Token.category == JJR })({ Token.category == NNS }))):pttrn6490 --> :pttrn6490.extracted={}
+

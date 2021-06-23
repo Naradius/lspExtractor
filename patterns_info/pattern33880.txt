@@ -1,0 +1,8 @@
+even 60
+(QP (RB )(CD ))
+Phase: generated33880
+Input: Token
+Rule: generated33880
+(
+(({ Token.category == RB })({ Token.category == CD }))):pttrn33880 --> :pttrn33880.extracted={}
+

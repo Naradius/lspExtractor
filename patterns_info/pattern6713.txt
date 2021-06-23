@@ -1,0 +1,8 @@
+those elements that makeup the worst solution in each iteration
+(NP (NP (DT )(NNS ))(VP (VBZ )(NP (DT )(JJS )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated6713
+Input: Token
+Rule: generated6713
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn6713 --> :pttrn6713.extracted={}
+

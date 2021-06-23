@@ -1,0 +1,8 @@
+this protocol
+(NP (DT )(NN ))
+Phase: generated58591
+Input: Token
+Rule: generated58591
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn58591 --> :pttrn58591.extracted={}
+

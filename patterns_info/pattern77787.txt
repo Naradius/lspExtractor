@@ -1,0 +1,8 @@
+a relation-ship
+(NP (DT )(NN ))
+Phase: generated77787
+Input: Token
+Rule: generated77787
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn77787 --> :pttrn77787.extracted={}
+

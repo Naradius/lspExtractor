@@ -1,0 +1,8 @@
+are the fundamental units passed to all further processing stages, from analysis and tagging components, such as morphological analyzers and part-of-speech taggers, through applications, such as information retrieval and machine translation systems
+(VP (VBP )(NP (NP (DT )(JJ )(NNS ))(VP (VBD )(PP (TO )(NP (DT )(JJ )(NN )(NNS )))(PP (IN )(NP (CC )(NP (NP (VBG )(NNS ))(PP (JJ )(IN )(NP (JJ )(NNS )(CC )(NN )(NNS )))))))))
+Phase: generated98338
+Input: Token
+Rule: generated98338
+(
+(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))))))))):pttrn98338 --> :pttrn98338.extracted={}
+

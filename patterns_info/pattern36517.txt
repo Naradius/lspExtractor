@@ -1,0 +1,8 @@
+higher credibility
+(NP (JJR )(NN ))
+Phase: generated36517
+Input: Token
+Rule: generated36517
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn36517 --> :pttrn36517.extracted={}
+

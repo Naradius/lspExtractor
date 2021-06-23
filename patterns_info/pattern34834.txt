@@ -1,0 +1,8 @@
+the riskof data leakage
+(NP (DT )(NN )(NNS )(NN ))
+Phase: generated34834
+Input: Token
+Rule: generated34834
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN }))):pttrn34834 --> :pttrn34834.extracted={}
+

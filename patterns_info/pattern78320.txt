@@ -1,0 +1,8 @@
+investigating to model selectional restric-tions  into patterns similar to
+(VP (VBG )(VP (TO )(VP (VB )(NP (JJ )(NNS )))))
+Phase: generated78320
+Input: Token
+Rule: generated78320
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn78320 --> :pttrn78320.extracted={}
+

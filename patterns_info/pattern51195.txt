@@ -1,0 +1,8 @@
+been developed toadapt to the computational and power capabilities of wire-less motes
+(VP (VBN )(VP (VBN )(PP (TO )(NP (NP (DT )(JJ )(CC )(NN )(NNS ))(PP (IN )(NP (JJ )(NNS )))))))
+Phase: generated51195
+Input: Token
+Rule: generated51195
+(
+(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))))):pttrn51195 --> :pttrn51195.extracted={}
+

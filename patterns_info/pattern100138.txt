@@ -1,0 +1,8 @@
+the number of learned patterns  and the number of existing ques-tions for each category
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (VBG )(NNS ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated100138
+Input: Token
+Rule: generated100138
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == VBG })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn100138 --> :pttrn100138.extracted={}
+

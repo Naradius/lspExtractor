@@ -1,0 +1,8 @@
+6. Graph of the IoT nodes in the smart building and colored graph by clusters.974
+(NP (NP (CD )(NNP ){1,2})(PP (IN )(NP (NP (NP (DT )(NNP )(NNS ))(PP (IN )(NP (DT )(JJ )(NN ))))(CC ))))
+Phase: generated30100
+Input: Token
+Rule: generated30100
+(
+((({ Token.category == CD })({ Token.category == NNP })+)(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == CC }))))):pttrn30100 --> :pttrn30100.extracted={}
+

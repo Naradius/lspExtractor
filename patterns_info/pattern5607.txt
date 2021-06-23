@@ -1,0 +1,8 @@
+Robotics and Autonomous Systems 16   321331
+(NP (NNP )(CC )(NNPS ){1,2}(CD ){1,2})
+Phase: generated5607
+Input: Token
+Rule: generated5607
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNPS })+({ Token.category == CD })+)):pttrn5607 --> :pttrn5607.extracted={}
+

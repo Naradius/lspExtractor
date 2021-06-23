@@ -1,0 +1,8 @@
+of faulty components
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated49676
+Input: Token
+Rule: generated49676
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn49676 --> :pttrn49676.extracted={}
+

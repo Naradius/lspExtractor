@@ -1,0 +1,8 @@
+are suitable for reliable datacommunications
+(VP (VBP )(ADJP (JJ )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated55519
+Input: Token
+Rule: generated55519
+(
+(({ Token.category == VBP })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn55519 --> :pttrn55519.extracted={}
+

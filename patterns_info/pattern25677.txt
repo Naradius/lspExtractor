@@ -1,0 +1,8 @@
+Zigbee cluster-tree
+(NP (NNP )(NN ))
+Phase: generated25677
+Input: Token
+Rule: generated25677
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn25677 --> :pttrn25677.extracted={}
+

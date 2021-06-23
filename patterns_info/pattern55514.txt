@@ -1,0 +1,8 @@
+for reliable datacommunications
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated55514
+Input: Token
+Rule: generated55514
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn55514 --> :pttrn55514.extracted={}
+

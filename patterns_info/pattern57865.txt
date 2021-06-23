@@ -1,0 +1,8 @@
+A reliable clustering algorithmbase
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated57865
+Input: Token
+Rule: generated57865
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn57865 --> :pttrn57865.extracted={}
+

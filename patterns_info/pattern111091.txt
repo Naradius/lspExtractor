@@ -1,0 +1,8 @@
+color in this figure
+(VP (VB )(PP (IN )(NP (DT )(NN ))))
+Phase: generated111091
+Input: Token
+Rule: generated111091
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn111091 --> :pttrn111091.extracted={}
+

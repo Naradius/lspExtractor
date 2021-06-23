@@ -1,0 +1,8 @@
+be a light-weight module present at all endpoints
+(VP (VB )(NP (DT )(JJ ){1,2}(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated39661
+Input: Token
+Rule: generated39661
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn39661 --> :pttrn39661.extracted={}
+

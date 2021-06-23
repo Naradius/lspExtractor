@@ -1,0 +1,8 @@
+a resource identifier
+(NP (DT )(NN ){1,2})
+Phase: generated21058
+Input: Token
+Rule: generated21058
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn21058 --> :pttrn21058.extracted={}
+

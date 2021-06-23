@@ -1,0 +1,8 @@
+well reputed publishers such as IEEE,pringer and Tubitak
+(NP (NP (ADJP (RB )(VBN ))(NNS ))(PP (JJ )(IN )(NP (NNP )(CC )(NNP ))))
+Phase: generated68040
+Input: Token
+Rule: generated68040
+(
+(((({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP }))))):pttrn68040 --> :pttrn68040.extracted={}
+

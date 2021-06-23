@@ -1,0 +1,8 @@
+the routing information
+(NP (DT )(NN ){1,2})
+Phase: generated107408
+Input: Token
+Rule: generated107408
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn107408 --> :pttrn107408.extracted={}
+

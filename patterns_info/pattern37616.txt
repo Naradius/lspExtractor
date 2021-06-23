@@ -1,0 +1,8 @@
+to test the impact of the proposed IDS on the devices
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(NNP )))(PP (IN )(NP (DT )(NNS ))))))
+Phase: generated37616
+Input: Token
+Rule: generated37616
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NNP })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn37616 --> :pttrn37616.extracted={}
+

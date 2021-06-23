@@ -1,0 +1,8 @@
+Provides authorization and authentication
+(NP (NNP )(NN )(CC )(NN ))
+Phase: generated20761
+Input: Token
+Rule: generated20761
+(
+(({ Token.category == NNP })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn20761 --> :pttrn20761.extracted={}
+

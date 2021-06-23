@@ -1,0 +1,8 @@
+if a named4
+(PP (IN )(NP (DT )(NN )))
+Phase: generated98744
+Input: Token
+Rule: generated98744
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn98744 --> :pttrn98744.extracted={}
+

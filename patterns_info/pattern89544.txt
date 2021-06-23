@@ -1,0 +1,8 @@
+text units
+(NP (NN )(NNS ))
+Phase: generated89544
+Input: Token
+Rule: generated89544
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn89544 --> :pttrn89544.extracted={}
+

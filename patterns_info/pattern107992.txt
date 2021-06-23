@@ -1,0 +1,8 @@
+as the source and destina-tion, which have been denoted as ni and nj
+(PP (IN )(NP (NP (DT )(NN ))(CC )))
+Phase: generated107992
+Input: Token
+Rule: generated107992
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))):pttrn107992 --> :pttrn107992.extracted={}
+

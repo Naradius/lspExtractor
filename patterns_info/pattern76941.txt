@@ -1,0 +1,8 @@
+the current text mining products and applications
+(NP (DT )(JJ )(NN ){1,2}(NNS )(CC )(NNS ))
+Phase: generated76941
+Input: Token
+Rule: generated76941
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn76941 --> :pttrn76941.extracted={}
+

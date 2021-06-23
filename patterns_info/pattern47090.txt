@@ -1,0 +1,8 @@
+observed phenomenon
+(NP (JJ )(NN ))
+Phase: generated47090
+Input: Token
+Rule: generated47090
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn47090 --> :pttrn47090.extracted={}
+

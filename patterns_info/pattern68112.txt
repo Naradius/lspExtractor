@@ -1,0 +1,8 @@
+4.7 Algorithm 6: monitoring report updates	4.8 Channel dependent key shares	5 Results and discussion	5.1 Geographical design	6 Conclusion	Declaration of Competing Interest	Supplementary materials	References
+(NP (NP (CD )(NNP )(CD ))(NP (NP (NN ){1,2}(NNS ))(NP (NP (CD )(NNP )(JJ )(NN )(NNS ))(NP (NP (CD )(NNS )(CC )(NN )(CD )(NNP )(NN )(CD )(NNP ){1,2})(PP (IN )(NP (NNP ){1,2}(NNS ){1,2}))))))
+Phase: generated68112
+Input: Token
+Rule: generated68112
+(
+((({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD }))((({ Token.category == NN })+({ Token.category == NNS }))((({ Token.category == CD })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == CD })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NNS })+))))))):pttrn68112 --> :pttrn68112.extracted={}
+

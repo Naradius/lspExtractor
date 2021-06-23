@@ -1,0 +1,8 @@
+thatwould match an expression like 40 mg is: =>\, /;In this pattern, one is able to denote the character-istics of a matching token group, i.e., its syntacticcategory  and its semantic meaning
+(VP (MD )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (CD )(NN ))))))
+Phase: generated92206
+Input: Token
+Rule: generated92206
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN }))))))):pttrn92206 --> :pttrn92206.extracted={}
+

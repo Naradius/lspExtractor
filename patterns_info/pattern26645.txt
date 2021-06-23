@@ -1,0 +1,8 @@
+be initiated for each ofhe candidate nodes maintained in the neighbour table to detecthe minimum value
+(VP (VB )(VP (VBN )(IN )))
+Phase: generated26645
+Input: Token
+Rule: generated26645
+(
+(({ Token.category == VB })(({ Token.category == VBN })({ Token.category == IN })))):pttrn26645 --> :pttrn26645.extracted={}
+

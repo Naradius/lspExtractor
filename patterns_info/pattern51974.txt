@@ -1,0 +1,8 @@
+extra over-heads
+(NP (JJ )(NNS ))
+Phase: generated51974
+Input: Token
+Rule: generated51974
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn51974 --> :pttrn51974.extracted={}
+

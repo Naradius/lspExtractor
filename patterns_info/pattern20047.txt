@@ -1,0 +1,8 @@
+industrialexperience building large-scale systems
+(NP (NN ){1,2}(JJ )(NNS ))
+Phase: generated20047
+Input: Token
+Rule: generated20047
+(
+(({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NNS }))):pttrn20047 --> :pttrn20047.extracted={}
+

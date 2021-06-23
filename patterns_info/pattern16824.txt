@@ -1,0 +1,8 @@
+the VaNetLayerimplemented in the vehicles
+(NP (NP (DT )(NNP ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated16824
+Input: Token
+Rule: generated16824
+(
+((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn16824 --> :pttrn16824.extracted={}
+

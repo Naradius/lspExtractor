@@ -1,0 +1,8 @@
+to extract information from the training corpus and then uses a program toautomatically learn rules which reduces the faults that would be introduced by statistical mistakes
+(VP (TO )(VP (VP (VB )(PP (IN )(NP (DT )(NN )(JJ ))))(CC )(VP (VBZ )(NP (DT )(NN ))(RB ))))
+Phase: generated91063
+Input: Token
+Rule: generated91063
+(
+(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ }))))({ Token.category == CC })(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))({ Token.category == RB }))))):pttrn91063 --> :pttrn91063.extracted={}
+

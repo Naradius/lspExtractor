@@ -1,0 +1,8 @@
+from traditional MAC schemes, which bythemselves would not be applicable
+(PP (IN )(NP (NP (JJ )(NNP )(NNS ))(VP (MD )(RB ))))
+Phase: generated44916
+Input: Token
+Rule: generated44916
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == MD })({ Token.category == RB }))))):pttrn44916 --> :pttrn44916.extracted={}
+

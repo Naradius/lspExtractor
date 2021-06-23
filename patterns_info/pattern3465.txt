@@ -1,0 +1,8 @@
+minimize overall energy dissipation
+(NP (NN )(JJ )(NN ){1,2})
+Phase: generated3465
+Input: Token
+Rule: generated3465
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)):pttrn3465 --> :pttrn3465.extracted={}
+

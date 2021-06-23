@@ -1,0 +1,8 @@
+sentby the UAV through the network
+(VP (VBP )(NP (DT )(NNP ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated110007
+Input: Token
+Rule: generated110007
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn110007 --> :pttrn110007.extracted={}
+

@@ -1,0 +1,8 @@
+ef-fective end-to-end data rates
+(NP (JJ ){1,2}(NNS ){1,2})
+Phase: generated24360
+Input: Token
+Rule: generated24360
+(
+(({ Token.category == JJ })+({ Token.category == NNS })+)):pttrn24360 --> :pttrn24360.extracted={}
+

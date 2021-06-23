@@ -1,0 +1,8 @@
+all sensor nodes
+(NP (DT )(NN )(NNS ))
+Phase: generated43936
+Input: Token
+Rule: generated43936
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn43936 --> :pttrn43936.extracted={}
+

@@ -1,0 +1,8 @@
+to turn the transceiver offwhen it is not required
+(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})(VP (VBZ )(RB ))))
+Phase: generated44928
+Input: Token
+Rule: generated44928
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })({ Token.category == RB }))))):pttrn44928 --> :pttrn44928.extracted={}
+

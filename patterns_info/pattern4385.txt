@@ -1,0 +1,8 @@
+rounds.To quantify this phenomenon
+(NP (JJ ){1,2}(DT )(NN ))
+Phase: generated4385
+Input: Token
+Rule: generated4385
+(
+(({ Token.category == JJ })+({ Token.category == DT })({ Token.category == NN }))):pttrn4385 --> :pttrn4385.extracted={}
+

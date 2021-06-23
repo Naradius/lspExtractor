@@ -1,0 +1,8 @@
+the ExtraordinaryPerformance Award
+(NP (DT )(NNP ){1,2})
+Phase: generated30680
+Input: Token
+Rule: generated30680
+(
+(({ Token.category == DT })({ Token.category == NNP })+)):pttrn30680 --> :pttrn30680.extracted={}
+

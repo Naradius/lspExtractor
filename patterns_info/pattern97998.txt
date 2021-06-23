@@ -1,0 +1,8 @@
+then split the sentences into words
+(VP (VBD )(NP (DT )(NNS )))
+Phase: generated97998
+Input: Token
+Rule: generated97998
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NNS })))):pttrn97998 --> :pttrn97998.extracted={}
+

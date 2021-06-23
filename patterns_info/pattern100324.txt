@@ -1,0 +1,8 @@
+are grammatically correctand if they make sense regarding the text from which they were extracted
+(VP (VBP )(RB )(VP (VB )(IN )))
+Phase: generated100324
+Input: Token
+Rule: generated100324
+(
+(({ Token.category == VBP })({ Token.category == RB })(({ Token.category == VB })({ Token.category == IN })))):pttrn100324 --> :pttrn100324.extracted={}
+

@@ -1,0 +1,8 @@
+a proper noun
+(NP (DT )(JJ )(NN ))
+Phase: generated89262
+Input: Token
+Rule: generated89262
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn89262 --> :pttrn89262.extracted={}
+

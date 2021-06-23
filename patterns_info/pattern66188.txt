@@ -1,0 +1,8 @@
+colluding nodes by using a simplelocation verification algorithm based on received signal strengthproperty
+(VP (VBG )(PP (IN )(VP (VBG )(NP (NP (DT )(NN ){1,2})(VP (VBN )(PP (IN )(NP (VBN )(NN ){1,2})))))))
+Phase: generated66188
+Input: Token
+Rule: generated66188
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN })+)))))))):pttrn66188 --> :pttrn66188.extracted={}
+

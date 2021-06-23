@@ -1,0 +1,8 @@
+have derived a formula for optimal number of CH in aregion which is as follows:3REd2BS2a2N3EelecEBF 2A f a2N3A 1REd4BS2A f a2N" #where EBF is the energy consumed when a bit data is beamformed and A f is the small quantity called as transmitteramplifier parameter and Eelec is the energy consumed in runningthe transmitter or receiver circuitry
+(VP (VBP )(VP (VBN )(NP (DT )(NN ))))
+Phase: generated54400
+Input: Token
+Rule: generated54400
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn54400 --> :pttrn54400.extracted={}
+

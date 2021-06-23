@@ -1,0 +1,8 @@
+over its nuclear program
+(PP (IN )(NP (PRP$ )(JJ )(NN )))
+Phase: generated113455
+Input: Token
+Rule: generated113455
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))):pttrn113455 --> :pttrn113455.extracted={}
+

@@ -1,0 +1,8 @@
+connectivity between different devices such ascomputers, smart phones, tablets, cameras, etc
+(NP (PP (IN )(NP (JJ )(NNS )))(NP (NP (JJ )(NNS ))(NP (JJ )(NNS ){1,2}(FW ))))
+Phase: generated40428
+Input: Token
+Rule: generated40428
+(
+((({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNS })+({ Token.category == FW }))))):pttrn40428 --> :pttrn40428.extracted={}
+

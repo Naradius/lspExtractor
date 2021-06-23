@@ -1,0 +1,8 @@
+the feasible path for the data transmission
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(NNS )(NN ))))
+Phase: generated107329
+Input: Token
+Rule: generated107329
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))))):pttrn107329 --> :pttrn107329.extracted={}
+

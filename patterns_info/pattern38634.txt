@@ -1,0 +1,8 @@
+A host-based intrusion detection
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated38634
+Input: Token
+Rule: generated38634
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn38634 --> :pttrn38634.extracted={}
+

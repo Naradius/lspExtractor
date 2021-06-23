@@ -1,0 +1,8 @@
+isolated words
+(NP (VBN )(NNS ))
+Phase: generated78657
+Input: Token
+Rule: generated78657
+(
+(({ Token.category == VBN })({ Token.category == NNS }))):pttrn78657 --> :pttrn78657.extracted={}
+

@@ -1,0 +1,8 @@
+destination lines
+(NP (NN )(NNS ))
+Phase: generated17392
+Input: Token
+Rule: generated17392
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn17392 --> :pttrn17392.extracted={}
+

@@ -1,0 +1,8 @@
+for identifying medical entity typesin
+(PP (IN )(VP (VBG )(NP (JJ )(NN ){1,2})))
+Phase: generated75424
+Input: Token
+Rule: generated75424
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NN })+)))):pttrn75424 --> :pttrn75424.extracted={}
+

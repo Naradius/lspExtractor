@@ -1,0 +1,8 @@
+for this alignment
+(PP (IN )(NP (DT )(NN )))
+Phase: generated112903
+Input: Token
+Rule: generated112903
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn112903 --> :pttrn112903.extracted={}
+

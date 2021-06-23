@@ -1,0 +1,8 @@
+to detect foreign chemical agents inthe air and the water
+(VP (TO )(VP (VB )(NP (JJ )(NN )(NNS ))(PP (IN )(NP (CC )(NP (DT )(NN ))))))
+Phase: generated46001
+Input: Token
+Rule: generated46001
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn46001 --> :pttrn46001.extracted={}
+

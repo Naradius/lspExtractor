@@ -1,0 +1,8 @@
+through the wirelessmedium
+(PP (IN )(NP (DT )(NN )))
+Phase: generated65299
+Input: Token
+Rule: generated65299
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn65299 --> :pttrn65299.extracted={}
+

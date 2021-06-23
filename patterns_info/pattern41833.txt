@@ -1,0 +1,8 @@
+:P = Pold +
+(NP (NNP )(SYM )(NNP ){1,2})
+Phase: generated41833
+Input: Token
+Rule: generated41833
+(
+(({ Token.category == NNP })({ Token.category == SYM })({ Token.category == NNP })+)):pttrn41833 --> :pttrn41833.extracted={}
+

@@ -1,0 +1,8 @@
+with  varied number of secondary IoT devices in the network
+(PP (IN )(NP (NP (NP (JJ )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))(PP (IN )(NP (DT )(NN )))))
+Phase: generated24150
+Input: Token
+Rule: generated24150
+(
+(({ Token.category == IN })(((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn24150 --> :pttrn24150.extracted={}
+

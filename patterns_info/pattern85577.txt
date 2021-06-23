@@ -1,0 +1,8 @@
+is used in linear transformation approach
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated85577
+Input: Token
+Rule: generated85577
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn85577 --> :pttrn85577.extracted={}
+

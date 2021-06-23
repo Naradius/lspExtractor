@@ -1,0 +1,8 @@
+simulated services and entities
+(NP (VBN )(NNS )(CC )(NNS ))
+Phase: generated18692
+Input: Token
+Rule: generated18692
+(
+(({ Token.category == VBN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn18692 --> :pttrn18692.extracted={}
+

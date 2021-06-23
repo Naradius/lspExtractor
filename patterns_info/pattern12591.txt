@@ -1,0 +1,8 @@
+information services
+(NP (NN )(NNS ))
+Phase: generated12591
+Input: Token
+Rule: generated12591
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn12591 --> :pttrn12591.extracted={}
+

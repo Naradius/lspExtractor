@@ -1,0 +1,8 @@
+sent to theadjacent cluster
+(VP (VBN )(PP (TO )(NP (DT )(NN ))))
+Phase: generated35609
+Input: Token
+Rule: generated35609
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))):pttrn35609 --> :pttrn35609.extracted={}
+

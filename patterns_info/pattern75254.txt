@@ -1,0 +1,8 @@
+SC and DTTable 4 Top 50 SC and DT phrases extracted by our system for three different forumsAcne Diabetes Breast CancerDTNew terms
+(NP (NP (CC )(NP (JJ )(CD )(JJ )(CD )(NNP )))(CC )(NP (NP (NNP )(NNS ))(VP (VBN )(PP (IN )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (CD )(JJ )(NN )(NNP ){1,2}(NNS ))))))))
+Phase: generated75254
+Input: Token
+Rule: generated75254
+(
+((({ Token.category == CC })(({ Token.category == JJ })({ Token.category == CD })({ Token.category == JJ })({ Token.category == CD })({ Token.category == NNP })))({ Token.category == CC })((({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NNS }))))))))):pttrn75254 --> :pttrn75254.extracted={}
+

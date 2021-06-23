@@ -1,0 +1,8 @@
+spelling mistakes than would be possible with typicaledit distance metrics
+(NP (NP (NN )(NNS ))(VP (MD )(VP (VB )(PP (IN )(NP (NN ){1,2}(NNS ))))))
+Phase: generated74962
+Input: Token
+Rule: generated74962
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))))):pttrn74962 --> :pttrn74962.extracted={}
+

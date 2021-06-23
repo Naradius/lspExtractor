@@ -1,0 +1,8 @@
+to establish a connection between the cluster and neighboring clusters
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (VBG )(NNS )))))))
+Phase: generated637
+Input: Token
+Rule: generated637
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == VBG })({ Token.category == NNS })))))))):pttrn637 --> :pttrn637.extracted={}
+

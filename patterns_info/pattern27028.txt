@@ -1,0 +1,8 @@
+with lowest possi-ble power consumption
+(PP (IN )(NP (JJS )(JJ )(NN ){1,2}))
+Phase: generated27028
+Input: Token
+Rule: generated27028
+(
+(({ Token.category == IN })(({ Token.category == JJS })({ Token.category == JJ })({ Token.category == NN })+))):pttrn27028 --> :pttrn27028.extracted={}
+

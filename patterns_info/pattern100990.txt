@@ -1,0 +1,8 @@
+constructs seeds andlearns lexico-syntactic patterns
+(NP (NP (NNS ){1,2}(POS ))(JJ )(NNS ))
+Phase: generated100990
+Input: Token
+Rule: generated100990
+(
+((({ Token.category == NNS })+({ Token.category == POS }))({ Token.category == JJ })({ Token.category == NNS }))):pttrn100990 --> :pttrn100990.extracted={}
+

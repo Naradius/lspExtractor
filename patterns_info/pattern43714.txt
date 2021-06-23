@@ -1,0 +1,8 @@
+the Masters degree
+(NP (DT )(NNP )(NN ))
+Phase: generated43714
+Input: Token
+Rule: generated43714
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn43714 --> :pttrn43714.extracted={}
+

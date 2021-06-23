@@ -1,0 +1,8 @@
+no formal medical education, theygenerate large volumes of patient-authored text in the form of medical blogs and discussionson online health forums
+(NP (NP (DT )(JJ ){1,2}(NN ))(NP (NP (DT )(JJ )(NNS ))(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(CC )))))))))
+Phase: generated73772
+Input: Token
+Rule: generated73772
+(
+((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })))))))))):pttrn73772 --> :pttrn73772.extracted={}
+

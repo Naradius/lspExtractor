@@ -1,0 +1,8 @@
+select the sufficient random guard nodes toravel around the network
+(VP (VBP )(NP (DT )(JJ ){1,2}(NN )(NNS )(NN ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated66568
+Input: Token
+Rule: generated66568
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn66568 --> :pttrn66568.extracted={}
+

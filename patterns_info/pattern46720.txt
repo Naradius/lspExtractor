@@ -1,0 +1,8 @@
+find out the exact location of theitem
+(VP (VB )(PRT (RP )))
+Phase: generated46720
+Input: Token
+Rule: generated46720
+(
+(({ Token.category == VB })(({ Token.category == RP })))):pttrn46720 --> :pttrn46720.extracted={}
+

@@ -1,0 +1,8 @@
+faithfully forwards the data andexecutes the command; and the behavior of the intermediatereader
+(PP (RB )(IN )(NP (NP (DT )(NNS ){1,2})(NP (DT )(NN ))(CC )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated36793
+Input: Token
+Rule: generated36793
+(
+(({ Token.category == RB })({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS })+)(({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn36793 --> :pttrn36793.extracted={}
+

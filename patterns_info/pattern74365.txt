@@ -1,0 +1,8 @@
+the number of times pattern i matched thephrase wk
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (NNS )(NN ))(PP (IN )(NP (VBN )(NN ){1,2})))))
+Phase: generated74365
+Input: Token
+Rule: generated74365
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN })+)))))):pttrn74365 --> :pttrn74365.extracted={}
+

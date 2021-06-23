@@ -1,0 +1,8 @@
+balanced energy consumption forprolonging the network lifetime.Bian et al
+(VP (VBN )(VP (VBG )(NP (DT )(NN ){1,2}(NNP ){1,2}(NN ))))
+Phase: generated53095
+Input: Token
+Rule: generated53095
+(
+(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNP })+({ Token.category == NN }))))):pttrn53095 --> :pttrn53095.extracted={}
+

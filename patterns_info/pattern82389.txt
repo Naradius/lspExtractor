@@ -1,0 +1,8 @@
+are displayed in this paper as italicized words not enclosed by quotes.Digit and Number
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NN )))(PP (IN )(NP (NP (VBN )(NNS ))(VP (RB )(VBN ))))))
+Phase: generated82389
+Input: Token
+Rule: generated82389
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == IN })((({ Token.category == VBN })({ Token.category == NNS }))(({ Token.category == RB })({ Token.category == VBN }))))))):pttrn82389 --> :pttrn82389.extracted={}
+

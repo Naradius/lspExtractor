@@ -1,0 +1,8 @@
+the metrics such as energy conservationand overall throughput of the network.Lan et al
+(NP (NP (DT )(NNS ))(PP (JJ )(IN )(NP (CC )(NP (NP (JJ )(NN ))(PP (IN )(NP (DT )(NN )(NNP ){1,2}(NN )))))))
+Phase: generated54510
+Input: Token
+Rule: generated54510
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN })))))))):pttrn54510 --> :pttrn54510.extracted={}
+

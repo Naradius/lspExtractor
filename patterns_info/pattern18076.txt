@@ -1,0 +1,8 @@
+the IPF curves
+(NP (DT )(NN )(NNS ))
+Phase: generated18076
+Input: Token
+Rule: generated18076
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn18076 --> :pttrn18076.extracted={}
+

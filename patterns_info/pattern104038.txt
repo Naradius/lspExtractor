@@ -1,0 +1,8 @@
+suspended dotted rules by taking cardinality constraintsof edges into account  and by usingavailable layering information .4.1.2
+(NP (NP (VBN ){1,2}(NNS ))(PP (IN )(VP (VBG )(PP (CC )(PP (IN )(NP (JJ )(NN ){1,2}))))))
+Phase: generated104038
+Input: Token
+Rule: generated104038
+(
+((({ Token.category == VBN })+({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == CC })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))))):pttrn104038 --> :pttrn104038.extracted={}
+

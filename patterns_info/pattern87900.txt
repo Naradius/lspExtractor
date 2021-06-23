@@ -1,0 +1,8 @@
+the feature names that can be used, beyond the syntax just described
+(NP (NP (DT )(NN )(NNS ))(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN )))))))
+Phase: generated87900
+Input: Token
+Rule: generated87900
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn87900 --> :pttrn87900.extracted={}
+

@@ -1,0 +1,8 @@
+of two CH nodes in each othersradio range
+(PP (IN )(NP (NP (CD )(NNP )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated4168
+Input: Token
+Rule: generated4168
+(
+(({ Token.category == IN })((({ Token.category == CD })({ Token.category == NNP })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn4168 --> :pttrn4168.extracted={}
+

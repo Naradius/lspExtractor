@@ -1,0 +1,8 @@
+can be applied correctly in the following stages
+(VP (MD )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(VBG )(NNS ))))))
+Phase: generated31894
+Input: Token
+Rule: generated31894
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS }))))))):pttrn31894 --> :pttrn31894.extracted={}
+

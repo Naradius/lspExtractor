@@ -1,0 +1,8 @@
+ESP and Android device,S.S. Gill, P. Garraghan and R. Buyya / The Journal of Systems and Software 154  125138 131 Fig. 6
+(NP (CC )(NP (NP (DT )(NNP ))(PP (IN )(NP (NNP )(CC )(NNP )(CD ){1,2}(NNP ){1,2}(CD )))))
+Phase: generated18867
+Input: Token
+Rule: generated18867
+(
+(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NNP })+({ Token.category == CD })))))):pttrn18867 --> :pttrn18867.extracted={}
+

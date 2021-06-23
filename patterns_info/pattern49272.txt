@@ -1,0 +1,8 @@
+considered in the design of application-specific WSN architecture.We present a top-down survey of the trade-offs between application requirements andlifetime extension that arise when designing wireless sensor networks
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNP )(NN ))(PP (IN )(NP (NP (JJ )(DT )(JJ )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NN )(NNS ))))))))))))
+Phase: generated49272
+Input: Token
+Rule: generated49272
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))))))))))):pttrn49272 --> :pttrn49272.extracted={}
+

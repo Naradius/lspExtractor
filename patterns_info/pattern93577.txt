@@ -1,0 +1,8 @@
+to the literal and whichreturns 1
+(PP (TO )(NP (DT )(JJ )(CC )(NNS )(CD )))
+Phase: generated93577
+Input: Token
+Rule: generated93577
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NNS })({ Token.category == CD })))):pttrn93577 --> :pttrn93577.extracted={}
+

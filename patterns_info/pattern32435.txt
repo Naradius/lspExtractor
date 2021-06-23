@@ -1,0 +1,8 @@
+deliver the packet.Felemban
+(VP (VB )(NP (DT )(NN )))
+Phase: generated32435
+Input: Token
+Rule: generated32435
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))):pttrn32435 --> :pttrn32435.extracted={}
+

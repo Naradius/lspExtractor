@@ -1,0 +1,8 @@
+The component parts
+(NP (DT )(JJ )(NNS ))
+Phase: generated87348
+Input: Token
+Rule: generated87348
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))):pttrn87348 --> :pttrn87348.extracted={}
+

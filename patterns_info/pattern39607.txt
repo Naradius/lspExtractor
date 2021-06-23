@@ -1,0 +1,8 @@
+performed at two levels, the IoT device level and the edge router level
+(VP (VBN )(PP (IN )(NP (CD )(NNS )))(NP (NP (DT )(NNP )(NN ){1,2})(CC )(NP (DT )(NN ){1,2})))
+Phase: generated39607
+Input: Token
+Rule: generated39607
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))((({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn39607 --> :pttrn39607.extracted={}
+

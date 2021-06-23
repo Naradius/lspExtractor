@@ -1,0 +1,8 @@
+self-organization and fault tolerancecharacteristics of sensor networks
+(NP (NP (NN )(CC )(NN )(NNS ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated46194
+Input: Token
+Rule: generated46194
+(
+((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn46194 --> :pttrn46194.extracted={}
+

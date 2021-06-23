@@ -1,0 +1,8 @@
+has a verysmall constant time complexity as opposed to other pro-posals in the literature.Observation 1
+(VP (VBZ )(NP (DT )(JJ ){1,2}(NN ){1,2}))
+Phase: generated3821
+Input: Token
+Rule: generated3821
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+))):pttrn3821 --> :pttrn3821.extracted={}
+

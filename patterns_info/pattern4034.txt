@@ -1,0 +1,8 @@
+a visited city
+(NP (DT )(JJ )(NN ))
+Phase: generated4034
+Input: Token
+Rule: generated4034
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn4034 --> :pttrn4034.extracted={}
+

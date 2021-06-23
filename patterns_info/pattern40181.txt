@@ -1,0 +1,8 @@
+to the heterogeneous types new technologiesequipments in order to guarantee a better exchange of information between such types of equipment
+(PP (TO )(NP (NP (DT )(JJ )(NNS ))(NP (JJ )(NNS ))))
+Phase: generated40181
+Input: Token
+Rule: generated40181
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn40181 --> :pttrn40181.extracted={}
+

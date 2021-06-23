@@ -1,0 +1,8 @@
+common subgraphs of the left-hand and the right-hand sidesof productions.Definition 3.2 A  production p :=  is a tuple of graphs over the samealphabets of vertex and edge labels
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(JJ ))(CC )(NP (NP (DT )(JJ )(NN ){1,2}(CD ))(NP (DT )(NN ){1,2})))))
+Phase: generated102883
+Input: Token
+Rule: generated102883
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ }))({ Token.category == CC })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+({ Token.category == CD }))(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn102883 --> :pttrn102883.extracted={}
+

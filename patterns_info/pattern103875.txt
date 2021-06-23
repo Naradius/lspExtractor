@@ -1,0 +1,8 @@
+selects at least a good search plan
+(VP (VBZ )(NP (ADVP (IN )(JJS ))(DT )(JJ )(NN ){1,2}))
+Phase: generated103875
+Input: Token
+Rule: generated103875
+(
+(({ Token.category == VBZ })((({ Token.category == IN })({ Token.category == JJS }))({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn103875 --> :pttrn103875.extracted={}
+

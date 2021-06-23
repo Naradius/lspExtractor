@@ -1,0 +1,8 @@
+This sec-nd metric quantifies
+(NP (DT )(JJ ){1,2}(NNS ))
+Phase: generated110183
+Input: Token
+Rule: generated110183
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn110183 --> :pttrn110183.extracted={}
+

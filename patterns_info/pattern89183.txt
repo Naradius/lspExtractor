@@ -1,0 +1,8 @@
+to identify the set of text units denoting an individual entity
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NN )(NNS )))(VP (VBG )(NP (DT )(JJ )(NN ))))))
+Phase: generated89183
+Input: Token
+Rule: generated89183
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn89183 --> :pttrn89183.extracted={}
+

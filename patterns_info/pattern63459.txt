@@ -1,0 +1,8 @@
+focus on the timeequired to send fake packets and real packets and on a more pow-rful adversary such as a global adversary
+(VP (VB )(PP (IN )(NP (DT )(JJ )))(VP (TO )(VP (VB )(NP (NP (JJ )(NNS ))(CC )(NP (JJ )(NNS )))(CC )(PP (IN )(NP (NP (DT )(JJR )(JJ )(NN ))(PP (JJ )(IN )(NP (DT )(JJ )(NN ))))))))
+Phase: generated63459
+Input: Token
+Rule: generated63459
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == CC })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJR })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))):pttrn63459 --> :pttrn63459.extracted={}
+

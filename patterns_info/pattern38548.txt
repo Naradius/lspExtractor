@@ -1,0 +1,8 @@
+31 percent from 2016.. Tmote Sky.http://www.snm.ethz.ch/Projects/TmoteSky.. Gartner
+(NP (NP (CD )(NN ))(PP (IN )(NP (CD )(JJ )(NNP ){1,2})))
+Phase: generated38548
+Input: Token
+Rule: generated38548
+(
+((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNP })+)))):pttrn38548 --> :pttrn38548.extracted={}
+

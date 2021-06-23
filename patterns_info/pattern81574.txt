@@ -1,0 +1,8 @@
+personand company names
+(NP (NN ){1,2}(NNS ))
+Phase: generated81574
+Input: Token
+Rule: generated81574
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn81574 --> :pttrn81574.extracted={}
+

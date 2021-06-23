@@ -1,0 +1,8 @@
+can evaluate the performance of thecluster-based routing algorithm
+(VP (MD )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))))
+Phase: generated35458
+Input: Token
+Rule: generated35458
+(
+(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn35458 --> :pttrn35458.extracted={}
+

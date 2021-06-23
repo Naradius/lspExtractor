@@ -1,0 +1,8 @@
+a larger communication delay
+(NP (DT )(JJR )(NN ){1,2})
+Phase: generated19835
+Input: Token
+Rule: generated19835
+(
+(({ Token.category == DT })({ Token.category == JJR })({ Token.category == NN })+)):pttrn19835 --> :pttrn19835.extracted={}
+

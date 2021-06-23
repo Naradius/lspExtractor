@@ -1,0 +1,8 @@
+a low search engine score
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated115087
+Input: Token
+Rule: generated115087
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn115087 --> :pttrn115087.extracted={}
+

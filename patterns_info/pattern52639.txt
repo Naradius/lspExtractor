@@ -1,0 +1,8 @@
+in: 27th IEEE Conference of the Engineeringin Medicine and Biology Society, Shanghai, 2005, pp
+(PP (IN )(NP (NP (NP (JJ )(NNP ){1,2})(PP (IN )(NP (DT )(NNP ){1,2})))(CC )(NP (NNP )(CD ))))
+Phase: generated52639
+Input: Token
+Rule: generated52639
+(
+(({ Token.category == IN })(((({ Token.category == JJ })({ Token.category == NNP })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+)))({ Token.category == CC })(({ Token.category == NNP })({ Token.category == CD }))))):pttrn52639 --> :pttrn52639.extracted={}
+

@@ -1,0 +1,8 @@
+a confounding ring from RIS as its basic ring andoutes
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (PRP$ )(JJ )(NN )(NNS ))))
+Phase: generated62770
+Input: Token
+Rule: generated62770
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn62770 --> :pttrn62770.extracted={}
+

@@ -1,0 +1,8 @@
+the questions generated from the answer summary
+(NP (NP (DT )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))
+Phase: generated116309
+Input: Token
+Rule: generated116309
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn116309 --> :pttrn116309.extracted={}
+

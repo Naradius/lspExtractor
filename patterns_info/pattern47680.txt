@@ -1,0 +1,8 @@
+steerable mirrors
+(NP (JJ )(NNS ))
+Phase: generated47680
+Input: Token
+Rule: generated47680
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn47680 --> :pttrn47680.extracted={}
+

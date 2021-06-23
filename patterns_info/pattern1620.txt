@@ -1,0 +1,8 @@
+The operation speed of the algorithm
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated1620
+Input: Token
+Rule: generated1620
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn1620 --> :pttrn1620.extracted={}
+

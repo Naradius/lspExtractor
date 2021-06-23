@@ -1,0 +1,8 @@
+to fairly assign communication slots tothe nodes
+(VP (TO )(VP (VB )(NP (NN )(NNS ))(NP (DT )(NNS ))))
+Phase: generated52163
+Input: Token
+Rule: generated52163
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NNS }))))):pttrn52163 --> :pttrn52163.extracted={}
+

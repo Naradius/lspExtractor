@@ -1,0 +1,8 @@
+a full IE system
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated81302
+Input: Token
+Rule: generated81302
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn81302 --> :pttrn81302.extracted={}
+

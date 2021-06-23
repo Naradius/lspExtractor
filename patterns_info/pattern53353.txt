@@ -1,0 +1,8 @@
+location aware PEACH canbe used which support the localization mechanisms
+(PP (IN )(NP (NP (JJ )(NN ){1,2})(VP (VBN )(VP (VBP )(NP (DT )(NN )(NNS ))))))
+Phase: generated53353
+Input: Token
+Rule: generated53353
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn53353 --> :pttrn53353.extracted={}
+

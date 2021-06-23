@@ -1,0 +1,8 @@
+have fairlystereotyped information but are not rigidly formatted
+(VP (VP (VB )(NP (JJ )(NN )))(CC )(VP (VBP )(RB )))
+Phase: generated84029
+Input: Token
+Rule: generated84029
+(
+((({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VBP })({ Token.category == RB })))):pttrn84029 --> :pttrn84029.extracted={}
+

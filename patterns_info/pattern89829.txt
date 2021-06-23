@@ -1,0 +1,8 @@
+of a conceptual annotation
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated89829
+Input: Token
+Rule: generated89829
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn89829 --> :pttrn89829.extracted={}
+

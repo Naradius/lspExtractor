@@ -1,0 +1,8 @@
+keep up-to-date with the latest devel-opments by reading news items on the Web.
+(VP (VB )(ADJP (JJ )(PP (IN )(NP (DT )(JJS )(NNS ))))(PP (IN )(VP (VBG )(NP (NP (NN )(NNS ))(PP (IN )(NP (DT )(NNP )))))))
+Phase: generated94909
+Input: Token
+Rule: generated94909
+(
+(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))):pttrn94909 --> :pttrn94909.extracted={}
+

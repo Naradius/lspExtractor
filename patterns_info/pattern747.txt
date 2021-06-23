@@ -1,0 +1,8 @@
+divides the network into multiple clusters
+(VP (VBZ )(NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated747
+Input: Token
+Rule: generated747
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn747 --> :pttrn747.extracted={}
+

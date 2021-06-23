@@ -1,0 +1,8 @@
+tagged as a Language when part of the phrase \JavaBeans"
+(VP (VBN )(PP (IN )(NP (DT )(NN )))(WHADVP (WRB )))
+Phase: generated78580
+Input: Token
+Rule: generated78580
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == WRB })))):pttrn78580 --> :pttrn78580.extracted={}
+

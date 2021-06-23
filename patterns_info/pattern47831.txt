@@ -1,0 +1,8 @@
+communication, and data processing.The sensing unit and its components
+(NP (CC )(NP (NP (NNS )(NN ){1,2})(CC )(NP (PRP$ )(NNS ))))
+Phase: generated47831
+Input: Token
+Rule: generated47831
+(
+(({ Token.category == CC })((({ Token.category == NNS })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NNS }))))):pttrn47831 --> :pttrn47831.extracted={}
+

@@ -1,0 +1,8 @@
+would get false positives like machine, unless further constrained
+(VP (MD )(VP (VB )(IN )))
+Phase: generated89014
+Input: Token
+Rule: generated89014
+(
+(({ Token.category == MD })(({ Token.category == VB })({ Token.category == IN })))):pttrn89014 --> :pttrn89014.extracted={}
+

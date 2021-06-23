@@ -1,0 +1,8 @@
+is a noun
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated114055
+Input: Token
+Rule: generated114055
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn114055 --> :pttrn114055.extracted={}
+

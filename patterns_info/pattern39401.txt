@@ -1,0 +1,8 @@
+sup-port vector machine  and artificial immune system
+(NP (NP (JJ )(NN ){1,2})(CC )(NP (JJ ){1,2}(NN )))
+Phase: generated39401
+Input: Token
+Rule: generated39401
+(
+((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == JJ })+({ Token.category == NN })))):pttrn39401 --> :pttrn39401.extracted={}
+

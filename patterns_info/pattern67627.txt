@@ -1,0 +1,8 @@
+for the first timesing OLSR protocol with minimal delay
+(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (JJ )(NN )))))
+Phase: generated67627
+Input: Token
+Rule: generated67627
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn67627 --> :pttrn67627.extracted={}
+

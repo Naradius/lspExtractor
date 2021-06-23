@@ -1,0 +1,8 @@
+are non-conventional sentences that cause a natural condition or state in a person
+(VP (VBP )(NP (NP (JJ )(NNS ))(VP (VB )(NP (DT )(JJ )(NN )(CC )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated118347
+Input: Token
+Rule: generated118347
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn118347 --> :pttrn118347.extracted={}
+

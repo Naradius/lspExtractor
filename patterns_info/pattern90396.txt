@@ -1,0 +1,8 @@
+. the tilde, to separate a slot namefrom a facet namesee
+(VP (VBD )(NP (DT )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated90396
+Input: Token
+Rule: generated90396
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn90396 --> :pttrn90396.extracted={}
+

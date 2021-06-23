@@ -1,0 +1,8 @@
+changing topology and movement in 3D-space
+(VP (VBG )(NP (NN )(CC )(NN )))
+Phase: generated2722
+Input: Token
+Rule: generated2722
+(
+(({ Token.category == VBG })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })))):pttrn2722 --> :pttrn2722.extracted={}
+

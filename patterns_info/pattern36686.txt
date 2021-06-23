@@ -1,0 +1,8 @@
+prove the cost.Setting criteria for each new block is used to determine whetherthe new block is qualified
+(VP (VB )(NP (NP (DT )(NN )(NNS ))(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated36686
+Input: Token
+Rule: generated36686
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn36686 --> :pttrn36686.extracted={}
+

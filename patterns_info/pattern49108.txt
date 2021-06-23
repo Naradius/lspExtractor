@@ -1,0 +1,8 @@
+Sensors 12   90559097
+(NP (NNP )(CD ){1,2})
+Phase: generated49108
+Input: Token
+Rule: generated49108
+(
+(({ Token.category == NNP })({ Token.category == CD })+)):pttrn49108 --> :pttrn49108.extracted={}
+

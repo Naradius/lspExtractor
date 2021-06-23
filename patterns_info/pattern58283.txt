@@ -1,0 +1,8 @@
+of the nodes
+(PP (IN )(NP (DT )(NNS )))
+Phase: generated58283
+Input: Token
+Rule: generated58283
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn58283 --> :pttrn58283.extracted={}
+

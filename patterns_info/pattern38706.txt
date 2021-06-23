@@ -1,0 +1,8 @@
+3 Intrusion detection framework
+(NP (CD )(NN ){1,2})
+Phase: generated38706
+Input: Token
+Rule: generated38706
+(
+(({ Token.category == CD })({ Token.category == NN })+)):pttrn38706 --> :pttrn38706.extracted={}
+

@@ -1,0 +1,8 @@
+SLPHL scheme
+(NP (NNP )(NN ))
+Phase: generated63356
+Input: Token
+Rule: generated63356
+(
+(({ Token.category == NNP })({ Token.category == NN }))):pttrn63356 --> :pttrn63356.extracted={}
+

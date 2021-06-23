@@ -1,0 +1,8 @@
+application-specific dataaggregation
+(NP (JJ )(NN ))
+Phase: generated53542
+Input: Token
+Rule: generated53542
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn53542 --> :pttrn53542.extracted={}
+

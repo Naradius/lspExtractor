@@ -1,0 +1,8 @@
+for IoT-based healthcare systems
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated66085
+Input: Token
+Rule: generated66085
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn66085 --> :pttrn66085.extracted={}
+

@@ -1,0 +1,8 @@
+decoupling the control plane fromthe data plane
+(VP (VBG )(NP (DT )(NN ){1,2})(PP (IN )(NP (NNS )(NN ))))
+Phase: generated10799
+Input: Token
+Rule: generated10799
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))):pttrn10799 --> :pttrn10799.extracted={}
+

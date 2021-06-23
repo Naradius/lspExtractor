@@ -1,0 +1,8 @@
+serves as a delimiterbetween ads
+(VP (VBZ )(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated82542
+Input: Token
+Rule: generated82542
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn82542 --> :pttrn82542.extracted={}
+

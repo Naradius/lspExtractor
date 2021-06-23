@@ -1,0 +1,8 @@
+rates 1 in one direction and2
+(NP (NP (NNS )(CD ))(PP (IN )(NP (CD )(NN ){1,2})))
+Phase: generated13727
+Input: Token
+Rule: generated13727
+(
+((({ Token.category == NNS })({ Token.category == CD }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })+)))):pttrn13727 --> :pttrn13727.extracted={}
+

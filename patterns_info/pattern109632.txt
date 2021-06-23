@@ -1,0 +1,8 @@
+after solving thetime-delay linear estimation problem in real conditions
+(PP (IN )(VP (VBG )(NP (DT )(NN ){1,2})(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated109632
+Input: Token
+Rule: generated109632
+(
+(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn109632 --> :pttrn109632.extracted={}
+

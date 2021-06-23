@@ -1,0 +1,8 @@
+The stop condition
+(NP (DT )(NN ){1,2})
+Phase: generated29759
+Input: Token
+Rule: generated29759
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn29759 --> :pttrn29759.extracted={}
+

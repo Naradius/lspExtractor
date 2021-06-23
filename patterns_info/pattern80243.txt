@@ -1,0 +1,8 @@
+ahuman to accept or reject each rule
+(VP (VB )(VP (TO )(VP (VB )(CC )(VB )(NP (DT )(NN )))))
+Phase: generated80243
+Input: Token
+Rule: generated80243
+(
+(({ Token.category == VB })(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC })({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })))))):pttrn80243 --> :pttrn80243.extracted={}
+

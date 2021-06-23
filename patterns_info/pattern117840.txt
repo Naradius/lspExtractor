@@ -1,0 +1,8 @@
+is much more difficult than in the case of individual sentences
+(VP (VBZ )(ADJP (ADJP (ADVP (RB )(RBR ))(JJ ))(PP (IN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))))
+Phase: generated117840
+Input: Token
+Rule: generated117840
+(
+(({ Token.category == VBZ })(((({ Token.category == RB })({ Token.category == RBR }))({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))))):pttrn117840 --> :pttrn117840.extracted={}
+

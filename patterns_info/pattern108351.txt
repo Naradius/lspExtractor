@@ -1,0 +1,8 @@
+are selected from the MANET using the existing
+(VP (VBP )(VP (VBN )(PP (IN )(NP (DT )(NNP )))(VP (VBG )(NP (DT )(NN )))))
+Phase: generated108351
+Input: Token
+Rule: generated108351
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })))))):pttrn108351 --> :pttrn108351.extracted={}
+

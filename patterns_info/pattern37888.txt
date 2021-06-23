@@ -1,0 +1,8 @@
+the malicious packet as well as the attack signature
+(NP (NP (DT )(JJ )(NN ))(CONJP (RB ){1,2}(IN ))(NP (DT )(NN ){1,2}))
+Phase: generated37888
+Input: Token
+Rule: generated37888
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })+({ Token.category == IN }))(({ Token.category == DT })({ Token.category == NN })+))):pttrn37888 --> :pttrn37888.extracted={}
+

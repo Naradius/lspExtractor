@@ -1,0 +1,8 @@
+RPL, exchange fourypes of ICMPv6 control messages
+(NP (NP (NNP )(NN )(NNS ))(PP (IN )(NP (DT )(NN )(NNS ))))
+Phase: generated25907
+Input: Token
+Rule: generated25907
+(
+((({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))):pttrn25907 --> :pttrn25907.extracted={}
+

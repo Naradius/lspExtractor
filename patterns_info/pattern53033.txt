@@ -1,0 +1,8 @@
+for CH election which can handle the hetero-geneous energy capacities of the nodes intelligently
+(PP (IN )(NP (NP (NNP )(NN ))(VP (MD )(VP (VB )(NP (NP (DT )(JJ )(NN )(NNS ))(PP (IN )(NP (DT )(NNS ))))))))
+Phase: generated53033
+Input: Token
+Rule: generated53033
+(
+(({ Token.category == IN })((({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn53033 --> :pttrn53033.extracted={}
+

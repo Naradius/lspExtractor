@@ -1,0 +1,8 @@
+decided to use the remaining funds as a last payment of mortgage for her second home
+(VP (VBD )(VP (TO )(VP (VB )(NP (DT )(VBG )(NNS )))))
+Phase: generated71027
+Input: Token
+Rule: generated71027
+(
+(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NNS })))))):pttrn71027 --> :pttrn71027.extracted={}
+

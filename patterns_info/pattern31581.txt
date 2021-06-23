@@ -1,0 +1,8 @@
+significant progress
+(NP (JJ )(NN ))
+Phase: generated31581
+Input: Token
+Rule: generated31581
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn31581 --> :pttrn31581.extracted={}
+

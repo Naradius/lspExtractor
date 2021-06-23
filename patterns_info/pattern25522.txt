@@ -1,0 +1,8 @@
+static network
+(NP (JJ )(NN ))
+Phase: generated25522
+Input: Token
+Rule: generated25522
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn25522 --> :pttrn25522.extracted={}
+

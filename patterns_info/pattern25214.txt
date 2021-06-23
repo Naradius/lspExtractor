@@ -1,0 +1,8 @@
+natureof wireless environments
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated25214
+Input: Token
+Rule: generated25214
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn25214 --> :pttrn25214.extracted={}
+

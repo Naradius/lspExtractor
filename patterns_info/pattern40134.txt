@@ -1,0 +1,8 @@
+Network and Computer Applicationsjournal homepage
+(NP (NNP )(CC )(NNP ){1,2}(NN ))
+Phase: generated40134
+Input: Token
+Rule: generated40134
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })+({ Token.category == NN }))):pttrn40134 --> :pttrn40134.extracted={}
+

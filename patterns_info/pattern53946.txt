@@ -1,0 +1,8 @@
+its CH status
+(NP (PRP$ )(NNP )(NN ))
+Phase: generated53946
+Input: Token
+Rule: generated53946
+(
+(({ Token.category == PRP$ })({ Token.category == NNP })({ Token.category == NN }))):pttrn53946 --> :pttrn53946.extracted={}
+

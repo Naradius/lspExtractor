@@ -1,0 +1,8 @@
+Calculate its fitness value for later use.
+(NP (DT )(NP (NP (PRP$ )(NN ){1,2})(PP (IN )(NP (RB )(NN )))))
+Phase: generated68831
+Input: Token
+Rule: generated68831
+(
+(({ Token.category == DT })((({ Token.category == PRP$ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == RB })({ Token.category == NN })))))):pttrn68831 --> :pttrn68831.extracted={}
+

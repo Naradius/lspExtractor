@@ -1,0 +1,8 @@
+on neighbor locations or hops
+(PP (IN )(NP (NN )(NNS )(CC )(NNS )))
+Phase: generated65583
+Input: Token
+Rule: generated65583
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn65583 --> :pttrn65583.extracted={}
+

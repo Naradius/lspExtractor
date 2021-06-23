@@ -1,0 +1,8 @@
+ischosen as the adaptive value of PSO algorithm to improve theoverall property of network
+(VP (VBZ )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (NNP )(NN ))))))
+Phase: generated32289
+Input: Token
+Rule: generated32289
+(
+(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN }))))))):pttrn32289 --> :pttrn32289.extracted={}
+

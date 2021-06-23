@@ -1,0 +1,8 @@
+the totalumber of transmitted packets towards the sink in the network
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ))))))))
+Phase: generated27861
+Input: Token
+Rule: generated27861
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn27861 --> :pttrn27861.extracted={}
+

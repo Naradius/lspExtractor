@@ -1,0 +1,8 @@
+by Adamson and Boreham
+(PP (IN )(NP (NNP )(CC )(NNP )))
+Phase: generated98084
+Input: Token
+Rule: generated98084
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn98084 --> :pttrn98084.extracted={}
+

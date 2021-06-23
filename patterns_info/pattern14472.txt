@@ -1,0 +1,8 @@
+in MANET simulations
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated14472
+Input: Token
+Rule: generated14472
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn14472 --> :pttrn14472.extracted={}
+

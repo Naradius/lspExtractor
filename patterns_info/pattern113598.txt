@@ -1,0 +1,8 @@
+serve as a relevant answer to the question, although it includes keywords from this question
+(VP (VB )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (TO )(NP (DT )(NN )))))(IN ))
+Phase: generated113598
+Input: Token
+Rule: generated113598
+(
+(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))({ Token.category == IN }))):pttrn113598 --> :pttrn113598.extracted={}
+

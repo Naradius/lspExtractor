@@ -1,0 +1,8 @@
+these distributed IoT nodes
+(NP (DT )(VBN )(NN )(NNS ))
+Phase: generated31598
+Input: Token
+Rule: generated31598
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })({ Token.category == NNS }))):pttrn31598 --> :pttrn31598.extracted={}
+

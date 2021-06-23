@@ -1,0 +1,8 @@
+,a multipath route establishment algorithm
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated55640
+Input: Token
+Rule: generated55640
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn55640 --> :pttrn55640.extracted={}
+

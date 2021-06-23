@@ -1,0 +1,8 @@
+is shown.If we consider the following sentence: ASUSand Microsoft Corporation become official partnersfor Windows Phone 7, where ASUS is a knowninstance of Company in the ontology and Mi-RootNodegetNextMatchcountLeaf NodegetNextMatchcountLeaf NodegetNextMatchcountLeaf NodegetNextMatchcountFigure 2: Rule tree templatecrosoft Corporation is not, the process is as follows.Sequence sends a getNextMatch call to kb:Company,which returns 1, indicating that one token hasbeen matched
+(VP (VBZ )(VP (VBN )(VP (VBP )(NP (NP (DT )(JJ )(NN ))(VP (VBP )(NP (NP (NP (JJ )(NN )(NNP ){1,2}(CD ))(WHADVP (WRB )))(IN )))))))
+Phase: generated93572
+Input: Token
+Rule: generated93572
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == VBP })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBP })(((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })+({ Token.category == CD }))(({ Token.category == WRB })))({ Token.category == IN })))))))):pttrn93572 --> :pttrn93572.extracted={}
+

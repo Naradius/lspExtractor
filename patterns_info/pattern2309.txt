@@ -1,0 +1,8 @@
+undertake necessary experiments and investigations
+(VP (VB )(NP (JJ )(NNS )(CC )(NNS )))
+Phase: generated2309
+Input: Token
+Rule: generated2309
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))):pttrn2309 --> :pttrn2309.extracted={}
+

@@ -1,0 +1,8 @@
+put forward a traffic decorrelationechnique to protect the source location privacy from the root  .Machine learning
+(VP (VBD )(NP (DT )(NN ){1,2})(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))))
+Phase: generated61977
+Input: Token
+Rule: generated61977
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))):pttrn61977 --> :pttrn61977.extracted={}
+

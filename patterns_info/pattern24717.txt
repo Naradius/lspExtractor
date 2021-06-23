@@ -1,0 +1,8 @@
+heavy traffic
+(NP (JJ )(NN ))
+Phase: generated24717
+Input: Token
+Rule: generated24717
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn24717 --> :pttrn24717.extracted={}
+

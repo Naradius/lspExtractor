@@ -1,0 +1,8 @@
+the previously selected CHs
+(NP (DT )(ADJP (RB )(VBN ))(NNP ))
+Phase: generated6211
+Input: Token
+Rule: generated6211
+(
+(({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NNP }))):pttrn6211 --> :pttrn6211.extracted={}
+

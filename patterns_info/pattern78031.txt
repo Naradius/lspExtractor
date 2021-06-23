@@ -1,0 +1,8 @@
+logP We experimentally determined 3.0 as a good cut-off pointto filter non-descriptive from descriptive patterns, whichwere observed with too many different relations
+(VP (VBP )(VP (VBD )(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(ADJP (JJ )(PP (IN )(NP (NP (NN )(NNS ))(VP (VBD )(PP (IN )(NP (ADJP (RB )(JJ ))(JJ )(NNS )))))))))))
+Phase: generated78031
+Input: Token
+Rule: generated78031
+(
+(({ Token.category == VBP })(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == IN })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })({ Token.category == NNS })))))))))))):pttrn78031 --> :pttrn78031.extracted={}
+

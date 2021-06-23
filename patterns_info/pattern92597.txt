@@ -1,0 +1,8 @@
+is main-tained by a manual approach
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated92597
+Input: Token
+Rule: generated92597
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn92597 --> :pttrn92597.extracted={}
+

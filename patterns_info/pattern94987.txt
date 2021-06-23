@@ -1,0 +1,8 @@
+ex-press and reason with content metadata
+(NP (NP (NN )(CC )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated94987
+Input: Token
+Rule: generated94987
+(
+((({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn94987 --> :pttrn94987.extracted={}
+

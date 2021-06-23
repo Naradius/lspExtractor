@@ -1,0 +1,8 @@
+its nearest sink.Sink mobility
+(NP (PRP$ )(JJS )(NN ){1,2})
+Phase: generated51599
+Input: Token
+Rule: generated51599
+(
+(({ Token.category == PRP$ })({ Token.category == JJS })({ Token.category == NN })+)):pttrn51599 --> :pttrn51599.extracted={}
+

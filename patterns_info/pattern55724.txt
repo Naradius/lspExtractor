@@ -1,0 +1,8 @@
+is very low
+(VP (VBZ )(ADJP (RB )(JJ )))
+Phase: generated55724
+Input: Token
+Rule: generated55724
+(
+(({ Token.category == VBZ })(({ Token.category == RB })({ Token.category == JJ })))):pttrn55724 --> :pttrn55724.extracted={}
+

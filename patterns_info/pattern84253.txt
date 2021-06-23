@@ -1,0 +1,8 @@
+simulated in theseexperiments by havingWHISK look up the tags from a le that had been previouslyhand-tagged
+(VP (VBN )(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(NNS ))))))
+Phase: generated84253
+Input: Token
+Rule: generated84253
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn84253 --> :pttrn84253.extracted={}
+

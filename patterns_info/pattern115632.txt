@@ -1,0 +1,8 @@
+of PT.Graph-based algorithms  for PT generalization
+(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NNP )(NN )))))
+Phase: generated115632
+Input: Token
+Rule: generated115632
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NN })))))):pttrn115632 --> :pttrn115632.extracted={}
+

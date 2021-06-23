@@ -1,0 +1,8 @@
+is reduced by about 30% to AODV and about 20% to EEABR.In Fig. 7, all of the synthetic QoS metrics will decline withincrease of the node number
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (QP (IN )(CD ))(NN )))(PP (TO )(NP (CC )(NP (QP (IN )(CD ))(NN ))))(PP (TO )(NP (NNP ){1,2}(CD )))))
+Phase: generated33794
+Input: Token
+Rule: generated33794
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == CC })((({ Token.category == IN })({ Token.category == CD }))({ Token.category == NN }))))(({ Token.category == TO })(({ Token.category == NNP })+({ Token.category == CD })))))):pttrn33794 --> :pttrn33794.extracted={}
+

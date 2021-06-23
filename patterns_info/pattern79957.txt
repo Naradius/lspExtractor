@@ -1,0 +1,8 @@
+be divided into multiple elds
+(VP (VB )(VP (VBN )(PP (IN )(NP (JJ )(NNS )))))
+Phase: generated79957
+Input: Token
+Rule: generated79957
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn79957 --> :pttrn79957.extracted={}
+

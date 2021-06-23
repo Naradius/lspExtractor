@@ -1,0 +1,8 @@
+of a bee dance show to the other bees where exactly the food source is located and the amount of the pollen or nectar in it
+(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (TO )(NP (NP (DT )(JJ )(NNS ))(WHADVP (WRB ))))))
+Phase: generated1245
+Input: Token
+Rule: generated1245
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == WRB }))))))):pttrn1245 --> :pttrn1245.extracted={}
+

@@ -1,0 +1,8 @@
+with neither RST nor SpActT.Fig
+(PP (IN )(NP (DT )(NNP )(CC )(NNP )))
+Phase: generated114260
+Input: Token
+Rule: generated114260
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })))):pttrn114260 --> :pttrn114260.extracted={}
+

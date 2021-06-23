@@ -1,0 +1,8 @@
+to such instances rather than to the text directly.For some domains, such as the Rental Ad domain
+(PP (PP (TO )(NP (JJ )(NNS )))(CONJP (RB )(IN ))(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NNS ))(PP (JJ )(IN )(NP (DT )(NNP ){1,2}(NN ))))))))
+Phase: generated82530
+Input: Token
+Rule: generated82530
+(
+((({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == RB })({ Token.category == IN }))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN }))))))))):pttrn82530 --> :pttrn82530.extracted={}
+

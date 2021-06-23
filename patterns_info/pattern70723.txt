@@ -1,0 +1,8 @@
+most general unification
+(NP (JJS )(JJ )(NN ))
+Phase: generated70723
+Input: Token
+Rule: generated70723
+(
+(({ Token.category == JJS })({ Token.category == JJ })({ Token.category == NN }))):pttrn70723 --> :pttrn70723.extracted={}
+

@@ -1,0 +1,8 @@
+mainly wireless networking
+(NP (RB )(JJ )(NN ))
+Phase: generated43719
+Input: Token
+Rule: generated43719
+(
+(({ Token.category == RB })({ Token.category == JJ })({ Token.category == NN }))):pttrn43719 --> :pttrn43719.extracted={}
+

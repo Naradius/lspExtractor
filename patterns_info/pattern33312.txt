@@ -1,0 +1,8 @@
+the path message in the original travel records
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(JJ )(NN )(NNS ))))
+Phase: generated33312
+Input: Token
+Rule: generated33312
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn33312 --> :pttrn33312.extracted={}
+

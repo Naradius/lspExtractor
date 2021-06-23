@@ -1,0 +1,8 @@
+the annotators
+(NP (DT )(NNS ))
+Phase: generated74516
+Input: Token
+Rule: generated74516
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn74516 --> :pttrn74516.extracted={}
+

@@ -1,0 +1,8 @@
+lower probability
+(NP (JJR )(NN ))
+Phase: generated23574
+Input: Token
+Rule: generated23574
+(
+(({ Token.category == JJR })({ Token.category == NN }))):pttrn23574 --> :pttrn23574.extracted={}
+

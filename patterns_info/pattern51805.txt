@@ -1,0 +1,8 @@
+wireless charging technologies
+(NP (JJ )(NN )(NNS ))
+Phase: generated51805
+Input: Token
+Rule: generated51805
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn51805 --> :pttrn51805.extracted={}
+

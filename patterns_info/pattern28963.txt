@@ -1,0 +1,8 @@
+routing protocol for low power and lossy networks,RFC 6550
+(NP (NP (NP (VBG )(NN ))(PP (IN )(NP (JJ )(NN ))))(CC ))
+Phase: generated28963
+Input: Token
+Rule: generated28963
+(
+(((({ Token.category == VBG })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN }))))({ Token.category == CC }))):pttrn28963 --> :pttrn28963.extracted={}
+

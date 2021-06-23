@@ -1,0 +1,8 @@
+identifying the OF.
+(VP (VBG )(NP (DT )(NNP )))
+Phase: generated26127
+Input: Token
+Rule: generated26127
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP })))):pttrn26127 --> :pttrn26127.extracted={}
+

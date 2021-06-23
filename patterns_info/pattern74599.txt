@@ -1,0 +1,8 @@
+F1 metrics
+(NP (NNP )(NNS ))
+Phase: generated74599
+Input: Token
+Rule: generated74599
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn74599 --> :pttrn74599.extracted={}
+

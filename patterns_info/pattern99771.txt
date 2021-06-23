@@ -1,0 +1,8 @@
+began writing The Metamorphosis in the target text and its parsetree .In this case
+(VP (VBD )(VP (VBG )(NP (DT )(NNP ))(PP (IN )(NP (NP (NP (DT )(NN ){1,2})(CC )(NP (PRP$ )(NN )))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated99771
+Input: Token
+Rule: generated99771
+(
+(({ Token.category == VBD })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })(({ Token.category == PRP$ })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn99771 --> :pttrn99771.extracted={}
+

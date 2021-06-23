@@ -1,0 +1,8 @@
+will be taken to testifferent methods in our specific case
+(VP (MD )(VP (VB )(VP (VBN )(PP (TO )(NP (JJ )(NNS )))(PP (IN )(NP (PRP$ )(JJ )(NN ))))))
+Phase: generated112208
+Input: Token
+Rule: generated112208
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn112208 --> :pttrn112208.extracted={}
+

@@ -1,0 +1,8 @@
+Good flexibility
+(NP (JJ )(NN ))
+Phase: generated96287
+Input: Token
+Rule: generated96287
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn96287 --> :pttrn96287.extracted={}
+

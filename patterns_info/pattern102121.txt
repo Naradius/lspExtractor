@@ -1,0 +1,8 @@
+between language elements
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated102121
+Input: Token
+Rule: generated102121
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn102121 --> :pttrn102121.extracted={}
+

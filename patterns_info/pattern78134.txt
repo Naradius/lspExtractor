@@ -1,0 +1,8 @@
+the two most important observations.Doubly skewed data
+(NP (DT )(CD )(RBS )(JJ ){1,2}(NNS ))
+Phase: generated78134
+Input: Token
+Rule: generated78134
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == RBS })({ Token.category == JJ })+({ Token.category == NNS }))):pttrn78134 --> :pttrn78134.extracted={}
+

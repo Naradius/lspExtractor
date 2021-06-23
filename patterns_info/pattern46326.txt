@@ -1,0 +1,8 @@
+even years
+(NP (RB )(NNS ))
+Phase: generated46326
+Input: Token
+Rule: generated46326
+(
+(({ Token.category == RB })({ Token.category == NNS }))):pttrn46326 --> :pttrn46326.extracted={}
+

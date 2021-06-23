@@ -1,0 +1,8 @@
+the weight of the pattern i
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated74444
+Input: Token
+Rule: generated74444
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn74444 --> :pttrn74444.extracted={}
+

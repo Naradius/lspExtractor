@@ -1,0 +1,8 @@
+thetotal length
+(NP (JJ )(NN ))
+Phase: generated7069
+Input: Token
+Rule: generated7069
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn7069 --> :pttrn7069.extracted={}
+

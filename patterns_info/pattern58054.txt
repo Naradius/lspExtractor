@@ -1,0 +1,8 @@
+Supported by Chinese NationalPrograms for High Technology Research and Development.
+(VP (VBN )(PP (IN )(NP (NP (JJ )(NNP ))(PP (IN )(NP (NNP ){1,2}(CC )(NNP ))))))
+Phase: generated58054
+Input: Token
+Rule: generated58054
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP }))))))):pttrn58054 --> :pttrn58054.extracted={}
+

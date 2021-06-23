@@ -1,0 +1,8 @@
+to the nodes which havehigher residual energy and send only when some event occurs.After this phase, each CH broadcast the message using CSMA withits ID so that non-CH nodes join the CH.
+(PP (TO )(NP (NP (DT )(NNS ))(VP (VP (VBP )(NP (JJ )(NN )))(CC )(VP (VB )(WHADVP (WRB ))))))
+Phase: generated53638
+Input: Token
+Rule: generated53638
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNS }))((({ Token.category == VBP })(({ Token.category == JJ })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == VB })(({ Token.category == WRB }))))))):pttrn53638 --> :pttrn53638.extracted={}
+

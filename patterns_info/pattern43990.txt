@@ -1,0 +1,8 @@
+Steps 4, 5, and 6of Fig. 6
+(NP (NNP )(CD ){1,2}(CC )(CD )(NNP ){1,2}(CD ))
+Phase: generated43990
+Input: Token
+Rule: generated43990
+(
+(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == CC })({ Token.category == CD })({ Token.category == NNP })+({ Token.category == CD }))):pttrn43990 --> :pttrn43990.extracted={}
+

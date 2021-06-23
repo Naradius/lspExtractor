@@ -1,0 +1,8 @@
+of on-line job listings
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated81894
+Input: Token
+Rule: generated81894
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn81894 --> :pttrn81894.extracted={}
+

@@ -1,0 +1,8 @@
+to ensure authentication and protectthe privacy of different DTN nodes.5.5
+(VP (TO )(VP (VB )(NP (CC )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNP )(NNS )(CD )))))))
+Phase: generated41408
+Input: Token
+Rule: generated41408
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS })({ Token.category == CD })))))))):pttrn41408 --> :pttrn41408.extracted={}
+

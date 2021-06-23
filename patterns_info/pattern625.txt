@@ -1,0 +1,8 @@
+intra-cluster transmission arrangement, data forwarding, and so on
+(NP (NP (JJ )(NN ){1,2})(NP (NNS )(NN ))(CC )(ADVP (RB )(IN )))
+Phase: generated625
+Input: Token
+Rule: generated625
+(
+((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == NNS })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == RB })({ Token.category == IN })))):pttrn625 --> :pttrn625.extracted={}
+

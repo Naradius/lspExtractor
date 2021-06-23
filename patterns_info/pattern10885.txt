@@ -1,0 +1,8 @@
+ensures better controland scalability over the network
+(VP (VBZ )(NP (JJR )(NN ){1,2})(PP (IN )(NP (DT )(NN ))))
+Phase: generated10885
+Input: Token
+Rule: generated10885
+(
+(({ Token.category == VBZ })(({ Token.category == JJR })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn10885 --> :pttrn10885.extracted={}
+

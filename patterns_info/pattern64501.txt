@@ -1,0 +1,8 @@
+is calculated for each nomad lion independently as follows:pri  0:1 min 0:5;NomadiBestnomadBestnomad i 1; 2;;number of nomad lions 12where Nomadi and Bestnomad are cost of current position of theith lion in nomads and the best cost of the nomad lion,respectively
+(VP (VBZ )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))))
+Phase: generated64501
+Input: Token
+Rule: generated64501
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn64501 --> :pttrn64501.extracted={}
+

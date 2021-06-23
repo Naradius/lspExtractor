@@ -1,0 +1,8 @@
+to emergency res-cue teams , miners  and soldiers
+(PP (TO )(NP (NN ){1,2}(NNS ){1,2}(CC )(NNS )))
+Phase: generated49913
+Input: Token
+Rule: generated49913
+(
+(({ Token.category == TO })(({ Token.category == NN })+({ Token.category == NNS })+({ Token.category == CC })({ Token.category == NNS })))):pttrn49913 --> :pttrn49913.extracted={}
+

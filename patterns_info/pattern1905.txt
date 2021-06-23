@@ -1,0 +1,8 @@
+the routing protocol
+(NP (DT )(NN ){1,2})
+Phase: generated1905
+Input: Token
+Rule: generated1905
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn1905 --> :pttrn1905.extracted={}
+

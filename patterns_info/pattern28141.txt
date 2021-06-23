@@ -1,0 +1,8 @@
+adopt aobility model for our evaluations
+(VP (VB )(PP (IN )(NP (PRP$ )(NNS ))))
+Phase: generated28141
+Input: Token
+Rule: generated28141
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NNS }))))):pttrn28141 --> :pttrn28141.extracted={}
+

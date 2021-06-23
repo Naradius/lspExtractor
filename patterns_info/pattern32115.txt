@@ -1,0 +1,8 @@
+is aless restrictive assumption than the k-means algorithm uses themean to form circular clusters
+(VP (VBZ )(VP (VBP )(VP (TO )(VP (VB )(NP (JJ )(NNS ))))))
+Phase: generated32115
+Input: Token
+Rule: generated32115
+(
+(({ Token.category == VBZ })(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn32115 --> :pttrn32115.extracted={}
+

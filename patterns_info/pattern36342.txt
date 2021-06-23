@@ -1,0 +1,8 @@
+only asingle angle of a certain application scenario
+(NP (NP (RB )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN ){1,2})))
+Phase: generated36342
+Input: Token
+Rule: generated36342
+(
+((({ Token.category == RB })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))):pttrn36342 --> :pttrn36342.extracted={}
+

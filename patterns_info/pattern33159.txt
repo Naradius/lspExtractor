@@ -1,0 +1,8 @@
+Every source nodeaddress
+(NP (DT )(NN ){1,2})
+Phase: generated33159
+Input: Token
+Rule: generated33159
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn33159 --> :pttrn33159.extracted={}
+

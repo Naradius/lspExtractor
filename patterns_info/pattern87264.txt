@@ -1,0 +1,8 @@
+to be successfully matched in a text
+(VP (TO )(VP (VB )(VP (VBN )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated87264
+Input: Token
+Rule: generated87264
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn87264 --> :pttrn87264.extracted={}
+

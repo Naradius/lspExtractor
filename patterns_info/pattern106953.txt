@@ -1,0 +1,8 @@
+a WFST encodingthe sentence unigram probabilities
+(NP (DT )(JJ ){1,2}(NN ){1,2}(NNS ))
+Phase: generated106953
+Input: Token
+Rule: generated106953
+(
+(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+({ Token.category == NNS }))):pttrn106953 --> :pttrn106953.extracted={}
+

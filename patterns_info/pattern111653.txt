@@ -1,0 +1,8 @@
+be generated thanks toping3 tool with the same experimental process than described inection 4
+(VP (VB )(VP (VBN )(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(NP (NP (DT )(JJ ){1,2}(NN ))(IN )))))))
+Phase: generated111653
+Input: Token
+Rule: generated111653
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN }))({ Token.category == IN })))))))):pttrn111653 --> :pttrn111653.extracted={}
+

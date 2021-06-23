@@ -1,0 +1,8 @@
+set the link layer in promiscuous mode sothat it hands over all the packets it hears in the shared wirelessmedium to the VaNetLayer, which, in turn, raises them to VNAODV+.Up in the network layer
+(VP (VBD )(NP (DT )(NN ){1,2})(PP (IN )(NP (NP (JJ )(NN ))(PP (IN )(VP (VBZ )(PP (IN )(NP (NP (DT ){1,2}(NNS ))(VP (VBZ )(PP (IN )(NP (DT )(VBN )(NN )))(PP (TO )(NP (NP (DT )(NNP ))(VP (VBZ )(VP (TO )(VP (VB )(PP (IN )(NP (DT )(NN ){1,2})))))))))))))))
+Phase: generated15608
+Input: Token
+Rule: generated15608
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBZ })(({ Token.category == IN })((({ Token.category == DT })+({ Token.category == NNS }))(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NNP }))(({ Token.category == VBZ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))))))))))):pttrn15608 --> :pttrn15608.extracted={}
+

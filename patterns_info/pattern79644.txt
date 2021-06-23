@@ -1,0 +1,8 @@
+lled by a phrase with length from one to ten tokensand
+(VP (VBN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated79644
+Input: Token
+Rule: generated79644
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn79644 --> :pttrn79644.extracted={}
+

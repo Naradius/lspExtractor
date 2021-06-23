@@ -1,0 +1,8 @@
+has data from the corpus, with the help of predetermined rule template
+(VP (VBZ )(PP (IN )(NP (DT )(JJ )))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2})))))
+Phase: generated97908
+Input: Token
+Rule: generated97908
+(
+(({ Token.category == VBZ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn97908 --> :pttrn97908.extracted={}
+

@@ -1,0 +1,8 @@
+the router buffer
+(NP (DT )(NN ){1,2})
+Phase: generated110377
+Input: Token
+Rule: generated110377
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn110377 --> :pttrn110377.extracted={}
+

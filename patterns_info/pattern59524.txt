@@ -1,0 +1,8 @@
+applying a route discovery process
+(VP (VBG )(NP (DT )(NN ){1,2}))
+Phase: generated59524
+Input: Token
+Rule: generated59524
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NN })+))):pttrn59524 --> :pttrn59524.extracted={}
+

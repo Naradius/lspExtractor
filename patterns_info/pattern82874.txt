@@ -1,0 +1,8 @@
+to distinguish traininginstances from the set of untagged instances from which the training instances aredrawn
+(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(NP (DT )(NN )(NNS ))))))))
+Phase: generated82874
+Input: Token
+Rule: generated82874
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))))):pttrn82874 --> :pttrn82874.extracted={}
+

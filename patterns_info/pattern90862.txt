@@ -1,0 +1,8 @@
+change the tag of this word.The rules produced by the contextual learning module together with the lexical rules and severalother files
+(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ){1,2}))(PP (IN )(NP (NP (DT )(JJ )(NNS ))(CC )(NP (JJ )(NNS )))))))))
+Phase: generated90862
+Input: Token
+Rule: generated90862
+(
+(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS })))))))))):pttrn90862 --> :pttrn90862.extracted={}
+

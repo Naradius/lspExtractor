@@ -1,0 +1,8 @@
+the hop count information
+(NP (DT )(NN ){1,2})
+Phase: generated62479
+Input: Token
+Rule: generated62479
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn62479 --> :pttrn62479.extracted={}
+

@@ -1,0 +1,8 @@
+exactly one cluster
+(NP (RB )(CD )(NN ))
+Phase: generated6744
+Input: Token
+Rule: generated6744
+(
+(({ Token.category == RB })({ Token.category == CD })({ Token.category == NN }))):pttrn6744 --> :pttrn6744.extracted={}
+

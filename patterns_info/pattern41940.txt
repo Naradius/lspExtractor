@@ -1,0 +1,8 @@
+optimizes the replicationof the HDRP while taking into account of several parameters, namely:resources, the size of the bundles, the number of replications of bundles
+(VP (VBZ )(NP (DT )(NN ))(NP (DT )(NNP ))(IN ))
+Phase: generated41940
+Input: Token
+Rule: generated41940
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })({ Token.category == NNP }))({ Token.category == IN }))):pttrn41940 --> :pttrn41940.extracted={}
+

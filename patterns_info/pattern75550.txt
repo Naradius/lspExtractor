@@ -1,0 +1,8 @@
+seed dictionary phrases
+(NP (NN ){1,2}(NNS ))
+Phase: generated75550
+Input: Token
+Rule: generated75550
+(
+(({ Token.category == NN })+({ Token.category == NNS }))):pttrn75550 --> :pttrn75550.extracted={}
+

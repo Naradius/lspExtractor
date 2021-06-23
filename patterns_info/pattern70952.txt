@@ -1,0 +1,8 @@
+of least general generalization, or anti-unification
+(PP (IN )(NP (NP (JJS )(JJ )(NN ))(CC )))
+Phase: generated70952
+Input: Token
+Rule: generated70952
+(
+(({ Token.category == IN })((({ Token.category == JJS })({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })))):pttrn70952 --> :pttrn70952.extracted={}
+

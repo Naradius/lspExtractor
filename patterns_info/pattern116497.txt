@@ -1,0 +1,8 @@
+efficiently parsed by the NLP Parser.9
+(VP (VBN )(PP (IN )(NP (DT )(NNP ){1,2})))
+Phase: generated116497
+Input: Token
+Rule: generated116497
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+)))):pttrn116497 --> :pttrn116497.extracted={}
+

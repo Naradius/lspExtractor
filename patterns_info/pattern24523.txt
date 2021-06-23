@@ -1,0 +1,8 @@
+S. Debroy, P. Samanta, A. Bashir et al. / Future Generation Computer Systems 93  833848 O. Iova, P. Picco, T. Istomin, C. Kiraly, RPL: The routing standard for the internetof things... or is it?
+(NP ('' )(NP (NNP ){1,2}(NNPS )))
+Phase: generated24523
+Input: Token
+Rule: generated24523
+(
+(({ Token.category == '' })(({ Token.category == NNP })+({ Token.category == NNPS })))):pttrn24523 --> :pttrn24523.extracted={}
+

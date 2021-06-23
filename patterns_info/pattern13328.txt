@@ -1,0 +1,8 @@
+a plain client  that is not involvedin processing or forwarding at all.In 2011, Wu  came up with an improved version of theVNLayer that extended the basic communication rules
+(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(RB )(PP (IN )(VP (VBG )(CC )))))
+Phase: generated13328
+Input: Token
+Rule: generated13328
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == CC })))))):pttrn13328 --> :pttrn13328.extracted={}
+

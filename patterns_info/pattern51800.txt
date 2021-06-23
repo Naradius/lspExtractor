@@ -1,0 +1,8 @@
+of mobile chargers that directly deliverpower to deployed nodes
+(PP (IN )(NP (NP (JJ )(NNS ))(VP (VBN )(PP (TO )(NP (VBN )(NNS ))))))
+Phase: generated51800
+Input: Token
+Rule: generated51800
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VBN })({ Token.category == NNS }))))))):pttrn51800 --> :pttrn51800.extracted={}
+

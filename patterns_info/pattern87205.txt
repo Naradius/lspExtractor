@@ -1,0 +1,8 @@
+the part of speech tagger assigns
+(NP (NP (DT )(NN ))(PP (IN )(NP (NN ){1,2}(NNS ))))
+Phase: generated87205
+Input: Token
+Rule: generated87205
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })+({ Token.category == NNS }))))):pttrn87205 --> :pttrn87205.extracted={}
+

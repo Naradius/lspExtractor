@@ -1,0 +1,8 @@
+of non-leader nodes
+(PP (IN )(NP (JJ )(NNS )))
+Phase: generated12971
+Input: Token
+Rule: generated12971
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))):pttrn12971 --> :pttrn12971.extracted={}
+

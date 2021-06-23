@@ -1,0 +1,8 @@
+contrib-uted to a significant reduction in the required number ofants for the system behavioral convergence
+(VP (VBN )(PP (TO )(NP (NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(JJ )(NN )(NNS ))))(PP (IN )(NP (DT )(NN )(JJ )(NN ))))))
+Phase: generated7372
+Input: Token
+Rule: generated7372
+(
+(({ Token.category == VBN })(({ Token.category == TO })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN }))))))):pttrn7372 --> :pttrn7372.extracted={}
+

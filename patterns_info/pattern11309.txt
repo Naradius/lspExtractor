@@ -1,0 +1,8 @@
+the lion
+(NP (DT )(NN ))
+Phase: generated11309
+Input: Token
+Rule: generated11309
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn11309 --> :pttrn11309.extracted={}
+

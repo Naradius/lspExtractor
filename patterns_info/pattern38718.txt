@@ -1,0 +1,8 @@
+Signal Processing xxx  xxxContents lists available at ScienceDirectMechanical Systems and Signal Processingjournal homepage
+(NP (NP (NNP ){1,2}(NNS ){1,2})(ADJP (JJ )(PP (IN )(NP (CC )(NP (NNP ){1,2}(NN ))))))
+Phase: generated38718
+Input: Token
+Rule: generated38718
+(
+((({ Token.category == NNP })+({ Token.category == NNS })+)(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == CC })(({ Token.category == NNP })+({ Token.category == NN }))))))):pttrn38718 --> :pttrn38718.extracted={}
+

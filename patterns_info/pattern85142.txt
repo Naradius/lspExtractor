@@ -1,0 +1,8 @@
+to the given model
+(PP (TO )(NP (DT )(VBN )(NN )))
+Phase: generated85142
+Input: Token
+Rule: generated85142
+(
+(({ Token.category == TO })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))):pttrn85142 --> :pttrn85142.extracted={}
+

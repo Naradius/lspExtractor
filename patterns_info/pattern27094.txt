@@ -1,0 +1,8 @@
+of LLN infrastructures
+(PP (IN )(NP (NNP )(NNS )))
+Phase: generated27094
+Input: Token
+Rule: generated27094
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))):pttrn27094 --> :pttrn27094.extracted={}
+

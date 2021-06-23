@@ -1,0 +1,8 @@
+CW and GR
+(NP (NNP )(CC )(CD ))
+Phase: generated86779
+Input: Token
+Rule: generated86779
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == CD }))):pttrn86779 --> :pttrn86779.extracted={}
+

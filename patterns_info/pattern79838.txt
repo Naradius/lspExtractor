@@ -1,0 +1,8 @@
+computationally tractable
+(ADJP (RB )(JJ ))
+Phase: generated79838
+Input: Token
+Rule: generated79838
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn79838 --> :pttrn79838.extracted={}
+

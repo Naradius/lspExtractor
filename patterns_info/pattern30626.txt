@@ -1,0 +1,8 @@
+the IEEE MTT-S
+(NP (DT )(NN )(NNP ))
+Phase: generated30626
+Input: Token
+Rule: generated30626
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNP }))):pttrn30626 --> :pttrn30626.extracted={}
+

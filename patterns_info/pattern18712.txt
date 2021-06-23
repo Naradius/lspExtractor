@@ -1,0 +1,8 @@
+the value of Local OptimalState
+(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNP ))))
+Phase: generated18712
+Input: Token
+Rule: generated18712
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP }))))):pttrn18712 --> :pttrn18712.extracted={}
+

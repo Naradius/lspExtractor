@@ -1,0 +1,8 @@
+most widely known and used
+(ADJP (RBS )(RB )(VBN )(CC )(VBN ))
+Phase: generated85462
+Input: Token
+Rule: generated85462
+(
+(({ Token.category == RBS })({ Token.category == RB })({ Token.category == VBN })({ Token.category == CC })({ Token.category == VBN }))):pttrn85462 --> :pttrn85462.extracted={}
+

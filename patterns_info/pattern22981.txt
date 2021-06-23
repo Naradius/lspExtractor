@@ -1,0 +1,8 @@
+non-edge devices under the purviewof a sensor.Fig
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (DT )(VBG )(DT )(NN ))))
+Phase: generated22981
+Input: Token
+Rule: generated22981
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == DT })({ Token.category == NN }))))):pttrn22981 --> :pttrn22981.extracted={}
+

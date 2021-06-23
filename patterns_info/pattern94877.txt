@@ -1,0 +1,8 @@
+a lexico-semantic pattern languagethat
+(NP (DT )(JJ )(NN ){1,2})
+Phase: generated94877
+Input: Token
+Rule: generated94877
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)):pttrn94877 --> :pttrn94877.extracted={}
+

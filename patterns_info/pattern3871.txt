@@ -1,0 +1,8 @@
+be at a node to leave a pheromone trail, which is con-trary to its typical application
+(VP (VB )(PP (IN )(NP (DT )(NN )))(VP (TO )(VP (VB )(NP (NP (DT )(NN ){1,2})(VP (VBZ )(ADJP (JJ )(PP (TO )(NP (PRP$ )(JJ )(NN )))))))))
+Phase: generated3871
+Input: Token
+Rule: generated3871
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })))))))))):pttrn3871 --> :pttrn3871.extracted={}
+

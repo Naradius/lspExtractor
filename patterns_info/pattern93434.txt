@@ -1,0 +1,8 @@
+with respectto GATEs default JAPE language
+(PP (IN )(NP (NNP ){1,2}(NN )(NNP )(NN )))
+Phase: generated93434
+Input: Token
+Rule: generated93434
+(
+(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN })))):pttrn93434 --> :pttrn93434.extracted={}
+

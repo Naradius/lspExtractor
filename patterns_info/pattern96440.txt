@@ -1,0 +1,8 @@
+in a vowel hinge
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated96440
+Input: Token
+Rule: generated96440
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn96440 --> :pttrn96440.extracted={}
+

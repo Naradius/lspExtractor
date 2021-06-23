@@ -1,0 +1,8 @@
+transmitted between DTN nodes
+(VP (VBN )(PP (IN )(NP (NNP )(NNS ))))
+Phase: generated40597
+Input: Token
+Rule: generated40597
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS }))))):pttrn40597 --> :pttrn40597.extracted={}
+

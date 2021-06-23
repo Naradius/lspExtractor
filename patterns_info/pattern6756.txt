@@ -1,0 +1,8 @@
+a local decision on its role.2
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (PRP$ )(NN ){1,2})))
+Phase: generated6756
+Input: Token
+Rule: generated6756
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })+)))):pttrn6756 --> :pttrn6756.extracted={}
+

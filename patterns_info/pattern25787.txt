@@ -1,0 +1,8 @@
+a base-station
+(NP (DT )(NN ))
+Phase: generated25787
+Input: Token
+Rule: generated25787
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn25787 --> :pttrn25787.extracted={}
+

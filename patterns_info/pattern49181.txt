@@ -1,0 +1,8 @@
+/comnetReview ArticleEnergy efficiency in wireless sensor networks
+(NP (NP (NN )(NNP )(NN ))(PP (IN )(NP (JJ )(NN )(NNS ))))
+Phase: generated49181
+Input: Token
+Rule: generated49181
+(
+((({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn49181 --> :pttrn49181.extracted={}
+

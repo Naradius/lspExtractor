@@ -1,0 +1,8 @@
+investors and traders
+(NP (NNS )(CC )(NNS ))
+Phase: generated94920
+Input: Token
+Rule: generated94920
+(
+(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn94920 --> :pttrn94920.extracted={}
+

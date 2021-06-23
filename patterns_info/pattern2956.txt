@@ -1,0 +1,8 @@
+demon-strated in different context that the collective behavior ofsocial insects has many attractive features, not the leastrobustness and reliability through redundancy
+(VP (VBN )(PP (IN )(NP (JJ )(NN )))(IN ))
+Phase: generated2956
+Input: Token
+Rule: generated2956
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))({ Token.category == IN }))):pttrn2956 --> :pttrn2956.extracted={}
+

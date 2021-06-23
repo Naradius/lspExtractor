@@ -1,0 +1,8 @@
+identify kidnapping victims only extractselds that have been previously tagged as HumanTarget.AutoSlog has no automatic induction step and instead passes its output to ahuman to accept or reject each rule
+(VP (VB )(NP (NN )(NNS )))
+Phase: generated80250
+Input: Token
+Rule: generated80250
+(
+(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))):pttrn80250 --> :pttrn80250.extracted={}
+

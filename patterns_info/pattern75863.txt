@@ -1,0 +1,8 @@
+extract and parse over 260 million sentences labeled with FREEBASE entities andrelations
+(VP (VB )(CC )(VB )(NP (NP (QP (IN )(CD ){1,2})(NNS ))(VP (VBN )(PP (IN )(NP (JJ )(NNS ){1,2})))))
+Phase: generated75863
+Input: Token
+Rule: generated75863
+(
+(({ Token.category == VB })({ Token.category == CC })({ Token.category == VB })(((({ Token.category == IN })({ Token.category == CD })+)({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })+)))))):pttrn75863 --> :pttrn75863.extracted={}
+

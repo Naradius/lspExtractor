@@ -1,0 +1,8 @@
+different kinds of knowledge,including hypernym, hyponym, partwhole relations, named enti-ties, and many others .Our research
+(NP (NP (NN )(NNS ))(NP (VBN )(NNS ))(CC ))
+Phase: generated71781
+Input: Token
+Rule: generated71781
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })({ Token.category == NNS }))({ Token.category == CC }))):pttrn71781 --> :pttrn71781.extracted={}
+

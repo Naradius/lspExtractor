@@ -1,0 +1,8 @@
+the transmissionbetween nodes
+(NP (DT )(NN )(NNS ))
+Phase: generated69508
+Input: Token
+Rule: generated69508
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))):pttrn69508 --> :pttrn69508.extracted={}
+

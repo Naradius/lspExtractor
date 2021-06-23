@@ -1,0 +1,8 @@
+based on the identification of the most significant attributesof a node, namely the meeting value of a node and the distance of anode from its predefined destination
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(RBS )(JJ ))(PP (IN )(NP (NP (DT )(NN ))(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ))(CC )))))))))))
+Phase: generated40918
+Input: Token
+Rule: generated40918
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == RBS })({ Token.category == JJ }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })))))))))))):pttrn40918 --> :pttrn40918.extracted={}
+

@@ -1,0 +1,8 @@
+mostly single-node clus-ters
+(NP (ADJP (RB )(JJ ))(NNS ))
+Phase: generated4679
+Input: Token
+Rule: generated4679
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))):pttrn4679 --> :pttrn4679.extracted={}
+

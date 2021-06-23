@@ -1,0 +1,8 @@
+a sensor node, a subset of the nodes orwhole network
+(NP (NP (DT )(NN ){1,2})(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NNS )(NN ){1,2}))))
+Phase: generated48539
+Input: Token
+Rule: generated48539
+(
+((({ Token.category == DT })({ Token.category == NN })+)((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+))))):pttrn48539 --> :pttrn48539.extracted={}
+

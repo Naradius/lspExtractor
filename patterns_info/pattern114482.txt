@@ -1,0 +1,8 @@
+an approximation of finding similarity between two graphs, considering their selected paths
+(NP (NP (DT )(NN ))(PP (IN )(VP (VBG )(VP (VBG )(NP (PRP$ )(VBN )(NNS ))))))
+Phase: generated114482
+Input: Token
+Rule: generated114482
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == VBG })(({ Token.category == PRP$ })({ Token.category == VBN })({ Token.category == NNS }))))))):pttrn114482 --> :pttrn114482.extracted={}
+

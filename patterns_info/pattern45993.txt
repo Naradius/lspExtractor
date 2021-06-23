@@ -1,0 +1,8 @@
+for the patient,it
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated45993
+Input: Token
+Rule: generated45993
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn45993 --> :pttrn45993.extracted={}
+

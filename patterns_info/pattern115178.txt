@@ -1,0 +1,8 @@
+become more complex, relative contribution of syntactic generalization increases
+(VP (VBP )(NP (NP (ADJP (RBR )(JJ ){1,2})(NN ))(PP (IN )(NP (JJ )(NN )(NNS )))))
+Phase: generated115178
+Input: Token
+Rule: generated115178
+(
+(({ Token.category == VBP })(((({ Token.category == RBR })({ Token.category == JJ })+)({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))):pttrn115178 --> :pttrn115178.extracted={}
+

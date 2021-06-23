@@ -1,0 +1,8 @@
+of hand-tagged training instances
+(PP (IN )(NP (JJ )(NN )(NNS )))
+Phase: generated82757
+Input: Token
+Rule: generated82757
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))):pttrn82757 --> :pttrn82757.extracted={}
+

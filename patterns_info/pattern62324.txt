@@ -1,0 +1,8 @@
+the sensed dataand sending it to the sink node
+(NP (NP (DT )(JJ )(NN ))(VP (VBG )(PP (TO )(NP (DT )(NN ){1,2}))))
+Phase: generated62324
+Input: Token
+Rule: generated62324
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn62324 --> :pttrn62324.extracted={}
+

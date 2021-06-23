@@ -1,0 +1,8 @@
+the natural behavior
+(NP (DT )(JJ )(NN ))
+Phase: generated65359
+Input: Token
+Rule: generated65359
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn65359 --> :pttrn65359.extracted={}
+

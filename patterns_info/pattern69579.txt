@@ -1,0 +1,8 @@
+the gauge
+(NP (DT )(NN ))
+Phase: generated69579
+Input: Token
+Rule: generated69579
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn69579 --> :pttrn69579.extracted={}
+

@@ -1,0 +1,8 @@
+far from the actualphenomenon
+(ADVP (RB )(PP (IN )(NP (DT )(NN ))))
+Phase: generated45915
+Input: Token
+Rule: generated45915
+(
+(({ Token.category == RB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn45915 --> :pttrn45915.extracted={}
+

@@ -1,0 +1,8 @@
+a survey
+(NP (DT )(NN ))
+Phase: generated9115
+Input: Token
+Rule: generated9115
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn9115 --> :pttrn9115.extracted={}
+

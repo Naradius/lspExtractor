@@ -1,0 +1,8 @@
+RST relations between elementary discourse units in the following form:Syntactic template-------------------------Build-linkwhere Syntactic template
+(NP (NP (NP (JJ )(NNS ))(PP (IN )(NP (JJ )(NN )(NNS ))))(PP (IN )(NP (DT )(VBG )(NN )(JJ ){1,2}(NNP )(NN ))))
+Phase: generated118137
+Input: Token
+Rule: generated118137
+(
+(((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBG })({ Token.category == NN })({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == NN }))))):pttrn118137 --> :pttrn118137.extracted={}
+

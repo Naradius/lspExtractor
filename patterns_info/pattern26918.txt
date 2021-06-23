@@ -1,0 +1,8 @@
+of allof the membership function results related to the linguisticfuzzy output variable, into a numeric value to trigger an ac-tion
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ){1,2}(NNS ))(VP (VBN )(PP (TO )(NP (DT )(JJ )(NN )(JJ )))(PP (IN )(NP (DT )(JJ )(NN )))(VP (TO )(VP (VB )(NP (DT )(NN ))))))))
+Phase: generated26918
+Input: Token
+Rule: generated26918
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN })+({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == JJ })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))))))):pttrn26918 --> :pttrn26918.extracted={}
+

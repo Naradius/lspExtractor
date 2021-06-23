@@ -1,0 +1,8 @@
+are notfine grain enough to observe small size biodiver-sity, which makes up most of the biodiversity inan ecosystem
+(VP (VBP )(NP (NP (JJ )(NN ))(ADJP (RB )(VP (TO )(VP (VB )(NP (NP (JJ )(NN ){1,2})(VP (VBZ )(PRT (RP )))))))))
+Phase: generated46380
+Input: Token
+Rule: generated46380
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == RP })))))))))):pttrn46380 --> :pttrn46380.extracted={}
+

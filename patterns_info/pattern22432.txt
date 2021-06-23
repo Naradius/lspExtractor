@@ -1,0 +1,8 @@
+creates the connectivity graph within its domain forthe current primary usage scenario
+(VP (VBZ )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (PRP$ )(NN ))(PP (IN )(NP (JJ ){1,2}(NN ){1,2}))))))
+Phase: generated22432
+Input: Token
+Rule: generated22432
+(
+(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })+({ Token.category == NN })+))))))):pttrn22432 --> :pttrn22432.extracted={}
+

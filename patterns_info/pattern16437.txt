@@ -1,0 +1,8 @@
+theVNLayer and the VaNetLayer
+(NP (CC )(NP (DT )(NNP )))
+Phase: generated16437
+Input: Token
+Rule: generated16437
+(
+(({ Token.category == CC })(({ Token.category == DT })({ Token.category == NNP })))):pttrn16437 --> :pttrn16437.extracted={}
+

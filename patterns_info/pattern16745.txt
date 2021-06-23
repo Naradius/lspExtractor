@@ -1,0 +1,8 @@
+does not surpass a few round-trip times
+(VP (VBZ )(RB )(VP (VB )(NP (DT )(JJ ){1,2}(NNS ))))
+Phase: generated16745
+Input: Token
+Rule: generated16745
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NNS }))))):pttrn16745 --> :pttrn16745.extracted={}
+

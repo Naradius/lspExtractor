@@ -1,0 +1,8 @@
+a  t  c  b  t  p  b  w  (  i  t  t  e  p  t  p  c s  h  a  i  a  d  s  l  l  fi  n  t  w  .2. Research contribution The proposed scheme would provide a suitable solution againsthese issues by making a secure routing and monitoring mecha-ism against global adversaries in Ad hoc sensor networks usingandom node selection approach
+(NP (NP (DT )(NN )(JJ )(NN ){1,2})(PRN (-LRB- )))
+Phase: generated65655
+Input: Token
+Rule: generated65655
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == -LRB- })))):pttrn65655 --> :pttrn65655.extracted={}
+

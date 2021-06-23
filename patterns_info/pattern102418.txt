@@ -1,0 +1,8 @@
+diagramsshould be feasible, but would be quite unreadable.To summarize
+(VP (CC )(VP (MD )(VP (VB )(NP (ADJP (RB )(JJ ))(NN ){1,2}))))
+Phase: generated102418
+Input: Token
+Rule: generated102418
+(
+(({ Token.category == CC })(({ Token.category == MD })(({ Token.category == VB })((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NN })+))))):pttrn102418 --> :pttrn102418.extracted={}
+

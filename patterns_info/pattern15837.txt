@@ -1,0 +1,8 @@
+in Section V-A,raises
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated15837
+Input: Token
+Rule: generated15837
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn15837 --> :pttrn15837.extracted={}
+

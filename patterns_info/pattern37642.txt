@@ -1,0 +1,8 @@
+compared to other networks
+(VP (VBN )(PP (TO )(NP (JJ )(NNS ))))
+Phase: generated37642
+Input: Token
+Rule: generated37642
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn37642 --> :pttrn37642.extracted={}
+

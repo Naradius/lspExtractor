@@ -1,0 +1,8 @@
+Mesh and Ad HocCommunications and Networks
+(NP (NNP )(CC )(NNP )(NNPS )(CC )(NNPS ))
+Phase: generated24566
+Input: Token
+Rule: generated24566
+(
+(({ Token.category == NNP })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == CC })({ Token.category == NNPS }))):pttrn24566 --> :pttrn24566.extracted={}
+

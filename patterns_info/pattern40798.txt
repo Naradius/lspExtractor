@@ -1,0 +1,8 @@
+be used to estimate which nodes are themost interesting  as the nexthop of a message
+(VP (VB )(VP (VBN )(VP (TO )(VP (VB )(VP (VBP )(ADJP (RB )(JJ )(PP (IN )(NP (NP (DT )(JJ ))(PP (IN )(NP (DT )(NN )))))))))))
+Phase: generated40798
+Input: Token
+Rule: generated40798
+(
+(({ Token.category == VB })(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == VBP })(({ Token.category == RB })({ Token.category == JJ })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))))))):pttrn40798 --> :pttrn40798.extracted={}
+

@@ -1,0 +1,8 @@
+to be present in the patterns
+(VP (TO )(VP (VB )(ADJP (JJ )(PP (IN )(NP (DT )(NNS ))))))
+Phase: generated99372
+Input: Token
+Rule: generated99372
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn99372 --> :pttrn99372.extracted={}
+

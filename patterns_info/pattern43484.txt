@@ -1,0 +1,8 @@
+the two main DTN routing techniques
+(NP (DT )(CD )(JJ )(NNP )(NN )(NNS ))
+Phase: generated43484
+Input: Token
+Rule: generated43484
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS }))):pttrn43484 --> :pttrn43484.extracted={}
+

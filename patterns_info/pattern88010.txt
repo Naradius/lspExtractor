@@ -1,0 +1,8 @@
+to the value of the feature
+(PP (TO )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))
+Phase: generated88010
+Input: Token
+Rule: generated88010
+(
+(({ Token.category == TO })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn88010 --> :pttrn88010.extracted={}
+

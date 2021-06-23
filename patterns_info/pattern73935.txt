@@ -1,0 +1,8 @@
+solved the problem
+(VP (VBD )(NP (DT )(NN )))
+Phase: generated73935
+Input: Token
+Rule: generated73935
+(
+(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == NN })))):pttrn73935 --> :pttrn73935.extracted={}
+

@@ -1,0 +1,8 @@
+toselect a new term is the Laplacian expected error of the rule, given by the followingformula, where n is the number of extractions made on the training set and e is thenumber of errors among those extractions.Laplacian = e+1n+13.2.1
+(VP (VB )(NP (DT )(JJ )(NN )))
+Phase: generated83020
+Input: Token
+Rule: generated83020
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn83020 --> :pttrn83020.extracted={}
+

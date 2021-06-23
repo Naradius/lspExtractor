@@ -1,0 +1,8 @@
+randomly se-230204060801000 50 100 150 200 250 300 350 400Training Size"Precision""Recall"Figure 20
+(NP (QP (RB )(CD ){1,2})(JJ )(NNP ){1,2}(NP (NNP ){1,2}(CD )))
+Phase: generated84664
+Input: Token
+Rule: generated84664
+(
+((({ Token.category == RB })({ Token.category == CD })+)({ Token.category == JJ })({ Token.category == NNP })+(({ Token.category == NNP })+({ Token.category == CD })))):pttrn84664 --> :pttrn84664.extracted={}
+

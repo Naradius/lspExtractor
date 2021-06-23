@@ -1,0 +1,8 @@
+used in the private chain/federalchain with relatively few nodes and stronger requirements forconsistency and correctness
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(PP (IN )(NP (NP (NP (ADJP (RB )(JJ ))(NNS ))(CC )(NP (JJR )(NNS )(NN )))(CC ))))
+Phase: generated36951
+Input: Token
+Rule: generated36951
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })((((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJR })({ Token.category == NNS })({ Token.category == NN })))({ Token.category == CC }))))):pttrn36951 --> :pttrn36951.extracted={}
+

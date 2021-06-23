@@ -1,0 +1,8 @@
+does not focus on individual cue-scope pair de-tection
+(VP (VBZ )(RB )(VP (VB )(PP (IN )(NP (JJ )(NN ){1,2}))))
+Phase: generated95876
+Input: Token
+Rule: generated95876
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))))):pttrn95876 --> :pttrn95876.extracted={}
+

@@ -1,0 +1,8 @@
+of human effort
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated71545
+Input: Token
+Rule: generated71545
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn71545 --> :pttrn71545.extracted={}
+

@@ -1,0 +1,8 @@
+d          1   A  l  t4 h  i  a  s  m  t  t  c  c  p  p  h  I  t  (  .2.1
+(VP (VBN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NNS )(NN ){1,2})))(NP (JJ ){1,2}(NN ){1,2}))
+Phase: generated20943
+Input: Token
+Rule: generated20943
+(
+(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN })+)))(({ Token.category == JJ })+({ Token.category == NN })+))):pttrn20943 --> :pttrn20943.extracted={}
+

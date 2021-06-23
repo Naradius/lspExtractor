@@ -1,0 +1,8 @@
+is circulararound a broadcaster for a given power setting.The subgraph G of the graph G0, which representsthe sensor network
+(VP (VBZ )(VP (VBN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(NN ){1,2})))))
+Phase: generated43778
+Input: Token
+Rule: generated43778
+(
+(({ Token.category == VBZ })(({ Token.category == VBN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))))):pttrn43778 --> :pttrn43778.extracted={}
+

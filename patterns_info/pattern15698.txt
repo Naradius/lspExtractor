@@ -1,0 +1,8 @@
+IP and MAC addresses
+(NP (NN )(CC )(NNP )(NNS ))
+Phase: generated15698
+Input: Token
+Rule: generated15698
+(
+(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNP })({ Token.category == NNS }))):pttrn15698 --> :pttrn15698.extracted={}
+

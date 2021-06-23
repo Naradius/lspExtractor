@@ -1,0 +1,8 @@
+is usuallyat hand
+(VP (VBZ )(NP (JJ )(NN )))
+Phase: generated95073
+Input: Token
+Rule: generated95073
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })({ Token.category == NN })))):pttrn95073 --> :pttrn95073.extracted={}
+

@@ -1,0 +1,8 @@
+d  u m  v t  t  t  l  i  t  p  l  u  F b  f  t  g  where ESP sends the HTTP packet to initiate the connection.This data is then further processed at the ESP8266 module
+(VP (VBD )(NP (MD )(NP (FW )(NN ){1,2})))
+Phase: generated18886
+Input: Token
+Rule: generated18886
+(
+(({ Token.category == VBD })(({ Token.category == MD })(({ Token.category == FW })({ Token.category == NN })+)))):pttrn18886 --> :pttrn18886.extracted={}
+

@@ -1,0 +1,8 @@
+life-crit-ical healthcare surveillance
+(NP (JJ )(NN ){1,2}){1,2}
+Phase: generated52543
+Input: Token
+Rule: generated52543
+(
+(({ Token.category == JJ })({ Token.category == NN })+)+):pttrn52543 --> :pttrn52543.extracted={}
+

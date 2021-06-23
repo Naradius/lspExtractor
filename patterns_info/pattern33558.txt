@@ -1,0 +1,8 @@
+is alsoadjacent with another two nodes
+(VP (VBZ )(ADJP (JJ )(PP (IN )(NP (DT )(CD )(NNS )))))
+Phase: generated33558
+Input: Token
+Rule: generated33558
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS })))))):pttrn33558 --> :pttrn33558.extracted={}
+

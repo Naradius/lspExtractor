@@ -1,0 +1,8 @@
+like shadowing andfading
+(PP (IN )(NP (VBG )(NN )))
+Phase: generated22164
+Input: Token
+Rule: generated22164
+(
+(({ Token.category == IN })(({ Token.category == VBG })({ Token.category == NN })))):pttrn22164 --> :pttrn22164.extracted={}
+

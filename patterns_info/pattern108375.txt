@@ -1,0 +1,8 @@
+to summarize the performance of the given design solution according to the target
+(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(VBN )(NN ){1,2})))(PP (VBG )(PP (TO )(NP (DT )(NN ))))))
+Phase: generated108375
+Input: Token
+Rule: generated108375
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })+)))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn108375 --> :pttrn108375.extracted={}
+

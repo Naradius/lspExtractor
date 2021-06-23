@@ -1,0 +1,8 @@
+on the new optimization algorithm called frac-tional lion , which is newly proposed by combining the fractional theory and lion algorithm
+(PP (IN )(NP (NP (NP (DT )(JJ )(NN ){1,2})(VP (VBN )(NP (JJ )(NN ))))(VP (VBZ )(VP (VBN )(PP (IN )(VP (VBG )(NP (DT )(JJ )(NN )(CC )(NN ){1,2})))))))
+Phase: generated107376
+Input: Token
+Rule: generated107376
+(
+(({ Token.category == IN })(((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == VBN })(({ Token.category == JJ })({ Token.category == NN }))))(({ Token.category == VBZ })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })+)))))))):pttrn107376 --> :pttrn107376.extracted={}
+

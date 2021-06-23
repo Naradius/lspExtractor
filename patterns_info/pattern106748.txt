@@ -1,0 +1,8 @@
+applying these resources to texts
+(VP (VBG )(NP (DT )(NNS )))
+Phase: generated106748
+Input: Token
+Rule: generated106748
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == NNS })))):pttrn106748 --> :pttrn106748.extracted={}
+

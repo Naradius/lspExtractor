@@ -1,0 +1,8 @@
+all theinformation involved in this subtask
+(NP (NP (DT )(NN ))(VP (VBN )(PP (IN )(NP (DT )(NN )))))
+Phase: generated99850
+Input: Token
+Rule: generated99850
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))):pttrn99850 --> :pttrn99850.extracted={}
+

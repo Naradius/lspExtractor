@@ -1,0 +1,8 @@
+the IDS functionality
+(NP (DT )(NNP )(NN ))
+Phase: generated38175
+Input: Token
+Rule: generated38175
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN }))):pttrn38175 --> :pttrn38175.extracted={}
+

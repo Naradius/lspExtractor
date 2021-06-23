@@ -1,0 +1,8 @@
+some production instance pi
+(NP (DT )(NN ){1,2})
+Phase: generated104685
+Input: Token
+Rule: generated104685
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn104685 --> :pttrn104685.extracted={}
+

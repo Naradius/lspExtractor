@@ -1,0 +1,8 @@
+is the economical term utility
+(VP (VBZ )(NP (DT )(JJ )(NN ){1,2}))
+Phase: generated116399
+Input: Token
+Rule: generated116399
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))):pttrn116399 --> :pttrn116399.extracted={}
+

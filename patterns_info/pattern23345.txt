@@ -1,0 +1,8 @@
+the well known Reversebattle of the sexes game
+(NP (NP (DT )(ADJP (RB )(VBN ))(NN ))(PP (IN )(NP (DT )(NNS )(NN ))))
+Phase: generated23345
+Input: Token
+Rule: generated23345
+(
+((({ Token.category == DT })(({ Token.category == RB })({ Token.category == VBN }))({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS })({ Token.category == NN }))))):pttrn23345 --> :pttrn23345.extracted={}
+

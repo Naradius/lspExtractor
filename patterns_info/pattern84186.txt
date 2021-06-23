@@ -1,0 +1,8 @@
+containing 84PersonIn slots, 100 PersonOut, 148 Post
+(VP (VBG )(NP (NP (JJ )(NNS ))(NP (CD )(NNP )(CD )(NNP ))))
+Phase: generated84186
+Input: Token
+Rule: generated84186
+(
+(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP }))))):pttrn84186 --> :pttrn84186.extracted={}
+

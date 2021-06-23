@@ -1,0 +1,8 @@
+selected one after another randomly
+(VP (VBD )(PP (IN )(NP (DT )(NN ))))
+Phase: generated64185
+Input: Token
+Rule: generated64185
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn64185 --> :pttrn64185.extracted={}
+

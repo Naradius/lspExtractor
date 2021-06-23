@@ -1,0 +1,8 @@
+a number of different fields, such asclassification , feature selection methods  and regres-sion analysis
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(NP (JJ )(NN ))(NP (NN ){1,2}(NNS ))(CC ))))
+Phase: generated31412
+Input: Token
+Rule: generated31412
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == NN })+({ Token.category == NNS }))({ Token.category == CC }))))):pttrn31412 --> :pttrn31412.extracted={}
+

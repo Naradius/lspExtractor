@@ -1,0 +1,8 @@
+allergies15 anddisease normalization16 with the use of statistical methods
+(VP (VBP )(NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NNS ))))))
+Phase: generated74002
+Input: Token
+Rule: generated74002
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))))):pttrn74002 --> :pttrn74002.extracted={}
+

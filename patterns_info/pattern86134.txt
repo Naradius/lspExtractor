@@ -1,0 +1,8 @@
+Information pro-cessing & management
+(NP (NNP )(NN )(CC )(NN ))
+Phase: generated86134
+Input: Token
+Rule: generated86134
+(
+(({ Token.category == NNP })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn86134 --> :pttrn86134.extracted={}
+

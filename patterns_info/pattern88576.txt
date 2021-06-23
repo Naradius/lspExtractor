@@ -1,0 +1,8 @@
+of a language
+(PP (IN )(NP (DT )(NN )))
+Phase: generated88576
+Input: Token
+Rule: generated88576
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn88576 --> :pttrn88576.extracted={}
+

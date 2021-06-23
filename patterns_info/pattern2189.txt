@@ -1,0 +1,8 @@
+draws a conclusion on node
+(VP (VBZ )(NP (DT )(NN )))
+Phase: generated2189
+Input: Token
+Rule: generated2189
+(
+(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })))):pttrn2189 --> :pttrn2189.extracted={}
+

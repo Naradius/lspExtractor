@@ -1,0 +1,8 @@
+distinguish different typesf attack
+(VP (VB )(NP (JJ )(NN ){1,2}))
+Phase: generated112005
+Input: Token
+Rule: generated112005
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+))):pttrn112005 --> :pttrn112005.extracted={}
+

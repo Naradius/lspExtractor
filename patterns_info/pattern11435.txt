@@ -1,0 +1,8 @@
+by the clusterleader node
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated11435
+Input: Token
+Rule: generated11435
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn11435 --> :pttrn11435.extracted={}
+

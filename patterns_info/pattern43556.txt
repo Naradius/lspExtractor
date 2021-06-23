@@ -1,0 +1,8 @@
+8 .Aggarwal
+(NP (CD )(NN ))
+Phase: generated43556
+Input: Token
+Rule: generated43556
+(
+(({ Token.category == CD })({ Token.category == NN }))):pttrn43556 --> :pttrn43556.extracted={}
+

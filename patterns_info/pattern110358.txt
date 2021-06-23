@@ -1,0 +1,8 @@
+implement an Intrusion Detection System  according tohe network topology presented previously
+(VP (VB )(NP (DT )(NNP ){1,2}))
+Phase: generated110358
+Input: Token
+Rule: generated110358
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNP })+))):pttrn110358 --> :pttrn110358.extracted={}
+

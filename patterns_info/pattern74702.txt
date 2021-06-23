@@ -1,0 +1,8 @@
+provided by OBA to label the sen-tences
+(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(NNS )))))
+Phase: generated74702
+Input: Token
+Rule: generated74702
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NNS })))))):pttrn74702 --> :pttrn74702.extracted={}
+

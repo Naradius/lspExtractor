@@ -1,0 +1,8 @@
+the highway
+(NP (DT )(NN ))
+Phase: generated596
+Input: Token
+Rule: generated596
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn596 --> :pttrn596.extracted={}
+

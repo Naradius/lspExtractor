@@ -1,0 +1,8 @@
+the type Location and twoattributes, kind and rule.2.3
+(NP (NP (DT )(NN ){1,2}(CC )(NNS ))(NP (NN )(CC )(NN )(NNS )))
+Phase: generated92332
+Input: Token
+Rule: generated92332
+(
+((({ Token.category == DT })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == NN })({ Token.category == CC })({ Token.category == NN })({ Token.category == NNS })))):pttrn92332 --> :pttrn92332.extracted={}
+

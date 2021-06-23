@@ -1,0 +1,8 @@
+forthcoming adoption
+(NP (JJ )(NN ))
+Phase: generated38904
+Input: Token
+Rule: generated38904
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn38904 --> :pttrn38904.extracted={}
+

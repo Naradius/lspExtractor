@@ -1,0 +1,8 @@
+of questions  and all cases of search results occurrences
+(PP (IN )(NP (CC )(NP (NP (DT )(NNS ))(PP (IN )(NP (NN )(NNS ){1,2})))))
+Phase: generated115324
+Input: Token
+Rule: generated115324
+(
+(({ Token.category == IN })(({ Token.category == CC })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })+)))))):pttrn115324 --> :pttrn115324.extracted={}
+

@@ -1,0 +1,8 @@
+by releasingthis resource we aim to help research groups and individ-uals in tapping into the potential offered by RE on largecorpora
+(PP (IN )(NP (NP (DT )(NN ))(VP (VBP )(VP (TO )(VP (VB )(NP (NN )(NNS )(CC )(NNS )))))))
+Phase: generated76005
+Input: Token
+Rule: generated76005
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS })))))))):pttrn76005 --> :pttrn76005.extracted={}
+

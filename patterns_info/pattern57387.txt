@@ -1,0 +1,8 @@
+the network.Scalability
+(NP (DT )(NN ){1,2})
+Phase: generated57387
+Input: Token
+Rule: generated57387
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn57387 --> :pttrn57387.extracted={}
+

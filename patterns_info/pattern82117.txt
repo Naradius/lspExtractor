@@ -1,0 +1,8 @@
+to trim away extraneous words
+(VP (TO )(VP (VB )(NP (JJ )(NNS ))))
+Phase: generated82117
+Input: Token
+Rule: generated82117
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn82117 --> :pttrn82117.extracted={}
+

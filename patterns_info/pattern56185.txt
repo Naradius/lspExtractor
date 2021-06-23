@@ -1,0 +1,8 @@
+enable its sensing units
+(VP (VB )(NP (PRP$ )(NN )(NNS )))
+Phase: generated56185
+Input: Token
+Rule: generated56185
+(
+(({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS })))):pttrn56185 --> :pttrn56185.extracted={}
+

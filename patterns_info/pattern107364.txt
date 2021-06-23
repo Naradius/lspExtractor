@@ -1,0 +1,8 @@
+to design and develop a TOHIP for data transmission in MANET.
+(VP (TO )(VP (VB )(CC )(VB )))
+Phase: generated107364
+Input: Token
+Rule: generated107364
+(
+(({ Token.category == TO })(({ Token.category == VB })({ Token.category == CC })({ Token.category == VB })))):pttrn107364 --> :pttrn107364.extracted={}
+

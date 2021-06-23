@@ -1,0 +1,8 @@
+six characters and the token
+(NP (NP (CD )(NNS ))(CC )(NP (DT )(NN )))
+Phase: generated74183
+Input: Token
+Rule: generated74183
+(
+((({ Token.category == CD })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })))):pttrn74183 --> :pttrn74183.extracted={}
+

@@ -1,0 +1,8 @@
+electing the best cluster leader node
+(VP (VBG )(NP (DT )(JJS )(NN ){1,2}))
+Phase: generated9977
+Input: Token
+Rule: generated9977
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })+))):pttrn9977 --> :pttrn9977.extracted={}
+

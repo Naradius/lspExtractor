@@ -1,0 +1,8 @@
+caused by a suddenjump, which exceeds the sensing range of the sensor node.Besides the set of sensor nodes, a cat should also carry thecorresponding velocities to all components
+(VP (VBN )(PP (IN )(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NN ){1,2})))))))
+Phase: generated69352
+Input: Token
+Rule: generated69352
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))))))):pttrn69352 --> :pttrn69352.extracted={}
+

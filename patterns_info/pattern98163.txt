@@ -1,0 +1,8 @@
+are clustered using a single link clustering method
+(VP (VBP )(VP (VBN )(VP (VBG )(NP (DT )(JJ )(NN ){1,2}))))
+Phase: generated98163
+Input: Token
+Rule: generated98163
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+))))):pttrn98163 --> :pttrn98163.extracted={}
+

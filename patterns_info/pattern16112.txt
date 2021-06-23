@@ -1,0 +1,8 @@
+on toanalyzing routing performance metrics
+(PP (IN )(NP (JJ )(NN ){1,2}(NNS )))
+Phase: generated16112
+Input: Token
+Rule: generated16112
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))):pttrn16112 --> :pttrn16112.extracted={}
+

@@ -1,0 +1,8 @@
+the identified targetrelation
+(NP (DT )(VBN )(NN ))
+Phase: generated76494
+Input: Token
+Rule: generated76494
+(
+(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN }))):pttrn76494 --> :pttrn76494.extracted={}
+

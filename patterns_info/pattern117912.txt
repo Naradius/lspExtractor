@@ -1,0 +1,8 @@
+selected these theories as most reliable and frequent sources of links between sentences
+(VP (VBN )(NP (DT )(NNS )))
+Phase: generated117912
+Input: Token
+Rule: generated117912
+(
+(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NNS })))):pttrn117912 --> :pttrn117912.extracted={}
+

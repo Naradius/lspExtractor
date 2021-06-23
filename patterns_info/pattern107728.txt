@@ -1,0 +1,8 @@
+the MANET
+(NP (DT )(NNP ))
+Phase: generated107728
+Input: Token
+Rule: generated107728
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn107728 --> :pttrn107728.extracted={}
+

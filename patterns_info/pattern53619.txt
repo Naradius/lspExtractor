@@ -1,0 +1,8 @@
+Using the above equation,after n=N rounds
+(VP (VBG )(NP (DT )(JJ )(NN ))(PP (IN )(NP (NN )(NNS ))))
+Phase: generated53619
+Input: Token
+Rule: generated53619
+(
+(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS }))))):pttrn53619 --> :pttrn53619.extracted={}
+

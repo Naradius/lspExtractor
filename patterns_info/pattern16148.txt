@@ -1,0 +1,8 @@
+two vehicles
+(NP (CD )(NNS ))
+Phase: generated16148
+Input: Token
+Rule: generated16148
+(
+(({ Token.category == CD })({ Token.category == NNS }))):pttrn16148 --> :pttrn16148.extracted={}
+

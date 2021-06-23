@@ -1,0 +1,8 @@
+J. Boleng and V. Davies
+(NP (NNP ){1,2}(CC )(NNP ){1,2})
+Phase: generated109408
+Input: Token
+Rule: generated109408
+(
+(({ Token.category == NNP })+({ Token.category == CC })({ Token.category == NNP })+)):pttrn109408 --> :pttrn109408.extracted={}
+

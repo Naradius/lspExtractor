@@ -1,0 +1,8 @@
+could also play a part in knowledge distillation
+(VP (MD )(VP (VB )(NP (DT )(NN ))))
+Phase: generated77371
+Input: Token
+Rule: generated77371
+(
+(({ Token.category == MD })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))))):pttrn77371 --> :pttrn77371.extracted={}
+

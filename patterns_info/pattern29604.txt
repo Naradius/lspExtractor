@@ -1,0 +1,8 @@
+temperature data collected by the IoT devices in a smartbuilding
+(NP (NP (NN )(NNS ))(VP (VBN )(PP (IN )(NP (DT )(NNP )(NNS )))(PP (IN )(NP (DT )(JJ )))))
+Phase: generated29604
+Input: Token
+Rule: generated29604
+(
+((({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))))):pttrn29604 --> :pttrn29604.extracted={}
+

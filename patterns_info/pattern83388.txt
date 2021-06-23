@@ -1,0 +1,8 @@
+in some por-tions of semi-structured text
+(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (JJ )(NN )))))
+Phase: generated83388
+Input: Token
+Rule: generated83388
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))):pttrn83388 --> :pttrn83388.extracted={}
+

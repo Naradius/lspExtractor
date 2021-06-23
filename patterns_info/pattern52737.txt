@@ -1,0 +1,8 @@
+Computer Networks 67  104122monitoring of the oriental fruit fly, Bactrocera dorsalis ,Comput
+(NP (NP (NNP )(NNPS )(CD ){1,2})(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(NP (NNP )(NNPS )(NNP )))))
+Phase: generated52737
+Input: Token
+Rule: generated52737
+(
+((({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == CD })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == NNP })({ Token.category == NNPS })({ Token.category == NNP })))))):pttrn52737 --> :pttrn52737.extracted={}
+

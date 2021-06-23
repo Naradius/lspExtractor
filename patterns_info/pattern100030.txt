@@ -1,0 +1,8 @@
+these synsets
+(NP (DT )(NNS ))
+Phase: generated100030
+Input: Token
+Rule: generated100030
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn100030 --> :pttrn100030.extracted={}
+

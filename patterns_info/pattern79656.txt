@@ -1,0 +1,8 @@
+negative instances of a correctextraction.The simplest of the three classiers
+(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (DT )(CD )(NNS ))))))
+Phase: generated79656
+Input: Token
+Rule: generated79656
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))))))):pttrn79656 --> :pttrn79656.extracted={}
+

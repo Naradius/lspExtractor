@@ -1,0 +1,8 @@
+relatively late
+(ADJP (RB )(JJ ))
+Phase: generated89496
+Input: Token
+Rule: generated89496
+(
+(({ Token.category == RB })({ Token.category == JJ }))):pttrn89496 --> :pttrn89496.extracted={}
+

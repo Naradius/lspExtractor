@@ -1,0 +1,8 @@
+are autonomous and connected to each other as well as physical systems such asgrids, automobiles and industrial systems converging into Cyber-Physical Systems
+(VP (CC )(VP (VBN )(PP (TO )(NP (NP (DT )(JJ ))(CONJP (RB ){1,2}(IN ))(NP (NP (JJ )(NNS )){1,2}(CC )(NP (NP (JJ )(NNS ))(VP (VBG )(PP (IN )(NP (JJ )(NNP ))))))))))
+Phase: generated38899
+Input: Token
+Rule: generated38899
+(
+(({ Token.category == CC })(({ Token.category == VBN })(({ Token.category == TO })((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == RB })+({ Token.category == IN }))((({ Token.category == JJ })({ Token.category == NNS }))+({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP }))))))))))):pttrn38899 --> :pttrn38899.extracted={}
+

@@ -1,0 +1,8 @@
+the TTL
+(NP (DT )(NNP ))
+Phase: generated42569
+Input: Token
+Rule: generated42569
+(
+(({ Token.category == DT })({ Token.category == NNP }))):pttrn42569 --> :pttrn42569.extracted={}
+

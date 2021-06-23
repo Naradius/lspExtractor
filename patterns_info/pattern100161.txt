@@ -1,0 +1,8 @@
+are some exceptions.Table 3
+(VP (VBP )(NP (DT )(JJ )(CD )))
+Phase: generated100161
+Input: Token
+Rule: generated100161
+(
+(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CD })))):pttrn100161 --> :pttrn100161.extracted={}
+

@@ -1,0 +1,8 @@
+its inflections
+(NP (PRP$ )(NNS ))
+Phase: generated99404
+Input: Token
+Rule: generated99404
+(
+(({ Token.category == PRP$ })({ Token.category == NNS }))):pttrn99404 --> :pttrn99404.extracted={}
+

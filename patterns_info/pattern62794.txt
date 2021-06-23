@@ -1,0 +1,8 @@
+aonfounding ring RIS fake
+(NP (JJ )(NN )(NNP )(NN ))
+Phase: generated62794
+Input: Token
+Rule: generated62794
+(
+(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP })({ Token.category == NN }))):pttrn62794 --> :pttrn62794.extracted={}
+

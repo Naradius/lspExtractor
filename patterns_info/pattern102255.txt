@@ -1,0 +1,8 @@
+have to bepresent but remain unmodified during the application of a production
+(VP (CC )(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated102255
+Input: Token
+Rule: generated102255
+(
+(({ Token.category == CC })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn102255 --> :pttrn102255.extracted={}
+

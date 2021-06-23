@@ -1,0 +1,8 @@
+Mohamed Nader, Agrawal Dharma P. Linear wireless sensor net-works: Classification and applications
+(NP (NP (NNP ){1,2}(JJ )(NN )(NNS ))(NP (NN )(CC )(NNS )))
+Phase: generated57841
+Input: Token
+Rule: generated57841
+(
+((({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS })))):pttrn57841 --> :pttrn57841.extracted={}
+

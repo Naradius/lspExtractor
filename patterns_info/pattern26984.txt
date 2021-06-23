@@ -1,0 +1,8 @@
+is not well suited for mobile IoT topolo-gies
+(VP (VBZ )(RB )(ADJP (RB )(VBN )(PP (IN )(NP (JJ )(NNP )(NNS )))))
+Phase: generated26984
+Input: Token
+Rule: generated26984
+(
+(({ Token.category == VBZ })({ Token.category == RB })(({ Token.category == RB })({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS })))))):pttrn26984 --> :pttrn26984.extracted={}
+

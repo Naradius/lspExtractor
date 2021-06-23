@@ -1,0 +1,8 @@
+imply two messages every time a leader node leaves itscurrent region
+(VP (VBP )(NP (CD )(NNS )))
+Phase: generated16360
+Input: Token
+Rule: generated16360
+(
+(({ Token.category == VBP })(({ Token.category == CD })({ Token.category == NNS })))):pttrn16360 --> :pttrn16360.extracted={}
+

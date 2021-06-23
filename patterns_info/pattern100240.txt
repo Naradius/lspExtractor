@@ -1,0 +1,8 @@
+the actuality/notoriety
+(NP (DT )(NN ))
+Phase: generated100240
+Input: Token
+Rule: generated100240
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn100240 --> :pttrn100240.extracted={}
+

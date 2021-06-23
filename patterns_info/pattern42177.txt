@@ -1,0 +1,8 @@
+ofthe second order
+(PP (IN )(NP (JJ )(NN )))
+Phase: generated42177
+Input: Token
+Rule: generated42177
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))):pttrn42177 --> :pttrn42177.extracted={}
+

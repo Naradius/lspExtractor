@@ -1,0 +1,8 @@
+in the sensor networkdomain
+(PP (IN )(NP (DT )(NN ){1,2}))
+Phase: generated44904
+Input: Token
+Rule: generated44904
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))):pttrn44904 --> :pttrn44904.extracted={}
+

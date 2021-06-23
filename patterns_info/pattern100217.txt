@@ -1,0 +1,8 @@
+In what country were the 1948 Summer Olympics held
+(PP (IN )(VP (VBD )(NP (DT )(CD )(NNPS ){1,2}(NN ))))
+Phase: generated100217
+Input: Token
+Rule: generated100217
+(
+(({ Token.category == IN })(({ Token.category == VBD })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNPS })+({ Token.category == NN }))))):pttrn100217 --> :pttrn100217.extracted={}
+

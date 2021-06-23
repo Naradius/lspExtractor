@@ -1,0 +1,8 @@
+found in the training set.6
+(VP (VBD )(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated79367
+Input: Token
+Rule: generated79367
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn79367 --> :pttrn79367.extracted={}
+

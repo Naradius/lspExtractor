@@ -1,0 +1,8 @@
+real-life phenomena
+(NP (JJ )(NNS ))
+Phase: generated31321
+Input: Token
+Rule: generated31321
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn31321 --> :pttrn31321.extracted={}
+

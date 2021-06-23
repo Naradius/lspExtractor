@@ -1,0 +1,8 @@
+formingat least one complete path
+(NP (QP (RB )(JJS )(CD ))(JJ )(NN ))
+Phase: generated69266
+Input: Token
+Rule: generated69266
+(
+((({ Token.category == RB })({ Token.category == JJS })({ Token.category == CD }))({ Token.category == JJ })({ Token.category == NN }))):pttrn69266 --> :pttrn69266.extracted={}
+

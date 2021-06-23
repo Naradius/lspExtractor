@@ -1,0 +1,8 @@
+signal de-tection
+(NP (JJ )(NN ))
+Phase: generated45286
+Input: Token
+Rule: generated45286
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn45286 --> :pttrn45286.extracted={}
+

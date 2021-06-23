@@ -1,0 +1,8 @@
+an ad-versary to sense the wireless channel to grab the transmitting datain an unauthorized way
+(NP (NP (DT )(JJ ))(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN ){1,2})(NP (DT )(JJ )(NN )))))))
+Phase: generated65354
+Input: Token
+Rule: generated65354
+(
+((({ Token.category == DT })({ Token.category == JJ }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))))):pttrn65354 --> :pttrn65354.extracted={}
+

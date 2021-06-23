@@ -1,0 +1,8 @@
+for defining the concrete and the abstract syntax of VLs
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(CC ))))
+Phase: generated105151
+Input: Token
+Rule: generated105151
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC }))))):pttrn105151 --> :pttrn105151.extracted={}
+

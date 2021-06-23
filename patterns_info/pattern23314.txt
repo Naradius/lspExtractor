@@ -1,0 +1,8 @@
+two or more SD pairs chooseactions that have an interfering channel/s at any hop along theirroutes, the net utility for all the SD pairs is considered to be 0.5.2.1
+(NP (NP (CD )(CC )(JJR )(NNP )(NNS ){1,2})(VP (VBP )(NP (DT )(NN ){1,2})))
+Phase: generated23314
+Input: Token
+Rule: generated23314
+(
+((({ Token.category == CD })({ Token.category == CC })({ Token.category == JJR })({ Token.category == NNP })({ Token.category == NNS })+)(({ Token.category == VBP })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn23314 --> :pttrn23314.extracted={}
+

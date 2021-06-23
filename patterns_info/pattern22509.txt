@@ -1,0 +1,8 @@
+A. Bashir et al
+(NP (NN )(NNP ){1,2}(NN ))
+Phase: generated22509
+Input: Token
+Rule: generated22509
+(
+(({ Token.category == NN })({ Token.category == NNP })+({ Token.category == NN }))):pttrn22509 --> :pttrn22509.extracted={}
+

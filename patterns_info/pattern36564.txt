@@ -1,0 +1,8 @@
+the IoT front-end acquisition device
+(NP (DT )(NNP )(JJ )(NN ){1,2})
+Phase: generated36564
+Input: Token
+Rule: generated36564
+(
+(({ Token.category == DT })({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN })+)):pttrn36564 --> :pttrn36564.extracted={}
+

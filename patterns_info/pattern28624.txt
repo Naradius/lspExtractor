@@ -1,0 +1,8 @@
+are moving in the area.ccordingly
+(VP (VBP )(VP (VBG )(PP (IN )(NP (DT )(RB )))))
+Phase: generated28624
+Input: Token
+Rule: generated28624
+(
+(({ Token.category == VBP })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == RB })))))):pttrn28624 --> :pttrn28624.extracted={}
+

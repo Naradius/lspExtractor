@@ -1,0 +1,8 @@
+the high-energy dissipation in communicating with the basestation
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(VP (VBG )(PP (IN )(NP (DT )(NN ))))))
+Phase: generated44144
+Input: Token
+Rule: generated44144
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn44144 --> :pttrn44144.extracted={}
+

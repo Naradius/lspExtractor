@@ -1,0 +1,8 @@
+displayed in the tabular view below.Annotations of all classes
+(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN )))(PP (IN ){1,2}(NP (DT )(NNS ))))
+Phase: generated89733
+Input: Token
+Rule: generated89733
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))(({ Token.category == IN })+(({ Token.category == DT })({ Token.category == NNS }))))):pttrn89733 --> :pttrn89733.extracted={}
+

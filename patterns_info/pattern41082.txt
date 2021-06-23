@@ -1,0 +1,8 @@
+of both flooding and forward-ing strategies to increase the delivery rate, reduce delivery delay andsave energy
+(PP (IN )(NP (NP (DT )(NN ))(CC )(NP (JJ )(NNS ))))
+Phase: generated41082
+Input: Token
+Rule: generated41082
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn41082 --> :pttrn41082.extracted={}
+

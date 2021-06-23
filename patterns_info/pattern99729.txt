@@ -1,0 +1,8 @@
+the fragment of the target text
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated99729
+Input: Token
+Rule: generated99729
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn99729 --> :pttrn99729.extracted={}
+

@@ -1,0 +1,8 @@
+their characteristics and their environment.In addition to being functionally heterogeneous
+(NP (NP (PRP$ )(NNS ))(CC )(NP (NP (PRP$ )(JJ )(NN ))(PP (TO )(VP (VBG )(ADJP (RB )(JJ ))))))
+Phase: generated41233
+Input: Token
+Rule: generated41233
+(
+((({ Token.category == PRP$ })({ Token.category == NNS }))({ Token.category == CC })((({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VBG })(({ Token.category == RB })({ Token.category == JJ }))))))):pttrn41233 --> :pttrn41233.extracted={}
+

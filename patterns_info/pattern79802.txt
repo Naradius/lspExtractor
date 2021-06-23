@@ -1,0 +1,8 @@
+the texts that had relevant information
+(NP (NP (DT )(NNS ))(VP (VBD )(NP (JJ )(NN ))))
+Phase: generated79802
+Input: Token
+Rule: generated79802
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn79802 --> :pttrn79802.extracted={}
+

@@ -1,0 +1,8 @@
+found in the lexical resources.We compared the three models with a baseline andSVMTool that have been learnt on the same trainingcorpus
+(VP (VBD )(PP (IN )(NP (DT )(JJ )(NNS )(NN )))(VP (VBN )(NP (DT )(CD )(NNS ))(PP (IN )(NP (NP (DT )(NN ){1,2})(VP (VBP )(VP (VBN )(VP (VBN )(PP (IN )(NP (DT )(JJ )(NN ))))))))))
+Phase: generated105973
+Input: Token
+Rule: generated105973
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN })))(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))))))))):pttrn105973 --> :pttrn105973.extracted={}
+

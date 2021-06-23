@@ -1,0 +1,8 @@
+another hierarchy
+(NP (DT )(NN ))
+Phase: generated89979
+Input: Token
+Rule: generated89979
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn89979 --> :pttrn89979.extracted={}
+

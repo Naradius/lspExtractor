@@ -1,0 +1,8 @@
+the delivery probabil-ity
+(NP (DT )(NN ){1,2})
+Phase: generated41754
+Input: Token
+Rule: generated41754
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn41754 --> :pttrn41754.extracted={}
+

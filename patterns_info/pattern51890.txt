@@ -1,0 +1,8 @@
+to jointly optimise multiple criteria
+(VP (TO )(VP (VB )(NP (JJ )(NNS ))))
+Phase: generated51890
+Input: Token
+Rule: generated51890
+(
+(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn51890 --> :pttrn51890.extracted={}
+

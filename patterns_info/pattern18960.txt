@@ -1,0 +1,8 @@
+of the detected in-trusion
+(PP (IN )(NP (DT )(VBN )(NN )))
+Phase: generated18960
+Input: Token
+Rule: generated18960
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == VBN })({ Token.category == NN })))):pttrn18960 --> :pttrn18960.extracted={}
+

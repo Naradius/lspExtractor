@@ -1,0 +1,8 @@
+from their maternalpride
+(PP (IN )(NP (PRP$ )(NN )))
+Phase: generated63877
+Input: Token
+Rule: generated63877
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == NN })))):pttrn63877 --> :pttrn63877.extracted={}
+

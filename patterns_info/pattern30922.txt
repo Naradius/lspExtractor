@@ -1,0 +1,8 @@
+self-correct outliers
+(NP (JJ )(NNS ))
+Phase: generated30922
+Input: Token
+Rule: generated30922
+(
+(({ Token.category == JJ })({ Token.category == NNS }))):pttrn30922 --> :pttrn30922.extracted={}
+

@@ -1,0 +1,8 @@
+by allowing the separation of the control logic from the sensornodes/actuators
+(PP (IN )(VP (VBG )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (DT )(NNS ))))))))
+Phase: generated10763
+Input: Token
+Rule: generated10763
+(
+(({ Token.category == IN })(({ Token.category == VBG })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))))))):pttrn10763 --> :pttrn10763.extracted={}
+

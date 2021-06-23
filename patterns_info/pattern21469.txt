@@ -1,0 +1,8 @@
+a network ofdedicated spectrum sensors called Environmental Sensing Capa-bility   to detect the presence of primary incumbentsto aid secondary access, such as IoT communications
+(NP (NP (DT )(NN )(JJ )(NN )(NNS ))(VP (VBD )(VP (TO )(VP (VB )(NP (NP (DT )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}))(NP (NP (JJ )(NN ))(PP (JJ )(IN )(NP (NNP )(NNS )))))))))
+Phase: generated21469
+Input: Token
+Rule: generated21469
+(
+((({ Token.category == DT })({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+))((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NNP })({ Token.category == NNS })))))))))):pttrn21469 --> :pttrn21469.extracted={}
+

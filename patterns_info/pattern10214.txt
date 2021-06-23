@@ -1,0 +1,8 @@
+Poisson point process
+(NP (NNP )(NN ){1,2})
+Phase: generated10214
+Input: Token
+Rule: generated10214
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn10214 --> :pttrn10214.extracted={}
+

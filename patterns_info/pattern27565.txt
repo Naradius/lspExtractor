@@ -1,0 +1,8 @@
+the activity of the transmitter moduleue
+(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN ){1,2})))
+Phase: generated27565
+Input: Token
+Rule: generated27565
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn27565 --> :pttrn27565.extracted={}
+

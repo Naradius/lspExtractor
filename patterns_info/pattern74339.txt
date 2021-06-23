@@ -1,0 +1,8 @@
+want totrade off precision and recall of the patterns to extract thecorrect phrases
+(VP (VBP )(VP (TO )(VP (VB )(NP (JJ )(NNS )))))
+Phase: generated74339
+Input: Token
+Rule: generated74339
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NNS })))))):pttrn74339 --> :pttrn74339.extracted={}
+

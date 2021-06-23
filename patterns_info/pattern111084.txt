@@ -1,0 +1,8 @@
+between normal and PFC
+(PP (IN )(ADJP (JJ )(CC )(JJ )))
+Phase: generated111084
+Input: Token
+Rule: generated111084
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })))):pttrn111084 --> :pttrn111084.extracted={}
+

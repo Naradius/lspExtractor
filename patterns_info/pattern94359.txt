@@ -1,0 +1,8 @@
+from the low recalls
+(PP (IN )(NP (DT )(JJ )(NNS )))
+Phase: generated94359
+Input: Token
+Rule: generated94359
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNS })))):pttrn94359 --> :pttrn94359.extracted={}
+

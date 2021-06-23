@@ -1,0 +1,8 @@
+to connect the sensors that are incorporatedin the IoT.
+(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(VP (VBP )(PP (IN )(NP (DT )(NNP )))))))
+Phase: generated60646
+Input: Token
+Rule: generated60646
+(
+(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })))))))):pttrn60646 --> :pttrn60646.extracted={}
+

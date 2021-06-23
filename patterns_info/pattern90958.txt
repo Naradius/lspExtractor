@@ -1,0 +1,8 @@
+both annotated and unannotated
+(NP (DT )(JJ )(CC )(JJ ))
+Phase: generated90958
+Input: Token
+Rule: generated90958
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))):pttrn90958 --> :pttrn90958.extracted={}
+

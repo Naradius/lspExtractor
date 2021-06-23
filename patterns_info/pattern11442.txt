@@ -1,0 +1,8 @@
+maintained in the routetable as follows .This table is managed and updated on every step by the clusterleader node
+(VP (VBN )(PP (IN )(NP (DT )(JJ )))(IN ))
+Phase: generated11442
+Input: Token
+Rule: generated11442
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })))({ Token.category == IN }))):pttrn11442 --> :pttrn11442.extracted={}
+

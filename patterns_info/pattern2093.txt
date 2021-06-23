@@ -1,0 +1,8 @@
+developed to solve the problems of the network scalability
+(VP (VBN )(VP (TO )(VP (VB )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated2093
+Input: Token
+Rule: generated2093
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn2093 --> :pttrn2093.extracted={}
+

@@ -1,0 +1,8 @@
+con-trary to its typical application
+(ADJP (JJ )(PP (TO )(NP (PRP$ )(JJ )(NN ))))
+Phase: generated3864
+Input: Token
+Rule: generated3864
+(
+(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN }))))):pttrn3864 --> :pttrn3864.extracted={}
+

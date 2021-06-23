@@ -1,0 +1,8 @@
+a SYNood attack
+(NP (DT )(JJ )(NN ))
+Phase: generated110824
+Input: Token
+Rule: generated110824
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn110824 --> :pttrn110824.extracted={}
+

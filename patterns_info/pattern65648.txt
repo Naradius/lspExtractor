@@ -1,0 +1,8 @@
+.2. Research contribution
+(NP (CD )(NNP )(NN ))
+Phase: generated65648
+Input: Token
+Rule: generated65648
+(
+(({ Token.category == CD })({ Token.category == NNP })({ Token.category == NN }))):pttrn65648 --> :pttrn65648.extracted={}
+

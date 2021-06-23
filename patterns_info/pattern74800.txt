@@ -1,0 +1,8 @@
+the seed dictionarywithout fuzzy matching
+(NP (NP (DT )(NN ){1,2})(JJ )(NN ))
+Phase: generated74800
+Input: Token
+Rule: generated74800
+(
+((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == JJ })({ Token.category == NN }))):pttrn74800 --> :pttrn74800.extracted={}
+

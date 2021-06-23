@@ -1,0 +1,8 @@
+this way, a more reliable chain
+(NP (NP (DT )(NN ))(NP (DT )(ADJP (RBR )(JJ ))(NN )))
+Phase: generated54280
+Input: Token
+Rule: generated54280
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == DT })(({ Token.category == RBR })({ Token.category == JJ }))({ Token.category == NN })))):pttrn54280 --> :pttrn54280.extracted={}
+

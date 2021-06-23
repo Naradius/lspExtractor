@@ -1,0 +1,8 @@
+a variation of the lowest-ID algorithm, which is an identifier-based algorithm  to choose the cluster head
+(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ))(VP (VBZ )(NP (NP (DT )(JJ )(NN ))(VP (TO )(VP (VB )(NP (DT )(NN ){1,2}))))))))
+Phase: generated1126
+Input: Token
+Rule: generated1126
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN })+))))))))):pttrn1126 --> :pttrn1126.extracted={}
+

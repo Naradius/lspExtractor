@@ -1,0 +1,8 @@
+the query, which is a paragraph of text, and each candidate answer
+(NP (NP (DT )(NN ))(VP (VBZ )(NP (NP (DT )(NN ))(CC )(NP (DT )(NN ){1,2}))))
+Phase: generated117852
+Input: Token
+Rule: generated117852
+(
+((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == VBZ })((({ Token.category == DT })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn117852 --> :pttrn117852.extracted={}
+

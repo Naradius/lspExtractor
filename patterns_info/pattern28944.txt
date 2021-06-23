@@ -1,0 +1,8 @@
+Technical Report, 2009
+(NP (NNP ){1,2}(CD ))
+Phase: generated28944
+Input: Token
+Rule: generated28944
+(
+(({ Token.category == NNP })+({ Token.category == CD }))):pttrn28944 --> :pttrn28944.extracted={}
+

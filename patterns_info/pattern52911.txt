@@ -1,0 +1,8 @@
+Energy efficient collision awaremultipath routing for wireless sensor networks, in
+(NP (NP (NNP )(JJ )(NN ))(PP (IN )(VP (VBG )(PP (IN )(NP (JJ )(NN )(NNS ))))))
+Phase: generated52911
+Input: Token
+Rule: generated52911
+(
+((({ Token.category == NNP })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))))):pttrn52911 --> :pttrn52911.extracted={}
+

@@ -1,0 +1,8 @@
+the only difference
+(NP (DT )(JJ )(NN ))
+Phase: generated91914
+Input: Token
+Rule: generated91914
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn91914 --> :pttrn91914.extracted={}
+

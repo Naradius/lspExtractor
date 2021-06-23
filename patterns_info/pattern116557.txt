@@ -1,0 +1,8 @@
+represent the syntactic structure of text as well as a number of semantic relations for the purpose of the real time re-ranking of the search results
+(VP (VB )(NP (CONJP (RB ){1,2}(IN ))(NP (NP (DT )(NN ))(PP (IN )(NP (NP (JJ )(NNS ))(PP (IN )(NP (NP (DT )(NN ))(PP (IN )(NP (NP (DT )(JJ )(NN ){1,2})(PP (IN )(NP (DT )(NN )(NNS ))))))))))))
+Phase: generated116557
+Input: Token
+Rule: generated116557
+(
+(({ Token.category == VB })((({ Token.category == RB })+({ Token.category == IN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })({ Token.category == NNS }))))))))))))):pttrn116557 --> :pttrn116557.extracted={}
+

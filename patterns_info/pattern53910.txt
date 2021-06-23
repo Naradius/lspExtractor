@@ -1,0 +1,8 @@
+the selection and maintenance
+(NP (DT )(NN )(CC )(NN ))
+Phase: generated53910
+Input: Token
+Rule: generated53910
+(
+(({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))):pttrn53910 --> :pttrn53910.extracted={}
+

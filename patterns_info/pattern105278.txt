@@ -1,0 +1,8 @@
+Visual Languages and Computing.2
+(NP (JJ )(NNS )(CC )(NNS ))
+Phase: generated105278
+Input: Token
+Rule: generated105278
+(
+(({ Token.category == JJ })({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn105278 --> :pttrn105278.extracted={}
+

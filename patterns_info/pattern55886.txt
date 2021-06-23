@@ -1,0 +1,8 @@
+for each communication.Weichao et al
+(PP (IN )(NP (DT )(JJ )(CC )(JJ )))
+Phase: generated55886
+Input: Token
+Rule: generated55886
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ })))):pttrn55886 --> :pttrn55886.extracted={}
+

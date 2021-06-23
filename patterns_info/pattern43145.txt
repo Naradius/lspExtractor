@@ -1,0 +1,8 @@
+by a high-speed contact with two hops
+(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (CD )(NNS )))))
+Phase: generated43145
+Input: Token
+Rule: generated43145
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NNS })))))):pttrn43145 --> :pttrn43145.extracted={}
+

@@ -1,0 +1,8 @@
+the net-ork performance
+(NP (DT )(NN ){1,2})
+Phase: generated60091
+Input: Token
+Rule: generated60091
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn60091 --> :pttrn60091.extracted={}
+

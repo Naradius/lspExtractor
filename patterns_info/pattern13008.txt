@@ -1,0 +1,8 @@
+the role playedby the corresponding PN at the moment
+(NP (NP (NP (DT )(NN ))(PP (IN )(NP (DT )(JJ )(NNP ))))(PP (IN )(NP (DT )(NN ))))
+Phase: generated13008
+Input: Token
+Rule: generated13008
+(
+(((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn13008 --> :pttrn13008.extracted={}
+

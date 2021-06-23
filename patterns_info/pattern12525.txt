@@ -1,0 +1,8 @@
+IEEE GLOBECOM,Honolulu, HI, USA, Dec. 2009, pp.
+(NP (NP (NN )(NNP ))(NP (NNP )(CD )))
+Phase: generated12525
+Input: Token
+Rule: generated12525
+(
+((({ Token.category == NN })({ Token.category == NNP }))(({ Token.category == NNP })({ Token.category == CD })))):pttrn12525 --> :pttrn12525.extracted={}
+

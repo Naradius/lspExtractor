@@ -1,0 +1,8 @@
+of sensor networks
+(PP (IN )(NP (NN )(NNS )))
+Phase: generated61024
+Input: Token
+Rule: generated61024
+(
+(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))):pttrn61024 --> :pttrn61024.extracted={}
+

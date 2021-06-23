@@ -1,0 +1,8 @@
+need to think of a protocol that will ensure efficient and flexi-ble communication between various equipment and elements of thenetwork.4E.A. Abdellaoui Alaoui et al
+(VP (VBP )(VP (TO )(VP (VB )(PP (IN )(NP (NP (DT )(NN ))(VP (MD )(VP (VB )(NP (NP (ADJP (JJ )(CC )(JJ ))(NN ))(PP (IN )(NP (NP (JJ )(NN )(CC )(NNS ))(PP (IN )(NP (DT )(NNP ){1,2}(NN )))))))))))))
+Phase: generated41343
+Input: Token
+Rule: generated41343
+(
+(({ Token.category == VBP })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == MD })(({ Token.category == VB })(((({ Token.category == JJ })({ Token.category == CC })({ Token.category == JJ }))({ Token.category == NN }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == CC })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })+({ Token.category == NN })))))))))))))):pttrn41343 --> :pttrn41343.extracted={}
+

@@ -1,0 +1,8 @@
+a Reactive Location Service
+(NP (DT )(JJ )(NN )(NNP ))
+Phase: generated474
+Input: Token
+Rule: generated474
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNP }))):pttrn474 --> :pttrn474.extracted={}
+

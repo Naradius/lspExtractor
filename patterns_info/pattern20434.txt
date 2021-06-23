@@ -1,0 +1,8 @@
+perform effective resource management forvarious IoT edge devices
+(VP (VB )(NP (JJ )(NN ){1,2}(JJ )(NNP )(NN )(NNS )))
+Phase: generated20434
+Input: Token
+Rule: generated20434
+(
+(({ Token.category == VB })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })({ Token.category == NNS })))):pttrn20434 --> :pttrn20434.extracted={}
+

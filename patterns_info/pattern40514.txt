@@ -1,0 +1,8 @@
+Hybrid DTN Routing Protocol .The main contributions of this paper
+(NP (NP (NNP ){1,2}(JJ )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated40514
+Input: Token
+Rule: generated40514
+(
+((({ Token.category == NNP })+({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn40514 --> :pttrn40514.extracted={}
+

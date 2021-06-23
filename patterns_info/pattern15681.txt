@@ -1,0 +1,8 @@
+nodes PN 3, PN 5, PN 7
+(VP (VBZ )(NP (NP (NNP )(CD )(NNP )(CD ))(NP (NNP )(CD ))))
+Phase: generated15681
+Input: Token
+Rule: generated15681
+(
+(({ Token.category == VBZ })((({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNP })({ Token.category == CD }))(({ Token.category == NNP })({ Token.category == CD }))))):pttrn15681 --> :pttrn15681.extracted={}
+

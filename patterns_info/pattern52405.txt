@@ -1,0 +1,8 @@
+packet forwarding cooperationbetween sensors
+(NP (NN )(JJ )(NN )(NNS ))
+Phase: generated52405
+Input: Token
+Rule: generated52405
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))):pttrn52405 --> :pttrn52405.extracted={}
+

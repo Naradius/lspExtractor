@@ -1,0 +1,8 @@
+the drone net-ork
+(NP (DT )(NN ){1,2})
+Phase: generated112717
+Input: Token
+Rule: generated112717
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn112717 --> :pttrn112717.extracted={}
+

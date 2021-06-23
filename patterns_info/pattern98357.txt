@@ -1,0 +1,8 @@
+a particular text documents ii
+(NP (DT )(JJ )(NN )(NNS ){1,2})
+Phase: generated98357
+Input: Token
+Rule: generated98357
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })+)):pttrn98357 --> :pttrn98357.extracted={}
+

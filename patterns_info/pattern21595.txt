@@ -1,0 +1,8 @@
+in the IoT network, or in other words
+(PP (PP (IN )(NP (DT )(NNP )(NN )))(CC )(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated21595
+Input: Token
+Rule: generated21595
+(
+((({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP })({ Token.category == NN })))({ Token.category == CC })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn21595 --> :pttrn21595.extracted={}
+

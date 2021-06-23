@@ -1,0 +1,8 @@
+A standard SDS consistsof subsequent processing steps including : speech recognition, semantic text analysis,dialogue management, text generation, and speech synthe-sis.The specific semantic model is designed for the problemdomain of the SDS.
+(NP (NP (DT )(JJ )(NNP ))(PP (IN )(NP (NP (JJ )(NN )(NNS ))(VP (VBG )(NP (NP (JJ )(NN ){1,2})(CC ))))))
+Phase: generated86213
+Input: Token
+Rule: generated86213
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NNP }))(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBG })((({ Token.category == JJ })({ Token.category == NN })+)({ Token.category == CC }))))))):pttrn86213 --> :pttrn86213.extracted={}
+

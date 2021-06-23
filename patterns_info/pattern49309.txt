@@ -1,0 +1,8 @@
+relating to energy-saving inWSNs as numerous methods have been proposed in thelast few years
+(VP (VBG )(PP (TO )(NP (JJ )(NNS )))(IN ))
+Phase: generated49309
+Input: Token
+Rule: generated49309
+(
+(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == JJ })({ Token.category == NNS })))({ Token.category == IN }))):pttrn49309 --> :pttrn49309.extracted={}
+

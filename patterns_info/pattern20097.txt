@@ -1,0 +1,8 @@
+in both 2016 and 2017
+(PP (IN )(NP (DT )(CD )(CC )(CD )))
+Phase: generated20097
+Input: Token
+Rule: generated20097
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == CD })({ Token.category == CC })({ Token.category == CD })))):pttrn20097 --> :pttrn20097.extracted={}
+

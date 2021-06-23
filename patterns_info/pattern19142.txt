@@ -1,0 +1,8 @@
+of informationat IoT layer
+(PP (IN )(NP (JJ )(NNP )(NN )))
+Phase: generated19142
+Input: Token
+Rule: generated19142
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NN })))):pttrn19142 --> :pttrn19142.extracted={}
+

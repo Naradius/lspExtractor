@@ -1,0 +1,8 @@
+false  /PDFXCompliantPDFOnly
+(ADVP (JJ )(RB ))
+Phase: generated12711
+Input: Token
+Rule: generated12711
+(
+(({ Token.category == JJ })({ Token.category == RB }))):pttrn12711 --> :pttrn12711.extracted={}
+

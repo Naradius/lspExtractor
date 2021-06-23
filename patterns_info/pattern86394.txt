@@ -1,0 +1,8 @@
+contains 337 operator an-swers that were collected from a call service
+(VP (VBZ )(NP (NP (CD )(NN )(NNS ))(VP (VBD )(VP (VBN )(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated86394
+Input: Token
+Rule: generated86394
+(
+(({ Token.category == VBZ })((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == VBD })(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn86394 --> :pttrn86394.extracted={}
+

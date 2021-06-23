@@ -1,0 +1,8 @@
+56 subboxes as shown inFigure 2.There
+(NP (NP (CD )(NNS ))(IN ))
+Phase: generated68974
+Input: Token
+Rule: generated68974
+(
+((({ Token.category == CD })({ Token.category == NNS }))({ Token.category == IN }))):pttrn68974 --> :pttrn68974.extracted={}
+

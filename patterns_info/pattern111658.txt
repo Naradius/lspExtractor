@@ -1,0 +1,8 @@
+want in the network
+(VP (VBP )(PP (IN )(NP (DT )(NN ))))
+Phase: generated111658
+Input: Token
+Rule: generated111658
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn111658 --> :pttrn111658.extracted={}
+

@@ -1,0 +1,8 @@
+textual representations.By using lexico-semantic patterns that employconcepts and relations from a domain ontology, weaim to solve problems caused by ambiguity andspecificity that exist in current approaches that em-ploy lexico-syntactic patterns
+(NP (NP (JJ )(NNS ))(PP (IN )(VP (VBG )(NP (JJ )(NNS ))(IN ))))
+Phase: generated95231
+Input: Token
+Rule: generated95231
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == VBG })(({ Token.category == JJ })({ Token.category == NNS }))({ Token.category == IN }))))):pttrn95231 --> :pttrn95231.extracted={}
+

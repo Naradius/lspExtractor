@@ -1,0 +1,8 @@
+Better protection ofuser privacy
+(NP (NNP )(NN ){1,2})
+Phase: generated34478
+Input: Token
+Rule: generated34478
+(
+(({ Token.category == NNP })({ Token.category == NN })+)):pttrn34478 --> :pttrn34478.extracted={}
+

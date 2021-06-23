@@ -1,0 +1,8 @@
+thanthe maximum data rate for sensor nodes
+(PP (IN )(NP (NP (JJ )(NNS )(NN ))(PP (IN )(NP (NN )(NNS )))))
+Phase: generated44639
+Input: Token
+Rule: generated44639
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn44639 --> :pttrn44639.extracted={}
+

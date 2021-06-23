@@ -1,0 +1,8 @@
+very essential computational verbal tool
+(NP (ADJP (RB )(JJ ))(JJ ){1,2}(NN ))
+Phase: generated97341
+Input: Token
+Rule: generated97341
+(
+((({ Token.category == RB })({ Token.category == JJ }))({ Token.category == JJ })+({ Token.category == NN }))):pttrn97341 --> :pttrn97341.extracted={}
+

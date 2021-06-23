@@ -1,0 +1,8 @@
+The lattice
+(NP (DT )(NN ))
+Phase: generated71184
+Input: Token
+Rule: generated71184
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn71184 --> :pttrn71184.extracted={}
+

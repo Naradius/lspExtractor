@@ -1,0 +1,8 @@
+of our pro-posed controller / observer system
+(PP (IN )(NP (PRP$ )(JJ )(NN ){1,2}))
+Phase: generated109596
+Input: Token
+Rule: generated109596
+(
+(({ Token.category == IN })(({ Token.category == PRP$ })({ Token.category == JJ })({ Token.category == NN })+))):pttrn109596 --> :pttrn109596.extracted={}
+

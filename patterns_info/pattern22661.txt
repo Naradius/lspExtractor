@@ -1,0 +1,8 @@
+relay devices
+(NP (NN )(NNS ))
+Phase: generated22661
+Input: Token
+Rule: generated22661
+(
+(({ Token.category == NN })({ Token.category == NNS }))):pttrn22661 --> :pttrn22661.extracted={}
+

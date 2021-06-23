@@ -1,0 +1,8 @@
+The two imperative steps
+(NP (DT )(CD )(JJ )(NNS ))
+Phase: generated60744
+Input: Token
+Rule: generated60744
+(
+(({ Token.category == DT })({ Token.category == CD })({ Token.category == JJ })({ Token.category == NNS }))):pttrn60744 --> :pttrn60744.extracted={}
+

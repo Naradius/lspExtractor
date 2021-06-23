@@ -1,0 +1,8 @@
+an experimental study
+(NP (DT )(JJ )(NN ))
+Phase: generated9127
+Input: Token
+Rule: generated9127
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn9127 --> :pttrn9127.extracted={}
+

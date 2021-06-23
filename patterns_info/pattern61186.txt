@@ -1,0 +1,8 @@
+till congestionontrol, QoS mechanisms and future research aspects
+(PP (IN )(NP (NP (JJ )(NNP )(NNS ))(CC )(NP (JJ )(NN )(NNS ))))
+Phase: generated61186
+Input: Token
+Rule: generated61186
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNP })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS }))))):pttrn61186 --> :pttrn61186.extracted={}
+

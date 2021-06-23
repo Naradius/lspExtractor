@@ -1,0 +1,8 @@
+a particulardisease
+(NP (DT )(NN ))
+Phase: generated75405
+Input: Token
+Rule: generated75405
+(
+(({ Token.category == DT })({ Token.category == NN }))):pttrn75405 --> :pttrn75405.extracted={}
+

@@ -1,0 +1,8 @@
+to adapt their powerconsumption according to the periodicity and magnitudeof the harvestable source
+(VP (TO )(VP (VP (VB )(NP (PRP$ )(NN ))(PP (VBG )(PP (TO )(NP (DT )(NN )))))(CC )(VP (VBG )(NP (DT )(JJ )(NN )))))
+Phase: generated51678
+Input: Token
+Rule: generated51678
+(
+(({ Token.category == TO })((({ Token.category == VB })(({ Token.category == PRP$ })({ Token.category == NN }))(({ Token.category == VBG })(({ Token.category == TO })(({ Token.category == DT })({ Token.category == NN })))))({ Token.category == CC })(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))))):pttrn51678 --> :pttrn51678.extracted={}
+

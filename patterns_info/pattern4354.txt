@@ -1,0 +1,8 @@
+these ants by the sink
+(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ))))
+Phase: generated4354
+Input: Token
+Rule: generated4354
+(
+((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn4354 --> :pttrn4354.extracted={}
+

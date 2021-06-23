@@ -1,0 +1,8 @@
+adjust themselves at different levels for data transmis-sion
+(VP (VBP )(PP (IN )(NP (JJ )(NNS )))(PP (IN )(NP (NNS )(NN ))))
+Phase: generated57309
+Input: Token
+Rule: generated57309
+(
+(({ Token.category == VBP })(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS })))(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == NN }))))):pttrn57309 --> :pttrn57309.extracted={}
+

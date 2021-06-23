@@ -1,0 +1,8 @@
+isotrexin,noxema, proactiv, derm, cleansers, concealer,proactive, creme, microdermabrasion,moisturizer, minocylinambulance, basil, bedtime, c-peptide, cinnamon,diaformin, glycomet, glycomet-gp-1,hydrochlorothiazide-quinapril,hydrochlorothiazide-reserpine, lipoic, minidiab,neurotonin, opuntia, rebuilder, sometime, tritacehormonal fluctuations, rads, ayurveda,ameridex, tram flap
+(PP (IN )(NP (NP (JJ )(NNS ))(NP (DT )(NN ))))
+Phase: generated75266
+Input: Token
+Rule: generated75266
+(
+(({ Token.category == IN })((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == DT })({ Token.category == NN }))))):pttrn75266 --> :pttrn75266.extracted={}
+

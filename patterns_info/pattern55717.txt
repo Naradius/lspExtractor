@@ -1,0 +1,8 @@
+In single hop data transmission
+(PP (IN )(NP (JJ )(NN )(NNS )(NN )))
+Phase: generated55717
+Input: Token
+Rule: generated55717
+(
+(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })({ Token.category == NN })))):pttrn55717 --> :pttrn55717.extracted={}
+

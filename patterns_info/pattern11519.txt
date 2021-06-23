@@ -1,0 +1,8 @@
+to minimalenergy consumption and thus better lifetime of the network
+(VP (TO )(VP (CC )(NP (NP (JJR )(NN ))(PP (IN )(NP (DT )(NN ))))))
+Phase: generated11519
+Input: Token
+Rule: generated11519
+(
+(({ Token.category == TO })(({ Token.category == CC })((({ Token.category == JJR })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))))):pttrn11519 --> :pttrn11519.extracted={}
+

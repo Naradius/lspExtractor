@@ -1,0 +1,8 @@
+the creation probability of the phantom node and theotal number of phantom nodes
+(NP (NP (DT )(NN ){1,2})(PP (IN )(NP (NP (DT )(NN ){1,2})(CC )(NP (NP (JJ )(NN ))(PP (IN )(NP (NN )(NNS )))))))
+Phase: generated62933
+Input: Token
+Rule: generated62933
+(
+((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)({ Token.category == CC })((({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == NNS })))))))):pttrn62933 --> :pttrn62933.extracted={}
+

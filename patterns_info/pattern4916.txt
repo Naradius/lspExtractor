@@ -1,0 +1,8 @@
+on the deployment
+(PP (IN )(NP (DT )(NN )))
+Phase: generated4916
+Input: Token
+Rule: generated4916
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn4916 --> :pttrn4916.extracted={}
+

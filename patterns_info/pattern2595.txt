@@ -1,0 +1,8 @@
+numerical optimization
+(NP (JJ )(NN ))
+Phase: generated2595
+Input: Token
+Rule: generated2595
+(
+(({ Token.category == JJ })({ Token.category == NN }))):pttrn2595 --> :pttrn2595.extracted={}
+

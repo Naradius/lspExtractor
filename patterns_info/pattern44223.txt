@@ -1,0 +1,8 @@
+in  wherethe sink
+(PP (IN )(NP (DT )(NN )))
+Phase: generated44223
+Input: Token
+Rule: generated44223
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn44223 --> :pttrn44223.extracted={}
+

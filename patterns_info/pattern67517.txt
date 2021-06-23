@@ -1,0 +1,8 @@
+better security efficiency and node stability in comparisonith other routing protocols
+(NP (NP (JJR )(NN ){1,2})(CC ))
+Phase: generated67517
+Input: Token
+Rule: generated67517
+(
+((({ Token.category == JJR })({ Token.category == NN })+)({ Token.category == CC }))):pttrn67517 --> :pttrn67517.extracted={}
+

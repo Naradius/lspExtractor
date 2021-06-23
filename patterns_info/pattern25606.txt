@@ -1,0 +1,8 @@
+d  s  T  n  c  i   Flat
+(VP (VBD )(NP (NNP )(NN ){1,2}))
+Phase: generated25606
+Input: Token
+Rule: generated25606
+(
+(({ Token.category == VBD })(({ Token.category == NNP })({ Token.category == NN })+))):pttrn25606 --> :pttrn25606.extracted={}
+

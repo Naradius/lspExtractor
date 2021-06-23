@@ -1,0 +1,8 @@
+extracted itas diabetes and drug dependency
+(VP (VBD )(PP (IN )(NP (NNS )(CC )(NN ){1,2})))
+Phase: generated75488
+Input: Token
+Rule: generated75488
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == NNS })({ Token.category == CC })({ Token.category == NN })+)))):pttrn75488 --> :pttrn75488.extracted={}
+

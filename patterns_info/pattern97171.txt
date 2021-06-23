@@ -1,0 +1,8 @@
+of a linguistic background
+(PP (IN )(NP (DT )(JJ )(NN )))
+Phase: generated97171
+Input: Token
+Rule: generated97171
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })))):pttrn97171 --> :pttrn97171.extracted={}
+

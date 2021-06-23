@@ -1,0 +1,8 @@
+a minimum average latency unlike the TSP.8.2.6
+(NP (NP (DT )(JJ )(NN ))(PP (RB )(IN )(NP (DT )(NNP ))))
+Phase: generated43164
+Input: Token
+Rule: generated43164
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == RB })({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNP }))))):pttrn43164 --> :pttrn43164.extracted={}
+

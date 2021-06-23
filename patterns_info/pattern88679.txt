@@ -1,0 +1,8 @@
+searched for in the text editorin which the rules are being edited
+(VP (VBD )(PP (IN )(PP (IN )(NP (NP (DT )(NN ){1,2})(NP (DT )(NNS ))))))
+Phase: generated88679
+Input: Token
+Rule: generated88679
+(
+(({ Token.category == VBD })(({ Token.category == IN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })+)(({ Token.category == DT })({ Token.category == NNS }))))))):pttrn88679 --> :pttrn88679.extracted={}
+

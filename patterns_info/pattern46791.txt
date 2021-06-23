@@ -1,0 +1,8 @@
+have physical damage or envi-ronmental interference
+(VP (VBP )(NP (NP (JJ )(NN ))(CC )(NP (JJ )(NN ))))
+Phase: generated46791
+Input: Token
+Rule: generated46791
+(
+(({ Token.category == VBP })((({ Token.category == JJ })({ Token.category == NN }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN }))))):pttrn46791 --> :pttrn46791.extracted={}
+

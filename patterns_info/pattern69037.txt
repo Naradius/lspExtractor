@@ -1,0 +1,8 @@
+be above a certain threshold
+(VP (VB )(PP (IN )(NP (DT )(JJ )(NN ))))
+Phase: generated69037
+Input: Token
+Rule: generated69037
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn69037 --> :pttrn69037.extracted={}
+

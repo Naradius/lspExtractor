@@ -1,0 +1,8 @@
+the harvestable source
+(NP (DT )(JJ )(NN ))
+Phase: generated51673
+Input: Token
+Rule: generated51673
+(
+(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))):pttrn51673 --> :pttrn51673.extracted={}
+

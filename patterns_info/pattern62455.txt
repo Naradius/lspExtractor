@@ -1,0 +1,8 @@
+to its neighbor nodes
+(PP (TO )(NP (PRP$ )(NN )(NNS )))
+Phase: generated62455
+Input: Token
+Rule: generated62455
+(
+(({ Token.category == TO })(({ Token.category == PRP$ })({ Token.category == NN })({ Token.category == NNS })))):pttrn62455 --> :pttrn62455.extracted={}
+

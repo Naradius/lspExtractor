@@ -1,0 +1,8 @@
+averaging through 40 search sessions
+(VP (VBG )(PP (IN )(NP (CD )(NN )(NNS ))))
+Phase: generated114960
+Input: Token
+Rule: generated114960
+(
+(({ Token.category == VBG })(({ Token.category == IN })(({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))))):pttrn114960 --> :pttrn114960.extracted={}
+

@@ -1,0 +1,8 @@
+iFogSim generate tuples
+(NP (NN )(JJ )(NNS ))
+Phase: generated19221
+Input: Token
+Rule: generated19221
+(
+(({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))):pttrn19221 --> :pttrn19221.extracted={}
+

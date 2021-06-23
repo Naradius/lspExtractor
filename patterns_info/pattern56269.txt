@@ -1,0 +1,8 @@
+have derived an expressionfor threshold for type-1, type-2 and type-3 nodes
+(VP (VBP )(VP (VBN )(NP (DT )(NN ){1,2})))
+Phase: generated56269
+Input: Token
+Rule: generated56269
+(
+(({ Token.category == VBP })(({ Token.category == VBN })(({ Token.category == DT })({ Token.category == NN })+)))):pttrn56269 --> :pttrn56269.extracted={}
+

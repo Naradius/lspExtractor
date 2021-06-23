@@ -1,0 +1,8 @@
+,and 10 0 0 m x
+(NP (NNP )(CD ){1,2}(NN ){1,2})
+Phase: generated67421
+Input: Token
+Rule: generated67421
+(
+(({ Token.category == NNP })({ Token.category == CD })+({ Token.category == NN })+)):pttrn67421 --> :pttrn67421.extracted={}
+

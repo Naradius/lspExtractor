@@ -1,0 +1,8 @@
+perform intra- and inter-routing
+(VP (VB )(NP (DT )(CC )(NN )))
+Phase: generated3066
+Input: Token
+Rule: generated3066
+(
+(({ Token.category == VB })(({ Token.category == DT })({ Token.category == CC })({ Token.category == NN })))):pttrn3066 --> :pttrn3066.extracted={}
+

@@ -1,0 +1,8 @@
+the unattended and openness of WSNs,a security problem
+(NP (NP (DT )(JJ )(CC )(NN ))(PP (IN )(NP (NNP ){1,2}(NN ){1,2})))
+Phase: generated61669
+Input: Token
+Rule: generated61669
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })+)))):pttrn61669 --> :pttrn61669.extracted={}
+

@@ -1,0 +1,8 @@
+Things Research challenges and Solutions
+(NP (NNP ){1,2}(NNS )(CC )(NNS ))
+Phase: generated24511
+Input: Token
+Rule: generated24511
+(
+(({ Token.category == NNP })+({ Token.category == NNS })({ Token.category == CC })({ Token.category == NNS }))):pttrn24511 --> :pttrn24511.extracted={}
+

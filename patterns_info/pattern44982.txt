@@ -1,0 +1,8 @@
+by its power consumption and thelatency overhead, which is the transition powerto
+(PP (IN )(NP (NP (PRP$ )(NN ){1,2}(CC )(NN ){1,2})(VP (VBZ )(NP (DT )(NN ){1,2}))))
+Phase: generated44982
+Input: Token
+Rule: generated44982
+(
+(({ Token.category == IN })((({ Token.category == PRP$ })({ Token.category == NN })+({ Token.category == CC })({ Token.category == NN })+)(({ Token.category == VBZ })(({ Token.category == DT })({ Token.category == NN })+))))):pttrn44982 --> :pttrn44982.extracted={}
+

@@ -1,0 +1,8 @@
+due to sensor node failures
+(ADJP (JJ )(VP (TO )(VP (VB )(NP (NN )(NNS )))))
+Phase: generated46804
+Input: Token
+Rule: generated46804
+(
+(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == NN })({ Token.category == NNS })))))):pttrn46804 --> :pttrn46804.extracted={}
+

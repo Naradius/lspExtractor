@@ -1,0 +1,8 @@
+of the weights of thepath transitions in a probability semiring
+(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (NP (DT )(NNS ))(PP (IN )(NP (DT )(NN ){1,2}))))))
+Phase: generated106881
+Input: Token
+Rule: generated106881
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NNS }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })+))))))):pttrn106881 --> :pttrn106881.extracted={}
+

@@ -1,0 +1,8 @@
+As with the gazetteer
+(PP (IN )(PP (IN )(NP (DT )(NN ))))
+Phase: generated89895
+Input: Token
+Rule: generated89895
+(
+(({ Token.category == IN })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN }))))):pttrn89895 --> :pttrn89895.extracted={}
+

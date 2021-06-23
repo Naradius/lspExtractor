@@ -1,0 +1,8 @@
+written as a special case of unquoted string, having an initial un-derscore
+(VP (VBN )(PP (IN )(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NN )))))(VP (VBG )(NP (DT )(JJ )(NN ))))
+Phase: generated88335
+Input: Token
+Rule: generated88335
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })))))(({ Token.category == VBG })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))))):pttrn88335 --> :pttrn88335.extracted={}
+

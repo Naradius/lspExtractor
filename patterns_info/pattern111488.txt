@@ -1,0 +1,8 @@
+implemented in C ++ environment for the best performancend easiest implementation into different platforms
+(VP (VBN )(PP (IN )(NP (NNP ){1,2}(NN )))(PP (IN )(NP (DT )(JJS )(NN )(JJS )(NN )))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated111488
+Input: Token
+Rule: generated111488
+(
+(({ Token.category == VBN })(({ Token.category == IN })(({ Token.category == NNP })+({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJS })({ Token.category == NN })({ Token.category == JJS })({ Token.category == NN })))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn111488 --> :pttrn111488.extracted={}
+

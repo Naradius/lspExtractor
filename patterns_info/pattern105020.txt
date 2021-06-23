@@ -1,0 +1,8 @@
+in LNCS 411, pages 136-150.4
+(PP (IN )(NP (NNP )(CD )(NNS )(CD )))
+Phase: generated105020
+Input: Token
+Rule: generated105020
+(
+(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NNS })({ Token.category == CD })))):pttrn105020 --> :pttrn105020.extracted={}
+

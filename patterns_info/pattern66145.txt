@@ -1,0 +1,8 @@
+monitored to identify the changesin the behavior of the network
+(VP (VBN )(VP (TO )(VP (VB )(NP (DT )(NN ))(NP (NP (DT )(NN ))(PP (IN )(NP (DT )(NN )))))))
+Phase: generated66145
+Input: Token
+Rule: generated66145
+(
+(({ Token.category == VBN })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == NN }))((({ Token.category == DT })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))))))):pttrn66145 --> :pttrn66145.extracted={}
+

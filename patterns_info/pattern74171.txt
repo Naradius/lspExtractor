@@ -1,0 +1,8 @@
+in the dic-tionary
+(PP (IN )(NP (DT )(NN )))
+Phase: generated74171
+Input: Token
+Rule: generated74171
+(
+(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NN })))):pttrn74171 --> :pttrn74171.extracted={}
+

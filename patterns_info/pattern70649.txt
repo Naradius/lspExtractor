@@ -1,0 +1,8 @@
+occur within a certain natural language expression
+(VP (VB )(PP (IN )(NP (DT )(JJ ){1,2}(NN ){1,2})))
+Phase: generated70649
+Input: Token
+Rule: generated70649
+(
+(({ Token.category == VB })(({ Token.category == IN })(({ Token.category == DT })({ Token.category == JJ })+({ Token.category == NN })+)))):pttrn70649 --> :pttrn70649.extracted={}
+

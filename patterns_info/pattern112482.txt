@@ -1,0 +1,8 @@
+em-bedded systems such as aircraft or UAV.
+(NP (NP (JJ )(NNS ))(PP (JJ )(IN )(NP (NN )(CC )(NNP ))))
+Phase: generated112482
+Input: Token
+Rule: generated112482
+(
+((({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })(({ Token.category == NN })({ Token.category == CC })({ Token.category == NNP }))))):pttrn112482 --> :pttrn112482.extracted={}
+

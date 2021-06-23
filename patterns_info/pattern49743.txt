@@ -1,0 +1,8 @@
+ensure data reliability at all times
+(VP (VB )(NP (NNS )(NN ))(PP (IN )(NP (DT )(NNS ))))
+Phase: generated49743
+Input: Token
+Rule: generated49743
+(
+(({ Token.category == VB })(({ Token.category == NNS })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == DT })({ Token.category == NNS }))))):pttrn49743 --> :pttrn49743.extracted={}
+

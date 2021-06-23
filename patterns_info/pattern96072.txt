@@ -1,0 +1,8 @@
+in the de-velopment and evaluation of several negation/hedgescope detection systems
+(PP (IN )(NP (NP (DT )(NN )(CC )(NN ))(PP (IN )(NP (JJ )(NN ){1,2}(NNS )))))
+Phase: generated96072
+Input: Token
+Rule: generated96072
+(
+(({ Token.category == IN })((({ Token.category == DT })({ Token.category == NN })({ Token.category == CC })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NN })+({ Token.category == NNS })))))):pttrn96072 --> :pttrn96072.extracted={}
+

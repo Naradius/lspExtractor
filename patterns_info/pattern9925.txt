@@ -1,0 +1,8 @@
+is essential to select the optimal sensor node to play therole of the cluster leader
+(VP (VBZ )(ADJP (JJ )(VP (TO )(VP (VB )(NP (DT )(JJ )(NN ){1,2})))))
+Phase: generated9925
+Input: Token
+Rule: generated9925
+(
+(({ Token.category == VBZ })(({ Token.category == JJ })(({ Token.category == TO })(({ Token.category == VB })(({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN })+)))))):pttrn9925 --> :pttrn9925.extracted={}
+

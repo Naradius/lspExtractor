@@ -1,0 +1,8 @@
+the oper-ating mechanism
+(NP (DT )(NN ){1,2})
+Phase: generated41591
+Input: Token
+Rule: generated41591
+(
+(({ Token.category == DT })({ Token.category == NN })+)):pttrn41591 --> :pttrn41591.extracted={}
+

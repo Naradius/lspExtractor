@@ -1,0 +1,8 @@
+evaluated with respectto various parameters such as number of nodes alive, residualenergy, algorithm complexity, intra and inter cluster communicationoverhead after several rounds of various operations
+(VP (VBN )(PP (IN )(NP (NP (NN )(JJ )(NNS ))(PP (JJ )(IN )))))
+Phase: generated53396
+Input: Token
+Rule: generated53396
+(
+(({ Token.category == VBN })(({ Token.category == IN })((({ Token.category == NN })({ Token.category == JJ })({ Token.category == NNS }))(({ Token.category == JJ })({ Token.category == IN })))))):pttrn53396 --> :pttrn53396.extracted={}
+

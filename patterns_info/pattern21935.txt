@@ -1,0 +1,8 @@
+e.g., cel-lular networks
+(NP (FW )(JJ )(NNS ))
+Phase: generated21935
+Input: Token
+Rule: generated21935
+(
+(({ Token.category == FW })({ Token.category == JJ })({ Token.category == NNS }))):pttrn21935 --> :pttrn21935.extracted={}
+

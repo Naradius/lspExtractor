@@ -1,0 +1,8 @@
+Hung et al. / Expert Systems with Applications 37  341347approach.
+(NP (NP (NNP ){1,2}(NN ))('' )(NP (NP (NNP )(NNPS ))(PP (IN )(NP (NNP )(CD )(NN )))))
+Phase: generated73211
+Input: Token
+Rule: generated73211
+(
+((({ Token.category == NNP })+({ Token.category == NN }))({ Token.category == '' })((({ Token.category == NNP })({ Token.category == NNPS }))(({ Token.category == IN })(({ Token.category == NNP })({ Token.category == CD })({ Token.category == NN })))))):pttrn73211 --> :pttrn73211.extracted={}
+

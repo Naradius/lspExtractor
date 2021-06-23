@@ -1,0 +1,8 @@
+the empty place of migrated females
+(NP (NP (DT )(JJ )(NN ))(PP (IN )(NP (JJ )(NNS ))))
+Phase: generated64668
+Input: Token
+Rule: generated64668
+(
+((({ Token.category == DT })({ Token.category == JJ })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == JJ })({ Token.category == NNS }))))):pttrn64668 --> :pttrn64668.extracted={}
+

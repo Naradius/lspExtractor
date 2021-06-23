@@ -1,0 +1,8 @@
+the forests
+(NP (DT )(NNS ))
+Phase: generated63750
+Input: Token
+Rule: generated63750
+(
+(({ Token.category == DT })({ Token.category == NNS }))):pttrn63750 --> :pttrn63750.extracted={}
+

@@ -1,0 +1,8 @@
+4.2 Implementation of proposed technique in iFogSim	4.2.1 Application Model: smart home automation	5 Evaluation Results	5.1 Benchmark techniques	5.2 Analysis results	6 Conclusions and future work	Acknowledgments
+(NP (NP (NP (NP (CD )(NN ))(PP (IN )(NP (VBN )(NN ))))(PP (IN )(NP (NN )(CD )(NNP ){1,2})))(NP (NP (JJ )(NN ){1,2})(NP (NP (CD )(NN )(NNS ))(NP (NP (CD )(NNP )(NNS ))(NP (NP (CD )(NN )(NNS ))(NP (CD )(NNS ))(CC )(NP (JJ )(NN )(NNS )))))))
+Phase: generated20138
+Input: Token
+Rule: generated20138
+(
+((((({ Token.category == CD })({ Token.category == NN }))(({ Token.category == IN })(({ Token.category == VBN })({ Token.category == NN }))))(({ Token.category == IN })(({ Token.category == NN })({ Token.category == CD })({ Token.category == NNP })+)))((({ Token.category == JJ })({ Token.category == NN })+)((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))((({ Token.category == CD })({ Token.category == NNP })({ Token.category == NNS }))((({ Token.category == CD })({ Token.category == NN })({ Token.category == NNS }))(({ Token.category == CD })({ Token.category == NNS }))({ Token.category == CC })(({ Token.category == JJ })({ Token.category == NN })({ Token.category == NNS })))))))):pttrn20138 --> :pttrn20138.extracted={}
+

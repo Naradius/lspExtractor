@@ -1,0 +1,8 @@
+Health sentences
+(NP (NNP )(NNS ))
+Phase: generated96930
+Input: Token
+Rule: generated96930
+(
+(({ Token.category == NNP })({ Token.category == NNS }))):pttrn96930 --> :pttrn96930.extracted={}
+

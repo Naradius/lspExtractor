@@ -1,0 +1,8 @@
+Network-ing, vol. 25
+(NP (JJ ){1,2}(NNP )(CD ))
+Phase: generated112384
+Input: Token
+Rule: generated112384
+(
+(({ Token.category == JJ })+({ Token.category == NNP })({ Token.category == CD }))):pttrn112384 --> :pttrn112384.extracted={}
+
